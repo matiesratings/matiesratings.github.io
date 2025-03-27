@@ -4,23 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Ratings</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #222;
+        }
+        th, td {
+            border: 1px solid maroon;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            cursor: pointer;
+            background-color: maroon;
+        }
+        input {
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Player Ratings</h1>
-    <ul id="player-list"></ul>
+    <div>
+        <label>Filter:</label>
+        <input type="text" id="filterInput" placeholder="Search..." onkeyup="filterTable()">
+    </div>
+    <table id="playerTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">ID</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">Rating</th>
+                <th onclick="sortTable(3)">Club</th>
+                <th onclick="sortTable(4)">Birth Year</th>
+                <th onclick="sortTable(5)">Gender</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
     <script>
         fetch('players.json')
             .then(response => response.json())
             .then(data => {
-                let list = document.getElementById("player-list");
+                let tableBody = document.querySelector("#playerTable tbody");
+                tableBody.innerHTML = "";
                 data.forEach(player => {
-                    let item = document.createElement("li");
-                    item.textContent = `${player.name} - Rating: ${player.rating}`;
-                    list.appendChild(item);
+                    let row = `<tr>
+                        <td>${player.maties_id}</td>
+                        <td>${player.name}</td>
+                        <td>${player.rating}</td>
+                        <td>${player.club}</td>
+                        <td>${player.birth_year}</td>
+                        <td>${player.gender}</td>
+                    </tr>`;
+                    tableBody.innerHTML += row;
                 });
             })
             .catch(error => console.error("Error loading JSON:", error));
+
+        function sortTable(columnIndex) {
+            let table = document.getElementById("playerTable");
+            let rows = Array.from(table.rows).slice(1);
+            let ascending = table.getAttribute("data-sort") !== "asc";
+            
+            rows.sort((a, b) => {
+                let aText = a.cells[columnIndex].textContent.trim();
+                let bText = b.cells[columnIndex].textContent.trim();
+                return ascending ? aText.localeCompare(bText, undefined, {numeric: true}) : bText.localeCompare(aText, undefined, {numeric: true});
+            });
+            
+            table.setAttribute("data-sort", ascending ? "asc" : "desc");
+            rows.forEach(row => table.appendChild(row));
+        }
+
+        function filterTable() {
+            let filter = document.getElementById("filterInput").value.toLowerCase();
+            let rows = document.querySelectorAll("#playerTable tbody tr");
+            
+            rows.forEach(row => {
+                let text = row.textContent.toLowerCase();
+                row.style.display = text.includes(filter) ? "" : "none";
+            });
+        }
     </script>
 </body>
 </html>
