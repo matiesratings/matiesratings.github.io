@@ -5,9 +5,10 @@ This website intends to display the National Rating of all player in SA, powered
 # Features:
 - **Leaderboard**: Show the ratings and ranking of all players, allow dynamic filering
 - **Explantion**: A page explaining the ELO rating system.
-- **Rules and Procedure**: A page explaining how many tournaments per club etc.
 - **Matches**: Show all matches, allow dynamic filtering
 - **Home**: Just a homepage
+All relevant pages must be timestamped
+
 
 All pages should have the following features:
 - **Header**: Showing all the pages + Maties TT logo
