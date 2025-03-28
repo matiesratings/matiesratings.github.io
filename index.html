@@ -4,44 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Ratings</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            background-color: #222;
-        }
-        th, td {
-            border: 1px solid maroon;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            cursor: pointer;
-            background-color: maroon;
-        }
-        input {
-            margin: 10px;
-            padding: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <h1>Player Ratings</h1>
-    <div>
-        <label>Filter:</label>
-        <input type="text" id="filterInput" placeholder="Search..." onkeyup="filterTable()">
+
+    <!-- Filters -->
+    <div class="filters">
+        <div class="filter-container">
+            <label>Name</label>
+            <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+            <div id="nameSuggestions" class="suggestion-box"></div>
+        </div>
+        
+        <div class="filter-container">
+            <label>Club</label>
+            <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()">
+            <div id="clubSuggestions" class="suggestion-box"></div>
+        </div>
+        
+        <div class="filter-container">
+            <label>Gender</label>
+            <select id="genderFilter" onchange="filterTable()">
+                <option value="both">Both</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>        
+        <div class="filter-container">
+            <label>Rating</label>
+            <div class="slider-container">
+                <input type="number" id="ratingMinInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'min')" />
+                <input type="range" id="ratingMin" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                <input type="range" id="ratingMax" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                <input type="number" id="ratingMaxInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'max')" />
+            </div>
+        </div>
+        
+        <div class="filter-container">
+            <label>Birth Year</label>
+            <div class="slider-container">
+                <input type="number" id="yearMinInput" class="num-input" min="1950" max="2025" step="1" oninput="syncInput('year', 'min')" />
+                <input type="range" id="yearMin" class="slider" min="1950" max="2025" step="1" oninput="updateSlider('year')" />
+                <input type="range" id="yearMax" class="slider" min="1950" max="2025" step="1" oninput="updateSlider('year')" />
+                <input type="number" id="yearMaxInput" class="num-input" min="1950" max="2025" step="1" oninput="syncInput('year', 'max')" />
+            </div>
+        </div>
+        
     </div>
-    <table id="playerTable">
+
+    <!-- Data Table -->
+    <table>
         <thead>
             <tr>
-                <th onclick="sortTable(0)">ID</th>
+                <th onclick="sortTable(0)">Maties ID</th>
                 <th onclick="sortTable(1)">Name</th>
                 <th onclick="sortTable(2)">Rating</th>
                 <th onclick="sortTable(3)">Club</th>
@@ -49,53 +66,12 @@
                 <th onclick="sortTable(5)">Gender</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="player-table">
+            <!-- Data will be inserted here -->
+        </tbody>
     </table>
 
-    <script>
-        fetch('players.json')
-            .then(response => response.json())
-            .then(data => {
-                let tableBody = document.querySelector("#playerTable tbody");
-                tableBody.innerHTML = "";
-                data.forEach(player => {
-                    let row = `<tr>
-                        <td>${player.maties_id}</td>
-                        <td>${player.name}</td>
-                        <td>${player.rating}</td>
-                        <td>${player.club}</td>
-                        <td>${player.birth_year}</td>
-                        <td>${player.gender}</td>
-                    </tr>`;
-                    tableBody.innerHTML += row;
-                });
-            })
-            .catch(error => console.error("Error loading JSON:", error));
+    <script src="table.js"></script>
 
-        function sortTable(columnIndex) {
-            let table = document.getElementById("playerTable");
-            let rows = Array.from(table.rows).slice(1);
-            let ascending = table.getAttribute("data-sort") !== "asc";
-            
-            rows.sort((a, b) => {
-                let aText = a.cells[columnIndex].textContent.trim();
-                let bText = b.cells[columnIndex].textContent.trim();
-                return ascending ? aText.localeCompare(bText, undefined, {numeric: true}) : bText.localeCompare(aText, undefined, {numeric: true});
-            });
-            
-            table.setAttribute("data-sort", ascending ? "asc" : "desc");
-            rows.forEach(row => table.appendChild(row));
-        }
-
-        function filterTable() {
-            let filter = document.getElementById("filterInput").value.toLowerCase();
-            let rows = document.querySelectorAll("#playerTable tbody tr");
-            
-            rows.forEach(row => {
-                let text = row.textContent.toLowerCase();
-                row.style.display = text.includes(filter) ? "" : "none";
-            });
-        }
-    </script>
 </body>
 </html>

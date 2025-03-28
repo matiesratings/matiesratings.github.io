@@ -1,0 +1,118 @@
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+    border: 2px solid maroon;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid maroon;
+}
+
+th {
+    background-color: maroon;
+}
+
+/* ___----------------------------- */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid maroon;
+    text-align: center;
+}
+th {
+    background-color: maroon;
+    cursor: pointer;
+}
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 8px;
+}
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.slider {
+    width: 150px;
+}
+.slider-values {
+    font-size: 14px;
+}
+select, .num-input {
+    width: 80px;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
+.num-input {
+    width: 50px;
+}
+.search-input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
+
+.suggestion-box {
+    position: absolute;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: maroon;
+}
