@@ -180,3 +180,18 @@ document.addEventListener("click", function (event) {
         suggestionBox.style.display = "none";
     }
 });
+
+function toggleNav() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+
+document.addEventListener('click', function(event) {
+    const navLinks = document.querySelector('.nav-links');
+    const hamburger = document.querySelector('.hamburger');
+    
+    // Check if the click was outside the navigation menu and the hamburger button
+    if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+        navLinks.classList.remove('active');
+    }
+});

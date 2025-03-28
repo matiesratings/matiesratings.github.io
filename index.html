@@ -8,7 +8,27 @@
 </head>
 <body>
 
-    <h1>Player Ratings</h1>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Player Ratings</h1>
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#ratings">Ratings</a></li>
+                    <li><a href="#how-it-works">How it Works?</a></li>
+                    <li><a href="#matches">Matches</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleNav()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
 
     <!-- Filters -->
     <div class="filters">
@@ -32,6 +52,7 @@
                 <option value="female">Female</option>
             </select>
         </div>        
+
         <div class="filter-container">
             <label>Rating</label>
             <div class="slider-container">

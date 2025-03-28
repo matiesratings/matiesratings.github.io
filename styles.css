@@ -1,6 +1,7 @@
+/* Table Styles */
 table {
-    width: 50%;
-    margin: auto;
+    width: 80%; /* Adjust to 80% for a better fit on mobile */
+    margin: 20px auto;
     border-collapse: collapse;
     background-color: black;
     color: white;
@@ -15,29 +16,18 @@ th, td {
 
 th {
     background-color: maroon;
+    cursor: pointer;
 }
 
-/* ___----------------------------- */
+/* Body Styles */
 body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
 }
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 10px;
-    border: 1px solid maroon;
-    text-align: center;
-}
-th {
-    background-color: maroon;
-    cursor: pointer;
-}
+
+/* Filters Section */
 .filters {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +35,7 @@ th {
     gap: 15px;
     padding: 15px;
 }
+
 .filter-container {
     display: flex;
     flex-direction: column;
@@ -53,27 +44,17 @@ th {
     padding: 10px;
     border-radius: 8px;
 }
+h1 {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 24px;
+}
 input[type="text"] {
-    width: 150px;
-    padding: 5px;
-    margin-top: 5px;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-}
-.slider-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.slider {
-    width: 150px;
-}
-.slider-values {
-    font-size: 14px;
-}
-select, .num-input {
-    width: 80px;
+    width: 140px; /* Adjusted for first name (9 chars) */
     padding: 5px;
     margin-top: 5px;
     border: none;
@@ -83,19 +64,118 @@ select, .num-input {
     color: white;
     border: 1px solid maroon;
 }
-.num-input {
-    width: 50px;
-}
-.search-input {
+input[type="text"], .search-input {
     width: 200px;
     padding: 5px;
+    margin-top: 5px;
     border: none;
     border-radius: 5px;
+    text-align: center;
     background-color: black;
     color: white;
     border: 1px solid maroon;
 }
 
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.slider {
+    width: 150px;
+}
+
+.slider-values {
+    font-size: 14px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+    padding: 10px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    padding: 5px 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: darkred;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+
+select, .num-input {
+    width: 60px; /* Narrower for gender select */
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
+
+
+.num-input {
+    width: 50px;
+}
+
+.search-input {
+    width: 140px; /* Adjusted for first name (9 chars) */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
+input[type="text"]#clubFilter {
+    width: 140px; /* Adjusted for club (9 chars) */
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
+/* Suggestion Box Styles */
 .suggestion-box {
     position: absolute;
     width: 200px;
@@ -116,3 +196,92 @@ select, .num-input {
 .suggestion-item:hover {
     background-color: maroon;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 95%; /* Table will now take up 95% width on smaller screens */
+    }
+
+    .filters {
+        flex-direction: column; /* Stack the filters vertically */
+        gap: 10px;
+    }
+
+    .filter-container {
+        width: 100%;
+    }
+
+    .slider, .slider-container, input[type="text"], .num-input, select {
+        width: 90%; /* Adjust input widths for smaller screens */
+    }
+
+    .slider-container {
+        flex-direction: column; /* Stack the slider input and range for mobile */
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: maroon;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+.nav-links.active li {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.nav-links.active a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%; /* Table takes full width on very small screens */
+    }
+
+    .filters {
+        gap: 5px; /* Tighten up filter spacing on very small screens */
+    }
+
+    .slider, .slider-container, input[type="text"], .num-input, select {
+        width: 100%; /* Make all form elements full width on small screens */
+    }
+
+    .slider {
+        width: 100%; /* Expand slider width */
+    }
+
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .num-input {
+        width: 70px; /* Slightly larger input on small screens */
+    }
+
+    .search-input {
+        width: 100%; /* Make search input full width */
+    }
+
+    .suggestion-box {
+        width: 100%; /* Make suggestion box full width */
+    }
+}
+
