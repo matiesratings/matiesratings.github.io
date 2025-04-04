@@ -17,4 +17,3 @@ All pages should have the following features:
 - **Mobile-friendly**: Look good on both desktop on mobile
 
 
-Note: None of this work is done in association with maties sport or stellenbosch university, only maties table tennis club alone is responsible for this work and it's implications.

@@ -138,7 +138,7 @@ input[type="text"], .search-input {
 
 
 
-select, .num-input {
+#genderFilter, .num-input {
     width: 60px; /* Narrower for gender select */
     padding: 5px;
     margin-top: 5px;
@@ -285,3 +285,20 @@ input[type="text"]#clubFilter {
     }
 }
 
+.suggestion-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.wide-filter-select{
+    width: 100px; /* or whatever width fits best */
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}

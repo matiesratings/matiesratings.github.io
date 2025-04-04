@@ -1,7 +1,7 @@
 let playerData = [];
 
 // Load JSON data
-fetch('players.json')
+fetch('scr/data/players.json')
     .then(response => response.json())
     .then(data => {
         playerData = data;
@@ -13,6 +13,22 @@ fetch('players.json')
 function displayData(data) {
     const tableBody = document.getElementById("player-table");
     tableBody.innerHTML = "";
+
+    if (data.length === 0) {
+        let row = document.createElement("tr");
+        let cell = document.createElement("td");
+        cell.colSpan = 6;
+        cell.textContent = "Results coming soon...";
+        cell.style.color = "white";
+        cell.style.backgroundColor = "black";
+        cell.style.border = "1px solid maroon";
+        cell.style.padding = "10px";
+        cell.style.fontSize = "24px";  // Adjust this value as needed
+        row.appendChild(cell);
+        tableBody.appendChild(row);
+        return;
+    }
+
     data.forEach(player => {
         let row = `<tr>
             <td>${player.maties_id}</td>
@@ -26,14 +42,36 @@ function displayData(data) {
     });
 }
 
+
+let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
+
 function sortTable(columnIndex) {
-    playerData.sort((a, b) => {
-        let valA = Object.values(a)[columnIndex];
-        let valB = Object.values(b)[columnIndex];
-        return (isNaN(valA) ? valA.localeCompare(valB) : valA - valB);
+    const table = document.getElementById("player-table");
+    const rows = Array.from(table.rows);
+    
+    // Toggle direction: true for ascending, false for descending
+    sortDirections[columnIndex] = !sortDirections[columnIndex];
+
+    rows.sort((a, b) => {
+        const cellA = a.cells[columnIndex].textContent.trim();
+        const cellB = b.cells[columnIndex].textContent.trim();
+
+        const isNumber = !isNaN(cellA) && !isNaN(cellB);
+        let comparison = 0;
+
+        if (isNumber) {
+            comparison = parseFloat(cellA) - parseFloat(cellB);
+        } else {
+            comparison = cellA.localeCompare(cellB);
+        }
+
+        return sortDirections[columnIndex] ? comparison : -comparison;
     });
-    displayData(playerData);
+
+    // Re-append sorted rows
+    rows.forEach(row => table.appendChild(row));
 }
+
 
 function setSliderBounds() {
     let ratings = playerData.map(p => p.rating);
@@ -105,12 +143,14 @@ function updateSlider(type) {
 let clubList = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("clubs.json")
+    fetch("scr/data/clubs.json")
         .then(response => response.json())
         .then(data => {
             clubList = data.clubs;
         });
 });
+const tableBody = document.getElementById("player-table");
+
 
 function updateClubSuggestions() {
     let input = document.getElementById("clubFilter").value.toLowerCase();

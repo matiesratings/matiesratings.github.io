@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches</title>
+    <link rel="stylesheet" href="scr/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Match Results</h1>
+            <!-- Navigation Bar -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Players</a></li>
+                    <li><a href="matches.html">Matches</a></li> 
+                </ul>
+                <div class="hamburger" onclick="toggleNav()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="filters">
+        <div class="filters">
+            <div class="filter-container">
+                <label>Name</label>
+                <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                <div id="nameSuggestions" class="suggestion-box"></div>
+            </div>
+        
+            <div class="filter-container">
+                <label>Winner</label>
+                <input type="text" id="winnerFilter" class="search-input" placeholder="Search winner..." oninput="updateWinnerSuggestions()">
+                <div id="winnerSuggestions" class="suggestion-box"></div>
+            </div>
+        
+            <div class="filter-container">
+                <label>Loser</label>
+                <input type="text" id="loserFilter" class="search-input" placeholder="Search loser..." oninput="updateLoserSuggestions()">
+                <div id="loserSuggestions" class="suggestion-box"></div>
+            </div>
+        
+            <div class="filter-container">
+                <label>Event</label>
+                <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()">
+                <div id="eventSuggestions" class="suggestion-box"></div>
+            </div>
+        
+            <div class="filter-container">
+                <label>Type</label>
+                <select id="eventTypeFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Type</option>
+                </select>
+            </div>
+        
+            <div class="filter-container">
+                <label>Province</label>
+                <select id="provinceFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Province</option>
+                </select>
+            </div>
+        
+            <div class="filter-container">
+                <label>Stage</label>
+                <select id="stageFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Stage</option>
+                </select>
+            </div>
+        </div>
+        
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Match ID</th>
+                <th onclick="sortTable(1)">Match Date</th>
+                <th onclick="sortTable(2)">Event Name</th>
+                <th onclick="sortTable(3)">Event Type</th>
+                <th onclick="sortTable(4)">Province</th>
+                <th onclick="sortTable(5)">Stage</th>
+                <th onclick="sortTable(6)">Winner</th>
+                <th onclick="sortTable(7)">Loser</th>
+                <th onclick="sortTable(8)">Score</th>
+            </tr>
+        </thead>
+        
+        <tbody id="match-table">
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="scr/js/matches.js"></script>
+</body>
+</html>
