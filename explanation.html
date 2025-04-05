@@ -124,14 +124,70 @@
             width: 100%;
             text-align: center;
         }
+        /* Responsive Design */
+
+    .hamburger {
+        display: none; /* Will be overridden by media query */
+        flex-direction: column;
+        cursor: pointer;
+        gap: 5px;
+    }
+
+    .hamburger .line {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+    }
+
+    @media (max-width: 768px) {
+        table {
+            width: 95%; /* Table will now take up 95% width on smaller screens */
+        }
+
+        .filters {
+            flex-direction: column; /* Stack the filters vertically */
+            gap: 10px;
+        }
+
+        .filter-container {
+            width: 100%;
+        }
+
+        .slider, .slider-container, input[type="text"], .num-input, select {
+            width: 90%; /* Adjust input widths for smaller screens */
+        }
+
+        .slider-container {
+            flex-direction: column; /* Stack the slider input and range for mobile */
+        }
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: maroon;
+            position: absolute;
+            top: 150px;
+            left: 0;
+            padding: 10px;
+        }
+
+        .nav-links.active {
+            display: flex;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+    }
+
     </style>
-    <!-- <link rel="stylesheet" href="scr/css/styles.css"> -->
 
 </head>
 <body>
     <header>
         <div class="header-content">
-            <h1 id="header-title">🏓Rating System Explained</h1>
+            <img src="scr/img/logo_no_bg.png" alt="Logo" style="display: block; margin: 0 auto;max-height: 100px; margin-bottom: 10px;">
+            <h1 style="margin-bottom: 20px;">🏓Rating System Explained</h1>
             <!-- Navigation Bar -->
             <nav class="navbar">
                 <ul class="nav-links">
@@ -229,6 +285,12 @@
             </li>
         </ul>
     </div>
+    <script>
 
+    function toggleNav() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+    </script>
 </body>
 </html>

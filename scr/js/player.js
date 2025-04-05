@@ -225,7 +225,10 @@ function toggleNav() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
-
+function toggleFilters() {
+    const section = document.getElementById("filterSection");
+    section.style.display = section.style.display === "none" ? "block" : "none";
+}
 document.addEventListener('click', function(event) {
     const navLinks = document.querySelector('.nav-links');
     const hamburger = document.querySelector('.hamburger');

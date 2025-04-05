@@ -9,7 +9,8 @@
 <body>
     <header>
         <div class="header-content">
-            <h1>Match Results</h1>
+            <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px; margin-bottom: 10px;">
+            <h1 style="margin-bottom: 20px;">Match Results</h1>
             <!-- Navigation Bar -->
             <nav class="navbar">
                 <ul class="nav-links">
@@ -25,57 +26,58 @@
             </nav>
         </div>
     </header>
-
-    <div class="filters">
+    <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>
+    <div id="filterSection"  style="display: none;">
         <div class="filters">
-            <div class="filter-container">
-                <label>Name</label>
-                <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
-                <div id="nameSuggestions" class="suggestion-box"></div>
+            <div class="filters">
+                <div class="filter-container">
+                    <label>Name</label>
+                    <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                    <div id="nameSuggestions" class="suggestion-box"></div>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Winner</label>
+                    <input type="text" id="winnerFilter" class="search-input" placeholder="Search winner..." oninput="updateWinnerSuggestions()">
+                    <div id="winnerSuggestions" class="suggestion-box"></div>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Loser</label>
+                    <input type="text" id="loserFilter" class="search-input" placeholder="Search loser..." oninput="updateLoserSuggestions()">
+                    <div id="loserSuggestions" class="suggestion-box"></div>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Event</label>
+                    <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()">
+                    <div id="eventSuggestions" class="suggestion-box"></div>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Type</label>
+                    <select id="eventTypeFilter" onchange="filterTable()" class="wide-filter-select">
+                        <option value="">Type</option>
+                    </select>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Province</label>
+                    <select id="provinceFilter" onchange="filterTable()" class="wide-filter-select">
+                        <option value="">Province</option>
+                    </select>
+                </div>
+            
+                <div class="filter-container">
+                    <label>Stage</label>
+                    <select id="stageFilter" onchange="filterTable()" class="wide-filter-select">
+                        <option value="">Stage</option>
+                    </select>
+                </div>
             </div>
-        
-            <div class="filter-container">
-                <label>Winner</label>
-                <input type="text" id="winnerFilter" class="search-input" placeholder="Search winner..." oninput="updateWinnerSuggestions()">
-                <div id="winnerSuggestions" class="suggestion-box"></div>
-            </div>
-        
-            <div class="filter-container">
-                <label>Loser</label>
-                <input type="text" id="loserFilter" class="search-input" placeholder="Search loser..." oninput="updateLoserSuggestions()">
-                <div id="loserSuggestions" class="suggestion-box"></div>
-            </div>
-        
-            <div class="filter-container">
-                <label>Event</label>
-                <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()">
-                <div id="eventSuggestions" class="suggestion-box"></div>
-            </div>
-        
-            <div class="filter-container">
-                <label>Type</label>
-                <select id="eventTypeFilter" onchange="filterTable()" class="wide-filter-select">
-                    <option value="">Type</option>
-                </select>
-            </div>
-        
-            <div class="filter-container">
-                <label>Province</label>
-                <select id="provinceFilter" onchange="filterTable()" class="wide-filter-select">
-                    <option value="">Province</option>
-                </select>
-            </div>
-        
-            <div class="filter-container">
-                <label>Stage</label>
-                <select id="stageFilter" onchange="filterTable()" class="wide-filter-select">
-                    <option value="">Stage</option>
-                </select>
-            </div>
+            
         </div>
-        
     </div>
-
     <table>
         <thead>
             <tr>
