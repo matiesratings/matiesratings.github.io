@@ -238,3 +238,13 @@ document.addEventListener('click', function(event) {
         navLinks.classList.remove('active');
     }
 });
+
+function resetFilters() {
+    document.getElementById("nameFilter").value = "";
+    document.getElementById("clubFilter").value = "";
+    document.getElementById("genderFilter").value = "both";
+
+    setSliderBounds(); // Reset sliders to data-based min/max
+
+    filterTable(); // Reapply default filters
+}

@@ -257,3 +257,16 @@ function toggleFilters() {
     const section = document.getElementById("filterSection");
     section.style.display = section.style.display === "none" ? "block" : "none";
 }
+
+function resetFilters() {
+    document.getElementById("nameFilter").value = "";
+    document.getElementById("winnerFilter").value = "";
+    document.getElementById("loserFilter").value = "";
+    document.getElementById("eventFilter").value = "";
+
+    document.getElementById("eventTypeFilter").value = "";
+    document.getElementById("provinceFilter").value = "";
+    document.getElementById("stageFilter").value = "";
+
+    filterTable(); // Reapply with cleared values
+}
