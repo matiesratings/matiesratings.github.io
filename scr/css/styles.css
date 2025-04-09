@@ -45,13 +45,13 @@ body {
     border-radius: 8px;
 }
 h1 {
-    background-color: maroon;
+    /* background-color: maroon; */
     color: white;
     padding: 10px;
     border-radius: 8px;
     width: fit-content;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 75px;
 }
 input[type="text"] {
     width: 140px; /* Adjusted for first name (9 chars) */
@@ -119,6 +119,8 @@ input[type="text"], .search-input {
 
 .nav-links a:hover {
     background-color: darkred;
+    color: lightsalmon; /* Lighter maroon on hover */
+
 }
 
 /* Hamburger Menu */
@@ -225,7 +227,7 @@ input[type="text"]#clubFilter {
         width: 100%;
         background-color: maroon;
         position: absolute;
-        top: 60px;
+        top: 40px;
         left: 0;
         padding: 10px;
     }
@@ -237,6 +239,7 @@ input[type="text"]#clubFilter {
     .hamburger {
         display: flex;
     }
+
 }
 
 .nav-links.active li {
@@ -282,6 +285,9 @@ input[type="text"]#clubFilter {
 
     .suggestion-box {
         width: 100%; /* Make suggestion box full width */
+    }
+    h1{
+        font-size: 35px;
     }
 }
 

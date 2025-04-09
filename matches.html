@@ -9,21 +9,25 @@
 <body>
     <header>
         <div class="header-content">
-            <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px; margin-bottom: 10px;">
-            <h1 style="margin-bottom: 20px;">Match Results</h1>
+            <!-- <h1 style="margin-bottom: 20px;">Match Results</h1> -->
             <!-- Navigation Bar -->
             <nav class="navbar">
                 <ul class="nav-links">
                     <li><a href="index.html">Players Ratings</a></li>
-                    <li><a href="matches.html">Matches</a></li> 
+                    <li><a href="matches.html">Match Results</a></li> 
                     <li><a href="explanation.html">How it Works?</a></li> 
                 </ul>
                 <div class="hamburger" onclick="toggleNav()">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
-                </div>
+                </div>                
             </nav>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
+                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
+                <h1 style="margin: 0; text-align: center; flex: 1;">Match Results</h1>
+                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
+            </div>
         </div>
     </header>
     <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>

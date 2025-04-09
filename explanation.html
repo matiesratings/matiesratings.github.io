@@ -10,7 +10,7 @@
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
-            padding: 20px;
+            /* padding: 20px; */
             text-align: justify; /* Justify text for a clean layout */
         }
         #header-title {
@@ -31,7 +31,7 @@
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 75px;
             margin-bottom: 20px;
         }
 
@@ -49,12 +49,12 @@
         /* Link Styling */
         a {
             color: maroon;
-            text-decoration: none;
+            text-decoration: underline;
             font-weight: bold;
         }
 
         a:hover {
-            color: #cc6666; /* Lighter maroon on hover */
+            color: lightsalmon; /* Lighter maroon on hover */
         }
 
         /* Bold Text */
@@ -166,7 +166,7 @@
             width: 100%;
             background-color: maroon;
             position: absolute;
-            top: 100px;
+            top: 40px;
             left: 0;
             padding: 10px;
         }
@@ -178,6 +178,9 @@
         .hamburger {
             display: flex;
         }
+        h1{
+            font-size: 35px;
+        }
     }
 
     </style>
@@ -186,22 +189,26 @@
 <body>
     <header>
         <div class="header-content">
-            <img src="scr/img/logo_no_bg.png" alt="Logo" style="display: block; margin: 0 auto;max-height: 100px; margin-bottom: 10px;">
-            <h1 style="margin-bottom: 20px;">🏓Rating System Explained</h1>
-            <!-- Navigation Bar -->
-            <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Players Ratings</a></li>
-                    <li><a href="matches.html">Matches</a></li> 
-                    <li><a href="explanation.html">How it Works?</a></li> 
-                </ul>
-                <div class="hamburger" onclick="toggleNav()">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+            <div class="header-content">
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Players Ratings</a></li>
+                        <li><a href="matches.html">Match Results</a></li> 
+                        <li><a href="explanation.html">How it Works?</a></li> 
+                    </ul>
+                    <div class="hamburger" onclick="toggleNav()">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>                
+                </nav>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
+                    <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
+                    <h1 style="margin: 0; text-align: center; flex: 1;background-color: black;">Rating System Explained</h1>
+                    <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
                 </div>
-            </nav>
-        </div>
+            </div>
     </header>
     <!-- <h1>🏓 Rating System Explained</h1> -->
 
@@ -241,7 +248,9 @@
     <h2>📝 How to Submit Match Results</h2>
 
     <div class="section">
-        👉   <a href="templates/matches_template.xlsx" download="TournamentName_Year_Results.xlsx">Match Results Excel Template</a></p>
+        👉   <a href="templates/League_Matches_Template.xlsx" download="LeagueName_Year_Results.xlsx">League Match Results Excel Template</a></p>
+        👉   <a href="templates/Tournament_Matches_Template.xlsx" download="TournamentName_Year_Results.xlsx">Tournament Match Results Excel Template</a></p>
+
         👉   <a href="templates/players_template.xlsx" download="Club_PlayerList.xlsx">New Player Excel Template</a></p>
     </div>
 
