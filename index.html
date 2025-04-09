@@ -27,7 +27,7 @@
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
                 <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
                 <h1 style="margin: 0; text-align: center; flex: 1;">Player Ratings</h1>
-                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
+                <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;">
             </div>
         </div>
     </header>
@@ -40,6 +40,22 @@
                 <label>Name</label>
                 <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
                 <div id="nameSuggestions" class="suggestion-box"></div>
+            </div>
+            <div class="filter-container">
+                <label>Category</label>
+
+                <select id="categorySelector" onchange="loadSelectedData()">
+                    <option value="open_players.json">Open Rating</option>
+                    <option value="women_players.json">Women Rating</option>
+                    <option value="bu19_players.json">Boys U19 Rating</option>
+                    <option value="gu19_players.json">Girls U19 Rating</option>
+                    <option value="bu15_players.json">Boys U15 Rating</option>
+                    <option value="gu15_players.json">Girls U15 Rating</option>
+                    <option value="bu13_players.json">Boys U13 Rating</option>
+                    <option value="gu13_players.json">Girls U13 Rating</option>
+                    <option value="bu11_players.json">Boys U11 Rating</option>
+                    <option value="gu11_players.json">Girls U11 Rating</option>
+                </select>
             </div>
             
             <div class="filter-container">
@@ -79,7 +95,6 @@
             
         </div>
         <button id="resetFilterButton"  onclick="resetFilters()">Reset</button>
-
     </div>
 
 

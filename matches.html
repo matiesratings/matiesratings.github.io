@@ -26,11 +26,11 @@
             <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
                 <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
                 <h1 style="margin: 0; text-align: center; flex: 1;">Match Results</h1>
-                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
+                <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;">
             </div>
         </div>
     </header>
-    <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>
+    <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>    
     <div id="filterSection"  style="display: none;">
         <div class="filters">
             <div class="filters">
@@ -64,6 +64,28 @@
                         <option value="">Type</option>
                     </select>
                 </div>
+                <div class="filter-container">
+                    <label>Category</label>
+                    <select id="categorySelector" onchange="filterTable()">
+                        <option value="Open League">Open League</option>
+                        <option value="Men Only League">Men Only League</option>
+                        <option value="Women Only League">Women Only League</option>
+                        <option value="Junior Only League">Junior Only League</option>
+                        <option value="Open / Mixed Singles">Open / Mixed Singles</option>
+                        <option value="Men's Singles">Men's Singles</option>
+                        <option value="Women's Singles">Women's Singles</option>
+                        <option value="Boys U19">Boys U19</option>
+                        <option value="Girls U19">Girls U19</option>
+                        <option value="Boys U15">Boys U15</option>
+                        <option value="Girls U15">Girls U15</option>
+                        <option value="Boys U13">Boys U13</option>
+                        <option value="Girls U13">Girls U13</option>
+                        <option value="Boys U11">Boys U11</option>
+                        <option value="Girls U11">Girls U11</option>
+                        <option value="All">All</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
             
                 <div class="filter-container">
                     <label>Province</label>
@@ -90,11 +112,12 @@
                 <th onclick="sortTable(1)">Match Date</th>
                 <th onclick="sortTable(2)">Event Name</th>
                 <th onclick="sortTable(3)">Event Type</th>
-                <th onclick="sortTable(4)">Province</th>
-                <th onclick="sortTable(5)">Stage</th>
-                <th onclick="sortTable(6)">Winner</th>
-                <th onclick="sortTable(7)">Loser</th>
-                <th onclick="sortTable(8)">Score</th>
+                <th onclick="sortTable(4)">Category</th>
+                <th onclick="sortTable(5)">Province</th>
+                <th onclick="sortTable(6)">Stage</th>
+                <th onclick="sortTable(7)">Winner</th>
+                <th onclick="sortTable(8)">Loser</th>
+                <th onclick="sortTable(9)">Score</th>
             </tr>
         </thead>
         

@@ -1,0 +1,298 @@
+[
+    {
+        "maties_id": 1,
+        "name": "Tian Louw",
+        "rating": 1263,
+        "club": "Maties",
+        "birth_year": 2000,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 2,
+        "name": "DJ Swanevelder",
+        "rating": 1231,
+        "club": "Maties",
+        "birth_year": 2003,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 3,
+        "name": "Jaco de Swardt",
+        "rating": 1199,
+        "club": "Maties",
+        "birth_year": 1993,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 4,
+        "name": "Le Roux Strydom",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2002,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 5,
+        "name": "Cetin Celik",
+        "rating": 1169,
+        "club": "Maties",
+        "birth_year": 2004,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 6,
+        "name": "Joshua Du Plooy",
+        "rating": 1231,
+        "club": "Ravens",
+        "birth_year": 1997,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 7,
+        "name": "Gajen Chetty",
+        "rating": 1184,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 8,
+        "name": "Christina Malan",
+        "rating": 1216,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 9,
+        "name": "Timothy Prinsloo",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 1993,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 10,
+        "name": "Elizabeth Knoesen",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 11,
+        "name": "Andries Vermeulen",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 12,
+        "name": "Duwayne Petersen",
+        "rating": 1167,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 13,
+        "name": "Joel Joshua",
+        "rating": 1138,
+        "club": "Maties",
+        "birth_year": 2001,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 14,
+        "name": "Ryan Reed",
+        "rating": 1219,
+        "club": "Maties",
+        "birth_year": 1993,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 15,
+        "name": "Dirk Guelpa",
+        "rating": 1199,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 16,
+        "name": "Helen Alston",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 17,
+        "name": "Panashe Nyamande",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2002,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 18,
+        "name": "Nazir Mowzer",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2000,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 19,
+        "name": "Charl Le Roux",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 20,
+        "name": "Annelie Wessels",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 1996,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 21,
+        "name": "Steffan Brundyn",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2002,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 22,
+        "name": "Daneel van der Walt",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2004,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 23,
+        "name": "Tashreeq Asvat",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 24,
+        "name": "Jano Olivier",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 25,
+        "name": "Alessandra Wijtenburg",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 26,
+        "name": "Sanmari Fourie",
+        "rating": 1184,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 27,
+        "name": "Craig Murray",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 1991,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 28,
+        "name": "Nicholas Murray",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 1994,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 29,
+        "name": "Phapusha Seopa",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2001,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 30,
+        "name": "Simon van der Merwe",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2007,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 31,
+        "name": "Christian van der Westhuizen",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2000,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 32,
+        "name": "Mikhail Cedras",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2001,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 33,
+        "name": "Wenhao Yao",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2002,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 34,
+        "name": "Bernard van Krieken",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Male"
+    },
+    {
+        "maties_id": 35,
+        "name": "Carmen Harris",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2006,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 36,
+        "name": "Fezeka Giqwa",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 1992,
+        "gender": "Female"
+    },
+    {
+        "maties_id": 37,
+        "name": "Tiger Surmon",
+        "rating": 1200,
+        "club": "Maties",
+        "birth_year": 2005,
+        "gender": "Male"
+    }
+]

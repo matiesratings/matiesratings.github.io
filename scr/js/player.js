@@ -1,7 +1,19 @@
 let playerData = [];
+function loadSelectedData() {
+    let selectedJson = document.getElementById("categorySelector").value;
+    
+    fetch(`scr/data/${selectedJson}`)
+        .then(response => response.json())
+        .then(data => {
+            playerData = data;
+            displayData(playerData);
+            setSliderBounds();
+        })
+        .catch(error => console.error("Error loading JSON:", error));
+}
 
 // Load JSON data
-fetch('scr/data/players.json')
+fetch('scr/data/open_players.json')
     .then(response => response.json())
     .then(data => {
         playerData = data;

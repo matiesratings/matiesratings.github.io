@@ -15,5 +15,3 @@ All pages should have the following features:
 - **Footer**: Showing contact details
 - **Look**: Consistent colour scheme and aestetic
 - **Mobile-friendly**: Look good on both desktop on mobile
-
-

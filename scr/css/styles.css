@@ -137,7 +137,17 @@ input[type="text"], .search-input {
     background-color: white;
 }
 
-
+#categorySelector{
+    width: 150px; /* Narrower for gender select */
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid maroon;
+}
 
 
 #genderFilter, .num-input {

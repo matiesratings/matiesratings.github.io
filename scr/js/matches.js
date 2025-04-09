@@ -17,7 +17,7 @@ function displayData(data) {
     if (data.length === 0) {
         let row = document.createElement("tr");
         let cell = document.createElement("td");
-        cell.colSpan = 9;
+        cell.colSpan = 10;
         cell.textContent = "Results coming soon...";
         cell.style.color = "white";
         cell.style.backgroundColor = "black";
@@ -35,6 +35,7 @@ function displayData(data) {
         <td>${match.match_date}</td>
         <td>${match.event_name}</td>
         <td>${match.event_type}</td>
+        <td>${match.category}</td>
         <td>${match.province}</td>
         <td>${match.stage}</td>
         <td>${match.winner}</td>
@@ -106,16 +107,21 @@ function filterTable() {
     let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
     let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
     let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
+    let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
     let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
     let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
     let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
-
+    if (categoryFilter === "all") {
+        categoryFilter = ""; // Allow all categories
+    }
+    
     let filteredData = matchData.filter(match => {
         return (
             (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
             (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
             (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
             (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
+            (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
             (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
             (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
             (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
