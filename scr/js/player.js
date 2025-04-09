@@ -1,4 +1,10 @@
 let playerData = [];
+
+let currentSortColumn = null;
+let currentSortAsc = true;
+let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
+
+
 function loadSelectedData() {
     let selectedJson = document.getElementById("categorySelector").value;
     
@@ -40,8 +46,7 @@ function displayData(data) {
         tableBody.appendChild(row);
         return;
     }
-
-    data.forEach(player => {
+    data.slice(0, 100).forEach(player => {
         let row = `<tr>
             <td>${player.maties_id}</td>
             <td>${player.name}</td>
@@ -54,8 +59,49 @@ function displayData(data) {
     });
 }
 
+function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
+    const selectedJson = document.getElementById("categorySelector").value;
 
-let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
+    fetch(`scr/data/${selectedJson}`)
+        .then(response => response.json())
+        .then(data => {
+            const name = document.getElementById("nameFilter").value.toLowerCase();
+            const club = document.getElementById("clubFilter").value.toLowerCase();
+            const gender = document.getElementById("genderFilter").value.toLowerCase();
+            const ratingMin = parseInt(document.getElementById("ratingMin").value);
+            const ratingMax = parseInt(document.getElementById("ratingMax").value);
+            const yearMin = parseInt(document.getElementById("yearMin").value);
+            const yearMax = parseInt(document.getElementById("yearMax").value);
+
+            let filtered = data.filter(player => {
+                return (!name || player.name.toLowerCase().includes(name)) &&
+                    (!club || player.club.toLowerCase().includes(club)) &&
+                    (gender === "both" || player.gender.toLowerCase() === gender) &&
+                    (player.rating >= ratingMin && player.rating <= ratingMax) &&
+                    (player.birth_year >= yearMin && player.birth_year <= yearMax);
+            });
+
+            if (sortColumn !== null) {
+                const keys = ["maties_id", "name", "rating", "club", "birth_year", "gender"];
+                const key = keys[sortColumn];
+
+                filtered.sort((a, b) => {
+                    const valA = a[key];
+                    const valB = b[key];
+
+                    if (typeof valA === "number" && typeof valB === "number") {
+                        return ascending ? valA - valB : valB - valA;
+                    } else {
+                        return ascending ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                    }
+                });
+            }
+
+            displayData(filtered);
+        })
+        .catch(error => console.error("Error fetching data:", error));
+}
+
 
 function sortTable(columnIndex) {
     const table = document.getElementById("player-table");
@@ -108,25 +154,42 @@ function updateSlider(type) {
     filterTable();
 }
 
+// function filterTable() {
+//     let selectedJson = document.getElementById("categorySelector").value;
+
+//     fetch(`scr/data/${selectedJson}`)
+//         .then(response => response.json())
+//         .then(data => {
+//             playerData = data;
+
+//             let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
+//             let clubFilter = document.getElementById("clubFilter").value.toLowerCase();
+//             let genderFilter = document.getElementById("genderFilter").value.toLowerCase();
+//             let ratingMin = parseInt(document.getElementById("ratingMin").value);
+//             let ratingMax = parseInt(document.getElementById("ratingMax").value);
+//             let yearMin = parseInt(document.getElementById("yearMin").value);
+//             let yearMax = parseInt(document.getElementById("yearMax").value);
+
+//             let filteredData = playerData.filter(player => {
+//                 return (!nameFilter || player.name.toLowerCase().includes(nameFilter)) &&
+//                     (!clubFilter || player.club.toLowerCase().includes(clubFilter)) &&
+//                     (genderFilter === "both" || player.gender.toLowerCase() === genderFilter) &&
+//                     (player.rating >= ratingMin && player.rating <= ratingMax) &&
+//                     (player.birth_year >= yearMin && player.birth_year <= yearMax);
+//             });
+
+//             displayData(filteredData);
+//         })
+//         .catch(error => console.error("Error reloading JSON during filtering:", error));
+// }
 function filterTable() {
-    let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-    let clubFilter = document.getElementById("clubFilter").value.toLowerCase();
-    let genderFilter = document.getElementById("genderFilter").value.toLowerCase();
-    let ratingMin = parseInt(document.getElementById("ratingMin").value);
-    let ratingMax = parseInt(document.getElementById("ratingMax").value);
-    let yearMin = parseInt(document.getElementById("yearMin").value);
-    let yearMax = parseInt(document.getElementById("yearMax").value);
-
-    let filteredData = playerData.filter(player => {
-        return (!nameFilter || player.name.toLowerCase().includes(nameFilter)) &&
-               (!clubFilter || player.club.toLowerCase().includes(clubFilter)) &&
-               (genderFilter === "both" || player.gender.toLowerCase() === genderFilter) &&
-               (player.rating >= ratingMin && player.rating <= ratingMax) &&
-               (player.birth_year >= yearMin && player.birth_year <= yearMax);
-    });
-
-    displayData(filteredData);
+    fetchAndDisplayFilteredData(); // no sorting
 }
+function sortTable(columnIndex) {
+    sortDirections[columnIndex] = !sortDirections[columnIndex];
+    fetchAndDisplayFilteredData(columnIndex, sortDirections[columnIndex]);
+}
+
 function syncInput(type, bound) {
 let inputField = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1) + "Input");
 let slider = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1));
@@ -255,8 +318,11 @@ function resetFilters() {
     document.getElementById("nameFilter").value = "";
     document.getElementById("clubFilter").value = "";
     document.getElementById("genderFilter").value = "both";
+    document.getElementById("categorySelector").value = "open_players.json";
+
 
     setSliderBounds(); // Reset sliders to data-based min/max
 
     filterTable(); // Reapply default filters
+    loadSelectedData();
 }

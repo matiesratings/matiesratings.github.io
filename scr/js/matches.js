@@ -273,6 +273,8 @@ function resetFilters() {
     document.getElementById("eventTypeFilter").value = "";
     document.getElementById("provinceFilter").value = "";
     document.getElementById("stageFilter").value = "";
+    document.getElementById("categorySelector").value = "Open League";
+
 
     filterTable(); // Reapply with cleared values
 }
