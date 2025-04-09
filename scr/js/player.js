@@ -102,35 +102,6 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
         .catch(error => console.error("Error fetching data:", error));
 }
 
-
-function sortTable(columnIndex) {
-    const table = document.getElementById("player-table");
-    const rows = Array.from(table.rows);
-    
-    // Toggle direction: true for ascending, false for descending
-    sortDirections[columnIndex] = !sortDirections[columnIndex];
-
-    rows.sort((a, b) => {
-        const cellA = a.cells[columnIndex].textContent.trim();
-        const cellB = b.cells[columnIndex].textContent.trim();
-
-        const isNumber = !isNaN(cellA) && !isNaN(cellB);
-        let comparison = 0;
-
-        if (isNumber) {
-            comparison = parseFloat(cellA) - parseFloat(cellB);
-        } else {
-            comparison = cellA.localeCompare(cellB);
-        }
-
-        return sortDirections[columnIndex] ? comparison : -comparison;
-    });
-
-    // Re-append sorted rows
-    rows.forEach(row => table.appendChild(row));
-}
-
-
 function setSliderBounds() {
     let ratings = playerData.map(p => p.rating);
     let years = playerData.map(p => p.birth_year);
@@ -154,34 +125,6 @@ function updateSlider(type) {
     filterTable();
 }
 
-// function filterTable() {
-//     let selectedJson = document.getElementById("categorySelector").value;
-
-//     fetch(`scr/data/${selectedJson}`)
-//         .then(response => response.json())
-//         .then(data => {
-//             playerData = data;
-
-//             let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-//             let clubFilter = document.getElementById("clubFilter").value.toLowerCase();
-//             let genderFilter = document.getElementById("genderFilter").value.toLowerCase();
-//             let ratingMin = parseInt(document.getElementById("ratingMin").value);
-//             let ratingMax = parseInt(document.getElementById("ratingMax").value);
-//             let yearMin = parseInt(document.getElementById("yearMin").value);
-//             let yearMax = parseInt(document.getElementById("yearMax").value);
-
-//             let filteredData = playerData.filter(player => {
-//                 return (!nameFilter || player.name.toLowerCase().includes(nameFilter)) &&
-//                     (!clubFilter || player.club.toLowerCase().includes(clubFilter)) &&
-//                     (genderFilter === "both" || player.gender.toLowerCase() === genderFilter) &&
-//                     (player.rating >= ratingMin && player.rating <= ratingMax) &&
-//                     (player.birth_year >= yearMin && player.birth_year <= yearMax);
-//             });
-
-//             displayData(filteredData);
-//         })
-//         .catch(error => console.error("Error reloading JSON during filtering:", error));
-// }
 function filterTable() {
     fetchAndDisplayFilteredData(); // no sorting
 }

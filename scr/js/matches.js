@@ -9,6 +9,7 @@ fetch('scr/data/matches.json')
         populateDropdowns();
     })
     .catch(error => console.error("Error loading JSON:", error));
+    document.getElementById("categorySelector").value = "Men's Singles";
 
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
@@ -29,7 +30,7 @@ function displayData(data) {
         return;
     }
 
-    data.forEach(match => {
+    data.slice(0, 100).forEach(match => {
         let row = `<tr>
         <td>${match.match_id}</td>
         <td>${match.match_date}</td>
@@ -48,32 +49,32 @@ function displayData(data) {
 
 let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 
-function sortTable(columnIndex) {
-    const table = document.getElementById("match-table");
-    const rows = Array.from(table.rows);
+// function sortTable(columnIndex) {
+//     const table = document.getElementById("match-table");
+//     const rows = Array.from(table.rows);
 
-    // Toggle direction: true for ascending, false for descending
-    sortDirections[columnIndex] = !sortDirections[columnIndex];
+//     // Toggle direction: true for ascending, false for descending
+//     sortDirections[columnIndex] = !sortDirections[columnIndex];
 
-    rows.sort((a, b) => {
-        const cellA = a.cells[columnIndex].textContent.trim();
-        const cellB = b.cells[columnIndex].textContent.trim();
+//     rows.sort((a, b) => {
+//         const cellA = a.cells[columnIndex].textContent.trim();
+//         const cellB = b.cells[columnIndex].textContent.trim();
 
-        const isNumber = !isNaN(cellA) && !isNaN(cellB);
-        let comparison = 0;
+//         const isNumber = !isNaN(cellA) && !isNaN(cellB);
+//         let comparison = 0;
 
-        if (isNumber) {
-            comparison = parseFloat(cellA) - parseFloat(cellB);
-        } else {
-            comparison = cellA.localeCompare(cellB);
-        }
+//         if (isNumber) {
+//             comparison = parseFloat(cellA) - parseFloat(cellB);
+//         } else {
+//             comparison = cellA.localeCompare(cellB);
+//         }
 
-        return sortDirections[columnIndex] ? comparison : -comparison;
-    });
+//         return sortDirections[columnIndex] ? comparison : -comparison;
+//     });
 
-    // Re-append sorted rows
-    rows.forEach(row => table.appendChild(row));
-}
+//     // Re-append sorted rows
+//     rows.forEach(row => table.appendChild(row));
+// }
 
 function populateDropdowns() {
     let eventTypes = [...new Set(matchData.map(match => match.event_type))];
@@ -102,34 +103,34 @@ function populateDropdowns() {
     });
 }
 
-function filterTable() {
-    let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-    let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
-    let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
-    let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
-    let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
-    let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
-    let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
-    let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
-    if (categoryFilter === "all") {
-        categoryFilter = ""; // Allow all categories
-    }
+// function filterTable() {
+//     let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
+//     let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
+//     let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
+//     let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
+//     let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
+//     let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
+//     let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
+//     let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
+//     if (categoryFilter === "all") {
+//         categoryFilter = ""; // Allow all categories
+//     }
     
-    let filteredData = matchData.filter(match => {
-        return (
-            (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
-            (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
-            (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
-            (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
-            (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
-            (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
-            (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
-            (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
-        );
-    });
+//     let filteredData = matchData.filter(match => {
+//         return (
+//             (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
+//             (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
+//             (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
+//             (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
+//             (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
+//             (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
+//             (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
+//             (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
+//         );
+//     });
 
-    displayData(filteredData);
-}
+//     displayData(filteredData);
+// }
 
 function updateNameSuggestions() {
     let input = document.getElementById("nameFilter").value.toLowerCase();
@@ -273,8 +274,114 @@ function resetFilters() {
     document.getElementById("eventTypeFilter").value = "";
     document.getElementById("provinceFilter").value = "";
     document.getElementById("stageFilter").value = "";
-    document.getElementById("categorySelector").value = "Open League";
+    document.getElementById("categorySelector").value = "Men's Singles";
 
 
     filterTable(); // Reapply with cleared values
+}
+
+function sortTable(columnIndex) {
+    // Fetch match data again
+    fetch('scr/data/matches.json')
+        .then(response => response.json())
+        .then(data => {
+            // Apply filters first
+            let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
+            let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
+            let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
+            let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
+            let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
+            let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
+            let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
+            let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
+            if (categoryFilter === "all") {
+                categoryFilter = ""; // Allow all categories
+            }
+            
+            // Filter the data based on input values
+            let filteredData = data.filter(match => {
+                return (
+                    (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
+                    (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
+                    (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
+                    (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
+                    (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
+                    (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
+                    (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
+                    (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
+                );
+            });
+
+            // Toggle direction: true for ascending, false for descending
+            sortDirections[columnIndex] = !sortDirections[columnIndex];
+
+            // Column mapping based on the columnIndex
+            const columnMapping = [
+                'match_id',        // 0: match_id
+                'match_date',      // 1: match_date
+                'event_name',      // 2: event_name
+                'event_type',      // 3: event_type
+                'category',        // 4: category
+                'province',        // 5: province
+                'stage',           // 6: stage
+                'winner',          // 7: winner
+                'loser',           // 8: loser
+                'score'            // 9: score
+            ];
+
+            // Sort the filtered data based on the selected column
+            let sortedData = filteredData.sort((a, b) => {
+                const propA = a[columnMapping[columnIndex]];
+                const propB = b[columnMapping[columnIndex]];
+
+                // If the property is a number, compare numerically
+                if (!isNaN(propA) && !isNaN(propB)) {
+                    return sortDirections[columnIndex] ? propA - propB : propB - propA;
+                }
+
+                // Otherwise, compare lexicographically (strings)
+                return sortDirections[columnIndex] ? propA.localeCompare(propB) : propB.localeCompare(propA);
+            });
+
+
+            displayData(sortedData);
+        })
+        .catch(error => console.error("Error loading JSON:", error));
+}
+
+function filterTable() {
+    let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
+    let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
+    let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
+    let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
+    let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
+    let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
+    let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
+    let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
+    if (categoryFilter === "all") {
+        categoryFilter = ""; // Allow all categories
+    }
+
+    // Fetch match data again
+    fetch('scr/data/matches.json')
+        .then(response => response.json())
+        .then(data => {
+            // Filter the data
+            let filteredData = data.filter(match => {
+                return (
+                    (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
+                    (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
+                    (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
+                    (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
+                    (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
+                    (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
+                    (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
+                    (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
+                );
+            });
+
+            // Limit results to 100
+            displayData(filteredData);
+        })
+        .catch(error => console.error("Error loading JSON:", error));
 }
