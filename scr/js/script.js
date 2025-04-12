@@ -71,26 +71,27 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
         .then(data => {
             const name = document.getElementById("nameFilter").value.toLowerCase();
             const club = document.getElementById("clubFilter").value.toLowerCase();
-            const gender = document.getElementById("genderFilter").value.toLowerCase();
             const ratingMin = parseInt(document.getElementById("ratingMin").value);
             const ratingMax = parseInt(document.getElementById("ratingMax").value);
 
             let filtered = data.filter(player => {
                 return (!name || player.name.toLowerCase().includes(name)) &&
                     (!club || player.club.toLowerCase().includes(club)) &&
-                    (gender === "both" || player.gender.toLowerCase() === gender) &&
                     (player.rating >= ratingMin && player.rating <= ratingMax)
             });
 
             if (sortColumn !== null) {
-                const keys = ["maties_id", "name", "rating", "club", "gender"];
+                const numericKeys = ["maties_id", "rating", "played", "win_per"];
+                const keys = ["maties_id", "name", "club","rating", "played","win_per","last_played"];
                 const key = keys[sortColumn];
 
                 filtered.sort((a, b) => {
-                    const valA = a[key];
-                    const valB = b[key];
-
-                    if (typeof valA === "number" && typeof valB === "number") {
+                    let valA = a[key];
+                    let valB = b[key];
+                
+                    if (numericKeys.includes(key)) {
+                        valA = Number(valA);
+                        valB = Number(valB);
                         return ascending ? valA - valB : valB - valA;
                     } else {
                         return ascending ? valA.localeCompare(valB) : valB.localeCompare(valA);
@@ -229,7 +230,6 @@ document.addEventListener('click', function(event) {
 function resetFilters() {
     document.getElementById("nameFilter").value = "";
     document.getElementById("clubFilter").value = "";
-    document.getElementById("genderFilter").value = "both";
     document.getElementById("categorySelector").value = "open_ratings.json";
     setSliderBounds();
     filterTable();
