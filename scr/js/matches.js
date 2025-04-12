@@ -9,7 +9,7 @@ fetch('scr/data/matches.json')
         populateDropdowns();
     })
     .catch(error => console.error("Error loading JSON:", error));
-    document.getElementById("categorySelector").value = "Men's Singles";
+    document.getElementById("categorySelector").value = "Open / Mixed Singles";
 
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
@@ -75,7 +75,22 @@ let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 //     // Re-append sorted rows
 //     rows.forEach(row => table.appendChild(row));
 // }
+let toggleCount = 0;
 
+function toggleFilters() {
+    toggleCount++;
+
+    const section = document.getElementById("filterSection");
+    section.style.display = section.style.display === "none" ? "block" : "none";
+
+    document.getElementById("toggleFilterButton").textContent = "Reset";
+
+    if (toggleCount % 2 === 0) {
+        resetFilters(); // replace with the function you want to call
+        toggleCount =0;
+        // document.getElementById("toggleFilterButton").textContent = "Filter";
+    }
+}
 function populateDropdowns() {
     let eventTypes = [...new Set(matchData.map(match => match.event_type))];
     let provinces = [...new Set(matchData.map(match => match.province))];
@@ -103,34 +118,7 @@ function populateDropdowns() {
     });
 }
 
-// function filterTable() {
-//     let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-//     let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
-//     let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
-//     let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
-//     let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
-//     let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
-//     let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
-//     let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
-//     if (categoryFilter === "all") {
-//         categoryFilter = ""; // Allow all categories
-//     }
-    
-//     let filteredData = matchData.filter(match => {
-//         return (
-//             (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
-//             (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
-//             (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
-//             (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
-//             (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
-//             (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
-//             (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
-//             (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
-//         );
-//     });
 
-//     displayData(filteredData);
-// }
 
 function updateNameSuggestions() {
     let input = document.getElementById("nameFilter").value.toLowerCase();
@@ -260,25 +248,9 @@ function toggleNav() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 }
-function toggleFilters() {
-    const section = document.getElementById("filterSection");
-    section.style.display = section.style.display === "none" ? "block" : "none";
-}
-
-function resetFilters() {
-    document.getElementById("nameFilter").value = "";
-    document.getElementById("winnerFilter").value = "";
-    document.getElementById("loserFilter").value = "";
-    document.getElementById("eventFilter").value = "";
-
-    document.getElementById("eventTypeFilter").value = "";
-    document.getElementById("provinceFilter").value = "";
-    document.getElementById("stageFilter").value = "";
-    document.getElementById("categorySelector").value = "Men's Singles";
 
 
-    filterTable(); // Reapply with cleared values
-}
+
 
 function sortTable(columnIndex) {
     // Fetch match data again
