@@ -62,10 +62,32 @@ def csv_to_json(input_path, output_filename):
     with open(output_filename, mode='w', encoding='utf-8') as json_file:
         json.dump(data, json_file, indent=2)
 
+def make_all_json():
+    folder = "scr/data"
+    filenames = [
+        "open_ratings.json",
+        "women_ratings.json",
+        "bu19_ratings.json",
+        "gu19_ratings.json",
+        "bu15_ratings.json",
+        "gu15_ratings.json",
+        "bu13_ratings.json",
+        "gu13_ratings.json",
+        "bu11_ratings.json",
+        "gu11_ratings.json",
+    ]
+
+    os.makedirs(folder, exist_ok=True)
+
+    for name in filenames:
+        path = os.path.join(folder, name)
+        if not os.path.exists(path):
+            with open(path, "w") as f:
+                json.dump([], f)
 
 
-
+make_all_json()
 # csv_to_json("final/Player List (2025-04-11).csv","all_players.json")
 # matches_csv_to_json("final/Match Results (2025-04-11).csv", "matches.json")
 # ratings_csv_to_json("final/Open Ratings (2025-04-11).csv","open_ratings.json")
-ratings_csv_to_json("final/Women's Ratings (2025-04-11).csv","women_ratings.json")
+# ratings_csv_to_json("final/Women's Ratings (2025-04-11).csv","women_ratings.json")

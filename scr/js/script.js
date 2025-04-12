@@ -6,22 +6,26 @@ let playerData = [];
 let currentSortColumn = null;
 let currentSortAsc = true;
 let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
-
-
 function loadSelectedData() {
     let selectedJson = document.getElementById("categorySelector").value;
-    
+
     fetch(`scr/data/${selectedJson}`)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error("File not found");
+            return response.json();
+        })
         .then(data => {
             playerData = data;
             displayData(playerData);
             setSliderBounds();
         })
-        .catch(error => console.error("Error loading JSON:", error));
+        .catch(() => {
+            displayEmpty();
+        });
 }
 
-// Load JSON data
+
+
 fetch('scr/data/open_ratings.json')
     .then(response => response.json())
     .then(data => {
@@ -31,22 +35,26 @@ fetch('scr/data/open_ratings.json')
     })
     .catch(error => console.error("Error loading JSON:", error));
 
+function displayEmpty(){
+    let row = document.createElement("tr");
+    let cell = document.createElement("td");
+    cell.colSpan = 7;
+    cell.textContent = "Results coming soon...";
+    cell.style.color = "white";
+    cell.style.backgroundColor = "black";
+    cell.style.border = "1px solid maroon";
+    cell.style.padding = "10px";
+    cell.style.fontSize = "24px";  // Adjust this value as needed
+    row.appendChild(cell);
+    tableBody.appendChild(row);
+    return;
+}
 function displayData(data) {
     const tableBody = document.getElementById("player-table");
     tableBody.innerHTML = "";
 
     if (data.length === 0) {
-        let row = document.createElement("tr");
-        let cell = document.createElement("td");
-        cell.colSpan = 7;
-        cell.textContent = "Results coming soon...";
-        cell.style.color = "white";
-        cell.style.backgroundColor = "black";
-        cell.style.border = "1px solid maroon";
-        cell.style.padding = "10px";
-        cell.style.fontSize = "24px";  // Adjust this value as needed
-        row.appendChild(cell);
-        tableBody.appendChild(row);
+        displayEmpty();
         return;
     }
     data.slice(0, 100).forEach(player => {
@@ -101,7 +109,8 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
 
             displayData(filtered);
         })
-        .catch(error => console.error("Error fetching data:", error));
+        displayEmpty();
+
 }
 
 function filterTable() {
