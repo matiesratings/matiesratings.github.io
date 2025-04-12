@@ -22,7 +22,7 @@ function loadSelectedData() {
 }
 
 // Load JSON data
-fetch('scr/data/open_players.json')
+fetch('scr/data/open_ratings.json')
     .then(response => response.json())
     .then(data => {
         playerData = data;
@@ -38,7 +38,7 @@ function displayData(data) {
     if (data.length === 0) {
         let row = document.createElement("tr");
         let cell = document.createElement("td");
-        cell.colSpan = 6;
+        cell.colSpan = 7;
         cell.textContent = "Results coming soon...";
         cell.style.color = "white";
         cell.style.backgroundColor = "black";
@@ -53,9 +53,11 @@ function displayData(data) {
         let row = `<tr>
             <td>${player.maties_id}</td>
             <td>${player.name}</td>
-            <td>${player.rating}</td>
             <td>${player.club}</td>
-            <td>${player.gender}</td>
+            <td>${player.rating}</td>
+            <td>${player.played}</td>
+            <td>${player.win_per}</td>
+            <td>${player.last_played}</td>
         </tr>`;
         tableBody.innerHTML += row;
     });
@@ -228,7 +230,7 @@ function resetFilters() {
     document.getElementById("nameFilter").value = "";
     document.getElementById("clubFilter").value = "";
     document.getElementById("genderFilter").value = "both";
-    document.getElementById("categorySelector").value = "open_players.json";
+    document.getElementById("categorySelector").value = "open_ratings.json";
     setSliderBounds();
     filterTable();
     loadSelectedData();

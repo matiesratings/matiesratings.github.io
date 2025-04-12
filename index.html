@@ -14,16 +14,16 @@
     
         <div>
             <select id="categorySelector" onchange="loadSelectedData()">
-                <option value="open_players.json">Open Rating</option>
-                <option value="women_players.json">Women Rating</option>
-                <option value="bu19_players.json">Boys U19 Rating</option>
-                <option value="gu19_players.json">Girls U19 Rating</option>
-                <option value="bu15_players.json">Boys U15 Rating</option>
-                <option value="gu15_players.json">Girls U15 Rating</option>
-                <option value="bu13_players.json">Boys U13 Rating</option>
-                <option value="gu13_players.json">Girls U13 Rating</option>
-                <option value="bu11_players.json">Boys U11 Rating</option>
-                <option value="gu11_players.json">Girls U11 Rating</option>
+                <option value="open_ratings.json">Open Rating</option>
+                <option value="women_ratings.json">Women Rating</option>
+                <option value="bu19_ratings.json">Boys U19 Rating</option>
+                <option value="gu19_ratings.json">Girls U19 Rating</option>
+                <option value="bu15_ratings.json">Boys U15 Rating</option>
+                <option value="gu15_ratings.json">Girls U15 Rating</option>
+                <option value="bu13_ratings.json">Boys U13 Rating</option>
+                <option value="gu13_ratings.json">Girls U13 Rating</option>
+                <option value="bu11_ratings.json">Boys U11 Rating</option>
+                <option value="gu11_ratings.json">Girls U11 Rating</option>
             </select>
         </div>
         <div id="filterSection"  style="display: none;">
@@ -76,9 +76,11 @@
             <tr>
                 <th onclick="sortTable(0)">Maties ID</th>
                 <th onclick="sortTable(1)">Name</th>
-                <th onclick="sortTable(2)">Rating</th>
-                <th onclick="sortTable(3)">Club</th>
-                <th onclick="sortTable(4)">Gender</th>
+                <th onclick="sortTable(2)">Club</th>
+                <th onclick="sortTable(3)">Rating</th>
+                <th onclick="sortTable(4)">Played</th>
+                <th onclick="sortTable(5)">Win %</th>
+                <th onclick="sortTable(6)">Last Played</th>
             </tr>
         </thead>
         <tbody id="player-table">
