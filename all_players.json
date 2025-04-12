@@ -1,0 +1,92 @@
+[
+  {
+    "ID": "1",
+    "Name": "Tian Louw",
+    "Club": "Maties",
+    "Rating": "1278",
+    "Played": "4",
+    "Win %": "100.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "2",
+    "Name": "DJ Swanevelder",
+    "Club": "Maties",
+    "Rating": "1238",
+    "Played": "4",
+    "Win %": "75.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "6",
+    "Name": "Joshua Du Plooy",
+    "Club": "Ravens",
+    "Rating": "1238",
+    "Played": "4",
+    "Win %": "75.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "14",
+    "Name": "Ryan Reed",
+    "Club": "Maties",
+    "Rating": "1225",
+    "Played": "5",
+    "Win %": "60.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "3",
+    "Name": "Jaco de Swardt",
+    "Club": "Maties",
+    "Rating": "1198",
+    "Played": "4",
+    "Win %": "50.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "15",
+    "Name": "Dirk Guelpa",
+    "Club": "Maties",
+    "Rating": "1198",
+    "Played": "2",
+    "Win %": "50.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "7",
+    "Name": "Gajen Chetty",
+    "Club": "Maties",
+    "Rating": "1181",
+    "Played": "5",
+    "Win %": "40.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "5",
+    "Name": "Cetin Celik",
+    "Club": "Maties",
+    "Rating": "1162",
+    "Played": "4",
+    "Win %": "25.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "12",
+    "Name": "Duwayne Petersen",
+    "Club": "Maties",
+    "Rating": "1159",
+    "Played": "2",
+    "Win %": "0.00",
+    "Last Played": "2025-03-22"
+  },
+  {
+    "ID": "13",
+    "Name": "Joel Joshua",
+    "Club": "Maties",
+    "Rating": "1123",
+    "Played": "4",
+    "Win %": "0.00",
+    "Last Played": "2025-03-22"
+  }
+]

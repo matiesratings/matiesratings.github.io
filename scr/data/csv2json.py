@@ -83,8 +83,16 @@ def make_all_json():
                 json.dump([], f)
 
 
+def csv_to_json(input_path, output_filename):
+    with open(input_path, mode='r', newline='', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        data = list(reader)
 
-matches_csv_to_json("matchresults.csv", "matches.json")
+    with open(output_filename, mode='w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, indent=2)
+
+# matches_csv_to_json("matchresults.csv", "matches.json")
 # players_csv_to_json("playerdata.csv", "open_players.json")
 
-make_all_json()
+# make_all_json()
+csv_to_json("final/Player List (2025-04-11).csv","all_players.json")

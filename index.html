@@ -7,99 +7,68 @@
     <link rel="stylesheet" href="scr/css/styles.css">
 </head>
 <body>
+    <div id="header-placeholder"></div>
 
-    <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Players Ratings</a></li>
-                    <li><a href="matches.html">Match Results</a></li> 
-                    <li><a href="explanation.html">How it Works?</a></li> 
-                </ul>
-                <div class="hamburger" onclick="toggleNav()">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </nav>
 
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
-                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
-                <h1 style="margin: 0; text-align: center; flex: 1;">Player Ratings</h1>
-                <!-- <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;"> -->
-                <a href="https://www.instagram.com/matiestabletennis/">
-                    <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;">
-                </a>
-            </div>
+    <div style="display: flex;justify-content: space-between; align-items: center; width: 80%;margin-left: auto;margin-right: auto;">
+    
+        <div>
+            <select id="categorySelector" onchange="loadSelectedData()">
+                <option value="open_players.json">Open Rating</option>
+                <option value="women_players.json">Women Rating</option>
+                <option value="bu19_players.json">Boys U19 Rating</option>
+                <option value="gu19_players.json">Girls U19 Rating</option>
+                <option value="bu15_players.json">Boys U15 Rating</option>
+                <option value="gu15_players.json">Girls U15 Rating</option>
+                <option value="bu13_players.json">Boys U13 Rating</option>
+                <option value="gu13_players.json">Girls U13 Rating</option>
+                <option value="bu11_players.json">Boys U11 Rating</option>
+                <option value="gu11_players.json">Girls U11 Rating</option>
+            </select>
         </div>
-    </header>
-    <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>
-
-    <div id="filterSection"  style="display: none;">
-    <!-- Filters -->
-        <div class="filters">
-            <div class="filter-container">
-                <label>Name</label>
-                <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
-                <div id="nameSuggestions" class="suggestion-box"></div>
-            </div>
-            <div class="filter-container">
-                <label>Category</label>
-
-                <select id="categorySelector" onchange="loadSelectedData()">
-                    <option value="open_players.json">Open Rating</option>
-                    <option value="women_players.json">Women Rating</option>
-                    <option value="bu19_players.json">Boys U19 Rating</option>
-                    <option value="gu19_players.json">Girls U19 Rating</option>
-                    <option value="bu15_players.json">Boys U15 Rating</option>
-                    <option value="gu15_players.json">Girls U15 Rating</option>
-                    <option value="bu13_players.json">Boys U13 Rating</option>
-                    <option value="gu13_players.json">Girls U13 Rating</option>
-                    <option value="bu11_players.json">Boys U11 Rating</option>
-                    <option value="gu11_players.json">Girls U11 Rating</option>
-                </select>
-            </div>
-            
-            <div class="filter-container">
-                <label>Club</label>
-                <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()">
-                <div id="clubSuggestions" class="suggestion-box"></div>
-            </div>
-            
-            <div class="filter-container">
-                <label>Gender</label>
-                <select id="genderFilter" onchange="filterTable()">
-                    <option value="both">Both</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div>        
-
-            <div class="filter-container">
-                <label>Rating</label>
-                <div class="slider-container">
-                    <input type="number" id="ratingMinInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'min')" />
-                    <input type="range" id="ratingMin" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
-                    <input type="range" id="ratingMax" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
-                    <input type="number" id="ratingMaxInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'max')" />
+        <div id="filterSection"  style="display: none;">
+            <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-container">
+                        <label>Name</label>
+                        <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                        <div id="nameSuggestions" class="suggestion-box"></div>
+                    </div>
+        
+                    
+                    <div class="filter-container">
+                        <label>Club</label>
+                        <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()">
+                        <div id="clubSuggestions" class="suggestion-box"></div>
+                    </div>
+                    
+                    <div class="filter-container">
+                        <label>Gender</label>
+                        <select id="genderFilter" onchange="filterTable()">
+                            <option value="both">Both</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>        
+        
+                    <div class="filter-container">
+                        <label>Rating</label>
+                        <div class="slider-container">
+                            <input type="number" id="ratingMinInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'min')" />
+                            <input type="range" id="ratingMin" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                            <input type="range" id="ratingMax" class="slider" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                            <input type="number" id="ratingMaxInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'max')" />
+                        </div>
+                    </div>            
                 </div>
-            </div>
-            
-            <div class="filter-container">
-                <label>Birth Year</label>
-                <div class="slider-container">
-                    <input type="number" id="yearMinInput" class="num-input" min="1950" max="2025" step="1" oninput="syncInput('year', 'min')" />
-                    <input type="range" id="yearMin" class="slider" min="1950" max="2025" step="1" oninput="updateSlider('year')" />
-                    <input type="range" id="yearMax" class="slider" min="1950" max="2025" step="1" oninput="updateSlider('year')" />
-                    <input type="number" id="yearMaxInput" class="num-input" min="1950" max="2025" step="1" oninput="syncInput('year', 'max')" />
-                </div>
-            </div>
-            
+                <!-- <button id="resetFilterButton"  onclick="resetFilters()">Reset</button> -->
         </div>
-        <button id="resetFilterButton"  onclick="resetFilters()">Reset</button>
+    
+        <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
     </div>
 
+ 
+    
 
     <!-- Data Table -->
     <table>
@@ -109,8 +78,7 @@
                 <th onclick="sortTable(1)">Name</th>
                 <th onclick="sortTable(2)">Rating</th>
                 <th onclick="sortTable(3)">Club</th>
-                <th onclick="sortTable(4)">Birth Year</th>
-                <th onclick="sortTable(5)">Gender</th>
+                <th onclick="sortTable(4)">Gender</th>
             </tr>
         </thead>
         <tbody id="player-table">
@@ -118,7 +86,31 @@
         </tbody>
     </table>
 
-    <script src="scr/js/player.js"></script>
+    <script src="scr/js/script.js"></script>
+    <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const setTitle = (title) => {
+                const titleElement = document.getElementById("header-title");
+                if (titleElement) {
+                    titleElement.textContent = "Player Ratings"; // set your page-specific title here
+                } else {
+                    setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
+                }
+            };
+            loadInclude("header-placeholder", "Sections/header.html");
+            setTitle();
+        });
+    </script>
+
+    <div id="footer-placeholder"></div>
+
+
 
 </body>
 </html>

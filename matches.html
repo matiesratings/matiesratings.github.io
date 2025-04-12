@@ -7,32 +7,10 @@
     <link rel="stylesheet" href="scr/css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <!-- <h1 style="margin-bottom: 20px;">Match Results</h1> -->
-            <!-- Navigation Bar -->
-            <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Players Ratings</a></li>
-                    <li><a href="matches.html">Match Results</a></li> 
-                    <li><a href="explanation.html">How it Works?</a></li> 
-                </ul>
-                <div class="hamburger" onclick="toggleNav()">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>                
-            </nav>
-            <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
-                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
-                <h1 style="margin: 0; text-align: center; flex: 1;">Match Results</h1>
-                <!-- <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;"> -->
-                <a href="https://www.instagram.com/matiestabletennis/">
-                    <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;">
-                </a>
-            </div>
-        </div>
-    </header>
+    <div id="header-placeholder"></div>
+
+
+
     <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>    
     <div id="filterSection"  style="display: none;">
         <div class="filters">
@@ -130,5 +108,25 @@
     </table>
 
     <script src="scr/js/matches.js"></script>
+    <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const setTitle = (title) => {
+                const titleElement = document.getElementById("header-title");
+                if (titleElement) {
+                    titleElement.textContent = "Match Results"; // set your page-specific title here
+                } else {
+                    setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
+                }
+            };
+            loadInclude("header-placeholder", "Sections/header.html");
+            setTitle();
+        });
+    </script>
 </body>
 </html>

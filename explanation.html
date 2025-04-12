@@ -14,13 +14,14 @@
             text-align: justify; /* Justify text for a clean layout */
         }
         #header-title {
-            background-color: maroon;
             color: white;
             padding: 10px;
             border-radius: 8px;
             width: fit-content;
             margin: 0 auto;
-            font-size: 24px;
+            font-size: 75px;
+            background-color: black;
+
         }
         /* Headers Styling */
         h1, h2, h3 {
@@ -187,31 +188,8 @@
 
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <div class="header-content">
-                <nav class="navbar">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Players Ratings</a></li>
-                        <li><a href="matches.html">Match Results</a></li> 
-                        <li><a href="explanation.html">How it Works?</a></li> 
-                    </ul>
-                    <div class="hamburger" onclick="toggleNav()">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div>                
-                </nav>
+    <div id="header-placeholder"></div>
 
-                <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
-                <img src="scr/img/logo_no_bg.png" alt="Logo" style="max-height: 100px;">
-                <h1 style="margin: 0; text-align: center; flex: 1;background-color: black;"">Rating System Explained</h1>
-                <a href="https://www.instagram.com/matiestabletennis/">
-                    <img src="scr/img/mattc_logo-removebg-preview.png" alt="Logo" style="max-height: 100px;">
-                </a>
-                </div>
-            </div>
-    </header>
     <!-- <h1>🏓 Rating System Explained</h1> -->
 
     <div class="section">
@@ -302,6 +280,26 @@
         const navLinks = document.querySelector('.nav-links');
         navLinks.classList.toggle('active');
     }
+    </script>
+        <script>
+            function loadInclude(id, file) {
+                fetch(file)
+                    .then(response => response.text())
+                    .then(data => document.getElementById(id).innerHTML = data);
+            }
+    
+            document.addEventListener("DOMContentLoaded", function () {
+                const setTitle = (title) => {
+                    const titleElement = document.getElementById("header-title");
+                    if (titleElement) {
+                        titleElement.textContent = "Rating System Explained"; // set your page-specific title here
+                    } else {
+                        setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
+                    }
+                };
+                loadInclude("header-placeholder", "Sections/header.html");
+                setTitle();
+            });
     </script>
 </body>
 </html>
