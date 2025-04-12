@@ -9,7 +9,7 @@ fetch('scr/data/matches.json')
         populateDropdowns();
     })
     .catch(error => console.error("Error loading JSON:", error));
-    document.getElementById("categorySelector").value = "Open / Mixed Singles";
+    document.getElementById("categorySelector").value = "Men's Singles";
 
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
@@ -48,33 +48,6 @@ function displayData(data) {
 }
 
 let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
-
-// function sortTable(columnIndex) {
-//     const table = document.getElementById("match-table");
-//     const rows = Array.from(table.rows);
-
-//     // Toggle direction: true for ascending, false for descending
-//     sortDirections[columnIndex] = !sortDirections[columnIndex];
-
-//     rows.sort((a, b) => {
-//         const cellA = a.cells[columnIndex].textContent.trim();
-//         const cellB = b.cells[columnIndex].textContent.trim();
-
-//         const isNumber = !isNaN(cellA) && !isNaN(cellB);
-//         let comparison = 0;
-
-//         if (isNumber) {
-//             comparison = parseFloat(cellA) - parseFloat(cellB);
-//         } else {
-//             comparison = cellA.localeCompare(cellB);
-//         }
-
-//         return sortDirections[columnIndex] ? comparison : -comparison;
-//     });
-
-//     // Re-append sorted rows
-//     rows.forEach(row => table.appendChild(row));
-// }
 let toggleCount = 0;
 
 function toggleFilters() {
