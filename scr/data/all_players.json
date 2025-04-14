@@ -1,286 +1,286 @@
 [
   {
-    "maties_id": "1",
+    "maties_id": 1,
     "name": "Tian Louw",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2000-11-23"
   },
   {
-    "maties_id": "2",
+    "maties_id": 2,
     "name": "DJ Swanevelder",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2003-12-22"
   },
   {
-    "maties_id": "3",
+    "maties_id": 3,
     "name": "Jaco de Swardt",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "1993-03-01"
   },
   {
-    "maties_id": "4",
+    "maties_id": 4,
     "name": "Le Roux Strydom",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2002-01-23"
   },
   {
-    "maties_id": "5",
+    "maties_id": 5,
     "name": "Cetin Celik",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2004-02-10"
   },
   {
-    "maties_id": "6",
+    "maties_id": 6,
     "name": "Joshua Du Plooy",
     "club": "Ravens",
     "gender": "Male",
     "date_of_birth": "1997-07-02"
   },
   {
-    "maties_id": "7",
+    "maties_id": 7,
     "name": "Gajen Chetty",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-04-04"
   },
   {
-    "maties_id": "8",
+    "maties_id": 8,
     "name": "Christina Malan",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2005-08-22"
   },
   {
-    "maties_id": "9",
+    "maties_id": 9,
     "name": "Timothy Prinsloo",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "1993-07-10"
   },
   {
-    "maties_id": "10",
+    "maties_id": 10,
     "name": "Elizabeth Knoesen",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2005-01-13"
   },
   {
-    "maties_id": "11",
+    "maties_id": 11,
     "name": "Andries Vermeulen",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-01-17"
   },
   {
-    "maties_id": "12",
+    "maties_id": 12,
     "name": "Duwayne Petersen",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-03-06"
   },
   {
-    "maties_id": "13",
+    "maties_id": 13,
     "name": "Joel Joshua",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2001-12-20"
   },
   {
-    "maties_id": "14",
+    "maties_id": 14,
     "name": "Ryan Reed",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "1993-08-31"
   },
   {
-    "maties_id": "15",
+    "maties_id": 15,
     "name": "Dirk Guelpa",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-06-13"
   },
   {
-    "maties_id": "16",
+    "maties_id": 16,
     "name": "Helen Alston",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2006-04-03"
   },
   {
-    "maties_id": "17",
+    "maties_id": 17,
     "name": "Panashe Nyamande",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2002-03-07"
   },
   {
-    "maties_id": "18",
+    "maties_id": 18,
     "name": "Nazir Mowzer",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2000-02-02"
   },
   {
-    "maties_id": "19",
+    "maties_id": 19,
     "name": "Charl Le Roux",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2006-05-09"
   },
   {
-    "maties_id": "20",
+    "maties_id": 20,
     "name": "Annelie Wessels",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "1996-03-10"
   },
   {
-    "maties_id": "21",
+    "maties_id": 21,
     "name": "Steffan Brundyn",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2002-02-04"
   },
   {
-    "maties_id": "22",
+    "maties_id": 22,
     "name": "Daneel van der Walt",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2004-09-03"
   },
   {
-    "maties_id": "23",
+    "maties_id": 23,
     "name": "Tashreeq Asvat",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-09-06"
   },
   {
-    "maties_id": "24",
+    "maties_id": 24,
     "name": "Jano Olivier",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-10-04"
   },
   {
-    "maties_id": "25",
+    "maties_id": 25,
     "name": "Alessandra Wijtenburg",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2006-03-12"
   },
   {
-    "maties_id": "26",
+    "maties_id": 26,
     "name": "Sanmari Fourie",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2006-12-08"
   },
   {
-    "maties_id": "27",
+    "maties_id": 27,
     "name": "Craig Murray",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "1991-02-15"
   },
   {
-    "maties_id": "28",
+    "maties_id": 28,
     "name": "Nicholas Murray",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "1994-06-08"
   },
   {
-    "maties_id": "29",
+    "maties_id": 29,
     "name": "Phapusha Seopa",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2001-02-15"
   },
   {
-    "maties_id": "30",
+    "maties_id": 30,
     "name": "Simon van der Merwe",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2007-09-11"
   },
   {
-    "maties_id": "31",
+    "maties_id": 31,
     "name": "Christian van der Westhuizen",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2000-02-17"
   },
   {
-    "maties_id": "32",
+    "maties_id": 32,
     "name": "Mikhail Cedras",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2000-11-27"
   },
   {
-    "maties_id": "33",
+    "maties_id": 33,
     "name": "Wenhao Yao",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2002-10-06"
   },
   {
-    "maties_id": "34",
+    "maties_id": 34,
     "name": "Bernard van Krieken",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2006-09-04"
   },
   {
-    "maties_id": "35",
+    "maties_id": 35,
     "name": "Carmen Harris",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2006-04-05"
   },
   {
-    "maties_id": "36",
+    "maties_id": 36,
     "name": "Fezeka Giqwa",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "1992-12-10"
   },
   {
-    "maties_id": "37",
+    "maties_id": 37,
     "name": "Tiger Surmon",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2005-09-16"
   },
   {
-    "maties_id": "38",
+    "maties_id": 38,
     "name": "Kgothatso Tsheko",
     "club": "Maties",
     "gender": "Female",
     "date_of_birth": "2003-07-08"
   },
   {
-    "maties_id": "39",
+    "maties_id": 39,
     "name": "Joshua Marais",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2004-11-08"
   },
   {
-    "maties_id": "40",
+    "maties_id": 40,
     "name": "Schalk Visser",
     "club": "Maties",
     "gender": "Male",
     "date_of_birth": "2012-05-22"
   },
   {
-    "maties_id": "41",
+    "maties_id": 41,
     "name": "Feur Boegman",
     "club": "Maties",
     "gender": "Female",

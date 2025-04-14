@@ -54,13 +54,13 @@ def matches_csv_to_json(csv_filename, json_filename):
     
     print(f"Converted {csv_filename} to {json_filename}")
 
-def csv_to_json(input_path, output_filename):
-    with open(input_path, mode='r', newline='', encoding='utf-8') as csv_file:
-        reader = csv.DictReader(csv_file)
-        data = list(reader)
+# def csv_to_json(input_path, output_filename):
+#     with open(input_path, mode='r', newline='', encoding='utf-8') as csv_file:
+#         reader = csv.DictReader(csv_file)
+#         data = list(reader)
 
-    with open(output_filename, mode='w', encoding='utf-8') as json_file:
-        json.dump(data, json_file, indent=2)
+#     with open(output_filename, mode='w', encoding='utf-8') as json_file:
+#         json.dump(data, json_file, indent=2)
 
 def make_all_json():
     folder = "scr/data"
@@ -84,10 +84,25 @@ def make_all_json():
         if not os.path.exists(path):
             with open(path, "w") as f:
                 json.dump([], f)
+def csv_to_json(input_path, output_filename):
+    with open(input_path, mode='r', newline='', encoding='utf-8') as csv_file:
+        reader = csv.DictReader(csv_file)
+        data = []
 
+        for row in reader:
+            # Convert numeric fields to int or float
+            for key, value in row.items():
+                if value.isdigit():  # Check if value is an integer
+                    row[key] = int(value)
+                elif value.replace('.', '', 1).isdigit() and value.count('.') < 2:  # Check if value is a float
+                    row[key] = float(value)
+            data.append(row)
 
-make_all_json()
-# csv_to_json("final/Player List (2025-04-11).csv","all_players.json")
+    with open(output_filename, mode='w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, indent=2)
+
+# make_all_json()
+csv_to_json("final/Player List (2025-04-11).csv","all_players.json")
 # matches_csv_to_json("final/Match Results (2025-04-11).csv", "matches.json")
 # ratings_csv_to_json("final/Open Ratings (2025-04-11).csv","open_ratings.json")
 # ratings_csv_to_json("final/Women's Ratings (2025-04-11).csv","women_ratings.json")
