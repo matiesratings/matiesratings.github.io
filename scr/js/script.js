@@ -17,7 +17,7 @@ function loadSelectedData() {
         .then(data => {
             playerData = data;
             displayData(playerData);
-            setSliderBounds();
+            // setSliderBounds();
         })
         .catch(() => {
             displayEmpty();
@@ -239,7 +239,7 @@ document.addEventListener('click', function(event) {
 function resetFilters() {
     document.getElementById("nameFilter").value = "";
     document.getElementById("clubFilter").value = "";
-    document.getElementById("categorySelector").value = "open_ratings.json";
+    // document.getElementById("categorySelector").value = "open_ratings.json"; 
     setSliderBounds();
     filterTable();
     loadSelectedData();

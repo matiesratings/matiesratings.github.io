@@ -59,9 +59,8 @@ function toggleFilters() {
     document.getElementById("toggleFilterButton").textContent = "Reset";
 
     if (toggleCount % 2 === 0) {
-        resetFilters(); // replace with the function you want to call
+        resetMatchFilters(); // replace with the function you want to call
         toggleCount =0;
-        // document.getElementById("toggleFilterButton").textContent = "Filter";
     }
 }
 function populateDropdowns() {
@@ -91,7 +90,22 @@ function populateDropdowns() {
     });
 }
 
+function resetMatchFilters(){
+    document.getElementById("nameFilter").value = "";
+    document.getElementById("loserFilter").value = "";
+    document.getElementById("winnerFilter").value = "";
+    document.getElementById("eventFilter").value = "";
+    document.getElementById("eventTypeFilter").value = "";
+    document.getElementById("provinceFilter").value = "";
+    document.getElementById("stageFilter").value = "";
 
+    
+    filterTable();
+    
+
+    document.getElementById("toggleFilterButton").textContent = "Filter";
+
+}
 
 function updateNameSuggestions() {
     let input = document.getElementById("nameFilter").value.toLowerCase();
