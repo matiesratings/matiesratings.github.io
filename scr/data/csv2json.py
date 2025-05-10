@@ -102,7 +102,7 @@ def csv_to_json(input_path, output_filename):
         json.dump(data, json_file, indent=2)
 
 # make_all_json()
-# csv_to_json("final/Player List (2025-04-11).csv","all_players.json")
-matches_csv_to_json("final/Match Results (2025-04-11).csv", "matches.json")
+csv_to_json("final/Player List (2025-05-08).csv","all_players.json")
+# matches_csv_to_json("final/Match Results (2025-04-11).csv", "matches.json")
 # ratings_csv_to_json("final/Open Ratings (2025-04-11).csv","open_ratings.json")
 # ratings_csv_to_json("final/Women's Ratings (2025-04-11).csv","women_ratings.json")
