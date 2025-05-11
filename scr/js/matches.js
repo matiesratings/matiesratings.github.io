@@ -1,7 +1,7 @@
 let matchData = [];
 
 // Load match data
-fetch('scr/data/matches.json')
+fetch('scr/data/json/matches.json')
     .then(response => response.json())
     .then(data => {
         matchData = data;
@@ -241,7 +241,7 @@ function toggleNav() {
 
 function sortTable(columnIndex) {
     // Fetch match data again
-    fetch('scr/data/matches.json')
+    fetch('scr/data/json/matches.json')
         .then(response => response.json())
         .then(data => {
             // Apply filters first
@@ -322,7 +322,7 @@ function filterTable() {
     }
 
     // Fetch match data again
-    fetch('scr/data/matches.json')
+    fetch('scr/data/json/matches.json')
         .then(response => response.json())
         .then(data => {
             // Filter the data

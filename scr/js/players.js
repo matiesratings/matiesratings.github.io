@@ -1,4 +1,4 @@
-fetch('scr/data/all_players.json')
+fetch('scr/data/json/all_players.json')
     .then(response => response.json())
     .then(data => {
         playerData = data;
@@ -38,7 +38,7 @@ let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 
 function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
 
-    fetch(`scr/data/all_players.json`)
+    fetch(`scr/data/json/all_players.json`)
         .then(response => response.json())
         .then(data => {
             const name = document.getElementById("nameFilter").value.toLowerCase();
@@ -83,7 +83,7 @@ function sortTable(columnIndex) {
 let clubList = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("scr/data/clubs.json")
+    fetch("scr/data/json/clubs.json")
         .then(response => response.json())
         .then(data => {
             clubList = data.clubs;

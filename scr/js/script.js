@@ -9,7 +9,7 @@ let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 function loadSelectedData() {
     let selectedJson = document.getElementById("categorySelector").value;
 
-    fetch(`scr/data/${selectedJson}`)
+    fetch(`scr/data/json/${selectedJson}`)
         .then(response => {
             if (!response.ok) throw new Error("File not found");
             return response.json();
@@ -26,7 +26,7 @@ function loadSelectedData() {
 
 
 
-fetch('scr/data/open_ratings.json')
+fetch('scr/data/json/open_ratings.json')
     .then(response => response.json())
     .then(data => {
         playerData = data;
@@ -74,7 +74,7 @@ function displayData(data) {
 function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
     const selectedJson = document.getElementById("categorySelector").value;
 
-    fetch(`scr/data/${selectedJson}`)
+    fetch(`scr/data/json/${selectedJson}`)
         .then(response => response.json())
         .then(data => {
             const name = document.getElementById("nameFilter").value.toLowerCase();
@@ -125,7 +125,7 @@ function sortTable(columnIndex) {
 let clubList = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("scr/data/clubs.json")
+    fetch("scr/data/json/clubs.json")
         .then(response => response.json())
         .then(data => {
             clubList = data.clubs;
