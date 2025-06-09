@@ -38,7 +38,7 @@ fetch('scr/data/json/open_ratings.json')
 function displayEmpty(){
     let row = document.createElement("tr");
     let cell = document.createElement("td");
-    cell.colSpan = 7;
+    cell.colSpan = 6;
     cell.textContent = "Results coming soon...";
     cell.style.color = "white";
     cell.style.backgroundColor = "black";
@@ -65,7 +65,6 @@ function displayData(data) {
             <td>${player.rating}</td>
             <td>${player.played}</td>
             <td>${player.win_per}</td>
-            <td>${player.last_played}</td>
         </tr>`;
         tableBody.innerHTML += row;
     });
@@ -90,7 +89,7 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
 
             if (sortColumn !== null) {
                 const numericKeys = ["maties_id", "rating", "played", "win_per"];
-                const keys = ["maties_id", "name", "club","rating", "played","win_per","last_played"];
+                const keys = ["maties_id", "name", "club","rating", "played","win_per"];
                 const key = keys[sortColumn];
 
                 filtered.sort((a, b) => {

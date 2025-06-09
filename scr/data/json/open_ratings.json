@@ -1,1 +1,1898 @@
-[]
+[
+  {
+    "maties_id": "516",
+    "name": "Shaun Jones",
+    "club": "Duinefontein",
+    "rating": "1542",
+    "played": "14",
+    "win_per": "100.0"
+  },
+  {
+    "maties_id": "330",
+    "name": "Theo Cogill",
+    "club": "Community House",
+    "rating": "1514",
+    "played": "12",
+    "win_per": "100.0"
+  },
+  {
+    "maties_id": "364",
+    "name": "Nashwin Pienaar",
+    "club": "Liv-Ken",
+    "rating": "1513",
+    "played": "14",
+    "win_per": "100.0"
+  },
+  {
+    "maties_id": "256",
+    "name": "Theo Lingeveldt",
+    "club": "Boundary",
+    "rating": "1503",
+    "played": "14",
+    "win_per": "92.9"
+  },
+  {
+    "maties_id": "264",
+    "name": "Cuten Lodewyk",
+    "club": "Community House",
+    "rating": "1495",
+    "played": "19",
+    "win_per": "84.2"
+  },
+  {
+    "maties_id": "533",
+    "name": "Rochica Sonday",
+    "club": "Duinefontein",
+    "rating": "1486",
+    "played": "16",
+    "win_per": "87.5"
+  },
+  {
+    "maties_id": "147",
+    "name": "Moeneeb Isaacs",
+    "club": "MP Royals",
+    "rating": "1478",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "244",
+    "name": "Musfiquh Kalam",
+    "club": "Boundary",
+    "rating": "1472",
+    "played": "18",
+    "win_per": "88.9"
+  },
+  {
+    "maties_id": "688",
+    "name": "Isgaaq Jassiem",
+    "club": "Stephanians",
+    "rating": "1470",
+    "played": "14",
+    "win_per": "92.9"
+  },
+  {
+    "maties_id": "242",
+    "name": "Denver Sweatz",
+    "club": "Boundary",
+    "rating": "1460",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "560",
+    "name": "Ashlyn Wagner",
+    "club": "Stephanians",
+    "rating": "1449",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "379",
+    "name": "Zahier Isaacs",
+    "club": "Nexus",
+    "rating": "1446",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "424",
+    "name": "Kirshwan Steyn",
+    "club": "Ravens",
+    "rating": "1444",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "347",
+    "name": "Darren Rodgers",
+    "club": "Liv-Ken",
+    "rating": "1443",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "354",
+    "name": "Adrian Philander",
+    "club": "Liv-Ken",
+    "rating": "1434",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "503",
+    "name": "Lindsay October",
+    "club": "Duinefontein",
+    "rating": "1433",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "154",
+    "name": "Llewellyn Bartlett",
+    "club": "MP Royals",
+    "rating": "1430",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "263",
+    "name": "Jodie Galant",
+    "club": "Community House",
+    "rating": "1430",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "540",
+    "name": "Bernard Stewe",
+    "club": "Goodwood",
+    "rating": "1429",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "485",
+    "name": "David Nwafor",
+    "club": "Duinefontein",
+    "rating": "1428",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "561",
+    "name": "Yusuf Steyn",
+    "club": "Stephanians",
+    "rating": "1424",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "289",
+    "name": "Emmanuel Uzoukwu",
+    "club": "Community House",
+    "rating": "1421",
+    "played": "14",
+    "win_per": "85.7"
+  },
+  {
+    "maties_id": "173",
+    "name": "Errol Kannemeyer",
+    "club": "MP Royals",
+    "rating": "1414",
+    "played": "14",
+    "win_per": "100.0"
+  },
+  {
+    "maties_id": "339",
+    "name": "Benjamin Vd Ross",
+    "club": "Liv-Ken",
+    "rating": "1409",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "95",
+    "name": "Timothy Fitzgibbon",
+    "club": "Top",
+    "rating": "1408",
+    "played": "18",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "426",
+    "name": "Warren Julius",
+    "club": "Ravens",
+    "rating": "1406",
+    "played": "16",
+    "win_per": "68.8"
+  },
+  {
+    "maties_id": "6",
+    "name": "Joshua Du Plooy",
+    "club": "Ravens",
+    "rating": "1402",
+    "played": "18",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "335",
+    "name": "Grant Bailey",
+    "club": "Liv-Ken",
+    "rating": "1398",
+    "played": "8",
+    "win_per": "100.0"
+  },
+  {
+    "maties_id": "378",
+    "name": "Muaath Adams",
+    "club": "Nexus",
+    "rating": "1396",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "294",
+    "name": "Mahdi Adams",
+    "club": "Community House",
+    "rating": "1395",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "496",
+    "name": "Jerome Davies",
+    "club": "Duinefontein",
+    "rating": "1395",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "189",
+    "name": "Alex Kleintjies",
+    "club": "SP Saints",
+    "rating": "1393",
+    "played": "12",
+    "win_per": "91.7"
+  },
+  {
+    "maties_id": "545",
+    "name": "Daryl Williams",
+    "club": "Goodwood",
+    "rating": "1392",
+    "played": "14",
+    "win_per": "64.3"
+  },
+  {
+    "maties_id": "519",
+    "name": "Wayden Brown",
+    "club": "Duinefontein",
+    "rating": "1390",
+    "played": "12",
+    "win_per": "91.7"
+  },
+  {
+    "maties_id": "305",
+    "name": "Stephen Katzef",
+    "club": "Community House",
+    "rating": "1386",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "340",
+    "name": "Derrel Adriaans",
+    "club": "Liv-Ken",
+    "rating": "1384",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "194",
+    "name": "Carl Adams",
+    "club": "Steenberg",
+    "rating": "1383",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "216",
+    "name": "Daylin May",
+    "club": "Bishop Lavis",
+    "rating": "1383",
+    "played": "16",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "195",
+    "name": "Gavern Africa",
+    "club": "Steenberg",
+    "rating": "1379",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "514",
+    "name": "Samkele Notshe",
+    "club": "Duinefontein",
+    "rating": "1379",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "258",
+    "name": "Rashaad Safodien",
+    "club": "Boundary",
+    "rating": "1376",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "341",
+    "name": "Damian Jeftha",
+    "club": "Liv-Ken",
+    "rating": "1376",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "180",
+    "name": "Garth Arenz",
+    "club": "SP Saints",
+    "rating": "1375",
+    "played": "14",
+    "win_per": "85.7"
+  },
+  {
+    "maties_id": "333",
+    "name": "Munier Ferhelst",
+    "club": "DLPE",
+    "rating": "1375",
+    "played": "14",
+    "win_per": "85.7"
+  },
+  {
+    "maties_id": "387",
+    "name": "Munier Isaacs",
+    "club": "Nexus",
+    "rating": "1375",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "161",
+    "name": "Rashied Ismail",
+    "club": "MP Royals",
+    "rating": "1374",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "343",
+    "name": "Ashley Wesson",
+    "club": "Liv-Ken",
+    "rating": "1374",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "522",
+    "name": "Zakeer Moosa",
+    "club": "Duinefontein",
+    "rating": "1370",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "164",
+    "name": "Llewellyn Paris",
+    "club": "MP Royals",
+    "rating": "1368",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "182",
+    "name": "Jamie Louw",
+    "club": "SP Saints",
+    "rating": "1368",
+    "played": "14",
+    "win_per": "85.7"
+  },
+  {
+    "maties_id": "594",
+    "name": "Dale Titus",
+    "club": "Stephanians",
+    "rating": "1368",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "179",
+    "name": "Kevin Roodt",
+    "club": "SP Saints",
+    "rating": "1367",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "857",
+    "name": "Shane Overmeyer",
+    "club": "Kuilsriver",
+    "rating": "1364",
+    "played": "12",
+    "win_per": "91.7"
+  },
+  {
+    "maties_id": "196",
+    "name": "Lester Van Der Ross",
+    "club": "Steenberg",
+    "rating": "1362",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "311",
+    "name": "Brandon Orderson",
+    "club": "Community House",
+    "rating": "1362",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "183",
+    "name": "Ethan Meyer",
+    "club": "SP Saints",
+    "rating": "1361",
+    "played": "14",
+    "win_per": "64.3"
+  },
+  {
+    "maties_id": "186",
+    "name": "Elroy Gabriel",
+    "club": "SP Saints",
+    "rating": "1360",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "156",
+    "name": "Henry Arends",
+    "club": "MP Royals",
+    "rating": "1359",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "695",
+    "name": "Caitlin Lingeveldt",
+    "club": "Boundary",
+    "rating": "1359",
+    "played": "14",
+    "win_per": "57.1"
+  },
+  {
+    "maties_id": "564",
+    "name": "Clement Meyer",
+    "club": "Stephanians",
+    "rating": "1358",
+    "played": "10",
+    "win_per": "90.0"
+  },
+  {
+    "maties_id": "98",
+    "name": "Keenen Jooste",
+    "club": "Top",
+    "rating": "1352",
+    "played": "8",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "155",
+    "name": "Kyle Martin",
+    "club": "MP Royals",
+    "rating": "1351",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "233",
+    "name": "Zahier Mohamed",
+    "club": "Bishop Lavis",
+    "rating": "1351",
+    "played": "10",
+    "win_per": "80.0"
+  },
+  {
+    "maties_id": "296",
+    "name": "Ronald Hutchinson",
+    "club": "Community House",
+    "rating": "1349",
+    "played": "14",
+    "win_per": "64.3"
+  },
+  {
+    "maties_id": "382",
+    "name": "Craig Fortuin",
+    "club": "Nexus",
+    "rating": "1349",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "397",
+    "name": "Sacha Davids",
+    "club": "Nexus",
+    "rating": "1346",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "547",
+    "name": "Edward Hahn",
+    "club": "Goodwood",
+    "rating": "1343",
+    "played": "16",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "51",
+    "name": "Scelo Mkhetho",
+    "club": "CPUT",
+    "rating": "1342",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "255",
+    "name": "Matthew Lingeveldt",
+    "club": "Boundary",
+    "rating": "1341",
+    "played": "14",
+    "win_per": "57.1"
+  },
+  {
+    "maties_id": "266",
+    "name": "Jiyaad Kara",
+    "club": "Community House",
+    "rating": "1341",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "246",
+    "name": "Tamika Van As",
+    "club": "Boundary",
+    "rating": "1340",
+    "played": "10",
+    "win_per": "70.0"
+  },
+  {
+    "maties_id": "416",
+    "name": "Angeline Wood",
+    "club": "Ravens",
+    "rating": "1339",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "207",
+    "name": "Nasr Esau",
+    "club": "UWC",
+    "rating": "1337",
+    "played": "12",
+    "win_per": "83.3"
+  },
+  {
+    "maties_id": "227",
+    "name": "Yunus Moyce",
+    "club": "Bishop Lavis",
+    "rating": "1337",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "372",
+    "name": "TJ Sabad",
+    "club": "Nexus",
+    "rating": "1337",
+    "played": "16",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "370",
+    "name": "Shahied Johaadien",
+    "club": "Nexus",
+    "rating": "1336",
+    "played": "10",
+    "win_per": "80.0"
+  },
+  {
+    "maties_id": "284",
+    "name": "Anton Titus",
+    "club": "Community House",
+    "rating": "1335",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "160",
+    "name": "Keenan Holt",
+    "club": "MP Royals",
+    "rating": "1333",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "497",
+    "name": "Jonathan Mukwekwerere",
+    "club": "Duinefontein",
+    "rating": "1330",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "166",
+    "name": "Ivor Arendse",
+    "club": "MP Royals",
+    "rating": "1328",
+    "played": "14",
+    "win_per": "78.6"
+  },
+  {
+    "maties_id": "405",
+    "name": "William Reizenberg",
+    "club": "Protea",
+    "rating": "1323",
+    "played": "14",
+    "win_per": "71.4"
+  },
+  {
+    "maties_id": "152",
+    "name": "Russel Jansen",
+    "club": "MP Royals",
+    "rating": "1322",
+    "played": "14",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "557",
+    "name": "Yusuf Rajie",
+    "club": "Goodwood",
+    "rating": "1319",
+    "played": "14",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "283",
+    "name": "Angelo Isaacs",
+    "club": "Community House",
+    "rating": "1317",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "149",
+    "name": "Westley Mccloud",
+    "club": "MP Royals",
+    "rating": "1315",
+    "played": "14",
+    "win_per": "35.7"
+  },
+  {
+    "maties_id": "386",
+    "name": "Riad Maneveld",
+    "club": "Nexus",
+    "rating": "1315",
+    "played": "14",
+    "win_per": "64.3"
+  },
+  {
+    "maties_id": "556",
+    "name": "Yaseen Hassam",
+    "club": "Goodwood",
+    "rating": "1313",
+    "played": "16",
+    "win_per": "68.8"
+  },
+  {
+    "maties_id": "192",
+    "name": "Stanley Prinsloo",
+    "club": "Steenberg",
+    "rating": "1312",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "291",
+    "name": "Gavin Parsons",
+    "club": "Community House",
+    "rating": "1312",
+    "played": "14",
+    "win_per": "57.1"
+  },
+  {
+    "maties_id": "392",
+    "name": "Saaliegh Jabaar",
+    "club": "Nexus",
+    "rating": "1312",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "388",
+    "name": "Moenieb Roberts",
+    "club": "Nexus",
+    "rating": "1309",
+    "played": "12",
+    "win_per": "66.7"
+  },
+  {
+    "maties_id": "422",
+    "name": "Frans Erasmus",
+    "club": "Ravens",
+    "rating": "1308",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "104",
+    "name": "Gaston Koetaan",
+    "club": "Top",
+    "rating": "1307",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "373",
+    "name": "Amien Phillips",
+    "club": "Nexus",
+    "rating": "1307",
+    "played": "16",
+    "win_per": "68.8"
+  },
+  {
+    "maties_id": "377",
+    "name": "Ebrahiem Carr",
+    "club": "Nexus",
+    "rating": "1305",
+    "played": "8",
+    "win_per": "87.5"
+  },
+  {
+    "maties_id": "211",
+    "name": "Marvin Makhubela",
+    "club": "UWC",
+    "rating": "1303",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "100",
+    "name": "Chris Sloster",
+    "club": "Top",
+    "rating": "1299",
+    "played": "16",
+    "win_per": "43.8"
+  },
+  {
+    "maties_id": "866",
+    "name": "Ismail Badat",
+    "club": "Lenasia",
+    "rating": "1299",
+    "played": "10",
+    "win_per": "80.0"
+  },
+  {
+    "maties_id": "972",
+    "name": "Abdul Hay",
+    "club": "Waterfall",
+    "rating": "1298",
+    "played": "10",
+    "win_per": "80.0"
+  },
+  {
+    "maties_id": "157",
+    "name": "Abubakr Manuel",
+    "club": "MP Royals",
+    "rating": "1297",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "376",
+    "name": "Sabri De Sani",
+    "club": "Nexus",
+    "rating": "1297",
+    "played": "8",
+    "win_per": "87.5"
+  },
+  {
+    "maties_id": "193",
+    "name": "Benadick Mentor",
+    "club": "Steenberg",
+    "rating": "1296",
+    "played": "12",
+    "win_per": "58.3"
+  },
+  {
+    "maties_id": "420",
+    "name": "Demos Dracoulides",
+    "club": "Ravens",
+    "rating": "1294",
+    "played": "14",
+    "win_per": "35.7"
+  },
+  {
+    "maties_id": "499",
+    "name": "Keanin Pekeur",
+    "club": "Duinefontein",
+    "rating": "1293",
+    "played": "12",
+    "win_per": "33.3"
+  },
+  {
+    "maties_id": "205",
+    "name": "Matthew Meade",
+    "club": "UWC",
+    "rating": "1291",
+    "played": "10",
+    "win_per": "70.0"
+  },
+  {
+    "maties_id": "106",
+    "name": "Allan Clark",
+    "club": "Top",
+    "rating": "1290",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "165",
+    "name": "Riedewaan Hendricks",
+    "club": "MP Royals",
+    "rating": "1290",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "300",
+    "name": "Tashreeq Baba",
+    "club": "Community House",
+    "rating": "1290",
+    "played": "16",
+    "win_per": "43.8"
+  },
+  {
+    "maties_id": "105",
+    "name": "Rubin Willemse",
+    "club": "Top",
+    "rating": "1288",
+    "played": "16",
+    "win_per": "43.8"
+  },
+  {
+    "maties_id": "577",
+    "name": "Terence Onrust",
+    "club": "Stephanians",
+    "rating": "1288",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "2",
+    "name": "DJ Swanevelder",
+    "club": "Maties",
+    "rating": "1286",
+    "played": "11",
+    "win_per": "72.7"
+  },
+  {
+    "maties_id": "79",
+    "name": "Logan Willemse",
+    "club": "Top",
+    "rating": "1286",
+    "played": "10",
+    "win_per": "80.0"
+  },
+  {
+    "maties_id": "118",
+    "name": "Deon Swartz",
+    "club": "Top",
+    "rating": "1285",
+    "played": "12",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "381",
+    "name": "Martin Arnolds",
+    "club": "Nexus",
+    "rating": "1284",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "150",
+    "name": "Walter Dreyer",
+    "club": "MP Royals",
+    "rating": "1283",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "935",
+    "name": "Starn Hui",
+    "club": "Rivonia",
+    "rating": "1280",
+    "played": "11",
+    "win_per": "72.7"
+  },
+  {
+    "maties_id": "176",
+    "name": "Bradley Van Aswegen",
+    "club": "MP Royals",
+    "rating": "1279",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "111",
+    "name": "Victor Grabe",
+    "club": "Top",
+    "rating": "1277",
+    "played": "8",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "580",
+    "name": "Ameen Jansen",
+    "club": "Stephanians",
+    "rating": "1275",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "297",
+    "name": "Sean Raubenheimer",
+    "club": "Community House",
+    "rating": "1274",
+    "played": "16",
+    "win_per": "56.3"
+  },
+  {
+    "maties_id": "191",
+    "name": "Norman Visagie",
+    "club": "Steenberg",
+    "rating": "1273",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "198",
+    "name": "Dillan Godfrey",
+    "club": "UCT",
+    "rating": "1272",
+    "played": "14",
+    "win_per": "57.1"
+  },
+  {
+    "maties_id": "537",
+    "name": "Alex O'Ryan",
+    "club": "Goodwood",
+    "rating": "1272",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "295",
+    "name": "Marc Petersen",
+    "club": "Community House",
+    "rating": "1270",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "390",
+    "name": "Ghalieb Davids",
+    "club": "Nexus",
+    "rating": "1270",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "175",
+    "name": "Yaaseen Manuel",
+    "club": "MP Royals",
+    "rating": "1269",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "302",
+    "name": "Tiago Faria",
+    "club": "Community House",
+    "rating": "1268",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "217",
+    "name": "Darren Wyngaardt",
+    "club": "Bishop Lavis",
+    "rating": "1267",
+    "played": "10",
+    "win_per": "20.0"
+  },
+  {
+    "maties_id": "536",
+    "name": "Abrie Cronje",
+    "club": "Goodwood",
+    "rating": "1267",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "145",
+    "name": "Craig Zimri",
+    "club": "MP Royals",
+    "rating": "1264",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "871",
+    "name": "Samuel Ilori",
+    "club": "Lenasia",
+    "rating": "1263",
+    "played": "8",
+    "win_per": "75.0"
+  },
+  {
+    "maties_id": "238",
+    "name": "Latino Palmer",
+    "club": "Bishop Lavis",
+    "rating": "1260",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "286",
+    "name": "Dirk Coetzee",
+    "club": "Community House",
+    "rating": "1260",
+    "played": "18",
+    "win_per": "38.9"
+  },
+  {
+    "maties_id": "487",
+    "name": "Errol Joemath",
+    "club": "Duinefontein",
+    "rating": "1260",
+    "played": "14",
+    "win_per": "35.7"
+  },
+  {
+    "maties_id": "257",
+    "name": "Timothy Lingeveldt",
+    "club": "Boundary",
+    "rating": "1259",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "285",
+    "name": "Ashley Tsai",
+    "club": "Community House",
+    "rating": "1259",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "421",
+    "name": "Ezra Msindeni",
+    "club": "Ravens",
+    "rating": "1256",
+    "played": "12",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "292",
+    "name": "Janine Sait",
+    "club": "Community House",
+    "rating": "1255",
+    "played": "16",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "571",
+    "name": "Sedick Alexander",
+    "club": "Stephanians",
+    "rating": "1253",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "163",
+    "name": "Ilyaaz Patel",
+    "club": "MP Royals",
+    "rating": "1251",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "563",
+    "name": "Kirk Daries",
+    "club": "Stephanians",
+    "rating": "1250",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "113",
+    "name": "Shaun Francis",
+    "club": "Top",
+    "rating": "1249",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "338",
+    "name": "Martin Jansen",
+    "club": "Liv-Ken",
+    "rating": "1247",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "159",
+    "name": "David Cyfers",
+    "club": "MP Royals",
+    "rating": "1244",
+    "played": "14",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "94",
+    "name": "Merlin Brown",
+    "club": "Top",
+    "rating": "1243",
+    "played": "14",
+    "win_per": "21.4"
+  },
+  {
+    "maties_id": "334",
+    "name": "Kian Jansen",
+    "club": "DLPE",
+    "rating": "1243",
+    "played": "12",
+    "win_per": "58.3"
+  },
+  {
+    "maties_id": "476",
+    "name": "Adam Domingo",
+    "club": "Duinefontein",
+    "rating": "1243",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "700",
+    "name": "Bradley Benting",
+    "club": "Boundary",
+    "rating": "1242",
+    "played": "10",
+    "win_per": "20.0"
+  },
+  {
+    "maties_id": "349",
+    "name": "Kian Chapman",
+    "club": "Liv-Ken",
+    "rating": "1241",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "541",
+    "name": "Brendan O'Connell",
+    "club": "Goodwood",
+    "rating": "1239",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "945",
+    "name": "Vic Carrasco",
+    "club": "Tempe Military",
+    "rating": "1239",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "190",
+    "name": "William Prinsloo",
+    "club": "Steenberg",
+    "rating": "1238",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "346",
+    "name": "Christian Poggenpoel",
+    "club": "Liv-Ken",
+    "rating": "1233",
+    "played": "8",
+    "win_per": "37.5"
+  },
+  {
+    "maties_id": "380",
+    "name": "Sameer Parker",
+    "club": "Nexus",
+    "rating": "1232",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "538",
+    "name": "Andre Taljaard",
+    "club": "Goodwood",
+    "rating": "1232",
+    "played": "14",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "326",
+    "name": "Ikraam Francis",
+    "club": "Community House",
+    "rating": "1231",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "671",
+    "name": "Seraaj Omar",
+    "club": "Stephanians",
+    "rating": "1231",
+    "played": "10",
+    "win_per": "60.0"
+  },
+  {
+    "maties_id": "116",
+    "name": "Andries Steenkamp",
+    "club": "Top",
+    "rating": "1229",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "153",
+    "name": "Andre Johnson",
+    "club": "MP Royals",
+    "rating": "1229",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "309",
+    "name": "Jason Albertyn",
+    "club": "Community House",
+    "rating": "1229",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "425",
+    "name": "Richard Ntamutumba",
+    "club": "Ravens",
+    "rating": "1229",
+    "played": "14",
+    "win_per": "35.7"
+  },
+  {
+    "maties_id": "555",
+    "name": "Shakeel Hendricks",
+    "club": "Goodwood",
+    "rating": "1229",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "893",
+    "name": "Villyen Motaze",
+    "club": "Masters",
+    "rating": "1229",
+    "played": "8",
+    "win_per": "62.5"
+  },
+  {
+    "maties_id": "374",
+    "name": "Yaseen Toefy",
+    "club": "Nexus",
+    "rating": "1228",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "553",
+    "name": "Richard Abrahams",
+    "club": "Goodwood",
+    "rating": "1226",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "57",
+    "name": "Liqhawe Pepeta",
+    "club": "CPUT",
+    "rating": "1223",
+    "played": "12",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "158",
+    "name": "Joel Martin",
+    "club": "MP Royals",
+    "rating": "1222",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "328",
+    "name": "Milo Katz",
+    "club": "Community House",
+    "rating": "1219",
+    "played": "14",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "384",
+    "name": "Rafiek Tofa",
+    "club": "Nexus",
+    "rating": "1216",
+    "played": "12",
+    "win_per": "33.3"
+  },
+  {
+    "maties_id": "97",
+    "name": "Lorenzo Haupt",
+    "club": "Top",
+    "rating": "1214",
+    "played": "12",
+    "win_per": "16.7"
+  },
+  {
+    "maties_id": "287",
+    "name": "Ebrahiem Effendi",
+    "club": "Community House",
+    "rating": "1214",
+    "played": "16",
+    "win_per": "37.5"
+  },
+  {
+    "maties_id": "400",
+    "name": "Rob de Villiers",
+    "club": "Protea",
+    "rating": "1210",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "575",
+    "name": "Aden Buckton",
+    "club": "Stephanians",
+    "rating": "1210",
+    "played": "14",
+    "win_per": "42.9"
+  },
+  {
+    "maties_id": "199",
+    "name": "Liam Olsen",
+    "club": "UCT",
+    "rating": "1209",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "684",
+    "name": "Faseeq Davids",
+    "club": "Stephanians",
+    "rating": "1209",
+    "played": "10",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "419",
+    "name": "Darren Orr",
+    "club": "Ravens",
+    "rating": "1207",
+    "played": "14",
+    "win_per": "14.3"
+  },
+  {
+    "maties_id": "535",
+    "name": "Tazmin Harris",
+    "club": "Duinefontein",
+    "rating": "1206",
+    "played": "8",
+    "win_per": "37.5"
+  },
+  {
+    "maties_id": "602",
+    "name": "Mark Collison",
+    "club": "Stephanians",
+    "rating": "1206",
+    "played": "10",
+    "win_per": "40.0"
+  },
+  {
+    "maties_id": "96",
+    "name": "Richard Fitzgibbon",
+    "club": "Top",
+    "rating": "1204",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "682",
+    "name": "Gamza Taliep",
+    "club": "Stephanians",
+    "rating": "1204",
+    "played": "8",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "221",
+    "name": "Henry Esau",
+    "club": "Bishop Lavis",
+    "rating": "1203",
+    "played": "14",
+    "win_per": "14.3"
+  },
+  {
+    "maties_id": "261",
+    "name": "Zondre Adams",
+    "club": "Boundary",
+    "rating": "1203",
+    "played": "12",
+    "win_per": "41.7"
+  },
+  {
+    "maties_id": "293",
+    "name": "John Busch",
+    "club": "Community House",
+    "rating": "1203",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "385",
+    "name": "Kamiel Ebrahim",
+    "club": "Nexus",
+    "rating": "1201",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "681",
+    "name": "Tashreeq Samsodien",
+    "club": "Stephanians",
+    "rating": "1201",
+    "played": "8",
+    "win_per": "50.0"
+  },
+  {
+    "maties_id": "110",
+    "name": "David Esau",
+    "club": "Top",
+    "rating": "1196",
+    "played": "14",
+    "win_per": "21.4"
+  },
+  {
+    "maties_id": "109",
+    "name": "Moses Baartman",
+    "club": "Top",
+    "rating": "1195",
+    "played": "14",
+    "win_per": "21.4"
+  },
+  {
+    "maties_id": "504",
+    "name": "Mekhail Schroeder",
+    "club": "Duinefontein",
+    "rating": "1193",
+    "played": "12",
+    "win_per": "8.3"
+  },
+  {
+    "maties_id": "551",
+    "name": "Pedro Fortuin",
+    "club": "Goodwood",
+    "rating": "1193",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "418",
+    "name": "Bevan Steyn",
+    "club": "Ravens",
+    "rating": "1190",
+    "played": "14",
+    "win_per": "21.4"
+  },
+  {
+    "maties_id": "353",
+    "name": "Nahum Philander",
+    "club": "Liv-Ken",
+    "rating": "1189",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "569",
+    "name": "Junaid Fredricks",
+    "club": "Stephanians",
+    "rating": "1188",
+    "played": "12",
+    "win_per": "33.3"
+  },
+  {
+    "maties_id": "7",
+    "name": "Gajen Chetty",
+    "club": "Maties",
+    "rating": "1187",
+    "played": "11",
+    "win_per": "45.5"
+  },
+  {
+    "maties_id": "89",
+    "name": "Stanford Nomdo",
+    "club": "Top",
+    "rating": "1187",
+    "played": "8",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "543",
+    "name": "Charl Grobbelaar",
+    "club": "Goodwood",
+    "rating": "1187",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "301",
+    "name": "Thomas Parker",
+    "club": "Community House",
+    "rating": "1182",
+    "played": "12",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "472",
+    "name": "Garth Greybe",
+    "club": "Duinefontein",
+    "rating": "1181",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "310",
+    "name": "Shane Fortuin",
+    "club": "Community House",
+    "rating": "1175",
+    "played": "12",
+    "win_per": "33.3"
+  },
+  {
+    "maties_id": "5",
+    "name": "Cetin Celik",
+    "club": "Maties",
+    "rating": "1173",
+    "played": "18",
+    "win_per": "38.9"
+  },
+  {
+    "maties_id": "132",
+    "name": "Xavier Williams",
+    "club": "Top",
+    "rating": "1172",
+    "played": "8",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "223",
+    "name": "Chesray Booysen",
+    "club": "Bishop Lavis",
+    "rating": "1171",
+    "played": "16",
+    "win_per": "12.5"
+  },
+  {
+    "maties_id": "262",
+    "name": "Tayla Bailey",
+    "club": "Boundary",
+    "rating": "1170",
+    "played": "14",
+    "win_per": "14.3"
+  },
+  {
+    "maties_id": "389",
+    "name": "Cashief Mowzer",
+    "club": "Nexus",
+    "rating": "1168",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "162",
+    "name": "Munier Patel",
+    "club": "MP Royals",
+    "rating": "1166",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "210",
+    "name": "Siyanda Ntlali",
+    "club": "UWC",
+    "rating": "1166",
+    "played": "10",
+    "win_per": "40.0"
+  },
+  {
+    "maties_id": "222",
+    "name": "Thabiet Adams",
+    "club": "Bishop Lavis",
+    "rating": "1162",
+    "played": "20",
+    "win_per": "20.0"
+  },
+  {
+    "maties_id": "331",
+    "name": "Atlaaf Solomons",
+    "club": "DLPE",
+    "rating": "1162",
+    "played": "14",
+    "win_per": "35.7"
+  },
+  {
+    "maties_id": "307",
+    "name": "Hitendra Makan",
+    "club": "Community House",
+    "rating": "1154",
+    "played": "8",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "234",
+    "name": "Rhiyaan Cupido",
+    "club": "Bishop Lavis",
+    "rating": "1153",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "549",
+    "name": "Lester Malgas",
+    "club": "Goodwood",
+    "rating": "1153",
+    "played": "8",
+    "win_per": "37.5"
+  },
+  {
+    "maties_id": "90",
+    "name": "Stanley Nomdo",
+    "club": "Top",
+    "rating": "1147",
+    "played": "8",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "696",
+    "name": "Craig Pasqualie",
+    "club": "Community House",
+    "rating": "1147",
+    "played": "10",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "107",
+    "name": "Quentin Thomas",
+    "club": "Top",
+    "rating": "1145",
+    "played": "14",
+    "win_per": "7.1"
+  },
+  {
+    "maties_id": "546",
+    "name": "Delton Alexander",
+    "club": "Goodwood",
+    "rating": "1144",
+    "played": "14",
+    "win_per": "14.3"
+  },
+  {
+    "maties_id": "167",
+    "name": "Tyrone Van De Merwe",
+    "club": "MP Royals",
+    "rating": "1139",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "68",
+    "name": "Chloe Hendricks",
+    "club": "Top",
+    "rating": "1138",
+    "played": "14",
+    "win_per": "7.1"
+  },
+  {
+    "maties_id": "290",
+    "name": "Fayzal Galant",
+    "club": "Community House",
+    "rating": "1137",
+    "played": "14",
+    "win_per": "28.6"
+  },
+  {
+    "maties_id": "288",
+    "name": "Ebrahim Scello",
+    "club": "Community House",
+    "rating": "1132",
+    "played": "8",
+    "win_per": "12.5"
+  },
+  {
+    "maties_id": "394",
+    "name": "Rick Solomons",
+    "club": "Nexus",
+    "rating": "1131",
+    "played": "12",
+    "win_per": "25.0"
+  },
+  {
+    "maties_id": "229",
+    "name": "Kyle Sebo",
+    "club": "Bishop Lavis",
+    "rating": "1130",
+    "played": "10",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "275",
+    "name": "Abdul Ismail",
+    "club": "Community House",
+    "rating": "1128",
+    "played": "10",
+    "win_per": "20.0"
+  },
+  {
+    "maties_id": "670",
+    "name": "Aneekah Sauls",
+    "club": "Stephanians",
+    "rating": "1124",
+    "played": "10",
+    "win_per": "30.0"
+  },
+  {
+    "maties_id": "237",
+    "name": "Brandon De Jager",
+    "club": "Bishop Lavis",
+    "rating": "1121",
+    "played": "14",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "554",
+    "name": "Salie Petersen",
+    "club": "Goodwood",
+    "rating": "1121",
+    "played": "10",
+    "win_per": "20.0"
+  },
+  {
+    "maties_id": "444",
+    "name": "Jordan Martin",
+    "club": "Ravens",
+    "rating": "1116",
+    "played": "8",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "63",
+    "name": "Donovan Smith",
+    "club": "Top",
+    "rating": "1113",
+    "played": "8",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "70",
+    "name": "Xoey Williams",
+    "club": "Top",
+    "rating": "1107",
+    "played": "12",
+    "win_per": "8.3"
+  },
+  {
+    "maties_id": "318",
+    "name": "Martin Bacchus",
+    "club": "Community House",
+    "rating": "1104",
+    "played": "14",
+    "win_per": "21.4"
+  },
+  {
+    "maties_id": "69",
+    "name": "Shiloh Smith",
+    "club": "Top",
+    "rating": "1101",
+    "played": "14",
+    "win_per": "14.3"
+  },
+  {
+    "maties_id": "13",
+    "name": "Joel Joshua",
+    "club": "Maties",
+    "rating": "1100",
+    "played": "8",
+    "win_per": "12.5"
+  },
+  {
+    "maties_id": "383",
+    "name": "Jawaad Schippers",
+    "club": "Nexus",
+    "rating": "1097",
+    "played": "14",
+    "win_per": "7.1"
+  },
+  {
+    "maties_id": "548",
+    "name": "Enrico Louw",
+    "club": "Goodwood",
+    "rating": "1091",
+    "played": "10",
+    "win_per": "10.0"
+  },
+  {
+    "maties_id": "66",
+    "name": "Jessica Adams",
+    "club": "Top",
+    "rating": "1082",
+    "played": "12",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "427",
+    "name": "Aiden Oransie",
+    "club": "Ravens",
+    "rating": "1075",
+    "played": "14",
+    "win_per": "7.1"
+  },
+  {
+    "maties_id": "92",
+    "name": "Jay Nomdo",
+    "club": "Top",
+    "rating": "1069",
+    "played": "12",
+    "win_per": "0.0"
+  },
+  {
+    "maties_id": "212",
+    "name": "Siphelele Mkhetho",
+    "club": "UWC",
+    "rating": "1064",
+    "played": "12",
+    "win_per": "8.3"
+  },
+  {
+    "maties_id": "317",
+    "name": "Josh Idesis",
+    "club": "Community House",
+    "rating": "1051",
+    "played": "10",
+    "win_per": "0.0"
+  }
+]

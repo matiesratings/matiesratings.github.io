@@ -41,8 +41,7 @@ def convert_ratings(input_path, output_path):
                 "club": row["Club"],
                 "rating": row["Rating"],
                 "played": row["Played"],
-                "win_per": row["Win %"],
-                "last_played": row["Last Played"]
+                "win_per": row["Win %"]
             })
 
     with open(output_path, "w", encoding="utf-8") as f:
@@ -94,7 +93,8 @@ if __name__ == "__main__":
         "bu11_ratings.json", "gu11_ratings.json"
     ], output_folder)
 
-    convert_csv_to_json(input_folder / "Player List (2025-05-08).csv", Path(output_folder / "all_players.json"))
-    convert_matches(input_folder / "Match Results (2025-04-11).csv", Path(output_folder /"matches.json"))
-    # convert_ratings(input_folder / "Open Ratings (2025-04-11).csv", Path(output_folder /"open_ratings.json"))
+    convert_csv_to_json(input_folder / "Player List (2025-06-09).csv", Path(output_folder / "all_players.json"))
+    convert_matches(input_folder / "Match Results (2025-06-09).csv", Path(output_folder /"open_ratings.json"))
     extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
+    convert_ratings(input_folder/"Open Ratings (2025-06-09).csv", Path(output_folder / "open_ratings.json"))
+
