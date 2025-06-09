@@ -7,15 +7,20 @@ table {
     color: white;
     border: 2px solid maroon;
     table-layout: fixed; /* prevents cells from stretching */
-    font-size: clamp(10px, 2vw, 14px); /* scale text based on screen size */
+    font-size: clamp(8px, 3vw, 20px); /* scale text based on screen size */
 }
 
 th, td {
     padding: 10px;
     text-align: center;
     border: 1px solid maroon;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+td {
+    white-space: nowrap;
 
+}
 th {
     background-color: maroon;
     cursor: pointer;
@@ -279,9 +284,6 @@ input[type="text"]#clubFilter {
     }
     td, th{
         padding: 4px;
-        /* overflow: hidden; */
-        /* text-overflow: ellipsis; */
-        /* white-space: nowrap; Prevent text from wrapping */
     }
 
     .filters {
