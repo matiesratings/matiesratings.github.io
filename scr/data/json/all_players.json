@@ -372,6 +372,12 @@
     "gender": "Female"
   },
   {
+    "maties_id": 63,
+    "name": "Donovan Smith",
+    "club": "Top",
+    "gender": "Male"
+  },
+  {
     "maties_id": 64,
     "name": "Washiela Jantjies",
     "club": "Top",
@@ -1165,7 +1171,7 @@
   },
   {
     "maties_id": 198,
-    "name": "Dillan Godfrey ",
+    "name": "Dillan Godfrey",
     "club": "UCT",
     "gender": "Male"
   },
@@ -1207,7 +1213,7 @@
   },
   {
     "maties_id": 205,
-    "name": "Methew Made ",
+    "name": "Matthew Meade",
     "club": "UWC",
     "gender": "Male"
   },
@@ -1237,13 +1243,13 @@
   },
   {
     "maties_id": 210,
-    "name": "Siyanda Ntlali ",
+    "name": "Siyanda Ntlali",
     "club": "UWC",
     "gender": "Female"
   },
   {
     "maties_id": 211,
-    "name": "Marvin Makhubela ",
+    "name": "Marvin Makhubela",
     "club": "UWC",
     "gender": "Male"
   },
@@ -1267,7 +1273,7 @@
   },
   {
     "maties_id": 215,
-    "name": "Byron Abrahams ",
+    "name": "Byron Abrahams",
     "club": "Bishop Lavis",
     "gender": "Male"
   },
@@ -1435,7 +1441,7 @@
   },
   {
     "maties_id": 243,
-    "name": "Graham Van As ",
+    "name": "Graham Van As",
     "club": "Boundary",
     "gender": "Male"
   },
@@ -1507,7 +1513,7 @@
   },
   {
     "maties_id": 255,
-    "name": "Mattehw Lingeveldt",
+    "name": "Matthew Lingeveldt",
     "club": "Boundary",
     "gender": "Male"
   },
@@ -1609,7 +1615,7 @@
   },
   {
     "maties_id": 272,
-    "name": "Caleb Hurling\u00a0",
+    "name": "Caleb Hurling",
     "club": "Community House",
     "gender": "Male"
   },
@@ -1879,21 +1885,15 @@
   },
   {
     "maties_id": 317,
-    "name": "Jaamia",
+    "name": "Josh Idesis",
     "club": "Community House",
-    "gender": "Female"
+    "gender": "Male"
   },
   {
     "maties_id": 318,
-    "name": "Donna",
+    "name": "Martin Bacchus",
     "club": "Community House",
-    "gender": "Female"
-  },
-  {
-    "maties_id": 319,
-    "name": "Linda",
-    "club": "Community House",
-    "gender": "Female"
+    "gender": "Male"
   },
   {
     "maties_id": 320,
@@ -1933,7 +1933,7 @@
   },
   {
     "maties_id": 326,
-    "name": "Ikram Francis",
+    "name": "Ikraam Francis",
     "club": "Community House",
     "gender": "Male"
   },
@@ -1963,7 +1963,7 @@
   },
   {
     "maties_id": 331,
-    "name": "Atlaaf solomons",
+    "name": "Atlaaf Solomons",
     "club": "DLPE",
     "gender": "Male"
   },
@@ -1981,7 +1981,7 @@
   },
   {
     "maties_id": 334,
-    "name": "Keane Jansen",
+    "name": "Kian Jansen",
     "club": "DLPE",
     "gender": "Male"
   },
@@ -2178,18 +2178,6 @@
     "gender": "Female"
   },
   {
-    "maties_id": 367,
-    "name": "Seth",
-    "club": "Liv-Ken",
-    "gender": "Male"
-  },
-  {
-    "maties_id": 368,
-    "name": "Matthew",
-    "club": "Liv-Ken",
-    "gender": "Male"
-  },
-  {
     "maties_id": 369,
     "name": "Zain Pennals",
     "club": "Liv-Ken",
@@ -2197,7 +2185,7 @@
   },
   {
     "maties_id": 370,
-    "name": "Shahied Johaadien ",
+    "name": "Shahied Johaadien",
     "club": "Nexus",
     "gender": "Male"
   },
@@ -2227,13 +2215,13 @@
   },
   {
     "maties_id": 375,
-    "name": "Zahier Dalvie ",
+    "name": "Zahier Dalvie",
     "club": "Nexus",
     "gender": "Male"
   },
   {
     "maties_id": 376,
-    "name": "Sabri De Sanj",
+    "name": "Sabri De Sani",
     "club": "Nexus",
     "gender": "Male"
   },
@@ -2269,7 +2257,7 @@
   },
   {
     "maties_id": 382,
-    "name": "Craig Fortuin ",
+    "name": "Craig Fortuin",
     "club": "Nexus",
     "gender": "Male"
   },
@@ -2311,7 +2299,7 @@
   },
   {
     "maties_id": 389,
-    "name": "Cashief Mowzer ",
+    "name": "Cashief Mowzer",
     "club": "Nexus",
     "gender": "Male"
   },
@@ -2419,7 +2407,7 @@
   },
   {
     "maties_id": 407,
-    "name": "Jerron  Vincent",
+    "name": "Jerron Vincent",
     "club": "Protea",
     "gender": "Male"
   },
@@ -2509,7 +2497,7 @@
   },
   {
     "maties_id": 422,
-    "name": "Frans  Erasmus",
+    "name": "Frans Erasmus",
     "club": "Ravens",
     "gender": "Male"
   },
@@ -2569,7 +2557,7 @@
   },
   {
     "maties_id": 433,
-    "name": "Tamika  Karra",
+    "name": "Tamika Karra",
     "club": "Ravens",
     "gender": "Female"
   },
@@ -2635,13 +2623,13 @@
   },
   {
     "maties_id": 444,
-    "name": "Jordan  Martin",
+    "name": "Jordan Martin",
     "club": "Ravens",
     "gender": "Male"
   },
   {
     "maties_id": 445,
-    "name": "Jayden  Olivier",
+    "name": "Jayden Olivier",
     "club": "Ravens",
     "gender": "Male"
   },
@@ -2677,7 +2665,7 @@
   },
   {
     "maties_id": 451,
-    "name": "Andre  Van Schoor",
+    "name": "Andre Van Schoor",
     "club": "Ravens",
     "gender": "Male"
   },
@@ -2785,7 +2773,7 @@
   },
   {
     "maties_id": 469,
-    "name": "Elizabeth  January",
+    "name": "Elizabeth January",
     "club": "Ravens",
     "gender": "Female"
   },
@@ -3175,13 +3163,13 @@
   },
   {
     "maties_id": 536,
-    "name": "Abrie  Cronje",
+    "name": "Abrie Cronje",
     "club": "Goodwood",
     "gender": "Male"
   },
   {
     "maties_id": 537,
-    "name": "Alex O ryan",
+    "name": "Alex O'Ryan",
     "club": "Goodwood",
     "gender": "Male"
   },
@@ -3210,6 +3198,12 @@
     "gender": "Male"
   },
   {
+    "maties_id": 542,
+    "name": "Asher Marais",
+    "club": "Goodwood",
+    "gender": "Male"
+  },
+  {
     "maties_id": 543,
     "name": "Charl Grobbelaar",
     "club": "Goodwood",
@@ -3217,7 +3211,7 @@
   },
   {
     "maties_id": 544,
-    "name": "Cornel",
+    "name": "Cornel Wessels",
     "club": "Goodwood",
     "gender": "Male"
   },
@@ -3289,7 +3283,7 @@
   },
   {
     "maties_id": 556,
-    "name": "Yaseen  Hassan",
+    "name": "Yaseen Hassam",
     "club": "Goodwood",
     "gender": "Male"
   },
@@ -3559,7 +3553,7 @@
   },
   {
     "maties_id": 602,
-    "name": "Nathan",
+    "name": "Mark Collison",
     "club": "Stephanians",
     "gender": "Male"
   },
@@ -3960,6 +3954,18 @@
     "gender": "Male"
   },
   {
+    "maties_id": 670,
+    "name": "Aneekah Sauls",
+    "club": "Stephanians",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 671,
+    "name": "Seraaj Omar",
+    "club": "Stephanians",
+    "gender": "Male"
+  },
+  {
     "maties_id": 672,
     "name": "Raemondo Lessing",
     "club": "Stephanians",
@@ -4039,14 +4045,1946 @@
   },
   {
     "maties_id": 685,
-    "name": "Seraaj Omar",
+    "name": "Asemahle Sotashe",
+    "club": "CPUT",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 686,
+    "name": "Jacobus Smuts",
+    "club": "Maties",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 687,
+    "name": "Wesley Rudimuldu",
+    "club": "Nexus",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 688,
+    "name": "Isgaaq Jassiem",
     "club": "Stephanians",
     "gender": "Male"
   },
   {
-    "maties_id": 686,
-    "name": "Aneekah Sauls",
+    "maties_id": 689,
+    "name": "Rewaldo Corlus",
+    "club": "Liv-Ken",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 690,
+    "name": "Steven Mauerberger",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 691,
+    "name": "Ethan Hinrichsen",
+    "club": "UCT",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 692,
+    "name": "Leo van Helden",
+    "club": "Duinefontein",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 693,
+    "name": "Nahum Joseph",
+    "club": "UWC",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 694,
+    "name": "Linley Williams",
     "club": "Stephanians",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 695,
+    "name": "Caitlin Lingeveldt",
+    "club": "Boundary",
     "gender": "Female"
+  },
+  {
+    "maties_id": 696,
+    "name": "Craig Pasqualie",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 697,
+    "name": "Sharief Cedras",
+    "club": "Liv-Ken",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 698,
+    "name": "Sushant Dutta",
+    "club": "UCT",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 699,
+    "name": "Yameen Martin",
+    "club": "Stephanians",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 700,
+    "name": "Bradley Benting",
+    "club": "Boundary",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 701,
+    "name": "Lizalise Songqenqa",
+    "club": "CPUT",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 702,
+    "name": "Jermaine Abrahams",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 703,
+    "name": "Joel Grosch",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 704,
+    "name": "John-William Abdol",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 705,
+    "name": "Daniel Crouch",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 706,
+    "name": "Michael Mackrill",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 707,
+    "name": "Siba Mwezeni",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 708,
+    "name": "Melissa Links",
+    "club": "Kuilsriver",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 709,
+    "name": "Darelle Rhoode",
+    "club": "Kuilsriver",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 710,
+    "name": "Shasha Naidoo",
+    "club": "Kuilsriver",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 711,
+    "name": "Janine Williams\u00a0",
+    "club": "Kuilsriver",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 712,
+    "name": "Daniel Ditta",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 713,
+    "name": "Jordan Mackrill",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 714,
+    "name": "Winston Davids",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 715,
+    "name": "Bradwin Holt",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 716,
+    "name": "Shane Le Roux",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 717,
+    "name": "Marc Booysen",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 718,
+    "name": "Shane Coetzee",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 719,
+    "name": "Charles Kleintjes",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 720,
+    "name": "Mark Kleintjes",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 721,
+    "name": "Stephen September",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 722,
+    "name": "Jerome Pietersen",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 723,
+    "name": "Hermanique Voster",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 724,
+    "name": "Riedewaan Fatagodien",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 725,
+    "name": "Eleen Meyer",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 726,
+    "name": "Mia Shortles",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 727,
+    "name": "Jayrinn-Lee Apollis",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 728,
+    "name": "Gustav Bekker",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 729,
+    "name": "Marcus Booysen",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 730,
+    "name": "Zahrah-Skye Cupido",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 731,
+    "name": "Keagan Fransman",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 732,
+    "name": "Luke Hofsta",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 733,
+    "name": "Tamzin Human",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 734,
+    "name": "Ghaneef Jacobs",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 735,
+    "name": "Umr Jacobs",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 736,
+    "name": "Duwayne Kannemeyer",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 737,
+    "name": "Brody Kleintjes",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 738,
+    "name": "Robin Livesy - Blom",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 739,
+    "name": "Cughan Maart",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 740,
+    "name": "Noah-Maria Reurink",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 741,
+    "name": "Eli Shortles",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 742,
+    "name": "Raquel Voster",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 743,
+    "name": "Louwen Buys",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 744,
+    "name": "Jordan Pont",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 745,
+    "name": "Joshua Daniels",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 746,
+    "name": "Nuwayne ",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 747,
+    "name": "Jamie-Leigh Heyns",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 748,
+    "name": "Joshua Appollis",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 749,
+    "name": "Riedewaan Baartman",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 750,
+    "name": "Colby Kleintjes",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 751,
+    "name": "Mogammat Christians",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 752,
+    "name": "Aminah Diedericks",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 753,
+    "name": "Reno Fairbairn",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 754,
+    "name": "Tyrese Fairbairn",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 755,
+    "name": "Breyton Festus",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 756,
+    "name": "Thomas Francke",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 757,
+    "name": "Lee Keet",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 758,
+    "name": "Mario Lombard",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 759,
+    "name": "Zarier Nackerdien",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 760,
+    "name": "Hamton Oliver",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 761,
+    "name": "Nazeema Osman",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 762,
+    "name": "Randall Pretorius",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 763,
+    "name": "Marlon Stuurman",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 764,
+    "name": "Maliek Tieties",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 765,
+    "name": "Aubin Anthony",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 766,
+    "name": "Imtiyaaz Benjamin",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 767,
+    "name": "Zaitoon Daniels",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 768,
+    "name": "Taylon Filander",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 769,
+    "name": "Tamlin Fortuin",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 770,
+    "name": "Jovernia Fortuin",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 771,
+    "name": "Andrew Hendricks",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 772,
+    "name": "Zahra Nackerdien",
+    "club": "Paarl",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 773,
+    "name": "Kayde Uys",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 774,
+    "name": "Ruhayden Van der Westhuizen",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 775,
+    "name": "Charl Solomons",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 776,
+    "name": "Mornay Pretorius",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 777,
+    "name": "Warren Retief",
+    "club": "Paarl",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 778,
+    "name": "Liam Van Der Riet-Field",
+    "club": "UCT",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 779,
+    "name": "Tazlyn Pietersen",
+    "club": "Liv-Ken",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 780,
+    "name": "Lateef Somad",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 781,
+    "name": "Dave Sanusi",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 782,
+    "name": "Anele Khumalo",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 783,
+    "name": "Ayanda Mpofu",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 784,
+    "name": "Bathembu Nkosiyane",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 785,
+    "name": "Hloniphile Manqans",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 786,
+    "name": "Inami Qutu",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 787,
+    "name": "Itumeleng Seloko",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 788,
+    "name": "Mandimphiwe Magushana",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 789,
+    "name": "Mthokozisi Feni",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 790,
+    "name": "Noah Manganyi",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 791,
+    "name": "Paseka Sakoame",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 792,
+    "name": "Sakhe Matamanzima",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 793,
+    "name": "Siphosethu Vingqishe",
+    "club": "Adelaide Tambo School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 794,
+    "name": "Sphelele Jojisa",
+    "club": "Adelaide Tambo School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 795,
+    "name": "Christo Venter",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 796,
+    "name": "Danie Olivier",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 797,
+    "name": "Jannie Olivier",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 798,
+    "name": "Luan Kruger",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 799,
+    "name": "Markus Roux",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 800,
+    "name": "Mikal Kruger",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 801,
+    "name": "Ruan van der Merwe",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 802,
+    "name": "Ruan Venter",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 803,
+    "name": "Terrance Louw",
+    "club": "Admin",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 804,
+    "name": "Tony Song",
+    "club": "Anchors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 805,
+    "name": "Driasin Gounden",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 806,
+    "name": "Jesse Berkowitz",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 807,
+    "name": "Jonathan Wernich",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 808,
+    "name": "Keshav Singh",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 809,
+    "name": "Nathan Pillay",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 810,
+    "name": "Neil Du Preez",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 811,
+    "name": "Randall Jansen",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 812,
+    "name": "Ronel Botha",
+    "club": "Blue Fountains",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 813,
+    "name": "Yashil Jaimungal",
+    "club": "Bounce",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 814,
+    "name": "Kivesh Sivnarain",
+    "club": "Bounce",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 817,
+    "name": "Derick de Beer",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 818,
+    "name": "Jarrod Cilliers",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 819,
+    "name": "Marius Morkel",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 820,
+    "name": "Motshele Lekalakala",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 821,
+    "name": "Mujeeb Ebrahim",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 822,
+    "name": "Thys Pieterse",
+    "club": "Challengers",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 825,
+    "name": "Alicia Verheijen",
+    "club": "CSIR",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 826,
+    "name": "Athi Mda",
+    "club": "CSIR",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 827,
+    "name": "Binyamin Salie",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 828,
+    "name": "Danyelle Verheijen",
+    "club": "CSIR",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 829,
+    "name": "Duncan Craigie",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 830,
+    "name": "Jose Da Silva",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 831,
+    "name": "Juane Scholtz",
+    "club": "CSIR",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 832,
+    "name": "Kareem Zain Eddin",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 833,
+    "name": "Lunga Vakele",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 834,
+    "name": "Omar Zain Eddin",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 835,
+    "name": "Pieter Starke",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 836,
+    "name": "Ruan Scholtz",
+    "club": "CSIR",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 837,
+    "name": "Tamara Salie",
+    "club": "CSIR",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 838,
+    "name": "Aakash Gokhale",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 839,
+    "name": "Ethan Martin",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 840,
+    "name": "Gerrit Coetzer",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 841,
+    "name": "Jawaad Ebrahim",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 842,
+    "name": "Lindley Peters",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 843,
+    "name": "Logan Smit",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 844,
+    "name": "Marvin Job",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 845,
+    "name": "Ronald Lawrence",
+    "club": "Denel",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 846,
+    "name": "Sudais Mohamed",
+    "club": "Flames",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 847,
+    "name": "Ricardo Carrasco",
+    "club": "Grey College",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 848,
+    "name": "Rupert Bester",
+    "club": "Grey College",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 849,
+    "name": "Malwande matsha",
+    "club": "Ivory Park",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 850,
+    "name": "Zakhele John",
+    "club": "Ivory Park",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 851,
+    "name": "Boitumelo Pheleu",
+    "club": "Katlehong",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 852,
+    "name": "Jafta Hlasa",
+    "club": "Katlehong",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 853,
+    "name": "Kabelo Phutsisi",
+    "club": "Katlehong",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 854,
+    "name": "Katleho Dibiloane",
+    "club": "Katlehong",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 855,
+    "name": "Lesedi Molefe",
+    "club": "Katlehong",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 856,
+    "name": "Lesego Malgas",
+    "club": "Katlehong",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 857,
+    "name": "Shane Overmeyer",
+    "club": "Kuilsriver",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 858,
+    "name": "Ashish Nathoo",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 859,
+    "name": "Awande Zulu",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 860,
+    "name": "Bimal Jivraj",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 861,
+    "name": "Chetan Nathoo",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 862,
+    "name": "Danisha Patel",
+    "club": "Lenasia",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 863,
+    "name": "Eesa Vachiat",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 864,
+    "name": "Faizaan Hoosen",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 865,
+    "name": "Himal Devchand",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 866,
+    "name": "Ismail Badat",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 867,
+    "name": "Manqoba Nyamate",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 868,
+    "name": "Muaaz Hoosen",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 869,
+    "name": "Muhammed Hansrod",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 870,
+    "name": "Nkululeko Zikalala",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 871,
+    "name": "Samuel Ilori",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 872,
+    "name": "Sameera Maal",
+    "club": "Lenasia",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 874,
+    "name": "Shuaib Ebrahim",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 875,
+    "name": "Sumayya Hansrod",
+    "club": "Lenasia",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 876,
+    "name": "Zayd Hoosen",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 877,
+    "name": "Antony Bullen",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 878,
+    "name": "Arrie Weilbach",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 879,
+    "name": "Asher Abrahams",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 880,
+    "name": "Chanan Hurwitz",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 881,
+    "name": "Cowen Lodewyk",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 882,
+    "name": "Grace Kesval",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 883,
+    "name": "Isabel Bullen",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 884,
+    "name": "Jacob Kata",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 885,
+    "name": "Jason Brickhill",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 886,
+    "name": "Judit Sassu",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 887,
+    "name": "Kristin Kata",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 888,
+    "name": "Larushen Padayachee",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 889,
+    "name": "Liam Beukes",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 890,
+    "name": "Luke Abrahams",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 891,
+    "name": "Mark Williams",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 892,
+    "name": "Netanel Amoils",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 893,
+    "name": "Villyen Motaze",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 894,
+    "name": "Ori Asulin",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 895,
+    "name": "Saeed Tifflin",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 896,
+    "name": "Salma Sheik Hoosen",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 897,
+    "name": "Sam Imiehe",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 898,
+    "name": "Sarah Hunkin",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 899,
+    "name": "Sarah Morsner",
+    "club": "Masters",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 900,
+    "name": "Saul Ephron",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 901,
+    "name": "Shachar Asulin",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 902,
+    "name": "Simon Lipschitz",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 903,
+    "name": "Sumeshan Padayachee",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 904,
+    "name": "Terrence Mathole",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 905,
+    "name": "Tevia Sapire",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 906,
+    "name": "Vaishant Padayachee",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 907,
+    "name": "Lethabo Letoane",
+    "club": "Phumla School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 908,
+    "name": "Nhlanhla Mogatusi",
+    "club": "Phumla School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 909,
+    "name": "Oratile Mogorosi",
+    "club": "Phumla School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 910,
+    "name": "Samantha Utabwarova",
+    "club": "Phumla School",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 911,
+    "name": "Thabo Mobu",
+    "club": "Phumla School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 912,
+    "name": "Xolani Mkhodwane",
+    "club": "Phumla School",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 913,
+    "name": "Anotidaishe Husvu",
+    "club": "PMSC",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 914,
+    "name": "Itumeleng Molahloe",
+    "club": "PMSC",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 915,
+    "name": "Makomborero Husvu",
+    "club": "PMSC",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 916,
+    "name": "Nick Janhi",
+    "club": "PMSC",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 917,
+    "name": "Tadiwanashe Husvu",
+    "club": "PMSC",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 918,
+    "name": "Eddy Buchling",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 919,
+    "name": "Enjun Pan",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 920,
+    "name": "Franklin Rangata",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 921,
+    "name": "Fundo Shangase",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 922,
+    "name": "Given Muyikwa",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 923,
+    "name": "Mubeen Hadjee",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 924,
+    "name": "Nilesh Singh",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 925,
+    "name": "Oladele Olowokere",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 926,
+    "name": "Precious Benson",
+    "club": "Queens",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 927,
+    "name": "Terrywoki Rangata",
+    "club": "Queens",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 928,
+    "name": "Lailaa Edwards",
+    "club": "Raiders",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 929,
+    "name": "Manasseh Manual",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 930,
+    "name": "Saadia Edwards",
+    "club": "Raiders",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 931,
+    "name": "Saiisha Naidu",
+    "club": "Raiders",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 932,
+    "name": "Timothy Brownley",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 933,
+    "name": "Barney Bai",
+    "club": "Rivonia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 934,
+    "name": "Peter Bian",
+    "club": "Rivonia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 935,
+    "name": "Starn Hui",
+    "club": "Rivonia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 936,
+    "name": "Zhibo Hui",
+    "club": "Rivonia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 937,
+    "name": "Pusetso Sekike",
+    "club": "Sedibeng",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 938,
+    "name": "Faheem Essop",
+    "club": "T2",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 939,
+    "name": "Fahim Kadawala",
+    "club": "T2",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 940,
+    "name": "Mohamed Mansoor",
+    "club": "T2",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 941,
+    "name": "Ettienne Engelbrecht",
+    "club": "Tempe Military",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 942,
+    "name": "Refilwe Phoofolo",
+    "club": "Tempe Military",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 943,
+    "name": "Rethabile Molisenyane",
+    "club": "Tempe Military",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 944,
+    "name": "Tankiso Hata",
+    "club": "Tempe Military",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 945,
+    "name": "Vic Carrasco",
+    "club": "Tempe Military",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 946,
+    "name": "Aren Jonker",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 947,
+    "name": "Diyaan Ramchurran",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 948,
+    "name": "Karen Pillay",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 949,
+    "name": "Kritika Totaram",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 950,
+    "name": "Leora Ramchurran",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 951,
+    "name": "Luyanda Ngcobo",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 952,
+    "name": "Mikaylla Totaram",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 953,
+    "name": "Nevadya Rampersad",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 954,
+    "name": "Nitara Totaram",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 955,
+    "name": "Sivarna Sivnannan",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 956,
+    "name": "Syriana Sivnannan",
+    "club": "Titans",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 957,
+    "name": "Umair Patel",
+    "club": "Titans",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 958,
+    "name": "Boingotlo Mothupi",
+    "club": "Warriors",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 959,
+    "name": "Boipelo Mashwabi",
+    "club": "Warriors",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 960,
+    "name": "Cedric Modise",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 961,
+    "name": "Gift Hlatshwayo",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 962,
+    "name": "Godfrey Molete",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 963,
+    "name": "Hareteke Mapeshoane",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 964,
+    "name": "Kgalalelo Phekonyana",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 965,
+    "name": "Mamolatuli Mpesi",
+    "club": "Warriors",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 966,
+    "name": "Mnikelo Dry",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 967,
+    "name": "Oreneile Moraile",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 968,
+    "name": "Rethabile Modisenyane",
+    "club": "Warriors",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 969,
+    "name": "Simone Mahlamvu",
+    "club": "Warriors",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 970,
+    "name": "Sipho Booi",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 971,
+    "name": "William Rafube",
+    "club": "Warriors",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 972,
+    "name": "Abdul Hay",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 973,
+    "name": "Ashen Maharaj",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 974,
+    "name": "Damon Beeby",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 975,
+    "name": "Keshmika Sivnarain",
+    "club": "Waterfall",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 976,
+    "name": "Qianfei Wang",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 977,
+    "name": "Vuppala Kumar",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 978,
+    "name": "Xingkong Wang",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 979,
+    "name": "Simon Dimant",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 980,
+    "name": "Aaron Makhalema",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 981,
+    "name": "Alon Argaman",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 982,
+    "name": "Amichai Asulin",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 983,
+    "name": "Amit Vig",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 984,
+    "name": "Amogelang Thabethe",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 985,
+    "name": "Boitlamo Nkele",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 986,
+    "name": "Carol David",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 987,
+    "name": "Dhaarmic Karthik",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 988,
+    "name": "Diyaan Nagardas",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 989,
+    "name": "Ewan Booyens",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 990,
+    "name": "Ezile Ndywabasini",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 991,
+    "name": "Gift Nxumalo",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 992,
+    "name": "Itumeleng Ntsokoane",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 993,
+    "name": "Jacobus Maree",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 994,
+    "name": "Lebohang Lekhotla",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 995,
+    "name": "Liso Sibango",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 996,
+    "name": "Lunga Mntambo",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 997,
+    "name": "Lwanele Kulu",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 998,
+    "name": "Mamokgethi Dintso",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 999,
+    "name": "Nthabiseng Thabethe",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1000,
+    "name": "Reneilwe Lekorwe",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1001,
+    "name": "Retshepile Masumothe",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1002,
+    "name": "Sello Phushudi",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1003,
+    "name": "Siviwe Gwebani",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1004,
+    "name": "Sthabile Mnyandu",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1005,
+    "name": "Tebogo Kgatitswe",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1006,
+    "name": "Thato Kgongwana",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1007,
+    "name": "Tinashe Dzvaka",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1008,
+    "name": "Tony Su",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1009,
+    "name": "Tshepo Majoe",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1010,
+    "name": "Zodwa Maphanga",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1011,
+    "name": "Reitumetse Maome",
+    "club": "unknown_club",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1012,
+    "name": "Andiswa Shangase",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1013,
+    "name": "Ishaan Gokhale",
+    "club": "unknown_club",
+    "gender": "Male"
   }
 ]
