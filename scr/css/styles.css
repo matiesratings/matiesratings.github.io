@@ -6,6 +6,8 @@ table {
     background-color: black;
     color: white;
     border: 2px solid maroon;
+    table-layout: fixed; /* prevents cells from stretching */
+    font-size: clamp(10px, 2vw, 14px); /* scale text based on screen size */
 }
 
 th, td {
@@ -274,6 +276,12 @@ input[type="text"]#clubFilter {
 @media (max-width: 480px) {
     table {
         width: 100%; /* Table takes full width on very small screens */
+    }
+    td, th{
+        padding: 4px;
+        /* overflow: hidden; */
+        /* text-overflow: ellipsis; */
+        /* white-space: nowrap; Prevent text from wrapping */
     }
 
     .filters {
