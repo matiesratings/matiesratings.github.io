@@ -1,51 +1,4 @@
-let matchData = [];
 
-// Load match data
-fetch('scr/data/json/matches.json')
-    .then(response => response.json())
-    .then(data => {
-        matchData = data;
-        displayData(matchData);
-        populateDropdowns();
-    })
-    .catch(error => console.error("Error loading JSON:", error));
-    document.getElementById("categorySelector").value = "Men's Singles";
-
-function displayData(data) {
-    const tableBody = document.getElementById("match-table");
-    tableBody.innerHTML = "";
-
-    if (data.length === 0) {
-        let row = document.createElement("tr");
-        let cell = document.createElement("td");
-        cell.colSpan = 10;
-        cell.textContent = "Results coming soon...";
-        cell.style.color = "white";
-        cell.style.backgroundColor = "black";
-        cell.style.border = "1px solid maroon";
-        cell.style.padding = "10px";
-        cell.style.fontSize = "24px";  // Adjust this value as needed
-        row.appendChild(cell);
-        tableBody.appendChild(row);
-        return;
-    }
-
-    data.slice(0, 100).forEach(match => {
-        let row = `<tr>
-        <td>${match.match_id}</td>
-        <td>${match.match_date}</td>
-        <td>${match.event_name}</td>
-        <td>${match.event_type}</td>
-        <td>${match.category}</td>
-        <td>${match.province}</td>
-        <td>${match.stage}</td>
-        <td>${match.winner}</td>
-        <td>${match.loser}</td>
-        <td>${match.score}</td>
-        </tr>`;
-        tableBody.innerHTML += row;
-    });
-}
 
 let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 let toggleCount = 0;
@@ -239,108 +192,111 @@ function toggleNav() {
 
 
 
-function sortTable(columnIndex) {
-    // Fetch match data again
+let matchData = [];
+
+function loadMatchData() {
     fetch('scr/data/json/matches.json')
         .then(response => response.json())
         .then(data => {
-            // Apply filters first
-            let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-            let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
-            let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
-            let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
-            let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
-            let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
-            let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
-            let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
-            if (categoryFilter === "all") {
-                categoryFilter = ""; // Allow all categories
-            }
-            
-            // Filter the data based on input values
-            let filteredData = data.filter(match => {
-                return (
-                    (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
-                    (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
-                    (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
-                    (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
-                    (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
-                    (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
-                    (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
-                    (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
-                );
-            });
-
-            // Toggle direction: true for ascending, false for descending
-            sortDirections[columnIndex] = !sortDirections[columnIndex];
-
-            // Column mapping based on the columnIndex
-            const columnMapping = [
-                'match_id',        // 0: match_id
-                'match_date',      // 1: match_date
-                'event_name',      // 2: event_name
-                'event_type',      // 3: event_type
-                'category',        // 4: category
-                'province',        // 5: province
-                'stage',           // 6: stage
-                'winner',          // 7: winner
-                'loser',           // 8: loser
-                'score'            // 9: score
-            ];
-
-            // Sort the filtered data based on the selected column
-            let sortedData = filteredData.sort((a, b) => {
-                const propA = a[columnMapping[columnIndex]];
-                const propB = b[columnMapping[columnIndex]];
-
-                // If the property is a number, compare numerically
-                if (!isNaN(propA) && !isNaN(propB)) {
-                    return sortDirections[columnIndex] ? propA - propB : propB - propA;
-                }
-
-                // Otherwise, compare lexicographically (strings)
-                return sortDirections[columnIndex] ? propA.localeCompare(propB) : propB.localeCompare(propA);
-            });
-
-
-            displayData(sortedData);
+            matchData = data;
+            displayData(matchData.slice(0, 100)); // Display first 10 matches initially
+            populateDropdowns();
         })
         .catch(error => console.error("Error loading JSON:", error));
 }
 
-function filterTable() {
-    let nameFilter = document.getElementById("nameFilter").value.toLowerCase();
-    let winnerFilter = document.getElementById("winnerFilter").value.toLowerCase();
-    let loserFilter = document.getElementById("loserFilter").value.toLowerCase();
-    let eventFilter = document.getElementById("eventFilter").value.toLowerCase();
-    let categoryFilter = document.getElementById("categorySelector").value.toLowerCase();
-    let eventTypeFilter = document.getElementById("eventTypeFilter").value.toLowerCase();
-    let provinceFilter = document.getElementById("provinceFilter").value.toLowerCase();
-    let stageFilter = document.getElementById("stageFilter").value.toLowerCase();
-    if (categoryFilter === "all") {
-        categoryFilter = ""; // Allow all categories
+loadMatchData();
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("categorySelector").value = "All";
+});
+
+function displayData(data) {
+    const tableBody = document.getElementById("match-table");
+    tableBody.innerHTML = "";
+
+    if (data.length === 0) {
+        const row = tableBody.insertRow();
+        const cell = row.insertCell();
+        cell.colSpan = 10;
+        cell.textContent = "Results coming soon...";
+        Object.assign(cell.style, {
+            color: "white",
+            backgroundColor: "black",
+            border: "1px solid maroon",
+            padding: "10px",
+            fontSize: "24px"
+        });
+        return;
     }
 
-    // Fetch match data again
-    fetch('scr/data/json/matches.json')
-        .then(response => response.json())
-        .then(data => {
-            // Filter the data
-            let filteredData = data.filter(match => {
-                return (
-                    (nameFilter === "" || match.winner.toLowerCase().includes(nameFilter) || match.loser.toLowerCase().includes(nameFilter)) &&
-                    (winnerFilter === "" || match.winner.toLowerCase().includes(winnerFilter)) &&
-                    (loserFilter === "" || match.loser.toLowerCase().includes(loserFilter)) &&
-                    (eventFilter === "" || match.event_name.toLowerCase().includes(eventFilter)) &&
-                    (categoryFilter === "" || match.category.toLowerCase().includes(categoryFilter)) &&
-                    (eventTypeFilter === "" || match.event_type.toLowerCase().includes(eventTypeFilter)) &&
-                    (provinceFilter === "" || match.province.toLowerCase().includes(provinceFilter)) &&
-                    (stageFilter === "" || match.stage.toLowerCase().includes(stageFilter))
-                );
-            });
+    data.forEach(match => {
+        const row = tableBody.insertRow();
+        Object.values(match).forEach(value => {
+            const cell = row.insertCell();
+            cell.textContent = value;
+        });
+    });
+}
 
-            // Limit results to 100
-            displayData(filteredData);
-        })
-        .catch(error => console.error("Error loading JSON:", error));
+
+function getFilterValues() {
+    const get = id => document.getElementById(id).value;
+    const cat = get("categorySelector");
+    return {
+        name: get("nameFilter"),
+        winner: get("winnerFilter"),
+        loser: get("loserFilter"),
+        event: get("eventFilter"),
+        category: cat === "all" ? "" : cat,
+        eventType: get("eventTypeFilter"),
+        province: get("provinceFilter"),
+        stage: get("stageFilter")
+    };
+}
+
+function applyFilters(data, filters) {
+    console.log("Applying filters:", filters.stage);
+    console.log("Applying filters:", filters.province);
+    console.log("Applying filters:", filters.eventType);
+    console.log("Applying filters:", filters.category);
+    console.log("Applying filters:", filters.event);
+    console.log("Applying filters:", filters.loser);
+    console.log("Applying filters:", filters.winner);
+    console.log("Applying filters:", filters.name);
+
+
+    return data.filter(match => (
+        (!filters.name || match.winner === filters.name || match.loser === filters.name) &&
+        (!filters.winner || match.winner === filters.winner) &&
+        (!filters.loser || match.loser === filters.loser) &&
+        (!filters.event || match.event_name === filters.event) &&
+        (!filters.category || filters.category === "All" || match.category === filters.category) &&
+        (!filters.eventType || match.event_type === filters.eventType) &&
+        (!filters.province || match.province === filters.province) &&
+        (!filters.stage || match.stage === filters.stage)
+    ));
+}
+
+function sortTable(columnIndex) {
+    const filters = getFilterValues();
+    let filtered = applyFilters(matchData, filters);
+
+    const columnMap = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
+    const key = columnMap[columnIndex];
+
+    sortDirections[columnIndex] = !sortDirections[columnIndex];
+    const ascending = sortDirections[columnIndex];
+
+    filtered.sort((a, b) => {
+        const valA = a[key], valB = b[key];
+        return (isNaN(valA) ? valA.localeCompare(valB) : valA - valB) * (ascending ? 1 : -1);
+    });
+
+    displayData(filtered.slice(0, 100)); // Display first 100 matches after sorting
+}
+function filterTable() {
+    const filters = getFilterValues();
+    let filteredData = applyFilters(matchData, filters);
+    displayData(filteredData.slice(0, 100)); // Display first 100 matches after sorting
 }
