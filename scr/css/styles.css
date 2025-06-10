@@ -49,7 +49,9 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: maroon;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     border-radius: 8px;
 }
 h1 {
@@ -64,7 +66,7 @@ h1 {
 input[type="text"] {
     width: 100px; /* Adjusted for first name (9 chars) */
     padding: 5px;
-    margin-top: 5px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -291,7 +293,7 @@ input[type="text"]#clubFilter {
     }
 
     .slider, .slider-container, input[type="text"], .num-input, select {
-        width: 100%; /* Make all form elements full width on small screens */
+        width: 90%; /* Make all form elements full width on small screens */
     }
 
     .slider {
@@ -327,7 +329,7 @@ input[type="text"]#clubFilter {
 .wide-filter-select{
     width: 100px; /* or whatever width fits best */
     padding: 5px;
-    margin-top: 5px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
     text-align: center;
