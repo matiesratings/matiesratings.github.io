@@ -198,18 +198,15 @@ function loadMatchData() {
     fetch('scr/data/json/matches.json')
         .then(response => response.json())
         .then(data => {
+            data.sort((a, b) => new Date(b.match_date) - new Date(a.match_date)); // sort by date descending
             matchData = data;
-            displayData(matchData.slice(0, 100)); // Display first 10 matches initially
+            displayData(matchData.slice(0, 100));
             populateDropdowns();
         })
         .catch(error => console.error("Error loading JSON:", error));
 }
 
 loadMatchData();
-
-document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("categorySelector").value = "All";
-});
 
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
@@ -256,15 +253,6 @@ function getFilterValues() {
 }
 
 function applyFilters(data, filters) {
-    console.log("Applying filters:", filters.stage);
-    console.log("Applying filters:", filters.province);
-    console.log("Applying filters:", filters.eventType);
-    console.log("Applying filters:", filters.category);
-    console.log("Applying filters:", filters.event);
-    console.log("Applying filters:", filters.loser);
-    console.log("Applying filters:", filters.winner);
-    console.log("Applying filters:", filters.name);
-
 
     return data.filter(match => (
         (!filters.name || match.winner === filters.name || match.loser === filters.name) &&
@@ -278,14 +266,18 @@ function applyFilters(data, filters) {
     ));
 }
 
-function sortTable(columnIndex) {
+function sortTable(columnIndex, forceDirection = null) {
     const filters = getFilterValues();
     let filtered = applyFilters(matchData, filters);
 
     const columnMap = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
     const key = columnMap[columnIndex];
 
-    sortDirections[columnIndex] = !sortDirections[columnIndex];
+    if (forceDirection !== null) {
+        sortDirections[columnIndex] = false;
+    } else {
+        sortDirections[columnIndex] = !sortDirections[columnIndex];
+    }
     const ascending = sortDirections[columnIndex];
 
     filtered.sort((a, b) => {
@@ -293,10 +285,19 @@ function sortTable(columnIndex) {
         return (isNaN(valA) ? valA.localeCompare(valB) : valA - valB) * (ascending ? 1 : -1);
     });
 
-    displayData(filtered.slice(0, 100)); // Display first 100 matches after sorting
+    displayData(filtered.slice(0, 100));
 }
+
 function filterTable() {
     const filters = getFilterValues();
     let filteredData = applyFilters(matchData, filters);
     displayData(filteredData.slice(0, 100)); // Display first 100 matches after sorting
 }
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    document.getElementById("categorySelector").value = "All";
+
+});
