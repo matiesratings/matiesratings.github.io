@@ -260,7 +260,6 @@ input[type="text"]#clubFilter {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     .hamburger {
         display: flex;
@@ -268,13 +267,13 @@ input[type="text"]#clubFilter {
 
 }
 
+
 .nav-links.active li {
     text-align: center;
     background-color: maroon;
     padding: 10px;
     width: 80%;
 }
-
 .nav-links.active a {
     padding: 10px;
     width: 100%;
