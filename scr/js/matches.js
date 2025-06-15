@@ -247,7 +247,7 @@ function displayData(data) {
     if (data.length === 0) {
         const row = tableBody.insertRow();
         const cell = row.insertCell();
-        cell.colSpan = window.innerWidth > 480 ? 10 : 5;
+        cell.colSpan = window.innerWidth > 480 ? 10 : 4;
         cell.textContent = "Results coming soon...";
         Object.assign(cell.style, {
             color: "white",
@@ -262,12 +262,15 @@ function displayData(data) {
     // Get the visible column indices by checking the header row
     const headerCells = document.querySelectorAll("#match-table-head th");
     const visibleColumnIndices = [];
+    const isMobile = window.innerWidth < 780;
+
     headerCells.forEach((th, index) => {
-        if (!th.classList.contains("mobile-hidden-col")) {
+        const isHiddenMobileCol = th.classList.contains("mobile-hidden-col");
+        if (!(isMobile && isHiddenMobileCol)) {
             visibleColumnIndices.push(index);
-            console.log(`Column ${index} is visible: ${th.textContent}`);
         }
     });
+
 
     data.forEach(match => {
         const row = tableBody.insertRow();
