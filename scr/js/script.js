@@ -39,6 +39,13 @@ function displayEmpty(){
     let row = document.createElement("tr");
     let cell = document.createElement("td");
     cell.colSpan = 6;
+    
+    if (window.innerWidth > 480) {
+        cell.colSpan = 6;
+    } else {
+        cell.colSpan = 3;
+    }
+
     cell.textContent = "Results coming soon...";
     cell.style.color = "white";
     cell.style.backgroundColor = "black";
@@ -57,15 +64,17 @@ function displayData(data) {
         displayEmpty();
         return;
     }
+
+
     data.slice(0, 100).forEach(player => {
-        let row = `<tr>
-            <td>${player.maties_id}</td>
-            <td>${player.name}</td>
-            <td>${player.club}</td>
-            <td>${player.rating}</td>
-            <td>${player.played}</td>
-            <td>${player.win_per}</td>
-        </tr>`;
+        let row = `<tr>`;
+        row += `<td class="mobile-hidden-col">${player.maties_id}</td>`;
+        row += `<td>${player.name}</td>`;
+        row += `<td class="mobile-hidden-col">${player.club}</td>`;
+        row += `<td>${player.rating}</td>`;
+        row += `<td class="mobile-hidden-col">${player.played}</td>`;
+        row += `<td>${player.win_per}</td>`;
+        row += `</tr>`;
         tableBody.innerHTML += row;
     });
 }

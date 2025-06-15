@@ -287,7 +287,9 @@ input[type="text"]#clubFilter {
     td, th{
         padding: 4px;
     }
-
+    .mobile-hidden-col {
+        display: none;
+    }
     .filters {
         gap: 5px; /* Tighten up filter spacing on very small screens */
     }
