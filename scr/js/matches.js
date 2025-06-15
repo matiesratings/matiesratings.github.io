@@ -208,6 +208,38 @@ function loadMatchData() {
 
 loadMatchData();
 
+// function displayData(data) {
+//     const tableBody = document.getElementById("match-table");
+//     tableBody.innerHTML = "";
+
+//     if (data.length === 0) {
+//         const row = tableBody.insertRow();
+//         const cell = row.insertCell();
+//         if (window.innerWidth > 480) {
+//             cell.colSpan = 10;
+//         } else {
+//             cell.colSpan = 5;
+//         }
+
+//         cell.textContent = "Results coming soon...";
+//         Object.assign(cell.style, {
+//             color: "white",
+//             backgroundColor: "black",
+//             border: "1px solid maroon",
+//             padding: "10px",
+//             fontSize: "24px"
+//         });
+//         return;
+//     }
+
+//     data.forEach(match => {
+//         const row = tableBody.insertRow();
+//         Object.values(match).forEach(value => {
+//             const cell = row.insertCell();
+//             cell.textContent = value;
+//         });
+//     });
+// }
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
     tableBody.innerHTML = "";
@@ -215,7 +247,7 @@ function displayData(data) {
     if (data.length === 0) {
         const row = tableBody.insertRow();
         const cell = row.insertCell();
-        cell.colSpan = 10;
+        cell.colSpan = window.innerWidth > 480 ? 10 : 5;
         cell.textContent = "Results coming soon...";
         Object.assign(cell.style, {
             color: "white",
@@ -227,11 +259,22 @@ function displayData(data) {
         return;
     }
 
+    // Get the visible column indices by checking the header row
+    const headerCells = document.querySelectorAll("#match-table-head th");
+    const visibleColumnIndices = [];
+    headerCells.forEach((th, index) => {
+        if (!th.classList.contains("mobile-hidden-col")) {
+            visibleColumnIndices.push(index);
+            console.log(`Column ${index} is visible: ${th.textContent}`);
+        }
+    });
+
     data.forEach(match => {
         const row = tableBody.insertRow();
-        Object.values(match).forEach(value => {
+        const values = Object.values(match);
+        visibleColumnIndices.forEach(index => {
             const cell = row.insertCell();
-            cell.textContent = value;
+            cell.textContent = values[index];
         });
     });
 }

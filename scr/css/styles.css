@@ -112,7 +112,6 @@ input[type="text"], .search-input {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: black;
 }
 
 .nav-links li {
@@ -260,6 +259,8 @@ input[type="text"]#clubFilter {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: black;
+
     }
     .hamburger {
         display: flex;
