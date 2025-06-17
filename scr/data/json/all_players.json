@@ -4303,7 +4303,7 @@
   },
   {
     "maties_id": 728,
-    "name": "Gustav Bekker",
+    "name": "Gustav Becker",
     "club": "Titans",
     "gender": "Male"
   },
@@ -5984,6 +5984,78 @@
   {
     "maties_id": 1013,
     "name": "Ishaan Gokhale",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1014,
+    "name": "Gabriel Reyneke",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1015,
+    "name": "Noah Osman",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1016,
+    "name": "Nathan Harper",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1017,
+    "name": "Jean-Luc Bernardo",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1018,
+    "name": "Wim Kieviet",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1019,
+    "name": "Daniel Lotz",
+    "club": "Growth & Grit",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1020,
+    "name": "David de Villiers",
+    "club": "Growth & Grit",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1021,
+    "name": "Neil Grobbelaar",
+    "club": "Growth & Grit",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1022,
+    "name": "Andria van Tonder",
+    "club": "Growth & Grit",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1023,
+    "name": "Juan Engelbrecht",
+    "club": "Growth & Grit",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1024,
+    "name": "Evan Eckstein",
+    "club": "Growth & Grit",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1025,
+    "name": "Willem Coetzee",
     "club": "unknown_club",
     "gender": "Male"
   }
