@@ -5479,7 +5479,7 @@
   },
   {
     "maties_id": 929,
-    "name": "Manasseh Manual",
+    "name": "Menasseh Manuel",
     "club": "Raiders",
     "gender": "Male"
   },
@@ -5522,7 +5522,7 @@
   {
     "maties_id": 936,
     "name": "Zhibo Hui",
-    "club": "Rivonia",
+    "club": "Queens",
     "gender": "Male"
   },
   {
@@ -5978,7 +5978,7 @@
   {
     "maties_id": 1012,
     "name": "Andiswa Shangase",
-    "club": "unknown_club",
+    "club": "Queens",
     "gender": "Male"
   },
   {
@@ -6057,6 +6057,414 @@
     "maties_id": 1025,
     "name": "Willem Coetzee",
     "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1026,
+    "name": "Andrew Spottiswoode",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1027,
+    "name": "Cleef Bailey",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1028,
+    "name": "Clinton Subban",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1029,
+    "name": "Dan\u00e9 Le Roux",
+    "club": "Blue Fountains",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1030,
+    "name": "Gavin Heffer",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1031,
+    "name": "George Bylos",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1032,
+    "name": "Ian Masaga",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1033,
+    "name": "Jason Werbeloff",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1034,
+    "name": "Karun Jeebodh",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1035,
+    "name": "Kerri-Ann Jacobs",
+    "club": "Blue Fountains",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1036,
+    "name": "Kian Tavaria",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1037,
+    "name": "Marili Engelbrecht",
+    "club": "Blue Fountains",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1038,
+    "name": "Markus Konrad",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1039,
+    "name": "Matieho Letsoenyo",
+    "club": "Blue Fountains",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1040,
+    "name": "Matt Gilchrist",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1041,
+    "name": "Philip Haslam",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1042,
+    "name": "Phillip Jordaan",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1043,
+    "name": "Prakash Singh",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1044,
+    "name": "Rinaldo Baratti",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1045,
+    "name": "Rustum Tavaria",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1046,
+    "name": "Sipho Ndara",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1047,
+    "name": "Tony Chuang",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1048,
+    "name": "Uli Kehlert",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1049,
+    "name": "Uwe Hohl",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1050,
+    "name": "Vernon Maney",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1051,
+    "name": "WJ Kuhn",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1052,
+    "name": "Zunaid Captieux",
+    "club": "Blue Fountains",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1053,
+    "name": "Curtly Williams",
+    "club": "Flames",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1054,
+    "name": "Dean Davis",
+    "club": "Flames",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1055,
+    "name": "Sheldon Mayet",
+    "club": "Flames",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1056,
+    "name": "Amit Nana",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1057,
+    "name": "Branden Bartlett",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1058,
+    "name": "Mubeen Chan",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1059,
+    "name": "Safie Ismael",
+    "club": "Lenasia",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1064,
+    "name": "Dean Levy",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1066,
+    "name": "Melvin Van Zyl",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1067,
+    "name": "Naftali Kavonic\u00a0",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1068,
+    "name": "Rainer Sztab",
+    "club": "Masters",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1069,
+    "name": "Ameet Kunver",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1070,
+    "name": "Amukelani Baloyi",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1072,
+    "name": "James Carrolus",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1073,
+    "name": "Juergen Suplit",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1074,
+    "name": "Qijia Jiang",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1075,
+    "name": "Roland Bouchat",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1076,
+    "name": "Yu-Bia Cai",
+    "club": "Queens",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1077,
+    "name": "Zahra Salie",
+    "club": "Queens",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1079,
+    "name": "Ebrahim Jappie",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1080,
+    "name": "Faheema Sayed",
+    "club": "Raiders",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1081,
+    "name": "Fanie Kloppers",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1082,
+    "name": "Joe Carrim",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1083,
+    "name": "Moegammad Isaacs",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1084,
+    "name": "Quinton Volkwyn",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1085,
+    "name": "Rodrique Volkwyn",
+    "club": "Raiders",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1086,
+    "name": "Morule Motlhaloga",
+    "club": "Soweto",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1087,
+    "name": "Tebogo Malapane",
+    "club": "Soweto",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1088,
+    "name": "Thabiso Marota",
+    "club": "Soweto",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1089,
+    "name": "Arijit Ghosh",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1090,
+    "name": "David Oulassevitch",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1091,
+    "name": "Kalpesh Hira",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1092,
+    "name": "Onkgopotse Masote",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1093,
+    "name": "Prahlad Parmar",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1094,
+    "name": "Prem Vuppala",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1095,
+    "name": "Rashmika Ramphal\u00a0",
+    "club": "Waterfall",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1096,
+    "name": "Rowan Pillay",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1097,
+    "name": "Surajh Surjoo",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1098,
+    "name": "Varshanth Ramjathan",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1099,
+    "name": "Viresh Mitha",
+    "club": "Waterfall",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1100,
+    "name": "Wenjun Huang",
+    "club": "Waterfall",
     "gender": "Male"
   }
 ]

@@ -92,16 +92,10 @@ if __name__ == "__main__":
         "bu11_ratings.json", "gu11_ratings.json"
     ], output_folder)
 
-    # convert_csv_to_json(input_folder / "Player List (2025-06-17).csv", Path(output_folder / "all_players.json"))
-    # convert_matches(input_folder / "Match Results (2025-06-17).csv", Path(output_folder /"matches.json"))
-    # extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
-    convert_ratings(input_folder/"Ratings (2025-06-17).csv", Path(output_folder / "open_ratings.json"))
-
-    # with open('json/matches.json', 'r') as f:
-    #     data = json.load(f)
-
-    # print(f"Total matches: {len(data)}")
-
+    convert_csv_to_json(input_folder / "Player List (2025-06-30).csv", Path(output_folder / "all_players.json"))
+    convert_matches(input_folder / "Match Results (2025-06-30).csv", Path(output_folder /"matches.json"))
+    extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
+    convert_ratings(input_folder/"Open Ratings (2025-06-30).csv", Path(output_folder / "open_ratings.json"))
 
 
 
