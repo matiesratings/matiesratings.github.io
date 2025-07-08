@@ -27,7 +27,11 @@ function displayData(data) {
     data.slice(0, 100).forEach(player => {
         let row = `<tr>
             <td>${player.maties_id}</td>
-            <td>${player.name}</td>
+            <td>
+                <a href="player.html?name=${encodeURIComponent(player.name)}"; class="player-link"">
+                    ${player.name}
+                </a>
+            </td>
             <td>${player.club}</td>
             <td>${player.gender}</td>
         </tr>`;

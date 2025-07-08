@@ -5,7 +5,10 @@
     "club": "Lenasia",
     "rating": "1661",
     "played": "35",
-    "win_per": "94.3"
+    "win_per": "94.3",
+    "won": "33",
+    "lost": "2",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "516",
@@ -13,7 +16,10 @@
     "club": "Duinefontein",
     "rating": "1585",
     "played": "18",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "18",
+    "lost": "0",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "836",
@@ -21,7 +27,10 @@
     "club": "CSIR",
     "rating": "1582",
     "played": "31",
-    "win_per": "87.1"
+    "win_per": "87.1",
+    "won": "27",
+    "lost": "4",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "330",
@@ -29,7 +38,10 @@
     "club": "Community House",
     "rating": "1559",
     "played": "16",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "16",
+    "lost": "0",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "264",
@@ -37,7 +49,10 @@
     "club": "Community House",
     "rating": "1552",
     "played": "23",
-    "win_per": "87.0"
+    "win_per": "87.0",
+    "won": "20",
+    "lost": "3",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "364",
@@ -45,7 +60,10 @@
     "club": "Liv-Ken",
     "rating": "1549",
     "played": "18",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "18",
+    "lost": "0",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "862",
@@ -53,7 +71,10 @@
     "club": "Lenasia",
     "rating": "1546",
     "played": "28",
-    "win_per": "85.7"
+    "win_per": "85.7",
+    "won": "24",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "256",
@@ -61,7 +82,10 @@
     "club": "Boundary",
     "rating": "1540",
     "played": "18",
-    "win_per": "94.4"
+    "win_per": "94.4",
+    "won": "17",
+    "lost": "1",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "890",
@@ -69,7 +93,10 @@
     "club": "Masters",
     "rating": "1539",
     "played": "19",
-    "win_per": "94.7"
+    "win_per": "94.7",
+    "won": "18",
+    "lost": "1",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "533",
@@ -77,7 +104,10 @@
     "club": "Duinefontein",
     "rating": "1530",
     "played": "20",
-    "win_per": "90.0"
+    "win_per": "90.0",
+    "won": "18",
+    "lost": "2",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "905",
@@ -85,7 +115,10 @@
     "club": "Masters",
     "rating": "1523",
     "played": "29",
-    "win_per": "86.2"
+    "win_per": "86.2",
+    "won": "25",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "560",
@@ -93,7 +126,10 @@
     "club": "Stephanians",
     "rating": "1511",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "891",
@@ -101,7 +137,10 @@
     "club": "Masters",
     "rating": "1509",
     "played": "25",
-    "win_per": "92.0"
+    "win_per": "92.0",
+    "won": "23",
+    "lost": "2",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "244",
@@ -109,7 +148,10 @@
     "club": "Boundary",
     "rating": "1505",
     "played": "22",
-    "win_per": "90.9"
+    "win_per": "90.9",
+    "won": "20",
+    "lost": "2",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "147",
@@ -117,7 +159,10 @@
     "club": "MP Royals",
     "rating": "1501",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "889",
@@ -125,7 +170,10 @@
     "club": "Masters",
     "rating": "1500",
     "played": "27",
-    "win_per": "88.9"
+    "win_per": "88.9",
+    "won": "24",
+    "lost": "3",
+    "last_played": "2025-05-19"
   },
   {
     "maties_id": "885",
@@ -133,7 +181,10 @@
     "club": "Masters",
     "rating": "1490",
     "played": "35",
-    "win_per": "82.9"
+    "win_per": "82.9",
+    "won": "29",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "347",
@@ -141,7 +192,10 @@
     "club": "Liv-Ken",
     "rating": "1486",
     "played": "16",
-    "win_per": "87.5"
+    "win_per": "87.5",
+    "won": "14",
+    "lost": "2",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "972",
@@ -149,7 +203,10 @@
     "club": "Waterfall",
     "rating": "1485",
     "played": "36",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "27",
+    "lost": "9",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "424",
@@ -157,7 +214,10 @@
     "club": "Ravens",
     "rating": "1478",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "242",
@@ -165,7 +225,10 @@
     "club": "Boundary",
     "rating": "1465",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "540",
@@ -173,7 +236,10 @@
     "club": "Goodwood",
     "rating": "1451",
     "played": "16",
-    "win_per": "81.3"
+    "win_per": "81.3",
+    "won": "13",
+    "lost": "3",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "354",
@@ -181,7 +247,10 @@
     "club": "Liv-Ken",
     "rating": "1449",
     "played": "16",
-    "win_per": "81.3"
+    "win_per": "81.3",
+    "won": "13",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "379",
@@ -189,7 +258,10 @@
     "club": "Nexus",
     "rating": "1449",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "95",
@@ -197,7 +269,10 @@
     "club": "Top",
     "rating": "1443",
     "played": "22",
-    "win_per": "68.2"
+    "win_per": "68.2",
+    "won": "15",
+    "lost": "7",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "881",
@@ -205,7 +280,10 @@
     "club": "Masters",
     "rating": "1442",
     "played": "14",
-    "win_per": "92.9"
+    "win_per": "92.9",
+    "won": "13",
+    "lost": "1",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "388",
@@ -213,7 +291,10 @@
     "club": "Nexus",
     "rating": "1441",
     "played": "20",
-    "win_per": "80.0"
+    "win_per": "80.0",
+    "won": "16",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "688",
@@ -221,7 +302,10 @@
     "club": "Stephanians",
     "rating": "1440",
     "played": "20",
-    "win_per": "80.0"
+    "win_per": "80.0",
+    "won": "16",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "341",
@@ -229,7 +313,10 @@
     "club": "Liv-Ken",
     "rating": "1439",
     "played": "16",
-    "win_per": "87.5"
+    "win_per": "87.5",
+    "won": "14",
+    "lost": "2",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "924",
@@ -237,7 +324,10 @@
     "club": "Queens",
     "rating": "1439",
     "played": "28",
-    "win_per": "67.9"
+    "win_per": "67.9",
+    "won": "19",
+    "lost": "9",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "872",
@@ -245,7 +335,10 @@
     "club": "Lenasia",
     "rating": "1437",
     "played": "14",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "14",
+    "lost": "0",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "216",
@@ -253,7 +346,10 @@
     "club": "Bishop Lavis",
     "rating": "1434",
     "played": "20",
-    "win_per": "80.0"
+    "win_per": "80.0",
+    "won": "16",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "289",
@@ -261,7 +357,10 @@
     "club": "Community House",
     "rating": "1434",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "519",
@@ -269,7 +368,10 @@
     "club": "Duinefontein",
     "rating": "1433",
     "played": "16",
-    "win_per": "93.8"
+    "win_per": "93.8",
+    "won": "15",
+    "lost": "1",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "904",
@@ -277,7 +379,10 @@
     "club": "Masters",
     "rating": "1433",
     "played": "15",
-    "win_per": "80.0"
+    "win_per": "80.0",
+    "won": "12",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1068",
@@ -285,7 +390,10 @@
     "club": "Masters",
     "rating": "1433",
     "played": "10",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "10",
+    "lost": "0",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "378",
@@ -293,7 +401,10 @@
     "club": "Nexus",
     "rating": "1432",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "594",
@@ -301,7 +412,10 @@
     "club": "Stephanians",
     "rating": "1432",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "426",
@@ -309,7 +423,10 @@
     "club": "Ravens",
     "rating": "1431",
     "played": "20",
-    "win_per": "70.0"
+    "win_per": "70.0",
+    "won": "14",
+    "lost": "6",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "866",
@@ -317,7 +434,10 @@
     "club": "Lenasia",
     "rating": "1423",
     "played": "24",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "18",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "156",
@@ -325,7 +445,10 @@
     "club": "MP Royals",
     "rating": "1420",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "485",
@@ -333,7 +456,10 @@
     "club": "Duinefontein",
     "rating": "1420",
     "played": "18",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "12",
+    "lost": "6",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "1051",
@@ -341,7 +467,10 @@
     "club": "Blue Fountains",
     "rating": "1420",
     "played": "22",
-    "win_per": "95.5"
+    "win_per": "95.5",
+    "won": "21",
+    "lost": "1",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "545",
@@ -349,7 +478,10 @@
     "club": "Goodwood",
     "rating": "1419",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "897",
@@ -357,7 +489,10 @@
     "club": "Masters",
     "rating": "1419",
     "played": "30",
-    "win_per": "76.7"
+    "win_per": "76.7",
+    "won": "23",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "503",
@@ -365,7 +500,10 @@
     "club": "Duinefontein",
     "rating": "1417",
     "played": "18",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "12",
+    "lost": "6",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "263",
@@ -373,7 +511,10 @@
     "club": "Community House",
     "rating": "1416",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "335",
@@ -381,7 +522,10 @@
     "club": "Liv-Ken",
     "rating": "1416",
     "played": "12",
-    "win_per": "91.7"
+    "win_per": "91.7",
+    "won": "11",
+    "lost": "1",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "161",
@@ -389,7 +533,10 @@
     "club": "MP Royals",
     "rating": "1415",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "564",
@@ -397,7 +544,10 @@
     "club": "Stephanians",
     "rating": "1415",
     "played": "14",
-    "win_per": "92.9"
+    "win_per": "92.9",
+    "won": "13",
+    "lost": "1",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "179",
@@ -405,7 +555,10 @@
     "club": "SP Saints",
     "rating": "1413",
     "played": "18",
-    "win_per": "72.2"
+    "win_per": "72.2",
+    "won": "13",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "189",
@@ -413,7 +566,10 @@
     "club": "SP Saints",
     "rating": "1412",
     "played": "16",
-    "win_per": "87.5"
+    "win_per": "87.5",
+    "won": "14",
+    "lost": "2",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "382",
@@ -421,7 +577,10 @@
     "club": "Nexus",
     "rating": "1408",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "514",
@@ -429,7 +588,10 @@
     "club": "Duinefontein",
     "rating": "1406",
     "played": "14",
-    "win_per": "85.7"
+    "win_per": "85.7",
+    "won": "12",
+    "lost": "2",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "857",
@@ -437,7 +599,10 @@
     "club": "Kuilsriver",
     "rating": "1402",
     "played": "12",
-    "win_per": "91.7"
+    "win_per": "91.7",
+    "won": "11",
+    "lost": "1",
+    "last_played": "2025-04-28"
   },
   {
     "maties_id": "233",
@@ -445,7 +610,10 @@
     "club": "Bishop Lavis",
     "rating": "1399",
     "played": "14",
-    "win_per": "85.7"
+    "win_per": "85.7",
+    "won": "12",
+    "lost": "2",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "333",
@@ -453,7 +621,10 @@
     "club": "DLPE",
     "rating": "1399",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1034",
@@ -461,7 +632,10 @@
     "club": "Blue Fountains",
     "rating": "1398",
     "played": "24",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "20",
+    "lost": "4",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "339",
@@ -469,7 +643,10 @@
     "club": "Liv-Ken",
     "rating": "1396",
     "played": "18",
-    "win_per": "72.2"
+    "win_per": "72.2",
+    "won": "13",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "154",
@@ -477,7 +654,10 @@
     "club": "MP Royals",
     "rating": "1395",
     "played": "18",
-    "win_per": "72.2"
+    "win_per": "72.2",
+    "won": "13",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "340",
@@ -485,7 +665,10 @@
     "club": "Liv-Ken",
     "rating": "1393",
     "played": "18",
-    "win_per": "72.2"
+    "win_per": "72.2",
+    "won": "13",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "416",
@@ -493,7 +676,10 @@
     "club": "Ravens",
     "rating": "1391",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "194",
@@ -501,7 +687,10 @@
     "club": "Steenberg",
     "rating": "1390",
     "played": "16",
-    "win_per": "81.3"
+    "win_per": "81.3",
+    "won": "13",
+    "lost": "3",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "227",
@@ -509,7 +698,10 @@
     "club": "Bishop Lavis",
     "rating": "1389",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "294",
@@ -517,7 +709,10 @@
     "club": "Community House",
     "rating": "1388",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1094",
@@ -525,7 +720,10 @@
     "club": "Waterfall",
     "rating": "1388",
     "played": "28",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "21",
+    "lost": "7",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "51",
@@ -533,7 +731,10 @@
     "club": "CPUT",
     "rating": "1386",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-13"
   },
   {
     "maties_id": "343",
@@ -541,7 +742,10 @@
     "club": "Liv-Ken",
     "rating": "1386",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "166",
@@ -549,7 +753,10 @@
     "club": "MP Royals",
     "rating": "1385",
     "played": "18",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "15",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "160",
@@ -557,7 +764,10 @@
     "club": "MP Royals",
     "rating": "1384",
     "played": "16",
-    "win_per": "81.3"
+    "win_per": "81.3",
+    "won": "13",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "561",
@@ -565,7 +775,10 @@
     "club": "Stephanians",
     "rating": "1382",
     "played": "18",
-    "win_per": "61.1"
+    "win_per": "61.1",
+    "won": "11",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1038",
@@ -573,7 +786,10 @@
     "club": "Blue Fountains",
     "rating": "1382",
     "played": "20",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "15",
+    "lost": "5",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "305",
@@ -581,7 +797,10 @@
     "club": "Community House",
     "rating": "1381",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-05-29"
   },
   {
     "maties_id": "387",
@@ -589,7 +808,10 @@
     "club": "Nexus",
     "rating": "1381",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "173",
@@ -597,7 +819,10 @@
     "club": "MP Royals",
     "rating": "1380",
     "played": "18",
-    "win_per": "88.9"
+    "win_per": "88.9",
+    "won": "16",
+    "lost": "2",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "405",
@@ -605,7 +830,10 @@
     "club": "Protea",
     "rating": "1378",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "164",
@@ -613,7 +841,10 @@
     "club": "MP Royals",
     "rating": "1377",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "6",
@@ -621,7 +852,10 @@
     "club": "Ravens",
     "rating": "1376",
     "played": "22",
-    "win_per": "59.1"
+    "win_per": "59.1",
+    "won": "13",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1028",
@@ -629,7 +863,10 @@
     "club": "Blue Fountains",
     "rating": "1376",
     "played": "24",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "20",
+    "lost": "4",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "246",
@@ -637,7 +874,10 @@
     "club": "Boundary",
     "rating": "1375",
     "played": "12",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "9",
+    "lost": "3",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "255",
@@ -645,7 +885,10 @@
     "club": "Boundary",
     "rating": "1375",
     "played": "18",
-    "win_per": "61.1"
+    "win_per": "61.1",
+    "won": "11",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "522",
@@ -653,7 +896,10 @@
     "club": "Duinefontein",
     "rating": "1373",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "196",
@@ -661,7 +907,10 @@
     "club": "Steenberg",
     "rating": "1368",
     "played": "14",
-    "win_per": "71.4"
+    "win_per": "71.4",
+    "won": "10",
+    "lost": "4",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "311",
@@ -669,7 +918,10 @@
     "club": "Community House",
     "rating": "1368",
     "played": "18",
-    "win_per": "77.8"
+    "win_per": "77.8",
+    "won": "14",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1089",
@@ -677,7 +929,10 @@
     "club": "Waterfall",
     "rating": "1368",
     "played": "24",
-    "win_per": "83.3"
+    "win_per": "83.3",
+    "won": "20",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "157",
@@ -685,7 +940,10 @@
     "club": "MP Royals",
     "rating": "1365",
     "played": "18",
-    "win_per": "55.6"
+    "win_per": "55.6",
+    "won": "10",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1046",
@@ -693,7 +951,10 @@
     "club": "Blue Fountains",
     "rating": "1365",
     "played": "18",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "12",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "807",
@@ -701,7 +962,10 @@
     "club": "Blue Fountains",
     "rating": "1364",
     "played": "31",
-    "win_per": "48.4"
+    "win_per": "48.4",
+    "won": "15",
+    "lost": "16",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "547",
@@ -709,7 +973,10 @@
     "club": "Goodwood",
     "rating": "1363",
     "played": "20",
-    "win_per": "65.0"
+    "win_per": "65.0",
+    "won": "13",
+    "lost": "7",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "1098",
@@ -717,7 +984,10 @@
     "club": "Waterfall",
     "rating": "1360",
     "played": "30",
-    "win_per": "60.0"
+    "win_per": "60.0",
+    "won": "18",
+    "lost": "12",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "373",
@@ -725,7 +995,10 @@
     "club": "Nexus",
     "rating": "1359",
     "played": "20",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "15",
+    "lost": "5",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "370",
@@ -733,7 +1006,10 @@
     "club": "Nexus",
     "rating": "1358",
     "played": "14",
-    "win_per": "78.6"
+    "win_per": "78.6",
+    "won": "11",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "888",
@@ -741,7 +1017,10 @@
     "club": "Masters",
     "rating": "1358",
     "played": "22",
-    "win_per": "77.3"
+    "win_per": "77.3",
+    "won": "17",
+    "lost": "5",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "98",
@@ -749,7 +1028,10 @@
     "club": "Top",
     "rating": "1355",
     "played": "12",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "6",
+    "lost": "6",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "195",
@@ -757,7 +1039,10 @@
     "club": "Steenberg",
     "rating": "1355",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "258",
@@ -765,7 +1050,10 @@
     "club": "Boundary",
     "rating": "1354",
     "played": "18",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "12",
+    "lost": "6",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "155",
@@ -773,7 +1061,10 @@
     "club": "MP Royals",
     "rating": "1351",
     "played": "10",
-    "win_per": "70.0"
+    "win_per": "70.0",
+    "won": "7",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1096",
@@ -781,7 +1072,10 @@
     "club": "Waterfall",
     "rating": "1351",
     "played": "20",
-    "win_per": "80.0"
+    "win_per": "80.0",
+    "won": "16",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "496",
@@ -789,7 +1083,10 @@
     "club": "Duinefontein",
     "rating": "1350",
     "played": "18",
-    "win_per": "55.6"
+    "win_per": "55.6",
+    "won": "10",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1073",
@@ -797,7 +1094,10 @@
     "club": "Queens",
     "rating": "1348",
     "played": "20",
-    "win_per": "55.0"
+    "win_per": "55.0",
+    "won": "11",
+    "lost": "9",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "397",
@@ -805,7 +1105,10 @@
     "club": "Nexus",
     "rating": "1346",
     "played": "12",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "8",
+    "lost": "4",
+    "last_played": "2025-05-21"
   },
   {
     "maties_id": "422",
@@ -813,7 +1116,10 @@
     "club": "Ravens",
     "rating": "1345",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1056",
@@ -821,7 +1127,10 @@
     "club": "Lenasia",
     "rating": "1345",
     "played": "24",
-    "win_per": "54.2"
+    "win_per": "54.2",
+    "won": "13",
+    "lost": "11",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "296",
@@ -829,7 +1138,10 @@
     "club": "Community House",
     "rating": "1344",
     "played": "18",
-    "win_per": "61.1"
+    "win_per": "61.1",
+    "won": "11",
+    "lost": "7",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1",
@@ -837,7 +1149,10 @@
     "club": "Maties",
     "rating": "1343",
     "played": "8",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "8",
+    "lost": "0",
+    "last_played": "2025-05-24"
   },
   {
     "maties_id": "104",
@@ -845,7 +1160,10 @@
     "club": "Top",
     "rating": "1342",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "392",
@@ -853,7 +1171,10 @@
     "club": "Nexus",
     "rating": "1342",
     "played": "10",
-    "win_per": "70.0"
+    "win_per": "70.0",
+    "won": "7",
+    "lost": "3",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "266",
@@ -861,7 +1182,10 @@
     "club": "Community House",
     "rating": "1341",
     "played": "8",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "6",
+    "lost": "2",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "810",
@@ -869,7 +1193,10 @@
     "club": "Blue Fountains",
     "rating": "1340",
     "played": "25",
-    "win_per": "60.0"
+    "win_per": "60.0",
+    "won": "15",
+    "lost": "10",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "919",
@@ -877,7 +1204,10 @@
     "club": "Queens",
     "rating": "1340",
     "played": "24",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "18",
+    "lost": "6",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "577",
@@ -885,7 +1215,10 @@
     "club": "Stephanians",
     "rating": "1336",
     "played": "14",
-    "win_per": "71.4"
+    "win_per": "71.4",
+    "won": "10",
+    "lost": "4",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "391",
@@ -893,7 +1226,10 @@
     "club": "Nexus",
     "rating": "1335",
     "played": "8",
-    "win_per": "100.0"
+    "win_per": "100.0",
+    "won": "8",
+    "lost": "0",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "377",
@@ -901,7 +1237,10 @@
     "club": "Nexus",
     "rating": "1334",
     "played": "10",
-    "win_per": "90.0"
+    "win_per": "90.0",
+    "won": "9",
+    "lost": "1",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "372",
@@ -909,7 +1248,10 @@
     "club": "Nexus",
     "rating": "1333",
     "played": "22",
-    "win_per": "68.2"
+    "win_per": "68.2",
+    "won": "15",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "211",
@@ -917,7 +1259,10 @@
     "club": "UWC",
     "rating": "1331",
     "played": "14",
-    "win_per": "78.6"
+    "win_per": "78.6",
+    "won": "11",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "860",
@@ -925,7 +1270,10 @@
     "club": "Lenasia",
     "rating": "1331",
     "played": "27",
-    "win_per": "70.4"
+    "win_per": "70.4",
+    "won": "19",
+    "lost": "8",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "497",
@@ -933,7 +1281,10 @@
     "club": "Duinefontein",
     "rating": "1330",
     "played": "8",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "6",
+    "lost": "2",
+    "last_played": "2025-05-20"
   },
   {
     "maties_id": "283",
@@ -941,7 +1292,10 @@
     "club": "Community House",
     "rating": "1329",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "928",
@@ -949,7 +1303,10 @@
     "club": "Raiders",
     "rating": "1329",
     "played": "16",
-    "win_per": "43.8"
+    "win_per": "43.8",
+    "won": "7",
+    "lost": "9",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "933",
@@ -957,7 +1314,10 @@
     "club": "Rivonia",
     "rating": "1329",
     "played": "29",
-    "win_per": "55.2"
+    "win_per": "55.2",
+    "won": "16",
+    "lost": "13",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "1033",
@@ -965,7 +1325,10 @@
     "club": "Blue Fountains",
     "rating": "1327",
     "played": "12",
-    "win_per": "91.7"
+    "win_per": "91.7",
+    "won": "11",
+    "lost": "1",
+    "last_played": "2025-05-19"
   },
   {
     "maties_id": "1012",
@@ -973,7 +1336,10 @@
     "club": "Queens",
     "rating": "1326",
     "played": "9",
-    "win_per": "44.4"
+    "win_per": "44.4",
+    "won": "4",
+    "lost": "5",
+    "last_played": "2025-05-05"
   },
   {
     "maties_id": "386",
@@ -981,7 +1347,10 @@
     "club": "Nexus",
     "rating": "1322",
     "played": "16",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "10",
+    "lost": "6",
+    "last_played": "2025-05-29"
   },
   {
     "maties_id": "935",
@@ -989,7 +1358,10 @@
     "club": "Rivonia",
     "rating": "1321",
     "played": "31",
-    "win_per": "48.4"
+    "win_per": "48.4",
+    "won": "15",
+    "lost": "16",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "376",
@@ -997,7 +1369,10 @@
     "club": "Nexus",
     "rating": "1320",
     "played": "10",
-    "win_per": "90.0"
+    "win_per": "90.0",
+    "won": "9",
+    "lost": "1",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "284",
@@ -1005,7 +1380,10 @@
     "club": "Community House",
     "rating": "1319",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "207",
@@ -1013,7 +1391,10 @@
     "club": "UWC",
     "rating": "1316",
     "played": "16",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "12",
+    "lost": "4",
+    "last_played": "2025-06-13"
   },
   {
     "maties_id": "182",
@@ -1021,7 +1402,10 @@
     "club": "SP Saints",
     "rating": "1315",
     "played": "18",
-    "win_per": "72.2"
+    "win_per": "72.2",
+    "won": "13",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "152",
@@ -1029,7 +1413,10 @@
     "club": "MP Royals",
     "rating": "1314",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "100",
@@ -1037,7 +1424,10 @@
     "club": "Top",
     "rating": "1313",
     "played": "20",
-    "win_per": "45.0"
+    "win_per": "45.0",
+    "won": "9",
+    "lost": "11",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "572",
@@ -1045,7 +1435,10 @@
     "club": "Stephanians",
     "rating": "1313",
     "played": "8",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "6",
+    "lost": "2",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "695",
@@ -1053,7 +1446,10 @@
     "club": "Boundary",
     "rating": "1313",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "94",
@@ -1061,7 +1457,10 @@
     "club": "Top",
     "rating": "1312",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "973",
@@ -1069,7 +1468,10 @@
     "club": "Waterfall",
     "rating": "1312",
     "played": "30",
-    "win_per": "63.3"
+    "win_per": "63.3",
+    "won": "19",
+    "lost": "11",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1093",
@@ -1077,7 +1479,10 @@
     "club": "Waterfall",
     "rating": "1312",
     "played": "18",
-    "win_per": "61.1"
+    "win_per": "61.1",
+    "won": "11",
+    "lost": "7",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "499",
@@ -1085,7 +1490,10 @@
     "club": "Duinefontein",
     "rating": "1309",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "536",
@@ -1093,7 +1501,10 @@
     "club": "Goodwood",
     "rating": "1307",
     "played": "12",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "9",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "300",
@@ -1101,7 +1512,10 @@
     "club": "Community House",
     "rating": "1305",
     "played": "20",
-    "win_per": "45.0"
+    "win_per": "45.0",
+    "won": "9",
+    "lost": "11",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "57",
@@ -1109,7 +1523,10 @@
     "club": "CPUT",
     "rating": "1303",
     "played": "16",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "10",
+    "lost": "6",
+    "last_played": "2025-06-13"
   },
   {
     "maties_id": "571",
@@ -1117,7 +1534,10 @@
     "club": "Stephanians",
     "rating": "1302",
     "played": "16",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "10",
+    "lost": "6",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "879",
@@ -1125,7 +1545,10 @@
     "club": "Masters",
     "rating": "1302",
     "played": "16",
-    "win_per": "68.8"
+    "win_per": "68.8",
+    "won": "11",
+    "lost": "5",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "111",
@@ -1133,7 +1556,10 @@
     "club": "Top",
     "rating": "1300",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "218",
@@ -1141,7 +1567,10 @@
     "club": "Bishop Lavis",
     "rating": "1300",
     "played": "8",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "3",
+    "lost": "5",
+    "last_played": "2025-06-07"
   },
   {
     "maties_id": "1027",
@@ -1149,7 +1578,10 @@
     "club": "Blue Fountains",
     "rating": "1298",
     "played": "28",
-    "win_per": "39.3"
+    "win_per": "39.3",
+    "won": "11",
+    "lost": "17",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1030",
@@ -1157,7 +1589,10 @@
     "club": "Blue Fountains",
     "rating": "1297",
     "played": "20",
-    "win_per": "65.0"
+    "win_per": "65.0",
+    "won": "13",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1049",
@@ -1165,7 +1600,10 @@
     "club": "Blue Fountains",
     "rating": "1297",
     "played": "14",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "7",
+    "lost": "7",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "390",
@@ -1173,7 +1611,10 @@
     "club": "Nexus",
     "rating": "1296",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "183",
@@ -1181,7 +1622,10 @@
     "club": "SP Saints",
     "rating": "1295",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "557",
@@ -1189,7 +1633,10 @@
     "club": "Goodwood",
     "rating": "1294",
     "played": "18",
-    "win_per": "44.4"
+    "win_per": "44.4",
+    "won": "8",
+    "lost": "10",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "176",
@@ -1197,7 +1644,10 @@
     "club": "MP Royals",
     "rating": "1293",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "180",
@@ -1205,7 +1655,10 @@
     "club": "SP Saints",
     "rating": "1293",
     "played": "18",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "12",
+    "lost": "6",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "812",
@@ -1213,7 +1666,10 @@
     "club": "Blue Fountains",
     "rating": "1293",
     "played": "22",
-    "win_per": "72.7"
+    "win_per": "72.7",
+    "won": "16",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1090",
@@ -1221,7 +1677,10 @@
     "club": "Waterfall",
     "rating": "1293",
     "played": "8",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "6",
+    "lost": "2",
+    "last_played": "2025-05-19"
   },
   {
     "maties_id": "2",
@@ -1229,7 +1688,10 @@
     "club": "Maties",
     "rating": "1291",
     "played": "11",
-    "win_per": "72.7"
+    "win_per": "72.7",
+    "won": "8",
+    "lost": "3",
+    "last_played": "2025-05-08"
   },
   {
     "maties_id": "149",
@@ -1237,7 +1699,10 @@
     "club": "MP Royals",
     "rating": "1291",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "145",
@@ -1245,7 +1710,10 @@
     "club": "MP Royals",
     "rating": "1287",
     "played": "16",
-    "win_per": "56.3"
+    "win_per": "56.3",
+    "won": "9",
+    "lost": "7",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "165",
@@ -1253,7 +1721,10 @@
     "club": "MP Royals",
     "rating": "1287",
     "played": "12",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "8",
+    "lost": "4",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "292",
@@ -1261,7 +1732,10 @@
     "club": "Community House",
     "rating": "1287",
     "played": "20",
-    "win_per": "55.0"
+    "win_per": "55.0",
+    "won": "11",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "113",
@@ -1269,7 +1743,10 @@
     "club": "Top",
     "rating": "1285",
     "played": "14",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "7",
+    "lost": "7",
+    "last_played": "2025-06-03"
   },
   {
     "maties_id": "932",
@@ -1277,7 +1754,10 @@
     "club": "Raiders",
     "rating": "1285",
     "played": "32",
-    "win_per": "53.1"
+    "win_per": "53.1",
+    "won": "17",
+    "lost": "15",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "286",
@@ -1285,7 +1765,10 @@
     "club": "Community House",
     "rating": "1284",
     "played": "22",
-    "win_per": "40.9"
+    "win_per": "40.9",
+    "won": "9",
+    "lost": "13",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "871",
@@ -1293,7 +1776,10 @@
     "club": "Lenasia",
     "rating": "1284",
     "played": "24",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "9",
+    "lost": "15",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "150",
@@ -1301,7 +1787,10 @@
     "club": "MP Royals",
     "rating": "1283",
     "played": "12",
-    "win_per": "41.7"
+    "win_per": "41.7",
+    "won": "5",
+    "lost": "7",
+    "last_played": "2025-05-14"
   },
   {
     "maties_id": "193",
@@ -1309,7 +1798,10 @@
     "club": "Steenberg",
     "rating": "1283",
     "played": "16",
-    "win_per": "56.3"
+    "win_per": "56.3",
+    "won": "9",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "805",
@@ -1317,7 +1809,10 @@
     "club": "Blue Fountains",
     "rating": "1282",
     "played": "26",
-    "win_per": "61.5"
+    "win_per": "61.5",
+    "won": "16",
+    "lost": "10",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "191",
@@ -1325,7 +1820,10 @@
     "club": "Steenberg",
     "rating": "1281",
     "played": "14",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "7",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "934",
@@ -1333,7 +1831,10 @@
     "club": "Rivonia",
     "rating": "1281",
     "played": "10",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "4",
+    "lost": "6",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "151",
@@ -1341,7 +1842,10 @@
     "club": "MP Royals",
     "rating": "1280",
     "played": "10",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "5",
+    "lost": "5",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "537",
@@ -1349,7 +1853,10 @@
     "club": "Goodwood",
     "rating": "1280",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "205",
@@ -1357,7 +1864,10 @@
     "club": "UWC",
     "rating": "1278",
     "played": "14",
-    "win_per": "64.3"
+    "win_per": "64.3",
+    "won": "9",
+    "lost": "5",
+    "last_played": "2025-06-13"
   },
   {
     "maties_id": "476",
@@ -1365,7 +1875,10 @@
     "club": "Duinefontein",
     "rating": "1278",
     "played": "14",
-    "win_per": "57.1"
+    "win_per": "57.1",
+    "won": "8",
+    "lost": "6",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "79",
@@ -1373,7 +1886,10 @@
     "club": "Top",
     "rating": "1277",
     "played": "12",
-    "win_per": "75.0"
+    "win_per": "75.0",
+    "won": "9",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "381",
@@ -1381,7 +1897,10 @@
     "club": "Nexus",
     "rating": "1277",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "238",
@@ -1389,7 +1908,10 @@
     "club": "Bishop Lavis",
     "rating": "1276",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "580",
@@ -1397,7 +1919,10 @@
     "club": "Stephanians",
     "rating": "1275",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-05-21"
   },
   {
     "maties_id": "186",
@@ -1405,7 +1930,10 @@
     "club": "SP Saints",
     "rating": "1274",
     "played": "18",
-    "win_per": "55.6"
+    "win_per": "55.6",
+    "won": "10",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "291",
@@ -1413,7 +1941,10 @@
     "club": "Community House",
     "rating": "1274",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1043",
@@ -1421,7 +1952,10 @@
     "club": "Blue Fountains",
     "rating": "1273",
     "played": "22",
-    "win_per": "68.2"
+    "win_per": "68.2",
+    "won": "15",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "945",
@@ -1429,7 +1963,10 @@
     "club": "Tempe Military",
     "rating": "1272",
     "played": "8",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "5",
+    "lost": "3",
+    "last_played": "2025-04-28"
   },
   {
     "maties_id": "217",
@@ -1437,7 +1974,10 @@
     "club": "Bishop Lavis",
     "rating": "1270",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1026",
@@ -1445,7 +1985,10 @@
     "club": "Blue Fountains",
     "rating": "1265",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "326",
@@ -1453,7 +1996,10 @@
     "club": "Community House",
     "rating": "1264",
     "played": "12",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "8",
+    "lost": "4",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "556",
@@ -1461,7 +2007,10 @@
     "club": "Goodwood",
     "rating": "1263",
     "played": "22",
-    "win_per": "59.1"
+    "win_per": "59.1",
+    "won": "13",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1059",
@@ -1469,7 +2018,10 @@
     "club": "Lenasia",
     "rating": "1263",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "257",
@@ -1477,7 +2029,10 @@
     "club": "Boundary",
     "rating": "1261",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "338",
@@ -1485,7 +2040,10 @@
     "club": "Liv-Ken",
     "rating": "1261",
     "played": "14",
-    "win_per": "35.7"
+    "win_per": "35.7",
+    "won": "5",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "116",
@@ -1493,7 +2051,10 @@
     "club": "Top",
     "rating": "1260",
     "played": "10",
-    "win_per": "70.0"
+    "win_per": "70.0",
+    "won": "7",
+    "lost": "3",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "118",
@@ -1501,7 +2062,10 @@
     "club": "Top",
     "rating": "1260",
     "played": "16",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "10",
+    "lost": "6",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "425",
@@ -1509,7 +2073,10 @@
     "club": "Ravens",
     "rating": "1260",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "11",
@@ -1517,7 +2084,10 @@
     "club": "Maties",
     "rating": "1257",
     "played": "11",
-    "win_per": "63.6"
+    "win_per": "63.6",
+    "won": "7",
+    "lost": "4",
+    "last_played": "2025-05-24"
   },
   {
     "maties_id": "192",
@@ -1525,7 +2095,10 @@
     "club": "Steenberg",
     "rating": "1256",
     "played": "12",
-    "win_per": "41.7"
+    "win_per": "41.7",
+    "won": "5",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "893",
@@ -1533,7 +2106,10 @@
     "club": "Masters",
     "rating": "1254",
     "played": "8",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "5",
+    "lost": "3",
+    "last_played": "2025-04-28"
   },
   {
     "maties_id": "106",
@@ -1541,7 +2117,10 @@
     "club": "Top",
     "rating": "1253",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "974",
@@ -1549,7 +2128,10 @@
     "club": "Waterfall",
     "rating": "1253",
     "played": "25",
-    "win_per": "32.0"
+    "win_per": "32.0",
+    "won": "8",
+    "lost": "17",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "328",
@@ -1557,7 +2139,10 @@
     "club": "Community House",
     "rating": "1252",
     "played": "18",
-    "win_per": "55.6"
+    "win_per": "55.6",
+    "won": "10",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "353",
@@ -1565,7 +2150,10 @@
     "club": "Liv-Ken",
     "rating": "1252",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "975",
@@ -1573,7 +2161,10 @@
     "club": "Waterfall",
     "rating": "1252",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "163",
@@ -1581,7 +2172,10 @@
     "club": "MP Royals",
     "rating": "1251",
     "played": "12",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "6",
+    "lost": "6",
+    "last_played": "2025-05-15"
   },
   {
     "maties_id": "175",
@@ -1589,7 +2183,10 @@
     "club": "MP Royals",
     "rating": "1251",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "811",
@@ -1597,7 +2194,10 @@
     "club": "Blue Fountains",
     "rating": "1250",
     "played": "33",
-    "win_per": "48.5"
+    "win_per": "48.5",
+    "won": "16",
+    "lost": "17",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "334",
@@ -1605,7 +2205,10 @@
     "club": "DLPE",
     "rating": "1249",
     "played": "16",
-    "win_per": "56.3"
+    "win_per": "56.3",
+    "won": "9",
+    "lost": "7",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "159",
@@ -1613,7 +2216,10 @@
     "club": "MP Royals",
     "rating": "1248",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "684",
@@ -1621,7 +2227,10 @@
     "club": "Stephanians",
     "rating": "1248",
     "played": "14",
-    "win_per": "57.1"
+    "win_per": "57.1",
+    "won": "8",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "682",
@@ -1629,7 +2238,10 @@
     "club": "Stephanians",
     "rating": "1247",
     "played": "12",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "7",
+    "lost": "5",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "874",
@@ -1637,7 +2249,10 @@
     "club": "Lenasia",
     "rating": "1247",
     "played": "10",
-    "win_per": "60.0"
+    "win_per": "60.0",
+    "won": "6",
+    "lost": "4",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "1057",
@@ -1645,7 +2260,10 @@
     "club": "Lenasia",
     "rating": "1247",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "481",
@@ -1653,7 +2271,10 @@
     "club": "Duinefontein",
     "rating": "1246",
     "played": "8",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "3",
+    "lost": "5",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "1053",
@@ -1661,7 +2282,10 @@
     "club": "Flames",
     "rating": "1246",
     "played": "26",
-    "win_per": "38.5"
+    "win_per": "38.5",
+    "won": "10",
+    "lost": "16",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "105",
@@ -1669,7 +2293,10 @@
     "club": "Top",
     "rating": "1245",
     "played": "20",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "8",
+    "lost": "12",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "261",
@@ -1677,7 +2304,10 @@
     "club": "Boundary",
     "rating": "1243",
     "played": "16",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "8",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "21",
@@ -1685,7 +2315,10 @@
     "club": "Maties",
     "rating": "1242",
     "played": "9",
-    "win_per": "66.7"
+    "win_per": "66.7",
+    "won": "6",
+    "lost": "3",
+    "last_played": "2025-05-24"
   },
   {
     "maties_id": "346",
@@ -1693,7 +2326,10 @@
     "club": "Liv-Ken",
     "rating": "1242",
     "played": "10",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "4",
+    "lost": "6",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "420",
@@ -1701,7 +2337,10 @@
     "club": "Ravens",
     "rating": "1242",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1044",
@@ -1709,7 +2348,10 @@
     "club": "Blue Fountains",
     "rating": "1242",
     "played": "8",
-    "win_per": "62.5"
+    "win_per": "62.5",
+    "won": "5",
+    "lost": "3",
+    "last_played": "2025-05-19"
   },
   {
     "maties_id": "349",
@@ -1717,7 +2359,10 @@
     "club": "Liv-Ken",
     "rating": "1241",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "210",
@@ -1725,7 +2370,10 @@
     "club": "UWC",
     "rating": "1240",
     "played": "14",
-    "win_per": "57.1"
+    "win_per": "57.1",
+    "won": "8",
+    "lost": "6",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "190",
@@ -1733,7 +2381,10 @@
     "club": "Steenberg",
     "rating": "1239",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "302",
@@ -1741,7 +2392,10 @@
     "club": "Community House",
     "rating": "1238",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "198",
@@ -1749,7 +2403,10 @@
     "club": "UCT",
     "rating": "1235",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "309",
@@ -1757,7 +2414,10 @@
     "club": "Community House",
     "rating": "1235",
     "played": "14",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "7",
+    "lost": "7",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1091",
@@ -1765,7 +2425,10 @@
     "club": "Waterfall",
     "rating": "1234",
     "played": "24",
-    "win_per": "58.3"
+    "win_per": "58.3",
+    "won": "14",
+    "lost": "10",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "553",
@@ -1773,7 +2436,10 @@
     "club": "Goodwood",
     "rating": "1231",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "1042",
@@ -1781,7 +2447,10 @@
     "club": "Blue Fountains",
     "rating": "1231",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "153",
@@ -1789,7 +2458,10 @@
     "club": "MP Royals",
     "rating": "1229",
     "played": "10",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "3",
+    "lost": "7",
+    "last_played": "2025-05-14"
   },
   {
     "maties_id": "285",
@@ -1797,7 +2469,10 @@
     "club": "Community House",
     "rating": "1229",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "487",
@@ -1805,7 +2480,10 @@
     "club": "Duinefontein",
     "rating": "1227",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "680",
@@ -1813,7 +2491,10 @@
     "club": "Stephanians",
     "rating": "1227",
     "played": "10",
-    "win_per": "60.0"
+    "win_per": "60.0",
+    "won": "6",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1088",
@@ -1821,7 +2502,10 @@
     "club": "Soweto",
     "rating": "1227",
     "played": "24",
-    "win_per": "41.7"
+    "win_per": "41.7",
+    "won": "10",
+    "lost": "14",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "297",
@@ -1829,7 +2513,10 @@
     "club": "Community House",
     "rating": "1225",
     "played": "20",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "10",
+    "lost": "10",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "421",
@@ -1837,7 +2524,10 @@
     "club": "Ravens",
     "rating": "1223",
     "played": "16",
-    "win_per": "18.8"
+    "win_per": "18.8",
+    "won": "3",
+    "lost": "13",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "700",
@@ -1845,7 +2535,10 @@
     "club": "Boundary",
     "rating": "1222",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "97",
@@ -1853,7 +2546,10 @@
     "club": "Top",
     "rating": "1220",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-06-07"
   },
   {
     "maties_id": "555",
@@ -1861,7 +2557,10 @@
     "club": "Goodwood",
     "rating": "1220",
     "played": "20",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "8",
+    "lost": "12",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "304",
@@ -1869,7 +2568,10 @@
     "club": "Community House",
     "rating": "1218",
     "played": "12",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "6",
+    "lost": "6",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "228",
@@ -1877,7 +2579,10 @@
     "club": "Bishop Lavis",
     "rating": "1217",
     "played": "8",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "2",
+    "lost": "6",
+    "last_played": "2025-06-03"
   },
   {
     "maties_id": "1084",
@@ -1885,7 +2590,10 @@
     "club": "Raiders",
     "rating": "1217",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "504",
@@ -1893,7 +2601,10 @@
     "club": "Duinefontein",
     "rating": "1216",
     "played": "16",
-    "win_per": "18.8"
+    "win_per": "18.8",
+    "won": "3",
+    "lost": "13",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "197",
@@ -1901,7 +2612,10 @@
     "club": "UCT",
     "rating": "1214",
     "played": "8",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "3",
+    "lost": "5",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "569",
@@ -1909,7 +2623,10 @@
     "club": "Stephanians",
     "rating": "1213",
     "played": "16",
-    "win_per": "43.8"
+    "win_per": "43.8",
+    "won": "7",
+    "lost": "9",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "199",
@@ -1917,7 +2634,10 @@
     "club": "UCT",
     "rating": "1211",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "158",
@@ -1925,7 +2645,10 @@
     "club": "MP Royals",
     "rating": "1208",
     "played": "14",
-    "win_per": "35.7"
+    "win_per": "35.7",
+    "won": "5",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "903",
@@ -1933,7 +2656,10 @@
     "club": "Masters",
     "rating": "1208",
     "played": "8",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "4",
+    "lost": "4",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "538",
@@ -1941,7 +2667,10 @@
     "club": "Goodwood",
     "rating": "1207",
     "played": "18",
-    "win_per": "44.4"
+    "win_per": "44.4",
+    "won": "8",
+    "lost": "10",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "541",
@@ -1949,7 +2678,10 @@
     "club": "Goodwood",
     "rating": "1207",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "535",
@@ -1957,7 +2689,10 @@
     "club": "Duinefontein",
     "rating": "1206",
     "played": "8",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "3",
+    "lost": "5",
+    "last_played": "2025-04-30"
   },
   {
     "maties_id": "551",
@@ -1965,7 +2700,10 @@
     "club": "Goodwood",
     "rating": "1206",
     "played": "16",
-    "win_per": "31.3"
+    "win_per": "31.3",
+    "won": "5",
+    "lost": "11",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "602",
@@ -1973,7 +2711,10 @@
     "club": "Stephanians",
     "rating": "1206",
     "played": "10",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "4",
+    "lost": "6",
+    "last_played": "2025-05-20"
   },
   {
     "maties_id": "374",
@@ -1981,7 +2722,10 @@
     "club": "Nexus",
     "rating": "1205",
     "played": "14",
-    "win_per": "28.6"
+    "win_per": "28.6",
+    "won": "4",
+    "lost": "10",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1099",
@@ -1989,7 +2733,10 @@
     "club": "Waterfall",
     "rating": "1205",
     "played": "28",
-    "win_per": "39.3"
+    "win_per": "39.3",
+    "won": "11",
+    "lost": "17",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "295",
@@ -1997,7 +2744,10 @@
     "club": "Community House",
     "rating": "1204",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1031",
@@ -2005,7 +2755,10 @@
     "club": "Blue Fountains",
     "rating": "1204",
     "played": "26",
-    "win_per": "38.5"
+    "win_per": "38.5",
+    "won": "10",
+    "lost": "16",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "563",
@@ -2013,7 +2766,10 @@
     "club": "Stephanians",
     "rating": "1199",
     "played": "18",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "6",
+    "lost": "12",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "398",
@@ -2021,7 +2777,10 @@
     "club": "Protea",
     "rating": "1197",
     "played": "10",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "5",
+    "lost": "5",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "865",
@@ -2029,7 +2788,10 @@
     "club": "Lenasia",
     "rating": "1196",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "234",
@@ -2037,7 +2799,10 @@
     "club": "Bishop Lavis",
     "rating": "1195",
     "played": "20",
-    "win_per": "35.0"
+    "win_per": "35.0",
+    "won": "7",
+    "lost": "13",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "380",
@@ -2045,7 +2810,10 @@
     "club": "Nexus",
     "rating": "1192",
     "played": "14",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "7",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1055",
@@ -2053,7 +2821,10 @@
     "club": "Flames",
     "rating": "1192",
     "played": "24",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "6",
+    "lost": "18",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "1083",
@@ -2061,7 +2832,10 @@
     "club": "Raiders",
     "rating": "1189",
     "played": "22",
-    "win_per": "45.5"
+    "win_per": "45.5",
+    "won": "10",
+    "lost": "12",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1047",
@@ -2069,7 +2843,10 @@
     "club": "Blue Fountains",
     "rating": "1188",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "209",
@@ -2077,7 +2854,10 @@
     "club": "UWC",
     "rating": "1187",
     "played": "8",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "3",
+    "lost": "5",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "301",
@@ -2085,7 +2865,10 @@
     "club": "Community House",
     "rating": "1187",
     "played": "14",
-    "win_per": "28.6"
+    "win_per": "28.6",
+    "won": "4",
+    "lost": "10",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "310",
@@ -2093,7 +2876,10 @@
     "club": "Community House",
     "rating": "1187",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "293",
@@ -2101,7 +2887,10 @@
     "club": "Community House",
     "rating": "1186",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "385",
@@ -2109,7 +2898,10 @@
     "club": "Nexus",
     "rating": "1185",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "575",
@@ -2117,7 +2909,10 @@
     "club": "Stephanians",
     "rating": "1185",
     "played": "18",
-    "win_per": "38.9"
+    "win_per": "38.9",
+    "won": "7",
+    "lost": "11",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "109",
@@ -2125,7 +2920,10 @@
     "club": "Top",
     "rating": "1182",
     "played": "18",
-    "win_per": "22.2"
+    "win_per": "22.2",
+    "won": "4",
+    "lost": "14",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "24",
@@ -2133,7 +2931,10 @@
     "club": "Maties",
     "rating": "1181",
     "played": "9",
-    "win_per": "44.4"
+    "win_per": "44.4",
+    "won": "4",
+    "lost": "5",
+    "last_played": "2025-05-06"
   },
   {
     "maties_id": "110",
@@ -2141,7 +2942,10 @@
     "club": "Top",
     "rating": "1181",
     "played": "18",
-    "win_per": "22.2"
+    "win_per": "22.2",
+    "won": "4",
+    "lost": "14",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1085",
@@ -2149,7 +2953,10 @@
     "club": "Raiders",
     "rating": "1181",
     "played": "16",
-    "win_per": "18.8"
+    "win_per": "18.8",
+    "won": "3",
+    "lost": "13",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "221",
@@ -2157,7 +2964,10 @@
     "club": "Bishop Lavis",
     "rating": "1180",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "899",
@@ -2165,7 +2975,10 @@
     "club": "Masters",
     "rating": "1177",
     "played": "12",
-    "win_per": "41.7"
+    "win_per": "41.7",
+    "won": "5",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "400",
@@ -2173,7 +2986,10 @@
     "club": "Protea",
     "rating": "1176",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "222",
@@ -2181,7 +2997,10 @@
     "club": "Bishop Lavis",
     "rating": "1175",
     "played": "24",
-    "win_per": "20.8"
+    "win_per": "20.8",
+    "won": "5",
+    "lost": "19",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "5",
@@ -2189,7 +3008,10 @@
     "club": "Maties",
     "rating": "1174",
     "played": "20",
-    "win_per": "40.0"
+    "win_per": "40.0",
+    "won": "8",
+    "lost": "12",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "1069",
@@ -2197,7 +3019,10 @@
     "club": "Queens",
     "rating": "1172",
     "played": "18",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "9",
+    "lost": "9",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "681",
@@ -2205,7 +3030,10 @@
     "club": "Stephanians",
     "rating": "1171",
     "played": "12",
-    "win_per": "41.7"
+    "win_per": "41.7",
+    "won": "5",
+    "lost": "7",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "384",
@@ -2213,7 +3041,10 @@
     "club": "Nexus",
     "rating": "1170",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "447",
@@ -2221,7 +3052,10 @@
     "club": "Ravens",
     "rating": "1170",
     "played": "8",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "2",
+    "lost": "6",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1058",
@@ -2229,7 +3063,10 @@
     "club": "Lenasia",
     "rating": "1168",
     "played": "12",
-    "win_per": "8.3"
+    "win_per": "8.3",
+    "won": "1",
+    "lost": "11",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "371",
@@ -2237,7 +3074,10 @@
     "club": "Nexus",
     "rating": "1167",
     "played": "10",
-    "win_per": "10.0"
+    "win_per": "10.0",
+    "won": "1",
+    "lost": "9",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1092",
@@ -2245,7 +3085,10 @@
     "club": "Waterfall",
     "rating": "1167",
     "played": "30",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "9",
+    "lost": "21",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "162",
@@ -2253,7 +3096,10 @@
     "club": "MP Royals",
     "rating": "1166",
     "played": "10",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "3",
+    "lost": "7",
+    "last_played": "2025-05-21"
   },
   {
     "maties_id": "262",
@@ -2261,7 +3107,10 @@
     "club": "Boundary",
     "rating": "1166",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "543",
@@ -2269,7 +3118,10 @@
     "club": "Goodwood",
     "rating": "1165",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "923",
@@ -2277,7 +3129,10 @@
     "club": "Queens",
     "rating": "1165",
     "played": "23",
-    "win_per": "26.1"
+    "win_per": "26.1",
+    "won": "6",
+    "lost": "17",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "307",
@@ -2285,7 +3140,10 @@
     "club": "Community House",
     "rating": "1163",
     "played": "10",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "3",
+    "lost": "7",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "7",
@@ -2293,7 +3151,10 @@
     "club": "Maties",
     "rating": "1162",
     "played": "13",
-    "win_per": "38.5"
+    "win_per": "38.5",
+    "won": "5",
+    "lost": "8",
+    "last_played": "2025-05-08"
   },
   {
     "maties_id": "1097",
@@ -2301,7 +3162,10 @@
     "club": "Waterfall",
     "rating": "1160",
     "played": "24",
-    "win_per": "50.0"
+    "win_per": "50.0",
+    "won": "12",
+    "lost": "12",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "389",
@@ -2309,7 +3173,10 @@
     "club": "Nexus",
     "rating": "1159",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "671",
@@ -2317,7 +3184,10 @@
     "club": "Stephanians",
     "rating": "1159",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1081",
@@ -2325,7 +3195,10 @@
     "club": "Raiders",
     "rating": "1159",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-04-28"
   },
   {
     "maties_id": "223",
@@ -2333,7 +3206,10 @@
     "club": "Bishop Lavis",
     "rating": "1156",
     "played": "18",
-    "win_per": "11.1"
+    "win_per": "11.1",
+    "won": "2",
+    "lost": "16",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "858",
@@ -2341,7 +3217,10 @@
     "club": "Lenasia",
     "rating": "1155",
     "played": "10",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "10",
+    "last_played": "2025-04-28"
   },
   {
     "maties_id": "472",
@@ -2349,7 +3228,10 @@
     "club": "Duinefontein",
     "rating": "1153",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "419",
@@ -2357,7 +3239,10 @@
     "club": "Ravens",
     "rating": "1150",
     "played": "18",
-    "win_per": "11.1"
+    "win_per": "11.1",
+    "won": "2",
+    "lost": "16",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "936",
@@ -2365,7 +3250,10 @@
     "club": "Queens",
     "rating": "1149",
     "played": "8",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "2",
+    "lost": "6",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "287",
@@ -2373,7 +3261,10 @@
     "club": "Community House",
     "rating": "1148",
     "played": "20",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "6",
+    "lost": "14",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "288",
@@ -2381,7 +3272,10 @@
     "club": "Community House",
     "rating": "1148",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1086",
@@ -2389,7 +3283,10 @@
     "club": "Soweto",
     "rating": "1148",
     "played": "8",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "8",
+    "last_played": "2025-05-05"
   },
   {
     "maties_id": "930",
@@ -2397,7 +3294,10 @@
     "club": "Raiders",
     "rating": "1145",
     "played": "12",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "2",
+    "lost": "10",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1048",
@@ -2405,7 +3305,10 @@
     "club": "Blue Fountains",
     "rating": "1145",
     "played": "14",
-    "win_per": "42.9"
+    "win_per": "42.9",
+    "won": "6",
+    "lost": "8",
+    "last_played": "2025-05-12"
   },
   {
     "maties_id": "167",
@@ -2413,7 +3316,10 @@
     "club": "MP Royals",
     "rating": "1143",
     "played": "12",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "4",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1087",
@@ -2421,7 +3327,10 @@
     "club": "Soweto",
     "rating": "1143",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "418",
@@ -2429,7 +3338,10 @@
     "club": "Ravens",
     "rating": "1142",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "1029",
@@ -2437,7 +3349,10 @@
     "club": "Blue Fountains",
     "rating": "1141",
     "played": "16",
-    "win_per": "37.5"
+    "win_per": "37.5",
+    "won": "6",
+    "lost": "10",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "96",
@@ -2445,7 +3360,10 @@
     "club": "Top",
     "rating": "1139",
     "played": "18",
-    "win_per": "22.2"
+    "win_per": "22.2",
+    "won": "4",
+    "lost": "14",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "132",
@@ -2453,7 +3371,10 @@
     "club": "Top",
     "rating": "1138",
     "played": "10",
-    "win_per": "20.0"
+    "win_per": "20.0",
+    "won": "2",
+    "lost": "8",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "546",
@@ -2461,7 +3382,10 @@
     "club": "Goodwood",
     "rating": "1138",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-10"
   },
   {
     "maties_id": "809",
@@ -2469,7 +3393,10 @@
     "club": "Blue Fountains",
     "rating": "1138",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "1074",
@@ -2477,7 +3404,10 @@
     "club": "Queens",
     "rating": "1138",
     "played": "28",
-    "win_per": "35.7"
+    "win_per": "35.7",
+    "won": "10",
+    "lost": "18",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1082",
@@ -2485,7 +3415,10 @@
     "club": "Raiders",
     "rating": "1138",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "696",
@@ -2493,7 +3426,10 @@
     "club": "Community House",
     "rating": "1137",
     "played": "14",
-    "win_per": "7.1"
+    "win_per": "7.1",
+    "won": "1",
+    "lost": "13",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "89",
@@ -2501,7 +3437,10 @@
     "club": "Top",
     "rating": "1135",
     "played": "12",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "2",
+    "lost": "10",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "929",
@@ -2509,7 +3448,10 @@
     "club": "Raiders",
     "rating": "1135",
     "played": "26",
-    "win_per": "26.9"
+    "win_per": "26.9",
+    "won": "7",
+    "lost": "19",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "670",
@@ -2517,7 +3459,10 @@
     "club": "Stephanians",
     "rating": "1130",
     "played": "12",
-    "win_per": "33.3"
+    "win_per": "33.3",
+    "won": "4",
+    "lost": "8",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "401",
@@ -2525,7 +3470,10 @@
     "club": "Protea",
     "rating": "1125",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "692",
@@ -2533,7 +3481,10 @@
     "club": "Duinefontein",
     "rating": "1125",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "1050",
@@ -2541,7 +3492,10 @@
     "club": "Blue Fountains",
     "rating": "1125",
     "played": "23",
-    "win_per": "17.4"
+    "win_per": "17.4",
+    "won": "4",
+    "lost": "19",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "248",
@@ -2549,7 +3503,10 @@
     "club": "Boundary",
     "rating": "1124",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "1070",
@@ -2557,7 +3514,10 @@
     "club": "Queens",
     "rating": "1123",
     "played": "14",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "14",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "394",
@@ -2565,7 +3525,10 @@
     "club": "Nexus",
     "rating": "1120",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "90",
@@ -2573,7 +3536,10 @@
     "club": "Top",
     "rating": "1117",
     "played": "10",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "10",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "444",
@@ -2581,7 +3547,10 @@
     "club": "Ravens",
     "rating": "1116",
     "played": "8",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "8",
+    "last_played": "2025-05-21"
   },
   {
     "maties_id": "1072",
@@ -2589,7 +3558,10 @@
     "club": "Queens",
     "rating": "1116",
     "played": "26",
-    "win_per": "26.9"
+    "win_per": "26.9",
+    "won": "7",
+    "lost": "19",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "107",
@@ -2597,7 +3569,10 @@
     "club": "Top",
     "rating": "1113",
     "played": "18",
-    "win_per": "5.6"
+    "win_per": "5.6",
+    "won": "1",
+    "lost": "17",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "331",
@@ -2605,7 +3580,10 @@
     "club": "DLPE",
     "rating": "1113",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "290",
@@ -2613,7 +3591,10 @@
     "club": "Community House",
     "rating": "1110",
     "played": "18",
-    "win_per": "27.8"
+    "win_per": "27.8",
+    "won": "5",
+    "lost": "13",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "427",
@@ -2621,7 +3602,10 @@
     "club": "Ravens",
     "rating": "1110",
     "played": "18",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "3",
+    "lost": "15",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "237",
@@ -2629,7 +3613,10 @@
     "club": "Bishop Lavis",
     "rating": "1109",
     "played": "16",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "16",
+    "last_played": "2025-06-05"
   },
   {
     "maties_id": "1036",
@@ -2637,7 +3624,10 @@
     "club": "Blue Fountains",
     "rating": "1108",
     "played": "20",
-    "win_per": "30.0"
+    "win_per": "30.0",
+    "won": "6",
+    "lost": "14",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "399",
@@ -2645,7 +3635,10 @@
     "club": "Protea",
     "rating": "1107",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "229",
@@ -2653,7 +3646,10 @@
     "club": "Bishop Lavis",
     "rating": "1104",
     "played": "12",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "318",
@@ -2661,7 +3657,10 @@
     "club": "Community House",
     "rating": "1104",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-05-21"
   },
   {
     "maties_id": "808",
@@ -2669,7 +3668,10 @@
     "club": "Blue Fountains",
     "rating": "1103",
     "played": "22",
-    "win_per": "31.8"
+    "win_per": "31.8",
+    "won": "7",
+    "lost": "15",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "548",
@@ -2677,7 +3679,10 @@
     "club": "Goodwood",
     "rating": "1101",
     "played": "12",
-    "win_per": "16.7"
+    "win_per": "16.7",
+    "won": "2",
+    "lost": "10",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "549",
@@ -2685,7 +3690,10 @@
     "club": "Goodwood",
     "rating": "1101",
     "played": "12",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "3",
+    "lost": "9",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "886",
@@ -2693,7 +3701,10 @@
     "club": "Masters",
     "rating": "1101",
     "played": "14",
-    "win_per": "14.3"
+    "win_per": "14.3",
+    "won": "2",
+    "lost": "12",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "13",
@@ -2701,7 +3712,10 @@
     "club": "Maties",
     "rating": "1098",
     "played": "8",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "1",
+    "lost": "7",
+    "last_played": "2025-05-03"
   },
   {
     "maties_id": "68",
@@ -2709,7 +3723,10 @@
     "club": "Top",
     "rating": "1093",
     "played": "18",
-    "win_per": "5.6"
+    "win_per": "5.6",
+    "won": "1",
+    "lost": "17",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "70",
@@ -2717,7 +3734,10 @@
     "club": "Top",
     "rating": "1092",
     "played": "16",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "2",
+    "lost": "14",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "63",
@@ -2725,7 +3745,10 @@
     "club": "Top",
     "rating": "1087",
     "played": "12",
-    "win_per": "8.3"
+    "win_per": "8.3",
+    "won": "1",
+    "lost": "11",
+    "last_played": "2025-06-11"
   },
   {
     "maties_id": "212",
@@ -2733,7 +3756,10 @@
     "club": "UWC",
     "rating": "1084",
     "played": "14",
-    "win_per": "14.3"
+    "win_per": "14.3",
+    "won": "2",
+    "lost": "12",
+    "last_played": "2025-06-13"
   },
   {
     "maties_id": "69",
@@ -2741,7 +3767,10 @@
     "club": "Top",
     "rating": "1083",
     "played": "16",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "2",
+    "lost": "14",
+    "last_played": "2025-06-04"
   },
   {
     "maties_id": "1080",
@@ -2749,7 +3778,10 @@
     "club": "Raiders",
     "rating": "1081",
     "played": "8",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "8",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "1040",
@@ -2757,7 +3789,10 @@
     "club": "Blue Fountains",
     "rating": "1079",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "404",
@@ -2765,7 +3800,10 @@
     "club": "Protea",
     "rating": "1075",
     "played": "10",
-    "win_per": "10.0"
+    "win_per": "10.0",
+    "won": "1",
+    "lost": "9",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "554",
@@ -2773,7 +3811,10 @@
     "club": "Goodwood",
     "rating": "1069",
     "played": "14",
-    "win_per": "14.3"
+    "win_per": "14.3",
+    "won": "2",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1045",
@@ -2781,7 +3822,10 @@
     "club": "Blue Fountains",
     "rating": "1069",
     "played": "14",
-    "win_per": "21.4"
+    "win_per": "21.4",
+    "won": "3",
+    "lost": "11",
+    "last_played": "2025-05-26"
   },
   {
     "maties_id": "1041",
@@ -2789,7 +3833,10 @@
     "club": "Blue Fountains",
     "rating": "1068",
     "played": "16",
-    "win_per": "25.0"
+    "win_per": "25.0",
+    "won": "4",
+    "lost": "12",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "383",
@@ -2797,7 +3844,10 @@
     "club": "Nexus",
     "rating": "1063",
     "played": "18",
-    "win_per": "5.6"
+    "win_per": "5.6",
+    "won": "1",
+    "lost": "17",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1076",
@@ -2805,7 +3855,10 @@
     "club": "Queens",
     "rating": "1060",
     "played": "26",
-    "win_per": "19.2"
+    "win_per": "19.2",
+    "won": "5",
+    "lost": "21",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "275",
@@ -2813,7 +3866,10 @@
     "club": "Community House",
     "rating": "1053",
     "played": "18",
-    "win_per": "11.1"
+    "win_per": "11.1",
+    "won": "2",
+    "lost": "16",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "66",
@@ -2821,7 +3877,10 @@
     "club": "Top",
     "rating": "1048",
     "played": "16",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "16",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1035",
@@ -2829,7 +3888,10 @@
     "club": "Blue Fountains",
     "rating": "1035",
     "played": "12",
-    "win_per": "8.3"
+    "win_per": "8.3",
+    "won": "1",
+    "lost": "11",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "898",
@@ -2837,7 +3899,10 @@
     "club": "Masters",
     "rating": "1034",
     "played": "16",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "2",
+    "lost": "14",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "1075",
@@ -2845,7 +3910,10 @@
     "club": "Queens",
     "rating": "1033",
     "played": "24",
-    "win_per": "12.5"
+    "win_per": "12.5",
+    "won": "3",
+    "lost": "21",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "92",
@@ -2853,7 +3921,10 @@
     "club": "Top",
     "rating": "1032",
     "played": "16",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "16",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "931",
@@ -2861,7 +3932,10 @@
     "club": "Raiders",
     "rating": "1024",
     "played": "20",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "20",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "317",
@@ -2869,7 +3943,10 @@
     "club": "Community House",
     "rating": "1020",
     "played": "12",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "12",
+    "last_played": "2025-06-12"
   },
   {
     "maties_id": "1039",
@@ -2877,7 +3954,10 @@
     "club": "Blue Fountains",
     "rating": "1019",
     "played": "10",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "10",
+    "last_played": "2025-05-05"
   },
   {
     "maties_id": "1079",
@@ -2885,7 +3965,10 @@
     "club": "Raiders",
     "rating": "1004",
     "played": "20",
-    "win_per": "10.0"
+    "win_per": "10.0",
+    "won": "2",
+    "lost": "18",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "918",
@@ -2893,7 +3976,10 @@
     "club": "Queens",
     "rating": "995",
     "played": "24",
-    "win_per": "8.3"
+    "win_per": "8.3",
+    "won": "2",
+    "lost": "22",
+    "last_played": "2025-06-09"
   },
   {
     "maties_id": "1037",
@@ -2901,7 +3987,10 @@
     "club": "Blue Fountains",
     "rating": "986",
     "played": "18",
-    "win_per": "5.6"
+    "win_per": "5.6",
+    "won": "1",
+    "lost": "17",
+    "last_played": "2025-06-02"
   },
   {
     "maties_id": "806",
@@ -2909,6 +3998,9 @@
     "club": "Blue Fountains",
     "rating": "984",
     "played": "12",
-    "win_per": "0.0"
+    "win_per": "0.0",
+    "won": "0",
+    "lost": "12",
+    "last_played": "2025-05-26"
   }
 ]

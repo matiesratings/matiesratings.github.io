@@ -215,12 +215,7 @@ loadMatchData();
 //     if (data.length === 0) {
 //         const row = tableBody.insertRow();
 //         const cell = row.insertCell();
-//         if (window.innerWidth > 480) {
-//             cell.colSpan = 10;
-//         } else {
-//             cell.colSpan = 5;
-//         }
-
+//         cell.colSpan = window.innerWidth > 480 ? 10 : 4;
 //         cell.textContent = "Results coming soon...";
 //         Object.assign(cell.style, {
 //             color: "white",
@@ -232,14 +227,31 @@ loadMatchData();
 //         return;
 //     }
 
+//     // Get the visible column indices by checking the header row
+//     const headerCells = document.querySelectorAll("#match-table-head th");
+//     const visibleColumnIndices = [];
+//     const isMobile = window.innerWidth < 780;
+
+//     headerCells.forEach((th, index) => {
+//         const isHiddenMobileCol = th.classList.contains("mobile-hidden-col");
+//         if (!(isMobile && isHiddenMobileCol)) {
+//             visibleColumnIndices.push(index);
+//         }
+//     });
+
+
 //     data.forEach(match => {
 //         const row = tableBody.insertRow();
-//         Object.values(match).forEach(value => {
+//         const values = Object.values(match);
+//         visibleColumnIndices.forEach(index => {
 //             const cell = row.insertCell();
-//             cell.textContent = value;
+//             cell.textContent = values[index];
 //         });
 //     });
+
+
 // }
+
 function displayData(data) {
     const tableBody = document.getElementById("match-table");
     tableBody.innerHTML = "";
@@ -259,7 +271,10 @@ function displayData(data) {
         return;
     }
 
-    // Get the visible column indices by checking the header row
+    // Define consistent column order
+    const columnKeys = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
+
+    // Determine visible columns based on header visibility
     const headerCells = document.querySelectorAll("#match-table-head th");
     const visibleColumnIndices = [];
     const isMobile = window.innerWidth < 780;
@@ -271,13 +286,18 @@ function displayData(data) {
         }
     });
 
-
     data.forEach(match => {
         const row = tableBody.insertRow();
-        const values = Object.values(match);
         visibleColumnIndices.forEach(index => {
+            const key = columnKeys[index];
             const cell = row.insertCell();
-            cell.textContent = values[index];
+
+            if (key === "winner" || key === "loser") {
+                const playerName = match[key];
+                cell.innerHTML = `<a href="player.html?name=${encodeURIComponent(playerName)}"; class="player-link">${playerName}</a>`;
+            } else {
+                cell.textContent = match[key];
+            }
         });
     });
 }

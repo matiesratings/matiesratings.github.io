@@ -40,9 +40,11 @@ def convert_ratings(input_path, output_path):
                 "club": row["club"],
                 "rating": row["rating"],
                 "played": row["played"],
-                "win_per": row["win_per"]
+                "win_per": row["win_per"],
+                "won": row["won"],
+                "lost": row["lost"],
+                "last_played": row["last_played"]
             })
-
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 

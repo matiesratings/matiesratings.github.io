@@ -9,6 +9,9 @@ table {
     table-layout: fixed; /* prevents cells from stretching */
     font-size: clamp(8px, 3vw, 20px); /* scale text based on screen size */
 }
+.player-info-table{
+    font-size: clamp(14px, 10vw, 28px);
+}
 
 th, td {
     padding: 10px;
@@ -223,14 +226,13 @@ input[type="text"]#clubFilter {
     background-color: maroon;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     table {
-        width: 95%; /* Table will now take up 95% width on smaller screens */
+        width: 95%;
     }
 
     .filters {
-        flex-direction: column; /* Stack the filters vertically */
+        flex-direction: column;
         gap: 10px;
         height: auto;
     }
@@ -240,12 +242,13 @@ input[type="text"]#clubFilter {
     }
 
     .slider, .slider-container, input[type="text"], .num-input, select {
-        width: 90%; /* Adjust input widths for smaller screens */
+        width: 90%;
     }
 
     .slider-container {
-        flex-direction: column; /* Stack the slider input and range for mobile */
+        flex-direction: column;
     }
+
     .nav-links {
         display: none;
         flex-direction: column;
@@ -260,13 +263,60 @@ input[type="text"]#clubFilter {
         justify-content: space-between;
         align-items: center;
         background-color: black;
-
     }
+
     .hamburger {
         display: flex;
     }
 
+    .mobile-hidden-col {
+        display: none;
+    }
+    /* Nested overrides for very small screens */
+    @media (max-width: 480px) {
+        table {
+            width: 100%;
+        }
+
+        td, th {
+            padding: 4px;
+        }
+
+
+        .filters {
+            gap: 5px;
+        }
+
+        .slider, .slider-container, input[type="text"], .num-input, select {
+            width: 90%;
+        }
+
+        .slider {
+            width: 100%;
+        }
+
+        .slider-container {
+            flex-direction: column;
+        }
+
+        .num-input {
+            width: 70px;
+        }
+
+        .search-input {
+            width: 100%;
+        }
+
+        .suggestion-box {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+    }
 }
+
 
 
 .nav-links.active li {
@@ -280,49 +330,6 @@ input[type="text"]#clubFilter {
     width: 100%;
     text-align: center;
 }
-
-@media (max-width: 480px) {
-    table {
-        width: 100%; /* Table takes full width on very small screens */
-    }
-    td, th{
-        padding: 4px;
-    }
-    .mobile-hidden-col {
-        display: none;
-    }
-    .filters {
-        gap: 5px; /* Tighten up filter spacing on very small screens */
-    }
-
-    .slider, .slider-container, input[type="text"], .num-input, select {
-        width: 90%; /* Make all form elements full width on small screens */
-    }
-
-    .slider {
-        width: 100%; /* Expand slider width */
-    }
-
-    .slider-container {
-        flex-direction: column;
-    }
-
-    .num-input {
-        width: 70px; /* Slightly larger input on small screens */
-    }
-
-    .search-input {
-        width: 100%; /* Make search input full width */
-    }
-
-    .suggestion-box {
-        width: 100%; /* Make suggestion box full width */
-    }
-    h1{
-        font-size: 35px;
-    }
-}
-
 .suggestion-container {
     position: relative;
     display: inline-block;
@@ -355,4 +362,14 @@ button{
 
 button:hover {
     background-color: darkred;
+}
+.player-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.2s ease;
+}
+
+.player-link:hover {
+    color: maroon;
 }
