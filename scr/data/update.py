@@ -1,6 +1,9 @@
 import csv
 import json
 from pathlib import Path
+import re
+from datetime import datetime
+
 
 # === Utilities ===
 
@@ -81,6 +84,44 @@ def extract_clubs(input_path, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"clubs": clubs}, f, indent=2)
 
+
+def get_latest_historical_files(input_dir, output_dir):
+    name_map = {
+        "Boys U11": "bu11_ratings.json",
+        "Boys U13": "bu13_ratings.json",
+        "Boys U15": "bu15_ratings.json",
+        "Boys U19": "bu19_ratings.json",
+        "Girls U11": "gu11_ratings.json",
+        "Girls U13": "gu13_ratings.json",
+        "Girls U15": "gu15_ratings.json",
+        "Girls U19": "gu19_ratings.json",
+        "Open": "open_ratings.json",
+        "Women's": "women_ratings.json"
+    }
+
+    latest_files = {}
+
+    for path in input_dir.glob("*.json"):
+        match = re.match(r"(.+?) Ratings \((\d{4}-\d{2}-\d{2})\)\.json", path.name)
+        if not match:
+            continue
+        category, date_str = match.groups()
+        if category not in name_map:
+            continue
+
+        date = datetime.strptime(date_str, "%Y-%m-%d")
+        current_best = latest_files.get(category)
+        if not current_best or date > current_best[0]:
+            latest_files[category] = (date, path)
+
+    for category, (date, path) in latest_files.items():
+        output_path = output_dir / name_map[category]
+        data = json.loads(path.read_text(encoding="utf-8"))
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        print(f"Updated {output_path.name} from '{path.name}' (Date: {date.date()})")
+
+
 # === Main Script ===
 
 if __name__ == "__main__":
@@ -94,10 +135,11 @@ if __name__ == "__main__":
         "bu11_ratings.json", "gu11_ratings.json"
     ], output_folder)
 
-    convert_csv_to_json(input_folder / "Player List (2025-06-30).csv", Path(output_folder / "all_players.json"))
-    convert_matches(input_folder / "Match Results (2025-06-30).csv", Path(output_folder /"matches.json"))
+    convert_csv_to_json(input_folder / "Player List (2025-07-09).csv", Path(output_folder / "all_players.json"))
+    convert_matches(input_folder / "Match Results (2025-07-09).csv", Path(output_folder /"matches.json"))
     extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
-    convert_ratings(input_folder/"Open Ratings (2025-06-30).csv", Path(output_folder / "open_ratings.json"))
+    get_latest_historical_files(output_folder / "historical", output_folder)
+
 
 
 

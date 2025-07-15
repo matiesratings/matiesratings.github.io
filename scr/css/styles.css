@@ -7,7 +7,7 @@ table {
     color: white;
     border: 2px solid maroon;
     table-layout: fixed; /* prevents cells from stretching */
-    font-size: clamp(8px, 3vw, 20px); /* scale text based on screen size */
+    font-size: clamp(10px, 3.5vw, 18px); /* scale text based on screen size */
 }
 .player-info-table{
     font-size: clamp(14px, 10vw, 28px);
@@ -163,10 +163,10 @@ input[type="text"], .search-input {
     
 }
 
-#toggleFilterButton{
-    height: 40px;
+/* #toggleFilterButton{
+    height: auto;
     margin-bottom: 31px;
-}
+} */
 #genderFilter, .num-input {
     width: 60px; /* Narrower for gender select */
     padding: 5px;
@@ -372,4 +372,59 @@ button:hover {
 
 .player-link:hover {
     color: maroon;
+}
+.player-club {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: clamp(18px, 3vw, 32px); /* smaller, dynamic */
+}
+
+.player-rating {
+    color: white;
+    margin: 0 0 18px 0;
+    font-size: clamp(30px, 5vw, 48px); /* larger, dynamic */
+}
+#header-title {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    max-width: 100%;
+    white-space: normal; /* allow wrapping */
+    /* word-break: break-word; */
+    
+    line-height: 1.1;
+    font-size: clamp(35px, 5vw, 75px); /* dynamic font size */
+}
+.match-history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    /* position: relative; */
+}
+
+.match-history-title {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+
+.match-history-title {
+    margin: 0;
+    text-align: left;
+    flex: 0;
+    white-space: nowrap;
+}
+
+/* Target the 10th (score) column in the table */
+#match-table-head th:last-child,
+#match-table td:last-child {
+    width: clamp(20px, 7vw, 35px);
+    text-align: center;    /* centre the score */
+    /* font-size: 0.9em;       */
 }

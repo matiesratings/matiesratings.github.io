@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "maties_id": 171,
+    "name": "Yaqeen Manuel",
+    "club": "MP Royals",
+    "rating": 1314,
+    "win_per": 88.9,
+    "played": 9,
+    "won": 8,
+    "lost": 1,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 123,
+    "name": "Luke Danster",
+    "club": "Top",
+    "rating": 1281,
+    "win_per": 77.8,
+    "played": 9,
+    "won": 7,
+    "lost": 2,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 328,
+    "name": "Milo Katz",
+    "club": "Community House",
+    "rating": 1280,
+    "win_per": 77.8,
+    "played": 9,
+    "won": 7,
+    "lost": 2,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 476,
+    "name": "Adam Domingo",
+    "club": "Duinefontein",
+    "rating": 1236,
+    "win_per": 66.7,
+    "played": 9,
+    "won": 6,
+    "lost": 3,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 121,
+    "name": "Njongo Nqgula",
+    "club": "Top",
+    "rating": 1223,
+    "win_per": 55.6,
+    "played": 9,
+    "won": 5,
+    "lost": 4,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 257,
+    "name": "Timothy Lingeveldt",
+    "club": "Boundary",
+    "rating": 1214,
+    "win_per": 55.6,
+    "played": 9,
+    "won": 5,
+    "lost": 4,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 334,
+    "name": "Kian Jansen",
+    "club": "DLPE",
+    "rating": 1160,
+    "win_per": 33.3,
+    "played": 9,
+    "won": 3,
+    "lost": 6,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 692,
+    "name": "Leo van Helden",
+    "club": "Duinefontein",
+    "rating": 1122,
+    "win_per": 22.2,
+    "played": 9,
+    "won": 2,
+    "lost": 7,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 93,
+    "name": "Joshua Nomdo",
+    "club": "Top",
+    "rating": 1116,
+    "win_per": 22.2,
+    "played": 9,
+    "won": 2,
+    "lost": 7,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 131,
+    "name": "Cody Williams",
+    "club": "Top",
+    "rating": 1054,
+    "win_per": 0.0,
+    "played": 9,
+    "won": 0,
+    "lost": 9,
+    "last_played": "2025-05-31"
+  }
+]

@@ -1,0 +1,101 @@
+[
+	{
+		"maties_id" : 519,
+		"name" : "Wayden Brown",
+		"club" : "Duinefontein",
+		"rating" : 1341,
+		"win_per" : 100.0,
+		"played" : 8,
+		"won" : 8,
+		"lost" : 0,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 333,
+		"name" : "Munier Ferhelst",
+		"club" : "DLPE",
+		"rating" : 1297,
+		"win_per" : 87.5,
+		"played" : 8,
+		"won" : 7,
+		"lost" : 1,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 251,
+		"name" : "Qaa-im Jacobs",
+		"club" : "Boundary",
+		"rating" : 1238,
+		"win_per" : 62.5,
+		"played" : 8,
+		"won" : 5,
+		"lost" : 3,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 479,
+		"name" : "Alexander Jones",
+		"club" : "Duinefontein",
+		"rating" : 1226,
+		"win_per" : 62.5,
+		"played" : 8,
+		"won" : 5,
+		"lost" : 3,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 250,
+		"name" : "Owais Jacobs",
+		"club" : "Boundary",
+		"rating" : 1205,
+		"win_per" : 50.0,
+		"played" : 8,
+		"won" : 4,
+		"lost" : 4,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 163,
+		"name" : "Ilyaaz Patel",
+		"club" : "MP Royals",
+		"rating" : 1197,
+		"win_per" : 50.0,
+		"played" : 8,
+		"won" : 4,
+		"lost" : 4,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 120,
+		"name" : "Nande Nqgula",
+		"club" : "Top",
+		"rating" : 1134,
+		"win_per" : 25.0,
+		"played" : 8,
+		"won" : 2,
+		"lost" : 6,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 122,
+		"name" : "Marvin Musinguzi",
+		"club" : "Top",
+		"rating" : 1101,
+		"win_per" : 12.5,
+		"played" : 8,
+		"won" : 1,
+		"lost" : 7,
+		"last_played" : "2025-05-31"
+	},
+	{
+		"maties_id" : 172,
+		"name" : "Niyaaz Ebrahim",
+		"club" : "MP Royals",
+		"rating" : 1061,
+		"win_per" : 0.0,
+		"played" : 8,
+		"won" : 0,
+		"lost" : 8,
+		"last_played" : "2025-05-31"
+	}
+]

@@ -1489,7 +1489,7 @@
   },
   {
     "maties_id": 251,
-    "name": "Mogammad Qaa-im Jacobs",
+    "name": "Qaa-im Jacobs",
     "club": "Boundary",
     "gender": "Male"
   },
@@ -2569,7 +2569,7 @@
   },
   {
     "maties_id": 435,
-    "name": "Camryn  Otto",
+    "name": "Camryn Otto",
     "club": "Ravens",
     "gender": "Male"
   },
@@ -6466,5 +6466,23 @@
     "name": "Wenjun Huang",
     "club": "Waterfall",
     "gender": "Male"
+  },
+  {
+    "maties_id": 1101,
+    "name": "Turzo Ranck",
+    "club": "DLPE",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1102,
+    "name": "Jacob Mohwa",
+    "club": "Top",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1103,
+    "name": "Kimberly Dedza",
+    "club": "DLPE",
+    "gender": "Female"
   }
 ]

@@ -15,10 +15,11 @@
             </tbody>
         </table>
     </div>
-    <div style="display: flex;justify-content: space-between; align-items: center; width: 80%;margin-left: auto;margin-right: auto;margin-bottom: -20px;padding-top: 10px;">
-        <h2 style="color: #800000; margin: 0;">Match History</h2>
+    <div class="match-history-header">
+        <h2 class="match-history-title">Match History</h2>
         <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
     </div>
+
     <div id="filterSection" style="display: none;height: auto;">
         <div class="filters" style="height: auto;">
             <div class="filter-container">
@@ -63,7 +64,8 @@
                 <th onclick="sortTable(6)" class="mobile-hidden-col">Stage</th>
                 <th onclick="sortTable(7)">Winner</th>
                 <th onclick="sortTable(8)">Loser</th>
-                <th onclick="sortTable(9)">Score</th>
+                <th onclick="sortTable(9)">W-L</th>
+
             </tr>
         </thead>
         <tbody id="match-table">
@@ -323,15 +325,15 @@
                     infoTable.innerHTML = `
                         <tr>
                             <td colspan="2" style="padding: 18px 32px; background: #000; color: #fff; border: none;">
-                                <h2 style="margin: 0 0 10px 0; color: white;font-size:45px">${player.club? player.club : "Unkown"}</h2>
-                                <h2 style="margin: 0 0 18px 0; color: white;font-size:45px">${player.rating ? player.rating : "N/A"}</h2>                                <table style="width:100%; border-collapse: collapse; background: #000;">
+                            <h2 class="player-club">${player.club ? player.club : "Unknown"}</h2>
+                            <h2 class="player-rating">${player.rating ? player.rating : "N/A"}</h2>
+                            <table style="width:100%; border-collapse: collapse; background: #000;">
                                     <tr>
                                         <th>Gender</th>
                                         <th>Played</th>
                                         <th>Won</th>
                                         <th>Lost</th>
                                         <th>Win %</th>
-                                        <th>Played</th>
                                     </tr>
                                     <tr>
                                         <td>${gender}</td>
@@ -339,7 +341,6 @@
                                         <td>${player.won ? player.won : "N/A"}</td>
                                         <td>${player.lost ? player.lost : "N/A"}</td>
                                         <td>${player.win_per ? player.win_per : "N/A"}</td>
-                                        <td>${player.last_played ? player.played : "N/A"}</td>
                                     </tr>
                                 </table>
                             </td>

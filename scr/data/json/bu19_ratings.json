@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "maties_id": 264,
+    "name": "Cuten Lodewyk",
+    "club": "Community House",
+    "rating": 1370,
+    "win_per": 87.5,
+    "played": 16,
+    "won": 14,
+    "lost": 2,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 364,
+    "name": "Nashwin Pienaar",
+    "club": "Liv-Ken",
+    "rating": 1336,
+    "win_per": 90.0,
+    "played": 10,
+    "won": 9,
+    "lost": 1,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 263,
+    "name": "Jodie Galant",
+    "club": "Community House",
+    "rating": 1295,
+    "win_per": 80.0,
+    "played": 10,
+    "won": 8,
+    "lost": 2,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 255,
+    "name": "Matthew Lingeveldt",
+    "club": "Boundary",
+    "rating": 1257,
+    "win_per": 70.0,
+    "played": 10,
+    "won": 7,
+    "lost": 3,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 349,
+    "name": "Kian Chapman",
+    "club": "Liv-Ken",
+    "rating": 1229,
+    "win_per": 60.0,
+    "played": 10,
+    "won": 6,
+    "lost": 4,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 481,
+    "name": "Caleb Lawrence",
+    "club": "Duinefontein",
+    "rating": 1213,
+    "win_per": 50.0,
+    "played": 10,
+    "won": 5,
+    "lost": 5,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 353,
+    "name": "Nahum Philander",
+    "club": "Liv-Ken",
+    "rating": 1182,
+    "win_per": 40.0,
+    "played": 10,
+    "won": 4,
+    "lost": 6,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 111,
+    "name": "Victor Grabe",
+    "club": "Top",
+    "rating": 1169,
+    "win_per": 40.0,
+    "played": 10,
+    "won": 4,
+    "lost": 6,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 346,
+    "name": "Christian Poggenpoel",
+    "club": "Liv-Ken",
+    "rating": 1110,
+    "win_per": 20.0,
+    "played": 10,
+    "won": 2,
+    "lost": 8,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 92,
+    "name": "Jay Nomdo",
+    "club": "Top",
+    "rating": 1067,
+    "win_per": 10.0,
+    "played": 10,
+    "won": 1,
+    "lost": 9,
+    "last_played": "2025-05-31"
+  },
+  {
+    "maties_id": 428,
+    "name": "Shane Meyer",
+    "club": "Ravens",
+    "rating": 1049,
+    "win_per": 0.0,
+    "played": 10,
+    "won": 0,
+    "lost": 10,
+    "last_played": "2025-05-31"
+  }
+]
