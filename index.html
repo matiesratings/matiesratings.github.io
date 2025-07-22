@@ -19,24 +19,29 @@
     <div id="header-placeholder"></div>
 
 
-    <div style="display: flex;justify-content: space-between; align-items: center; width: 80%;margin-left: auto;margin-right: auto;margin-bottom: -20px;padding-top: 10px;">
-    
-        <div>
-            <select id="categorySelector" onchange="loadSelectedData()">
-                <option value="open_ratings.json">Open Rating</option>
-                <option value="women_ratings.json">Women Rating</option>
-                <option value="bu19_ratings.json">Boys U19 Rating</option>
-                <option value="gu19_ratings.json">Girls U19 Rating</option>
-                <option value="bu15_ratings.json">Boys U15 Rating</option>
-                <option value="gu15_ratings.json">Girls U15 Rating</option>
-                <option value="bu13_ratings.json">Boys U13 Rating</option>
-                <option value="gu13_ratings.json">Girls U13 Rating</option>
-                <option value="bu11_ratings.json">Boys U11 Rating</option>
-                <option value="gu11_ratings.json">Girls U11 Rating</option>
-            </select>
+    <div id="metaHeader">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="scr/img/svg/Flag_of_South_Africa.svg" alt="Left Flag" style="height: 30px;">
+            <div>
+                <select id="categorySelector" onchange="loadSelectedData()">
+                    <option value="open_ratings.json">Open Rating</option>
+                    <option value="women_ratings.json">Women Rating</option>
+                    <option value="bu19_ratings.json">Boys U19 Rating</option>
+                    <option value="gu19_ratings.json">Girls U19 Rating</option>
+                    <option value="bu15_ratings.json">Boys U15 Rating</option>
+                    <option value="gu15_ratings.json">Girls U15 Rating</option>
+                    <option value="bu13_ratings.json">Boys U13 Rating</option>
+                    <option value="gu13_ratings.json">Girls U13 Rating</option>
+                    <option value="bu11_ratings.json">Boys U11 Rating</option>
+                    <option value="gu11_ratings.json">Girls U11 Rating</option>
+                </select>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
+            <img src="scr/img/svg/Flag_of_South_Africa.svg" alt="Right Flag" style="height: 30px;">
         </div>
 
-        <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
 
         
     </div>
@@ -101,13 +106,13 @@
             const setTitle = (title) => {
                 const titleElement = document.getElementById("header-title");
                 if (titleElement) {
-                    titleElement.textContent = "Player Ratings"; // set your page-specific title here
+                    titleElement.textContent = "South African Player Ratings"; // set your page-specific title here
                 } else {
                     setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                 }
             };
             loadInclude("header-placeholder", "Sections/header.html");
-            setTitle();
+            // setTitle();
         });
     </script>
 

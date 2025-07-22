@@ -1,6 +1,6 @@
 /* Table Styles */
 table {
-    width: 80%; /* Adjust to 80% for a better fit on mobile */
+    width: 85%; /* Adjust to 80% for a better fit on mobile */
     margin: 10px auto;
     border-collapse: collapse;
     background-color: black;
@@ -13,6 +13,18 @@ table {
     font-size: clamp(14px, 10vw, 28px);
 }
 
+#metaHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+#filterSection {
+    padding-top: 10px;
+}
 th, td {
     padding: 10px;
     text-align: center;
@@ -156,10 +168,10 @@ input[type="text"], .search-input {
     border-radius: 5px;  
     text-align: center;
     color: white;
-    /* border: 1px solid maroon; */
-    background-color: black; 
+    /* border: 2px solid maroon; */
+    background-color: maroon; 
     font-size: 30px;
-    margin-bottom: 31px;
+    /* margin-bottom: 31px; */
     
 }
 
@@ -230,7 +242,9 @@ input[type="text"]#clubFilter {
     table {
         width: 95%;
     }
-
+    #metaHeader{
+        width: 95%;
+    }
     .filters {
         flex-direction: column;
         gap: 10px;
@@ -275,6 +289,9 @@ input[type="text"]#clubFilter {
     /* Nested overrides for very small screens */
     @media (max-width: 480px) {
         table {
+            width: 100%;
+        }
+        #metaHeader {
             width: 100%;
         }
 
