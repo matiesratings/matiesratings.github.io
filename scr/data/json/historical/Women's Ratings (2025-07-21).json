@@ -1,0 +1,18 @@
+[
+	{
+		"rank" : 1,
+		"maties_id" : 262,
+		"name" : "Tayla Bailey",
+		"club" : "Boundary",
+		"gender" : "Female",
+		"rating" : 1236,
+		"win_per" : 62.5,
+		"played" : 8,
+		"won" : 5,
+		"lost" : 3,
+		"last_played" : "2025-05-27",
+		"best_win" : "Saiisha Naidu (1178)",
+		"max_rating" : 1246,
+		"max_rating_date" : "2025-04-28"
+	}
+]
