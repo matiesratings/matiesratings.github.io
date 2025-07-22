@@ -1,7 +1,3 @@
-// INSERT HEADER
-
-
-
 let playerData = [];
 let currentSortColumn = null;
 let currentSortAsc = true;
