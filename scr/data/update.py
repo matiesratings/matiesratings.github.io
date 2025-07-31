@@ -136,7 +136,7 @@ if __name__ == "__main__":
     ], output_folder)
 
     convert_csv_to_json(input_folder / "Player List (2025-07-09).csv", Path(output_folder / "all_players.json"))
-    convert_matches(input_folder / "Match Results (2025-07-20).csv", Path(output_folder /"matches.json"))
+    convert_matches(input_folder / "Match Results (2025-07-30).csv", Path(output_folder /"matches.json"))
     extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
     get_latest_historical_files(output_folder / "historical", output_folder)
 
