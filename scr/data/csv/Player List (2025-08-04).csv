@@ -1,0 +1,1085 @@
+maties_id,name,club,gender,date_of_birth,initial_rating,rating
+1,"Tian Louw",Maties,Male,2000-11-23,1200,1200
+2,"DJ Swanevelder",Maties,Male,2003-12-22,1200,1200
+3,"Jaco de Swardt",Maties,Male,1993-03-01,1200,1200
+4,"Le Roux Strydom",Maties,Male,2002-01-23,1200,1200
+5,"Cetin Celik",Maties,Male,2004-02-10,1220,1200
+6,"Joshua Du Plooy",Ravens,Male,1997-07-02,1340,1200
+7,"Gajen Chetty",Maties,Male,2005-04-04,1200,1200
+8,"Christina Malan",Maties,Female,2005-08-22,1200,1200
+9,"Timothy Prinsloo",Maties,Male,1993-07-10,1200,1200
+10,"Elizabeth Knoesen",Maties,Female,2005-01-13,1200,1200
+11,"Andries Vermeulen",Maties,Male,2005-01-17,1200,1200
+12,"Duwayne Petersen",Maties,Male,2005-03-06,1200,1200
+13,"Joel Joshua",Maties,Male,2001-12-20,1200,1200
+14,"Ryan Reed",Maties,Male,1993-08-31,1200,1200
+15,"Dirk Guelpa",Maties,Male,2005-06-13,1200,1200
+16,"Helen Alston",Maties,Female,2006-04-03,1200,1200
+17,"Panashe Nyamande",Maties,Male,2002-03-07,1200,1200
+18,"Nazir Mowzer",Maties,Male,2000-02-02,1200,1200
+19,"Charl Le Roux",Maties,Male,2006-05-09,1200,1200
+20,"Annelie Wessels",Maties,Female,1996-03-10,1200,1200
+21,"Steffan Brundyn",Maties,Male,2002-02-04,1200,1200
+22,"Daneel van der Walt",Maties,Male,2004-09-03,1200,1200
+23,"Tashreeq Asvat",Maties,Male,2005-09-06,1200,1200
+24,"Jano Olivier",Maties,Male,2005-10-04,1200,1200
+25,"Alessandra Wijtenburg",Maties,Female,2006-03-12,1200,1200
+26,"Sanmari Fourie",Maties,Female,2006-12-08,1200,1200
+27,"Craig Murray",Maties,Male,1991-02-15,1200,1200
+28,"Nicholas Murray",Maties,Male,1994-06-08,1200,1200
+29,"Phapusha Seopa",Maties,Male,2001-02-15,1200,1200
+30,"Simon van der Merwe",Maties,Male,2007-09-11,1200,1200
+31,"Christian van der Westhuizen",Maties,Male,2000-02-17,1200,1200
+32,"Mikhail Cedras",Maties,Male,2000-11-27,1200,1200
+33,"Wenhao Yao",Maties,Male,2002-10-06,1200,1200
+34,"Bernard van Krieken",Maties,Male,2006-09-04,1200,1200
+35,"Carmen Harris",Maties,Female,2006-04-05,1200,1200
+36,"Fezeka Giqwa",Maties,Female,1992-12-10,1200,1200
+37,"Tiger Surmon",Maties,Male,2005-09-16,1200,1200
+38,"Kgothatso Tsheko",Maties,Female,2003-07-08,1200,1200
+39,"Joshua Marais",Maties,Male,2004-11-08,1200,1200
+40,"Schalk Visser",Maties,Male,2012-05-22,1200,1200
+41,"Feur Boegman",Maties,Female,NULL,1200,1200
+42,"Herman Verwey",Maties,Male,NULL,1200,1200
+43,"Praise George",Maties,Male,NULL,1200,1200
+44,"Anande Kuse",CPUT,Female,2004-05-16,1200,1200
+45,"Zanenjabulo Mashaba",CPUT,Female,2001-12-09,1200,1200
+46,"Asive Makabeni",CPUT,Female,2002-12-08,1200,1200
+47,"Ketshepileone Rakanang",CPUT,Female,2004-02-25,1200,1200
+48,"Zizipho Ntlali",CPUT,Female,2003-08-12,1200,1200
+49,"Valentia Rooinek",CPUT,Female,2000-09-30,1200,1200
+50,"Bonang Mere",CPUT,Male,2001-05-14,1200,1200
+51,"Scelo Mkhetho",CPUT,Male,2000-11-17,1200,1200
+52,"Khanyolwethu Bayibayi",CPUT,Male,2003-01-23,1200,1200
+53,"Cowan Scott Quickfall",CPUT,Male,2000-11-17,1200,1200
+54,"Asakhe Matomela",CPUT,Male,2003-08-08,1200,1200
+55,"Fadeel Phillips",CPUT,Male,2003-10-29,1200,1200
+56,"Llewellyn Le Kay",CPUT,Male,1985-05-21,1200,1200
+57,"Liqhawe Pepeta",CPUT,Male,2004-03-13,1200,1200
+58,"Gail Smith",Top,Female,1964-11-28,1200,1200
+59,"Cheyenne Smith",Top,Female,1995-10-03,1200,1200
+60,"Celeste Nomdo",Top,Female,1977-01-27,1200,1200
+61,"Jesse Leigh Nomdo",Top,Female,2003-05-15,1200,1200
+62,"Melvina Nomdo",Top,Female,1979-02-03,1200,1200
+63,"Donovan Smith",Top,Male,NULL,1220,1200
+64,"Washiela Jantjies",Top,Female,1992-02-04,1200,1200
+65,"Raychelle Moleveld",Top,Female,1968-01-14,1200,1200
+66,"Jessica Adams",Top,Female,1995-12-13,1240,1200
+67,"Jill Benjamin",Top,Female,1964-04-08,1200,1200
+68,"Chloe Hendricks",Top,Female,2006-12-19,1290,1200
+69,"Shiloh Smith",Top,Female,2010-02-21,1220,1200
+70,"Xoey Williams",Top,Female,2009-01-20,1220,1200
+71,"Carmen Williams",Top,Female,1982-11-10,1200,1200
+72,"Miyah Williams",Top,Female,2007-03-16,1200,1200
+73,"Jodie Baron",Top,Female,2007-03-26,1200,1200
+74,"Daylin Davids",Top,Female,2006-05-31,1200,1200
+75,"Jodie Theunissen",Top,Female,2011-11-02,1200,1200
+76,"Skylyn Joseph",Top,Female,2012-06-06,1200,1200
+77,"Raylin Jason",Top,Female,2012-09-08,1200,1200
+78,"Logan Majiedt",Top,Female,2012-01-17,1200,1200
+79,"Logan Willemse",Top,Female,2006-08-21,1180,1200
+80,"Tiana Lee Harris",Top,Female,2016-01-25,1200,1200
+81,"Jannika V/D Merwe",Top,Female,2017-01-13,1200,1200
+82,"Caelyn Ntsulungo",Top,Female,2007-05-23,1200,1200
+83,"Kirsten Byren",Top,Female,2007-10-10,1200,1200
+85,"Mindi Brown",Top,Female,2010-02-26,1200,1200
+86,"Lisakhanya Mdoda",Top,Female,2003-07-03,1200,1200
+87,"Kelvin Smith",Top,Male,1964-11-09,1200,1200
+88,"Rogan Smith",Top,Male,1998-09-20,1200,1200
+89,"Stanford Nomdo",Top,Male,1975-11-21,1240,1200
+90,"Stanley Nomdo",Top,Male,1975-11-21,1270,1200
+91,"Kingsley Nomdo",Top,Male,2007-06-15,1200,1200
+92,"Jay Nomdo",Top,Male,2008-03-25,1240,1200
+93,"Joshua Nomdo",Top,Male,2012-04-26,1240,1200
+94,"Merlin Brown",Top,Male,1979-06-20,1340,1200
+95,"Timothy Fitzgibbon",Top,Male,1989-09-06,1320,1200
+96,"Richard Fitzgibbon",Top,Male,1997-09-01,1270,1200
+97,"Lorenzo Haupt",Top,Male,1972-12-11,1340,1200
+98,"Keenen Jooste",Top,Male,2002-07-19,1340,1200
+99,"Hennie Jooste",Top,Male,1971-07-17,1200,1200
+100,"Chris Sloster",Top,Male,1975-03-03,1320,1200
+102,"Andre Fransman",Top,Male,1984-11-01,1200,1200
+103,"Gielie Matthee",Top,Male,1967-09-27,1200,1200
+104,"Gaston Koetaan",Top,Male,1969-08-02,1320,1200
+105,"Rubin Willemse",Top,Male,1989-08-05,1320,1200
+106,"Allan Clark",Top,Male,1978-09-21,1320,1200
+107,"Quentin Thomas",Top,Male,1977-02-06,1320,1200
+108,"Eltonio Minnaar",Top,Male,1984-07-05,1320,1200
+109,"Moses Baartman",Top,Male,1960-04-02,1290,1200
+110,"David Esau",Top,Male,1991-01-12,1290,1200
+111,"Victor Grabe",Top,Male,2009-02-10,1270,1200
+112,"Roland Grabe",Top,Male,1975-09-10,1200,1200
+113,"Shaun Francis",Top,Male,1975-07-11,1270,1200
+114,"Louis Paulse",Top,Male,1999-01-07,1200,1200
+115,"Carl Hendrikse",Top,Male,2000-11-10,1200,1200
+116,"Andries Steenkamp",Top,Male,1963-11-17,1180,1200
+117,"Russel Maphike",Top,Male,1980-06-03,1180,1200
+118,"Deon Swartz",Top,Male,1985-11-28,1180,1200
+119,"Quincy Noble",Top,Male,1980-10-27,1200,1200
+120,"Nande Nqgula",Top,Male,2011-08-16,1200,1200
+121,"Njongo Nqgula",Top,Male,2013-02-11,1200,1200
+122,"Marvin Musinguzi",Top,Male,2011-06-21,1200,1200
+123,"Luke Danster",Top,Male,2012-09-12,1200,1200
+124,"Liam Engel",Top,Male,2011-05-05,1200,1200
+125,"Liam Klaasen",Top,Male,2013-01-03,1200,1200
+126,"Filippus Fredericks",Top,Male,2006-12-17,1200,1200
+127,"Amyoli Kuse",Top,Male,2009-12-11,1200,1200
+128,"Junior Kuse",Top,Male,2013-01-07,1200,1200
+129,"Iviwe Kuse",Top,Male,2014-09-10,1200,1200
+130,"Anathi Kuse",Top,Male,2004-05-16,1200,1200
+131,"Cody Williams",Top,Male,2012-10-22,1200,1200
+132,"Xavier Williams",Top,Male,1978-01-06,1220,1200
+133,"Bradley Barnes",Top,Male,1993-12-27,1200,1200
+134,"Samuedien Solomons",Top,Male,1975-05-12,1200,1200
+135,"Rowan Hermanus",Top,Male,1997-05-29,1200,1200
+136,"Jordan Hartnick",Top,Male,2014-05-19,1200,1200
+137,"Iziah Van Wyngaard",Top,Male,2014-03-11,1200,1200
+138,"Jaydon V/D Merwe",Top,Male,2010-03-04,1200,1200
+139,"Richard Radloff",Top,Male,1952-08-11,1200,1200
+140,"Everard Isaacs",Top,Male,2001-02-16,1200,1200
+141,"Jim Foster",Top,Male,1978-11-02,1200,1200
+142,"Bokang Mnguni",Top,Male,2013-03-27,1200,1200
+143,"Yantle Baku",Top,Male,2013-07-18,1200,1200
+144,"Nahum Mentoor",Top,Male,2013-09-12,1200,1200
+145,"Craig Zimri","MP Royals",Male,1968-10-17,1270,1200
+146,"Jerome Williams","MP Royals",Male,1978-11-17,1220,1200
+147,"Moeneeb Isaacs","MP Royals",Male,1984-07-04,1340,1200
+148,"Nuruhulda Manuel","MP Royals",Female,1991-08-13,1200,1200
+149,"Westley Mccloud","MP Royals",Male,1987-07-20,1340,1200
+150,"Walter Dreyer","MP Royals",Male,1976-03-20,1290,1200
+151,"Ryan Christians","MP Royals",Male,1988-02-22,1290,1200
+152,"Russel Jansen","MP Royals",Male,1974-09-19,1290,1200
+153,"Andre Johnson","MP Royals",Male,1977-07-21,1290,1200
+154,"Llewellyn Bartlett","MP Royals",Male,1977-08-22,1290,1200
+155,"Kyle Martin","MP Royals",Male,2002-10-14,1270,1200
+156,"Henry Arends","MP Royals",Male,1973-02-27,1270,1200
+157,"Abubakr Manuel","MP Royals",Male,1996-01-27,1290,1200
+158,"Joel Martin","MP Royals",Male,2004-12-09,1270,1200
+159,"David Cyfers","MP Royals",Male,1975-07-20,1220,1200
+160,"Keenan Holt","MP Royals",Male,1985-09-04,1220,1200
+161,"Rashied Ismail","MP Royals",Male,1995-01-07,1220,1200
+162,"Munier Patel","MP Royals",Male,1975-07-11,1220,1200
+163,"Ilyaaz Patel","MP Royals",Male,2011-04-22,1220,1200
+164,"Llewellyn Paris","MP Royals",Male,1987-01-18,1220,1200
+165,"Riedewaan Hendricks","MP Royals",Male,1972-02-11,1200,1200
+166,"Ivor Arendse","MP Royals",Male,1981-07-21,1200,1200
+167,"Tyrone Van De Merwe","MP Royals",Male,1986-05-28,1200,1200
+168,"Edwin Solomon","MP Royals",Male,1991-04-06,1200,1200
+169,"Umar Cassiem","MP Royals",Male,2017-06-23,1200,1200
+170,"Leandre Johnson","MP Royals",Female,2010-07-25,1200,1200
+171,"Yaqeen Manuel","MP Royals",Male,2012-10-01,1200,1200
+172,"Niyaaz Ebrahim","MP Royals",Male,2011-01-18,1200,1200
+173,"Errol Kannemeyer","MP Royals",Male,1965-01-16,1200,1200
+174,"Zahraa Cassiem","MP Royals",Female,2014-03-12,1200,1200
+175,"Yaaseen Manuel","MP Royals",Male,1987-08-08,1340,1200
+176,"Bradley Van Aswegen","MP Royals",Male,1987-06-23,1290,1200
+177,"Lester Herold","MP Royals",Male,1983-01-04,1220,1200
+178,"Craig Meyer","SP Saints",Male,1967-03-24,1200,1200
+179,"Kevin Roodt","SP Saints",Male,1968-06-21,1290,1200
+180,"Garth Arenz","SP Saints",Male,1983-01-09,1220,1200
+181,"Keith Meyer","SP Saints",Male,1966-09-24,1220,1200
+182,"Jamie Louw","SP Saints",Male,1981-10-21,1220,1200
+183,"Ethan Meyer","SP Saints",Male,2001-09-18,1290,1200
+184,"Evan Arendse","SP Saints",Male,1978-10-07,1200,1200
+185,"Alphonso Malgas","SP Saints",Male,1973-07-02,1200,1200
+186,"Elroy Gabriel","SP Saints",Male,1975-06-25,1290,1200
+187,"Dane Stewart","SP Saints",Male,1985-05-13,1200,1200
+188,"Kellan Louw","SP Saints",Male,2012-07-13,1200,1200
+189,"Alex Kleintjies","SP Saints",Male,2000-06-29,1220,1200
+190,"William Prinsloo",Steenberg,Male,1959-01-25,1270,1200
+191,"Norman Visagie",Steenberg,Male,1975-02-11,1270,1200
+192,"Stanley Prinsloo",Steenberg,Male,1967-03-07,1270,1200
+193,"Benadick Mentor",Steenberg,Male,1979-02-23,1240,1200
+194,"Carl Adams",Steenberg,Male,1984-05-25,1240,1200
+195,"Gavern Africa",Steenberg,Male,1982-06-28,1240,1200
+196,"Lester Van Der Ross",Steenberg,Male,1983-06-15,1270,1200
+197,"Rowan Felix",UCT,Male,1998-01-04,1220,1200
+198,"Dillan Godfrey",UCT,Male,2005-03-23,1220,1200
+199,"Liam Olsen",UCT,Male,2004-08-13,1220,1200
+200,"Emilio Fernandez",UCT,Male,NULL,1200,1200
+201,"Ethan Williams",UCT,Male,NULL,1200,1200
+202,"Tendai Mikioni",UCT,Male,NULL,1200,1200
+203,"Kaylen Desmond",UCT,Female,NULL,1200,1200
+204,"Shanliang lu",UCT,Male,NULL,1200,1200
+205,"Matthew Meade",UWC,Male,2005-09-19,1200,1200
+206,"Loyiso Singiselo",UWC,Male,2006-06-30,1180,1200
+207,"Nasr Esau",UWC,Male,2005-05-11,1200,1200
+208,"Cade Peters",UWC,Male,2000-12-25,1200,1200
+209,"Melissa Witbooi",UWC,Female,NULL,1200,1200
+210,"Siyanda Ntlali",UWC,Female,2005-08-14,1180,1200
+211,"Marvin Makhubela",UWC,Male,2004-01-14,1180,1200
+212,"Siphelele Mkhetho",UWC,Male,2002-09-06,1200,1200
+213,"Oyena Jantjies",UWC,Female,2004-03-16,1180,1200
+214,"Shana Cloete",UWC,Female,2003-12-29,1200,1200
+215,"Byron Abrahams","Bishop Lavis",Male,NULL,1340,1200
+216,"Daylin May","Bishop Lavis",Male,NULL,1270,1200
+217,"Darren Wyngaardt","Bishop Lavis",Male,2000-06-17,1340,1200
+218,"Jemaine Titus","Bishop Lavis",Male,NULL,1340,1200
+219,"Azraa Mitchel","Bishop Lavis",Female,NULL,1200,1200
+220,"Eaton Esau","Bishop Lavis",Male,NULL,1200,1200
+221,"Henry Esau","Bishop Lavis",Male,1967-11-18,1340,1200
+222,"Thabiet Adams","Bishop Lavis",Male,NULL,1320,1200
+223,"Chesray Booysen","Bishop Lavis",Male,2000-10-05,1320,1200
+224,"Rhea Maluka","Bishop Lavis",Male,2007-05-20,1200,1200
+225,"Iesa Cupido","Bishop Lavis",Male,2000-02-07,1200,1200
+226,"Neah Esau","Bishop Lavis",Female,NULL,1200,1200
+227,"Yunus Moyce","Bishop Lavis",Male,1973-02-10,1270,1200
+228,"Brandon Russel","Bishop Lavis",Male,1992-07-14,1270,1200
+229,"Kyle Sebo","Bishop Lavis",Male,1996-10-17,1270,1200
+230,"Antonio Daniels","Bishop Lavis",Male,2004-12-02,1200,1200
+231,"Henry Gouws","Bishop Lavis",Male,NULL,1200,1200
+232,"Spikey Joseph","Bishop Lavis",Female,NULL,1200,1200
+233,"Zahier Mohamed","Bishop Lavis",Male,1981-12-23,1240,1200
+234,"Rhiyaan Cupido","Bishop Lavis",Male,1973-07-23,1240,1200
+235,"Adam Cupido","Bishop Lavis",Male,2006-06-04,1200,1200
+236,"Zulpha Meniers","Bishop Lavis",Female,1986-12-12,1200,1200
+237,"Brandon De Jager","Bishop Lavis",Male,NULL,1320,1200
+238,"Latino Palmer","Bishop Lavis",Male,NULL,1240,1200
+239,"Anwar Abrahams","Bishop Lavis",Male,1981-08-31,1240,1200
+240,"Patrick Gertse","Bishop Lavis",Male,1984-11-04,1200,1200
+241,"Livarn Esau","Bishop Lavis",Male,NULL,1200,1200
+242,"Denver Sweatz",Boundary,Male,NULL,1340,1200
+243,"Graham Van As",Boundary,Male,1966-10-27,1270,1200
+244,"Musfiquh Kalam",Boundary,Female,2002-05-01,1270,1200
+245,"Tarren Van As",Boundary,Female,1983-10-09,1200,1200
+246,"Tamika Van As",Boundary,Female,2012-11-17,1270,1200
+247,"Leeche De Bruyn",Boundary,Female,2004-07-22,1200,1200
+248,"Joshua Benjamin",Boundary,Male,2000-01-01,1200,1200
+249,"Rafiq Jacobs",Boundary,Male,1972-04-22,1200,1200
+250,"Owais Jacobs",Boundary,Male,2011-11-18,1200,1200
+251,"Qaa-im Jacobs",Boundary,Male,2010-07-30,1200,1200
+252,"Gerard Schrieff",Boundary,Male,1976-03-25,1200,1200
+253,"Samuel Schrieff",Boundary,Male,2014-04-12,1200,1200
+254,"Cailtin May",Boundary,Female,NULL,1200,1200
+255,"Matthew Lingeveldt",Boundary,Male,NULL,1320,1200
+256,"Theo Lingeveldt",Boundary,Male,NULL,1340,1200
+257,"Timothy Lingeveldt",Boundary,Male,NULL,1200,1200
+258,"Rashaad Safodien",Boundary,Male,NULL,1270,1200
+259,"Greg Naik",Boundary,Male,NULL,1270,1200
+260,"Joseph Catz",Boundary,Male,NULL,1200,1200
+261,"Zondre Adams",Boundary,Male,NULL,1200,1200
+262,"Tayla Bailey",Boundary,Female,1996-03-22,1320,1200
+263,"Jodie Galant","Community House",Male,2006-03-24,1340,1200
+264,"Cuten Lodewyk","Community House",Male,2008-07-07,1340,1200
+265,"Harry Dawes","Community House",Male,NULL,1200,1200
+266,"Jiyaad Kara","Community House",Male,2008-10-06,1270,1200
+267,"Naathiem Salie","Community House",Male,2008-11-05,1200,1200
+268,"Yusuf Creighton","Community House",Male,2011-01-28,1200,1200
+269,"Kauthar Van Der Schyff","Community House",Female,2012-08-07,1200,1200
+270,"Cayden Delgada ","Community House",Male,2009-06-09,1200,1200
+271,"Dorian Davids ","Community House",Male,2010-07-14,1200,1200
+272,"Caleb Hurling","Community House",Male,2009-05-22,1200,1200
+273,"Keyaam Kamaldien ","Community House",Male,2008-07-11,1200,1200
+274,"Uzair Hendricks","Community House",Male,2009-07-23,1200,1200
+275,"Abdul Ismail","Community House",Male,2008-09-11,1220,1200
+276,"Rushin Jacobs","Community House",Male,2007-07-20,1200,1200
+277,"Moegamat Brandt","Community House",Male,2007-07-20,1200,1200
+278,"Ishaam Jumat","Community House",Male,2007-12-18,1200,1200
+279,"Yaseen Enous","Community House",Male,2012-03-03,1180,1200
+280,"Zaid Nackerdien","Community House",Male,2007-08-11,1200,1200
+281,"Sufiyaan Hoosain","Community House",Male,2010-10-27,1200,1200
+282,"Yahya Isaacs","Community House",Male,2011-09-08,1240,1200
+283,"Angelo Isaacs","Community House",Male,1973-09-22,1320,1200
+284,"Anton Titus","Community House",Male,1973-07-07,1320,1200
+285,"Ashley Tsai","Community House",Female,1997-09-04,1240,1200
+286,"Dirk Coetzee","Community House",Male,1988-04-08,1320,1200
+287,"Ebrahiem Effendi","Community House",Male,1972-10-24,1240,1200
+288,"Ebrahim Scello","Community House",Male,1954-01-07,1200,1200
+289,"Emmanuel Uzoukwu","Community House",Male,1974-02-16,1270,1200
+290,"Fayzal Galant","Community House",Male,1972-10-12,1200,1200
+291,"Gavin Parsons","Community House",Male,1979-11-14,1270,1200
+292,"Janine Sait","Community House",Female,1971-10-16,1220,1200
+293,"John Busch","Community House",Male,1975-08-06,1270,1200
+294,"Mahdi Adams","Community House",Male,1959-04-10,1320,1200
+295,"Marc Petersen","Community House",Male,1978-10-02,1290,1200
+296,"Ronald Hutchinson","Community House",Male,1967-05-10,1290,1200
+297,"Sean Raubenheimer","Community House",Male,1965-08-04,1220,1200
+298,"Sharad Naran","Community House",Male,1957-03-28,1200,1200
+299,"Simeen Mookrey","Community House",Female,2000-02-02,1290,1200
+300,"Tashreeq Baba","Community House",Male,2005-01-22,1320,1200
+301,"Thomas Parker","Community House",Male,1990-01-07,1270,1200
+302,"Tiago Faria","Community House",Male,2005-06-12,1320,1200
+303,"Wahid Solker","Community House",Male,1987-11-07,1240,1200
+304,"Zahir Toefy","Community House",Male,1979-08-14,1220,1200
+305,"Stephen Katzef","Community House",Male,1964-07-01,1270,1200
+306,"Angel Siringwani","Community House",Male,2001-05-02,1200,1200
+307,"Hitendra Makan","Community House",Male,1970-11-19,1200,1200
+308,"Dahleel Isaacs","Community House",Male,2008-07-08,1240,1200
+309,"Jason Albertyn","Community House",Male,1977-02-15,1200,1200
+310,"Shane Fortuin","Community House",Male,1974-01-13,1200,1200
+311,"Brandon Orderson","Community House",Male,1984-08-02,1200,1200
+312,"Zaheer Jackson","Community House",Male,1964-03-04,1200,1200
+313,"Nick Binidell","Community House",Male,NULL,1200,1200
+314,"Pramod Vassen","Community House",Male,NULL,1200,1200
+315,"Geoff Garrett","Community House",Male,NULL,1200,1200
+316,"Jayraj Vassen","Community House",Male,1958-03-16,1200,1200
+317,"Josh Idesis","Community House",Male,NULL,1180,1200
+318,"Martin Bacchus","Community House",Male,NULL,1180,1200
+320,"Faieka Slemming","Community House",Female,NULL,1200,1200
+321,"Harry Lee Pan","Community House",Male,NULL,1200,1200
+322,"Marc Ross","Community House",Male,NULL,1200,1200
+323,"Llewellyn Lackay","Community House",Male,1975-09-10,1200,1200
+324,"Layla Van Der Schyff","Community House",Female,NULL,1200,1200
+325,"Abraar Dustay","Community House",Male,NULL,1200,1200
+326,"Ikraam Francis","Community House",Male,NULL,1180,1200
+327,"Josh Krishna","Community House",Male,NULL,1200,1200
+328,"Milo Katz","Community House",Male,2013-01-30,1200,1200
+329,"Remy Zaroozny","Community House",Male,2015-07-22,1200,1200
+330,"Theo Cogill","Community House",Male,NULL,1340,1200
+331,"Atlaaf Solomons",DLPE,Male,NULL,1200,1200
+332,"Riedewaan Isaacs",DLPE,Male,NULL,1200,1200
+333,"Munier Ferhelst",DLPE,Male,NULL,1200,1200
+334,"Kian Jansen",DLPE,Male,NULL,1200,1200
+335,"Grant Bailey",Liv-Ken,Male,NULL,1240,1200
+336,"Shaine Jeftha",Liv-Ken,Male,NULL,1240,1200
+337,"Anthony Brown",Liv-Ken,Male,NULL,1200,1200
+338,"Martin Jansen",Liv-Ken,Male,NULL,1290,1200
+339,"Benjamin Vd Ross",Liv-Ken,Male,NULL,1290,1200
+340,"Derrel Adriaans",Liv-Ken,Male,NULL,1290,1200
+341,"Damian Jeftha",Liv-Ken,Male,NULL,1240,1200
+342,"Adiel Adjouhaar",Liv-Ken,Male,NULL,1200,1200
+343,"Ashley Wesson",Liv-Ken,Male,NULL,1320,1200
+344,"Bahia Yaghya",Liv-Ken,Female,NULL,1200,1200
+345,"Brent Gertson",Liv-Ken,Male,NULL,1200,1200
+346,"Christian Poggenpoel",Liv-Ken,Male,NULL,1240,1200
+347,"Darren Rodgers",Liv-Ken,Male,NULL,1320,1200
+348,"Gabrial Naido",Liv-Ken,Male,NULL,1200,1200
+349,"Kian Chapman",Liv-Ken,Male,NULL,1290,1200
+350,"Mark Bredeveld",Liv-Ken,Male,NULL,1200,1200
+351,"Micheal Ross",Liv-Ken,Male,NULL,1200,1200
+352,"Ruben Poggenpoel",Liv-Ken,Male,NULL,1200,1200
+353,"Nahum Philander",Liv-Ken,Male,NULL,1290,1200
+354,"Adrian Philander",Liv-Ken,Male,NULL,1320,1200
+355,"Carlo Christopher",Liv-Ken,Male,NULL,1200,1200
+356,"Kieth Isaacs",Liv-Ken,Male,NULL,1200,1200
+357,"Shaun Hendricks",Liv-Ken,Male,NULL,1200,1200
+358,"Liam Jeftha",Liv-Ken,Male,NULL,1200,1200
+359,"Wendy Morland",Liv-Ken,Female,NULL,1200,1200
+360,"Zeena Jansen",Liv-Ken,Female,NULL,1200,1200
+361,"Mickyle Meyer",Liv-Ken,Male,NULL,1200,1200
+362,"Sharief Yaghya",Liv-Ken,Male,NULL,1200,1200
+363,"Hunter Varrie",Liv-Ken,Male,NULL,1200,1200
+364,"Nashwin Pienaar",Liv-Ken,Male,NULL,1290,1200
+365,"Micha Prince",Liv-Ken,Male,NULL,1200,1200
+366,"Shilo Seagers",Liv-Ken,Female,NULL,1200,1200
+369,"Zain Pennals",Liv-Ken,Male,NULL,1200,1200
+370,"Shahied Johaadien",Nexus,Male,1976-12-06,1240,1200
+371,"Jalaludien Hyder",Nexus,Male,1976-02-24,1270,1200
+372,"TJ Sabad",Nexus,Male,1995-06-09,1200,1200
+373,"Amien Phillips",Nexus,Male,1978-12-09,1200,1200
+374,"Yaseen Toefy",Nexus,Male,1985-08-15,1290,1200
+375,"Zahier Dalvie",Nexus,Male,1971-05-18,1180,1200
+376,"Sabri De Sani",Nexus,Male,1976-09-29,1180,1200
+377,"Ebrahiem Carr",Nexus,Male,1983-12-15,1180,1200
+378,"Muaath Adams",Nexus,Male,1973-04-12,1320,1200
+379,"Zahier Isaacs",Nexus,Male,1977-10-11,1320,1200
+380,"Sameer Parker",Nexus,Male,1985-01-14,1180,1200
+381,"Martin Arnolds",Nexus,Male,1964-06-03,1240,1200
+382,"Craig Fortuin",Nexus,Male,1979-01-22,1290,1200
+383,"Jawaad Schippers",Nexus,Male,1975-11-15,1270,1200
+384,"Rafiek Tofa",Nexus,Male,1973-10-21,1270,1200
+385,"Kamiel Ebrahim",Nexus,Male,1978-10-18,1240,1200
+386,"Riad Maneveld",Nexus,Male,1977-02-06,1270,1200
+387,"Munier Isaacs",Nexus,Male,1977-11-10,1320,1200
+388,"Moenieb Roberts",Nexus,Male,1977-09-11,1240,1200
+389,"Cashief Mowzer",Nexus,Male,1984-07-19,1270,1200
+390,"Ghalieb Davids",Nexus,Male,1972-12-04,1270,1200
+391,"Dean Alfos",Nexus,Male,1989-07-28,1180,1200
+392,"Saaliegh Jabaar",Nexus,Male,1976-06-08,1270,1200
+393,"Anver Lyners",Nexus,Male,NULL,1200,1200
+394,"Rick Solomons",Nexus,Male,1987-07-24,1200,1200
+395,"Shereen Lyners",Nexus,Female,NULL,1200,1200
+396,"Zaida Lyners",Nexus,Female,NULL,1200,1200
+397,"Sacha Davids",Nexus,Male,1974-08-10,1290,1200
+398,"Gareth Bunce",Protea,Male,1983-01-07,1180,1200
+399,"Clint Cupido",Protea,Male,1981-08-30,1180,1200
+400,"Rob de Villiers",Protea,Male,1982-07-02,1200,1200
+401,"Wouter de Wit",Protea,Male,1986-05-30,1200,1200
+402,"Salie Hendricks",Protea,Male,1981-07-08,1180,1200
+403,"Kiffie Liversage",Protea,Male,1985-08-23,1200,1200
+404,"Suzie Phillips",Protea,Female,1975-07-08,1180,1200
+405,"William Reizenberg",Protea,Male,1988-03-03,1200,1200
+406,"Bruno Villiers",Protea,Male,1961-06-18,1180,1200
+407,"Jerron Vincent",Protea,Male,2006-08-15,1200,1200
+408,"Dawn Elson",Protea,Female,1946-07-25,1180,1200
+409,"Andre Burns",Protea,Male,NULL,1200,1200
+410,"Garry Henn",Protea,Male,NULL,1200,1200
+411,"Peter Knight",Protea,Male,NULL,1200,1200
+412,"Daniel Livermore",Protea,Male,NULL,1200,1200
+413,"Gershwin Losper",Protea,Male,NULL,1200,1200
+414,"Nerina  Manchip",Protea,Female,NULL,1200,1200
+415,"Ethan  Simpson",Protea,Male,NULL,1200,1200
+416,"Angeline Wood",Ravens,Female,1970-02-21,1220,1200
+417,"Bernie April",Ravens,Male,1963-03-05,1200,1200
+418,"Bevan Steyn",Ravens,Male,1970-05-21,1290,1200
+419,"Darren Orr",Ravens,Male,1998-01-06,1340,1200
+420,"Demos Dracoulides",Ravens,Male,1966-07-08,1340,1200
+421,"Ezra Msindeni",Ravens,Male,1984-12-25,1340,1200
+422,"Frans Erasmus",Ravens,Male,1966-07-19,1340,1200
+424,"Kirshwan Steyn",Ravens,Male,1988-10-09,1340,1200
+425,"Richard Ntamutumba",Ravens,Male,1975-01-01,1290,1200
+426,"Warren Julius",Ravens,Male,1974-01-29,1290,1200
+427,"Aiden Oransie",Ravens,Male,2005-05-30,1220,1200
+428,"Shane Meyer",Ravens,Male,2009-02-18,1200,1200
+429,"Skyler Titus",Ravens,Male,2009-08-17,1200,1200
+430,"Jihan Jacobs",Ravens,Male,2010-12-24,1200,1200
+431,"Noah  McAllister",Ravens,Male,2010-05-21,1200,1200
+432,"Jyante  Jacobs",Ravens,Male,2011-11-30,1200,1200
+433,"Tamika Karra",Ravens,Female,2012-03-06,1200,1200
+434,"Nate  Borchards",Ravens,Male,2012-03-05,1200,1200
+435,"Camryn Otto",Ravens,Male,2013-03-20,1200,1200
+436,"Charmaine  Davids",Ravens,Female,2013-03-25,1200,1200
+437,"Gabriel  Leo",Ravens,Male,2013-05-03,1200,1200
+438,"Leah  Memphis",Ravens,Female,2014-10-08,1200,1200
+439,"Azaleah  Lallo",Ravens,Female,2014-12-22,1200,1200
+440,"Luke  Davids",Ravens,Male,2015-04-14,1200,1200
+441,"Cole  Davids",Ravens,Male,2016-07-30,1200,1200
+442,"Heugan  Karra",Ravens,Male,2016-03-21,1200,1200
+443,"Ziah  Davids",Ravens,Female,2017-09-18,1200,1200
+444,"Jordan Martin",Ravens,Male,2007-03-16,1220,1200
+445,"Jayden Olivier",Ravens,Male,2010-12-27,1200,1200
+446,"Qayoom  Petersen",Ravens,Male,2013-03-02,1200,1200
+447,"Gideon Stompies",Ravens,Male,2010-02-27,1220,1200
+448,"Juwayden Jansen",Ravens,Male,2009-09-12,1200,1200
+449,"Rogan Fortuin",Ravens,Male,2012-01-07,1220,1200
+450,"Arren Stander",Ravens,Female,2014-05-01,1200,1200
+451,"Andre Van Schoor",Ravens,Male,1958-12-02,1200,1200
+452,"Izette Collins",Ravens,Female,1963-10-24,1200,1200
+453,"Nataline  Collins",Ravens,Female,1992-12-24,1200,1200
+454,"Lee-Anne Julius",Ravens,Female,1987-01-11,1200,1200
+455,"Savannah April",Ravens,Female,1997-07-24,1200,1200
+456,"Levona Meyer",Ravens,Female,NULL,1200,1200
+457,"Margaretha Oransie",Ravens,Female,NULL,1200,1200
+458,"Jasmine  Stompies",Ravens,Female,NULL,1200,1200
+459,"Javincia Jacobs",Ravens,Female,NULL,1200,1200
+460,"Vanessa McAllister",Ravens,Female,NULL,1200,1200
+461,"Rozita Swarts",Ravens,Female,NULL,1200,1200
+462,"Shaundre Borchards",Ravens,Female,NULL,1200,1200
+463,"Liza Otto",Ravens,Female,NULL,1200,1200
+464,"Ashsteresia Davids",Ravens,Female,NULL,1200,1200
+465,"Lucinda Memphis",Ravens,Female,NULL,1200,1200
+466,"Jadine Lallo",Ravens,Female,NULL,1200,1200
+467,"Charisma Davids",Ravens,Female,NULL,1200,1200
+468,"Jasmina Adams",Ravens,Female,NULL,1200,1200
+469,"Elizabeth January",Ravens,Female,NULL,1200,1200
+470,"Agatha Heyns",Ravens,Female,NULL,1200,1200
+471,"Monique  Petersen",Ravens,Female,NULL,1200,1200
+472,"Garth Greybe",Duinefontein,Male,NULL,1240,1200
+473,"Ridhaa Jawitz",Duinefontein,Male,NULL,1200,1200
+474,"Abdul Willoughby",Duinefontein,Male,1987-06-24,1200,1200
+475,"Abdullah Allie",Duinefontein,Male,2002-09-01,1200,1200
+476,"Adam Domingo",Duinefontein,Male,2012-01-06,1220,1200
+477,"Adeeb Karriem",Duinefontein,Male,NULL,1200,1200
+478,"Aden Mzunzu",Duinefontein,Male,NULL,1200,1200
+479,"Alexander Jones",Duinefontein,Male,NULL,1240,1200
+480,"Boebie Solomons",Duinefontein,Male,1955-03-22,1200,1200
+481,"Caleb Lawrence",Duinefontein,Male,2009-03-11,1240,1200
+482,"Carl Payle",Duinefontein,Male,NULL,1200,1200
+483,"Chadley Timmie",Duinefontein,Male,2005-08-27,1200,1200
+485,"David Nwafor",Duinefontein,Male,NULL,1340,1200
+486,"Deen West",Duinefontein,Male,2004-03-29,1200,1200
+487,"Errol Joemath",Duinefontein,Male,1966-10-16,1320,1200
+488,"Fouwaaz Domingo",Duinefontein,Male,1982-11-30,1200,1200
+489,"Gary Rensburg",Duinefontein,Male,1996-01-11,1200,1200
+490,"Grant Van Der Vent",Duinefontein,Male,1995-09-26,1200,1200
+491,"Huzzayr Matthysen",Duinefontein,Male,NULL,1200,1200
+492,"Jake Nicholson",Duinefontein,Male,NULL,1200,1200
+493,"Jarret Isaacs",Duinefontein,Male,1982-10-13,1240,1200
+494,"Jay Jay Pietersen",Duinefontein,Male,NULL,1200,1200
+495,"Jayden Malgas",Duinefontein,Male,NULL,1200,1200
+496,"Jerome Davies",Duinefontein,Male,NULL,1320,1200
+497,"Jonathan Mukwekwerere",Duinefontein,Male,1982-01-06,1240,1200
+498,"Kaydin Stuart",Duinefontein,Male,1998-12-30,1200,1200
+499,"Keanin Pekeur",Duinefontein,Male,1998-10-06,1340,1200
+500,"Kevin Isaacs",Duinefontein,Male,1957-10-22,1200,1200
+501,"Levi Ruiters",Duinefontein,Male,NULL,1200,1200
+502,"Liam Davids",Duinefontein,Male,NULL,1200,1200
+503,"Lindsay October",Duinefontein,Male,NULL,1340,1200
+504,"Mekhail Schroeder",Duinefontein,Male,2002-11-08,1340,1200
+505,"Micah Jones",Duinefontein,Male,NULL,1200,1200
+507,"Niezaam Theunissen",Duinefontein,Male,1979-03-23,1220,1200
+508,"Nizaam Moosa",Duinefontein,Male,2002-06-08,1340,1200
+509,"Ntuthuzelo Lafisi",Duinefontein,Male,NULL,1200,1200
+510,"Nur Van Dyk",Duinefontein,Male,NULL,1200,1200
+511,"Raees Davids",Duinefontein,Male,1993-10-22,1200,1200
+512,"Refai Yaghya",Duinefontein,Male,2003-04-30,1340,1200
+513,"Riyaadh Lee",Duinefontein,Male,2001-12-07,1200,1200
+514,"Samkele Notshe",Duinefontein,Male,1990-07-22,1240,1200
+515,"Shaan West",Duinefontein,Male,2007-09-18,1200,1200
+516,"Shaun Jones",Duinefontein,Male,NULL,1340,1200
+517,"Sharief Lalla",Duinefontein,Male,1974-08-15,1200,1200
+518,"Wafeeq Domingo",Duinefontein,Male,1984-02-21,1200,1200
+519,"Wayden Brown",Duinefontein,Male,NULL,1220,1200
+520,"Yaqoob Domingo",Duinefontein,Male,2015-06-24,1200,1200
+521,"Zaheer Yusuf",Duinefontein,Male,NULL,1200,1200
+522,"Zakeer Moosa",Duinefontein,Male,1999-12-28,1340,1200
+523,"Ayesha Domingo",Duinefontein,Female,1986-04-25,1200,1200
+524,"Naayma Domingo",Duinefontein,Female,1959-04-02,1200,1200
+525,"Saubirah Yusuf",Duinefontein,Female,NULL,1200,1200
+526,"Sumaya Esau",Duinefontein,Female,NULL,1200,1200
+527,"Diolene Granger",Duinefontein,Female,NULL,1200,1200
+528,"Farah Domingo",Duinefontein,Female,2015-06-24,1200,1200
+529,"Ganaan Sonday",Duinefontein,Female,NULL,1200,1200
+530,"Imaan Domingo",Duinefontein,Female,2015-06-24,1200,1200
+531,"Jada Alexander",Duinefontein,Female,2006-01-26,1200,1200
+532,"Palmer Mukwekwerere",Duinefontein,Male,2009-12-24,1200,1200
+533,"Rochica Sonday",Duinefontein,Female,2008-11-25,1320,1200
+534,"Shona Jones",Duinefontein,Female,NULL,1220,1200
+535,"Tazmin Harris",Duinefontein,Female,2007-01-16,1220,1200
+536,"Abrie Cronje",Goodwood,Male,NULL,1180,1200
+537,"Alex O'Ryan",Goodwood,Male,NULL,1200,1200
+538,"Andre Taljaard",Goodwood,Male,NULL,1220,1200
+539,"Anwa Adriaanse",Goodwood,Male,NULL,1200,1200
+540,"Bernard Stewe",Goodwood,Male,NULL,1320,1200
+541,"Brendan O'Connell",Goodwood,Male,NULL,1240,1200
+542,"Asher Marais",Goodwood,Male,NULL,1180,1200
+543,"Charl Grobbelaar",Goodwood,Male,NULL,1240,1200
+544,"Cornel Wessels",Goodwood,Male,NULL,1180,1200
+545,"Daryl Williams",Goodwood,Male,1959-04-10,1320,1200
+546,"Delton Alexander",Goodwood,Male,NULL,1270,1200
+547,"Edward Hahn",Goodwood,Male,NULL,1270,1200
+548,"Enrico Louw",Goodwood,Male,NULL,1200,1200
+549,"Lester Malgas",Goodwood,Male,NULL,1180,1200
+550,"Nezaam ",Goodwood,Male,NULL,1200,1200
+551,"Pedro Fortuin",Goodwood,Male,NULL,1240,1200
+552,"Reggie Petersen",Goodwood,Male,NULL,1180,1200
+553,"Richard Abrahams",Goodwood,Male,NULL,1270,1200
+554,"Salie Petersen",Goodwood,Male,NULL,1200,1200
+555,"Shakeel Hendricks",Goodwood,Male,NULL,1220,1200
+556,"Yaseen Hassam",Goodwood,Male,NULL,1200,1200
+557,"Yusuf Rajie",Goodwood,Male,NULL,1320,1200
+558,"Samantha Jooste",Goodwood,Female,NULL,1200,1200
+559,"Caron Erasmus",Goodwood,Female,NULL,1200,1200
+560,"Ashlyn Wagner",Stephanians,Male,1978-02-28,1340,1200
+561,"Yusuf Steyn",Stephanians,Male,1975-12-13,1340,1200
+562,"Jerome Davis",Stephanians,Male,1979-03-06,1200,1200
+563,"Kirk Daries",Stephanians,Male,1976-09-11,1290,1200
+564,"Clement Meyer",Stephanians,Male,1964-08-21,1220,1200
+565,"Shamiel Samsodien",Stephanians,Male,1980-05-05,1200,1200
+566,"Sedick Abrahams",Stephanians,Male,1964-02-03,1340,1200
+567,"Marco Thomas",Stephanians,Male,1965-06-05,1200,1200
+568,"Russel Fredricks",Stephanians,Male,1976-06-13,1220,1200
+569,"Junaid Fredricks",Stephanians,Male,1958-03-07,1240,1200
+570,"Jai Valodia",Stephanians,Male,1956-02-11,1200,1200
+571,"Sedick Alexander",Stephanians,Male,1964-02-03,1240,1200
+572,"Annamaria Meyer",Stephanians,Female,1972-03-17,1220,1200
+573,"Clint Davids",Stephanians,Male,1972-11-16,1200,1200
+574,"Graham George",Stephanians,Male,1978-01-17,1200,1200
+575,"Aden Buckton",Stephanians,Male,2004-04-10,1220,1200
+576,"Ethol Tladi",Stephanians,Female,1969-02-20,1200,1200
+577,"Terence Onrust",Stephanians,Male,1972-05-13,1240,1200
+578,"Anthony Brink",Stephanians,Male,1977-11-20,1200,1200
+579,"Aneeq Arnold",Stephanians,Female,2007-03-27,1200,1200
+580,"Ameen Jansen",Stephanians,Male,1969-02-14,1290,1200
+581,"Gabrielle Wagner",Stephanians,Female,2010-06-09,1200,1200
+582,"Shaabirah Taliep",Stephanians,Female,2012-01-17,1200,1200
+583,"Imaan Taliep",Stephanians,Female,2008-02-10,1200,1200
+584,"Samuel Wagner",Stephanians,Male,2012-09-16,1220,1200
+585,"Harley Meyer",Stephanians,Female,2013-10-16,1200,1200
+586,"Ravi Magan",Stephanians,Male,2012-06-29,1200,1200
+587,"Kuhle Sikweza",Stephanians,Male,NULL,1200,1200
+588,"Murshid Obabray",Stephanians,Male,1983-12-01,1200,1200
+589,"Layla Abrahams",Stephanians,Female,NULL,1200,1200
+590,"Cody Meyer",Stephanians,Male,1992-03-29,1220,1200
+591,"Che Meyer",Stephanians,Male,1991-05-09,1220,1200
+592,"Clare Wagner",Stephanians,Female,1977-08-18,1200,1200
+593,"Isa Kathrada",Stephanians,Male,2011-09-09,1200,1200
+594,"Dale Titus",Stephanians,Male,1997-05-09,1290,1200
+596,"Galant Abbas",Stephanians,Male,1966-03-19,1200,1200
+597,Roberto,Stephanians,Male,1968-05-25,1200,1200
+598,"Ashwin Kock",Stephanians,Male,2009-11-18,1200,1200
+599,"Yakeen Daniels",Stephanians,Male,2012-05-27,1200,1200
+600,"Aashiq Isaaca",Stephanians,Male,2011-10-03,1200,1200
+601,Godfrey,Stephanians,Male,1980-05-24,1200,1200
+602,"Mark Collison",Stephanians,Male,NULL,1220,1200
+603,"Ridewaan Salie",Stephanians,Male,1963-12-14,1200,1200
+604,"Mahdi Gamildien",Stephanians,Male,2008-04-22,1200,1200
+605,"Ed Berry",Stephanians,Male,1950-11-16,1200,1200
+606,"Oscar Abrahams",Stephanians,Male,2006-12-12,1200,1200
+607,"Leilah Cassiem",Stephanians,Female,1985-01-14,1200,1200
+608,"Iminam Mzimell",Stephanians,Female,1985-01-14,1200,1200
+609,"Mbongeni Khotle",Stephanians,Male,2007-06-07,1200,1200
+610,"Iminam Mzimell",Stephanians,Female,2008-04-25,1200,1200
+611,"Bunono Mde",Stephanians,Female,NULL,1200,1200
+612,"Dini James",Stephanians,Male,2006-04-13,1200,1200
+613,"Anesipho Nkxoyi",Stephanians,Female,2007-02-20,1200,1200
+614,"Akhanya Mpisana",Stephanians,Male,2007-08-20,1200,1200
+615,"Ziolise Liwani",Stephanians,Male,2009-11-29,1200,1200
+616,"Ntikelelo Mongo",Stephanians,Male,2007-09-06,1200,1200
+617,"Elam Dalaza",Stephanians,Male,2011-01-05,1200,1200
+618,"Olwakhe Maseti",Stephanians,Male,2008-10-13,1200,1200
+619,"Lilhe Tsani",Stephanians,Male,2008-10-20,1200,1200
+620,"Mbalentile Mtonga",Stephanians,Female,2007-12-31,1200,1200
+621,"Kwenele Bota",Stephanians,Male,2012-10-12,1200,1200
+622,"Akhanya Mbutana",Stephanians,Male,2011-06-26,1200,1200
+623,"Ahlume Mgogodlo",Stephanians,Female,2010-10-22,1200,1200
+624,"Lingmandla Mnqibisa",Stephanians,Female,2005-10-19,1200,1200
+625,"Yamkhela Maqjugulana",Stephanians,Female,2009-01-15,1200,1200
+626,"Thabisa Matsiliza",Stephanians,Female,1983-10-10,1200,1200
+627,"Lihle Babaza",Stephanians,Male,2005-06-20,1200,1200
+628,"Iviwe Ntando Mnandinani",Stephanians,Male,2009-12-15,1200,1200
+629,"Imange Kondlo",Stephanians,Female,2008-02-02,1200,1200
+630,"Lingomson Sontshalabe",Stephanians,Male,2010-07-25,1200,1200
+631,"Litha Mbelethu",Stephanians,Male,2010-02-03,1200,1200
+632,"Iviwe Zonke",Stephanians,Male,2007-04-04,1200,1200
+633,"Likhaya Sobethwa",Stephanians,Male,2008-06-08,1200,1200
+634,"Lakheni Tshoni",Stephanians,Male,NULL,1200,1200
+635,"Masihle Beja",Stephanians,Female,2007-03-06,1200,1200
+636,"Sphosethu Makhalima",Stephanians,Female,2005-10-30,1200,1200
+637,"Ayabulela Mbombo",Stephanians,Male,2005-05-30,1200,1200
+638,"Philile Sgongo",Stephanians,Male,2008-04-21,1200,1200
+639,"Simamkele Ntsundishe",Stephanians,Male,2010-03-11,1200,1200
+640,"Endinako Yenzela",Stephanians,Female,2010-05-29,1200,1200
+641,"Thalam Stuurman",Stephanians,Male,2010-05-05,1200,1200
+642,"Alwande Ngwenya",Stephanians,Female,2008-11-19,1200,1200
+643,"Sisande Xolani Mhlungu",Stephanians,Male,1994-09-21,1200,1200
+644,"Lazola Memani",Stephanians,Male,1986-06-13,1200,1200
+645,"Adilson May",Stephanians,Female,2006-05-26,1200,1200
+646,"Asange Dlulisa",Stephanians,Female,2005-08-01,1200,1200
+647,"Ayola Joseph",Stephanians,Female,2008-08-10,1200,1200
+648,"Adenathi Nonzaba",Stephanians,Female,2003-11-24,1200,1200
+649,"Lindokhule Joni",Stephanians,Male,2008-06-08,1200,1200
+650,"Phumzile Mgidlana",Stephanians,Male,2006-09-27,1200,1200
+651,"Derek Dreyden",Stephanians,Male,NULL,1200,1200
+652,"Isenathi Hlakuvana",Stephanians,Female,2009-12-15,1200,1200
+653,"Chenique Williams",Stephanians,Female,2006-07-26,1200,1200
+654,"Evangeline Simons",Stephanians,Female,2011-06-01,1200,1200
+655,"Leeyana Walker",Stephanians,Female,2010-06-11,1200,1200
+656,"Shumeez Jaftha",Stephanians,Female,2011-12-06,1200,1200
+657,"Mike Tshingano",Stephanians,Male,2010-11-28,1200,1200
+658,"Aqeela Ganief",Stephanians,Female,2010-02-18,1200,1200
+659,"Anthea Norman",Stephanians,Female,1973-05-06,1200,1200
+660,"Shelize Smith",Stephanians,Female,2008-08-31,1200,1200
+661,"Tashney Topp",Stephanians,Female,2012-07-27,1200,1200
+662,"Thando Ngcikwe",Stephanians,Male,2006-08-04,1200,1200
+663,"Lynn- Neigh Spagenberg",Stephanians,Female,2008-12-19,1200,1200
+664,"Shanique De Wee",Stephanians,Female,2006-09-23,1200,1200
+665,"Tiffany Cedras",Stephanians,Female,2008-03-31,1200,1200
+666,"Riwayna Breding",Stephanians,Female,2008-09-29,1200,1200
+668,"Alisha Sadler-Almeida",Stephanians,Female,1978-06-20,1200,1200
+669,"Shaun Tidoor",Stephanians,Male,1982-01-01,1200,1200
+670,"Aneekah Sauls",Stephanians,Female,2005-08-05,1180,1200
+671,"Seraaj Omar",Stephanians,Male,1984-06-08,1180,1200
+672,"Raemondo Lessing",Stephanians,Male,2006-12-04,1200,1200
+673,"Fawaaz Solomons",Stephanians,Male,2005-05-30,1200,1200
+674,"Thabong Joseph",Stephanians,Male,2003-10-23,1200,1200
+675,"Kyle Booysen",Stephanians,Male,2006-02-26,1200,1200
+676,"Ayavuya Kanase",Stephanians,Male,2004-01-15,1200,1200
+677,"Sive Hlazo",Stephanians,Male,2005-07-01,1200,1200
+678,"Tumelo Sabsana",Stephanians,Male,2005-06-16,1200,1200
+679,"Yusrih Isaacs",Stephanians,Male,1982-01-26,1180,1200
+680,"Shivan Ramprasad",Stephanians,Male,1991-01-23,1180,1200
+681,"Tashreeq Samsodien",Stephanians,Male,NULL,1180,1200
+682,"Gamza Taliep",Stephanians,Male,1985-11-11,1180,1200
+683,"Tahzier Isaacs",Stephanians,Male,1968-11-06,1180,1200
+684,"Faseeq Davids",Stephanians,Male,1994-08-13,1180,1200
+685,"Asemahle Sotashe",CPUT,Female,NULL,1200,1200
+686,"Jacobus Smuts",Maties,Male,2004-04-13,1200,1200
+687,"Wesley Rudimuldu",Nexus,Male,NULL,1290,1200
+688,"Isgaaq Jassiem",Stephanians,Male,NULL,1290,1200
+689,"Rewaldo Corlus",Liv-Ken,Male,NULL,1290,1200
+690,"Steven Mauerberger","Community House",Male,NULL,1270,1200
+691,"Ethan Hinrichsen",UCT,Male,NULL,1220,1200
+692,"Leo van Helden",Duinefontein,Male,NULL,1220,1200
+693,"Nahum Joseph",UWC,Male,NULL,1200,1200
+694,"Linley Williams",Stephanians,Male,NULL,1200,1200
+695,"Caitlin Lingeveldt",Boundary,Female,NULL,1320,1200
+696,"Craig Pasqualie","Community House",Male,NULL,1290,1200
+697,"Sharief Cedras",Liv-Ken,Male,NULL,1240,1200
+698,"Sushant Dutta",UCT,Male,NULL,1220,1200
+699,"Yameen Martin",Stephanians,Male,NULL,1180,1200
+700,"Bradley Benting",Boundary,Male,NULL,1340,1200
+701,"Lizalise Songqenqa",CPUT,Female,NULL,1200,1200
+702,"Jermaine Abrahams",Kuilsriver,Male,1974-09-07,1200,1200
+703,"Joel Grosch",Kuilsriver,Male,2000-07-24,1200,1200
+704,"John-William Abdol",Kuilsriver,Male,2001-08-03,1200,1200
+705,"Daniel Crouch",Kuilsriver,Male,1959-01-13,1200,1200
+706,"Michael Mackrill",Kuilsriver,Male,1979-02-11,1200,1200
+707,"Siba Mwezeni",Kuilsriver,Male,2001-07-31,1200,1200
+708,"Melissa Links",Kuilsriver,Female,1992-11-20,1200,1200
+709,"Darelle Rhoode",Kuilsriver,Female,1991-12-27,1200,1200
+710,"Shasha Naidoo",Kuilsriver,Female,1993-06-05,1200,1200
+711,"Janine Williams ",Kuilsriver,Female,1982-03-25,1200,1200
+712,"Daniel Ditta",Kuilsriver,Male,1976-11-24,1200,1200
+713,"Jordan Mackrill",Kuilsriver,Male,2013-01-15,1200,1200
+714,"Winston Davids",Kuilsriver,Male,1983-03-28,1200,1200
+715,"Bradwin Holt",Kuilsriver,Male,1993-02-27,1200,1200
+716,"Shane Le Roux",Titans,Male,1997-04-02,1200,1200
+717,"Marc Booysen",Titans,Male,1983-06-05,1200,1200
+718,"Shane Coetzee",Titans,Male,2003-07-15,1200,1200
+719,"Charles Kleintjes",Titans,Male,1970-05-16,1200,1200
+720,"Mark Kleintjes",Titans,Male,1974-09-11,1200,1200
+721,"Stephen September",Titans,Male,1990-07-02,1200,1200
+722,"Jerome Pietersen",Titans,Male,1980-07-26,1200,1200
+723,"Hermanique Voster",Titans,Male,1985-08-07,1200,1200
+724,"Riedewaan Fatagodien",Titans,Male,NULL,1200,1200
+725,"Eleen Meyer",Titans,Female,1984-05-02,1200,1200
+726,"Mia Shortles",Titans,Female,2016-11-17,1200,1200
+727,"Jayrinn-Lee Apollis",Titans,Male,2010-02-06,1200,1200
+728,"Gustav Becker",Titans,Male,2007-07-16,1200,1200
+729,"Marcus Booysen",Titans,Male,2012-11-01,1200,1200
+730,"Zahrah-Skye Cupido",Titans,Female,2014-02-12,1200,1200
+731,"Keagan Fransman",Titans,Male,2011-07-20,1200,1200
+732,"Luke Hofsta",Titans,Male,2012-01-04,1200,1200
+733,"Tamzin Human",Titans,Male,2011-06-26,1200,1200
+734,"Ghaneef Jacobs",Titans,Male,2011-02-01,1200,1200
+735,"Umr Jacobs",Titans,Male,2014-05-29,1200,1200
+736,"Duwayne Kannemeyer",Titans,Male,2009-05-27,1200,1200
+737,"Brody Kleintjes",Titans,Male,2013-02-19,1200,1200
+738,"Robin Livesy - Blom",Titans,Female,2012-04-02,1200,1200
+739,"Cughan Maart",Titans,Male,2010-03-29,1200,1200
+740,"Noah-Maria Reurink",Titans,Female,2011-08-12,1200,1200
+741,"Eli Shortles",Titans,Male,2014-12-11,1200,1200
+742,"Raquel Voster",Titans,Female,2013-01-15,1200,1200
+743,"Louwen Buys",Titans,Male,NULL,1200,1200
+744,"Jordan Pont",Titans,Male,NULL,1200,1200
+745,"Joshua Daniels",Titans,Male,2012-12-29,1200,1200
+746,"Nuwayne ",Titans,Male,NULL,1200,1200
+747,"Jamie-Leigh Heyns",Titans,Female,2011-04-24,1200,1200
+748,"Joshua Appollis",Titans,Male,NULL,1200,1200
+749,"Riedewaan Baartman",Titans,Male,NULL,1200,1200
+750,"Colby Kleintjes",Titans,Female,NULL,1200,1200
+751,"Mogammat Christians",Paarl,Male,1997-01-19,1200,1200
+752,"Aminah Diedericks",Paarl,Female,2005-11-01,1200,1200
+753,"Reno Fairbairn",Paarl,Male,1973-08-28,1200,1200
+754,"Tyrese Fairbairn",Paarl,Male,2002-10-25,1200,1200
+755,"Breyton Festus",Paarl,Male,2001-08-14,1200,1200
+756,"Thomas Francke",Paarl,Male,1970-01-29,1200,1200
+757,"Lee Keet",Paarl,Male,2002-05-09,1200,1200
+758,"Mario Lombard",Paarl,Male,1970-05-09,1200,1200
+759,"Zarier Nackerdien",Paarl,Male,1979-02-27,1200,1200
+760,"Hamton Oliver",Paarl,Male,2004-09-26,1200,1200
+761,"Nazeema Osman",Paarl,Female,1971-05-04,1200,1200
+762,"Randall Pretorius",Paarl,Male,1974-05-12,1200,1200
+763,"Marlon Stuurman",Paarl,Male,1991-08-25,1200,1200
+764,"Maliek Tieties",Paarl,Male,2007-05-19,1200,1200
+765,"Aubin Anthony",Paarl,Male,2008-05-14,1200,1200
+766,"Imtiyaaz Benjamin",Paarl,Male,2010-11-28,1200,1200
+767,"Zaitoon Daniels",Paarl,Female,2011-05-13,1200,1200
+768,"Taylon Filander",Paarl,Male,2008-12-03,1200,1200
+769,"Tamlin Fortuin",Paarl,Female,2011-03-20,1200,1200
+770,"Jovernia Fortuin",Paarl,Female,2006-12-20,1200,1200
+771,"Andrew Hendricks",Paarl,Male,2009-05-24,1200,1200
+772,"Zahra Nackerdien",Paarl,Female,2008-01-04,1200,1200
+773,"Kayde Uys",Paarl,Male,2010-06-30,1200,1200
+774,"Ruhayden Van der Westhuizen",Paarl,Male,2010-05-24,1200,1200
+775,"Charl Solomons",Titans,Male,1979-09-30,1200,1200
+776,"Mornay Pretorius",Kuilsriver,Male,NULL,1200,1200
+777,"Warren Retief",Paarl,Male,NULL,1200,1200
+778,"Liam Van Der Riet-Field",UCT,Male,NULL,1220,1200
+779,"Tazlyn Pietersen",Liv-Ken,Female,NULL,1240,1200
+780,"Lateef Somad","Community House",Male,NULL,1180,1200
+781,"Dave Sanusi","Community House",Male,NULL,1180,1200
+782,"Anele Khumalo","Adelaide Tambo School",Female,2008-08-01,1200,1200
+783,"Ayanda Mpofu","Adelaide Tambo School",Female,2008-03-06,1200,1200
+784,"Bathembu Nkosiyane","Adelaide Tambo School",Male,NULL,1200,1200
+785,"Hloniphile Manqans","Adelaide Tambo School",Female,2008-07-10,1200,1200
+786,"Inami Qutu","Adelaide Tambo School",Female,2005-11-30,1200,1200
+787,"Itumeleng Seloko","Adelaide Tambo School",Female,2008-01-13,1200,1200
+788,"Mandimphiwe Magushana","Adelaide Tambo School",Male,NULL,1200,1200
+789,"Mthokozisi Feni","Adelaide Tambo School",Male,2009-08-12,1200,1200
+790,"Noah Manganyi","Adelaide Tambo School",Male,2010-01-28,1200,1200
+791,"Paseka Sakoame","Adelaide Tambo School",Male,NULL,1200,1200
+792,"Sakhe Matamanzima","Adelaide Tambo School",Male,NULL,1200,1200
+793,"Siphosethu Vingqishe","Adelaide Tambo School",Female,2005-05-24,1200,1200
+794,"Sphelele Jojisa","Adelaide Tambo School",Male,NULL,1200,1200
+795,"Christo Venter",Admin,Male,1998-05-21,1200,1200
+796,"Danie Olivier",Admin,Male,2002-07-01,1200,1200
+797,"Jannie Olivier",Admin,Male,1972-03-11,1200,1200
+798,"Luan Kruger",Admin,Male,2009-04-21,1200,1200
+799,"Markus Roux",Admin,Male,2011-10-15,1200,1200
+800,"Mikal Kruger",Admin,Male,2013-12-27,1200,1200
+801,"Ruan van der Merwe",Admin,Male,2009-09-18,1200,1200
+802,"Ruan Venter",Admin,Male,2003-11-05,1200,1200
+803,"Terrance Louw",Admin,Male,1966-10-22,1200,1200
+804,"Tony Song",Anchors,Male,2025-10-16,1200,1200
+805,"Driasin Gounden","Blue Fountains",Male,1997-11-20,1180,1200
+806,"Jesse Berkowitz","Blue Fountains",Male,2008-10-30,1180,1200
+807,"Jonathan Wernich","Blue Fountains",Male,1988-03-18,1320,1200
+808,"Keshav Singh","Blue Fountains",Male,2008-03-23,1180,1200
+809,"Nathan Pillay","Blue Fountains",Male,1977-03-12,1300,1200
+810,"Neil Du Preez","Blue Fountains",Male,1967-08-10,1300,1200
+811,"Randall Jansen","Blue Fountains",Male,1978-02-24,1240,1200
+812,"Ronel Botha","Blue Fountains",Female,1974-11-29,1180,1200
+813,"Yashil Jaimungal",Bounce,Male,2000-04-04,1200,1200
+814,"Kivesh Sivnarain",Bounce,Male,2002-03-04,1200,1200
+817,"Derick de Beer",Challengers,Male,2007-09-14,1200,1200
+818,"Jarrod Cilliers",Challengers,Male,2007-12-28,1200,1200
+819,"Marius Morkel",Challengers,Male,1995-03-23,1200,1200
+820,"Motshele Lekalakala",Challengers,Male,2007-02-21,1200,1200
+821,"Mujeeb Ebrahim",Challengers,Male,1976-08-16,1200,1200
+822,"Thys Pieterse",Challengers,Male,2002-01-25,1200,1200
+825,"Alicia Verheijen",CSIR,Female,2013-08-28,1200,1200
+826,"Athi Mda",CSIR,Female,1991-11-05,1200,1200
+827,"Binyamin Salie",CSIR,Male,2011-01-18,1200,1200
+828,"Danyelle Verheijen",CSIR,Female,2015-02-23,1200,1200
+829,"Duncan Craigie",CSIR,Male,2001-12-10,1200,1200
+830,"Jose Da Silva",CSIR,Male,1966-11-03,1200,1200
+831,"Juane Scholtz",CSIR,Female,2008-01-10,1200,1200
+832,"Kareem Zain Eddin",CSIR,Male,2012-11-23,1200,1200
+833,"Lunga Vakele",CSIR,Male,1994-09-12,1200,1200
+834,"Omar Zain Eddin",CSIR,Male,1982-01-04,1200,1200
+835,"Pieter Starke",CSIR,Male,1993-09-29,1200,1200
+836,"Ruan Scholtz",CSIR,Male,2010-03-03,1320,1200
+837,"Tamara Salie",CSIR,Female,2008-07-10,1200,1200
+838,"Aakash Gokhale",Denel,Male,2014-01-28,1200,1200
+839,"Ethan Martin",Denel,Male,2008-06-26,1200,1200
+840,"Gerrit Coetzer",Denel,Male,1962-01-16,1200,1200
+841,"Jawaad Ebrahim",Denel,Male,1975-03-08,1200,1200
+842,"Lindley Peters",Denel,Male,1970-10-16,1200,1200
+843,"Logan Smit",Denel,Male,2009-06-19,1200,1200
+844,"Marvin Job",Denel,Male,1976-06-20,1200,1200
+845,"Ronald Lawrence",Denel,Male,1971-05-17,1200,1200
+846,"Sudais Mohamed",Flames,Male,2013-04-01,1200,1200
+847,"Ricardo Carrasco","Grey College",Male,2007-08-20,1200,1200
+848,"Rupert Bester","Grey College",Male,2011-10-26,1200,1200
+849,"Malwande matsha","Ivory Park",Male,1985-06-30,1200,1200
+850,"Zakhele John","Ivory Park",Male,1991-05-10,1200,1200
+851,"Boitumelo Pheleu",Katlehong,Female,2013-06-21,1200,1200
+852,"Jafta Hlasa",Katlehong,Male,2015-09-23,1200,1200
+853,"Kabelo Phutsisi",Katlehong,Male,2014-02-20,1200,1200
+854,"Katleho Dibiloane",Katlehong,Female,2013-03-03,1200,1200
+855,"Lesedi Molefe",Katlehong,Female,2014-05-24,1200,1200
+856,"Lesego Malgas",Katlehong,Male,2009-07-24,1200,1200
+857,"Shane Overmeyer",Kuilsriver,Male,1979-08-10,1200,1200
+858,"Ashish Nathoo",Lenasia,Male,1992-01-14,1300,1200
+859,"Awande Zulu",Lenasia,Male,2009-11-11,1200,1200
+860,"Bimal Jivraj",Lenasia,Male,2008-12-01,1210,1200
+861,"Chetan Nathoo",Lenasia,Male,1989-12-07,1320,1200
+862,"Danisha Patel",Lenasia,Female,1992-12-31,1320,1200
+863,"Eesa Vachiat",Lenasia,Male,2011-09-15,1200,1200
+864,"Faizaan Hoosen",Lenasia,Male,2013-03-21,1200,1200
+865,"Himal Devchand",Lenasia,Male,1974-12-03,1210,1200
+866,"Ismail Badat",Lenasia,Male,1966-01-18,1320,1200
+867,"Manqoba Nyamate",Lenasia,Male,2009-08-09,1200,1200
+868,"Muaaz Hoosen",Lenasia,Male,2015-12-08,1200,1200
+869,"Muhammed Hansrod",Lenasia,Male,2012-12-13,1200,1200
+870,"Nkululeko Zikalala",Lenasia,Male,1995-10-05,1200,1200
+871,"Samuel Ilori",Lenasia,Male,1965-04-04,1320,1200
+872,"Sameera Maal",Lenasia,Female,1980-09-08,1210,1200
+874,"Shuaib Ebrahim",Lenasia,Male,1990-03-30,1210,1200
+875,"Sumayya Hansrod",Lenasia,Female,2015-08-13,1200,1200
+876,"Zayd Hoosen",Lenasia,Male,2014-11-23,1200,1200
+877,"Antony Bullen",Masters,Male,1969-12-16,1200,1200
+878,"Arrie Weilbach",Masters,Male,1977-08-08,1200,1200
+879,"Asher Abrahams",Masters,Male,2011-06-26,1210,1200
+880,"Chanan Hurwitz",Masters,Male,2013-07-22,1210,1200
+881,"Cowen Lodewyk",Masters,Male,2004-08-28,1300,1200
+882,"Grace Kesval",Masters,Female,2012-03-19,1200,1200
+883,"Isabel Bullen",Masters,Female,2011-02-16,1200,1200
+884,"Jacob Kata",Masters,Male,1982-07-10,1200,1200
+885,"Jason Brickhill",Masters,Male,1981-08-24,1240,1200
+886,"Judit Sassu",Masters,Female,1969-06-26,1210,1200
+887,"Kristin Kata",Masters,Female,2012-06-02,1200,1200
+888,"Larushen Padayachee",Masters,Male,2011-08-20,1210,1200
+889,"Liam Beukes",Masters,Male,2004-06-09,1300,1200
+890,"Luke Abrahams",Masters,Male,1988-04-07,1300,1200
+891,"Mark Williams",Masters,Male,1988-09-18,1300,1200
+892,"Netanel Amoils",Masters,Male,2009-11-25,1200,1200
+893,"Villyen Motaze",Masters,Male,1982-05-28,1200,1200
+894,"Ori Asulin",Masters,Male,2014-08-03,1200,1200
+895,"Saeed Tifflin",Masters,Male,2016-06-27,1200,1200
+896,"Salma Sheik Hoosen",Masters,Female,2001-09-19,1200,1200
+897,"Sam Imiehe",Masters,Male,1982-09-25,1240,1200
+898,"Sarah Hunkin",Masters,Female,2010-01-21,1210,1200
+899,"Sarah Morsner",Masters,Female,2008-01-03,1210,1200
+900,"Saul Ephron",Masters,Male,2007-10-24,1200,1200
+901,"Shachar Asulin",Masters,Male,2012-11-19,1200,1200
+902,"Simon Lipschitz",Masters,Male,1998-01-20,1200,1200
+903,"Sumeshan Padayachee",Masters,Male,1985-09-05,1210,1200
+904,"Terrence Mathole",Masters,Male,1996-06-02,1300,1200
+905,"Tevia Sapire",Masters,Male,1994-12-13,1300,1200
+906,"Vaishant Padayachee",Masters,Male,2015-04-22,1200,1200
+907,"Lethabo Letoane","Phumla School",Male,2006-10-10,1200,1200
+908,"Nhlanhla Mogatusi","Phumla School",Female,2008-02-17,1200,1200
+909,"Oratile Mogorosi","Phumla School",Male,2006-09-27,1200,1200
+910,"Samantha Utabwarova","Phumla School",Female,2005-08-05,1200,1200
+911,"Thabo Mobu","Phumla School",Male,2005-04-17,1200,1200
+912,"Xolani Mkhodwane","Phumla School",Male,2005-07-26,1200,1200
+913,"Anotidaishe Husvu",PMSC,Female,2014-04-09,1200,1200
+914,"Itumeleng Molahloe",PMSC,Male,1992-07-30,1200,1200
+915,"Makomborero Husvu",PMSC,Male,2009-11-28,1200,1200
+916,"Nick Janhi",PMSC,Male,1998-06-23,1200,1200
+917,"Tadiwanashe Husvu",PMSC,Female,2016-03-20,1200,1200
+918,"Eddy Buchling",Queens,Male,2006-02-21,1210,1200
+919,"Enjun Pan",Queens,Male,2008-01-16,1180,1200
+920,"Franklin Rangata",Queens,Male,2009-05-14,1200,1200
+921,"Fundo Shangase",Queens,Male,2001-09-19,1200,1200
+922,"Given Muyikwa",Queens,Male,2011-05-10,1200,1200
+923,"Mubeen Hadjee",Queens,Male,1991-04-03,1300,1200
+924,"Nilesh Singh",Queens,Male,1990-03-19,1320,1200
+925,"Oladele Olowokere",Queens,Male,1992-07-12,1200,1200
+926,"Precious Benson",Queens,Female,2009-04-19,1200,1200
+927,"Terrywoki Rangata",Queens,Female,2011-01-24,1200,1200
+928,"Lailaa Edwards",Raiders,Female,2001-01-13,1320,1200
+929,"Menasseh Manuel",Raiders,Male,1978-05-28,1240,1200
+930,"Saadia Edwards",Raiders,Female,1975-09-16,1240,1200
+931,"Saiisha Naidu",Raiders,Female,1992-06-16,1240,1200
+932,"Timothy Brownley",Raiders,Male,1975-11-10,1240,1200
+933,"Barney Bai",Rivonia,Male,1974-04-19,1320,1200
+934,"Peter Bian",Rivonia,Male,1963-02-01,1320,1200
+935,"Starn Hui",Rivonia,Male,1983-04-12,1320,1200
+936,"Zhibo Hui",Queens,Male,2007-10-13,1180,1200
+937,"Pusetso Sekike",Sedibeng,Male,1989-06-14,1200,1200
+938,"Faheem Essop",T2,Male,1982-08-24,1200,1200
+939,"Fahim Kadawala",T2,Male,2009-11-25,1200,1200
+940,"Mohamed Mansoor",T2,Male,1981-08-02,1200,1200
+941,"Ettienne Engelbrecht","Tempe Military",Male,1986-03-09,1200,1200
+942,"Refilwe Phoofolo","Tempe Military",Female,2011-02-10,1200,1200
+943,"Rethabile Molisenyane","Tempe Military",Female,2004-04-02,1200,1200
+944,"Tankiso Hata","Tempe Military",Male,1986-06-14,1200,1200
+945,"Vic Carrasco","Tempe Military",Male,1961-01-03,1200,1200
+946,"Aren Jonker",Titans,Male,2011-07-26,1200,1200
+947,"Diyaan Ramchurran",Titans,Male,2015-06-19,1200,1200
+948,"Karen Pillay",Titans,Female,2007-04-30,1200,1200
+949,"Kritika Totaram",Titans,Female,2010-09-02,1200,1200
+950,"Leora Ramchurran",Titans,Female,2011-12-04,1200,1200
+951,"Luyanda Ngcobo",Titans,Male,2004-12-30,1200,1200
+952,"Mikaylla Totaram",Titans,Female,2006-06-02,1200,1200
+953,"Nevadya Rampersad",Titans,Female,2010-09-03,1200,1200
+954,"Nitara Totaram",Titans,Female,2009-05-07,1200,1200
+955,"Sivarna Sivnannan",Titans,Female,2009-12-29,1200,1200
+956,"Syriana Sivnannan",Titans,Female,2015-03-20,1200,1200
+957,"Umair Patel",Titans,Male,2012-01-11,1200,1200
+958,"Boingotlo Mothupi",Warriors,Female,2002-11-24,1200,1200
+959,"Boipelo Mashwabi",Warriors,Female,2005-01-14,1200,1200
+960,"Cedric Modise",Warriors,Male,1990-03-04,1200,1200
+961,"Gift Hlatshwayo",Warriors,Male,1996-03-23,1200,1200
+962,"Godfrey Molete",Warriors,Male,1995-05-19,1200,1200
+963,"Hareteke Mapeshoane",Warriors,Male,1989-02-12,1200,1200
+964,"Kgalalelo Phekonyana",Warriors,Male,2008-02-27,1200,1200
+965,"Mamolatuli Mpesi",Warriors,Female,1988-05-27,1200,1200
+966,"Mnikelo Dry",Warriors,Male,1995-04-20,1200,1200
+967,"Oreneile Moraile",Warriors,Male,2009-03-29,1200,1200
+968,"Rethabile Modisenyane",Warriors,Female,2004-04-02,1200,1200
+969,"Simone Mahlamvu",Warriors,Female,2010-01-13,1200,1200
+970,"Sipho Booi",Warriors,Male,2002-01-16,1200,1200
+971,"William Rafube",Warriors,Male,1971-08-29,1200,1200
+972,"Abdul Hay",Waterfall,Male,1971-12-22,1320,1200
+973,"Ashen Maharaj",Waterfall,Male,1973-10-17,1240,1200
+974,"Damon Beeby",Waterfall,Male,1993-06-15,1320,1200
+975,"Keshmika Sivnarain",Waterfall,Female,2000-10-11,1320,1200
+976,"Qianfei Wang",Waterfall,Male,2010-02-18,1200,1200
+977,"Vuppala Kumar",Waterfall,Male,1996-03-22,1200,1200
+978,"Xingkong Wang",Waterfall,Male,2014-09-06,1200,1200
+979,"Simon Dimant",Waterfall,Male,1950-05-25,1200,1200
+980,"Aaron Makhalema",unknown_club,Male,1972-10-05,1200,1200
+981,"Alon Argaman",unknown_club,Male,1978-11-16,1200,1200
+982,"Amichai Asulin",unknown_club,Male,2010-07-12,1200,1200
+983,"Amit Vig",unknown_club,Male,1976-07-31,1200,1200
+984,"Amogelang Thabethe",unknown_club,Female,2008-07-28,1200,1200
+985,"Boitlamo Nkele",unknown_club,Female,2012-12-17,1200,1200
+986,"Carol David",unknown_club,Female,2013-05-23,1200,1200
+987,"Dhaarmic Karthik",unknown_club,Male,2015-11-02,1200,1200
+988,"Diyaan Nagardas",unknown_club,Male,2010-12-15,1200,1200
+989,"Ewan Booyens",unknown_club,Male,2010-09-17,1200,1200
+990,"Ezile Ndywabasini",unknown_club,Male,2000-10-07,1200,1200
+991,"Gift Nxumalo",unknown_club,Male,2003-10-31,1200,1200
+992,"Itumeleng Ntsokoane",unknown_club,Female,2001-01-11,1200,1200
+993,"Jacobus Maree",unknown_club,Male,2011-01-22,1200,1200
+994,"Lebohang Lekhotla",unknown_club,Male,2012-04-20,1200,1200
+995,"Liso Sibango",unknown_club,Male,2005-09-19,1200,1200
+996,"Lunga Mntambo",unknown_club,Male,2009-11-30,1200,1200
+997,"Lwanele Kulu",unknown_club,Male,2002-12-24,1200,1200
+998,"Mamokgethi Dintso",unknown_club,Female,2000-08-01,1200,1200
+999,"Nthabiseng Thabethe",unknown_club,Female,2004-12-28,1200,1200
+1000,"Reneilwe Lekorwe",unknown_club,Male,2012-10-11,1200,1200
+1001,"Retshepile Masumothe",unknown_club,Male,2011-01-03,1200,1200
+1002,"Sello Phushudi",unknown_club,Male,1977-11-06,1200,1200
+1003,"Siviwe Gwebani",unknown_club,Male,2004-03-09,1200,1200
+1004,"Sthabile Mnyandu",unknown_club,Female,1996-03-03,1200,1200
+1005,"Tebogo Kgatitswe",unknown_club,Male,2004-06-09,1200,1200
+1006,"Thato Kgongwana",unknown_club,Male,2010-10-21,1200,1200
+1007,"Tinashe Dzvaka",unknown_club,Male,2012-12-12,1200,1200
+1008,"Tony Su",unknown_club,Male,2011-01-19,1200,1200
+1009,"Tshepo Majoe",unknown_club,Male,2001-08-22,1200,1200
+1010,"Zodwa Maphanga",unknown_club,Female,NULL,1200,1200
+1011,"Reitumetse Maome",unknown_club,Female,NULL,1200,1200
+1012,"Andiswa Shangase",Queens,Male,NULL,1320,1200
+1013,"Ishaan Gokhale",unknown_club,Male,NULL,1200,1200
+1014,"Gabriel Reyneke",unknown_club,Male,2013-08-12,1200,1200
+1015,"Noah Osman",unknown_club,Male,2013-07-06,1200,1200
+1016,"Nathan Harper",unknown_club,Male,2016-07-02,1200,1200
+1017,"Jean-Luc Bernardo",unknown_club,Male,2011-04-23,1200,1200
+1018,"Wim Kieviet",unknown_club,Male,2014-02-26,1200,1200
+1019,"Daniel Lotz","Growth & Grit",Male,2009-11-05,1200,1200
+1020,"David de Villiers","Growth & Grit",Male,2006-10-09,1200,1200
+1021,"Neil Grobbelaar","Growth & Grit",Male,2009-12-10,1200,1200
+1022,"Andria van Tonder","Growth & Grit",Female,2009-05-16,1200,1200
+1023,"Juan Engelbrecht","Growth & Grit",Male,2007-12-14,1200,1200
+1024,"Evan Eckstein","Growth & Grit",Male,2009-09-13,1200,1200
+1025,"Willem Coetzee",unknown_club,Male,2007-05-09,1200,1200
+1026,"Andrew Spottiswoode","Blue Fountains",Male,NULL,1240,1200
+1027,"Cleef Bailey","Blue Fountains",Male,NULL,1320,1200
+1028,"Clinton Subban","Blue Fountains",Male,NULL,1180,1200
+1029,"Dané Le Roux","Blue Fountains",Female,NULL,1180,1200
+1030,"Gavin Heffer","Blue Fountains",Male,NULL,1210,1200
+1031,"George Bylos","Blue Fountains",Male,NULL,1240,1200
+1032,"Ian Masaga","Blue Fountains",Male,NULL,1200,1200
+1033,"Jason Werbeloff","Blue Fountains",Male,NULL,1180,1200
+1034,"Karun Jeebodh","Blue Fountains",Male,NULL,1180,1200
+1035,"Kerri-Ann Jacobs","Blue Fountains",Female,NULL,1180,1200
+1036,"Kian Tavaria","Blue Fountains",Male,NULL,1180,1200
+1037,"Marili Engelbrecht","Blue Fountains",Female,NULL,1180,1200
+1038,"Markus Konrad","Blue Fountains",Male,NULL,1240,1200
+1039,"Matieho Letsoenyo","Blue Fountains",Female,NULL,1180,1200
+1040,"Matt Gilchrist","Blue Fountains",Male,NULL,1180,1200
+1041,"Philip Haslam","Blue Fountains",Male,NULL,1180,1200
+1042,"Phillip Jordaan","Blue Fountains",Male,NULL,1300,1200
+1043,"Prakash Singh","Blue Fountains",Male,NULL,1210,1200
+1044,"Rinaldo Baratti","Blue Fountains",Male,NULL,1210,1200
+1045,"Rustum Tavaria","Blue Fountains",Male,NULL,1180,1200
+1046,"Sipho Ndara","Blue Fountains",Male,NULL,1300,1200
+1047,"Tony Chuang","Blue Fountains",Male,NULL,1240,1200
+1048,"Uli Kehlert","Blue Fountains",Male,NULL,1180,1200
+1049,"Uwe Hohl","Blue Fountains",Male,NULL,1300,1200
+1050,"Vernon Maney","Blue Fountains",Male,NULL,1300,1200
+1051,"WJ Kuhn","Blue Fountains",Male,NULL,1180,1200
+1052,"Zunaid Captieux","Blue Fountains",Male,NULL,1200,1200
+1053,"Curtly Williams",Flames,Male,NULL,1300,1200
+1054,"Dean Davis",Flames,Male,NULL,1300,1200
+1055,"Sheldon Mayet",Flames,Male,NULL,1300,1200
+1056,"Amit Nana",Lenasia,Male,NULL,1300,1200
+1057,"Branden Bartlett",Lenasia,Male,NULL,1320,1200
+1058,"Mubeen Chan",Lenasia,Male,NULL,1320,1200
+1059,"Safie Ismael",Lenasia,Male,NULL,1300,1200
+1064,"Dean Levy",Masters,Male,NULL,1200,1200
+1066,"Melvin Van Zyl",Masters,Male,NULL,1210,1200
+1067,"Naftali Kavonic ",Masters,Male,NULL,1200,1200
+1068,"Rainer Sztab",Masters,Male,NULL,1300,1200
+1069,"Ameet Kunver",Queens,Male,NULL,1180,1200
+1070,"Amukelani Baloyi",Queens,Male,NULL,1300,1200
+1072,"James Carrolus",Queens,Male,NULL,1210,1200
+1073,"Juergen Suplit",Queens,Male,NULL,1320,1200
+1074,"Qijia Jiang",Queens,Male,NULL,1210,1200
+1075,"Roland Bouchat",Queens,Male,NULL,1210,1200
+1076,"Yu-Bia Cai",Queens,Male,NULL,1300,1200
+1077,"Zahra Salie",Queens,Female,NULL,1200,1200
+1079,"Ebrahim Jappie",Raiders,Male,NULL,1210,1200
+1080,"Faheema Sayed",Raiders,Female,NULL,1210,1200
+1081,"Fanie Kloppers",Raiders,Male,NULL,1240,1200
+1082,"Joe Carrim",Raiders,Male,NULL,1240,1200
+1083,"Moegammad Isaacs",Raiders,Male,NULL,1210,1200
+1084,"Quinton Volkwyn",Raiders,Male,NULL,1320,1200
+1085,"Rodrique Volkwyn",Raiders,Male,NULL,1320,1200
+1086,"Morule Motlhaloga",Soweto,Male,NULL,1240,1200
+1087,"Tebogo Malapane",Soweto,Male,NULL,1240,1200
+1088,"Thabiso Marota",Soweto,Male,NULL,1240,1200
+1089,"Arijit Ghosh",Waterfall,Male,NULL,1210,1200
+1090,"David Oulassevitch",Waterfall,Male,NULL,1210,1200
+1091,"Kalpesh Hira",Waterfall,Male,NULL,1180,1200
+1092,"Onkgopotse Masote",Waterfall,Male,NULL,1300,1200
+1093,"Prahlad Parmar",Waterfall,Male,NULL,1240,1200
+1094,"Prem Vuppala",Waterfall,Male,NULL,1240,1200
+1095,"Rashmika Ramphal ",Waterfall,Female,NULL,1200,1200
+1096,"Rowan Pillay",Waterfall,Male,NULL,1210,1200
+1097,"Surajh Surjoo",Waterfall,Male,NULL,1180,1200
+1098,"Varshanth Ramjathan",Waterfall,Male,NULL,1300,1200
+1099,"Viresh Mitha",Waterfall,Male,NULL,1240,1200
+1100,"Wenjun Huang",Waterfall,Male,NULL,1240,1200
+1101,"Turzo Ranck",DLPE,Male,NULL,1200,1200
+1102,"Jacob Mohwa",Top,Male,NULL,1200,1200
+1103,"Kimberly Dedza",DLPE,Female,NULL,1200,1200
+1104,"Felix Monday","Community House",Male,NULL,1200,1200
+1105,"Heinrich Putter",Goodwood,Male,NULL,1200,1200
+1106,"Jade Sasman",Boundary,Female,NULL,1200,1200
