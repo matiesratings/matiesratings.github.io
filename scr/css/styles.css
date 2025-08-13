@@ -438,13 +438,14 @@ button:hover {
     white-space: nowrap;
 }
 
-/* Target the 10th (score) column in the table */
-#match-table-head th:last-child,
-#match-table td:last-child {
+
+/* Score column styling */
+.small-column {
     width: clamp(20px, 7vw, 35px);
-    text-align: center;    /* centre the score */
-    /* font-size: 0.9em;       */
+    text-align: center;
+    /* font-size: 0.9em; */
 }
+
 
 
 .site-footer {

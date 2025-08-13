@@ -63,7 +63,7 @@ function displayData(data) {
 
     data.slice(0, 100).forEach(player => {
         let row = `<tr>`;
-        row += `<td class="mobile-hidden-col">${player.maties_id}</td>`;
+        row += `<td class="small-collumn">${player.rank}</td>`;
         row += `<td><a href="player.html?name=${encodeURIComponent(player.name)}" class="player-link">${player.name}</a></td>`;
         row += `<td class="mobile-hidden-col">${player.club}</td>`;
         row += `<td>${player.rating}</td>`;

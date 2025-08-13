@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Ratings</title>
+    <title>Player Rankings</title>
     <link rel="stylesheet" href="scr/css/styles.css">
 </head>
 <!-- Google tag (gtag.js) -->
@@ -81,7 +81,8 @@
     <table>
         <thead>
             <tr>
-                <th onclick="sortTable(0)" class="mobile-hidden-col">ID</th>
+                <!-- <th onclick="sortTable(0)" class="mobile-hidden-col">ID</th> -->
+                <th onclick="sortTable(0)" class="small-column">#</th>
                 <th onclick="sortTable(1)">Name</th>
                 <th onclick="sortTable(2)" class="mobile-hidden-col">Club</th>
                 <th onclick="sortTable(3)">Rating</th>
@@ -107,7 +108,7 @@
             const setTitle = (title) => {
                 const titleElement = document.getElementById("header-title");
                 if (titleElement) {
-                    titleElement.textContent = "South African Player Ratings"; // set your page-specific title here
+                    titleElement.textContent = "South African Player Rankings";
                 } else {
                     setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                 }
