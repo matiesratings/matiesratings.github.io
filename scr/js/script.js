@@ -92,8 +92,8 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
             });
 
             if (sortColumn !== null) {
-                const numericKeys = ["maties_id", "rating", "played", "win_per"];
-                const keys = ["maties_id", "name", "club","rating", "played","win_per"];
+                const numericKeys = ["rank", "rating", "played", "win_per"];
+                const keys = ["rank", "name", "club","rating", "played","win_per"];
                 const key = keys[sortColumn];
 
                 filtered.sort((a, b) => {
