@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "name": "Group A",
+      "players": [
+        {"maties_id": 1, "first_name": "Tian", "surname": "Louw"},
+        {"maties_id": 8, "first_name": "Christina", "surname": "Malan"},
+        {"maties_id": 4, "first_name": "Le Roux", "surname": "Strydom"}
+      ]
+    },
+    {
+      "name": "Group B",
+      "players": [
+        {"maties_id": 2, "first_name": "DJ", "surname": "Swanevelder"},
+        {"maties_id": 10, "first_name": "Elizabeth", "surname": "Knoesen"},
+        {"maties_id": 6, "first_name": "Joshua", "surname": "Du Plooy"}
+      ]
+    },
+    {
+      "name": "Group C",
+      "players": [
+        {"maties_id": 3, "first_name": "Jaco", "surname": "de Swardt"},
+        {"maties_id": 11, "first_name": "Andries", "surname": "Vermeulen"},
+        {"maties_id": 16, "first_name": "Helen", "surname": "Alston"}
+      ]
+    },
+    {
+      "name": "Group D",
+      "players": [
+        {"maties_id": 5, "first_name": "Cetin", "surname": "Celik"},
+        {"maties_id": 17, "first_name": "Panashe", "surname": "Nyamande"},
+        {"maties_id": 20, "first_name": "Annelie", "surname": "Wessels"}
+      ]
+    },
+    {
+      "name": "Group E",
+      "players": [
+        {"maties_id": 7, "first_name": "Gajen", "surname": "Chetty"},
+        {"maties_id": 12, "first_name": "Duwayne", "surname": "Petersen"},
+        {"maties_id": 19, "first_name": "Charl", "surname": "Le Roux"}
+      ]
+    },
+    {
+      "name": "Group F",
+      "players": [
+        {"maties_id": 9, "first_name": "Timothy", "surname": "Prinsloo"},
+        {"maties_id": 13, "first_name": "Joel", "surname": "Joshua"},
+        {"maties_id": 25, "first_name": "Alessandra", "surname": "Wijtenburg"}
+      ]
+    },
+    {
+      "name": "Group G",
+      "players": [
+        {"maties_id": 14, "first_name": "Ryan", "surname": "Reed"},
+        {"maties_id": 18, "first_name": "Nazir", "surname": "Mowzer"},
+        {"maties_id": 26, "first_name": "Sanmari", "surname": "Fourie"}
+      ]
+    },
+    {
+      "name": "Group H",
+      "players": [
+        {"maties_id": 15, "first_name": "Dirk", "surname": "Guelpa"},
+        {"maties_id": 21, "first_name": "Steffan", "surname": "Brundyn"},
+        {"maties_id": 28, "first_name": "Nicholas", "surname": "Murray"}
+      ]
+    },
+    {
+      "name": "Group I",
+      "players": [
+        {"maties_id": 22, "first_name": "Daneel", "surname": "van der Walt"},
+        {"maties_id": 23, "first_name": "Tashreeq", "surname": "Asvat"},
+        {"maties_id": 27, "first_name": "Craig", "surname": "Murray"}
+      ]
+    },
+    {
+      "name": "Group J",
+      "players": [
+        {"maties_id": 24, "first_name": "Jano", "surname": "Olivier"},
+        {"maties_id": 29, "first_name": "Phapusha", "surname": "Seopa"},
+        {"maties_id": 30, "first_name": "Simon", "surname": "van der Merwe"}
+      ]
+    }
+  ]
+}
