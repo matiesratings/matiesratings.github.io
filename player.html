@@ -105,39 +105,28 @@
         function displayData(data) {
             const tableBody = document.getElementById("match-table");
             tableBody.innerHTML = "";
+
             if (data.length === 0) {
-                const row = tableBody.insertRow();
-                const cell = row.insertCell();
-                cell.colSpan = window.innerWidth > 480 ? 10 : 4;
-                cell.textContent = "Results coming soon...";
-                Object.assign(cell.style, {
-                    color: "white",
-                    backgroundColor: "black",
-                    border: "1px solid maroon",
-                    padding: "10px",
-                    fontSize: "24px"
-                });
+                const row = `<tr><td colspan="10" style="color:white; background:black; border:1px solid maroon; padding:10px; text-align:center;">Results coming soon...</td></tr>`;
+                tableBody.innerHTML = row;
                 return;
             }
-            const headerCells = document.querySelectorAll("#match-table-head th");
-            const visibleColumnIndices = [];
-            const isMobile = window.innerWidth < 780;
-            headerCells.forEach((th, index) => {
-                const isHiddenMobileCol = th.classList.contains("mobile-hidden-col");
-                if (!(isMobile && isHiddenMobileCol)) {
-                    visibleColumnIndices.push(index);
-                }
-            });
-            data.forEach(match => {
-                const row = tableBody.insertRow();
-                const values = [
-                    match.match_id, match.match_date, match.event_name, match.event_type,
-                    match.category, match.province, match.stage, match.winner, match.loser, match.score
-                ];
-                visibleColumnIndices.forEach(index => {
-                    const cell = row.insertCell();
-                    cell.textContent = values[index];
-                });
+
+            data.slice(0, 100).forEach(match => {
+                let row = `<tr>`;
+                row += `<td class="mobile-hidden-col">${match.match_id}</td>`;
+                row += `<td class="mobile-hidden-col">${match.match_date}</td>`;
+                row += `<td>${match.event_name}</td>`;
+                row += `<td class="mobile-hidden-col">${match.event_type}</td>`;
+                row += `<td class="mobile-hidden-col">${match.category}</td>`;
+                row += `<td class="mobile-hidden-col">${match.province}</td>`;
+                row += `<td class="mobile-hidden-col">${match.stage}</td>`;
+                row += `<td><a href="player.html?name=${encodeURIComponent(match.winner)}" class="player-link">${match.winner}</a></td>`;
+                row += `<td><a href="player.html?name=${encodeURIComponent(match.loser)}" class="player-link">${match.loser}</a></td>`;
+                row += `<td>${match.score}</td>`;
+                row += `</tr>`;
+
+                tableBody.innerHTML += row;
             });
         }
 
@@ -354,6 +343,20 @@
                 infoTable.innerHTML = `<tr><td colspan="2" style="font-size: 1.3em; text-align:center;">Could not load player info.</td></tr>`;
             });
         }
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            // Check if the click was outside the navigation menu and the hamburger button
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
     </script>
 </body>
 </html>
