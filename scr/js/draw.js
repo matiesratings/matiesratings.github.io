@@ -62,34 +62,7 @@ function loadInclude(id, file) {
 }
 
 // Initialize page
-document.addEventListener("DOMContentLoaded", function () {
-    // Load includes
-    loadInclude("header-placeholder", "Sections/header.html");
-    // loadInclude("footer-placeholder", "Sections/footer.html");
 
-    // Set header title with line break
-    const setTitle = () => {
-        const titleElement = document.getElementById("header-title");
-        if (titleElement) {
-            titleElement.innerHTML = "Maties Open 2025 <br> Men's Singles Draw";
-        } else {
-            setTimeout(setTitle, 50);
-        }
-    };
-    setTitle();
-
-    // Setup toggle buttons
-    const btnGroups = document.getElementById("btnGroups");
-    const btnKnockouts = document.getElementById("btnKnockouts");
-    const btnGroupResults = document.getElementById("btnGroupResults");
-
-    btnGroups.addEventListener("click", loadGroups);
-    btnKnockouts.addEventListener("click", renderKnockouts);
-    btnGroupResults.addEventListener("click", renderGroupResults);
-
-    // Render default view
-    loadGroups();
-});
 
 
 function toggleNav() {

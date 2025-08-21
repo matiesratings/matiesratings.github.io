@@ -482,11 +482,15 @@ button:hover {
 /* Groups Layout */
 .groups-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     margin: 30px auto;
     width: 90%;
     max-width: 1200px;
+}
+
+.groups-container {
+  display: grid;
 }
 
 /* Group Card */
@@ -534,11 +538,6 @@ button:hover {
 }
 
 /* Responsive Tweaks */
-@media (max-width: 600px) {
-    .groups-container {
-        grid-template-columns: 1fr;
-    }
-}
 
 #viewToggles {
     display: flex;

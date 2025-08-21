@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Table Tennis Groups</title>
-  <link rel="stylesheet" href="scr/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis Groups</title>
+    <link rel="stylesheet" href="scr/css/styles.css">
 </head>
 <body>
   <div id="header-placeholder"></div>
@@ -15,84 +16,39 @@
   </div>
 
   <div id="contentContainer">
-    <!-- The different views will render here -->
   </div>
 
   <div class="groups-container" id="groups"></div>
-<!-- Include draw.js at the end of body -->
   <script src="scr/js/draw.js"></script>
-
-  <!-- <script>
-    async function loadGroups() {
-      const response = await fetch("scr/data/json/draw.json");
-      const data = await response.json();
-      renderGroups(data);
-    }
-
-    function renderGroups(data) {
-      const container = document.getElementById("groups");
-      container.innerHTML = "";
-
-      data.groups.forEach(group => {
-        const card = document.createElement("div");
-        card.className = "group-card";
-
-        const title = document.createElement("h2");
-        title.textContent = group.name;
-        card.appendChild(title);
-
-        const ul = document.createElement("ul");
-        ul.className = "player-list";
-
-        // group.players.forEach(player => {
-        // const li = document.createElement("li");
-        // li.textContent = `${player.first_name} ${player.surname}`;
-        // ul.appendChild(li);
-        // });
-
-        group.players.forEach(player => {
-          const li = document.createElement("li");
-
-          // Build full name
-          const fullName = `${player.first_name} ${player.surname}`;
-
-          // Create link element
-          const a = document.createElement("a");
-          a.href = `player.html?name=${encodeURIComponent(fullName)}`;
-          a.textContent = fullName;
-          a.className = "player-link";
-
-          li.appendChild(a);
-          ul.appendChild(li);
-        });
-
-        card.appendChild(ul);
-        container.appendChild(card);
-      });
-    }
-
-    loadGroups();
-      function loadInclude(id, file) {
-          fetch(file)
-              .then(response => response.text())
-              .then(data => document.getElementById(id).innerHTML = data);
-      }
-
+  <script>
       document.addEventListener("DOMContentLoaded", function () {
-          const setTitle = (title) => {
-              const titleElement = document.getElementById("header-title");
-              if (titleElement) {
-                  titleElement.innerHTML = "Maties Open 2025 <br> Men's Singles Draw";
-              } else {
-                  setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
-              }
-          };
-          loadInclude("header-placeholder", "Sections/header.html");
-          // loadInclude("footer-placeholder", "Sections/footer.html");
+      // Load includes
+      loadInclude("header-placeholder", "Sections/header.html");
+      // loadInclude("footer-placeholder", "Sections/footer.html");
 
-          setTitle();
-      });
+      // Set header title with line break
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "Maties Open 2025 <br> Men's Singles Draw";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+
+      // Setup toggle buttons
+      const btnGroups = document.getElementById("btnGroups");
+      const btnKnockouts = document.getElementById("btnKnockouts");
+      const btnGroupResults = document.getElementById("btnGroupResults");
+
+      btnGroups.addEventListener("click", loadGroups);
+      btnKnockouts.addEventListener("click", renderKnockouts);
+      btnGroupResults.addEventListener("click", renderGroupResults);
+
+      // Render default view
+      loadGroups();
+  });
   </script>
-   -->
 </body>
 </html>
