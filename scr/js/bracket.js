@@ -89,6 +89,13 @@ function renderKnockouts() {
       }
       adjustBracketWidth();
       drawLines();
+
+      // centre scroll
+      requestAnimationFrame(() => {
+          wrapper.scrollLeft = (wrapper.scrollWidth - wrapper.clientWidth) / 2;
+          wrapper.scrollTop = (wrapper.scrollHeight - wrapper.clientHeight) / 2;
+      });
+
     });
 
   function makeMatch(players) {
