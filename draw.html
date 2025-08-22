@@ -10,17 +10,17 @@
   <div id="header-placeholder"></div>
 
   <div id="viewToggles">
-    <button id="btnGroups">Groups</button>
+    <!-- <button id="btnGroups">Groups</button>
     <button id="btnKnockouts">Knockouts</button>
-    <button id="btnGroupResults">Group Results</button>
+    <button id="btnGroupResults">Group Results</button> -->
   </div>
 
   <div id="contentContainer"></div>
 
-  
+  <script src="scr/js/bracket.js"></script>
   <script src="scr/js/draw.js"></script>
   <script>
-      document.addEventListener("DOMContentLoaded", function () {
+      document.addEventListener("DOMContentLoaded", async function () {
       // Load includes
       loadInclude("header-placeholder", "Sections/header.html");
       // loadInclude("footer-placeholder", "Sections/footer.html");
@@ -29,24 +29,49 @@
       const setTitle = () => {
           const titleElement = document.getElementById("header-title");
           if (titleElement) {
-              titleElement.innerHTML = "Maties Open 2025 <br> Men's Singles Draw";
+              titleElement.innerHTML = "Maties Open 2025 <br> Open Doubles";
           } else {
               setTimeout(setTitle, 50);
           }
       };
       setTitle();
+      const response = await fetch("/scr/data/tournament/maties_open_25/R32.json");
+      const data = await response.json();
 
-      // Setup toggle buttons
-      const btnGroups = document.getElementById("btnGroups");
-      const btnKnockouts = document.getElementById("btnKnockouts");
-      const btnGroupResults = document.getElementById("btnGroupResults");
+      const toggleContainer = document.getElementById("viewToggles");
 
-      btnGroups.addEventListener("click", loadGroups);
-      btnKnockouts.addEventListener("click", renderKnockouts);
-      btnGroupResults.addEventListener("click", renderGroupResults);
+      if (data.groups) {
+            const btnGroups = document.createElement("button");
+            btnGroups.id = "btnGroups";
+            btnGroups.textContent = "Groups";
+            btnGroups.addEventListener("click", () => renderGroups(data));
+            toggleContainer.appendChild(btnGroups);
+        }
 
-      // Render default view
-      loadGroups();
+        if (data.knockouts) {
+            const btnKnockouts = document.createElement("button");
+            btnKnockouts.id = "btnKnockouts";
+            btnKnockouts.textContent = "Knockouts";
+            btnKnockouts.addEventListener("click", () => renderKnockouts(data));
+            toggleContainer.appendChild(btnKnockouts);
+        }
+
+        if (data.results) {
+            const btnResults = document.createElement("button");
+            btnResults.id = "btnGroupResults";
+            btnResults.textContent = "Group Results";
+            btnResults.addEventListener("click", () => renderGroupResults(data));
+            toggleContainer.appendChild(btnResults);
+        }
+
+        // Default view: first available
+        if (data.groups) {
+            renderGroups(data);
+        } else if (data.knockouts) {
+            renderKnockouts(data);
+        } else if (data.results) {
+            renderGroupResults(data);
+        }
   });
   </script>
 </body>

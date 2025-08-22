@@ -80,5 +80,63 @@
         {"maties_id": 30, "first_name": "Simon", "surname": "van der Merwe"}
       ]
     }
+  ],
+  "knockouts": [
+    {
+      "stage": "Round 32",
+      "matches": [
+        [{"name": "Seed 1"}, {"name": "Seed 32"}],
+        [{"name": "Seed 16"}, {"name": "Seed 17"}],
+        [{"name": "Seed 9"}, {"name": "Seed 24"}],
+        [{"name": "Seed 8"}, {"name": "Seed 25"}],
+        [{"name": "Seed 5"}, {"name": "Seed 28"}],
+        [{"name": "Seed 12"}, {"name": "Seed 21"}],
+        [{"name": "Seed 13"}, {"name": "Seed 20"}],
+        [{"name": "Seed 4"}, {"name": "Seed 29"}],
+        [{"name": "Seed 3"}, {"name": "Seed 30"}],
+        [{"name": "Seed 14"}, {"name": "Seed 19"}],
+        [{"name": "Seed 11"}, {"name": "Seed 22"}],
+        [{"name": "Seed 6"}, {"name": "Seed 27"}],
+        [{"name": "Seed 7"}, {"name": "Seed 26"}],
+        [{"name": "Seed 10"}, {"name": "Seed 23"}],
+        [{"name": "Seed 15"}, {"name": "Seed 18"}],
+        [{"name": "Seed 2"}, {"name": "Seed 31"}]
+      ]
+    },
+    {
+      "stage": "Round 16",
+      "matches": [
+        [{"name": "Winner R32-1"}, {"name": "Winner R32-2"}],
+        [{"name": "Winner R32-3"}, {"name": "Winner R32-4"}],
+        [{"name": "Winner R32-5"}, {"name": "Winner R32-6"}],
+        [{"name": "Winner R32-7"}, {"name": "Winner R32-8"}],
+        [{"name": "Winner R32-9"}, {"name": "Winner R32-10"}],
+        [{"name": "Winner R32-11"}, {"name": "Winner R32-12"}],
+        [{"name": "Winner R32-13"}, {"name": "Winner R32-14"}],
+        [{"name": "Winner R32-15"}, {"name": "Winner R32-16"}]
+      ]
+    },
+    {
+      "stage": "Quarter-Final",
+      "matches": [
+        [{"name": "Winner R16-1"}, {"name": "Winner R16-2"}],
+        [{"name": "Winner R16-3"}, {"name": "Winner R16-4"}],
+        [{"name": "Winner R16-5"}, {"name": "Winner R16-6"}],
+        [{"name": "Winner R16-7"}, {"name": "Winner R16-8"}]
+      ]
+    },
+    {
+      "stage": "Semi-Final",
+      "matches": [
+        [{"name": "Winner QF-1"}, {"name": "Winner QF-2"}],
+        [{"name": "Winner QF-3"}, {"name": "Winner QF-4"}]
+      ]
+    },
+    {
+      "stage": "Final",
+      "matches": [
+        [{"name": "Winner SF-1"}, {"name": "Winner SF-2"}]
+      ]
+    }
   ]
 }

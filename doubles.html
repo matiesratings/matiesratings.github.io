@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis Groups</title>
+    <link rel="stylesheet" href="scr/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <div id="viewToggles">
+    <button id="btnKnockouts">Knockouts</button>
+  </div>
+
+  <div id="contentContainer"></div>
+
+  
+  <script src="scr/js/draw.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+      // Load includes
+      loadInclude("header-placeholder", "Sections/header.html");
+      // loadInclude("footer-placeholder", "Sections/footer.html");
+
+      // Set header title with line break
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "Maties Open 2025 <br> Open Doubles";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+
+
+      const btnKnockouts = document.getElementById("btnKnockouts");
+ 
+      renderKnockouts()
+      btnKnockouts.addEventListener("click", renderKnockouts);
+
+  });
+  </script>
+</body>
+</html>
