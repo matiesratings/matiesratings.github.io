@@ -105,9 +105,11 @@
         function displayData(data) {
             const tableBody = document.getElementById("match-table");
             tableBody.innerHTML = "";
+            const isMobile = window.innerWidth <= 768; // define mobile breakpoint
 
             if (data.length === 0) {
-                const row = `<tr><td colspan="10" style="color:white; background:black; border:1px solid maroon; padding:10px; text-align:center;">Results coming soon...</td></tr>`;
+                const colspan = isMobile ? 4 : 10; // fewer columns on mobile
+                const row = `<tr><td colspan="${colspan}" style="color:white; background:black; border:1px solid maroon; padding:10px; text-align:center;">Results coming soon...</td></tr>`;
                 tableBody.innerHTML = row;
                 return;
             }

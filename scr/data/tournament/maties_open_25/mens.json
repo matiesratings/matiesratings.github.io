@@ -1,0 +1,44 @@
+{
+  "left": [
+    [
+      [
+        { "name": "Player A1", "score": 4 },
+        { "name": "Player A2", "score": 2 }
+      ],
+      [
+        { "name": "Player B1", "score": 3 },
+        { "name": "Player B2", "score": 1 }
+      ]
+    ],
+    [
+      [
+        { "name": "Winner 1" },
+        { "name": "Winner 2" }
+      ]
+    ]
+  ],
+  "final": [
+    [
+      { "name": "Finalist 1" },
+      { "name": "Finalist 2" }
+    ]
+  ],
+  "right": [
+    [
+      [
+        { "name": "Player C1", "score": 4 },
+        { "name": "Player C2", "score": 0 }
+      ],
+      [
+        { "name": "Player D1", "score": 2 },
+        { "name": "Player D2", "score": 3 }
+      ]
+    ],
+    [
+      [
+        { "name": "Winner 3" },
+        { "name": "Winner 4" }
+      ]
+    ]
+  ]
+}
