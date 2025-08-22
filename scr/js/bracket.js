@@ -18,7 +18,7 @@ function renderKnockouts() {
   // Scroll the viewport horizontally to center
   wrapper.scrollLeft = (wrapper.scrollWidth - wrapper.clientWidth) / 2;
 
-  fetch("/scr/data/tournament/maties_open_25/R32.json")
+  fetch("/scr/data/tournament/maties_open_25/doubles_R16.json")
     .then(res => res.json())
     .then(data => {
       const knockouts = data.knockouts;
@@ -97,42 +97,82 @@ function renderKnockouts() {
       });
 
     });
+function makeMatch(players) {
+  const div = document.createElement("div");
+  div.className = "match";
 
-  function makeMatch(players) {
-    const div = document.createElement("div");
-    div.className = "match";
+  players.forEach((p, index) => {
+    const row = document.createElement("div");
+    row.className = "player";
 
-    players.forEach((p, index) => {
-      const row = document.createElement("div");
-      row.className = "player";
+    const link = document.createElement("a");
+    link.href = `player.html?name=${encodeURIComponent(p.name)}`;
+    link.textContent = p.name;
+    link.className = "player-link";
+    row.appendChild(link);
 
-      // Player name as a link
-      const link = document.createElement("a");
-      link.href = `player.html?name=${encodeURIComponent(p.name)}`;
-      link.textContent = p.name;
-      link.className = "player-link";
-      row.appendChild(link);
+    if (p.score !== undefined && p.score !== null) {
+      const score = document.createElement("span");
+      score.textContent = ` (${p.score})`;
+      score.style.color = "white";
+      row.appendChild(score);
+    }
 
-      // Score number if it exists
-      if (p.score !== undefined && p.score !== null) {
-        const score = document.createElement("span");
-        score.textContent = ` (${p.score})`;
-        score.style.color = "white";
-        row.appendChild(score);
+    div.appendChild(row);
+
+    // Add a line after each player except the last
+    if (index < players.length - 1) {
+      const line = document.createElement("div");
+      line.className = "player-divider";
+
+      // If more than 2 players (doubles), lighten/smaller the divider between teammates
+      if (players.length > 2 && index % 2 === 0) {
+        line.style.height = "0px";           // smaller height
+        line.style.backgroundColor = "#555"; // lighter color
       }
 
-      div.appendChild(row);
-
-      // Add a line after each player except the last
-      if (index < players.length - 1) {
-        const line = document.createElement("div");
-        line.className = "player-divider";
-        div.appendChild(line);
-      }
+      div.appendChild(line);
+    }
   });
 
   return div;
-  }
+}
+
+  // function makeMatch(players) {
+  //   const div = document.createElement("div");
+  //   div.className = "match";
+
+  //   players.forEach((p, index) => {
+  //     const row = document.createElement("div");
+  //     row.className = "player";
+
+  //     // Player name as a link
+  //     const link = document.createElement("a");
+  //     link.href = `player.html?name=${encodeURIComponent(p.name)}`;
+  //     link.textContent = p.name;
+  //     link.className = "player-link";
+  //     row.appendChild(link);
+
+  //     // Score number if it exists
+  //     if (p.score !== undefined && p.score !== null) {
+  //       const score = document.createElement("span");
+  //       score.textContent = ` (${p.score})`;
+  //       score.style.color = "white";
+  //       row.appendChild(score);
+  //     }
+
+  //     div.appendChild(row);
+
+  //     // Add a line after each player except the last
+  //     if (index < players.length - 1) {
+  //       const line = document.createElement("div");
+  //       line.className = "player-divider";
+  //       div.appendChild(line);
+  //     }
+  // });
+
+  // return div;
+  // }
 
   function drawLines() {
     svg.innerHTML = "";
