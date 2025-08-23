@@ -1,7 +1,9 @@
 /* Table Styles */
+
+
 table {
     width: 100%;             /* fill parent, but not wider */
-    max-width: 90%;      
+    max-width: 85%;      
     margin: 10px auto;   /* never exceed parent width */
     border-collapse: collapse;
     background-color: black;
@@ -49,7 +51,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
-    min-width: min-content;
+    min-width: 378px;
 }
 
 /* Filters Section */
