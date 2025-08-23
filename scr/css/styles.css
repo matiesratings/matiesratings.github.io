@@ -683,3 +683,17 @@ svg {
 .player-club-groups{
     color: maroon;
 }
+#events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Force 2 rows on mobile */
+@media (max-width: 768px) {
+    #events-container .event {
+        flex: 1 1 calc(50% - 12px); /* half width minus gap */
+        max-width: 45%;             /* ensures two per row */
+    }
+}
