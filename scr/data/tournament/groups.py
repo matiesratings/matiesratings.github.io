@@ -3,7 +3,7 @@ import json
 
 # Load CSV
 file = 'womens'
-df = pd.read_csv(f"{file}.csv")  # headers: Group, Name, Club
+df = pd.read_csv(f"maties_open_25/{file}.csv")  # headers: Group, Name, Club
 
 # Group by 'Group'
 grouped = df.groupby("Group")

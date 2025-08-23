@@ -50,6 +50,23 @@
           "club": "Maties"
         }
       ]
+    },
+    {
+      "name": "Group 4",
+      "players": [
+        {
+          "name": "Chloe Hendricks",
+          "club": "Top"
+        },
+        {
+          "name": "Fezeka Giqwa",
+          "club": "Maties"
+        },
+        {
+          "name": "Andria van Tonder",
+          "club": "Growth & Grit"
+        }
+      ]
     }
   ]
 }
