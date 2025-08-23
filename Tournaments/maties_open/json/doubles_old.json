@@ -1,0 +1,268 @@
+{
+  "knockouts": [
+    {
+    "stage": "Round 32",
+    "matches": [
+    [
+      {
+        "name": "Shaun Jones"
+      },
+      {
+        "name": "Lindsay October"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Kamiel Ebrahim"
+      },
+      {
+        "name": "Rafiek Tofa"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Tian Louw"
+      },
+      {
+        "name": "Joshua Du Plooy"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Craig Fortuin"
+      },
+      {
+        "name": "Saaliegh Jabaar"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Darren Rogers"
+      },
+      {
+        "name": "Adrian Philander"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Timothy-John Sabad"
+      },
+      {
+        "name": "Amien Phillips"
+      },
+      {
+        "name": "Westley Mcloud"
+      },
+      {
+        "name": "Andre Johnson"
+      }
+    ],
+    [
+      {
+        "name": "Dirk Coetzee"
+      },
+      {
+        "name": "David Nwafor"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Michael Mackrill"
+      },
+      {
+        "name": "Jordan Mackrill"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Cowen Lodewyk"
+      },
+      {
+        "name": "Cuten Lodewyk"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Llewellyn Bartlett"
+      },
+      {
+        "name": "Craig Zimri"
+      },
+      {
+        "name": "Gajen Chetty"
+      },
+      {
+        "name": "Cetinhan Celik"
+      }
+    ],
+    [
+      {
+        "name": "Mekhail Schroeder"
+      },
+      {
+        "name": "Nizaam Moosa"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Darren Orr"
+      },
+      {
+        "name": "Kirshwan Steyn"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Jodie Galant"
+      },
+      {
+        "name": "Keenen Jooste"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Lorenzo Haupt"
+      },
+      {
+        "name": "Ashley Wesson"
+      },
+      {
+        "name": "Duwayne Petersen"
+      },
+      {
+        "name": "Steffan Brundyn"
+      }
+    ],
+    [
+      {
+        "name": "Tayla Bailey"
+      },
+      {
+        "name": "Jade Sasman"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ],
+    [
+      {
+        "name": "Le Roux Strydom"
+      },
+      {
+        "name": "DJ Swanevelder"
+      },
+      {
+        "name": "Bye"
+      },
+      {
+        "name": "Bye"
+      }
+    ]
+  ]
+},
+    {
+      "stage": "Round 16",
+      "matches": [
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}]
+      ]
+    },
+    {
+      "stage": "Quarter-Final",
+      "matches": [
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}]
+      ]
+    },
+    {
+      "stage": "Semi-Final",
+      "matches": [
+        [{"name": ""}, {"name": ""}],
+        [{"name": ""}, {"name": ""}]
+      ]
+    },
+    {
+      "stage": "Final",
+      "matches": [
+        [{"name": ""}, {"name": ""}]
+      ]
+    }
+  ]
+}

@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Tennis Groups</title>
-    <link rel="stylesheet" href="scr/css/styles.css">
+    <link rel="stylesheet" href="/scr/css/styles.css">
 </head>
 <body>
   <div id="header-placeholder"></div>
 
   <div id="viewToggles">
-    <!-- <button id="btnGroups">Groups</button>
-    <button id="btnKnockouts">Knockouts</button>
-    <button id="btnGroupResults">Group Results</button> -->
+
   </div>
 
   <div id="contentContainer"></div>
 
-  <script src="/scr/js/bracket.js"></script>
   <script src="/scr/js/draw.js"></script>
   <script>
       document.addEventListener("DOMContentLoaded", async function () {
       // Load includes
-      loadInclude("header-placeholder", "Sections/header.html");
+      loadInclude("header-placeholder", "/Sections/header.html");
       // loadInclude("footer-placeholder", "Sections/footer.html");
 
       // Set header title with line break
       const setTitle = () => {
           const titleElement = document.getElementById("header-title");
           if (titleElement) {
-              titleElement.innerHTML = "Maties Open 2025 <br> Open Doubles";
+              titleElement.innerHTML = "Maties Open 2025 <br> Men's 40+ Singles";
           } else {
               setTimeout(setTitle, 50);
           }
       };
       setTitle();
-      const response = await fetch("/scr/data/tournament/maties_open_25/R32.json");
+      const jsonPath = "/Tournaments/maties_open/json/vets_40.json"
+      const response = await fetch(jsonPath);
       const data = await response.json();
 
       const toggleContainer = document.getElementById("viewToggles");
@@ -52,25 +50,15 @@
             const btnKnockouts = document.createElement("button");
             btnKnockouts.id = "btnKnockouts";
             btnKnockouts.textContent = "Knockouts";
-            btnKnockouts.addEventListener("click", () => renderKnockouts(data));
+            btnKnockouts.addEventListener("click", () => renderKnockouts(jsonPath));
             toggleContainer.appendChild(btnKnockouts);
-        }
-
-        if (data.results) {
-            const btnResults = document.createElement("button");
-            btnResults.id = "btnGroupResults";
-            btnResults.textContent = "Group Results";
-            btnResults.addEventListener("click", () => renderGroupResults(data));
-            toggleContainer.appendChild(btnResults);
         }
 
         // Default view: first available
         if (data.groups) {
             renderGroups(data);
         } else if (data.knockouts) {
-            renderKnockouts(data);
-        } else if (data.results) {
-            renderGroupResults(data);
+            renderKnockouts(jsonPath);
         }
   });
   </script>

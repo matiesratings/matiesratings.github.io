@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis Groups</title>
+    <link rel="stylesheet" href="/scr/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+    <div class="event-section">
+
+        <div class="event-description">
+            <p><strong>Date:</strong> 29-31 August 2025</p>
+            <p>
+            <strong>Location:</strong>
+            <a href="https://www.google.com/maps/place/Coetzenburg+Centre/@-33.9403896,18.8686954,601m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1dcdb3f523a7302f:0xb8dc57d21ebeb9a1!8m2!3d-33.9403941!4d18.8712703!16s%2Fg%2F1tx17n4p?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                Coetzenburg Centre
+            </a>
+            </p>
+            <p>
+            <strong>Contact:</strong> 
+            Tournament Director - <a href="mailto:tianlouw53@gmail.com">tianlouw53@gmail.com</a>
+            </p>
+        </div>
+        <div id="events-container">
+            <button class="event" onclick="location.href='/Tournaments/maties_open/mens.html'">Men's Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/u23.html'">U23 Men's Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/womens.html'">Women's Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/vets_40.html'">Men's 40+ Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/vets_50.html'">Men's 50+ Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/vets_60.html'">Men's 60+ Singles</button>
+            <button class="event" onclick="location.href='/Tournaments/maties_open/doubles.html'">Open Doubles</button>
+        </div>
+    </div>
+
+  <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            // Check if the click was outside the navigation menu and the hamburger button
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+
+      document.addEventListener("DOMContentLoaded", async function () {
+      // Load includes
+      loadInclude("header-placeholder", "/Sections/header.html");
+      // loadInclude("footer-placeholder", "Sections/footer.html");
+
+      // Set header title with line break
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "Maties Table Tennis <br> Open Championship";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+    
+  });
+  </script>
+</body>
+</html>

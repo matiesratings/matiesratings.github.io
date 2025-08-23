@@ -578,7 +578,9 @@ button:hover {
   /* border-radius: 6px; */
   padding: 6px 12px;
   text-align: left;
-  width: 195px;
+  /* width: 195px; */
+  width: 155px;
+
   position: relative;
 }
 
@@ -589,6 +591,7 @@ button:hover {
   justify-content: space-between;
   margin: 2px 0;
 }
+
 .player-divider {
   height: 1px;
   background-color: maroon; /* or any colour you prefer */
@@ -607,7 +610,8 @@ button:hover {
 }
 
 .stage-box {
-  min-width: 223px;           /* same as a match column */
+  /* min-width: 223px; */
+  min-width: 183px;
   height: 40px;           /* same height as a match */
   border: 1px solid maroon;
   background-color: maroon;
@@ -630,4 +634,46 @@ svg {
   height: 100%;
   overflow: visible;
  pointer-events: none;
+}
+
+
+/*  TOurnaments Papge */
+
+#events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;               /* space between buttons */
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;          /* centre the container */
+}
+.event-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centres everything */
+  text-align: center;
+  margin-top: 30px;
+}
+.event-description {
+  max-width: 900px;
+  text-align: center;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.event-description h2 {
+  margin-bottom: 10px;
+  color: #800000;
+}
+
+.event-description a {
+  color: #800000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.event-description a:hover {
+  text-decoration: underline;
 }

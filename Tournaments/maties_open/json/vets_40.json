@@ -1,0 +1,131 @@
+{
+  "groups": [
+    {
+      "name": "Group 1",
+      "players": [
+        {
+          "name": "Shaun Jones",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Saaliegh Jabaar",
+          "club": "Nexus"
+        },
+        {
+          "name": "Craig Zimri",
+          "club": "MP Royals"
+        }
+      ]
+    },
+    {
+      "name": "Group 2",
+      "players": [
+        {
+          "name": "Lindsay October",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Kamiel Ebrahim",
+          "club": "Nexus"
+        },
+        {
+          "name": "Lorenzo Haupt",
+          "club": "Top"
+        }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "players": [
+        {
+          "name": "Ashley Wesson",
+          "club": "Liv-Ken"
+        },
+        {
+          "name": "Jarret Isaacs",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Rafiek Tofa",
+          "club": "Nexus"
+        }
+      ]
+    },
+    {
+      "name": "Group 4",
+      "players": [
+        {
+          "name": "David Nwafor",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Amien Phillips",
+          "club": "Nexus"
+        },
+        {
+          "name": "Andre Johnson",
+          "club": "MP Royals"
+        }
+      ]
+    },
+    {
+      "name": "Group 5",
+      "players": [
+        {
+          "name": "Gaston Koetaan",
+          "club": "Top"
+        },
+        {
+          "name": "Niezaam Theunissen",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Craig Fortuin",
+          "club": "Nexus"
+        }
+      ]
+    },
+    {
+      "name": "Group 6",
+      "players": [
+        {
+          "name": "Muaath Adams",
+          "club": "Nexus"
+        },
+        {
+          "name": "Jerome Davies",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Gielie Matthee",
+          "club": "Top"
+        },
+        {
+          "name": "Mehmet Erzurumlugil",
+          "club": "CW"
+        }
+      ]
+    },
+    {
+      "name": "Group 7",
+      "players": [
+        {
+          "name": "Llewellyn Bartlett",
+          "club": "MP Royals"
+        },
+        {
+          "name": "Sameer Parker",
+          "club": "Nexus"
+        },
+        {
+          "name": "Riedewaan Fatagodien",
+          "club": "Titans"
+        },
+        {
+          "name": "Heinrich Putter",
+          "club": "Goodwood"
+        }
+      ]
+    }
+  ]
+}

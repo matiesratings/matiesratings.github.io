@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "Group 1",
+      "players": [
+        {
+          "name": "Ashley Wesson",
+          "club": "Liv-Ken"
+        },
+        {
+          "name": "Lorenzo Haupt",
+          "club": "Top"
+        },
+        {
+          "name": "Rafiek Tofa",
+          "club": "Nexus"
+        }
+      ]
+    },
+    {
+      "name": "Group 2",
+      "players": [
+        {
+          "name": "Gaston Koetaan",
+          "club": "Top"
+        },
+        {
+          "name": "Craig Zimri",
+          "club": "MP Royals"
+        },
+        {
+          "name": "Mark Kleintjes",
+          "club": "Titans"
+        }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "players": [
+        {
+          "name": "Muaath Adams",
+          "club": "Nexus"
+        },
+        {
+          "name": "Gielie Matthee",
+          "club": "Top"
+        },
+        {
+          "name": "Sedick Abrahams",
+          "club": "Stephanians"
+        }
+      ]
+    }
+  ]
+}

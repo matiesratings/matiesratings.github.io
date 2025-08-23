@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "Group 1",
+      "players": [
+        {
+          "name": "Sedick Abrahams",
+          "club": "Stephanians"
+        },
+        {
+          "name": "Kelvin Smith",
+          "club": "Top"
+        },
+        {
+          "name": "Andries Steenkamp",
+          "club": "Top"
+        },
+        {
+          "name": "Moses Baartman",
+          "club": "Top"
+        }
+      ]
+    }
+  ]
+}

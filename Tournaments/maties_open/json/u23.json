@@ -1,0 +1,131 @@
+{
+  "groups": [
+    {
+      "name": "Group 1",
+      "players": [
+        {
+          "name": "Cowen Lodewyk",
+          "club": "Masters"
+        },
+        {
+          "name": "Duwayne Petersen",
+          "club": "Maties"
+        },
+        {
+          "name": "Peet Karsten",
+          "club": "CW"
+        }
+      ]
+    },
+    {
+      "name": "Group 2",
+      "players": [
+        {
+          "name": "Keenen Jooste",
+          "club": "Top"
+        },
+        {
+          "name": "Joshua Marais",
+          "club": "Maties"
+        },
+        {
+          "name": "Christian Poggenpoel",
+          "club": "Liv-Ken"
+        }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "players": [
+        {
+          "name": "Jodie Galant",
+          "club": "Com House"
+        },
+        {
+          "name": "Steffan Brundyn",
+          "club": "Maties"
+        },
+        {
+          "name": "Marvin Musinguzi",
+          "club": "Top"
+        }
+      ]
+    },
+    {
+      "name": "Group 4",
+      "players": [
+        {
+          "name": "Cuten Lodewyk",
+          "club": "Community House"
+        },
+        {
+          "name": "Gajen Chetty",
+          "club": "Maties"
+        },
+        {
+          "name": "Nande Nqgula",
+          "club": "Top"
+        }
+      ]
+    },
+    {
+      "name": "Group 5",
+      "players": [
+        {
+          "name": "Mekhail Schroeder",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Cetinhan Celik",
+          "club": "Maties"
+        },
+        {
+          "name": "Luke Danster",
+          "club": "Top"
+        }
+      ]
+    },
+    {
+      "name": "Group 6",
+      "players": [
+        {
+          "name": "Nizaam Moosa",
+          "club": "Duinefontein"
+        },
+        {
+          "name": "Le Roux Strydom",
+          "club": "Maties"
+        },
+        {
+          "name": "Njongo Nqgula",
+          "club": "Top"
+        },
+        {
+          "name": "Jordan Mackrill",
+          "club": "Kuilsriver"
+        }
+      ]
+    },
+    {
+      "name": "Group 7",
+      "players": [
+        {
+          "name": "DJ Swanevelder",
+          "club": "Maties"
+        },
+        {
+          "name": "Taha Erzurumlugil",
+          "club": "CW"
+        },
+        {
+          "name": "Shane Coetzee",
+          "club": "Titans"
+        },
+        {
+          "name": "Matthew Meade",
+          "club": "UWC"
+        }
+      ]
+    }
+  ]
+}
