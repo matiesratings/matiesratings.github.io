@@ -1,6 +1,6 @@
 /* Table Styles */
 table {
-    width: 100%;             /* fill parent, but not wider */
+    width: 90%;             /* fill parent, but not wider */
     max-width: 90%;      
     margin: 10px auto;   /* never exceed parent width */
     border-collapse: collapse;
@@ -12,7 +12,7 @@ table {
 }
 .player-info-table{
     font-size: clamp(14px, 10vw, 28px);
-}
+} 
 
 #metaHeader{
     display: flex;
@@ -50,6 +50,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     min-width: min-content;
+    
 }
 
 /* Filters Section */
@@ -709,4 +710,7 @@ svg {
         text-overflow: ellipsis;
         padding: 4px 6px;
     }
+}
+.player-club-groups{
+    color: maroon;
 }

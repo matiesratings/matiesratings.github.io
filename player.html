@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta id="dynamic-viewport" name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Info</title>
     <link rel="stylesheet" href="scr/css/styles.css">
 </head>
@@ -120,7 +118,7 @@
                 let row = `<tr>`;
                 row += `<td class="mobile-hidden-col">${match.match_id}</td>`;
                 row += `<td class="mobile-hidden-col">${match.match_date}</td>`;
-                row += `<td>${match.event_name}</td>`;
+                row += `<td style="white-space: normal;>${match.event_name}</td>`;
                 row += `<td class="mobile-hidden-col">${match.event_type}</td>`;
                 row += `<td class="mobile-hidden-col">${match.category}</td>`;
                 row += `<td class="mobile-hidden-col">${match.province}</td>`;
@@ -132,7 +130,6 @@
 
                 tableBody.innerHTML += row;
             });
-            updateViewportToTable(); 
         }
 
         // --- Filtering ---
@@ -361,35 +358,6 @@
                 navLinks.classList.remove('active');
             }
         });
-        window.addEventListener("load", () => {
-            const table = document.querySelector("table");
-            if (table) {
-            const minWidth = table.scrollWidth;  // natural width of table
-            document.getElementById("dynamic-viewport")
-                .setAttribute("content", `width=${minWidth}, initial-scale=1`);
-            }
-        });
-        function updateViewportToTable() {
-            // const table = document.querySelector("table");
-            // const meta = document.querySelector('meta[name="viewport"]');
-
-            // if (table && meta) {
-            //     const rect = table.getBoundingClientRect();
-            //     const minWidth = Math.ceil(rect.width); // matches DevTools width
-            //     meta.setAttribute("content", `width=${minWidth}, initial-scale=1`);
-            //     console.log("Viewport set to:", minWidth);
-            // }
-            const meta = document.querySelector('meta[name="viewport"]');
-            if (meta) {
-                const halfWidth = window.innerWidth / 2;
-                meta.setAttribute("content", `width=${halfWidth}, initial-scale=1`);
-                console.log("Viewport forced to half:", halfWidth);
-            }
-            }
-
-
-
-
 
     </script>
 </body>
