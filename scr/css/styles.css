@@ -678,3 +678,33 @@ svg {
 .event-description a:hover {
   text-decoration: underline;
 }
+
+/* Wrapper forces table to shrink to fit */
+.mobile-scale-wrapper {
+    width: 100vw-16px;      /* full viewport width */
+    overflow-x: hidden; /* hide horizontal scroll */
+}
+
+@media (max-width: 480px) {
+    .mobile-scale-wrapper table {
+        transform-origin: top left;  /* scale from top-left corner */
+        display: block;              /* allow transform to work */
+    }
+}
+
+
+/* Mobile-specific table scaling */
+@media (max-width: 480px) {
+    .mobile-scale-table {
+        width: 100%;          /* table fills screen */
+        table-layout: auto;   /* allow columns to shrink/grow */
+    }
+
+    .mobile-scale-table th,
+    .mobile-scale-table td {
+        white-space: nowrap;  /* prevent line breaks */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 4px 6px;
+    }
+}
