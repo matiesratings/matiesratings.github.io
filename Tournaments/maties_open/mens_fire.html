@@ -51,7 +51,7 @@
       setTitle();
 
       // Fetch data from Firebase
-      firebase.database().ref("/mens").get().then(snapshot => {
+      firebase.database().ref("tournament/mens").get().then(snapshot => {
         if (snapshot.exists()) {
           const data = snapshot.val();
           const toggleContainer = document.getElementById("viewToggles");
