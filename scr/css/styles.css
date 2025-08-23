@@ -680,9 +680,13 @@ svg {
 .event-description a:hover {
   text-decoration: underline;
 }
-.player-club-groups{
-    color: maroon;
+.player-club-groups {
+    display: block;      /* forces a new line */
+    font-size: 0.9em;    /* optional: slightly smaller */
+    color: maroon;       /* keep your colour */
+    /* margin-left: 10px;   optional: indent under the name */
 }
+
 #events-container {
     display: flex;
     flex-wrap: wrap;
