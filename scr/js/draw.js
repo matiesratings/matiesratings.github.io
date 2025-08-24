@@ -63,7 +63,7 @@ document.addEventListener('click', function(event) {
     }
 });
 
-function renderKnockoutsFromFirebase(data) {
+function renderKnockouts(data) {
   const container = document.getElementById("contentContainer");
   container.innerHTML = `
     <div id="bracket-wrapper">

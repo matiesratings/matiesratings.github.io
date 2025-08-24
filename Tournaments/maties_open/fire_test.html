@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maties Open 2025 U23 Singles</title>
+  <title>Maties Open Men's Singles</title>
   <link rel="stylesheet" href="/scr/css/styles.css">
 
   <!-- Firebase compat SDK -->
@@ -50,7 +50,7 @@
       const setTitle = () => {
         const titleElement = document.getElementById("header-title");
         if (titleElement) {
-          titleElement.innerHTML = "Maties Open 2025 <br> U23 Singles";
+          titleElement.innerHTML = "Maties Open 2025 <br> Men's Singles";
         } else {
           setTimeout(setTitle, 50);
         }
@@ -59,7 +59,7 @@
 
       if (db) {
           // Use onValue() to listen for data changes in real-time
-          firebase.database().ref("maties_open_25/u23").on('value', (snapshot) => {
+          firebase.database().ref("tournament/test").on('value', (snapshot) => {
               const data = snapshot.val();
               const toggleContainer = document.getElementById("viewToggles");
               toggleContainer.innerHTML = ''; // Clear previous buttons
