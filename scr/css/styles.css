@@ -607,10 +607,13 @@ button:hover {
 }
 #stage-header {
   display: flex;
-  justify-content: flex-start; /* align with bracket columns */
+  justify-content: center; 
+  min-width: 1872px;
+  gap: 25px;
   margin-bottom: 5px;
-  margin-left:12.5px;
 }
+
+
 
 .stage-box {
   /* min-width: 223px; */
@@ -622,7 +625,6 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 25px;     /* match the gap between rounds */
   font-weight: bold;
   font-size: 1em;
   box-sizing: border-box;
