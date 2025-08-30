@@ -546,7 +546,7 @@ button:hover {
 /* Knockout Styling */
 /* Make font smaller */
 .match, .player {
-  font-size: 12px; /* set all text to 12px */
+  font-size: 13.5px; /* set all text to 12px */
 }
 
 #bracket-wrapper {

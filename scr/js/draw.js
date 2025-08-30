@@ -170,8 +170,10 @@ function renderKnockouts(data) {
 
         if (p.score !== undefined && p.score !== null) {
           const score = document.createElement("span");
-          score.textContent = ` (${p.score})`;
+          score.textContent = ` ${p.score}`;
           score.style.color = "white";
+          score.style.fontSize = "15px"; // Adjust the pixel value as needed
+
           row.appendChild(score);
         }
 
