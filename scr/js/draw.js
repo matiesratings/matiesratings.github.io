@@ -215,6 +215,18 @@ function renderKnockouts(data) {
         });
       }
     }
+  const updateStageHeaderWidth = () => {
+  const stageHeader = document.querySelector('#stage-header');
+  const bracket = document.querySelector('.bracket');
+  if (stageHeader && bracket) {
+    stageHeader.style.minWidth = `${bracket.offsetWidth}px`;
+  }
+  };
+  // Initial call on DOM load
+  updateStageHeaderWidth();
+
+  // Update on window resize
+  window.addEventListener('resize', updateStageHeaderWidth);
   }
 
   function connectLeft(a, b) {
@@ -293,16 +305,8 @@ function renderKnockouts(data) {
   window.addEventListener("resize", adjustBracketWidth);
 }
 
-const updateStageHeaderWidth = () => {
-  const stageHeader = document.querySelector('#stage-header');
-  const bracket = document.querySelector('.bracket');
-  if (stageHeader && bracket) {
-    stageHeader.style.minWidth = `${bracket.offsetWidth}px`;
-  }
-};
 
-// Initial call
-updateStageHeaderWidth();
 
-// Update on window resize
-window.addEventListener('resize', updateStageHeaderWidth);
+document.addEventListener('DOMContentLoaded', () => {
+
+});

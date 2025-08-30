@@ -568,7 +568,7 @@ button:hover {
   display: flex;
   justify-content: center; 
   /* min-width: 1872px; */
-  min-width: 1456px;
+  /* min-width: 1456px; */
 
   gap: 25px;
   margin-bottom: 5px;

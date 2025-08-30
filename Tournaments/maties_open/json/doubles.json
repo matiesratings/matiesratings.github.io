@@ -60,7 +60,7 @@
         ],
         [
           {
-            "name": "Darren Rogers"
+            "name": "Darren Rodgers"
           },
           {
             "name": "Adrian Philander"
@@ -271,7 +271,7 @@
         ],
         [
           {
-            "name": "Darren Rogers"
+            "name": "Darren Rodgers"
           },
           {
             "name": "Adrian Philander",
@@ -386,7 +386,7 @@
         ],
         [
           {
-            "name": "Darren Rogers"
+            "name": "Darren Rodgers"
           },
           {
             "name": "Adrian Philander",
@@ -442,10 +442,12 @@
             "name": "David Nwafor"
           },
           {
-            "name": "Lindsay October"
+            "name": "Lindsay October",
+            "score":"1"
           },
           {
-            "name": "Darren Rogers"
+            "name": "Darren Rodgers",
+            "score":"3"
           },
           {
             "name": "Adrian Philander"
@@ -456,10 +458,12 @@
             "name": "Cowen Lodewyk"
           },
           {
-            "name": "Cuten Lodewyk"
+            "name": "Cuten Lodewyk",
+            "score":"3"
           },
           {
-            "name": "Jodie Galant"
+            "name": "Jodie Galant",
+            "score":"0"
           },
           {
             "name": "Keenen Jooste"
@@ -472,10 +476,18 @@
       "matches": [
         [
           {
-            "name": ""
+            "name": "Darren Rodgers"
           },
           {
-            "name": ""
+            "name": "Adrian Philander",
+            "score":"3"
+          },
+          {
+            "name": "Cowen Lodewyk",
+            "score":"0"
+          },
+          {
+            "name": "Cuten Lodewyk"
           }
         ]
       ],
