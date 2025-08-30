@@ -340,26 +340,32 @@
         ],
         [
           {
-            "name": "Nizaam Moosa"
+            "name": "Nizaam Moosa",
+            "score": "3"
           },
           {
-            "name": "Matthew Meade"
+            "name": "Matthew Meade",
+            "score": "0"
           }
         ],
         [
           {
-            "name": "Nande Nqgula"
+            "name": "Marvin Musinguzi",
+            "score": "0"
           },
           {
-            "name": "Mekhail Schroeder"
+            "name": "Mekhail Schroeder",
+            "score": "3"
           }
         ],
         [
           {
-            "name": "Marvin Musinguzi"
+            "name": "Nande Nqgula",
+            "score": "0"
           },
           {
-            "name": "Jodie Galant"
+            "name": "Jodie Galant",
+            "score": "3"
           }
         ],
         [
@@ -372,18 +378,22 @@
         ],
         [
           {
-            "name": "DJ Swanevelder"
+            "name": "DJ Swanevelder",
+            "score": "2"
           },
           {
-            "name": "Luke Danster"
+            "name": "Luke Danster",
+            "score": "3"
           }
         ],
         [
           {
-            "name": "Duwayne Petersen"
+            "name": "Duwayne Petersen",
+            "score": "0"
           },
           {
-            "name": "Le Roux Strydom"
+            "name": "Le Roux Strydom",
+            "score": "3"
           }
         ],
         [
@@ -401,59 +411,67 @@
       "matches": [
         [
           {
-            "name": ""
+            "name": "Cowen Lodewyk",
+            "score": "3"
           },
           {
-            "name": ""
+            "name": "Nizaam Moosa",
+            "score": "2"
           }
         ],
         [
           {
-            "name": ""
+            "name": "Mekhail Schroeder",
+            "score": "0"
           },
           {
-            "name": ""
+            "name": "Jodie Galant",
+            "score": "3"
           }
         ],
         [
           {
-            "name": ""
+            "name": "Keenen Jooste",
+            "score": "3"
           },
           {
-            "name": ""
+            "name": "Luke Danster",
+            "score": "2"
           }
         ],
         [
           {
-            "name": ""
+            "name": "Le Roux Strydom",
+            "score": "0"
           },
           {
-            "name": ""
+            "name": "Cuten Lodewyk",
+            "score": "3"
           }
         ]
       ],
-      "stage": "Quarters"
+      "stage": "Quarterfinal"
     },
     {
       "matches": [
         [
           {
-            "name": ""
+            "name": "Cowen Lodewyk"
           },
           {
-            "name": ""
+            "name": "Jodie Galant"
           }
         ],
         [
           {
-            "name": ""
+            "name": "Keenen Jooste"
           },
           {
-            "name": ""
+            "name": "Cuten Lodewyk"
           }
         ]
       ],
-      "stage": "Semis"
+      "stage": "Semifinal"
     },
     {
       "matches": [
@@ -517,12 +535,12 @@
     {
       "group": "Group 3",
       "name": "Marvin Musinguzi",
-      "seed": 14
+      "seed": 12
     },
     {
       "group": "Group 4",
       "name": "Nande Nqgula",
-      "seed": 12
+      "seed": 14
     },
     {
       "group": "Group 5",

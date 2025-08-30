@@ -292,3 +292,17 @@ function renderKnockouts(data) {
   window.addEventListener("resize", drawLines);
   window.addEventListener("resize", adjustBracketWidth);
 }
+
+const updateStageHeaderWidth = () => {
+  const stageHeader = document.querySelector('#stage-header');
+  const bracket = document.querySelector('.bracket');
+  if (stageHeader && bracket) {
+    stageHeader.style.minWidth = `${bracket.offsetWidth}px`;
+  }
+};
+
+// Initial call
+updateStageHeaderWidth();
+
+// Update on window resize
+window.addEventListener('resize', updateStageHeaderWidth);

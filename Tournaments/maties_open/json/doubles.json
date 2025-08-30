@@ -1,60 +1,485 @@
 {
   "knockouts": [
     {
-      "stage": "Round 32",
       "matches": [
-        [{"name": "Shaun Jones"},{"name": "Lindsay October"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Kamiel Ebrahim"},{"name": "Rafiek Tofa"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Tian Louw"},{"name": "Joshua Du Plooy"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Craig Fortuin"},{"name": "Saaliegh Jabaar"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Darren Rogers"},{"name": "Adrian Philander"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Timothy-John Sabad"},{"name": "Amien Phillips"},{"name": "Westley Mcloud"},{"name": "Andre Johnson"}],
-        [{"name": "Dirk Coetzee"},{"name": "David Nwafor"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Michael Mackrill"},{"name": "Jordan Mackrill"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Cowen Lodewyk"},{"name": "Cuten Lodewyk"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Llewellyn Bartlett"},{"name": "Craig Zimri"},{"name": "Gajen Chetty"},{"name": "Cetinhan Celik"}],
-        [{"name": "Mekhail Schroeder"},{"name": "Nizaam Moosa"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Darren Orr"},{"name": "Kirshwan Steyn"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Jodie Galant"},{"name": "Keenen Jooste"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Lorenzo Haupt"},{"name": "Ashley Wesson"},{"name": "Duwayne Petersen"},{"name": "Steffan Brundyn"}],
-        [{"name": "Tayla Bailey"},{"name": "Jade Sasman"},{"name": "Bye"},{"name": "Bye"}],
-        [{"name": "Le Roux Strydom"},{"name": "DJ Swanevelder"},{"name": "Bye"},{"name": "Bye"}]
-      ]
+        [
+          {
+            "name": "David Nwafor"
+          },
+          {
+            "name": "Lindsay October"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Rick Solomons"
+          },
+          {
+            "name": "Rafiek Tofa"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Tian Louw"
+          },
+          {
+            "name": "Joshua Du Plooy"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Craig Fortuin"
+          },
+          {
+            "name": "Saaliegh Jabaar"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Darren Rogers"
+          },
+          {
+            "name": "Adrian Philander"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Timothy-John Sabad"
+          },
+          {
+            "name": "Amien Phillips",
+            "score": "0"
+          },
+          {
+            "name": "Westley Mcloud",
+            "score": "3"
+          },
+          {
+            "name": "Andre Johnson"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Michael Mackrill"
+          },
+          {
+            "name": "Jordan Mackrill"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Cowen Lodewyk"
+          },
+          {
+            "name": "Cuten Lodewyk"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Llewellyn Bartlett"
+          },
+          {
+            "name": "Craig Zimri",
+            "score": "3"
+          },
+          {
+            "name": "Gajen Chetty",
+            "score": "0"
+          },
+          {
+            "name": "Cetinhan Celik"
+          }
+        ],
+        [
+          {
+            "name": "Mekhail Schroeder"
+          },
+          {
+            "name": "Nizaam Moosa"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Darren Orr"
+          },
+          {
+            "name": "Kirshwan Steyn"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Jodie Galant"
+          },
+          {
+            "name": "Keenen Jooste"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Lorenzo Haupt"
+          },
+          {
+            "name": "Ashley Wesson",
+            "score": "3"
+          },
+          {
+            "name": "Duwayne Petersen",
+            "score": "0"
+          },
+          {
+            "name": "Steffan Brundyn"
+          }
+        ],
+        [
+          {
+            "name": "Tayla Bailey"
+          },
+          {
+            "name": "Jade Sasman"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Le Roux Strydom"
+          },
+          {
+            "name": "DJ Swanevelder"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          }
+        ]
+      ],
+      "stage": "Round 32"
     },
     {
-      "stage": "Round 16",
       "matches": [
-        [{"name": "Shaun Jones"},{"name": "Lindsay October"},{"name": "Kamiel Ebrahim"},{"name": "Rafiek Tofa"}],
-        [{"name": "Tian Louw"},{"name": "Joshua Du Plooy"},{"name": "Craig Fortuin"},{"name": "Saaliegh Jabaar"}],
-        [{"name": "Darren Rogers"},{"name": "Adrian Philander"},{"name": ""},{"name": ""}],
-        [{"name": "Dirk Coetzee"},{"name": "David Nwafor"},{"name": "Michael Mackrill"},{"name": "Jordan Mackrill"}],
-        [{"name": "Cowen Lodewyk"},{"name": "Cuten Lodewyk"},{"name": ""},{"name": ""}],
-        [{"name": "Mekhail Schroeder"},{"name": "Nizaam Moosa"},{"name": "Darren Orr"},{"name": "Kirshwan Steyn"}],
-        [{"name": "Jodie Galant"},{"name": "Keenen Jooste"},{"name": ""},{"name": ""}],
-        [{"name": "Tayla Bailey"},{"name": "Jade Sasman"},{"name": "Le Roux Strydom"},{"name": "DJ Swanevelder"}]
-      ]
+        [
+          {
+            "name": "David Nwafor"
+          },
+          {
+            "name": "Lindsay October",
+            "score":"3"
+          },
+          {
+            "name": "Rick Solomons",
+            "score":"0"
+          },
+          {
+            "name": "Rafiek Tofa"
+          }
+        ],
+        [
+          {
+            "name": "Tian Louw"
+          },
+          {
+            "name": "Joshua Du Plooy",
+            "score":"3"
+          },
+          {
+            "name": "Craig Fortuin",
+            "score":"1"
+          },
+          {
+            "name": "Saaliegh Jabaar"
+          }
+        ],
+        [
+          {
+            "name": "Darren Rogers"
+          },
+          {
+            "name": "Adrian Philander",
+            "score":"3"
+          },
+          {
+            "name": "Westley Mcloud",
+            "score":"0"
+          },
+          {
+            "name": "Andre Johnson"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Michael Mackrill"
+          },
+          {
+            "name": "Jordan Mackrill"
+          }
+        ],
+        [
+          {
+            "name": "Cowen Lodewyk"
+          },
+          {
+            "name": "Cuten Lodewyk",
+            "score":"3"
+          },
+          {
+            "name": "Llewellyn Bartlett",
+            "score":"0"
+          },
+          {
+            "name": "Craig Zimri"
+          }
+        ],
+        [
+          {
+            "name": "Mekhail Schroeder"
+          },
+          {
+            "name": "Nizaam Moosa",
+            "score":"2"
+          },
+          {
+            "name": "Darren Orr",
+            "score":"3"
+          },
+          {
+            "name": "Kirshwan Steyn"
+          }
+        ],
+        [
+          {
+            "name": "Jodie Galant"
+          },
+          {
+            "name": "Keenen Jooste",
+            "score":"3"
+          },
+          {
+            "name": "Lorenzo Haupt",
+            "score":"0"
+          },
+          {
+            "name": "Ashley Wesson"
+          }
+        ],
+        [
+          {
+            "name": "Tayla Bailey"
+          },
+          {
+            "name": "Jade Sasman",
+            "score":"3"
+          },
+          {
+            "name": "Le Roux Strydom",
+            "score":"2"
+          },
+          {
+            "name": "DJ Swanevelder"
+          }
+        ]
+      ],
+      "stage": "Round 16"
     },
     {
-      "stage": "Quarter-Final",
       "matches": [
-        [{"name": ""},{"name": ""}],
-        [{"name": ""},{"name": ""}],
-        [{"name": ""},{"name": ""}],
-        [{"name": ""},{"name": ""}]
-      ]
+        [
+          {
+            "name": "David Nwafor"
+          },
+          {
+            "name": "Lindsay October",
+            "score":"3"
+          },
+          {
+            "name": "Tian Louw",
+            "score":"1"
+          },
+          {
+            "name": "Joshua Du Plooy"
+          }
+        ],
+        [
+          {
+            "name": "Darren Rogers"
+          },
+          {
+            "name": "Adrian Philander",
+            "score": "3" 
+          },
+          {
+            "name": "Michael Mackrill",
+            "score": "0" 
+          },
+          {
+            "name": "Jordan Mackrill"
+          }
+        ],
+        [
+          {
+            "name": "Cowen Lodewyk"
+          },
+          {
+            "name": "Cuten Lodewyk",
+            "score":"3"
+          },
+          {
+            "name": "Darren Orr",
+            "score":"1"
+          },
+          {
+            "name": "Kirshwan Steyn"
+          }
+        ],
+        [
+          {
+            "name": "Jodie Galant"
+          },
+          {
+            "name": "Keenen Jooste",
+            "score" :"3"
+          },
+          {
+            "name": "Tayla Bailey",
+            "score":"1"
+          },
+          {
+            "name": "Jade Sasman"
+          }
+        ]
+      ],
+      "stage": "Quarters"
     },
     {
-      "stage": "Semi-Final",
       "matches": [
-        [{"name": ""},{"name": ""}],
-        [{"name": ""},{"name": ""}]
-      ]
+        [
+          {
+            "name": "David Nwafor"
+          },
+          {
+            "name": "Lindsay October"
+          },
+          {
+            "name": "Darren Rogers"
+          },
+          {
+            "name": "Adrian Philander"
+          }
+        ],
+        [
+          {
+            "name": "Cowen Lodewyk"
+          },
+          {
+            "name": "Cuten Lodewyk"
+          },
+          {
+            "name": "Jodie Galant"
+          },
+          {
+            "name": "Keenen Jooste"
+          }
+        ]
+      ],
+      "stage": "Semis"
     },
     {
-      "stage": "Final",
       "matches": [
-        [{"name": ""},{"name": ""}]
-      ]
+        [
+          {
+            "name": ""
+          },
+          {
+            "name": ""
+          }
+        ]
+      ],
+      "stage": "Final"
     }
   ]
 }
