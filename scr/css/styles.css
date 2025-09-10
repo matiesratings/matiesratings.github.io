@@ -50,6 +50,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     min-width: 378px;
+    margin: 0px;
 }
 
 /* Filters Section */
@@ -123,6 +124,8 @@ input[type="text"], .search-input {
     align-items: center;
     background-color: maroon;
     padding: 10px;
+    margin: 8px 8px;
+    margin-bottom: 0px;
 }
 .nav-links {
     display: flex;
