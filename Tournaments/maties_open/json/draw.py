@@ -31,20 +31,28 @@ def generate_random_number(min_val: int, max_val: int, excluded_numbers: list[in
     # Check if any valid numbers exist
     if not valid_numbers:
         raise ValueError("No valid numbers can be generated within the given constraints.")
+    rand_num = random.choice(valid_numbers)
+    print(f"Generated a random number between {min_val} and {max_val}, excluding {excluded_numbers}: {rand_num}")
 
-    # Return a random choice from the list of valid numbers
-    return random.choice(valid_numbers)
+    return 
 
 # --- Example Usage ---
 
 if __name__ == "__main__":
-    # excluded = [11,14,12,10,9,16,12,13]
-    # excluded = [11,14,12,10,14,11,10,15]
-    excluded = [10,11,12]
-    min = 9
-    max = 13
-    try:
-        rand_num = generate_random_number(min, max, excluded)
-        print(f"Generated a random number between {min} and {max}, excluding {excluded}: {rand_num}")
-    except ValueError as e:
-        print(f"Error: {e}")
+    # Round of 32 
+    top = [1, 4, 5, 8, 9, 12, 13, 16, 17, 20, 21, 24, 25, 28, 29, 32]
+    bottom = [2, 3, 6, 7, 10, 11, 14, 15, 18, 19, 22, 23, 26, 27, 30, 31]
+    print('Bottom' if 1 in bottom else 'Top')
+
+    drawn_seeds = [10]    
+
+    excluded = drawn_seeds + []
+    # excluded = drawn_seeds + bottom
+    excluded = drawn_seeds + top
+
+    min = 1
+    max = 2
+
+    rand_num = generate_random_number(min, max, excluded)
+
+

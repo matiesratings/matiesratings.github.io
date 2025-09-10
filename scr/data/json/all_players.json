@@ -3247,7 +3247,7 @@
   },
   {
     "maties_id": 550,
-    "name": "Nezaam ",
+    "name": "Nezaam Jassiem",
     "club": "Goodwood",
     "gender": "Male"
   },
@@ -6788,6 +6788,78 @@
   {
     "maties_id": 1154,
     "name": "Lucky Madikiza",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1155,
+    "name": "Jasheel Makam",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1156,
+    "name": "Jonathan Muniay",
+    "club": "Top",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1157,
+    "name": "Timothy Domingo",
+    "club": "SP Saints",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1158,
+    "name": "Thabang Tlhakanye",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1159,
+    "name": "Santoz Adonis",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1160,
+    "name": "Marius Oosthuizen",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1161,
+    "name": "Etienne de Villiers",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1162,
+    "name": "Vusi Phokompe",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1163,
+    "name": "Olusegun Olanipekun",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1164,
+    "name": "Gitesh Parbhoo",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1165,
+    "name": "Willie Beyl",
+    "club": "unknown_club",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1166,
+    "name": "Bernie Buisset",
     "club": "unknown_club",
     "gender": "Male"
   }
