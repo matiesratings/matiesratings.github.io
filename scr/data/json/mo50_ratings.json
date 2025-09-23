@@ -1,0 +1,34 @@
+[
+  {
+    "rank": 1,
+    "maties_id": 845,
+    "name": "Ronald Lawrence",
+    "club": "Denel",
+    "gender": "Male",
+    "rating": 1373,
+    "win_per": 90.9,
+    "played": 11,
+    "won": 10,
+    "lost": 1,
+    "last_played": "2025-08-08",
+    "best_win": "Rainer Sztab (1349)",
+    "max_rating": 1406,
+    "max_rating_date": "2025-08-08"
+  },
+  {
+    "rank": 2,
+    "maties_id": 830,
+    "name": "Jose Da Silva",
+    "club": "CSIR",
+    "gender": "Male",
+    "rating": 1261,
+    "win_per": 62.5,
+    "played": 8,
+    "won": 5,
+    "lost": 3,
+    "last_played": "2025-08-08",
+    "best_win": "Vernon Maney (1230)",
+    "max_rating": 1284,
+    "max_rating_date": "2025-08-08"
+  }
+]

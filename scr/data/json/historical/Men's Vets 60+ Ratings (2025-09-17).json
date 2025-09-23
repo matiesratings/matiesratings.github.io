@@ -1,0 +1,34 @@
+[
+	{
+		"rank" : 1,
+		"maties_id" : 934,
+		"name" : "Peter Bian",
+		"club" : "Rivonia",
+		"gender" : "Male",
+		"rating" : 1371,
+		"win_per" : 77.8,
+		"played" : 9,
+		"won" : 7,
+		"lost" : 2,
+		"last_played" : "2025-08-08",
+		"best_win" : "Vernon Maney (1287)",
+		"max_rating" : 1404,
+		"max_rating_date" : "2025-08-08"
+	},
+	{
+		"rank" : 2,
+		"maties_id" : 804,
+		"name" : "Tony Song",
+		"club" : "Anchors",
+		"gender" : "Male",
+		"rating" : 1308,
+		"win_per" : 75.0,
+		"played" : 8,
+		"won" : 6,
+		"lost" : 2,
+		"last_played" : "2025-08-08",
+		"best_win" : "Peter Bian (1371)",
+		"max_rating" : 1308,
+		"max_rating_date" : "2025-08-08"
+	}
+]

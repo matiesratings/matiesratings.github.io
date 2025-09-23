@@ -1,0 +1,1149 @@
+maties_id,name,club,gender
+1,"Tian Louw",Maties,Male
+2,"DJ Swanevelder",Maties,Male
+3,"Jaco de Swardt",Maties,Male
+4,"Le Roux Strydom",Maties,Male
+5,"Cetin Celik",Maties,Male
+6,"Joshua Du Plooy",Ravens,Male
+7,"Gajen Chetty",Maties,Male
+8,"Christina Malan",Maties,Female
+9,"Timothy Prinsloo",Maties,Male
+10,"Elizabeth Knoesen",Maties,Female
+11,"Andries Vermeulen",Maties,Male
+12,"Duwayne Petersen",Maties,Male
+13,"Joel Joshua",Maties,Male
+14,"Ryan Reed",Maties,Male
+15,"Dirk Guelpa",Maties,Male
+16,"Helen Alston",Maties,Female
+17,"Panashe Nyamande",Maties,Male
+18,"Nazir Mowzer",Maties,Male
+19,"Charl Le Roux",Maties,Male
+20,"Annelie Wessels",Maties,Female
+21,"Steffan Brundyn",Maties,Male
+22,"Daneel van der Walt",Maties,Male
+23,"Tashreeq Asvat",Maties,Male
+24,"Jano Olivier",Maties,Male
+25,"Alessandra Wijtenburg",Maties,Female
+26,"Sanmari Fourie",Maties,Female
+27,"Craig Murray",Maties,Male
+28,"Nicholas Murray",Maties,Male
+29,"Phapusha Seopa",Maties,Male
+30,"Simon van der Merwe",Maties,Male
+31,"Christian van der Westhuizen",Maties,Male
+32,"Mikhail Cedras",Maties,Male
+33,"Wenhao Yao",Maties,Male
+34,"Bernard van Krieken",Maties,Male
+35,"Carmen Harris",Maties,Female
+36,"Fezeka Giqwa",Maties,Female
+37,"Tiger Surmon",Maties,Male
+38,"Kgothatso Tsheko",Maties,Female
+39,"Joshua Marais",Maties,Male
+40,"Schalk Visser",Maties,Male
+41,"Feur Boegman",Maties,Female
+42,"Herman Verwey",Maties,Male
+43,"Praise George",Maties,Male
+44,"Anande Kuse",CPUT,Female
+45,"Zanenjabulo Mashaba",CPUT,Female
+46,"Asive Makabeni",CPUT,Female
+47,"Ketshepileone Rakanang",CPUT,Female
+48,"Zizipho Ntlali",CPUT,Female
+49,"Valentia Rooinek",CPUT,Female
+50,"Bonang Mere",CPUT,Male
+51,"Scelo Mkhetho",CPUT,Male
+52,"Khanyolwethu Bayibayi",CPUT,Male
+53,"Cowan Scott Quickfall",CPUT,Male
+54,"Asakhe Matomela",CPUT,Male
+55,"Fadeel Phillips",CPUT,Male
+56,"Llewellyn Le Kay",CPUT,Male
+57,"Liqhawe Pepeta",CPUT,Male
+58,"Gail Smith",Top,Female
+59,"Cheyenne Smith",Top,Female
+60,"Celeste Nomdo",Top,Female
+61,"Jesse Leigh Nomdo",Top,Female
+62,"Melvina Nomdo",Top,Female
+63,"Donovan Smith",Top,Male
+64,"Washiela Jantjies",Top,Female
+65,"Raychelle Moleveld",Top,Female
+66,"Jessica Adams",Top,Female
+67,"Jill Benjamin",Top,Female
+68,"Chloe Hendricks",Top,Female
+69,"Shiloh Smith",Top,Female
+70,"Xoey Williams",Top,Female
+71,"Carmen Williams",Top,Female
+72,"Miyah Williams",Top,Female
+73,"Jodie Baron",Top,Female
+74,"Daylin Davids",Top,Female
+75,"Jodie Theunissen",Top,Female
+76,"Skylyn Joseph",Top,Female
+77,"Raylin Jason",Top,Female
+78,"Logan Majiedt",Top,Female
+79,"Logan Willemse",Top,Female
+80,"Tiana Lee Harris",Top,Female
+81,"Jannika V/D Merwe",Top,Female
+82,"Caelyn Ntsulungo",Top,Female
+83,"Kirsten Byren",Top,Female
+85,"Mindi Brown",Top,Female
+86,"Lisakhanya Mdoda",Top,Female
+87,"Kelvin Smith",Top,Male
+88,"Rogan Smith",Top,Male
+89,"Stanford Nomdo",Top,Male
+90,"Stanley Nomdo",Top,Male
+91,"Kingsley Nomdo",Top,Male
+92,"Jay Nomdo",Top,Male
+93,"Joshua Nomdo",Top,Male
+94,"Merlin Brown",Top,Male
+95,"Timothy Fitzgibbon",Top,Male
+96,"Richard Fitzgibbon",Top,Male
+97,"Lorenzo Haupt",Top,Male
+98,"Keenen Jooste",Top,Male
+99,"Hennie Jooste",Top,Male
+100,"Chris Sloster",Top,Male
+102,"Andre Fransman",Top,Male
+103,"Gielie Matthee",Top,Male
+104,"Gaston Koetaan",Top,Male
+105,"Rubin Willemse",Top,Male
+106,"Allan Clark",Top,Male
+107,"Quentin Thomas",Top,Male
+108,"Eltonio Minnaar",Top,Male
+109,"Moses Baartman",Top,Male
+110,"David Esau",Top,Male
+111,"Victor Grabe",Top,Male
+112,"Roland Grabe",Top,Male
+113,"Shaun Francis",Top,Male
+114,"Louis Paulse",Top,Male
+115,"Carl Hendrikse",Top,Male
+116,"Andries Steenkamp",Top,Male
+117,"Russel Maphike",Top,Male
+118,"Deon Swartz",Top,Male
+119,"Quincy Noble",Top,Male
+120,"Nande Nqgula",Top,Male
+121,"Njongo Nqgula",Top,Male
+122,"Marvin Musinguzi",Top,Male
+123,"Luke Danster",Top,Male
+124,"Liam Engel",Top,Male
+125,"Liam Klaasen",Top,Male
+126,"Filippus Fredericks",Top,Male
+127,"Amyoli Kuse",Top,Male
+128,"Junior Kuse",Top,Male
+129,"Iviwe Kuse",Top,Male
+130,"Anathi Kuse",Top,Male
+131,"Cody Williams",Top,Male
+132,"Xavier Williams",Top,Male
+133,"Bradley Barnes",Top,Male
+134,"Samuedien Solomons",Top,Male
+135,"Rowan Hermanus",Top,Male
+136,"Jordan Hartnick",Top,Male
+137,"Iziah Van Wyngaard",Top,Male
+138,"Jaydon V/D Merwe",Top,Male
+139,"Richard Radloff",Top,Male
+140,"Everard Isaacs",Top,Male
+141,"Jim Foster",Top,Male
+142,"Bokang Mnguni",Top,Male
+143,"Yantle Baku",Top,Male
+144,"Nahum Mentoor",Top,Male
+145,"Craig Zimri","MP Royals",Male
+146,"Jerome Williams","MP Royals",Male
+147,"Moeneeb Isaacs","MP Royals",Male
+148,"Nuruhulda Manuel","MP Royals",Female
+149,"Westley Mccloud","MP Royals",Male
+150,"Walter Dreyer","MP Royals",Male
+151,"Ryan Christians","MP Royals",Male
+152,"Russel Jansen","MP Royals",Male
+153,"Andre Johnson","MP Royals",Male
+154,"Llewellyn Bartlett","MP Royals",Male
+155,"Kyle Martin","MP Royals",Male
+156,"Henry Arends","MP Royals",Male
+157,"Abubakr Manuel","MP Royals",Male
+158,"Joel Martin","MP Royals",Male
+159,"David Cyfers","MP Royals",Male
+160,"Keenan Holt","MP Royals",Male
+161,"Rashied Ismail","MP Royals",Male
+162,"Munier Patel","MP Royals",Male
+163,"Ilyaaz Patel","MP Royals",Male
+164,"Llewellyn Paris","MP Royals",Male
+165,"Riedewaan Hendricks","MP Royals",Male
+166,"Ivor Arendse","MP Royals",Male
+167,"Tyrone Van De Merwe","MP Royals",Male
+168,"Edwin Solomon","MP Royals",Male
+169,"Umar Cassiem","MP Royals",Male
+170,"Leandre Johnson","MP Royals",Female
+171,"Yaqeen Manuel","MP Royals",Male
+172,"Niyaaz Ebrahim","MP Royals",Male
+173,"Errol Kannemeyer","MP Royals",Male
+174,"Zahraa Cassiem","MP Royals",Female
+175,"Yaaseen Manuel","MP Royals",Male
+176,"Bradley Van Aswegen","MP Royals",Male
+177,"Lester Herold","MP Royals",Male
+178,"Craig Meyer","SP Saints",Male
+179,"Kevin Roodt","SP Saints",Male
+180,"Garth Arenz","SP Saints",Male
+181,"Keith Meyer","SP Saints",Male
+182,"Jamie Louw","SP Saints",Male
+183,"Ethan Meyer","SP Saints",Male
+184,"Evan Arendse","SP Saints",Male
+185,"Alphonso Malgas","SP Saints",Male
+186,"Elroy Gabriel","SP Saints",Male
+187,"Dane Stewart","SP Saints",Male
+188,"Kellan Louw","SP Saints",Male
+189,"Alex Kleintjies","SP Saints",Male
+190,"William Prinsloo",Steenberg,Male
+191,"Norman Visagie",Steenberg,Male
+192,"Stanley Prinsloo",Steenberg,Male
+193,"Benadick Mentor",Steenberg,Male
+194,"Carl Adams",Steenberg,Male
+195,"Gavern Africa",Steenberg,Male
+196,"Lester Van Der Ross",Steenberg,Male
+197,"Rowan Felix",UCT,Male
+198,"Dillan Godfrey",UCT,Male
+199,"Liam Olsen",UCT,Male
+200,"Emilio Fernandez",UCT,Male
+201,"Ethan Williams",UCT,Male
+202,"Tendai Mikioni",UCT,Male
+203,"Kaylen Desmond",UCT,Female
+204,"Shanliang lu",UCT,Male
+205,"Matthew Meade",UWC,Male
+206,"Loyiso Singiselo",UWC,Male
+207,"Nasr Esau",UWC,Male
+208,"Cade Peters",UWC,Male
+209,"Melissa Witbooi",UWC,Female
+210,"Siyanda Ntlali",UWC,Female
+211,"Marvin Makhubela",UWC,Male
+212,"Siphelele Mkhetho",UWC,Male
+213,"Oyena Jantjies",UWC,Female
+214,"Shana Cloete",UWC,Female
+215,"Byron Abrahams","Bishop Lavis",Male
+216,"Daylin May","Bishop Lavis",Male
+217,"Darren Wyngaardt","Bishop Lavis",Male
+218,"Jemaine Titus","Bishop Lavis",Male
+219,"Azraa Mitchel","Bishop Lavis",Female
+220,"Eaton Esau","Bishop Lavis",Male
+221,"Henry Esau","Bishop Lavis",Male
+222,"Thabiet Adams","Bishop Lavis",Male
+223,"Chesray Booysen","Bishop Lavis",Male
+224,"Rhea Maluka","Bishop Lavis",Male
+225,"Iesa Cupido","Bishop Lavis",Male
+226,"Neah Esau","Bishop Lavis",Female
+227,"Yunus Moyce","Bishop Lavis",Male
+228,"Brandon Russel","Bishop Lavis",Male
+229,"Kyle Sebo","Bishop Lavis",Male
+230,"Antonio Daniels","Bishop Lavis",Male
+231,"Henry Gouws","Bishop Lavis",Male
+232,"Spikey Joseph","Bishop Lavis",Female
+233,"Zahier Mohamed","Bishop Lavis",Male
+234,"Rhiyaan Cupido","Bishop Lavis",Male
+235,"Adam Cupido","Bishop Lavis",Male
+236,"Zulpha Meniers","Bishop Lavis",Female
+237,"Brandon De Jager","Bishop Lavis",Male
+238,"Latino Palmer","Bishop Lavis",Male
+239,"Anwar Abrahams","Bishop Lavis",Male
+240,"Patrick Gertse","Bishop Lavis",Male
+241,"Livarn Esau","Bishop Lavis",Male
+242,"Denver Sweatz",Boundary,Male
+243,"Graham Van As",Boundary,Male
+244,"Musfiquh Kalam",Boundary,Female
+245,"Tarren Van As",Boundary,Female
+246,"Tamika Van As",Boundary,Female
+247,"Leeche De Bruyn",Boundary,Female
+248,"Joshua Benjamin",Boundary,Male
+249,"Rafiq Jacobs",Boundary,Male
+250,"Owais Jacobs",Boundary,Male
+251,"Qaa-im Jacobs",Boundary,Male
+252,"Gerard Schrieff",Boundary,Male
+253,"Samuel Schrieff",Boundary,Male
+254,"Cailtin May",Boundary,Female
+255,"Matthew Lingeveldt",Boundary,Male
+256,"Theo Lingeveldt",Boundary,Male
+257,"Timothy Lingeveldt",Boundary,Male
+258,"Rashaad Safodien",Boundary,Male
+259,"Greg Naik",Boundary,Male
+260,"Joseph Catz",Boundary,Male
+261,"Zondre Adams",Boundary,Male
+262,"Tayla Bailey",Boundary,Female
+263,"Jodie Galant","Community House",Male
+264,"Cuten Lodewyk","Community House",Male
+265,"Harry Dawes","Community House",Male
+266,"Jiyaad Kara","Community House",Male
+267,"Naathiem Salie","Community House",Male
+268,"Yusuf Creighton","Community House",Male
+269,"Kauthar Van Der Schyff","Community House",Female
+270,"Cayden Delgada ","Community House",Male
+271,"Dorian Davids ","Community House",Male
+272,"Caleb Hurling","Community House",Male
+273,"Keyaam Kamaldien ","Community House",Male
+274,"Uzair Hendricks","Community House",Male
+275,"Abdul Ismail","Community House",Male
+276,"Rushin Jacobs","Community House",Male
+277,"Moegamat Brandt","Community House",Male
+278,"Ishaam Jumat","Community House",Male
+279,"Yaseen Enous","Community House",Male
+280,"Zaid Nackerdien","Community House",Male
+281,"Sufiyaan Hoosain","Community House",Male
+282,"Yahya Isaacs","Community House",Male
+283,"Angelo Isaacs","Community House",Male
+284,"Anton Titus","Community House",Male
+285,"Ashley Tsai","Community House",Female
+286,"Dirk Coetzee","Community House",Male
+287,"Ebrahiem Effendi","Community House",Male
+288,"Ebrahim Scello","Community House",Male
+289,"Emmanuel Uzoukwu","Community House",Male
+290,"Fayzal Galant","Community House",Male
+291,"Gavin Parsons","Community House",Male
+292,"Janine Sait","Community House",Female
+293,"John Busch","Community House",Male
+294,"Mahdi Adams","Community House",Male
+295,"Marc Petersen","Community House",Male
+296,"Ronald Hutchinson","Community House",Male
+297,"Sean Raubenheimer","Community House",Male
+298,"Sharad Naran","Community House",Male
+299,"Simeen Mookrey","Community House",Female
+300,"Tashreeq Baba","Community House",Male
+301,"Thomas Parker","Community House",Male
+302,"Tiago Faria","Community House",Male
+303,"Wahid Solker","Community House",Male
+304,"Zahir Toefy","Community House",Male
+305,"Stephen Katzef","Community House",Male
+306,"Angel Siringwani","Community House",Male
+307,"Hitendra Makan","Community House",Male
+308,"Dahleel Isaacs","Community House",Male
+309,"Jason Albertyn","Community House",Male
+310,"Shane Fortuin","Community House",Male
+311,"Brandon Orderson","Community House",Male
+312,"Zaheer Jackson","Community House",Male
+313,"Nick Binidell","Community House",Male
+314,"Pramod Vassen","Community House",Male
+315,"Geoff Garrett","Community House",Male
+316,"Jayraj Vassen","Community House",Male
+317,"Josh Idesis","Community House",Male
+318,"Martin Bacchus","Community House",Male
+320,"Faieka Slemming","Community House",Female
+321,"Harry Lee Pan","Community House",Male
+322,"Marc Ross","Community House",Male
+323,"Llewellyn Lackay","Community House",Male
+324,"Layla Van Der Schyff","Community House",Female
+325,"Abraar Dustay","Community House",Male
+326,"Ikraam Francis","Community House",Male
+327,"Josh Krishna","Community House",Male
+328,"Milo Katz","Community House",Male
+329,"Remy Zaroozny","Community House",Male
+330,"Theo Cogill","Community House",Male
+331,"Atlaaf Solomons",DLPE,Male
+332,"Riedewaan Isaacs",DLPE,Male
+333,"Munier Ferhelst",DLPE,Male
+334,"Kian Jansen",DLPE,Male
+335,"Grant Bailey",Liv-Ken,Male
+336,"Shaine Jeftha",Liv-Ken,Male
+337,"Anthony Brown",Liv-Ken,Male
+338,"Martin Jansen",Liv-Ken,Male
+339,"Benjamin Vd Ross",Liv-Ken,Male
+340,"Derrel Adriaans",Liv-Ken,Male
+341,"Damian Jeftha",Liv-Ken,Male
+342,"Adiel Adjouhaar",Liv-Ken,Male
+343,"Ashley Wesson",Liv-Ken,Male
+344,"Bahia Yaghya",Liv-Ken,Female
+345,"Brent Gertson",Liv-Ken,Male
+346,"Christian Poggenpoel",Liv-Ken,Male
+347,"Darren Rodgers",Liv-Ken,Male
+348,"Gabrial Naido",Liv-Ken,Male
+349,"Kian Chapman",Liv-Ken,Male
+350,"Mark Bredeveld",Liv-Ken,Male
+351,"Micheal Ross",Liv-Ken,Male
+352,"Ruben Poggenpoel",Liv-Ken,Male
+353,"Nahum Philander",Liv-Ken,Male
+354,"Adrian Philander",Liv-Ken,Male
+355,"Carlo Christopher",Liv-Ken,Male
+356,"Kieth Isaacs",Liv-Ken,Male
+357,"Shaun Hendricks",Liv-Ken,Male
+358,"Liam Jeftha",Liv-Ken,Male
+359,"Wendy Morland",Liv-Ken,Female
+360,"Zeena Jansen",Liv-Ken,Female
+361,"Mickyle Meyer",Liv-Ken,Male
+362,"Sharief Yaghya",Liv-Ken,Male
+363,"Hunter Varrie",Liv-Ken,Male
+364,"Nashwin Pienaar",Liv-Ken,Male
+365,"Micha Prince",Liv-Ken,Male
+366,"Shilo Seagers",Liv-Ken,Female
+369,"Zain Pennals",Liv-Ken,Male
+370,"Shahied Johaadien",Nexus,Male
+371,"Jalaludien Hyder",Nexus,Male
+372,"TJ Sabad",Nexus,Male
+373,"Amien Phillips",Nexus,Male
+374,"Yaseen Toefy",Nexus,Male
+375,"Zahier Dalvie",Nexus,Male
+376,"Sabri De Sani",Nexus,Male
+377,"Ebrahiem Carr",Nexus,Male
+378,"Muaath Adams",Nexus,Male
+379,"Zahier Isaacs",Nexus,Male
+380,"Sameer Parker",Nexus,Male
+381,"Martin Arnolds",Nexus,Male
+382,"Craig Fortuin",Nexus,Male
+383,"Jawaad Schippers",Nexus,Male
+384,"Rafiek Tofa",Nexus,Male
+385,"Kamiel Ebrahim",Nexus,Male
+386,"Riad Maneveld",Nexus,Male
+387,"Munier Isaacs",Nexus,Male
+388,"Moenieb Roberts",Nexus,Male
+389,"Cashief Mowzer",Nexus,Male
+390,"Ghalieb Davids",Nexus,Male
+391,"Dean Alfos",Nexus,Male
+392,"Saaliegh Jabaar",Nexus,Male
+393,"Anver Lyners",Nexus,Male
+394,"Rick Solomons",Nexus,Male
+395,"Shereen Lyners",Nexus,Female
+396,"Zaida Lyners",Nexus,Female
+397,"Sacha Davids",Nexus,Male
+398,"Gareth Bunce",Protea,Male
+399,"Clint Cupido",Protea,Male
+400,"Rob de Villiers",Protea,Male
+401,"Wouter de Wit",Protea,Male
+402,"Salie Hendricks",Protea,Male
+403,"Kiffie Liversage",Protea,Male
+404,"Suzie Phillips",Protea,Female
+405,"William Reizenberg",Protea,Male
+406,"Bruno Villiers",Protea,Male
+407,"Jerron Vincent",Protea,Male
+408,"Dawn Elson",Protea,Female
+409,"Andre Burns",Protea,Male
+410,"Garry Henn",Protea,Male
+411,"Peter Knight",Protea,Male
+412,"Daniel Livermore",Protea,Male
+413,"Gershwin Losper",Protea,Male
+414,"Nerina  Manchip",Protea,Female
+415,"Ethan  Simpson",Protea,Male
+416,"Angeline Wood",Ravens,Female
+417,"Bernie April",Ravens,Male
+418,"Bevan Steyn",Ravens,Male
+419,"Darren Orr",Ravens,Male
+420,"Demos Dracoulides",Ravens,Male
+421,"Ezra Msindeni",Ravens,Male
+422,"Frans Erasmus",Ravens,Male
+424,"Kirshwan Steyn",Ravens,Male
+425,"Richard Ntamutumba",Ravens,Male
+426,"Warren Julius",Ravens,Male
+427,"Aiden Oransie",Ravens,Male
+428,"Shane Meyer",Ravens,Male
+429,"Skyler Titus",Ravens,Male
+430,"Jihan Jacobs",Ravens,Male
+431,"Noah  McAllister",Ravens,Male
+432,"Jyante  Jacobs",Ravens,Male
+433,"Tamika Karra",Ravens,Female
+434,"Nate  Borchards",Ravens,Male
+435,"Camryn Otto",Ravens,Male
+436,"Charmaine  Davids",Ravens,Female
+437,"Gabriel  Leo",Ravens,Male
+438,"Leah  Memphis",Ravens,Female
+439,"Azaleah  Lallo",Ravens,Female
+440,"Luke  Davids",Ravens,Male
+441,"Cole  Davids",Ravens,Male
+442,"Heugan  Karra",Ravens,Male
+443,"Ziah  Davids",Ravens,Female
+444,"Jordan Martin",Ravens,Male
+445,"Jayden Olivier",Ravens,Male
+446,"Qayoom  Petersen",Ravens,Male
+447,"Gideon Stompies",Ravens,Male
+448,"Juwayden Jansen",Ravens,Male
+449,"Rogan Fortuin",Ravens,Male
+450,"Arren Stander",Ravens,Female
+451,"Andre Van Schoor",Ravens,Male
+452,"Izette Collins",Ravens,Female
+453,"Nataline  Collins",Ravens,Female
+454,"Lee-Anne Julius",Ravens,Female
+455,"Savannah April",Ravens,Female
+456,"Levona Meyer",Ravens,Female
+457,"Margaretha Oransie",Ravens,Female
+458,"Jasmine  Stompies",Ravens,Female
+459,"Javincia Jacobs",Ravens,Female
+460,"Vanessa McAllister",Ravens,Female
+461,"Rozita Swarts",Ravens,Female
+462,"Shaundre Borchards",Ravens,Female
+463,"Liza Otto",Ravens,Female
+464,"Ashsteresia Davids",Ravens,Female
+465,"Lucinda Memphis",Ravens,Female
+466,"Jadine Lallo",Ravens,Female
+467,"Charisma Davids",Ravens,Female
+468,"Jasmina Adams",Ravens,Female
+469,"Elizabeth January",Ravens,Female
+470,"Agatha Heyns",Ravens,Female
+471,"Monique  Petersen",Ravens,Female
+472,"Garth Greybe",Duinefontein,Male
+473,"Ridhaa Jawitz",Duinefontein,Male
+474,"Abdul Willoughby",Duinefontein,Male
+475,"Abdullah Allie",Duinefontein,Male
+476,"Adam Domingo",Duinefontein,Male
+477,"Adeeb Karriem",Duinefontein,Male
+478,"Aden Mzunzu",Duinefontein,Male
+479,"Alexander Jones",Duinefontein,Male
+480,"Boebie Solomons",Duinefontein,Male
+481,"Caleb Lawrence",Duinefontein,Male
+482,"Carl Payle",Duinefontein,Male
+483,"Chadley Timmie",Duinefontein,Male
+485,"David Nwafor",Duinefontein,Male
+486,"Deen West",Duinefontein,Male
+487,"Errol Joemath",Duinefontein,Male
+488,"Fouwaaz Domingo",Duinefontein,Male
+489,"Gary Rensburg",Duinefontein,Male
+490,"Grant Van Der Vent",Duinefontein,Male
+491,"Huzzayr Matthysen",Duinefontein,Male
+492,"Jake Nicholson",Duinefontein,Male
+493,"Jarret Isaacs",Duinefontein,Male
+494,"Jay Jay Pietersen",Duinefontein,Male
+495,"Jayden Malgas",Duinefontein,Male
+496,"Jerome Davies",Duinefontein,Male
+497,"Jonathan Mukwekwerere",Duinefontein,Male
+498,"Kaydin Stuart",Duinefontein,Male
+499,"Keanin Pekeur",Duinefontein,Male
+500,"Kevin Isaacs",Duinefontein,Male
+501,"Levi Ruiters",Duinefontein,Male
+502,"Liam Davids",Duinefontein,Male
+503,"Lindsay October",Duinefontein,Male
+504,"Mekhail Schroeder",Duinefontein,Male
+505,"Micah Jones",Duinefontein,Male
+507,"Niezaam Theunissen",Duinefontein,Male
+508,"Nizaam Moosa",Duinefontein,Male
+509,"Ntuthuzelo Lusithi",Duinefontein,Male
+510,"Nur Van Dyk",Duinefontein,Male
+511,"Raees Davids",Duinefontein,Male
+512,"Refai Yaghya",Duinefontein,Male
+513,"Riyaadh Lee",Duinefontein,Male
+514,"Samkele Notshe",Duinefontein,Male
+515,"Shaan West",Duinefontein,Male
+516,"Shaun Jones",Duinefontein,Male
+517,"Sharief Lalla",Duinefontein,Male
+518,"Wafeeq Domingo",Duinefontein,Male
+519,"Wayden Brown",Duinefontein,Male
+520,"Yaqoob Domingo",Duinefontein,Male
+521,"Zaheer Yusuf",Duinefontein,Male
+522,"Zakeer Moosa",Duinefontein,Male
+523,"Ayesha Domingo",Duinefontein,Female
+524,"Naayma Domingo",Duinefontein,Female
+525,"Saubirah Yusuf",Duinefontein,Female
+526,"Sumaya Esau",Duinefontein,Female
+527,"Diolene Granger",Duinefontein,Female
+528,"Farah Domingo",Duinefontein,Female
+529,"Ganaan Sonday",Duinefontein,Female
+530,"Imaan Domingo",Duinefontein,Female
+531,"Jada Alexander",Duinefontein,Female
+532,"Palmer Mukwekwerere",Duinefontein,Male
+533,"Rochica Sonday",Duinefontein,Female
+534,"Shona Jones",Duinefontein,Female
+535,"Tazmin Harris",Duinefontein,Female
+536,"Abrie Cronje",Goodwood,Male
+537,"Alex O'Ryan",Goodwood,Male
+538,"Andre Taljaard",Goodwood,Male
+539,"Anwa Adriaanse",Goodwood,Male
+540,"Bernard Stewe",Goodwood,Male
+541,"Brendan O'Connell",Goodwood,Male
+542,"Asher Marais",Goodwood,Male
+543,"Charl Grobbelaar",Goodwood,Male
+544,"Cornel Wessels",Goodwood,Male
+545,"Daryl Williams",Goodwood,Male
+546,"Delton Alexander",Goodwood,Male
+547,"Edward Hahn",Goodwood,Male
+548,"Enrico Louw",Goodwood,Male
+549,"Lester Malgas",Goodwood,Male
+550,"Nezaam Jassiem",Goodwood,Male
+551,"Pedro Fortuin",Goodwood,Male
+552,"Reggie Petersen",Goodwood,Male
+553,"Richard Abrahams",Goodwood,Male
+554,"Salie Petersen",Goodwood,Male
+555,"Shakeel Hendricks",Goodwood,Male
+556,"Yaseen Hassam",Goodwood,Male
+557,"Yusuf Rajie",Goodwood,Male
+558,"Samantha Jooste",Goodwood,Female
+559,"Caron Erasmus",Goodwood,Female
+560,"Ashlyn Wagner",Stephanians,Male
+561,"Yusuf Steyn",Stephanians,Male
+562,"Jerome Davis",Stephanians,Male
+563,"Kirk Daries",Stephanians,Male
+564,"Clement Meyer",Stephanians,Male
+565,"Shamiel Samsodien",Stephanians,Male
+566,"Sedick Abrahams",Stephanians,Male
+567,"Marco Thomas",Stephanians,Male
+568,"Russel Fredricks",Stephanians,Male
+569,"Junaid Fredricks",Stephanians,Male
+570,"Jai Valodia",Stephanians,Male
+571,"Sedick Alexander",Stephanians,Male
+572,"Annamaria Meyer",Stephanians,Female
+573,"Clint Davids",Stephanians,Male
+574,"Graham George",Stephanians,Male
+575,"Aden Buckton",Stephanians,Male
+576,"Ethol Tladi",Stephanians,Female
+577,"Terence Onrust",Stephanians,Male
+578,"Anthony Brink",Stephanians,Male
+579,"Aneeq Arnold",Stephanians,Female
+580,"Ameen Jansen",Stephanians,Male
+581,"Gabrielle Wagner",Stephanians,Female
+582,"Shaabirah Taliep",Stephanians,Female
+583,"Imaan Taliep",Stephanians,Female
+584,"Samuel Wagner",Stephanians,Male
+585,"Harley Meyer",Stephanians,Female
+586,"Ravi Magan",Stephanians,Male
+587,"Kuhle Sikweza",Stephanians,Male
+588,"Murshid Obabray",Stephanians,Male
+589,"Layla Abrahams",Stephanians,Female
+590,"Cody Meyer",Stephanians,Male
+591,"Che Meyer",Stephanians,Male
+592,"Clare Wagner",Stephanians,Female
+593,"Isa Kathrada",Stephanians,Male
+594,"Dale Titus",Stephanians,Male
+596,"Galant Abbas",Stephanians,Male
+597,Roberto,Stephanians,Male
+598,"Ashwin Kock",Stephanians,Male
+599,"Yakeen Daniels",Stephanians,Male
+600,"Aashiq Isaaca",Stephanians,Male
+601,Godfrey,Stephanians,Male
+602,"Mark Collison",Stephanians,Male
+603,"Ridewaan Salie",Stephanians,Male
+604,"Mahdi Gamildien",Stephanians,Male
+605,"Ed Berry",Stephanians,Male
+606,"Oscar Abrahams",Stephanians,Male
+607,"Leilah Cassiem",Stephanians,Female
+608,"Iminam Mzimell",Stephanians,Female
+609,"Mbongeni Khotle",Stephanians,Male
+610,"Iminam Mzimell",Stephanians,Female
+611,"Bunono Mde",Stephanians,Female
+612,"Dini James",Stephanians,Male
+613,"Anesipho Nkxoyi",Stephanians,Female
+614,"Akhanya Mpisana",Stephanians,Male
+615,"Ziolise Liwani",Stephanians,Male
+616,"Ntikelelo Mongo",Stephanians,Male
+617,"Elam Dalaza",Stephanians,Male
+618,"Olwakhe Maseti",Stephanians,Male
+619,"Lilhe Tsani",Stephanians,Male
+620,"Mbalentile Mtonga",Stephanians,Female
+621,"Kwenele Bota",Stephanians,Male
+622,"Akhanya Mbutana",Stephanians,Male
+623,"Ahlume Mgogodlo",Stephanians,Female
+624,"Lingmandla Mnqibisa",Stephanians,Female
+625,"Yamkhela Maqjugulana",Stephanians,Female
+626,"Thabisa Matsiliza",Stephanians,Female
+627,"Lihle Babaza",Stephanians,Male
+628,"Iviwe Ntando Mnandinani",Stephanians,Male
+629,"Imange Kondlo",Stephanians,Female
+630,"Lingomson Sontshalabe",Stephanians,Male
+631,"Litha Mbelethu",Stephanians,Male
+632,"Iviwe Zonke",Stephanians,Male
+633,"Likhaya Sobethwa",Stephanians,Male
+634,"Lakheni Tshoni",Stephanians,Male
+635,"Masihle Beja",Stephanians,Female
+636,"Sphosethu Makhalima",Stephanians,Female
+637,"Ayabulela Mbombo",Stephanians,Male
+638,"Philile Sgongo",Stephanians,Male
+639,"Simamkele Ntsundishe",Stephanians,Male
+640,"Endinako Yenzela",Stephanians,Female
+641,"Thalam Stuurman",Stephanians,Male
+642,"Alwande Ngwenya",Stephanians,Female
+643,"Sisande Xolani Mhlungu",Stephanians,Male
+644,"Lazola Memani",Stephanians,Male
+645,"Adilson May",Stephanians,Female
+646,"Asange Dlulisa",Stephanians,Female
+647,"Ayola Joseph",Stephanians,Female
+648,"Adenathi Nonzaba",Stephanians,Female
+649,"Lindokhule Joni",Stephanians,Male
+650,"Phumzile Mgidlana",Stephanians,Male
+651,"Derek Dreyden",Stephanians,Male
+652,"Isenathi Hlakuvana",Stephanians,Female
+653,"Chenique Williams",Stephanians,Female
+654,"Evangeline Simons",Stephanians,Female
+655,"Leeyana Walker",Stephanians,Female
+656,"Shumeez Jaftha",Stephanians,Female
+657,"Mike Tshingano",Stephanians,Male
+658,"Aqeela Ganief",Stephanians,Female
+659,"Anthea Norman",Stephanians,Female
+660,"Shelize Smith",Stephanians,Female
+661,"Tashney Topp",Stephanians,Female
+662,"Thando Ngcikwe",Stephanians,Male
+663,"Lynn- Neigh Spagenberg",Stephanians,Female
+664,"Shanique De Wee",Stephanians,Female
+665,"Tiffany Cedras",Stephanians,Female
+666,"Riwayna Breding",Stephanians,Female
+668,"Alisha Sadler-Almeida",Stephanians,Female
+669,"Shaun Tidoor",Stephanians,Male
+670,"Aneekah Sauls",Stephanians,Female
+671,"Seraaj Omar",Stephanians,Male
+672,"Raemondo Lessing",Stephanians,Male
+673,"Fawaaz Solomons",Stephanians,Male
+674,"Thabong Joseph",Stephanians,Male
+675,"Kyle Booysen",Stephanians,Male
+676,"Ayavuya Kanase",Stephanians,Male
+677,"Sive Hlazo",Stephanians,Male
+678,"Tumelo Sabsana",Stephanians,Male
+679,"Yusrih Isaacs",Stephanians,Male
+680,"Shivan Ramprasad",Stephanians,Male
+681,"Tashreeq Samsodien",Stephanians,Male
+682,"Gamza Taliep",Stephanians,Male
+683,"Tahzier Isaacs",Stephanians,Male
+684,"Faseeq Davids",Stephanians,Male
+685,"Asemahle Sotashe",CPUT,Female
+686,"Jacobus Smuts",Maties,Male
+687,"Wesley Rudimuldu",Nexus,Male
+688,"Isgaaq Jassiem",Stephanians,Male
+689,"Rewaldo Corlus",Liv-Ken,Male
+690,"Steven Mauerberger","Community House",Male
+691,"Ethan Hinrichsen",UCT,Male
+692,"Leo van Helden",Duinefontein,Male
+693,"Nahum Joseph",UWC,Male
+694,"Linley Williams",Stephanians,Male
+695,"Caitlin Lingeveldt",Boundary,Female
+696,"Craig Pasqualie","Community House",Male
+697,"Sharief Cedras",Liv-Ken,Male
+698,"Sushant Dutta",UCT,Male
+699,"Yameen Martin",Stephanians,Male
+700,"Bradley Benting",Boundary,Male
+701,"Lizalise Songqenqa",CPUT,Female
+702,"Jermaine Abrahams",Kuilsriver,Male
+703,"Joel Grosch",Kuilsriver,Male
+704,"John-William Abdol",Kuilsriver,Male
+705,"Daniel Crouch",Kuilsriver,Male
+706,"Michael Mackrill",Kuilsriver,Male
+707,"Siba Mwezeni",Kuilsriver,Male
+708,"Melissa Links",Kuilsriver,Female
+709,"Darelle Rhoode",Kuilsriver,Female
+710,"Shasha Naidoo",Kuilsriver,Female
+711,"Janine Williams ",Kuilsriver,Female
+712,"Daniel Ditta",Kuilsriver,Male
+713,"Jordan Mackrill",Kuilsriver,Male
+714,"Winston Davids",Kuilsriver,Male
+715,"Bradwin Holt",Kuilsriver,Male
+716,"Shane Le Roux",Titans,Male
+717,"Marc Booysen",Titans,Male
+718,"Shane Coetzee",Titans,Male
+719,"Charles Kleintjes",Titans,Male
+720,"Mark Kleintjes",Titans,Male
+721,"Stephen September",Titans,Male
+722,"Jerome Pietersen",Titans,Male
+723,"Hermanique Voster",Titans,Male
+724,"Riedewaan Fatagodien",Titans,Male
+725,"Eleen Meyer",Titans,Female
+726,"Mia Shortles",Titans,Female
+727,"Jayrinn-Lee Apollis",Titans,Male
+728,"Gustav Becker",Titans,Male
+729,"Marcus Booysen",Titans,Male
+730,"Zahrah-Skye Cupido",Titans,Female
+731,"Keagan Fransman",Titans,Male
+732,"Luke Hofsta",Titans,Male
+733,"Tamzin Human",Titans,Male
+734,"Ghaneef Jacobs",Titans,Male
+735,"Umr Jacobs",Titans,Male
+736,"Duwayne Kannemeyer",Titans,Male
+737,"Brody Kleintjes",Titans,Male
+738,"Robin Livesy - Blom",Titans,Female
+739,"Cughan Maart",Titans,Male
+740,"Noah-Maria Reurink",Titans,Female
+741,"Eli Shortles",Titans,Male
+742,"Raquel Voster",Titans,Female
+743,"Louwen Buys",Titans,Male
+744,"Jordan Pont",Titans,Male
+745,"Joshua Daniels",Titans,Male
+746,"Nuwayne ",Titans,Male
+747,"Jamie-Leigh Heyns",Titans,Female
+748,"Joshua Appollis",Titans,Male
+749,"Riedewaan Baartman",Titans,Male
+750,"Colby Kleintjes",Titans,Female
+751,"Mogammat Christians",Paarl,Male
+752,"Aminah Diedericks",Paarl,Female
+753,"Reno Fairbairn",Paarl,Male
+754,"Tyrese Fairbairn",Paarl,Male
+755,"Breyton Festus",Paarl,Male
+756,"Thomas Francke",Paarl,Male
+757,"Lee Keet",Paarl,Male
+758,"Mario Lombard",Paarl,Male
+759,"Zarier Nackerdien",Paarl,Male
+760,"Hamton Oliver",Paarl,Male
+761,"Nazeema Osman",Paarl,Female
+762,"Randall Pretorius",Paarl,Male
+763,"Marlon Stuurman",Paarl,Male
+764,"Maliek Tieties",Paarl,Male
+765,"Aubin Anthony",Paarl,Male
+766,"Imtiyaaz Benjamin",Paarl,Male
+767,"Zaitoon Daniels",Paarl,Female
+768,"Taylon Filander",Paarl,Male
+769,"Tamlin Fortuin",Paarl,Female
+770,"Jovernia Fortuin",Paarl,Female
+771,"Andrew Hendricks",Paarl,Male
+772,"Zahra Nackerdien",Paarl,Female
+773,"Kayde Uys",Paarl,Male
+774,"Ruhayden Van der Westhuizen",Paarl,Male
+775,"Charl Solomons",Titans,Male
+776,"Mornay Pretorius",Kuilsriver,Male
+777,"Warren Retief",Paarl,Male
+778,"Liam Van Der Riet-Field",UCT,Male
+779,"Tazlyn Pietersen",Liv-Ken,Female
+780,"Lateef Somad","Community House",Male
+781,"Dave Sanusi","Community House",Male
+782,"Anele Khumalo","Adelaide Tambo School",Female
+783,"Ayanda Mpofu","Adelaide Tambo School",Female
+784,"Bathembu Nkosiyane","Adelaide Tambo School",Male
+785,"Hloniphile Manqans","Adelaide Tambo School",Female
+786,"Inami Qutu","Adelaide Tambo School",Female
+787,"Itumeleng Seloko","Adelaide Tambo School",Female
+788,"Mandimphiwe Magushana","Adelaide Tambo School",Male
+789,"Mthokozisi Feni","Adelaide Tambo School",Male
+790,"Noah Manganyi","Adelaide Tambo School",Male
+791,"Paseka Sakoame","Adelaide Tambo School",Male
+792,"Sakhe Matamanzima","Adelaide Tambo School",Male
+793,"Siphosethu Vingqishe","Adelaide Tambo School",Female
+794,"Sphelele Jojisa","Adelaide Tambo School",Male
+795,"Christo Venter",Admin,Male
+796,"Danie Olivier",Admin,Male
+797,"Jannie Olivier",Admin,Male
+798,"Luan Kruger",Admin,Male
+799,"Markus Roux",Admin,Male
+800,"Mikal Kruger",Admin,Male
+801,"Ruan van der Merwe",Admin,Male
+802,"Ruan Venter",Admin,Male
+803,"Terrance Louw",Admin,Male
+804,"Tony Song",Anchors,Male
+805,"Driasin Gounden","Blue Fountains",Male
+806,"Jesse Berkowitz","Blue Fountains",Male
+807,"Jonathan Wernich","Blue Fountains",Male
+808,"Keshav Singh","Blue Fountains",Male
+809,"Nathan Pillay","Blue Fountains",Male
+810,"Neil Du Preez","Blue Fountains",Male
+811,"Randall Jansen","Blue Fountains",Male
+812,"Ronel Botha","Blue Fountains",Female
+813,"Yashil Jaimungal",Bounce,Male
+814,"Kivesh Sivnarain",Bounce,Male
+817,"Derick de Beer",Challengers,Male
+818,"Jarrod Cilliers",Challengers,Male
+819,"Marius Morkel",Challengers,Male
+820,"Motshele Lekalakala",Challengers,Male
+821,"Mujeeb Ebrahim",Challengers,Male
+822,"Thys Pieterse",Challengers,Male
+825,"Alicia Verheijen",CSIR,Female
+826,"Athi Mda",CSIR,Female
+827,"Binyamin Salie",CSIR,Male
+828,"Danyelle Verheijen",CSIR,Female
+829,"Duncan Craigie",CSIR,Male
+830,"Jose Da Silva",CSIR,Male
+831,"Juane Scholtz",CSIR,Female
+832,"Kareem Zain Eddin",CSIR,Male
+833,"Lunga Vakele",CSIR,Male
+834,"Omar Zain Eddin",CSIR,Male
+835,"Pieter Starke",CSIR,Male
+836,"Ruan Scholtz",CSIR,Male
+837,"Tamara Salie",CSIR,Female
+838,"Aakash Gokhale",Denel,Male
+839,"Ethan Martin",Denel,Male
+840,"Gerrit Coetzer",Denel,Male
+841,"Jawaad Ebrahim",Denel,Male
+842,"Lindley Peters",Denel,Male
+843,"Logan Smit",Denel,Male
+844,"Marvin Job",Denel,Male
+845,"Ronald Lawrence",Denel,Male
+846,"Sudais Mohamed",Flames,Male
+847,"Ricardo Carrasco","Grey College",Male
+848,"Rupert Bester","Grey College",Male
+849,"Malwande matsha","Ivory Park",Male
+850,"Zakhele John","Ivory Park",Male
+851,"Boitumelo Pheleu",Katlehong,Female
+852,"Jafta Hlasa",Katlehong,Male
+853,"Kabelo Phutsisi",Katlehong,Male
+854,"Katleho Dibiloane",Katlehong,Female
+855,"Lesedi Molefe",Katlehong,Female
+856,"Lesego Malgas",Katlehong,Male
+857,"Shane Overmeyer",Kuilsriver,Male
+858,"Ashish Nathoo",Lenasia,Male
+859,"Awande Zulu",Lenasia,Male
+860,"Bimal Jivraj",Lenasia,Male
+861,"Chetan Nathoo",Lenasia,Male
+862,"Danisha Patel",Lenasia,Female
+863,"Eesa Vachiat",Lenasia,Male
+864,"Faizaan Hoosen",Lenasia,Male
+865,"Himal Devchand",Lenasia,Male
+866,"Ismail Badat",Lenasia,Male
+867,"Manqoba Nyamate",Lenasia,Male
+868,"Muaaz Hoosen",Lenasia,Male
+869,"Muhammed Hansrod",Lenasia,Male
+870,"Nkululeko Zikalala",Lenasia,Male
+871,"Samuel Ilori",Lenasia,Male
+872,"Sameera Maal",Lenasia,Female
+874,"Shuaib Ebrahim",Lenasia,Male
+875,"Sumayya Hansrod",Lenasia,Female
+876,"Zayd Hoosen",Lenasia,Male
+877,"Antony Bullen",Masters,Male
+878,"Arrie Weilbach",Masters,Male
+879,"Asher Abrahams",Masters,Male
+880,"Chanan Hurwitz",Masters,Male
+881,"Cowen Lodewyk",Masters,Male
+882,"Grace Kesval",Masters,Female
+883,"Isabel Bullen",Masters,Female
+884,"Jacob Kata",Masters,Male
+885,"Jason Brickhill",Masters,Male
+886,"Judit Sassu",Masters,Female
+887,"Kristin Kata",Masters,Female
+888,"Larushen Padayachee",Masters,Male
+889,"Liam Beukes",Masters,Male
+890,"Luke Abrahams",Masters,Male
+891,"Mark Williams",Masters,Male
+892,"Netanel Amoils",Masters,Male
+893,"Villyen Motaze",Masters,Male
+894,"Ori Asulin",Masters,Male
+895,"Saeed Tifflin",Masters,Male
+896,"Salma Sheik Hoosen",Masters,Female
+897,"Sam Imiehe",Masters,Male
+898,"Sarah Hunkin",Masters,Female
+899,"Sarah Morsner",Masters,Female
+900,"Saul Ephron",Masters,Male
+901,"Shachar Asulin",Masters,Male
+902,"Simon Lipschitz",Masters,Male
+903,"Sumeshan Padayachee",Masters,Male
+904,"Terrence Mathole",Masters,Male
+905,"Tevia Sapire",Masters,Male
+906,"Vaishant Padayachee",Masters,Male
+907,"Lethabo Letoane","Phumla School",Male
+908,"Nhlanhla Mogatusi","Phumla School",Female
+909,"Oratile Mogorosi","Phumla School",Male
+910,"Samantha Utabwarova","Phumla School",Female
+911,"Thabo Mobu","Phumla School",Male
+912,"Xolani Mkhodwane","Phumla School",Male
+913,"Anotidaishe Husvu",PMSC,Female
+914,"Itumeleng Molahloe",PMSC,Male
+915,"Makomborero Husvu",PMSC,Male
+916,"Nick Janhi",PMSC,Male
+917,"Tadiwanashe Husvu",PMSC,Female
+918,"Eddy Buchling",Queens,Male
+919,"Enjun Pan",Queens,Male
+920,"Franklin Rangata",Queens,Male
+921,"Fundo Shangase",Queens,Male
+922,"Given Muyikwa",Queens,Male
+923,"Mubeen Hadjee",Queens,Male
+924,"Nilesh Singh",Queens,Male
+925,"Oladele Olowokere",Queens,Male
+926,"Precious Benson",Queens,Female
+927,"Terrywoki Rangata",Queens,Female
+928,"Lailaa Edwards",Raiders,Female
+929,"Menasseh Manuel",Raiders,Male
+930,"Saadia Edwards",Raiders,Female
+931,"Saiisha Naidu",Raiders,Female
+932,"Timothy Brownley",Raiders,Male
+933,"Barney Bai",Rivonia,Male
+934,"Peter Bian",Rivonia,Male
+935,"Starn Hui",Rivonia,Male
+936,"Zhibo Hui",Queens,Male
+937,"Pusetso Sekike",Sedibeng,Male
+938,"Faheem Essop",T2,Male
+939,"Fahim Kadawala",T2,Male
+940,"Mohamed Mansoor",T2,Male
+941,"Ettienne Engelbrecht","Tempe Military",Male
+942,"Refilwe Phoofolo","Tempe Military",Female
+943,"Rethabile Molisenyane","Tempe Military",Female
+944,"Tankiso Hata","Tempe Military",Male
+945,"Vic Carrasco","Tempe Military",Male
+946,"Aren Jonker",Titans,Male
+947,"Diyaan Ramchurran",Titans,Male
+948,"Karen Pillay",Titans,Female
+949,"Kritika Totaram",Titans,Female
+950,"Leora Ramchurran",Titans,Female
+951,"Luyanda Ngcobo",Titans,Male
+952,"Mikaylla Totaram",Titans,Female
+953,"Nevadya Rampersad",Titans,Female
+954,"Nitara Totaram",Titans,Female
+955,"Sivarna Sivnannan",Titans,Female
+956,"Syriana Sivnannan",Titans,Female
+957,"Umair Patel",Titans,Male
+958,"Boingotlo Mothupi",Warriors,Female
+959,"Boipelo Mashwabi",Warriors,Female
+960,"Cedric Modise",Warriors,Male
+961,"Gift Hlatshwayo",Warriors,Male
+962,"Godfrey Molete",Warriors,Male
+963,"Hareteke Mapeshoane",Warriors,Male
+964,"Kgalalelo Phekonyana",Warriors,Male
+965,"Mamolatuli Mpesi",Warriors,Female
+966,"Mnikelo Dry",Warriors,Male
+967,"Oreneile Moraile",Warriors,Male
+968,"Rethabile Modisenyane",Warriors,Female
+969,"Simone Mahlamvu",Warriors,Female
+970,"Sipho Booi",Warriors,Male
+971,"William Rafube",Warriors,Male
+972,"Abdul Hay",Waterfall,Male
+973,"Ashen Maharaj",Waterfall,Male
+974,"Damon Beeby",Waterfall,Male
+975,"Keshmika Sivnarain",Waterfall,Female
+976,"Qianfei Wang",Waterfall,Male
+977,"Vuppala Kumar",Waterfall,Male
+978,"Xingkong Wang",Waterfall,Male
+979,"Simon Dimant",Waterfall,Male
+980,"Aaron Makhalema",unknown_club,Male
+981,"Alon Argaman",unknown_club,Male
+982,"Amichai Asulin",unknown_club,Male
+983,"Amit Vig",unknown_club,Male
+984,"Amogelang Thabethe",unknown_club,Female
+985,"Boitlamo Nkele",unknown_club,Female
+986,"Carol David",unknown_club,Female
+987,"Dhaarmic Karthik",unknown_club,Male
+988,"Diyaan Nagardas",unknown_club,Male
+989,"Ewan Booyens",unknown_club,Male
+990,"Ezile Ndywabasini",unknown_club,Male
+991,"Gift Nxumalo",unknown_club,Male
+992,"Itumeleng Ntsokoane",unknown_club,Female
+993,"Jacobus Maree",unknown_club,Male
+994,"Lebohang Lekhotla",unknown_club,Male
+995,"Liso Sibango",unknown_club,Male
+996,"Lunga Mntambo",unknown_club,Male
+997,"Lwanele Kulu",unknown_club,Male
+998,"Mamokgethi Dintso",unknown_club,Female
+999,"Nthabiseng Thabethe",unknown_club,Female
+1000,"Reneilwe Lekorwe",unknown_club,Male
+1001,"Retshepile Masumothe",unknown_club,Male
+1002,"Sello Phushudi",unknown_club,Male
+1003,"Siviwe Gwebani",unknown_club,Male
+1004,"Sthabile Mnyandu",unknown_club,Female
+1005,"Tebogo Kgatitswe",unknown_club,Male
+1006,"Thato Kgongwana",unknown_club,Male
+1007,"Tinashe Dzvaka",unknown_club,Male
+1008,"Tony Su",unknown_club,Male
+1009,"Tshepo Majoe",unknown_club,Male
+1010,"Zodwa Maphanga",unknown_club,Female
+1011,"Reitumetse Maome",unknown_club,Female
+1012,"Andiswa Shangase",Queens,Male
+1013,"Ishaan Gokhale",unknown_club,Male
+1014,"Gabriel Reyneke",unknown_club,Male
+1015,"Noah Osman",unknown_club,Male
+1016,"Nathan Harper",unknown_club,Male
+1017,"Jean-Luc Bernardo",unknown_club,Male
+1018,"Wim Kieviet",unknown_club,Male
+1019,"Daniel Lotz","Growth & Grit",Male
+1020,"David de Villiers","Growth & Grit",Male
+1021,"Neil Grobbelaar","Growth & Grit",Male
+1022,"Andria van Tonder","Growth & Grit",Female
+1023,"Juan Engelbrecht","Growth & Grit",Male
+1024,"Evan Eckstein","Growth & Grit",Male
+1025,"Willem Coetzee",unknown_club,Male
+1026,"Andrew Spottiswoode","Blue Fountains",Male
+1027,"Cleef Bailey","Blue Fountains",Male
+1028,"Clinton Subban","Blue Fountains",Male
+1029,"Dané Le Roux","Blue Fountains",Female
+1030,"Gavin Heffer","Blue Fountains",Male
+1031,"George Bylos","Blue Fountains",Male
+1032,"Ian Masaga","Blue Fountains",Male
+1033,"Jason Werbeloff","Blue Fountains",Male
+1034,"Karun Jeebodh","Blue Fountains",Male
+1035,"Kerri-Ann Jacobs","Blue Fountains",Female
+1036,"Kian Tavaria","Blue Fountains",Male
+1037,"Marili Engelbrecht","Blue Fountains",Female
+1038,"Markus Konrad","Blue Fountains",Male
+1039,"Matieho Letsoenyo","Blue Fountains",Female
+1040,"Matt Gilchrist","Blue Fountains",Male
+1041,"Philip Haslam","Blue Fountains",Male
+1042,"Phillip Jordaan","Blue Fountains",Male
+1043,"Prakash Singh","Blue Fountains",Male
+1044,"Rinaldo Baratti","Blue Fountains",Male
+1045,"Rustum Tavaria","Blue Fountains",Male
+1046,"Sipho Ndara","Blue Fountains",Male
+1047,"Tony Chuang","Blue Fountains",Male
+1048,"Uli Kehlert","Blue Fountains",Male
+1049,"Uwe Hohl","Blue Fountains",Male
+1050,"Vernon Maney","Blue Fountains",Male
+1051,"WJ Kuhn","Blue Fountains",Male
+1052,"Zunaid Captieux","Blue Fountains",Male
+1053,"Curtly Williams",Flames,Male
+1054,"Dean Davis",Flames,Male
+1055,"Sheldon Mayet",Flames,Male
+1056,"Amit Nana",Lenasia,Male
+1057,"Branden Bartlett",Lenasia,Male
+1058,"Mubeen Chan",Lenasia,Male
+1059,"Safie Ismael",Lenasia,Male
+1064,"Dean Levy",Masters,Male
+1066,"Melvin Van Zyl",Masters,Male
+1067,"Naftali Kavonic ",Masters,Male
+1068,"Rainer Sztab",Masters,Male
+1069,"Ameet Kunver",Queens,Male
+1070,"Amukelani Baloyi",Queens,Male
+1072,"James Carrolus",Queens,Male
+1073,"Juergen Suplit",Queens,Male
+1074,"Qijia Jiang",Queens,Male
+1075,"Roland Bouchat",Queens,Male
+1076,"Yu-Bia Cai",Queens,Male
+1077,"Zahra Salie",Queens,Female
+1079,"Ebrahim Jappie",Raiders,Male
+1080,"Faheema Sayed",Raiders,Female
+1081,"Fanie Kloppers",Raiders,Male
+1082,"Joe Carrim",Raiders,Male
+1083,"Moegammad Isaacs",Raiders,Male
+1084,"Quinton Volkwyn",Raiders,Male
+1085,"Rodrique Volkwyn",Raiders,Male
+1086,"Morule Motlhaloga",Soweto,Male
+1087,"Tebogo Malapane",Soweto,Male
+1088,"Thabiso Marota",Soweto,Male
+1089,"Arijit Ghosh",Waterfall,Male
+1090,"David Oulassevitch",Waterfall,Male
+1091,"Kalpesh Hira",Waterfall,Male
+1092,"Onkgopotse Masote",Waterfall,Male
+1093,"Prahlad Parmar",Waterfall,Male
+1094,"Prem Vuppala",Waterfall,Male
+1095,"Rashmika Ramphal",Waterfall,Female
+1096,"Rowan Pillay",Waterfall,Male
+1097,"Surajh Surjoo",Waterfall,Male
+1098,"Varshanth Ramjathan",Waterfall,Male
+1099,"Viresh Mitha",Waterfall,Male
+1100,"Wenjun Huang",Waterfall,Male
+1101,"Turzo Ranck",DLPE,Male
+1102,"Jacob Mohwa",Top,Male
+1103,"Kimberly Dedza",DLPE,Female
+1104,"Felix Monday","Community House",Male
+1105,"Heinrich Putter",Goodwood,Male
+1106,"Jade Sasman",Boundary,Female
+1107,"Rachel Botha",Maties,Female
+1108,"Jenna Damant",Maties,Female
+1109,"Terence Cable",Steenberg,Male
+1110,"Christiaan Vermaak",Titans,Male
+1111,"Noah Guntelach",Worcester,Male
+1112,"Marcelle Vermaak",Titans,Female
+1113,"Jude Schoeman",Nexus,Female
+1114,"Antheny Esterhuizen",unknown_club,Male
+1115,"Ashley Alcock",unknown_club,Male
+1116,"Johnny Matakalatse",unknown_club,Male
+1117,"Johnson Chuo",unknown_club,Male
+1118,"Lehlohonolo Nkhotle",unknown_club,Male
+1119,"Lehlohonolo Mokhutle",unknown_club,Male
+1120,"Leratho Lepheane",unknown_club,Male
+1121,"Muzzammil Mukhtar",unknown_club,Male
+1122,"Seeshe Mathetse",unknown_club,Male
+1123,"Teboho Dlamini",unknown_club,Male
+1124,"Ziyaad Issa",unknown_club,Male
+1125,"JG du Toit",unknown_club,Male
+1126,"Carla Lategan",unknown_club,Female
+1127,"Halaletsang Matsie",unknown_club,Female
+1128,"Kristi Lategan",unknown_club,Female
+1129,"Letshego Phekonyane",unknown_club,Female
+1130,"Lisbi Lategan",unknown_club,Female
+1131,"Nthabeleng Mokeki",unknown_club,Female
+1132,"Reaboka Bofelo",unknown_club,Female
+1133,"Tumisang Mpesi",unknown_club,Female
+1134,"Hendry Smook",unknown_club,Male
+1135,"Lehlohonolo Mokoena",unknown_club,Male
+1136,"Modise Mokoena",unknown_club,Male
+1137,"Thabang Mokhele",unknown_club,Male
+1138,"Banam Mtshawulana",unknown_club,Female
+1139,"Kiara Naidoo",unknown_club,Female
+1140,"Michelle Mcleod",unknown_club,Female
+1141,"Tinotenda Fambira",unknown_club,Male
+1142,"Muhammad Karim",unknown_club,Male
+1143,"Ian Mcleod",unknown_club,Male
+1144,"Rameez Ebrahim",unknown_club,Male
+1145,"Pranav Kanjee",unknown_club,Male
+1146,"Nico van der Merwe",unknown_club,Male
+1147,"Ashlyn Ramthol",unknown_club,Male
+1148,"Isaac Mokoena",unknown_club,Male
+1149,"Shane Swanepoel",unknown_club,Male
+1150,"Derick de Kock",unknown_club,Male
+1151,"Bilaal Patel",unknown_club,Male
+1152,"Leonard Mcleod",unknown_club,Male
+1153,"Yukail Naidoo",unknown_club,Male
+1154,"Lucky Madikiza",unknown_club,Male
+1155,"Jasheel Makam","Community House",Male
+1156,"Jonathan Muniay",Top,Male
+1157,"Timothy Domingo","SP Saints",Male
+1158,"Thabang Tlhakanye",unknown_club,Male
+1159,"Santoz Adonis",unknown_club,Male
+1160,"Marius Oosthuizen",unknown_club,Male
+1161,"Etienne de Villiers",unknown_club,Male
+1162,"Vusi Phokompe",unknown_club,Male
+1163,"Olusegun Olanipekun",unknown_club,Male
+1164,"Gitesh Parbhoo",unknown_club,Male
+1165,"Willie Beyl",unknown_club,Male
+1166,"Bernie Buisset",unknown_club,Male
+1167,"Taha Erzurumlugil",Maties,Male
+1168,"Mehmet Erzurumlugil",Maties,Male
+1169,"Martino Pasquallie",Maties,Male
+1170,"Jacques Terblanche",Maties,Male

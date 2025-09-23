@@ -96,7 +96,11 @@ def get_latest_historical_files(input_dir, output_dir):
         "Girls U15": "gu15_ratings.json",
         "Girls U19": "gu19_ratings.json",
         "Open": "open_ratings.json",
-        "Women's": "women_ratings.json"
+        "Women's": "women_ratings.json",
+        "Men's": "men_ratings.json",
+        "Men's Vets 40+":"mo40_ratings.json",
+        "Men's Vets 50+":"mo50_ratings.json",
+        "Men's Vets 60+":"mo60_ratings.json"
     }
 
     latest_files = {}
@@ -132,7 +136,9 @@ if __name__ == "__main__":
         "bu19_ratings.json", "gu19_ratings.json",
         "bu15_ratings.json", "gu15_ratings.json",
         "bu13_ratings.json", "gu13_ratings.json",
-        "bu11_ratings.json", "gu11_ratings.json"
+        "bu11_ratings.json", "gu11_ratings.json",
+        "mo40_ratings.json", "mo50_ratings.json",
+        "mo60_ratings.json", "men_ratings.json"
     ], output_folder)
 
     convert_csv_to_json(input_folder / "Player List (2025-09-07).csv", Path(output_folder / "all_players.json"))
