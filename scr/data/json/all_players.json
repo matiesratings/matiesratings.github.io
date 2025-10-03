@@ -6862,5 +6862,35 @@
     "name": "Bernie Buisset",
     "club": "unknown_club",
     "gender": "Male"
+  },
+  {
+    "maties_id": 1167,
+    "name": "Taha Erzurumlugil",
+    "club": "Maties",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1168,
+    "name": "Mehmet Erzurumlugil",
+    "club": "Maties",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1169,
+    "name": "Martino Pasquallie",
+    "club": "Maties",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1170,
+    "name": "Jacques Terblanche",
+    "club": "Maties",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1171,
+    "name": "Faiz Hartley",
+    "club": "Nexus",
+    "gender": "Male"
   }
 ]

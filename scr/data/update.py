@@ -131,20 +131,20 @@ def get_latest_historical_files(input_dir, output_dir):
 if __name__ == "__main__":
     input_folder = Path("csv")
     output_folder = Path("json")
-    ensure_empty_json_files([
-        "open_ratings.json", "women_ratings.json",
-        "bu19_ratings.json", "gu19_ratings.json",
-        "bu15_ratings.json", "gu15_ratings.json",
-        "bu13_ratings.json", "gu13_ratings.json",
-        "bu11_ratings.json", "gu11_ratings.json",
-        "mo40_ratings.json", "mo50_ratings.json",
-        "mo60_ratings.json", "men_ratings.json"
-    ], output_folder)
+    # ensure_empty_json_files([
+    #     "open_ratings.json", "women_ratings.json",
+    #     "bu19_ratings.json", "gu19_ratings.json",
+    #     "bu15_ratings.json", "gu15_ratings.json",
+    #     "bu13_ratings.json", "gu13_ratings.json",
+    #     "bu11_ratings.json", "gu11_ratings.json",
+    #     "mo40_ratings.json", "mo50_ratings.json",
+    #     "mo60_ratings.json", "men_ratings.json"
+    # ], output_folder)
 
-    convert_csv_to_json(input_folder / "Player List (2025-09-07).csv", Path(output_folder / "all_players.json"))
-    convert_matches(input_folder / "Match Results (2025-09-07).csv", Path(output_folder /"matches.json"))
+    convert_csv_to_json(input_folder / "Player List (2025-10-02).csv", Path(output_folder / "all_players.json"))
+    convert_matches(input_folder / "Match Results (2025-10-02).csv", Path(output_folder /"matches.json"))
     extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
-    get_latest_historical_files(output_folder / "historical", output_folder)
+    # get_latest_historical_files(output_folder / "historical", output_folder)
 
 
 
