@@ -62,13 +62,20 @@ function displayData(data) {
     }
 
     data.slice(0, 100).forEach(player => {
-        let row = `<tr>`;
-        row += `<td class="small-collumn">${player.rank}</td>`;
-        row += `<td><a href="player.html?name=${encodeURIComponent(player.name)}" class="player-link">${player.name}</a></td>`;
-        row += `<td class="mobile-hidden-col">${player.club}</td>`;
-        row += `<td>${player.rating}</td>`;
-        row += `<td>${player.played}</td>`;
-        row += `<td>${player.win_per}</td>`;
+        // We add the text-table-clamp and a bottom border to the row
+        let row = `<tr class="text-table-clamp border-b border-maroon">`; 
+        // Add border-r (right border) to each cell for vertical separation
+        row += `<td class="small-collumn border-r border-maroon">${player.rank}</td>`; 
+        
+        row += `<td class="border-r border-maroon"><a href="player.html?name=${encodeURIComponent(player.name)}" class="player-link">${player.name}</a></td>`;
+        
+        row += `<td class="mobile-hidden-col border-r border-maroon">${player.club}</td>`;
+        row += `<td class="border-r border-maroon">${player.rating}</td>`;
+        row += `<td class="border-r border-maroon">${player.played}</td>`;
+        
+        // The last cell doesn't need a right border if the table has an outer border
+        row += `<td>${player.win_per}</td>`; 
+        
         row += `</tr>`;
         tableBody.innerHTML += row;
     });
