@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Rankings</title>
-
+    <meta property="og:image" content="https://matiesratings.github.io/scr/img/logo_no_bg.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="National Table Tennis Players Ratings | Maties Ratings">
+    <meta property="og:description" content="National Table Tennis Ratings for South Africa.">
+    <meta property="og:url" content="https://matiesratings.github.io/index.html">
+    <meta name="twitter:card" content="summary_large_image">
     <script src="https://cdn.tailwindcss.com"></script> 
 
     <script>
@@ -155,7 +160,7 @@
         <div class="flex items-center gap-2.5">
             <img src="/scr/img/svg/Flag_of_South_Africa.svg" alt="Left Flag" class="h-[30px]">
             <div>
-                <select id="categorySelector" onchange="loadSelectedData()" class="h-10 border-0 rounded-md text-center text-white bg-maroon text-2xl">
+                <select id="categorySelector" onchange="loadSelectedData()" class="h-10 border-0 rounded-md text-center text-white bg-maroon text-[1.0em]">
                     <option value="men_ratings.json">Mens Rating</option>
                     <option value="women_ratings.json">Womens Rating</option>
                     <option value="open_ratings.json">Open Rating</option>
