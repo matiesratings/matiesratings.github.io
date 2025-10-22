@@ -89,13 +89,12 @@ function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
         .then(data => {
             const name = document.getElementById("nameFilter").value.toLowerCase();
             const club = document.getElementById("clubFilter").value.toLowerCase();
-            const ratingMin = parseInt(document.getElementById("ratingMin").value);
-            const ratingMax = parseInt(document.getElementById("ratingMax").value);
+            // const ratingMin = parseInt(document.getElementById("ratingMin").value);
+            // const ratingMax = parseInt(document.getElementById("ratingMax").value);
 
             let filtered = data.filter(player => {
                 return (!name || player.name.toLowerCase().includes(name)) &&
-                    (!club || player.club.toLowerCase().includes(club)) &&
-                    (player.rating >= ratingMin && player.rating <= ratingMax)
+                    (!club || player.club.toLowerCase().includes(club))
             });
 
             if (sortColumn !== null) {
@@ -250,7 +249,7 @@ function resetFilters() {
     document.getElementById("nameFilter").value = "";
     document.getElementById("clubFilter").value = "";
     // document.getElementById("categorySelector").value = "open_ratings.json"; 
-    setSliderBounds();
+    // setSliderBounds();
     filterTable();
     loadSelectedData();
 }
@@ -259,47 +258,47 @@ function resetFilters() {
 
 
 // --------------------------------------SLIDER
-function setSliderBounds() {
-    let ratings = playerData.map(p => p.rating);
-    document.getElementById("ratingMin").value = Math.min(...ratings);
-    document.getElementById("ratingMax").value = Math.max(...ratings);
-    updateSlider('rating');
-}
+// function setSliderBounds() {
+//     let ratings = playerData.map(p => p.rating);
+//     document.getElementById("ratingMin").value = Math.min(...ratings);
+//     document.getElementById("ratingMax").value = Math.max(...ratings);
+//     updateSlider('rating');
+// }
 
-function updateSlider(type) {
-    let minSlider = document.getElementById(type + "Min");
-    let maxSlider = document.getElementById(type + "Max");
+// function updateSlider(type) {
+//     let minSlider = document.getElementById(type + "Min");
+//     let maxSlider = document.getElementById(type + "Max");
 
-    if (parseInt(minSlider.value) > parseInt(maxSlider.value)) {
-        minSlider.value = maxSlider.value;
-    }
+//     if (parseInt(minSlider.value) > parseInt(maxSlider.value)) {
+//         minSlider.value = maxSlider.value;
+//     }
 
-    document.getElementById(type + "Values").textContent = `${minSlider.value} - ${maxSlider.value}`;
-    filterTable();
-}
-function syncInput(type, bound) {
-    let inputField = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1) + "Input");
-    let slider = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1));
+//     document.getElementById(type + "Values").textContent = `${minSlider.value} - ${maxSlider.value}`;
+//     filterTable();
+// }
+// function syncInput(type, bound) {
+//     let inputField = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1) + "Input");
+//     let slider = document.getElementById(type + bound.charAt(0).toUpperCase() + bound.slice(1));
 
-    if (parseInt(inputField.value) >= parseInt(slider.min) && parseInt(inputField.value) <= parseInt(slider.max)) {
-        slider.value = inputField.value;
-        updateSlider(type);
-}
-}
+//     if (parseInt(inputField.value) >= parseInt(slider.min) && parseInt(inputField.value) <= parseInt(slider.max)) {
+//         slider.value = inputField.value;
+//         updateSlider(type);
+// }
+// }
 
-function updateSlider(type) {
-    let minSlider = document.getElementById(type + "Min");
-    let maxSlider = document.getElementById(type + "Max");
-    let minInput = document.getElementById(type + "MinInput");
-    let maxInput = document.getElementById(type + "MaxInput");
+// function updateSlider(type) {
+//     let minSlider = document.getElementById(type + "Min");
+//     let maxSlider = document.getElementById(type + "Max");
+//     let minInput = document.getElementById(type + "MinInput");
+//     let maxInput = document.getElementById(type + "MaxInput");
 
-    if (parseInt(minSlider.value) > parseInt(maxSlider.value)) {
-        minSlider.value = maxSlider.value;
-    }
+//     if (parseInt(minSlider.value) > parseInt(maxSlider.value)) {
+//         minSlider.value = maxSlider.value;
+//     }
 
-    minInput.value = minSlider.value;
-    maxInput.value = maxSlider.value;
+//     minInput.value = minSlider.value;
+//     maxInput.value = maxSlider.value;
 
-    filterTable();
-}
+//     filterTable();
+// }
 // ---------------------------------------------
