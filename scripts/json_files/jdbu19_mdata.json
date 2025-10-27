@@ -1,0 +1,2946 @@
+[
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1615,
+            1629
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Jodie GALANT",
+            "Cuten LODEWYK"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            1615,
+            1629
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "11:30",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3427,
+            2120
+        ],
+        "xid": [
+            2634,
+            2508
+        ],
+        "aname": [
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "xname": [
+            "Kgalalelo PHEKONYANE",
+            "Oreneile MORAILE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 -5 -4 -3",
+        "apoints": [
+            3,
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            5,
+            4,
+            3
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            36,
+            23
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            3427,
+            2120
+        ],
+        "lost": [
+            2634,
+            2508
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "12:00",
+        "table": 7,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3885,
+            3886
+        ],
+        "xid": [
+            3838,
+            4038
+        ],
+        "aname": [
+            "Gustav BECKER",
+            "Noah GUNTELACH"
+        ],
+        "xname": [
+            "Enjun PAN",
+            "Shiraaz MOOSA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CW",
+            "CW"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 9 -8 -8",
+        "apoints": [
+            11,
+            9,
+            11,
+            11
+        ],
+        "xpoints": [
+            9,
+            11,
+            8,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            42,
+            36
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            3885,
+            3886
+        ],
+        "lost": [
+            3838,
+            4038
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "12:00",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3388,
+            2716
+        ],
+        "xid": [
+            2175,
+            3243
+        ],
+        "aname": [
+            "Dev GOKAL",
+            "Raidan RAGUMAN"
+        ],
+        "xname": [
+            "Xhaiden WILLIAMS",
+            "Gerswin VAN HEERDEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 3 -3 -8 6",
+        "apoints": [
+            6,
+            3,
+            11,
+            11,
+            6
+        ],
+        "xpoints": [
+            11,
+            11,
+            3,
+            8,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            37,
+            44
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            2175,
+            3243
+        ],
+        "lost": [
+            3388,
+            2716
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "12:30",
+        "table": 7,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3384,
+            3789
+        ],
+        "xid": [
+            3834,
+            3450
+        ],
+        "aname": [
+            "Siphelele SITHOLE",
+            "Simangaliso KHOZA"
+        ],
+        "xname": [
+            "JG DU TOIT",
+            "Derick DE KOCK"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -11 8 9 -5",
+        "apoints": [
+            11,
+            13,
+            8,
+            9,
+            11
+        ],
+        "xpoints": [
+            7,
+            11,
+            11,
+            11,
+            5
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            52,
+            45
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            3384,
+            3789
+        ],
+        "lost": [
+            3834,
+            3450
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "12:30",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3329,
+            3048
+        ],
+        "xid": [
+            4105,
+            4781
+        ],
+        "aname": [
+            "Caleb LAWRENCE",
+            "Christian POGGENPOEL"
+        ],
+        "xname": [
+            "Siyabonga MOTLOUNG",
+            "Siyabonga THWALA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "UMZ",
+            "UMZ"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -4 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            4,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            16
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            3329,
+            3048
+        ],
+        "lost": [
+            4105,
+            4781
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:00",
+        "table": 3,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2239,
+            1767
+        ],
+        "xid": [
+            3668,
+            4703
+        ],
+        "aname": [
+            "Leboga TONGWANE",
+            "Boinelo SEGOMOCO"
+        ],
+        "xname": [
+            "Orapeleng DITHIPE",
+            "Elrio BABEDI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NC",
+            "NC"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            3668,
+            4703
+        ],
+        "lost": [
+            2239,
+            1767
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            2103,
+            3375
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            2103,
+            3375
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:00",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 9,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2654,
+            3476
+        ],
+        "xid": [
+            3760,
+            3759
+        ],
+        "aname": [
+            "Bimal JIVRAJ",
+            "Rupert BESTER"
+        ],
+        "xname": [
+            "Hayden PERRANG",
+            "Amaru JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "xaffiliate": [
+            "WC",
+            "WC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            2654,
+            3476
+        ],
+        "lost": [
+            3760,
+            3759
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:00",
+        "table": 5,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 10,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            4082,
+            4326
+        ],
+        "xid": [
+            2246,
+            3324
+        ],
+        "aname": [
+            "Manqoba NYAMATE",
+            "Awande ZULU"
+        ],
+        "xname": [
+            "Kian CHAPMAN",
+            "Nahum PHILANDER"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 7 -8 7",
+        "apoints": [
+            9,
+            7,
+            11,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            8,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            34,
+            41
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            2246,
+            3324
+        ],
+        "lost": [
+            4082,
+            4326
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:00",
+        "table": 6,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 11,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            4740,
+            4619
+        ],
+        "xid": [
+            3921,
+            3509
+        ],
+        "aname": [
+            "Propheser MWATSIKA",
+            "Michael MADIWA"
+        ],
+        "xname": [
+            "Ashlyn RAMTHOL",
+            "Aryik BHUNDOO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -6 -6",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            6,
+            6
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            17
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            4740,
+            4619
+        ],
+        "lost": [
+            3921,
+            3509
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:00",
+        "table": 14,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 12,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1619,
+            3152
+        ],
+        "xid": [
+            3382,
+            3505
+        ],
+        "aname": [
+            "Kgotla THEBEYAME",
+            "Tebogo KOTOPO"
+        ],
+        "xname": [
+            "Daniel NAIDOO",
+            "David NAIDOO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 4 3",
+        "apoints": [
+            3,
+            4,
+            3
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            10,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            3382,
+            3505
+        ],
+        "lost": [
+            1619,
+            3152
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 9,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 13,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2708,
+            2295
+        ],
+        "xid": [
+            3459,
+            3930
+        ],
+        "aname": [
+            "Matthew LINGEVELDT",
+            "Nashwin PIENAAR"
+        ],
+        "xname": [
+            "Ethan MARTIN",
+            "Logan SMIT"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -10 -4",
+        "apoints": [
+            11,
+            12,
+            11
+        ],
+        "xpoints": [
+            7,
+            10,
+            4
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            34,
+            21
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2708,
+            2295
+        ],
+        "lost": [
+            3459,
+            3930
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 10,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 14,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8486,
+            4702
+        ],
+        "xid": [
+            3874,
+            2595
+        ],
+        "aname": [
+            "Katlego KHABELA",
+            "Siyabonga MALEPA"
+        ],
+        "xname": [
+            "Nelokuhle MGENGE",
+            "Jared BIGGAS"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 5 -9 5 4",
+        "apoints": [
+            11,
+            5,
+            11,
+            5,
+            4
+        ],
+        "xpoints": [
+            9,
+            11,
+            9,
+            11,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            36,
+            51
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            3874,
+            2595
+        ],
+        "lost": [
+            8486,
+            4702
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 11,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 15,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3689,
+            3960
+        ],
+        "xid": [
+            1610,
+            1453
+        ],
+        "aname": [
+            "Deveigon WILLIAMS",
+            "Evan JANSEN"
+        ],
+        "xname": [
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "xaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 5 8",
+        "apoints": [
+            6,
+            5,
+            8
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            19,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            1610,
+            1453
+        ],
+        "lost": [
+            3689,
+            3960
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 16,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            3448,
+            1372
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Tayden ROYAPPEN",
+            "Sphamandla MNGADI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            3448,
+            1372
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "17:30",
+        "table": 12,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1615,
+            1629
+        ],
+        "xid": [
+            3427,
+            2120
+        ],
+        "aname": [
+            "Jodie GALANT",
+            "Cuten LODEWYK"
+        ],
+        "xname": [
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -6 -5",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            6,
+            5
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            17
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            1615,
+            1629
+        ],
+        "lost": [
+            3427,
+            2120
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "17:30",
+        "table": 13,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3885,
+            3886
+        ],
+        "xid": [
+            2175,
+            3243
+        ],
+        "aname": [
+            "Gustav BECKER",
+            "Noah GUNTELACH"
+        ],
+        "xname": [
+            "Xhaiden WILLIAMS",
+            "Gerswin VAN HEERDEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CW",
+            "CW"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "2 5 4",
+        "apoints": [
+            2,
+            5,
+            4
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            11,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            2175,
+            3243
+        ],
+        "lost": [
+            3885,
+            3886
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "17:30",
+        "table": 14,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3384,
+            3789
+        ],
+        "xid": [
+            3329,
+            3048
+        ],
+        "aname": [
+            "Siphelele SITHOLE",
+            "Simangaliso KHOZA"
+        ],
+        "xname": [
+            "Caleb LAWRENCE",
+            "Christian POGGENPOEL"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -7 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            7,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            20
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            3384,
+            3789
+        ],
+        "lost": [
+            3329,
+            3048
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "17:30",
+        "table": 15,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3668,
+            4703
+        ],
+        "xid": [
+            2103,
+            3375
+        ],
+        "aname": [
+            "Orapeleng DITHIPE",
+            "Elrio BABEDI"
+        ],
+        "xname": [
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 7 7",
+        "apoints": [
+            6,
+            7,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            20,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            2103,
+            3375
+        ],
+        "lost": [
+            3668,
+            4703
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "18:00",
+        "table": 12,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2654,
+            3476
+        ],
+        "xid": [
+            2246,
+            3324
+        ],
+        "aname": [
+            "Bimal JIVRAJ",
+            "Rupert BESTER"
+        ],
+        "xname": [
+            "Kian CHAPMAN",
+            "Nahum PHILANDER"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -6 -4",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            6,
+            4
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            16
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2654,
+            3476
+        ],
+        "lost": [
+            2246,
+            3324
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "18:00",
+        "table": 13,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            4740,
+            4619
+        ],
+        "xid": [
+            3382,
+            3505
+        ],
+        "aname": [
+            "Propheser MWATSIKA",
+            "Michael MADIWA"
+        ],
+        "xname": [
+            "Daniel NAIDOO",
+            "David NAIDOO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 -9 -9 -8",
+        "apoints": [
+            7,
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            9,
+            9,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            40,
+            37
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            4740,
+            4619
+        ],
+        "lost": [
+            3382,
+            3505
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "18:00",
+        "table": 14,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2708,
+            2295
+        ],
+        "xid": [
+            3874,
+            2595
+        ],
+        "aname": [
+            "Matthew LINGEVELDT",
+            "Nashwin PIENAAR"
+        ],
+        "xname": [
+            "Nelokuhle MGENGE",
+            "Jared BIGGAS"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -3 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            3,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            16
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2708,
+            2295
+        ],
+        "lost": [
+            3874,
+            2595
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "18:00",
+        "table": 15,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1610,
+            1453
+        ],
+        "xid": [
+            3448,
+            1372
+        ],
+        "aname": [
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "xname": [
+            "Tayden ROYAPPEN",
+            "Sphamandla MNGADI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-12 -5 -7",
+        "apoints": [
+            14,
+            11,
+            11
+        ],
+        "xpoints": [
+            12,
+            5,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            36,
+            24
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            1610,
+            1453
+        ],
+        "lost": [
+            3448,
+            1372
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 3,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1615,
+            1629
+        ],
+        "xid": [
+            2175,
+            3243
+        ],
+        "aname": [
+            "Jodie GALANT",
+            "Cuten LODEWYK"
+        ],
+        "xname": [
+            "Xhaiden WILLIAMS",
+            "Gerswin VAN HEERDEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -11 -9",
+        "apoints": [
+            11,
+            13,
+            11
+        ],
+        "xpoints": [
+            5,
+            11,
+            9
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            35,
+            25
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            1615,
+            1629
+        ],
+        "lost": [
+            2175,
+            3243
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            3384,
+            3789
+        ],
+        "xid": [
+            2103,
+            3375
+        ],
+        "aname": [
+            "Siphelele SITHOLE",
+            "Simangaliso KHOZA"
+        ],
+        "xname": [
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 6 7",
+        "apoints": [
+            4,
+            6,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            17,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            2103,
+            3375
+        ],
+        "lost": [
+            3384,
+            3789
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "10:00",
+        "table": 9,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2654,
+            3476
+        ],
+        "xid": [
+            4740,
+            4619
+        ],
+        "aname": [
+            "Bimal JIVRAJ",
+            "Rupert BESTER"
+        ],
+        "xname": [
+            "Propheser MWATSIKA",
+            "Michael MADIWA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "xaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 -9 -7 -8",
+        "apoints": [
+            5,
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            9,
+            7,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            38,
+            35
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2654,
+            3476
+        ],
+        "lost": [
+            4740,
+            4619
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "10:00",
+        "table": 10,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2708,
+            2295
+        ],
+        "xid": [
+            1610,
+            1453
+        ],
+        "aname": [
+            "Matthew LINGEVELDT",
+            "Nashwin PIENAAR"
+        ],
+        "xname": [
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-10 -10 4 -8",
+        "apoints": [
+            12,
+            12,
+            4,
+            11
+        ],
+        "xpoints": [
+            10,
+            10,
+            11,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            39,
+            39
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2708,
+            2295
+        ],
+        "lost": [
+            1610,
+            1453
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "11:00",
+        "table": 5,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1615,
+            1629
+        ],
+        "xid": [
+            2103,
+            3375
+        ],
+        "aname": [
+            "Jodie GALANT",
+            "Cuten LODEWYK"
+        ],
+        "xname": [
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -6 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            7,
+            6,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            20
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            1615,
+            1629
+        ],
+        "lost": [
+            2103,
+            3375
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "11:00",
+        "table": 6,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            2654,
+            3476
+        ],
+        "xid": [
+            2708,
+            2295
+        ],
+        "aname": [
+            "Bimal JIVRAJ",
+            "Rupert BESTER"
+        ],
+        "xname": [
+            "Matthew LINGEVELDT",
+            "Nashwin PIENAAR"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -3 5 9 -10",
+        "apoints": [
+            11,
+            11,
+            5,
+            9,
+            12
+        ],
+        "xpoints": [
+            7,
+            3,
+            11,
+            11,
+            10
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            48,
+            42
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            2654,
+            3476
+        ],
+        "lost": [
+            2708,
+            2295
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdbu19",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:00",
+        "table": 3,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1615,
+            1629
+        ],
+        "xid": [
+            2654,
+            3476
+        ],
+        "aname": [
+            "Jodie GALANT",
+            "Cuten LODEWYK"
+        ],
+        "xname": [
+            "Bimal JIVRAJ",
+            "Rupert BESTER"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 7 -9 -10",
+        "apoints": [
+            11,
+            7,
+            11,
+            12
+        ],
+        "xpoints": [
+            6,
+            11,
+            9,
+            10
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            41,
+            36
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            1615,
+            1629
+        ],
+        "lost": [
+            2654,
+            3476
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

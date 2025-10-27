@@ -1,0 +1,2926 @@
+[
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8097,
+            8099
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Mahi GOKAL",
+            "Deanne NAIDOO"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8097,
+            8099
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8228,
+            8771
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Onkarabile KHOLOMANYANE",
+            "Solofelang MAKOKOE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8228,
+            8771
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8274,
+            8275
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Siphokazi MTHANTI",
+            "Minenhle KUNENE"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMZ",
+            "UMZ"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8274,
+            8275
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8351,
+            8572
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Jazmine KANNIE",
+            "Aadilah CHOHAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8351,
+            8572
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8311,
+            8661
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Elihleithemba MKHIZE",
+            "Arya HEERALAL"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8311,
+            8661
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "11:30",
+        "table": 16,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8458,
+            8465
+        ],
+        "xid": [
+            8670,
+            8384
+        ],
+        "aname": [
+            "Keabetswe MPATA",
+            "Bokamoso MOJATAU"
+        ],
+        "xname": [
+            "Carol DAVID",
+            "Masa MOTLHABANE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "xaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 3 9",
+        "apoints": [
+            5,
+            3,
+            9
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            17,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8670,
+            8384
+        ],
+        "lost": [
+            8458,
+            8465
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8431,
+            8801
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8431,
+            8801
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8036,
+            8521
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Shona JONES",
+            "Tamika KARRA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8036,
+            8521
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 9,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8106,
+            8174
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8106,
+            8174
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 10,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8240,
+            8079
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Ashley-Ann FRANCIES",
+            "Minenhle NGQEZA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8240,
+            8079
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "11:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 11,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8362,
+            8363
+        ],
+        "xid": [
+            8307,
+            8479
+        ],
+        "aname": [
+            "Delite MAGABE",
+            "Thandi MATLOU"
+        ],
+        "xname": [
+            "Grace KESVAL",
+            "Kristin KATA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 4 6",
+        "apoints": [
+            3,
+            4,
+            6
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            13,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8307,
+            8479
+        ],
+        "lost": [
+            8362,
+            8363
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 12,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8125,
+            8178
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Latita GOLOGOLO",
+            "Bophelo MOTSHABI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8125,
+            8178
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 13,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8326,
+            8325
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Anathi CELE",
+            "Asanda VILAKAZI"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8326,
+            8325
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 14,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8290,
+            8472
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8290,
+            8472
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 15,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7649,
+            8376
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Stephanie BATSHOLENG",
+            "Sethunya BUISANYANG"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7649,
+            8376
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 16,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8025,
+            8393
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8025,
+            8393
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8097,
+            8099
+        ],
+        "xid": [
+            8228,
+            8771
+        ],
+        "aname": [
+            "Mahi GOKAL",
+            "Deanne NAIDOO"
+        ],
+        "xname": [
+            "Onkarabile KHOLOMANYANE",
+            "Solofelang MAKOKOE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -6 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            7,
+            6,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            20
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8097,
+            8099
+        ],
+        "lost": [
+            8228,
+            8771
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8274,
+            8275
+        ],
+        "xid": [
+            8351,
+            8572
+        ],
+        "aname": [
+            "Siphokazi MTHANTI",
+            "Minenhle KUNENE"
+        ],
+        "xname": [
+            "Jazmine KANNIE",
+            "Aadilah CHOHAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMZ",
+            "UMZ"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 7 7",
+        "apoints": [
+            5,
+            7,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            19,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8351,
+            8572
+        ],
+        "lost": [
+            8274,
+            8275
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8311,
+            8661
+        ],
+        "xid": [
+            8670,
+            8384
+        ],
+        "aname": [
+            "Elihleithemba MKHIZE",
+            "Arya HEERALAL"
+        ],
+        "xname": [
+            "Carol DAVID",
+            "Masa MOTLHABANE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "2 3 -5 8",
+        "apoints": [
+            2,
+            3,
+            11,
+            8
+        ],
+        "xpoints": [
+            11,
+            11,
+            5,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            38
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8670,
+            8384
+        ],
+        "lost": [
+            8311,
+            8661
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "13:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8431,
+            8801
+        ],
+        "xid": [
+            8036,
+            8521
+        ],
+        "aname": [
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "xname": [
+            "Shona JONES",
+            "Tamika KARRA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 8 6",
+        "apoints": [
+            6,
+            8,
+            6
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            20,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8036,
+            8521
+        ],
+        "lost": [
+            8431,
+            8801
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:00",
+        "table": 16,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8106,
+            8174
+        ],
+        "xid": [
+            8240,
+            8079
+        ],
+        "aname": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "xname": [
+            "Ashley-Ann FRANCIES",
+            "Minenhle NGQEZA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -6 -8",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            9,
+            6,
+            8
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            23
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8106,
+            8174
+        ],
+        "lost": [
+            8240,
+            8079
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:00",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8307,
+            8479
+        ],
+        "xid": [
+            8125,
+            8178
+        ],
+        "aname": [
+            "Grace KESVAL",
+            "Kristin KATA"
+        ],
+        "xname": [
+            "Latita GOLOGOLO",
+            "Bophelo MOTSHABI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8307,
+            8479
+        ],
+        "lost": [
+            8125,
+            8178
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8326,
+            8325
+        ],
+        "xid": [
+            8290,
+            8472
+        ],
+        "aname": [
+            "Anathi CELE",
+            "Asanda VILAKAZI"
+        ],
+        "xname": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 9 3",
+        "apoints": [
+            3,
+            9,
+            3
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            15,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8290,
+            8472
+        ],
+        "lost": [
+            8326,
+            8325
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7649,
+            8376
+        ],
+        "xid": [
+            8025,
+            8393
+        ],
+        "aname": [
+            "Stephanie BATSHOLENG",
+            "Sethunya BUISANYANG"
+        ],
+        "xname": [
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 3 2",
+        "apoints": [
+            3,
+            3,
+            2
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            8,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8025,
+            8393
+        ],
+        "lost": [
+            7649,
+            8376
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8097,
+            8099
+        ],
+        "xid": [
+            8351,
+            8572
+        ],
+        "aname": [
+            "Mahi GOKAL",
+            "Deanne NAIDOO"
+        ],
+        "xname": [
+            "Jazmine KANNIE",
+            "Aadilah CHOHAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -9 7 -9",
+        "apoints": [
+            11,
+            11,
+            7,
+            11
+        ],
+        "xpoints": [
+            8,
+            9,
+            11,
+            9
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            40,
+            37
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8097,
+            8099
+        ],
+        "lost": [
+            8351,
+            8572
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8670,
+            8384
+        ],
+        "xid": [
+            8036,
+            8521
+        ],
+        "aname": [
+            "Carol DAVID",
+            "Masa MOTLHABANE"
+        ],
+        "xname": [
+            "Shona JONES",
+            "Tamika KARRA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "BOT",
+            "BOT"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "11 8 6",
+        "apoints": [
+            11,
+            8,
+            6
+        ],
+        "xpoints": [
+            13,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            25,
+            35
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8036,
+            8521
+        ],
+        "lost": [
+            8670,
+            8384
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8106,
+            8174
+        ],
+        "xid": [
+            8307,
+            8479
+        ],
+        "aname": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "xname": [
+            "Grace KESVAL",
+            "Kristin KATA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -5 5 -3",
+        "apoints": [
+            11,
+            11,
+            5,
+            11
+        ],
+        "xpoints": [
+            4,
+            5,
+            11,
+            3
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            38,
+            23
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8106,
+            8174
+        ],
+        "lost": [
+            8307,
+            8479
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "09:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8290,
+            8472
+        ],
+        "xid": [
+            8025,
+            8393
+        ],
+        "aname": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU"
+        ],
+        "xname": [
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 6 12",
+        "apoints": [
+            6,
+            6,
+            12
+        ],
+        "xpoints": [
+            11,
+            11,
+            14
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            36
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8025,
+            8393
+        ],
+        "lost": [
+            8290,
+            8472
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "10:30",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8097,
+            8099
+        ],
+        "xid": [
+            8036,
+            8521
+        ],
+        "aname": [
+            "Mahi GOKAL",
+            "Deanne NAIDOO"
+        ],
+        "xname": [
+            "Shona JONES",
+            "Tamika KARRA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 8 8",
+        "apoints": [
+            8,
+            8,
+            8
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8036,
+            8521
+        ],
+        "lost": [
+            8097,
+            8099
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "10:30",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8106,
+            8174
+        ],
+        "xid": [
+            8025,
+            8393
+        ],
+        "aname": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "xname": [
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 6 5",
+        "apoints": [
+            6,
+            6,
+            5
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            17,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8025,
+            8393
+        ],
+        "lost": [
+            8106,
+            8174
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdgu13",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "11:30",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8036,
+            8521
+        ],
+        "xid": [
+            8025,
+            8393
+        ],
+        "aname": [
+            "Shona JONES",
+            "Tamika KARRA"
+        ],
+        "xname": [
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 3 -12 8 6",
+        "apoints": [
+            11,
+            3,
+            14,
+            8,
+            6
+        ],
+        "xpoints": [
+            9,
+            11,
+            12,
+            11,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            42,
+            54
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8025,
+            8393
+        ],
+        "lost": [
+            8036,
+            8521
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

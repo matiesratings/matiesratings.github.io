@@ -1,0 +1,2940 @@
+[
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7001,
+            7012
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7001,
+            7012
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            7817,
+            8318
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Mikayla GOVENDER",
+            "Rucita LUTCHMINARAIN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            7817,
+            8318
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "12:00",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7609,
+            7343
+        ],
+        "xid": [
+            8346,
+            7517
+        ],
+        "aname": [
+            "Tazmin HARRIS",
+            "Janine SAIT"
+        ],
+        "xname": [
+            "Rashmika RAMPHAL",
+            "Itumeleng NTSOKOANE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "EKU"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7609,
+            7343
+        ],
+        "lost": [
+            8346,
+            7517
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            7518,
+            7114
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            7518,
+            7114
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7501,
+            7221
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Boipelo MASHWABI",
+            "Boingotlo MOTHUPI"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "USSA"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7501,
+            7221
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "12:00",
+        "table": 2,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8059,
+            7212
+        ],
+        "xid": [
+            7197,
+            8612
+        ],
+        "aname": [
+            "Thamia KGANEDI",
+            "Rorisang MOILANYANE"
+        ],
+        "xname": [
+            "Anande KUSE",
+            "Nokubonga MABASO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "USSA",
+            "USSA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -7 -10 4 2",
+        "apoints": [
+            6,
+            11,
+            12,
+            4,
+            2
+        ],
+        "xpoints": [
+            11,
+            7,
+            10,
+            11,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            35,
+            50
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7197,
+            8612
+        ],
+        "lost": [
+            8059,
+            7212
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8614,
+            7827
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Rethabile MOLISENYANE",
+            "Letshego PHEKONYANE"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8614,
+            7827
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            7024,
+            7050
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Tayla BAILEY",
+            "Caitlin LINGEVELDT"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            7024,
+            7050
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 9,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7781,
+            7004
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Juane SCHOLTZ",
+            "Zodwa MAPHANGA"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7781,
+            7004
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "13:00",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 10,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8056,
+            7289
+        ],
+        "xid": [
+            8116,
+            7940
+        ],
+        "aname": [
+            "Precious BOGATSU",
+            "Karabo LENYAI"
+        ],
+        "xname": [
+            "Dineo KUTU",
+            "Tsholofelo MECWI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "NC",
+            "NC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8056,
+            7289
+        ],
+        "lost": [
+            8116,
+            7940
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "13:00",
+        "table": 2,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 11,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7016,
+            7327
+        ],
+        "xid": [
+            7272,
+            7390
+        ],
+        "aname": [
+            "Eugene STALLENBERG",
+            "Chervon NYSSCHENS"
+        ],
+        "xname": [
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NMB",
+            "NMB"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 8 -8 7",
+        "apoints": [
+            8,
+            8,
+            11,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            8,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            34,
+            41
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7272,
+            7390
+        ],
+        "lost": [
+            7016,
+            7327
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 12,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            7044,
+            7750
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Saadia EDWARDS",
+            "Ronel BOTHA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            7044,
+            7750
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 13,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7009,
+            8480
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Arisha MADAREE",
+            "Sameera MAAL"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7009,
+            8480
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "13:00",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 14,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7460,
+            8635
+        ],
+        "xid": [
+            7709,
+            7276
+        ],
+        "aname": [
+            "Kimeshni PILLAY",
+            "Alyssa NAIR"
+        ],
+        "xname": [
+            "Sthabile MNYANDU",
+            "Kaitlin BIGGAS"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 4 6",
+        "apoints": [
+            3,
+            4,
+            6
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            13,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7709,
+            7276
+        ],
+        "lost": [
+            7460,
+            8635
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 15,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7545,
+            7084
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Saiisha NAIDU",
+            "Salma SHEIK-HOOSEN"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            7545,
+            7084
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 16,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            7112,
+            8052
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Musfiquh KALAM",
+            "Jade SASMAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            7112,
+            8052
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7001,
+            7012
+        ],
+        "xid": [
+            7817,
+            8318
+        ],
+        "aname": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "xname": [
+            "Mikayla GOVENDER",
+            "Rucita LUTCHMINARAIN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -4 -4",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            4,
+            4,
+            4
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            12
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7001,
+            7012
+        ],
+        "lost": [
+            7817,
+            8318
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 2,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7609,
+            7343
+        ],
+        "xid": [
+            7518,
+            7114
+        ],
+        "aname": [
+            "Tazmin HARRIS",
+            "Janine SAIT"
+        ],
+        "xname": [
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 -10 6 6",
+        "apoints": [
+            9,
+            12,
+            6,
+            6
+        ],
+        "xpoints": [
+            11,
+            10,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            33,
+            43
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7518,
+            7114
+        ],
+        "lost": [
+            7609,
+            7343
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 3,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7501,
+            7221
+        ],
+        "xid": [
+            7197,
+            8612
+        ],
+        "aname": [
+            "Boipelo MASHWABI",
+            "Boingotlo MOTHUPI"
+        ],
+        "xname": [
+            "Anande KUSE",
+            "Nokubonga MABASO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "USSA"
+        ],
+        "xaffiliate": [
+            "USSA",
+            "USSA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 -2 -9 7 -4",
+        "apoints": [
+            5,
+            11,
+            11,
+            7,
+            11
+        ],
+        "xpoints": [
+            11,
+            2,
+            9,
+            11,
+            4
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            45,
+            37
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7501,
+            7221
+        ],
+        "lost": [
+            7197,
+            8612
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8614,
+            7827
+        ],
+        "xid": [
+            7024,
+            7050
+        ],
+        "aname": [
+            "Rethabile MOLISENYANE",
+            "Letshego PHEKONYANE"
+        ],
+        "xname": [
+            "Tayla BAILEY",
+            "Caitlin LINGEVELDT"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 4 4",
+        "apoints": [
+            6,
+            4,
+            4
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            14,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7024,
+            7050
+        ],
+        "lost": [
+            8614,
+            7827
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 5,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7781,
+            7004
+        ],
+        "xid": [
+            8056,
+            7289
+        ],
+        "aname": [
+            "Juane SCHOLTZ",
+            "Zodwa MAPHANGA"
+        ],
+        "xname": [
+            "Precious BOGATSU",
+            "Karabo LENYAI"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -1 -1",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            3,
+            1,
+            1
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            5
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7781,
+            7004
+        ],
+        "lost": [
+            8056,
+            7289
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 6,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7272,
+            7390
+        ],
+        "xid": [
+            7044,
+            7750
+        ],
+        "aname": [
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL"
+        ],
+        "xname": [
+            "Saadia EDWARDS",
+            "Ronel BOTHA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "xaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-10 7 -6 -10",
+        "apoints": [
+            12,
+            7,
+            11,
+            12
+        ],
+        "xpoints": [
+            10,
+            11,
+            6,
+            10
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            42,
+            37
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7272,
+            7390
+        ],
+        "lost": [
+            7044,
+            7750
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 7,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7009,
+            8480
+        ],
+        "xid": [
+            7709,
+            7276
+        ],
+        "aname": [
+            "Arisha MADAREE",
+            "Sameera MAAL"
+        ],
+        "xname": [
+            "Sthabile MNYANDU",
+            "Kaitlin BIGGAS"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 -9 8 -9 7",
+        "apoints": [
+            8,
+            11,
+            8,
+            11,
+            7
+        ],
+        "xpoints": [
+            11,
+            9,
+            11,
+            9,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            45,
+            51
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7709,
+            7276
+        ],
+        "lost": [
+            7009,
+            8480
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "14:00",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7545,
+            7084
+        ],
+        "xid": [
+            7112,
+            8052
+        ],
+        "aname": [
+            "Saiisha NAIDU",
+            "Salma SHEIK-HOOSEN"
+        ],
+        "xname": [
+            "Musfiquh KALAM",
+            "Jade SASMAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 4 9",
+        "apoints": [
+            6,
+            4,
+            9
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            19,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7112,
+            8052
+        ],
+        "lost": [
+            7545,
+            7084
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:00",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7001,
+            7012
+        ],
+        "xid": [
+            7518,
+            7114
+        ],
+        "aname": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "xname": [
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -9 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            9,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            24
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7001,
+            7012
+        ],
+        "lost": [
+            7518,
+            7114
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:00",
+        "table": 2,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7501,
+            7221
+        ],
+        "xid": [
+            7024,
+            7050
+        ],
+        "aname": [
+            "Boipelo MASHWABI",
+            "Boingotlo MOTHUPI"
+        ],
+        "xname": [
+            "Tayla BAILEY",
+            "Caitlin LINGEVELDT"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "USSA"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 4 -8 -5 9",
+        "apoints": [
+            9,
+            4,
+            11,
+            11,
+            9
+        ],
+        "xpoints": [
+            11,
+            11,
+            8,
+            5,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            44,
+            46
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7024,
+            7050
+        ],
+        "lost": [
+            7501,
+            7221
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:00",
+        "table": 3,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7781,
+            7004
+        ],
+        "xid": [
+            7272,
+            7390
+        ],
+        "aname": [
+            "Juane SCHOLTZ",
+            "Zodwa MAPHANGA"
+        ],
+        "xname": [
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "xaffiliate": [
+            "EDEN",
+            "EDEN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -7 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            7,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            22
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7781,
+            7004
+        ],
+        "lost": [
+            7272,
+            7390
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:00",
+        "table": 4,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7709,
+            7276
+        ],
+        "xid": [
+            7112,
+            8052
+        ],
+        "aname": [
+            "Sthabile MNYANDU",
+            "Kaitlin BIGGAS"
+        ],
+        "xname": [
+            "Musfiquh KALAM",
+            "Jade SASMAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ETK",
+            "ETK"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 7 6",
+        "apoints": [
+            7,
+            7,
+            6
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            20,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7112,
+            8052
+        ],
+        "lost": [
+            7709,
+            7276
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:30",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7001,
+            7012
+        ],
+        "xid": [
+            7024,
+            7050
+        ],
+        "aname": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "xname": [
+            "Tayla BAILEY",
+            "Caitlin LINGEVELDT"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -7 -8",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            7,
+            8
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            20
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            7001,
+            7012
+        ],
+        "lost": [
+            7024,
+            7050
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "09:30",
+        "table": 2,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7781,
+            7004
+        ],
+        "xid": [
+            7112,
+            8052
+        ],
+        "aname": [
+            "Juane SCHOLTZ",
+            "Zodwa MAPHANGA"
+        ],
+        "xname": [
+            "Musfiquh KALAM",
+            "Jade SASMAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "13 9 2",
+        "apoints": [
+            13,
+            9,
+            2
+        ],
+        "xpoints": [
+            15,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            37
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7112,
+            8052
+        ],
+        "lost": [
+            7781,
+            7004
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "sdw",
+        "category": "senior",
+        "date": "Mon, 06 Oct",
+        "time": "10:00",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            7001,
+            7012
+        ],
+        "xid": [
+            7112,
+            8052
+        ],
+        "aname": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "xname": [
+            "Musfiquh KALAM",
+            "Jade SASMAN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "JTTA",
+            "JTTA"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-10 7 8 12",
+        "apoints": [
+            12,
+            7,
+            8,
+            12
+        ],
+        "xpoints": [
+            10,
+            11,
+            11,
+            14
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            39,
+            46
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            7112,
+            8052
+        ],
+        "lost": [
+            7001,
+            7012
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

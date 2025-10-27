@@ -1,0 +1,3644 @@
+[
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 6,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 110,
+        "xid": 106,
+        "aname": "Johannesburg",
+        "xname": "Ekurhuleni",
+        "taids": [
+            7001,
+            7012,
+            7044,
+            7001,
+            7012
+        ],
+        "txids": [
+            7318,
+            7090,
+            7517,
+            7090,
+            7318
+        ],
+        "tanames": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS",
+            "Saadia EDWARDS",
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "txnames": [
+            "Nthabiseng THABETHE",
+            "Mamogethi DINTSHO",
+            "Itumeleng NTSOKOANE",
+            "Mamogethi DINTSHO",
+            "Nthabiseng THABETHE"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "EKU",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-1 -1 -7, 8 -6 -1 6 -6, -3 -1 -7",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                8,
+                11,
+                11,
+                6,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                1,
+                1,
+                7
+            ],
+            [
+                11,
+                6,
+                1,
+                11,
+                6
+            ],
+            [
+                3,
+                1,
+                7
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            2,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            113,
+            55
+        ],
+        "games": [
+            9,
+            2
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 110,
+        "lost": 106,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 6,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 2,
+        "switch": 1,
+        "a": "a",
+        "x": "b",
+        "aid": 110,
+        "xid": 118,
+        "aname": "Johannesburg",
+        "xname": "University Sport",
+        "taids": [
+            7001,
+            7012,
+            8480,
+            7001,
+            7012
+        ],
+        "txids": [
+            7197,
+            8612,
+            7221,
+            8612,
+            7197
+        ],
+        "tanames": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS",
+            "Sameera MAAL",
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "txnames": [
+            "Anande KUSE",
+            "Nokubonga MABASO",
+            "Boingotlo MOTHUPI",
+            "Nokubonga MABASO",
+            "Anande KUSE"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "USSA",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -1 -3, -5 -6 7 -9, -2 -5 -8",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                7,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                3,
+                1,
+                3
+            ],
+            [
+                5,
+                6,
+                11,
+                9
+            ],
+            [
+                2,
+                5,
+                8
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            1,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            106,
+            53
+        ],
+        "games": [
+            9,
+            1
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 110,
+        "lost": 118,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 6,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 3,
+        "switch": 1,
+        "a": "b",
+        "x": "c",
+        "aid": 118,
+        "xid": 106,
+        "aname": "University Sport",
+        "xname": "Ekurhuleni",
+        "taids": [
+            8612,
+            7197,
+            7221,
+            8612,
+            7197
+        ],
+        "txids": [
+            7090,
+            7517,
+            7318,
+            7517,
+            7090
+        ],
+        "tanames": [
+            "Nokubonga MABASO",
+            "Anande KUSE",
+            "Boingotlo MOTHUPI",
+            "Nokubonga MABASO",
+            "Anande KUSE"
+        ],
+        "txnames": [
+            "Mamogethi DINTSHO",
+            "Itumeleng NTSOKOANE",
+            "Nthabiseng THABETHE",
+            "Itumeleng NTSOKOANE",
+            "Mamogethi DINTSHO"
+        ],
+        "aaffiliate": "USSA",
+        "xaffiliate": "EKU",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -7 -6, -10 -2 -5, 10 -8 7 9, -12 -6 -1",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ],
+            [
+                10,
+                11,
+                7,
+                9
+            ],
+            [
+                14,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                7,
+                6
+            ],
+            [
+                10,
+                2,
+                5
+            ],
+            [
+                12,
+                8,
+                11,
+                11
+            ],
+            [
+                12,
+                6,
+                1
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            1,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            3,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            140,
+            98
+        ],
+        "games": [
+            10,
+            3
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 118,
+        "lost": 106,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 102,
+        "xid": 207,
+        "aname": "Cape Town",
+        "xname": "Ethekwini B",
+        "taids": [
+            7112,
+            7050,
+            7024,
+            7112,
+            7050
+        ],
+        "txids": [
+            7817,
+            7276,
+            8091,
+            7276,
+            7817
+        ],
+        "tanames": [
+            "Musfiquh KALAM",
+            "Caitlin LINGEVELDT",
+            "Tayla BAILEY",
+            "Musfiquh KALAM",
+            "Caitlin LINGEVELDT"
+        ],
+        "txnames": [
+            "Mikayla GOVENDER",
+            "Kaitlin BIGGAS",
+            "Rakhee GOKAL",
+            "Kaitlin BIGGAS",
+            "Mikayla GOVENDER"
+        ],
+        "aaffiliate": "CT",
+        "xaffiliate": "ETK-B",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -8 -3, -3 -7 -7, -4 -7 -3",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                8,
+                3
+            ],
+            [
+                3,
+                7,
+                7
+            ],
+            [
+                4,
+                7,
+                3
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            49
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 102,
+        "lost": 207,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 2,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 116,
+        "xid": 102,
+        "aname": "Umgungundlovu",
+        "xname": "Cape Town",
+        "taids": [
+            7114,
+            7518,
+            7460,
+            7114,
+            7518
+        ],
+        "txids": [
+            7050,
+            7112,
+            7024,
+            7112,
+            7050
+        ],
+        "tanames": [
+            "Jesse-Leigh NOMDO",
+            "Lusanda MOLOI",
+            "Kimeshni PILLAY",
+            "Jesse-Leigh NOMDO",
+            "Lusanda MOLOI"
+        ],
+        "txnames": [
+            "Caitlin LINGEVELDT",
+            "Musfiquh KALAM",
+            "Tayla BAILEY",
+            "Musfiquh KALAM",
+            "Caitlin LINGEVELDT"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -4 7 9 -5, 7 8 7, 5 5 1, 8 9 9",
+        "apoints": [
+            [
+                11,
+                11,
+                7,
+                9,
+                11
+            ],
+            [
+                7,
+                8,
+                7
+            ],
+            [
+                5,
+                5,
+                1
+            ],
+            [
+                8,
+                9,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                4,
+                11,
+                11,
+                5
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            2,
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "points": [
+            108,
+            134
+        ],
+        "games": [
+            3,
+            11
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 116,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 3,
+        "switch": 1,
+        "a": "b",
+        "x": "c",
+        "aid": 116,
+        "xid": 207,
+        "aname": "Umgungundlovu",
+        "xname": "Ethekwini B",
+        "taids": [
+            7518,
+            7114,
+            7460,
+            7518,
+            7114
+        ],
+        "txids": [
+            7817,
+            7276,
+            8091,
+            7276,
+            7817
+        ],
+        "tanames": [
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO",
+            "Kimeshni PILLAY",
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO"
+        ],
+        "txnames": [
+            "Mikayla GOVENDER",
+            "Kaitlin BIGGAS",
+            "Rakhee GOKAL",
+            "Kaitlin BIGGAS",
+            "Mikayla GOVENDER"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "ETK-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -3 -9, -2 -7 -8, -5 -8 -4",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                3,
+                9
+            ],
+            [
+                2,
+                7,
+                8
+            ],
+            [
+                5,
+                8,
+                4
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            53
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 116,
+        "lost": 207,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 8,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 107,
+        "xid": 105,
+        "aname": "Ethekwini",
+        "xname": "Eden",
+        "taids": [
+            7009,
+            7243,
+            7709,
+            7009,
+            7243
+        ],
+        "txids": [
+            7272,
+            7390,
+            8396,
+            7390,
+            7272
+        ],
+        "tanames": [
+            "Arisha MADAREE",
+            "Hashmika HEERALAL",
+            "Sthabile MNYANDU",
+            "Arisha MADAREE",
+            "Hashmika HEERALAL"
+        ],
+        "txnames": [
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL",
+            "Cassie STEVENS",
+            "Marlene SWANEPOEL",
+            "Whinley BRUINERS"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "EDEN",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-1 -7 -7, -6 -3 -4, -5 -2 -4",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                1,
+                7,
+                7
+            ],
+            [
+                6,
+                3,
+                4
+            ],
+            [
+                5,
+                2,
+                4
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            39
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 107,
+        "lost": 105,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 9,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 2,
+        "switch": -1,
+        "a": "b",
+        "x": "d",
+        "aid": 210,
+        "xid": 113,
+        "aname": "Johannesburg B",
+        "xname": "Nelson Mandela Bay",
+        "taids": [
+            7545,
+            7750,
+            7084,
+            7545,
+            7750
+        ],
+        "txids": [
+            7327,
+            7016,
+            8843,
+            7016,
+            7327
+        ],
+        "tanames": [
+            "Saiisha NAIDU",
+            "Ronel BOTHA",
+            "Salma SHEIK-HOOSEN",
+            "Saiisha NAIDU",
+            "Ronel BOTHA"
+        ],
+        "txnames": [
+            "Chervon NYSSCHENS",
+            "Eugene STALLENBERG",
+            "Carlynne KROUTZ",
+            "Eugene STALLENBERG",
+            "Chervon NYSSCHENS"
+        ],
+        "aaffiliate": "JHB-B",
+        "xaffiliate": "NMB",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -2 7 -8, 6 8 8, -6 -11 -6, -10 9 -6 6 -3",
+        "apoints": [
+            [
+                11,
+                11,
+                7,
+                11
+            ],
+            [
+                6,
+                8,
+                8
+            ],
+            [
+                11,
+                13,
+                11
+            ],
+            [
+                12,
+                9,
+                11,
+                6,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                2,
+                11,
+                8
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                6,
+                11,
+                6
+            ],
+            [
+                10,
+                11,
+                6,
+                11,
+                3
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            3
+        ],
+        "xgames": [
+            1,
+            3,
+            0,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            146,
+            125
+        ],
+        "games": [
+            9,
+            6
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 210,
+        "lost": 113,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 8,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 3,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 210,
+        "xid": 107,
+        "aname": "Johannesburg B",
+        "xname": "Ethekwini",
+        "taids": [
+            7545,
+            7750,
+            7084,
+            7545,
+            7750
+        ],
+        "txids": [
+            7243,
+            7009,
+            7709,
+            7009,
+            7243
+        ],
+        "tanames": [
+            "Saiisha NAIDU",
+            "Ronel BOTHA",
+            "Salma SHEIK-HOOSEN",
+            "Saiisha NAIDU",
+            "Ronel BOTHA"
+        ],
+        "txnames": [
+            "Hashmika HEERALAL",
+            "Arisha MADAREE",
+            "Sthabile MNYANDU",
+            "Arisha MADAREE",
+            "Hashmika HEERALAL"
+        ],
+        "aaffiliate": "JHB-B",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 4 6, 5 6 13, 5 -5 -9 6 -5, 5 3 9",
+        "apoints": [
+            [
+                6,
+                4,
+                6
+            ],
+            [
+                5,
+                6,
+                13
+            ],
+            [
+                5,
+                11,
+                11,
+                6,
+                11
+            ],
+            [
+                5,
+                3,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                15
+            ],
+            [
+                11,
+                5,
+                9,
+                11,
+                5
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            3,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            2,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            0,
+            1
+        ],
+        "points": [
+            101,
+            144
+        ],
+        "games": [
+            3,
+            11
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 210,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 9,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 4,
+        "switch": -1,
+        "a": "d",
+        "x": "c",
+        "aid": 113,
+        "xid": 105,
+        "aname": "Nelson Mandela Bay",
+        "xname": "Eden",
+        "taids": [
+            7016,
+            7327,
+            8843,
+            7016,
+            7327
+        ],
+        "txids": [
+            7390,
+            7272,
+            8396,
+            7272,
+            7390
+        ],
+        "tanames": [
+            "Eugene STALLENBERG",
+            "Chervon NYSSCHENS",
+            "Carlynne KROUTZ",
+            "Eugene STALLENBERG",
+            "Chervon NYSSCHENS"
+        ],
+        "txnames": [
+            "Marlene SWANEPOEL",
+            "Whinley BRUINERS",
+            "Cassie STEVENS",
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL"
+        ],
+        "aaffiliate": "NMB",
+        "xaffiliate": "EDEN",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -8 -5, 4 -7 8 -7 -11, -4 -6 -5",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                4,
+                11,
+                8,
+                11,
+                13
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                8,
+                5
+            ],
+            [
+                11,
+                7,
+                11,
+                7,
+                11
+            ],
+            [
+                4,
+                6,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            2,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            113,
+            82
+        ],
+        "games": [
+            9,
+            2
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 113,
+        "lost": 105,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 8,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 5,
+        "switch": 1,
+        "a": "a",
+        "x": "d",
+        "aid": 107,
+        "xid": 113,
+        "aname": "Ethekwini",
+        "xname": "Nelson Mandela Bay",
+        "taids": [
+            7009,
+            7243,
+            7709,
+            7009,
+            7243
+        ],
+        "txids": [
+            7327,
+            7016,
+            8843,
+            7016,
+            7327
+        ],
+        "tanames": [
+            "Arisha MADAREE",
+            "Hashmika HEERALAL",
+            "Sthabile MNYANDU",
+            "Arisha MADAREE",
+            "Hashmika HEERALAL"
+        ],
+        "txnames": [
+            "Chervon NYSSCHENS",
+            "Eugene STALLENBERG",
+            "Carlynne KROUTZ",
+            "Eugene STALLENBERG",
+            "Chervon NYSSCHENS"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "NMB",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -5 -4, -9 8 -8 -6, -7 -7 8 -9",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                8,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                8,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                5,
+                5,
+                4
+            ],
+            [
+                9,
+                11,
+                8,
+                6
+            ],
+            [
+                7,
+                7,
+                11,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            1,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            115,
+            82
+        ],
+        "games": [
+            9,
+            2
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 107,
+        "lost": 113,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 9,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 6,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 105,
+        "xid": 210,
+        "aname": "Eden",
+        "xname": "Johannesburg B",
+        "taids": [
+            8396,
+            7272,
+            7390,
+            8396,
+            7272
+        ],
+        "txids": [
+            7084,
+            7545,
+            7750,
+            7545,
+            7084
+        ],
+        "tanames": [
+            "Cassie STEVENS",
+            "Whinley BRUINERS",
+            "Marlene SWANEPOEL",
+            "Cassie STEVENS",
+            "Whinley BRUINERS"
+        ],
+        "txnames": [
+            "Salma SHEIK-HOOSEN",
+            "Saiisha NAIDU",
+            "Ronel BOTHA",
+            "Saiisha NAIDU",
+            "Salma SHEIK-HOOSEN"
+        ],
+        "aaffiliate": "EDEN",
+        "xaffiliate": "JHB-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 1 1, 9 5 10, 6 4 4",
+        "apoints": [
+            [
+                5,
+                1,
+                1
+            ],
+            [
+                9,
+                5,
+                10
+            ],
+            [
+                6,
+                4,
+                4
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                12
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            45,
+            100
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 210,
+        "lost": 105,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 10,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 109,
+        "xid": 104,
+        "aname": "Gauteng North",
+        "xname": "Eastern Cape",
+        "taids": [
+            7004,
+            7874,
+            8283,
+            7004,
+            7874
+        ],
+        "txids": [
+            7495,
+            7845,
+            7839,
+            7845,
+            7495
+        ],
+        "tanames": [
+            "Zodwa MAPHANGA",
+            "Athi MDA",
+            "Michelle MC LEOD",
+            "Zodwa MAPHANGA",
+            "Athi MDA"
+        ],
+        "txnames": [
+            "Zoliswa NCITSHANA",
+            "Neziswa MQUQU",
+            "Ntombikayise TOM",
+            "Neziswa MQUQU",
+            "Zoliswa NCITSHANA"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "EC",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -8 -8, -7 6 -11 -7, -1 -6 -4",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                6,
+                13,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                9,
+                8,
+                8
+            ],
+            [
+                7,
+                11,
+                11,
+                7
+            ],
+            [
+                1,
+                6,
+                4
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            1,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            107,
+            72
+        ],
+        "games": [
+            9,
+            1
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 109,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "09:00",
+        "table": 11,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 2,
+        "switch": 1,
+        "a": "d",
+        "x": "b",
+        "aid": 114,
+        "xid": 108,
+        "aname": "North West",
+        "xname": "Free State",
+        "taids": [
+            7212,
+            8059,
+            7289,
+            7212,
+            8059
+        ],
+        "txids": [
+            7501,
+            7827,
+            8614,
+            7827,
+            7501
+        ],
+        "tanames": [
+            "Rorisang MOILANYANE",
+            "Thamia KGANEDI",
+            "Karabo LENYAI",
+            "Rorisang MOILANYANE",
+            "Thamia KGANEDI"
+        ],
+        "txnames": [
+            "Boipelo MASHWABI",
+            "Letshego PHEKONYANE",
+            "Rethabile MOLISENYANE",
+            "Letshego PHEKONYANE",
+            "Boipelo MASHWABI"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "FS",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 2 -9 11, -4 -8 -2, . . ., 5 7 6, -6 -4 6 -3",
+        "apoints": [
+            [
+                9,
+                2,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                5,
+                7,
+                6
+            ],
+            [
+                11,
+                11,
+                6,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                9,
+                13
+            ],
+            [
+                4,
+                8,
+                2
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                6,
+                4,
+                11,
+                3
+            ]
+        ],
+        "agames": [
+            1,
+            3,
+            3,
+            0,
+            3
+        ],
+        "xgames": [
+            3,
+            0,
+            0,
+            3,
+            1
+        ],
+        "amatches": [
+            0,
+            1,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            156,
+            115
+        ],
+        "games": [
+            10,
+            7
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 114,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 10,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 3,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 108,
+        "xid": 109,
+        "aname": "Free State",
+        "xname": "Gauteng North",
+        "taids": [
+            8614,
+            7501,
+            7827,
+            8614,
+            7501
+        ],
+        "txids": [
+            7874,
+            7004,
+            8283,
+            7004,
+            7874
+        ],
+        "tanames": [
+            "Rethabile MOLISENYANE",
+            "Boipelo MASHWABI",
+            "Letshego PHEKONYANE",
+            "Rethabile MOLISENYANE",
+            "Boipelo MASHWABI"
+        ],
+        "txnames": [
+            "Athi MDA",
+            "Zodwa MAPHANGA",
+            "Michelle MC LEOD",
+            "Zodwa MAPHANGA",
+            "Athi MDA"
+        ],
+        "aaffiliate": "FS",
+        "xaffiliate": "GN",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0, 10 3 7, 5 6 -9 4",
+        "apoints": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                10,
+                3,
+                7
+            ],
+            [
+                5,
+                6,
+                11,
+                4
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                9,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            46,
+            109
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 109,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 11,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 4,
+        "switch": 1,
+        "a": "c",
+        "x": "d",
+        "aid": 104,
+        "xid": 114,
+        "aname": "Eastern Cape",
+        "xname": "North West",
+        "taids": [
+            7495,
+            7845,
+            7839,
+            7495,
+            7845
+        ],
+        "txids": [
+            7212,
+            8059,
+            8056,
+            8059,
+            7212
+        ],
+        "tanames": [
+            "Zoliswa NCITSHANA",
+            "Neziswa MQUQU",
+            "Ntombikayise TOM",
+            "Zoliswa NCITSHANA",
+            "Neziswa MQUQU"
+        ],
+        "txnames": [
+            "Rorisang MOILANYANE",
+            "Thamia KGANEDI",
+            "Precious BOGATSU",
+            "Thamia KGANEDI",
+            "Rorisang MOILANYANE"
+        ],
+        "aaffiliate": "EC",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "2 2 9, 3 -9 -5 -14, 9 -12 -6 -9, 6 6 -9 -6 9, -9 -8 -5",
+        "apoints": [
+            [
+                2,
+                2,
+                9
+            ],
+            [
+                3,
+                11,
+                11,
+                16
+            ],
+            [
+                9,
+                14,
+                11,
+                11
+            ],
+            [
+                6,
+                6,
+                11,
+                11,
+                9
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                9,
+                5,
+                14
+            ],
+            [
+                11,
+                12,
+                6,
+                9
+            ],
+            [
+                11,
+                11,
+                9,
+                6,
+                11
+            ],
+            [
+                9,
+                8,
+                5
+            ]
+        ],
+        "agames": [
+            0,
+            3,
+            3,
+            2,
+            3
+        ],
+        "xgames": [
+            3,
+            1,
+            1,
+            3,
+            0
+        ],
+        "amatches": [
+            0,
+            1,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            175,
+            180
+        ],
+        "games": [
+            11,
+            8
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 104,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 10,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 5,
+        "switch": -1,
+        "a": "d",
+        "x": "a",
+        "aid": 114,
+        "xid": 109,
+        "aname": "North West",
+        "xname": "Gauteng North",
+        "taids": [
+            8059,
+            7212,
+            8056,
+            8059,
+            7212
+        ],
+        "txids": [
+            7004,
+            7874,
+            8283,
+            7874,
+            7004
+        ],
+        "tanames": [
+            "Thamia KGANEDI",
+            "Rorisang MOILANYANE",
+            "Precious BOGATSU",
+            "Thamia KGANEDI",
+            "Rorisang MOILANYANE"
+        ],
+        "txnames": [
+            "Zodwa MAPHANGA",
+            "Athi MDA",
+            "Michelle MC LEOD",
+            "Athi MDA",
+            "Zodwa MAPHANGA"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "GN",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 5 8, 9 7 11, 5 4 6",
+        "apoints": [
+            [
+                4,
+                5,
+                8
+            ],
+            [
+                9,
+                7,
+                11
+            ],
+            [
+                5,
+                4,
+                6
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                13
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            59,
+            101
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 109,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 11,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 6,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 104,
+        "xid": 108,
+        "aname": "Eastern Cape",
+        "xname": "Free State",
+        "taids": [
+            7495,
+            7845,
+            7839,
+            7495,
+            7845
+        ],
+        "txids": [
+            7501,
+            8614,
+            7827,
+            8614,
+            7501
+        ],
+        "tanames": [
+            "Zoliswa NCITSHANA",
+            "Neziswa MQUQU",
+            "Ntombikayise TOM",
+            "Zoliswa NCITSHANA",
+            "Neziswa MQUQU"
+        ],
+        "txnames": [
+            "Boipelo MASHWABI",
+            "Rethabile MOLISENYANE",
+            "Letshego PHEKONYANE",
+            "Rethabile MOLISENYANE",
+            "Boipelo MASHWABI"
+        ],
+        "aaffiliate": "EC",
+        "xaffiliate": "FS",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 3 6, -5 -4 -9, -9 6 10 -8 4, -8 10 -5 -3, 4 6 9",
+        "apoints": [
+            [
+                6,
+                3,
+                6
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                6,
+                10,
+                11,
+                4
+            ],
+            [
+                11,
+                10,
+                11,
+                11
+            ],
+            [
+                4,
+                6,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                5,
+                4,
+                9
+            ],
+            [
+                9,
+                11,
+                12,
+                8,
+                11
+            ],
+            [
+                8,
+                12,
+                5,
+                3
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            3,
+            2,
+            3,
+            0
+        ],
+        "xgames": [
+            3,
+            0,
+            3,
+            1,
+            3
+        ],
+        "amatches": [
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "xmatches": [
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "points": [
+            152,
+            163
+        ],
+        "games": [
+            8,
+            10
+        ],
+        "matches": [
+            2,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 108,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 5,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": 1,
+        "a": "1a",
+        "x": "2b",
+        "aid": 110,
+        "xid": 116,
+        "aname": "Johannesburg",
+        "xname": "Umgungundlovu",
+        "taids": [
+            7001,
+            7012,
+            8480,
+            7001,
+            7012
+        ],
+        "txids": [
+            7518,
+            7114,
+            7460,
+            7114,
+            7518
+        ],
+        "tanames": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS",
+            "Sameera MAAL",
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "txnames": [
+            "Lusanda MOLOI",
+            "Jesse-Leigh NOMDO",
+            "Kimeshni PILLAY",
+            "Jesse-Leigh NOMDO",
+            "Lusanda MOLOI"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "UMG",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -6 -4, -6 13 8 -5 8, -7 -6 9 -4, -7 -4 -5",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                13,
+                8,
+                11,
+                8
+            ],
+            [
+                11,
+                11,
+                9,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                9,
+                6,
+                4
+            ],
+            [
+                6,
+                15,
+                11,
+                5,
+                11
+            ],
+            [
+                7,
+                6,
+                11,
+                4
+            ],
+            [
+                7,
+                4,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            2,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            1,
+            0
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            159,
+            111
+        ],
+        "games": [
+            11,
+            4
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 110,
+        "lost": 116,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 6,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": 1,
+        "a": "3b",
+        "x": "4a",
+        "aid": 210,
+        "xid": 109,
+        "aname": "Johannesburg B",
+        "xname": "Gauteng North",
+        "taids": [
+            7545,
+            7084,
+            7750,
+            7545,
+            7084
+        ],
+        "txids": [
+            7004,
+            7874,
+            8283,
+            7874,
+            7004
+        ],
+        "tanames": [
+            "Saiisha NAIDU",
+            "Salma SHEIK-HOOSEN",
+            "Ronel BOTHA",
+            "Saiisha NAIDU",
+            "Salma SHEIK-HOOSEN"
+        ],
+        "txnames": [
+            "Zodwa MAPHANGA",
+            "Athi MDA",
+            "Michelle MC LEOD",
+            "Athi MDA",
+            "Zodwa MAPHANGA"
+        ],
+        "aaffiliate": "JHB-B",
+        "xaffiliate": "GN",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 4 6, 9 7 -6 10, -11 -8 7 -8, 5 9 3",
+        "apoints": [
+            [
+                6,
+                4,
+                6
+            ],
+            [
+                9,
+                7,
+                11,
+                10
+            ],
+            [
+                13,
+                11,
+                7,
+                11
+            ],
+            [
+                5,
+                9,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                6,
+                12
+            ],
+            [
+                11,
+                8,
+                11,
+                8
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            1,
+            3,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            1,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            0,
+            1
+        ],
+        "points": [
+            112,
+            144
+        ],
+        "games": [
+            4,
+            10
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 109,
+        "lost": 210,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": -1,
+        "a": "4b",
+        "x": "3a",
+        "aid": 104,
+        "xid": 107,
+        "aname": "Eastern Cape",
+        "xname": "Ethekwini",
+        "taids": [
+            7845,
+            7495,
+            7839,
+            7845,
+            7495
+        ],
+        "txids": [
+            7243,
+            7009,
+            7709,
+            7009,
+            7243
+        ],
+        "tanames": [
+            "Neziswa MQUQU",
+            "Zoliswa NCITSHANA",
+            "Ntombikayise TOM",
+            "Neziswa MQUQU",
+            "Zoliswa NCITSHANA"
+        ],
+        "txnames": [
+            "Hashmika HEERALAL",
+            "Arisha MADAREE",
+            "Sthabile MNYANDU",
+            "Arisha MADAREE",
+            "Hashmika HEERALAL"
+        ],
+        "aaffiliate": "EC",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "1 -10 6 8, -9 5 -6 9 14, 8 11 4",
+        "apoints": [
+            [
+                1,
+                12,
+                6,
+                8
+            ],
+            [
+                11,
+                5,
+                11,
+                9,
+                14
+            ],
+            [
+                8,
+                11,
+                4
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                10,
+                11,
+                11
+            ],
+            [
+                9,
+                11,
+                6,
+                11,
+                16
+            ],
+            [
+                11,
+                13,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            2,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            100,
+            131
+        ],
+        "games": [
+            3,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 8,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": -1,
+        "a": "2a",
+        "x": "1b",
+        "aid": 102,
+        "xid": 118,
+        "aname": "Cape Town",
+        "xname": "University Sport",
+        "taids": [
+            7112,
+            7024,
+            7050,
+            7112,
+            7024
+        ],
+        "txids": [
+            8612,
+            7197,
+            7221,
+            7197,
+            8612
+        ],
+        "tanames": [
+            "Musfiquh KALAM",
+            "Tayla BAILEY",
+            "Caitlin LINGEVELDT",
+            "Musfiquh KALAM",
+            "Tayla BAILEY"
+        ],
+        "txnames": [
+            "Nokubonga MABASO",
+            "Anande KUSE",
+            "Boingotlo MOTHUPI",
+            "Anande KUSE",
+            "Nokubonga MABASO"
+        ],
+        "aaffiliate": "CT",
+        "xaffiliate": "USSA",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -9 -3, -7 -5 -5, -6 -7 -6",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                5,
+                9,
+                3
+            ],
+            [
+                7,
+                5,
+                5
+            ],
+            [
+                6,
+                7,
+                6
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            53
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 102,
+        "lost": 118,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "15:00",
+        "table": 3,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 110,
+        "xid": 109,
+        "aname": "Johannesburg",
+        "xname": "Gauteng North",
+        "taids": [
+            7001,
+            7012,
+            8480,
+            7001,
+            7012
+        ],
+        "txids": [
+            7874,
+            7004,
+            8283,
+            7004,
+            7874
+        ],
+        "tanames": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS",
+            "Sameera MAAL",
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "txnames": [
+            "Athi MDA",
+            "Zodwa MAPHANGA",
+            "Michelle MC LEOD",
+            "Zodwa MAPHANGA",
+            "Athi MDA"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "GN",
+        "aseed": 1,
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -3 -4, -6 7 7 2, -3 -1 -7, 10 -6 -8 8 -5",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                7,
+                7,
+                2
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                10,
+                11,
+                11,
+                8,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                3,
+                3,
+                4
+            ],
+            [
+                6,
+                11,
+                11,
+                11
+            ],
+            [
+                3,
+                1,
+                7
+            ],
+            [
+                12,
+                6,
+                8,
+                11,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            1,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            0,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            144,
+            102
+        ],
+        "games": [
+            10,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 110,
+        "lost": 109,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "15:00",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 107,
+        "xid": 102,
+        "aname": "Ethekwini",
+        "xname": "Cape Town",
+        "taids": [
+            7009,
+            7243,
+            7709,
+            7009,
+            7243
+        ],
+        "txids": [
+            7024,
+            7112,
+            7050,
+            7112,
+            7024
+        ],
+        "tanames": [
+            "Arisha MADAREE",
+            "Hashmika HEERALAL",
+            "Sthabile MNYANDU",
+            "Arisha MADAREE",
+            "Hashmika HEERALAL"
+        ],
+        "txnames": [
+            "Tayla BAILEY",
+            "Musfiquh KALAM",
+            "Caitlin LINGEVELDT",
+            "Musfiquh KALAM",
+            "Tayla BAILEY"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "CT",
+        "aseed": 3,
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -2 9 9 9, 9 -9 10 8, 4 3 4",
+        "apoints": [
+            [
+                11,
+                11,
+                9,
+                9,
+                9
+            ],
+            [
+                9,
+                11,
+                10,
+                8
+            ],
+            [
+                4,
+                3,
+                4
+            ]
+        ],
+        "xpoints": [
+            [
+                2,
+                2,
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                9,
+                12,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            2,
+            1,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            98,
+            113
+        ],
+        "games": [
+            3,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 107,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "stw",
+        "category": "senior",
+        "date": "Sun, 05 Oct",
+        "time": "18:30",
+        "table": 4,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 110,
+        "xid": 102,
+        "aname": "Johannesburg",
+        "xname": "Cape Town",
+        "taids": [
+            7001,
+            7012,
+            8480,
+            7001,
+            7012
+        ],
+        "txids": [
+            7050,
+            7112,
+            7024,
+            7112,
+            7050
+        ],
+        "tanames": [
+            "Danisha PATEL",
+            "Lailaa EDWARDS",
+            "Sameera MAAL",
+            "Danisha PATEL",
+            "Lailaa EDWARDS"
+        ],
+        "txnames": [
+            "Caitlin LINGEVELDT",
+            "Musfiquh KALAM",
+            "Tayla BAILEY",
+            "Musfiquh KALAM",
+            "Caitlin LINGEVELDT"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "CT",
+        "aseed": 1,
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -9 -10, 8 8 5, -5 -5 -3, 7 -8 9 8, -10 -11 -8",
+        "apoints": [
+            [
+                11,
+                11,
+                12
+            ],
+            [
+                8,
+                8,
+                5
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                7,
+                11,
+                9,
+                8
+            ],
+            [
+                12,
+                13,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                9,
+                10
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                5,
+                5,
+                3
+            ],
+            [
+                11,
+                8,
+                11,
+                11
+            ],
+            [
+                10,
+                11,
+                8
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            1,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            0,
+            3,
+            0
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            159,
+            139
+        ],
+        "games": [
+            10,
+            6
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 110,
+        "lost": 102,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

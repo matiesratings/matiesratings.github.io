@@ -1,0 +1,2938 @@
+[
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8389,
+            4010
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Syriana SIVNANNAN",
+            "Diyaan RAMCHURRAN"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8389,
+            4010
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "15:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8427,
+            3989
+        ],
+        "xid": [
+            8758,
+            4539
+        ],
+        "aname": [
+            "Kgothatso NKADIMENG",
+            "Shaun PAKO"
+        ],
+        "xname": [
+            "Azalea LALLO",
+            "Turzo RANCK"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 7 -5 4 -7",
+        "apoints": [
+            11,
+            7,
+            11,
+            4,
+            11
+        ],
+        "xpoints": [
+            5,
+            11,
+            5,
+            11,
+            7
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            44,
+            39
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8427,
+            3989
+        ],
+        "lost": [
+            8758,
+            4539
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "15:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8457,
+            4041
+        ],
+        "xid": [
+            9996,
+            4697
+        ],
+        "aname": [
+            "Katleho MARUOA",
+            "Onalenna MATEKANE"
+        ],
+        "xname": [
+            "Kobamelo TAMPE",
+            "Boitshepo SEMETSA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            9996,
+            4697
+        ],
+        "lost": [
+            8457,
+            4041
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8344,
+            4114
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Tadiwanashe HUSVU",
+            "Zayd HOOSEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "GN",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8344,
+            4114
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "15:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8574,
+            4237
+        ],
+        "xid": [
+            8760,
+            4643
+        ],
+        "aname": [
+            "Jiya NAIDOO",
+            "Taylin NAIPAL"
+        ],
+        "xname": [
+            "Leche VERSTER",
+            "CJ VERSTER"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -6 8 -7",
+        "apoints": [
+            11,
+            11,
+            8,
+            11
+        ],
+        "xpoints": [
+            9,
+            6,
+            11,
+            7
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            41,
+            33
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8574,
+            4237
+        ],
+        "lost": [
+            8760,
+            4643
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "15:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8761,
+            4530
+        ],
+        "xid": [
+            8220,
+            4694
+        ],
+        "aname": [
+            "Des-Leigh BOOYSEN",
+            "Sergiano BOCKS"
+        ],
+        "xname": [
+            "Hlompho MOSALA",
+            "One LEKWENE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "WC",
+            "WC"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8220,
+            4694
+        ],
+        "lost": [
+            8761,
+            4530
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "15:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8492,
+            4777
+        ],
+        "xid": [
+            8739,
+            4599
+        ],
+        "aname": [
+            "Aneliswa KUNENE",
+            "Junior MTHEMBU"
+        ],
+        "xname": [
+            "Prudence PASHI",
+            "Makomborero MAPOSA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMZ",
+            "UMZ"
+        ],
+        "xaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8739,
+            4599
+        ],
+        "lost": [
+            8492,
+            4777
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8500,
+            3249
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Farah DOMINGO",
+            "Micah JONES"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8500,
+            3249
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 9,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8442,
+            4236
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Jordyn REDDY",
+            "Caydon BRIGRAJ"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8442,
+            4236
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:00",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 10,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8503,
+            4535
+        ],
+        "xid": [
+            8833,
+            4760
+        ],
+        "aname": [
+            "Imaan DOMINGO",
+            "Yaqoob DOMINGO"
+        ],
+        "xname": [
+            "Likusasa SIGANGA",
+            "Nzameko NGAMBU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "xaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -9 5 2",
+        "apoints": [
+            6,
+            11,
+            5,
+            2
+        ],
+        "xpoints": [
+            11,
+            9,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            42
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8833,
+            4760
+        ],
+        "lost": [
+            8503,
+            4535
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 11,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8738,
+            4600
+        ],
+        "xid": [
+            8272,
+            4778
+        ],
+        "aname": [
+            "Princess TICHIWANGANI",
+            "Israel GWERU"
+        ],
+        "xname": [
+            "Olwethu NXUMALO",
+            "Luyanda NGOBESE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "xaffiliate": [
+            "UMZ",
+            "UMZ"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8738,
+            4600
+        ],
+        "lost": [
+            8272,
+            4778
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 12,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8221,
+            4695
+        ],
+        "xid": [
+            8124,
+            3479
+        ],
+        "aname": [
+            "Paballo MOSALA",
+            "Oageng MOABI"
+        ],
+        "xname": [
+            "Milcah GOLOGOLO",
+            "Amogelang MARUMO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "1 6",
+        "apoints": [
+            1,
+            6
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            7,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8124,
+            3479
+        ],
+        "lost": [
+            8221,
+            4695
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:00",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 13,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8350,
+            3879
+        ],
+        "xid": [
+            8717,
+            3413
+        ],
+        "aname": [
+            "Amber PARBHOODEEN",
+            "Ezra REDLINGHYS"
+        ],
+        "xname": [
+            "Willow SMITH",
+            "Jordan HARTNICK"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -12 -4",
+        "apoints": [
+            11,
+            14,
+            11
+        ],
+        "xpoints": [
+            3,
+            12,
+            4
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            36,
+            19
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8350,
+            3879
+        ],
+        "lost": [
+            8717,
+            3413
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:00",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 14,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8802,
+            3990
+        ],
+        "xid": [
+            8462,
+            4466
+        ],
+        "aname": [
+            "Charity RADINGOANA",
+            "Kwena MOKWENA"
+        ],
+        "xname": [
+            "Omphile MOKOARI",
+            "Reamogetswe LEPHEANA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -5 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            5,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            18
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8802,
+            3990
+        ],
+        "lost": [
+            8462,
+            4466
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 15,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8819,
+            4696
+        ],
+        "xid": [
+            1000,
+            1000
+        ],
+        "aname": [
+            "Nthabeleng SEKETE",
+            "Omphemetse MOKHUTSANE"
+        ],
+        "xname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            " ",
+            " "
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": [
+            8819,
+            4696
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 16,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            1000,
+            1000
+        ],
+        "xid": [
+            8343,
+            4018
+        ],
+        "aname": [
+            "BYE  ",
+            "BYE  "
+        ],
+        "xname": [
+            "Anotidaishe HUSVU",
+            "Aakash GOKHALE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            " ",
+            " "
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": [
+            8343,
+            4018
+        ],
+        "lost": [
+            1000,
+            1000
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8389,
+            4010
+        ],
+        "xid": [
+            8427,
+            3989
+        ],
+        "aname": [
+            "Syriana SIVNANNAN",
+            "Diyaan RAMCHURRAN"
+        ],
+        "xname": [
+            "Kgothatso NKADIMENG",
+            "Shaun PAKO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -9 -6 9 3",
+        "apoints": [
+            6,
+            11,
+            11,
+            9,
+            3
+        ],
+        "xpoints": [
+            11,
+            9,
+            6,
+            11,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            40,
+            48
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8427,
+            3989
+        ],
+        "lost": [
+            8389,
+            4010
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            9996,
+            4697
+        ],
+        "xid": [
+            8344,
+            4114
+        ],
+        "aname": [
+            "Kobamelo TAMPE",
+            "Boitshepo SEMETSA"
+        ],
+        "xname": [
+            "Tadiwanashe HUSVU",
+            "Zayd HOOSEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "GN",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 2 7",
+        "apoints": [
+            5,
+            2,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            14,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8344,
+            4114
+        ],
+        "lost": [
+            9996,
+            4697
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8574,
+            4237
+        ],
+        "xid": [
+            8220,
+            4694
+        ],
+        "aname": [
+            "Jiya NAIDOO",
+            "Taylin NAIPAL"
+        ],
+        "xname": [
+            "Hlompho MOSALA",
+            "One LEKWENE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 -8 -5 -6",
+        "apoints": [
+            5,
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            8,
+            5,
+            6
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            38,
+            30
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8574,
+            4237
+        ],
+        "lost": [
+            8220,
+            4694
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8739,
+            4599
+        ],
+        "xid": [
+            8500,
+            3249
+        ],
+        "aname": [
+            "Prudence PASHI",
+            "Makomborero MAPOSA"
+        ],
+        "xname": [
+            "Farah DOMINGO",
+            "Micah JONES"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -6 13 10",
+        "apoints": [
+            6,
+            11,
+            13,
+            10
+        ],
+        "xpoints": [
+            11,
+            6,
+            15,
+            12
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            40,
+            44
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8500,
+            3249
+        ],
+        "lost": [
+            8739,
+            4599
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "16:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8442,
+            4236
+        ],
+        "xid": [
+            8833,
+            4760
+        ],
+        "aname": [
+            "Jordyn REDDY",
+            "Caydon BRIGRAJ"
+        ],
+        "xname": [
+            "Likusasa SIGANGA",
+            "Nzameko NGAMBU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 -6 -9 9 11",
+        "apoints": [
+            9,
+            11,
+            11,
+            9,
+            11
+        ],
+        "xpoints": [
+            11,
+            6,
+            9,
+            11,
+            13
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            51,
+            50
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8833,
+            4760
+        ],
+        "lost": [
+            8442,
+            4236
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "17:00",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8738,
+            4600
+        ],
+        "xid": [
+            8124,
+            3479
+        ],
+        "aname": [
+            "Princess TICHIWANGANI",
+            "Israel GWERU"
+        ],
+        "xname": [
+            "Milcah GOLOGOLO",
+            "Amogelang MARUMO"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "xaffiliate": [
+            "FS",
+            "FS"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -5 -5",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            5,
+            5
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            16
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8738,
+            4600
+        ],
+        "lost": [
+            8124,
+            3479
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "17:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8350,
+            3879
+        ],
+        "xid": [
+            8802,
+            3990
+        ],
+        "aname": [
+            "Amber PARBHOODEEN",
+            "Ezra REDLINGHYS"
+        ],
+        "xname": [
+            "Charity RADINGOANA",
+            "Kwena MOKWENA"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 10 10",
+        "apoints": [
+            7,
+            10,
+            10
+        ],
+        "xpoints": [
+            11,
+            12,
+            12
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            27,
+            35
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8802,
+            3990
+        ],
+        "lost": [
+            8350,
+            3879
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "17:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8819,
+            4696
+        ],
+        "xid": [
+            8343,
+            4018
+        ],
+        "aname": [
+            "Nthabeleng SEKETE",
+            "Omphemetse MOKHUTSANE"
+        ],
+        "xname": [
+            "Anotidaishe HUSVU",
+            "Aakash GOKHALE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "NW",
+            "NW"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 1 0",
+        "apoints": [
+            4,
+            1,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            5,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8343,
+            4018
+        ],
+        "lost": [
+            8819,
+            4696
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "09:00",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8427,
+            3989
+        ],
+        "xid": [
+            8344,
+            4114
+        ],
+        "aname": [
+            "Kgothatso NKADIMENG",
+            "Shaun PAKO"
+        ],
+        "xname": [
+            "Tadiwanashe HUSVU",
+            "Zayd HOOSEN"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "GN",
+            "JTTA"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -8 -7",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            8,
+            7
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            21
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8427,
+            3989
+        ],
+        "lost": [
+            8344,
+            4114
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "09:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8574,
+            4237
+        ],
+        "xid": [
+            8500,
+            3249
+        ],
+        "aname": [
+            "Jiya NAIDOO",
+            "Taylin NAIPAL"
+        ],
+        "xname": [
+            "Farah DOMINGO",
+            "Micah JONES"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "UMG",
+            "UMG"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 7 3",
+        "apoints": [
+            5,
+            7,
+            3
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            15,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8500,
+            3249
+        ],
+        "lost": [
+            8574,
+            4237
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "09:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8833,
+            4760
+        ],
+        "xid": [
+            8738,
+            4600
+        ],
+        "aname": [
+            "Likusasa SIGANGA",
+            "Nzameko NGAMBU"
+        ],
+        "xname": [
+            "Princess TICHIWANGANI",
+            "Israel GWERU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "xaffiliate": [
+            "ZIM",
+            "ZIM"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 -8 -9 -10",
+        "apoints": [
+            9,
+            11,
+            11,
+            12
+        ],
+        "xpoints": [
+            11,
+            8,
+            9,
+            10
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            43,
+            38
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8833,
+            4760
+        ],
+        "lost": [
+            8738,
+            4600
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "09:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8802,
+            3990
+        ],
+        "xid": [
+            8343,
+            4018
+        ],
+        "aname": [
+            "Charity RADINGOANA",
+            "Kwena MOKWENA"
+        ],
+        "xname": [
+            "Anotidaishe HUSVU",
+            "Aakash GOKHALE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 1 9",
+        "apoints": [
+            6,
+            1,
+            9
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            16,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8343,
+            4018
+        ],
+        "lost": [
+            8802,
+            3990
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "10:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8427,
+            3989
+        ],
+        "xid": [
+            8500,
+            3249
+        ],
+        "aname": [
+            "Kgothatso NKADIMENG",
+            "Shaun PAKO"
+        ],
+        "xname": [
+            "Farah DOMINGO",
+            "Micah JONES"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "CT",
+            "CT"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -9 -5",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            9,
+            5
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            22
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8427,
+            3989
+        ],
+        "lost": [
+            8500,
+            3249
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "10:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8833,
+            4760
+        ],
+        "xid": [
+            8343,
+            4018
+        ],
+        "aname": [
+            "Likusasa SIGANGA",
+            "Nzameko NGAMBU"
+        ],
+        "xname": [
+            "Anotidaishe HUSVU",
+            "Aakash GOKHALE"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "xaffiliate": [
+            "GN",
+            "GN"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-10 -12 7 -10",
+        "apoints": [
+            12,
+            14,
+            7,
+            12
+        ],
+        "xpoints": [
+            10,
+            12,
+            11,
+            10
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            45,
+            43
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": [
+            8833,
+            4760
+        ],
+        "lost": [
+            8343,
+            4018
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jdxu11",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "10:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": [
+            8427,
+            3989
+        ],
+        "xid": [
+            8833,
+            4760
+        ],
+        "aname": [
+            "Kgothatso NKADIMENG",
+            "Shaun PAKO"
+        ],
+        "xname": [
+            "Likusasa SIGANGA",
+            "Nzameko NGAMBU"
+        ],
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": [
+            "LIM",
+            "LIM"
+        ],
+        "xaffiliate": [
+            "EC",
+            "EC"
+        ],
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 10 7",
+        "apoints": [
+            8,
+            10,
+            7
+        ],
+        "xpoints": [
+            11,
+            12,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            25,
+            34
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": [
+            8833,
+            4760
+        ],
+        "lost": [
+            8427,
+            3989
+        ],
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

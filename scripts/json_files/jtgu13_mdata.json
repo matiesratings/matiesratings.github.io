@@ -1,0 +1,3288 @@
+[
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 21,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 1,
+        "switch": -1,
+        "a": "c",
+        "x": "a",
+        "aid": 105,
+        "xid": 102,
+        "aname": "Eden",
+        "xname": "Cape Town",
+        "taids": [
+            8079,
+            8240,
+            [
+                8079,
+                8240
+            ],
+            8079,
+            8240
+        ],
+        "txids": [
+            8393,
+            8025,
+            [
+                8393,
+                8025
+            ],
+            8025,
+            8393
+        ],
+        "tanames": [
+            "Minenhle NGQEZA",
+            "Ashley-Ann FRANCIES",
+            "Minenhle and Ashley-Ann",
+            "Minenhle NGQEZA",
+            "Ashley-Ann FRANCIES"
+        ],
+        "txnames": [
+            "Skylyn JOSEPH",
+            "Tamika VAN AS",
+            "Skylyn and Tamika",
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "aaffiliate": "EDEN",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 10 6, 1 6 1, 2 0 3",
+        "apoints": [
+            [
+                5,
+                10,
+                6
+            ],
+            [
+                1,
+                6,
+                1
+            ],
+            [
+                2,
+                0,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                12,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            34,
+            100
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 105,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 2,
+        "switch": 1,
+        "a": "a",
+        "x": "b",
+        "aid": 102,
+        "xid": 108,
+        "aname": "Cape Town",
+        "xname": "Free State",
+        "taids": [
+            8025,
+            8036,
+            [
+                8025,
+                8036
+            ],
+            8025,
+            8036
+        ],
+        "txids": [
+            8125,
+            8178,
+            [
+                8125,
+                8178
+            ],
+            8178,
+            8125
+        ],
+        "tanames": [
+            "Tamika VAN AS",
+            "Shona JONES",
+            "Tamika and Shona",
+            "Tamika VAN AS",
+            "Shona JONES"
+        ],
+        "txnames": [
+            "Latita GOLOGOLO",
+            "Bophelo MOTSHABI",
+            "Latita and Bophelo",
+            "Bophelo MOTSHABI",
+            "Latita GOLOGOLO"
+        ],
+        "aaffiliate": "CT",
+        "xaffiliate": "FS",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -3 -3, -6 -5 -7, -6 -7 -3",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                3,
+                3
+            ],
+            [
+                6,
+                5,
+                7
+            ],
+            [
+                6,
+                7,
+                3
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            44
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 102,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 16,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 3,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 105,
+        "xid": 108,
+        "aname": "Eden",
+        "xname": "Free State",
+        "taids": [
+            8079,
+            8240,
+            [
+                8079,
+                8240
+            ],
+            8079,
+            8240
+        ],
+        "txids": [
+            8178,
+            8458,
+            [
+                8178,
+                8458
+            ],
+            8458,
+            8178
+        ],
+        "tanames": [
+            "Minenhle NGQEZA",
+            "Ashley-Ann FRANCIES",
+            "Minenhle and Ashley-Ann",
+            "Minenhle NGQEZA",
+            "Ashley-Ann FRANCIES"
+        ],
+        "txnames": [
+            "Bophelo MOTSHABI",
+            "Keabetswe MPATA",
+            "Bophelo and Keabetswe",
+            "Keabetswe MPATA",
+            "Bophelo MOTSHABI"
+        ],
+        "aaffiliate": "EDEN",
+        "xaffiliate": "FS",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -6 -5, -4 -3 10 -4, 4 6 9, 5 -10 -14 -5",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                10,
+                11
+            ],
+            [
+                4,
+                6,
+                9
+            ],
+            [
+                5,
+                12,
+                16,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                6,
+                5
+            ],
+            [
+                4,
+                3,
+                12,
+                4
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                10,
+                14,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            0,
+            3
+        ],
+        "xgames": [
+            0,
+            1,
+            3,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            139,
+            114
+        ],
+        "games": [
+            9,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 105,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 107,
+        "xid": 104,
+        "aname": "Ethekwini",
+        "xname": "Eastern Cape",
+        "taids": [
+            8097,
+            8326,
+            [
+                8097,
+                8326
+            ],
+            8097,
+            8326
+        ],
+        "txids": [
+            8290,
+            8472,
+            [
+                8290,
+                8472
+            ],
+            8472,
+            8290
+        ],
+        "tanames": [
+            "Mahi GOKAL",
+            "Anathi CELE",
+            "Mahi and Anathi",
+            "Mahi GOKAL",
+            "Anathi CELE"
+        ],
+        "txnames": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU",
+            "Esinayo and Mlibokazi",
+            "Mlibokazi MJADU",
+            "Esinayo PHOKI"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "EC",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 -8 -11 -8, 7 -10 7 -9 -7, -6 -8 7 9 -9",
+        "apoints": [
+            [
+                7,
+                11,
+                13,
+                11
+            ],
+            [
+                7,
+                12,
+                7,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                7,
+                9,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                8,
+                11,
+                8
+            ],
+            [
+                11,
+                10,
+                11,
+                9,
+                7
+            ],
+            [
+                6,
+                8,
+                11,
+                11,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            1,
+            2,
+            2
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            139,
+            131
+        ],
+        "games": [
+            9,
+            5
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 107,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 20,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 2,
+        "switch": 1,
+        "a": "a",
+        "x": "b",
+        "aid": 107,
+        "xid": 110,
+        "aname": "Ethekwini",
+        "xname": "Johannesburg",
+        "taids": [
+            8097,
+            8326,
+            [
+                8097,
+                8326
+            ],
+            8097,
+            8326
+        ],
+        "txids": [
+            8307,
+            8479,
+            [
+                8307,
+                8479
+            ],
+            8479,
+            8307
+        ],
+        "tanames": [
+            "Mahi GOKAL",
+            "Anathi CELE",
+            "Mahi and Anathi",
+            "Mahi GOKAL",
+            "Anathi CELE"
+        ],
+        "txnames": [
+            "Grace KESVAL",
+            "Kristin KATA",
+            "Grace and Kristin",
+            "Kristin KATA",
+            "Grace KESVAL"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "JHB",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -6 -4, 7 -13 10 -8 9, -2 -10 -9, -7 -8 9 6 -2",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                7,
+                15,
+                10,
+                11,
+                9
+            ],
+            [
+                11,
+                12,
+                11
+            ],
+            [
+                11,
+                11,
+                9,
+                6,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                6,
+                4
+            ],
+            [
+                11,
+                13,
+                12,
+                8,
+                11
+            ],
+            [
+                2,
+                10,
+                9
+            ],
+            [
+                7,
+                8,
+                11,
+                11,
+                2
+            ]
+        ],
+        "agames": [
+            3,
+            2,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            0,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            167,
+            132
+        ],
+        "games": [
+            11,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 107,
+        "lost": 110,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 17,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 3,
+        "switch": 1,
+        "a": "b",
+        "x": "c",
+        "aid": 110,
+        "xid": 104,
+        "aname": "Johannesburg",
+        "xname": "Eastern Cape",
+        "taids": [
+            8307,
+            8479,
+            [
+                8307,
+                8479
+            ],
+            8307,
+            8479
+        ],
+        "txids": [
+            8290,
+            8472,
+            [
+                8290,
+                8472
+            ],
+            8472,
+            8290
+        ],
+        "tanames": [
+            "Grace KESVAL",
+            "Kristin KATA",
+            "Grace and Kristin",
+            "Grace KESVAL",
+            "Kristin KATA"
+        ],
+        "txnames": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU",
+            "Esinayo and Mlibokazi",
+            "Mlibokazi MJADU",
+            "Esinayo PHOKI"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 6 5, 5 5 6, 7 8 -6 9",
+        "apoints": [
+            [
+                8,
+                6,
+                5
+            ],
+            [
+                5,
+                5,
+                6
+            ],
+            [
+                7,
+                8,
+                11,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                6,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            70,
+            105
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 104,
+        "lost": 110,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "15:00",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 109,
+        "xid": 117,
+        "aname": "Gauteng North",
+        "xname": "Umzinyathi",
+        "taids": [
+            8129,
+            8130,
+            [
+                8129,
+                8130
+            ],
+            8129,
+            8130
+        ],
+        "txids": [
+            8274,
+            8492,
+            [
+                8274,
+                8492
+            ],
+            8492,
+            8274
+        ],
+        "tanames": [
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN",
+            "Alicia and Danyelle",
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN"
+        ],
+        "txnames": [
+            "Siphokazi MTHANTI",
+            "Aneliswa KUNENE",
+            "Siphokazi and Aneliswa",
+            "Aneliswa KUNENE",
+            "Siphokazi MTHANTI"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "UMZ",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -4 -5, 6 4 10, 9 -11 -5 -4, 7 -3 -6 -12",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                6,
+                4,
+                10
+            ],
+            [
+                9,
+                13,
+                11,
+                11
+            ],
+            [
+                7,
+                11,
+                11,
+                14
+            ]
+        ],
+        "xpoints": [
+            [
+                5,
+                4,
+                5
+            ],
+            [
+                11,
+                11,
+                12
+            ],
+            [
+                11,
+                11,
+                5,
+                4
+            ],
+            [
+                11,
+                3,
+                6,
+                12
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            1,
+            1
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            140,
+            111
+        ],
+        "games": [
+            9,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 109,
+        "lost": 117,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 21,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 2,
+        "switch": 1,
+        "a": "a",
+        "x": "b",
+        "aid": 109,
+        "xid": 119,
+        "aname": "Gauteng North",
+        "xname": "West Coast",
+        "taids": [
+            8129,
+            8130,
+            [
+                8129,
+                8130
+            ],
+            8129,
+            8130
+        ],
+        "txids": [
+            8076,
+            8763,
+            [
+                8076,
+                8763
+            ],
+            8763,
+            8076
+        ],
+        "tanames": [
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN",
+            "Alicia and Danyelle",
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN"
+        ],
+        "txnames": [
+            "Akheela DJEUDJE",
+            "Likum DINISO",
+            "Akheela and Likum",
+            "Likum DINISO",
+            "Akheela DJEUDJE"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "WC",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . ., . . ., . . .",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            0
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 109,
+        "lost": 119,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 18,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 3,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 117,
+        "xid": 119,
+        "aname": "Umzinyathi",
+        "xname": "West Coast",
+        "taids": [
+            8492,
+            8274,
+            [
+                8492,
+                8274
+            ],
+            8492,
+            8274
+        ],
+        "txids": [
+            8076,
+            8763,
+            [
+                8076,
+                8763
+            ],
+            8763,
+            8076
+        ],
+        "tanames": [
+            "Aneliswa KUNENE",
+            "Siphokazi MTHANTI",
+            "Aneliswa and Siphokazi",
+            "Aneliswa KUNENE",
+            "Siphokazi MTHANTI"
+        ],
+        "txnames": [
+            "Akheela DJEUDJE",
+            "Likum DINISO",
+            "Akheela and Likum",
+            "Likum DINISO",
+            "Akheela DJEUDJE"
+        ],
+        "aaffiliate": "UMZ",
+        "xaffiliate": "WC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . ., . . ., . . .",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            0
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 117,
+        "lost": 119,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 20,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 116,
+        "xid": 111,
+        "aname": "Umgungundlovu",
+        "xname": "Limpopo",
+        "taids": [
+            8106,
+            8174,
+            [
+                8106,
+                8174
+            ],
+            8106,
+            8174
+        ],
+        "txids": [
+            8801,
+            8431,
+            [
+                8801,
+                8431
+            ],
+            8431,
+            8801
+        ],
+        "tanames": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE",
+            "Gemma and Prisha",
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "txnames": [
+            "Shantel MAILA",
+            "Seipati MODIKA",
+            "Shantel and Seipati",
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "LIM",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 10 4 -10 -6, -7 10 4 -5 -10, 4 8 8, 9 -6 7 6, -9 9 -9 7 -9",
+        "apoints": [
+            [
+                11,
+                10,
+                4,
+                12,
+                11
+            ],
+            [
+                11,
+                10,
+                4,
+                11,
+                12
+            ],
+            [
+                4,
+                8,
+                8
+            ],
+            [
+                9,
+                11,
+                7,
+                6
+            ],
+            [
+                11,
+                9,
+                11,
+                7,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                12,
+                11,
+                10,
+                6
+            ],
+            [
+                7,
+                12,
+                11,
+                5,
+                10
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                6,
+                11,
+                11
+            ],
+            [
+                9,
+                11,
+                9,
+                11,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            0,
+            1,
+            3
+        ],
+        "xgames": [
+            2,
+            2,
+            3,
+            3,
+            2
+        ],
+        "amatches": [
+            1,
+            1,
+            0,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "points": [
+            198,
+            209
+        ],
+        "games": [
+            10,
+            12
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 116,
+        "lost": 111,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 21,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 2,
+        "switch": 1,
+        "a": "d",
+        "x": "b",
+        "aid": 114,
+        "xid": 207,
+        "aname": "North West",
+        "xname": "Ethekwini B",
+        "taids": [
+            8228,
+            8363,
+            [
+                8228,
+                8363
+            ],
+            8228,
+            8363
+        ],
+        "txids": [
+            8325,
+            8099,
+            [
+                8325,
+                8099
+            ],
+            8099,
+            8325
+        ],
+        "tanames": [
+            "Onkarabile KHOLOMANYANE",
+            "Thandi MATLOU",
+            "Onkarabile and Thandi",
+            "Onkarabile KHOLOMANYANE",
+            "Thandi MATLOU"
+        ],
+        "txnames": [
+            "Asanda VILAKAZI",
+            "Deanne NAIDOO",
+            "Asanda and Deanne",
+            "Deanne NAIDOO",
+            "Asanda VILAKAZI"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "ETK-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 3 5, 1 4 1, 5 2 3",
+        "apoints": [
+            [
+                8,
+                3,
+                5
+            ],
+            [
+                1,
+                4,
+                1
+            ],
+            [
+                5,
+                2,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            32,
+            99
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 207,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 3,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 207,
+        "xid": 116,
+        "aname": "Ethekwini B",
+        "xname": "Umgungundlovu",
+        "taids": [
+            8099,
+            8325,
+            [
+                8099,
+                8325
+            ],
+            8099,
+            8325
+        ],
+        "txids": [
+            8174,
+            8106,
+            [
+                8174,
+                8106
+            ],
+            8106,
+            8174
+        ],
+        "tanames": [
+            "Deanne NAIDOO",
+            "Asanda VILAKAZI",
+            "Deanne and Asanda",
+            "Deanne NAIDOO",
+            "Asanda VILAKAZI"
+        ],
+        "txnames": [
+            "Prisha PADAYACHEE",
+            "Gemma PARBHOODEEN",
+            "Prisha and Gemma",
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "aaffiliate": "ETK-B",
+        "xaffiliate": "UMG",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 -5 -5 10 -8, -7 -9 4 -7, 6 4 -11 6, 9 -9 5 10, 9 -7 -8 -10",
+        "apoints": [
+            [
+                9,
+                11,
+                11,
+                10,
+                11
+            ],
+            [
+                11,
+                11,
+                4,
+                11
+            ],
+            [
+                6,
+                4,
+                13,
+                6
+            ],
+            [
+                9,
+                11,
+                5,
+                10
+            ],
+            [
+                9,
+                11,
+                11,
+                12
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                5,
+                5,
+                12,
+                8
+            ],
+            [
+                7,
+                9,
+                11,
+                7
+            ],
+            [
+                11,
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                9,
+                11,
+                12
+            ],
+            [
+                11,
+                7,
+                8,
+                10
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            1,
+            1,
+            3
+        ],
+        "xgames": [
+            2,
+            1,
+            3,
+            3,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            0,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            1,
+            1,
+            0
+        ],
+        "points": [
+            196,
+            198
+        ],
+        "games": [
+            11,
+            10
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 207,
+        "lost": 116,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "19:00",
+        "table": 20,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 4,
+        "switch": 1,
+        "a": "c",
+        "x": "d",
+        "aid": 111,
+        "xid": 114,
+        "aname": "Limpopo",
+        "xname": "North West",
+        "taids": [
+            8431,
+            8801,
+            [
+                8431,
+                8801
+            ],
+            8431,
+            8801
+        ],
+        "txids": [
+            8362,
+            8228,
+            [
+                8362,
+                8228
+            ],
+            8228,
+            8362
+        ],
+        "tanames": [
+            "Seipati MODIKA",
+            "Shantel MAILA",
+            "Seipati and Shantel",
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "txnames": [
+            "Delite MAGABE",
+            "Onkarabile KHOLOMANYANE",
+            "Delite and Onkarabile",
+            "Onkarabile KHOLOMANYANE",
+            "Delite MAGABE"
+        ],
+        "aaffiliate": "LIM",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -4 -1, -3 -2 -8, -7 -10 -6",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                12,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                3,
+                4,
+                1
+            ],
+            [
+                3,
+                2,
+                8
+            ],
+            [
+                7,
+                10,
+                6
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            100,
+            44
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 111,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 5,
+        "switch": 1,
+        "a": "a",
+        "x": "d",
+        "aid": 116,
+        "xid": 114,
+        "aname": "Umgungundlovu",
+        "xname": "North West",
+        "taids": [
+            8106,
+            8174,
+            [
+                8106,
+                8174
+            ],
+            8106,
+            8174
+        ],
+        "txids": [
+            8228,
+            8771,
+            [
+                8228,
+                8771
+            ],
+            8771,
+            8228
+        ],
+        "tanames": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE",
+            "Gemma and Prisha",
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "txnames": [
+            "Onkarabile KHOLOMANYANE",
+            "Solofelang MAKOKOE",
+            "Onkarabile and Solofelang",
+            "Solofelang MAKOKOE",
+            "Onkarabile KHOLOMANYANE"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "NW",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -2 -9, -3 -2 -5, -3 -6 -5",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                6,
+                2,
+                9
+            ],
+            [
+                3,
+                2,
+                5
+            ],
+            [
+                3,
+                6,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            41
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 116,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 20,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 6,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 111,
+        "xid": 207,
+        "aname": "Limpopo",
+        "xname": "Ethekwini B",
+        "taids": [
+            8431,
+            8801,
+            [
+                8431,
+                8801
+            ],
+            8431,
+            8801
+        ],
+        "txids": [
+            8099,
+            8325,
+            [
+                8099,
+                8325
+            ],
+            8325,
+            8099
+        ],
+        "tanames": [
+            "Seipati MODIKA",
+            "Shantel MAILA",
+            "Seipati and Shantel",
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "txnames": [
+            "Deanne NAIDOO",
+            "Asanda VILAKAZI",
+            "Deanne and Asanda",
+            "Asanda VILAKAZI",
+            "Deanne NAIDOO"
+        ],
+        "aaffiliate": "LIM",
+        "xaffiliate": "ETK-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -5 -5, -3 -9 11 -5, 7 -3 -5 -9",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11,
+                11
+            ],
+            [
+                7,
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                2,
+                5,
+                5
+            ],
+            [
+                3,
+                9,
+                13,
+                5
+            ],
+            [
+                11,
+                3,
+                5,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            1,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            117,
+            70
+        ],
+        "games": [
+            9,
+            2
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 111,
+        "lost": 207,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 18,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": -1,
+        "a": "3b",
+        "x": "1a",
+        "aid": 117,
+        "xid": 102,
+        "aname": "Umzinyathi",
+        "xname": "Cape Town",
+        "taids": [
+            8492,
+            8272,
+            [
+                8492,
+                8272
+            ],
+            8492,
+            8272
+        ],
+        "txids": [
+            8036,
+            8025,
+            [
+                8036,
+                8025
+            ],
+            8025,
+            8036
+        ],
+        "tanames": [
+            "Aneliswa KUNENE",
+            "Olwethu NXUMALO",
+            "Aneliswa and Olwethu",
+            "Aneliswa KUNENE",
+            "Olwethu NXUMALO"
+        ],
+        "txnames": [
+            "Shona JONES",
+            "Tamika VAN AS",
+            "Shona and Tamika",
+            "Tamika VAN AS",
+            "Shona JONES"
+        ],
+        "aaffiliate": "UMZ",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 1 1, 5 4 4, 9 -8 10 3",
+        "apoints": [
+            [
+                6,
+                1,
+                1
+            ],
+            [
+                5,
+                4,
+                4
+            ],
+            [
+                9,
+                11,
+                10,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                8,
+                12,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            54,
+            108
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 117,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 19,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": 1,
+        "a": "2b",
+        "x": "4a",
+        "aid": 104,
+        "xid": 111,
+        "aname": "Eastern Cape",
+        "xname": "Limpopo",
+        "taids": [
+            8290,
+            8472,
+            [
+                8290,
+                8472
+            ],
+            8290,
+            8472
+        ],
+        "txids": [
+            8801,
+            8431,
+            [
+                8801,
+                8431
+            ],
+            8431,
+            8801
+        ],
+        "tanames": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU",
+            "Esinayo and Mlibokazi",
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU"
+        ],
+        "txnames": [
+            "Shantel MAILA",
+            "Seipati MODIKA",
+            "Shantel and Seipati",
+            "Seipati MODIKA",
+            "Shantel MAILA"
+        ],
+        "aaffiliate": "EC",
+        "xaffiliate": "LIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -6 -5, 8 3 5, 13 -5 -3 -8, -5 -8 -9",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                8,
+                3,
+                5
+            ],
+            [
+                13,
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                6,
+                6,
+                5
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                15,
+                5,
+                3,
+                8
+            ],
+            [
+                5,
+                8,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            1,
+            0
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            128,
+            103
+        ],
+        "games": [
+            9,
+            4
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 104,
+        "lost": 111,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 20,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": 1,
+        "a": "3a",
+        "x": "4b",
+        "aid": 109,
+        "xid": 116,
+        "aname": "Gauteng North",
+        "xname": "Umgungundlovu",
+        "taids": [
+            8129,
+            8130,
+            [
+                8129,
+                8130
+            ],
+            8129,
+            8130
+        ],
+        "txids": [
+            8174,
+            8106,
+            [
+                8174,
+                8106
+            ],
+            8106,
+            8174
+        ],
+        "tanames": [
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN",
+            "Alicia and Danyelle",
+            "Alicia VERHEIJEN",
+            "Danyelle VERHEIJEN"
+        ],
+        "txnames": [
+            "Prisha PADAYACHEE",
+            "Gemma PARBHOODEEN",
+            "Prisha and Gemma",
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "UMG",
+        "aseed": 3,
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 6 -6 -9 6, 3 7 2, 6 8 -5 5",
+        "apoints": [
+            [
+                7,
+                6,
+                11,
+                11,
+                6
+            ],
+            [
+                3,
+                7,
+                2
+            ],
+            [
+                6,
+                8,
+                11,
+                5
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                6,
+                9,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                5,
+                11
+            ]
+        ],
+        "agames": [
+            2,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            83,
+            119
+        ],
+        "games": [
+            3,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 116,
+        "lost": 109,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "13:30",
+        "table": 16,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": 1,
+        "a": "1b",
+        "x": "2a",
+        "aid": 105,
+        "xid": 107,
+        "aname": "Eden",
+        "xname": "Ethekwini",
+        "taids": [
+            8079,
+            8241,
+            [
+                8079,
+                8241
+            ],
+            8079,
+            8241
+        ],
+        "txids": [
+            8326,
+            8097,
+            [
+                8326,
+                8097
+            ],
+            8097,
+            8326
+        ],
+        "tanames": [
+            "Minenhle NGQEZA",
+            "Dalzanthy PEDRO",
+            "Minenhle and Dalzanthy",
+            "Minenhle NGQEZA",
+            "Dalzanthy PEDRO"
+        ],
+        "txnames": [
+            "Anathi CELE",
+            "Mahi GOKAL",
+            "Anathi and Mahi",
+            "Mahi GOKAL",
+            "Anathi CELE"
+        ],
+        "aaffiliate": "EDEN",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -6 4 10, 8 5 5, 9 4 6",
+        "apoints": [
+            [
+                6,
+                11,
+                4,
+                10
+            ],
+            [
+                8,
+                5,
+                5
+            ],
+            [
+                9,
+                4,
+                6
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                6,
+                11,
+                12
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            68,
+            106
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 105,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:30",
+        "table": 16,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 102,
+        "xid": 104,
+        "aname": "Cape Town",
+        "xname": "Eastern Cape",
+        "taids": [
+            8025,
+            8036,
+            [
+                8025,
+                8036
+            ],
+            8025,
+            8036
+        ],
+        "txids": [
+            8290,
+            8472,
+            [
+                8290,
+                8472
+            ],
+            8472,
+            8290
+        ],
+        "tanames": [
+            "Tamika VAN AS",
+            "Shona JONES",
+            "Tamika and Shona",
+            "Tamika VAN AS",
+            "Shona JONES"
+        ],
+        "txnames": [
+            "Esinayo PHOKI",
+            "Mlibokazi MJADU",
+            "Esinayo and Mlibokazi",
+            "Mlibokazi MJADU",
+            "Esinayo PHOKI"
+        ],
+        "aaffiliate": "CT",
+        "xaffiliate": "EC",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -2 -2, 5 6 -8 -13 -3, -5 -6 -9",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                5,
+                6,
+                11,
+                15,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                3,
+                2,
+                2
+            ],
+            [
+                11,
+                11,
+                8,
+                13,
+                3
+            ],
+            [
+                5,
+                6,
+                9
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            2,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            114,
+            73
+        ],
+        "games": [
+            9,
+            2
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 102,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "14:30",
+        "table": 17,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 116,
+        "xid": 107,
+        "aname": "Umgungundlovu",
+        "xname": "Ethekwini",
+        "taids": [
+            8106,
+            8174,
+            [
+                8106,
+                8174
+            ],
+            8106,
+            8174
+        ],
+        "txids": [
+            8326,
+            8097,
+            [
+                8326,
+                8097
+            ],
+            8097,
+            8326
+        ],
+        "tanames": [
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE",
+            "Gemma and Prisha",
+            "Gemma PARBHOODEEN",
+            "Prisha PADAYACHEE"
+        ],
+        "txnames": [
+            "Anathi CELE",
+            "Mahi GOKAL",
+            "Anathi and Mahi",
+            "Mahi GOKAL",
+            "Anathi CELE"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "ETK",
+        "aseed": 4,
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 5 5, 5 -9 10 6, -9 5 -10 3 6",
+        "apoints": [
+            [
+                4,
+                5,
+                5
+            ],
+            [
+                5,
+                11,
+                10,
+                6
+            ],
+            [
+                11,
+                5,
+                12,
+                3,
+                6
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                9,
+                12,
+                11
+            ],
+            [
+                9,
+                11,
+                10,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            1,
+            2
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            83,
+            128
+        ],
+        "games": [
+            3,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 116,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtgu13",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "16:30",
+        "table": 17,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": -1,
+        "a": "",
+        "x": "",
+        "aid": 107,
+        "xid": 102,
+        "aname": "Ethekwini",
+        "xname": "Cape Town",
+        "taids": [
+            8097,
+            8326,
+            [
+                8097,
+                8326
+            ],
+            8097,
+            8326
+        ],
+        "txids": [
+            8393,
+            8025,
+            [
+                8393,
+                8025
+            ],
+            8025,
+            8393
+        ],
+        "tanames": [
+            "Mahi GOKAL",
+            "Anathi CELE",
+            "Mahi and Anathi",
+            "Mahi GOKAL",
+            "Anathi CELE"
+        ],
+        "txnames": [
+            "Skylyn JOSEPH",
+            "Tamika VAN AS",
+            "Skylyn and Tamika",
+            "Tamika VAN AS",
+            "Skylyn JOSEPH"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "CT",
+        "aseed": 2,
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -7 -7, 3 7 4, 2 4 9, 2 8 3",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                3,
+                7,
+                4
+            ],
+            [
+                2,
+                4,
+                9
+            ],
+            [
+                2,
+                8,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                2,
+                7,
+                7
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "points": [
+            75,
+            115
+        ],
+        "games": [
+            3,
+            9
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 107,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

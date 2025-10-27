@@ -1,0 +1,7932 @@
+[
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:15",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4010,
+        "xid": 4697,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Boitshepo SEMETSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "NW",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -5",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            5
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            10
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 4697,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:30",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4010,
+        "xid": 4357,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Xavian NAIDOO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "ETK",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4010,
+        "lost": 4357,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:45",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4357,
+        "xid": 4697,
+        "aname": "Xavian NAIDOO",
+        "xname": "Boitshepo SEMETSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0",
+        "apoints": [
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4697,
+        "lost": 4357,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:15",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3864,
+        "xid": 4466,
+        "aname": "Saeed TIFFLIN",
+        "xname": "Reamogetswe LEPHEANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "FS",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -8",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            8
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            16
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3864,
+        "lost": 4466,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:30",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3864,
+        "xid": 4395,
+        "aname": "Saeed TIFFLIN",
+        "xname": "Dhaarmic KARTHIK",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "GN",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3864,
+        "lost": 4395,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:45",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4395,
+        "xid": 4466,
+        "aname": "Dhaarmic KARTHIK",
+        "xname": "Reamogetswe LEPHEANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "FS",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0",
+        "apoints": [
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4466,
+        "lost": 4395,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:15",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3850,
+        "xid": 4777,
+        "aname": "Vaishant PADAYACHEE",
+        "xname": "Junior MTHEMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "UMZ",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3850,
+        "lost": 4777,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:30",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3850,
+        "xid": 3951,
+        "aname": "Vaishant PADAYACHEE",
+        "xname": "Kai WINDVOGEL",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "EDEN",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -5",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            3,
+            5
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            8
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3850,
+        "lost": 3951,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:45",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 3951,
+        "xid": 4777,
+        "aname": "Kai WINDVOGEL",
+        "xname": "Junior MTHEMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EDEN",
+        "xaffiliate": "UMZ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3951,
+        "lost": 4777,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:15",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4018,
+        "xid": 4778,
+        "aname": "Aakash GOKHALE",
+        "xname": "Luyanda NGOBESE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "UMZ",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -1",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            1
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            7
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 4778,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:30",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4018,
+        "xid": 4373,
+        "aname": "Aakash GOKHALE",
+        "xname": "Amerish SINGH",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "ETK",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -3",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            3,
+            3
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            6
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 4373,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:45",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4373,
+        "xid": 4778,
+        "aname": "Amerish SINGH",
+        "xname": "Luyanda NGOBESE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "UMZ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 4",
+        "apoints": [
+            4,
+            4
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            8,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4778,
+        "lost": 4373,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:15",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 5,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3381,
+        "xid": 4695,
+        "aname": "Samuel SCHRIEFF",
+        "xname": "Oageng MOABI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "NW",
+        "aseed": 5,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -4",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            2,
+            4
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            6
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3381,
+        "lost": 4695,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:30",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 5,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3381,
+        "xid": 4372,
+        "aname": "Samuel SCHRIEFF",
+        "xname": "Yuvaan SINGH",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "ETK",
+        "aseed": 5,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -1",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            2,
+            1
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            3
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3381,
+        "lost": 4372,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "12:45",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 5,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4372,
+        "xid": 4695,
+        "aname": "Yuvaan SINGH",
+        "xname": "Oageng MOABI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -4",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            4
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            9
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4372,
+        "lost": 4695,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 6,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3800,
+        "xid": 4694,
+        "aname": "Mhlengi VILAKAZI",
+        "xname": "One LEKWENE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "NW",
+        "aseed": 6,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-1 -4",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            1,
+            4
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            5
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3800,
+        "lost": 4694,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 6,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3800,
+        "xid": 4114,
+        "aname": "Mhlengi VILAKAZI",
+        "xname": "Zayd HOOSEN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "JTTA",
+        "aseed": 6,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -5",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            4,
+            5
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            9
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3800,
+        "lost": 4114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 6,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4114,
+        "xid": 4694,
+        "aname": "Zayd HOOSEN",
+        "xname": "One LEKWENE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 4 -12",
+        "apoints": [
+            11,
+            4,
+            14
+        ],
+        "xpoints": [
+            7,
+            11,
+            12
+        ],
+        "agames": 2,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            29,
+            30
+        ],
+        "games": [
+            2,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4114,
+        "lost": 4694,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 7,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4236,
+        "xid": 4732,
+        "aname": "Caydon BRIGRAJ",
+        "xname": "Reabetswe MOKWANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "LIM",
+        "aseed": 7,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -4",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            4,
+            4
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            8
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4236,
+        "lost": 4732,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 7,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4236,
+        "xid": 4594,
+        "aname": "Caydon BRIGRAJ",
+        "xname": "Bongisipho MACHI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "ETK",
+        "aseed": 7,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-2 -3",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            2,
+            3
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            5
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4236,
+        "lost": 4594,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 7,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4594,
+        "xid": 4732,
+        "aname": "Bongisipho MACHI",
+        "xname": "Reabetswe MOKWANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "LIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 -6 7",
+        "apoints": [
+            6,
+            11,
+            7
+        ],
+        "xpoints": [
+            11,
+            6,
+            11
+        ],
+        "agames": 1,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            28
+        ],
+        "games": [
+            1,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4732,
+        "lost": 4594,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3479,
+        "xid": 4696,
+        "aname": "Amogelang MARUMO",
+        "xname": "Omphemetse MOKHUTSANE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "NW",
+        "aseed": 8,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -2",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            2
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            7
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3479,
+        "lost": 4696,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3479,
+        "xid": 4113,
+        "aname": "Amogelang MARUMO",
+        "xname": "Muaaz HOOSEN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "JTTA",
+        "aseed": 8,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -8",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            8
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            14
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3479,
+        "lost": 4113,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4113,
+        "xid": 4696,
+        "aname": "Muaaz HOOSEN",
+        "xname": "Omphemetse MOKHUTSANE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "JTTA",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "13 6",
+        "apoints": [
+            13,
+            6
+        ],
+        "xpoints": [
+            15,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            19,
+            26
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4696,
+        "lost": 4113,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 9,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3249,
+        "xid": 4762,
+        "aname": "Micah JONES",
+        "xname": "Kwanganathi DAFETI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "EC",
+        "aseed": 9,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-10 9 8",
+        "apoints": [
+            12,
+            9,
+            8
+        ],
+        "xpoints": [
+            10,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            29,
+            32
+        ],
+        "games": [
+            1,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4762,
+        "lost": 3249,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 9,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3249,
+        "xid": 4643,
+        "aname": "Micah JONES",
+        "xname": "CJ VERSTER",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "GN",
+        "aseed": 9,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -5",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            7,
+            5
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            12
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3249,
+        "lost": 4643,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 9,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4643,
+        "xid": 4762,
+        "aname": "CJ VERSTER",
+        "xname": "Kwanganathi DAFETI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 6",
+        "apoints": [
+            3,
+            6
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            9,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4762,
+        "lost": 4643,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 10,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4530,
+        "xid": 4759,
+        "aname": "Sergiano BOCKS",
+        "xname": "Ayola MBETHE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "WC",
+        "xaffiliate": "EC",
+        "aseed": 10,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0",
+        "apoints": [
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4759,
+        "lost": 4530,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 10,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4530,
+        "xid": 3991,
+        "aname": "Sergiano BOCKS",
+        "xname": "Kamogelo MABOKO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "WC",
+        "xaffiliate": "LIM",
+        "aseed": 10,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0",
+        "apoints": [
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3991,
+        "lost": 4530,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 10,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 3991,
+        "xid": 4759,
+        "aname": "Kamogelo MABOKO",
+        "xname": "Ayola MBETHE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 5",
+        "apoints": [
+            7,
+            5
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            12,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4759,
+        "lost": 3991,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:00",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 11,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3803,
+        "xid": 4760,
+        "aname": "Kwanda NHLAPO",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "EC",
+        "aseed": 11,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 7 6",
+        "apoints": [
+            11,
+            7,
+            6
+        ],
+        "xpoints": [
+            9,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            24,
+            31
+        ],
+        "games": [
+            1,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4760,
+        "lost": 3803,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:15",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 11,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3803,
+        "xid": 4036,
+        "aname": "Kwanda NHLAPO",
+        "xname": "Kgotso SEKIKE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "FS",
+        "aseed": 11,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -2",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            2
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            10
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3803,
+        "lost": 4036,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:30",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 11,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4036,
+        "xid": 4760,
+        "aname": "Kgotso SEKIKE",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 5",
+        "apoints": [
+            6,
+            5
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            11,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4760,
+        "lost": 4036,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 12,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3908,
+        "xid": 4556,
+        "aname": "Melokuhle CELE",
+        "xname": "Umr JACOBS",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "CW",
+        "aseed": 12,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 10",
+        "apoints": [
+            7,
+            10
+        ],
+        "xpoints": [
+            11,
+            12
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            17,
+            23
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4556,
+        "lost": 3908,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 12,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3908,
+        "xid": 4535,
+        "aname": "Melokuhle CELE",
+        "xname": "Yaqoob DOMINGO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "CT",
+        "aseed": 12,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "5 -2 4",
+        "apoints": [
+            5,
+            11,
+            4
+        ],
+        "xpoints": [
+            11,
+            2,
+            11
+        ],
+        "agames": 1,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            20,
+            24
+        ],
+        "games": [
+            1,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4535,
+        "lost": 3908,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 16,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 12,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4535,
+        "xid": 4556,
+        "aname": "Yaqoob DOMINGO",
+        "xname": "Umr JACOBS",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "CW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 5",
+        "apoints": [
+            8,
+            5
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            13,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4556,
+        "lost": 4535,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 13,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3910,
+        "xid": 4761,
+        "aname": "Mikyle REDDY",
+        "xname": "Thapelo PAPU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "EC",
+        "aseed": 13,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 2",
+        "apoints": [
+            6,
+            2
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            8,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4761,
+        "lost": 3910,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 13,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3910,
+        "xid": 4634,
+        "aname": "Mikyle REDDY",
+        "xname": "Chris-Will SKIPPERS",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "WC",
+        "aseed": 13,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3910,
+        "lost": 4634,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 17,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 13,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4634,
+        "xid": 4761,
+        "aname": "Chris-Will SKIPPERS",
+        "xname": "Thapelo PAPU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "WC",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0",
+        "apoints": [
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4761,
+        "lost": 4634,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 14,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3989,
+        "xid": 1300,
+        "aname": "Shaun PAKO",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "BOT",
+        "aseed": 14,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-3 -8",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            3,
+            8
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            11
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3989,
+        "lost": 1300,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 14,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3989,
+        "xid": 3879,
+        "aname": "Shaun PAKO",
+        "xname": "Ezra REDLINGHYS",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "UMG",
+        "aseed": 14,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -9",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            9
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            15
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3989,
+        "lost": 3879,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 18,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 14,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 3879,
+        "xid": 1300,
+        "aname": "Ezra REDLINGHYS",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "BOT",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "2 4",
+        "apoints": [
+            2,
+            4
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            6,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 1300,
+        "lost": 3879,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 15,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 3962,
+        "xid": 4600,
+        "aname": "Kabelo PHUTSISI",
+        "xname": "Israel GWERU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EKU",
+        "xaffiliate": "ZIM",
+        "aseed": 15,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 5 0",
+        "apoints": [
+            11,
+            5,
+            0
+        ],
+        "xpoints": [
+            9,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            16,
+            31
+        ],
+        "games": [
+            1,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4600,
+        "lost": 3962,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 15,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 3962,
+        "xid": 4237,
+        "aname": "Kabelo PHUTSISI",
+        "xname": "Taylin NAIPAL",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EKU",
+        "xaffiliate": "UMG",
+        "aseed": 15,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -8",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            8
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            14
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3962,
+        "lost": 4237,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 19,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 15,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 4237,
+        "xid": 4600,
+        "aname": "Taylin NAIPAL",
+        "xname": "Israel GWERU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "10 4",
+        "apoints": [
+            10,
+            4
+        ],
+        "xpoints": [
+            12,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            14,
+            23
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4600,
+        "lost": 4237,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4539,
+        "xid": 4599,
+        "aname": "Turzo RANCK",
+        "xname": "Makomborero MAPOSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "ZIM",
+        "aseed": 16,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -9",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            9
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            17
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4539,
+        "lost": 4599,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4539,
+        "xid": 3963,
+        "aname": "Turzo RANCK",
+        "xname": "Lesego SOHA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "EKU",
+        "aseed": 16,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -5",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            5,
+            5
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            10
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4539,
+        "lost": 3963,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 20,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 3963,
+        "xid": 4599,
+        "aname": "Lesego SOHA",
+        "xname": "Makomborero MAPOSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EKU",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 4",
+        "apoints": [
+            4,
+            4
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            8,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4599,
+        "lost": 3963,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "13:45",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 17,
+        "match": 1,
+        "switch": "",
+        "a": "a",
+        "x": "c",
+        "aid": 4041,
+        "xid": 4601,
+        "aname": "Onalenna MATEKANE",
+        "xname": "Emmanuel TICHIWANGANI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "ZIM",
+        "aseed": 17,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4041,
+        "lost": 4601,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:00",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 17,
+        "match": 2,
+        "switch": "",
+        "a": "a",
+        "x": "b",
+        "aid": 4041,
+        "xid": 3990,
+        "aname": "Onalenna MATEKANE",
+        "xname": "Kwena MOKWENA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "LIM",
+        "aseed": 17,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "2 4",
+        "apoints": [
+            2,
+            4
+        ],
+        "xpoints": [
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 2,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            6,
+            22
+        ],
+        "games": [
+            0,
+            2
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3990,
+        "lost": 4041,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Tue, 07 Oct",
+        "time": "14:15",
+        "table": 21,
+        "duration": 15,
+        "division": 1,
+        "stage": "group",
+        "group": 17,
+        "match": 3,
+        "switch": "",
+        "a": "b",
+        "x": "c",
+        "aid": 3990,
+        "xid": 4601,
+        "aname": "Kwena MOKWENA",
+        "xname": "Emmanuel TICHIWANGANI",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". .",
+        "apoints": [
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0
+        ],
+        "agames": 2,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            22,
+            0
+        ],
+        "games": [
+            2,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3990,
+        "lost": 4601,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 1,
+        "switch": "",
+        "a": "1a",
+        "x": "0b",
+        "aid": 4010,
+        "xid": 1000,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": " ",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4010,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 2,
+        "switch": "",
+        "a": "0b",
+        "x": "8b",
+        "aid": 1000,
+        "xid": 4696,
+        "aname": "BYE  ",
+        "xname": "Omphemetse MOKHUTSANE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4696,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 3,
+        "switch": "",
+        "a": "13b",
+        "x": "0b",
+        "aid": 3910,
+        "xid": 1000,
+        "aname": "Mikyle REDDY",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": " ",
+        "aseed": 13,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3910,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 4,
+        "switch": "",
+        "a": "0b",
+        "x": "14a",
+        "aid": 1000,
+        "xid": 3989,
+        "aname": "BYE  ",
+        "xname": "Shaun PAKO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "LIM",
+        "aseed": "",
+        "xseed": 14,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3989,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 5,
+        "switch": "",
+        "a": "9a",
+        "x": "0b",
+        "aid": 4762,
+        "xid": 1000,
+        "aname": "Kwanganathi DAFETI",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4762,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 6,
+        "switch": "",
+        "a": "0b",
+        "x": "4b",
+        "aid": 1000,
+        "xid": 4778,
+        "aname": "BYE  ",
+        "xname": "Luyanda NGOBESE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "UMZ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4778,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 7,
+        "switch": "",
+        "a": "2b",
+        "x": "0b",
+        "aid": 4466,
+        "xid": 1000,
+        "aname": "Reamogetswe LEPHEANA",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4466,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 8,
+        "switch": "",
+        "a": "0b",
+        "x": "5a",
+        "aid": 1000,
+        "xid": 3381,
+        "aname": "BYE  ",
+        "xname": "Samuel SCHRIEFF",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 5,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3381,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 9,
+        "switch": "",
+        "a": "6a",
+        "x": "0b",
+        "aid": 3800,
+        "xid": 1000,
+        "aname": "Mhlengi VILAKAZI",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": " ",
+        "aseed": 6,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3800,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 10,
+        "switch": "",
+        "a": "0b",
+        "x": "7b",
+        "aid": 1000,
+        "xid": 4732,
+        "aname": "BYE  ",
+        "xname": "Reabetswe MOKWANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "LIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4732,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "12:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 11,
+        "switch": "",
+        "a": "15b",
+        "x": "17b",
+        "aid": 3962,
+        "xid": 4041,
+        "aname": "Kabelo PHUTSISI",
+        "xname": "Onalenna MATEKANE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EKU",
+        "xaffiliate": "FS",
+        "aseed": 15,
+        "xseed": 17,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 8 -4 -4",
+        "apoints": [
+            11,
+            8,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            11,
+            4,
+            4
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            41,
+            27
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3962,
+        "lost": 4041,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 12,
+        "switch": "",
+        "a": "0b",
+        "x": "11a",
+        "aid": 1000,
+        "xid": 4760,
+        "aname": "BYE  ",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4760,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 13,
+        "switch": "",
+        "a": "12a",
+        "x": "0b",
+        "aid": 4556,
+        "xid": 1000,
+        "aname": "Umr JACOBS",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CW",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4556,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 14,
+        "switch": "",
+        "a": "0b",
+        "x": "16b",
+        "aid": 1000,
+        "xid": 4599,
+        "aname": "BYE  ",
+        "xname": "Makomborero MAPOSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4599,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 15,
+        "switch": "",
+        "a": "10b",
+        "x": "0b",
+        "aid": 3991,
+        "xid": 1000,
+        "aname": "Kamogelo MABOKO",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3991,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 16,
+        "switch": "",
+        "a": "0b",
+        "x": "3a",
+        "aid": 1000,
+        "xid": 3850,
+        "aname": "BYE  ",
+        "xname": "Vaishant PADAYACHEE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3850,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 17,
+        "switch": "",
+        "a": "4a",
+        "x": "0b",
+        "aid": 4018,
+        "xid": 1000,
+        "aname": "Aakash GOKHALE",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": " ",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4018,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 18,
+        "switch": "",
+        "a": "0b",
+        "x": "9b",
+        "aid": 1000,
+        "xid": 3249,
+        "aname": "BYE  ",
+        "xname": "Micah JONES",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 9,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3249,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 19,
+        "switch": "",
+        "a": "11b",
+        "x": "0b",
+        "aid": 3803,
+        "xid": 1000,
+        "aname": "Kwanda NHLAPO",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": " ",
+        "aseed": 11,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3803,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 20,
+        "switch": "",
+        "a": "0b",
+        "x": "15a",
+        "aid": 1000,
+        "xid": 4600,
+        "aname": "BYE  ",
+        "xname": "Israel GWERU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4600,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 21,
+        "switch": "",
+        "a": "13a",
+        "x": "0b",
+        "aid": 4761,
+        "xid": 1000,
+        "aname": "Thapelo PAPU",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4761,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "12:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 22,
+        "switch": "",
+        "a": "5b",
+        "x": "1b",
+        "aid": 4372,
+        "xid": 4697,
+        "aname": "Yuvaan SINGH",
+        "xname": "Boitshepo SEMETSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "NW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -4 -6",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            7,
+            4,
+            6
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            17
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4372,
+        "lost": 4697,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 23,
+        "switch": "",
+        "a": "17a",
+        "x": "0b",
+        "aid": 3990,
+        "xid": 1000,
+        "aname": "Kwena MOKWENA",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3990,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 24,
+        "switch": "",
+        "a": "0b",
+        "x": "7a",
+        "aid": 1000,
+        "xid": 4236,
+        "aname": "BYE  ",
+        "xname": "Caydon BRIGRAJ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "UMG",
+        "aseed": "",
+        "xseed": 7,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4236,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 25,
+        "switch": "",
+        "a": "8a",
+        "x": "0b",
+        "aid": 3479,
+        "xid": 1000,
+        "aname": "Amogelang MARUMO",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": " ",
+        "aseed": 8,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3479,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 26,
+        "switch": "",
+        "a": "0b",
+        "x": "6b",
+        "aid": 1000,
+        "xid": 4114,
+        "aname": "BYE  ",
+        "xname": "Zayd HOOSEN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4114,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 27,
+        "switch": "",
+        "a": "3b",
+        "x": "0b",
+        "aid": 3951,
+        "xid": 1000,
+        "aname": "Kai WINDVOGEL",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EDEN",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 3951,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 28,
+        "switch": "",
+        "a": "0b",
+        "x": "16a",
+        "aid": 1000,
+        "xid": 4539,
+        "aname": "BYE  ",
+        "xname": "Turzo RANCK",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 16,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 4539,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 29,
+        "switch": "",
+        "a": "10a",
+        "x": "0b",
+        "aid": 4759,
+        "xid": 1000,
+        "aname": "Ayola MBETHE",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4759,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 30,
+        "switch": "",
+        "a": "0b",
+        "x": "14b",
+        "aid": 1000,
+        "xid": 1300,
+        "aname": "BYE  ",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "BOT",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 1300,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 31,
+        "switch": "",
+        "a": "12b",
+        "x": "0b",
+        "aid": 4535,
+        "xid": 1000,
+        "aname": "Yaqoob DOMINGO",
+        "xname": "BYE  ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": " ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . .",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            0,
+            0
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            0
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 4535,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "",
+        "time": "",
+        "table": "",
+        "duration": "",
+        "division": 1,
+        "stage": "knockout",
+        "group": 64,
+        "match": 32,
+        "switch": "",
+        "a": "0b",
+        "x": "2a",
+        "aid": 1000,
+        "xid": 3864,
+        "aname": "BYE  ",
+        "xname": "Saeed TIFFLIN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": " ",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "0 0 0",
+        "apoints": [
+            0,
+            0,
+            0
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            0,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            0,
+            2
+        ],
+        "won": 3864,
+        "lost": 1000,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "14:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4010,
+        "xid": 4696,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Omphemetse MOKHUTSANE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "NW",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-1 -3 -2",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            1,
+            3,
+            2
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            6
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 4696,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "14:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3910,
+        "xid": 3989,
+        "aname": "Mikyle REDDY",
+        "xname": "Shaun PAKO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "LIM",
+        "aseed": 13,
+        "xseed": 14,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 4 7",
+        "apoints": [
+            3,
+            4,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            14,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3989,
+        "lost": 3910,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "14:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4762,
+        "xid": 4778,
+        "aname": "Kwanganathi DAFETI",
+        "xname": "Luyanda NGOBESE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "UMZ",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -7 -10",
+        "apoints": [
+            11,
+            11,
+            12
+        ],
+        "xpoints": [
+            4,
+            7,
+            10
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            34,
+            21
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4762,
+        "lost": 4778,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 16,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4466,
+        "xid": 3381,
+        "aname": "Reamogetswe LEPHEANA",
+        "xname": "Samuel SCHRIEFF",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 5,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 4 7",
+        "apoints": [
+            6,
+            4,
+            7
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            17,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3381,
+        "lost": 4466,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3800,
+        "xid": 4732,
+        "aname": "Mhlengi VILAKAZI",
+        "xname": "Reabetswe MOKWANA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "LIM",
+        "aseed": 6,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 -3 9 -5",
+        "apoints": [
+            11,
+            11,
+            9,
+            11
+        ],
+        "xpoints": [
+            5,
+            3,
+            11,
+            5
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            42,
+            24
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3800,
+        "lost": 4732,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3962,
+        "xid": 4760,
+        "aname": "Kabelo PHUTSISI",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EKU",
+        "xaffiliate": "EC",
+        "aseed": 15,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 10 9",
+        "apoints": [
+            8,
+            10,
+            9
+        ],
+        "xpoints": [
+            11,
+            12,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            27,
+            34
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4760,
+        "lost": 3962,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4556,
+        "xid": 4599,
+        "aname": "Umr JACOBS",
+        "xname": "Makomborero MAPOSA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CW",
+        "xaffiliate": "ZIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 5 -9 -9",
+        "apoints": [
+            11,
+            5,
+            11,
+            11
+        ],
+        "xpoints": [
+            9,
+            11,
+            9,
+            9
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            38,
+            38
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4556,
+        "lost": 4599,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3991,
+        "xid": 3850,
+        "aname": "Kamogelo MABOKO",
+        "xname": "Vaishant PADAYACHEE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 7 5",
+        "apoints": [
+            6,
+            7,
+            5
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            18,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3850,
+        "lost": 3991,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:00",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 9,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4018,
+        "xid": 3249,
+        "aname": "Aakash GOKHALE",
+        "xname": "Micah JONES",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "CT",
+        "aseed": 4,
+        "xseed": 9,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-5 7 -11 -8",
+        "apoints": [
+            11,
+            7,
+            13,
+            11
+        ],
+        "xpoints": [
+            5,
+            11,
+            11,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            42,
+            35
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 3249,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 16,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 10,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3803,
+        "xid": 4600,
+        "aname": "Kwanda NHLAPO",
+        "xname": "Israel GWERU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "ZIM",
+        "aseed": 11,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 11 -12 -6",
+        "apoints": [
+            11,
+            11,
+            14,
+            11
+        ],
+        "xpoints": [
+            4,
+            13,
+            12,
+            6
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            47,
+            35
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3803,
+        "lost": 4600,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 17,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 11,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4761,
+        "xid": 4372,
+        "aname": "Thapelo PAPU",
+        "xname": "Yuvaan SINGH",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". -2 -6",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            0,
+            2,
+            6
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            8
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4761,
+        "lost": 4372,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 12,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3990,
+        "xid": 4236,
+        "aname": "Kwena MOKWENA",
+        "xname": "Caydon BRIGRAJ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "LIM",
+        "xaffiliate": "UMG",
+        "aseed": "",
+        "xseed": 7,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -9 7 10 8",
+        "apoints": [
+            11,
+            11,
+            7,
+            10,
+            8
+        ],
+        "xpoints": [
+            9,
+            9,
+            11,
+            12,
+            11
+        ],
+        "agames": 2,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            47,
+            52
+        ],
+        "games": [
+            2,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4236,
+        "lost": 3990,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 13,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3479,
+        "xid": 4114,
+        "aname": "Amogelang MARUMO",
+        "xname": "Zayd HOOSEN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "JTTA",
+        "aseed": 8,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-6 -7 -5",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            6,
+            7,
+            5
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            18
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3479,
+        "lost": 4114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 14,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3951,
+        "xid": 4539,
+        "aname": "Kai WINDVOGEL",
+        "xname": "Turzo RANCK",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EDEN",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 16,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 2 3",
+        "apoints": [
+            7,
+            2,
+            3
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            12,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4539,
+        "lost": 3951,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "15:30",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 15,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4759,
+        "xid": 1300,
+        "aname": "Ayola MBETHE",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "BOT",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 2 10 9",
+        "apoints": [
+            11,
+            2,
+            10,
+            9
+        ],
+        "xpoints": [
+            9,
+            11,
+            12,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            32,
+            43
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 1300,
+        "lost": 4759,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Wed, 08 Oct",
+        "time": "16:00",
+        "table": 16,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 32,
+        "match": 16,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4535,
+        "xid": 3864,
+        "aname": "Yaqoob DOMINGO",
+        "xname": "Saeed TIFFLIN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CT",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "8 9 9",
+        "apoints": [
+            8,
+            9,
+            9
+        ],
+        "xpoints": [
+            11,
+            11,
+            11
+        ],
+        "agames": 0,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            26,
+            33
+        ],
+        "games": [
+            0,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3864,
+        "lost": 4535,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 12,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4010,
+        "xid": 3989,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Shaun PAKO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "LIM",
+        "aseed": 1,
+        "xseed": 14,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 -6 9 -8 -9",
+        "apoints": [
+            7,
+            11,
+            9,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            6,
+            11,
+            8,
+            9
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            49,
+            45
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 3989,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 13,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4762,
+        "xid": 3381,
+        "aname": "Kwanganathi DAFETI",
+        "xname": "Samuel SCHRIEFF",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 5,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 6 11 5",
+        "apoints": [
+            11,
+            6,
+            11,
+            5
+        ],
+        "xpoints": [
+            7,
+            11,
+            13,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            33,
+            42
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 3381,
+        "lost": 4762,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 14,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3800,
+        "xid": 4760,
+        "aname": "Mhlengi VILAKAZI",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "ETK",
+        "xaffiliate": "EC",
+        "aseed": 6,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "10 -10 9 6",
+        "apoints": [
+            10,
+            12,
+            9,
+            6
+        ],
+        "xpoints": [
+            12,
+            10,
+            11,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            37,
+            44
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 4760,
+        "lost": 3800,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 15,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4556,
+        "xid": 3850,
+        "aname": "Umr JACOBS",
+        "xname": "Vaishant PADAYACHEE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "CW",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 8 -2 -5",
+        "apoints": [
+            11,
+            8,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            11,
+            2,
+            5
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            41,
+            26
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4556,
+        "lost": 3850,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 18,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 5,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4018,
+        "xid": 3803,
+        "aname": "Aakash GOKHALE",
+        "xname": "Kwanda NHLAPO",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "ETK",
+        "aseed": 4,
+        "xseed": 11,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -3 9 5 -3",
+        "apoints": [
+            11,
+            11,
+            9,
+            5,
+            11
+        ],
+        "xpoints": [
+            4,
+            3,
+            11,
+            11,
+            3
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            47,
+            32
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 3803,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 19,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 6,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4761,
+        "xid": 4236,
+        "aname": "Thapelo PAPU",
+        "xname": "Caydon BRIGRAJ",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "UMG",
+        "aseed": "",
+        "xseed": 7,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-15 -8 9 -8",
+        "apoints": [
+            17,
+            11,
+            9,
+            11
+        ],
+        "xpoints": [
+            15,
+            8,
+            11,
+            8
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            48,
+            42
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4761,
+        "lost": 4236,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 20,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 7,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3479,
+        "xid": 4539,
+        "aname": "Amogelang MARUMO",
+        "xname": "Turzo RANCK",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "CT",
+        "aseed": 8,
+        "xseed": 16,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -8 -6",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            8,
+            6
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            22
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 3479,
+        "lost": 4539,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:00",
+        "table": 21,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 16,
+        "match": 8,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 1300,
+        "xid": 3864,
+        "aname": "Agobakwe SEBETLELA",
+        "xname": "Saeed TIFFLIN",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "BOT",
+        "xaffiliate": "JTTA",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -1 -12",
+        "apoints": [
+            11,
+            11,
+            14
+        ],
+        "xpoints": [
+            9,
+            1,
+            12
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            36,
+            22
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 1300,
+        "lost": 3864,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:30",
+        "table": 7,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4010,
+        "xid": 3381,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Samuel SCHRIEFF",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "CT",
+        "aseed": 1,
+        "xseed": 5,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-13 -5 -9",
+        "apoints": [
+            15,
+            11,
+            11
+        ],
+        "xpoints": [
+            13,
+            5,
+            9
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            37,
+            27
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 3381,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:30",
+        "table": 8,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4760,
+        "xid": 4556,
+        "aname": "Nzameko NGAMBU",
+        "xname": "Umr JACOBS",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "EC",
+        "xaffiliate": "CW",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "19 -7 9 -6 -5",
+        "apoints": [
+            19,
+            11,
+            9,
+            11,
+            11
+        ],
+        "xpoints": [
+            21,
+            7,
+            11,
+            6,
+            5
+        ],
+        "agames": 3,
+        "xgames": 2,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            61,
+            50
+        ],
+        "games": [
+            3,
+            2
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4760,
+        "lost": 4556,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:30",
+        "table": 9,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4018,
+        "xid": 4761,
+        "aname": "Aakash GOKHALE",
+        "xname": "Thapelo PAPU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "EC",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -7 -2",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            4,
+            7,
+            2
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            13
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 4761,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "11:30",
+        "table": 10,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 3479,
+        "xid": 1300,
+        "aname": "Amogelang MARUMO",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "FS",
+        "xaffiliate": "BOT",
+        "aseed": 8,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 -7 10 9",
+        "apoints": [
+            7,
+            11,
+            10,
+            9
+        ],
+        "xpoints": [
+            11,
+            7,
+            12,
+            11
+        ],
+        "agames": 1,
+        "xgames": 3,
+        "amatches": 0,
+        "xmatches": 1,
+        "points": [
+            37,
+            41
+        ],
+        "games": [
+            1,
+            3
+        ],
+        "matches": [
+            0,
+            1
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 1300,
+        "lost": 3479,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "12:30",
+        "table": 5,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4010,
+        "xid": 4760,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Nzameko NGAMBU",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "EC",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 -8 -8",
+        "apoints": [
+            11,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            8,
+            8
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            33,
+            24
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 4760,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "12:30",
+        "table": 6,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4018,
+        "xid": 1300,
+        "aname": "Aakash GOKHALE",
+        "xname": "Agobakwe SEBETLELA",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "GN",
+        "xaffiliate": "BOT",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-11 -6 -6",
+        "apoints": [
+            13,
+            11,
+            11
+        ],
+        "xpoints": [
+            11,
+            6,
+            6
+        ],
+        "agames": 3,
+        "xgames": 0,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            35,
+            23
+        ],
+        "games": [
+            3,
+            0
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4018,
+        "lost": 1300,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jsbu11",
+        "category": "junior",
+        "date": "Thu, 09 Oct",
+        "time": "13:30",
+        "table": 1,
+        "duration": 30,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": "",
+        "a": "",
+        "x": "",
+        "aid": 4010,
+        "xid": 4018,
+        "aname": "Diyaan RAMCHURRAN",
+        "xname": "Aakash GOKHALE",
+        "taids": "",
+        "txids": "",
+        "tanames": "",
+        "txnames": "",
+        "aaffiliate": "UMG",
+        "xaffiliate": "GN",
+        "aseed": 1,
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-8 6 -9 -7",
+        "apoints": [
+            11,
+            6,
+            11,
+            11
+        ],
+        "xpoints": [
+            8,
+            11,
+            9,
+            7
+        ],
+        "agames": 3,
+        "xgames": 1,
+        "amatches": 1,
+        "xmatches": 0,
+        "points": [
+            39,
+            35
+        ],
+        "games": [
+            3,
+            1
+        ],
+        "matches": [
+            1,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 4010,
+        "lost": 4018,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]

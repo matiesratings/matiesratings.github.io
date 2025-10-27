@@ -1,0 +1,3606 @@
+[
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 12,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 1,
+        "switch": -1,
+        "a": "c",
+        "x": "a",
+        "aid": 108,
+        "xid": 102,
+        "aname": "Free State",
+        "xname": "Cape Town",
+        "taids": [
+            2634,
+            2508,
+            3063,
+            2634,
+            2508
+        ],
+        "txids": [
+            1615,
+            1629,
+            2295,
+            1629,
+            1615
+        ],
+        "tanames": [
+            "Kgalalelo PHEKONYANE",
+            "Oreneile MORAILE",
+            "Ricardo CARRASCO",
+            "Kgalalelo PHEKONYANE",
+            "Oreneile MORAILE"
+        ],
+        "txnames": [
+            "Jodie GALANT",
+            "Cuten LODEWYK",
+            "Nashwin PIENAAR",
+            "Cuten LODEWYK",
+            "Jodie GALANT"
+        ],
+        "aaffiliate": "FS",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 9 8, 7 2 6, -2 9 11 8",
+        "apoints": [
+            [
+                7,
+                9,
+                8
+            ],
+            [
+                7,
+                2,
+                6
+            ],
+            [
+                11,
+                9,
+                11,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                2,
+                11,
+                13,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            78,
+            103
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "15:00",
+        "table": 13,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 2,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 207,
+        "xid": 102,
+        "aname": "Ethekwini B",
+        "xname": "Cape Town",
+        "taids": [
+            3388,
+            2716,
+            3874,
+            3388,
+            2716
+        ],
+        "txids": [
+            1615,
+            1629,
+            3048,
+            1629,
+            1615
+        ],
+        "tanames": [
+            "Dev GOKAL",
+            "Raidan RAGUMAN",
+            "Nelokuhle MGENGE",
+            "Dev GOKAL",
+            "Raidan RAGUMAN"
+        ],
+        "txnames": [
+            "Jodie GALANT",
+            "Cuten LODEWYK",
+            "Christian POGGENPOEL",
+            "Cuten LODEWYK",
+            "Jodie GALANT"
+        ],
+        "aaffiliate": "ETK-B",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 -6 5 3, 10 8 6, -8 10 9 9",
+        "apoints": [
+            [
+                4,
+                11,
+                5,
+                3
+            ],
+            [
+                10,
+                8,
+                6
+            ],
+            [
+                11,
+                10,
+                9,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                6,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ],
+            [
+                8,
+                12,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            86,
+            115
+        ],
+        "games": [
+            2,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 207,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 5,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 1,
+        "match": 3,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 108,
+        "xid": 207,
+        "aname": "Free State",
+        "xname": "Ethekwini B",
+        "taids": [
+            2634,
+            3066,
+            2508,
+            2634,
+            3066
+        ],
+        "txids": [
+            2716,
+            3388,
+            3874,
+            3388,
+            2716
+        ],
+        "tanames": [
+            "Kgalalelo PHEKONYANE",
+            "Bahumi SESEANE",
+            "Oreneile MORAILE",
+            "Kgalalelo PHEKONYANE",
+            "Bahumi SESEANE"
+        ],
+        "txnames": [
+            "Raidan RAGUMAN",
+            "Dev GOKAL",
+            "Nelokuhle MGENGE",
+            "Dev GOKAL",
+            "Raidan RAGUMAN"
+        ],
+        "aaffiliate": "FS",
+        "xaffiliate": "ETK-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 7 -9 -11 -5, 9 3 7, 8 -7 6 -9 -5, 9 -8 9 -11 -5",
+        "apoints": [
+            [
+                9,
+                7,
+                11,
+                13,
+                11
+            ],
+            [
+                9,
+                3,
+                7
+            ],
+            [
+                8,
+                11,
+                6,
+                11,
+                11
+            ],
+            [
+                9,
+                11,
+                9,
+                13,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                9,
+                11,
+                5
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                7,
+                11,
+                9,
+                5
+            ],
+            [
+                11,
+                8,
+                11,
+                11,
+                5
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            3
+        ],
+        "xgames": [
+            2,
+            3,
+            2,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            170,
+            169
+        ],
+        "games": [
+            9,
+            9
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 108,
+        "lost": 207,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 13,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 116,
+        "xid": 119,
+        "aname": "Umgungundlovu",
+        "xname": "West Coast",
+        "taids": [
+            2103,
+            3375,
+            1372,
+            2103,
+            3375
+        ],
+        "txids": [
+            4747,
+            3759,
+            3760,
+            3759,
+            4747
+        ],
+        "tanames": [
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE",
+            "Sphamandla MNGADI",
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE"
+        ],
+        "txnames": [
+            "Aiden JANSEN",
+            "Amaru JOSEPH",
+            "Hayden PERRANG",
+            "Amaru JOSEPH",
+            "Aiden JANSEN"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "WC",
+        "aseed": 2,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . ., . . ., . . .",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            0
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 116,
+        "lost": 119,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 1,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 2,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 109,
+        "xid": 116,
+        "aname": "Gauteng North",
+        "xname": "Umgungundlovu",
+        "taids": [
+            3459,
+            3432,
+            3834,
+            3459,
+            3432
+        ],
+        "txids": [
+            3375,
+            3448,
+            1372,
+            3448,
+            3375
+        ],
+        "tanames": [
+            "Ethan MARTIN",
+            "Motshele LEKALAKALA",
+            "JG DU TOIT",
+            "Ethan MARTIN",
+            "Motshele LEKALAKALA"
+        ],
+        "txnames": [
+            "Mlungisi MAKHAYE",
+            "Tayden ROYAPPEN",
+            "Sphamandla MNGADI",
+            "Tayden ROYAPPEN",
+            "Mlungisi MAKHAYE"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "UMG",
+        "aseed": "",
+        "xseed": 2,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 9 -9 5, 14 3 5, 10 5 8",
+        "apoints": [
+            [
+                6,
+                9,
+                11,
+                5
+            ],
+            [
+                14,
+                3,
+                5
+            ],
+            [
+                10,
+                5,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                9,
+                11
+            ],
+            [
+                16,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            76,
+            114
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 116,
+        "lost": 109,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 6,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 2,
+        "match": 3,
+        "switch": 1,
+        "a": "b",
+        "x": "c",
+        "aid": 109,
+        "xid": 119,
+        "aname": "Gauteng North",
+        "xname": "West Coast",
+        "taids": [
+            3450,
+            3459,
+            3834,
+            3450,
+            3459
+        ],
+        "txids": [
+            4747,
+            3759,
+            3760,
+            3759,
+            4747
+        ],
+        "tanames": [
+            "Derick DE KOCK",
+            "Ethan MARTIN",
+            "JG DU TOIT",
+            "Derick DE KOCK",
+            "Ethan MARTIN"
+        ],
+        "txnames": [
+            "Aiden JANSEN",
+            "Amaru JOSEPH",
+            "Hayden PERRANG",
+            "Amaru JOSEPH",
+            "Aiden JANSEN"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "WC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": ". . ., . . ., . . .",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            0
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            99,
+            0
+        ],
+        "games": [
+            9,
+            0
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            0
+        ],
+        "won": 109,
+        "lost": 119,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 14,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 107,
+        "xid": 111,
+        "aname": "Ethekwini",
+        "xname": "Limpopo",
+        "taids": [
+            3384,
+            3505,
+            3382,
+            3384,
+            3505
+        ],
+        "txids": [
+            1453,
+            1610,
+            3995,
+            1610,
+            1453
+        ],
+        "tanames": [
+            "Siphelele SITHOLE",
+            "David NAIDOO",
+            "Daniel NAIDOO",
+            "Siphelele SITHOLE",
+            "David NAIDOO"
+        ],
+        "txnames": [
+            "Tebogo MAAKE",
+            "Mahlatse RAMOLLO",
+            "Temoso LETJOU",
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "LIM",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "12 8 -7 -8 -4, 4 4 6, 4 -9 9 11, 10 7 8",
+        "apoints": [
+            [
+                12,
+                8,
+                11,
+                11,
+                11
+            ],
+            [
+                4,
+                4,
+                6
+            ],
+            [
+                4,
+                11,
+                9,
+                11
+            ],
+            [
+                10,
+                7,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                14,
+                11,
+                7,
+                8,
+                4
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                9,
+                11,
+                13
+            ],
+            [
+                12,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            1,
+            0
+        ],
+        "xgames": [
+            2,
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "points": [
+            127,
+            155
+        ],
+        "games": [
+            4,
+            11
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 111,
+        "lost": 107,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "11:00",
+        "table": 15,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 2,
+        "switch": 1,
+        "a": "d",
+        "x": "b",
+        "aid": 114,
+        "xid": 110,
+        "aname": "North West",
+        "xname": "Johannesburg",
+        "taids": [
+            8486,
+            4702,
+            3668,
+            8486,
+            4702
+        ],
+        "txids": [
+            2654,
+            4082,
+            4326,
+            4082,
+            2654
+        ],
+        "tanames": [
+            "Katlego KHABELA",
+            "Siyabonga MALEPA",
+            "Orapeleng DITHIPE",
+            "Katlego KHABELA",
+            "Siyabonga MALEPA"
+        ],
+        "txnames": [
+            "Bimal JIVRAJ",
+            "Manqoba NYAMATE",
+            "Awande ZULU",
+            "Manqoba NYAMATE",
+            "Bimal JIVRAJ"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "JHB",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 2 4, 5 4 6, 10 1 6",
+        "apoints": [
+            [
+                3,
+                2,
+                4
+            ],
+            [
+                5,
+                4,
+                6
+            ],
+            [
+                10,
+                1,
+                6
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            41,
+            100
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 110,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "15:00",
+        "table": 14,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 3,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 110,
+        "xid": 107,
+        "aname": "Johannesburg",
+        "xname": "Ethekwini",
+        "taids": [
+            2654,
+            4082,
+            4326,
+            2654,
+            4082
+        ],
+        "txids": [
+            3382,
+            3384,
+            3505,
+            3384,
+            3382
+        ],
+        "tanames": [
+            "Bimal JIVRAJ",
+            "Manqoba NYAMATE",
+            "Awande ZULU",
+            "Bimal JIVRAJ",
+            "Manqoba NYAMATE"
+        ],
+        "txnames": [
+            "Daniel NAIDOO",
+            "Siphelele SITHOLE",
+            "David NAIDOO",
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO"
+        ],
+        "aaffiliate": "JHB",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 8 -10 14, 3 6 -9 -10 -8, 10 4 5, 1 11 6",
+        "apoints": [
+            [
+                7,
+                8,
+                12,
+                14
+            ],
+            [
+                3,
+                6,
+                11,
+                12,
+                11
+            ],
+            [
+                10,
+                4,
+                5
+            ],
+            [
+                1,
+                11,
+                6
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                10,
+                16
+            ],
+            [
+                11,
+                11,
+                9,
+                10,
+                8
+            ],
+            [
+                12,
+                11,
+                11
+            ],
+            [
+                11,
+                13,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            3,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            2,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "points": [
+            121,
+            166
+        ],
+        "games": [
+            4,
+            11
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 110,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "15:00",
+        "table": 15,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 4,
+        "switch": -1,
+        "a": "d",
+        "x": "c",
+        "aid": 114,
+        "xid": 111,
+        "aname": "North West",
+        "xname": "Limpopo",
+        "taids": [
+            4702,
+            8486,
+            3668,
+            4702,
+            8486
+        ],
+        "txids": [
+            1453,
+            1610,
+            3995,
+            1610,
+            1453
+        ],
+        "tanames": [
+            "Siyabonga MALEPA",
+            "Katlego KHABELA",
+            "Orapeleng DITHIPE",
+            "Siyabonga MALEPA",
+            "Katlego KHABELA"
+        ],
+        "txnames": [
+            "Tebogo MAAKE",
+            "Mahlatse RAMOLLO",
+            "Temoso LETJOU",
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "LIM",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 6 9 4, 4 1 6, 4 4 8",
+        "apoints": [
+            [
+                11,
+                6,
+                9,
+                4
+            ],
+            [
+                4,
+                1,
+                6
+            ],
+            [
+                4,
+                4,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                9,
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            1,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            57,
+            108
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 111,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 7,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 5,
+        "switch": -1,
+        "a": "d",
+        "x": "a",
+        "aid": 114,
+        "xid": 107,
+        "aname": "North West",
+        "xname": "Ethekwini",
+        "taids": [
+            8486,
+            3668,
+            4702,
+            8486,
+            3668
+        ],
+        "txids": [
+            3382,
+            3384,
+            3505,
+            3384,
+            3382
+        ],
+        "tanames": [
+            "Katlego KHABELA",
+            "Orapeleng DITHIPE",
+            "Siyabonga MALEPA",
+            "Katlego KHABELA",
+            "Orapeleng DITHIPE"
+        ],
+        "txnames": [
+            "Daniel NAIDOO",
+            "Siphelele SITHOLE",
+            "David NAIDOO",
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO"
+        ],
+        "aaffiliate": "NW",
+        "xaffiliate": "ETK",
+        "aseed": "",
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "1 6 3, 2 7 5, 7 3 2",
+        "apoints": [
+            [
+                1,
+                6,
+                3
+            ],
+            [
+                2,
+                7,
+                5
+            ],
+            [
+                7,
+                3,
+                2
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            36,
+            99
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 114,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "11:30",
+        "table": 8,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 3,
+        "match": 6,
+        "switch": -1,
+        "a": "c",
+        "x": "b",
+        "aid": 111,
+        "xid": 110,
+        "aname": "Limpopo",
+        "xname": "Johannesburg",
+        "taids": [
+            1453,
+            1610,
+            3995,
+            1453,
+            1610
+        ],
+        "txids": [
+            2654,
+            4082,
+            3838,
+            4082,
+            2654
+        ],
+        "tanames": [
+            "Tebogo MAAKE",
+            "Mahlatse RAMOLLO",
+            "Temoso LETJOU",
+            "Tebogo MAAKE",
+            "Mahlatse RAMOLLO"
+        ],
+        "txnames": [
+            "Bimal JIVRAJ",
+            "Manqoba NYAMATE",
+            "Enjun PAN",
+            "Manqoba NYAMATE",
+            "Bimal JIVRAJ"
+        ],
+        "aaffiliate": "LIM",
+        "xaffiliate": "JHB",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 5 6, -6 -3 -6, -4 -7 -5, -8 6 -6 9 -8",
+        "apoints": [
+            [
+                6,
+                5,
+                6
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                6,
+                11,
+                9,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                6,
+                3,
+                6
+            ],
+            [
+                4,
+                7,
+                5
+            ],
+            [
+                8,
+                11,
+                6,
+                11,
+                8
+            ]
+        ],
+        "agames": [
+            0,
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            3,
+            0,
+            0,
+            2
+        ],
+        "amatches": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "points": [
+            131,
+            108
+        ],
+        "games": [
+            9,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 111,
+        "lost": 110,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 12,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "a",
+        "x": "c",
+        "aid": 202,
+        "xid": 104,
+        "aname": "Cape Town B",
+        "xname": "Eastern Cape",
+        "taids": [
+            2708,
+            3329,
+            2246,
+            2708,
+            3329
+        ],
+        "txids": [
+            3768,
+            2560,
+            4048,
+            2560,
+            3768
+        ],
+        "tanames": [
+            "Matthew LINGEVELDT",
+            "Caleb LAWRENCE",
+            "Kian CHAPMAN",
+            "Matthew LINGEVELDT",
+            "Caleb LAWRENCE"
+        ],
+        "txnames": [
+            "Alungile MAQONDO",
+            "Azola MADONYELA",
+            "Zukisani SIGABI",
+            "Azola MADONYELA",
+            "Alungile MAQONDO"
+        ],
+        "aaffiliate": "CT-B",
+        "xaffiliate": "EC",
+        "aseed": 4,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -5 -7, 9 -8 5 -6 -8, -6 5 -5 -11",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                9,
+                11,
+                5,
+                11,
+                11
+            ],
+            [
+                11,
+                5,
+                11,
+                13
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                5,
+                7
+            ],
+            [
+                11,
+                8,
+                11,
+                6,
+                8
+            ],
+            [
+                6,
+                11,
+                5,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            2,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            120,
+            93
+        ],
+        "games": [
+            9,
+            3
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 202,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "13:00",
+        "table": 13,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 2,
+        "switch": 1,
+        "a": "d",
+        "x": "b",
+        "aid": 117,
+        "xid": 216,
+        "aname": "Umzinyathi",
+        "xname": "Umgungundlovu B",
+        "taids": [
+            4783,
+            4782,
+            4781,
+            4783,
+            4782
+        ],
+        "txids": [
+            2120,
+            3427,
+            3921,
+            3427,
+            2120
+        ],
+        "tanames": [
+            "Aphiwe KHUMALO",
+            "Sibani NKISI",
+            "Siyabonga THWALA",
+            "Aphiwe KHUMALO",
+            "Sibani NKISI"
+        ],
+        "txnames": [
+            "Shrian BANDU",
+            "Seth REDLINGHUYS",
+            "Ashlyn RAMTHOL",
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "aaffiliate": "UMZ",
+        "xaffiliate": "UMG-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "4 3 4, 1 3 3, 4 3 4",
+        "apoints": [
+            [
+                4,
+                3,
+                4
+            ],
+            [
+                1,
+                3,
+                3
+            ],
+            [
+                4,
+                3,
+                4
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            29,
+            99
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 216,
+        "lost": 117,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 2,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 3,
+        "switch": -1,
+        "a": "b",
+        "x": "a",
+        "aid": 216,
+        "xid": 202,
+        "aname": "Umgungundlovu B",
+        "xname": "Cape Town B",
+        "taids": [
+            3427,
+            2120,
+            3509,
+            3427,
+            2120
+        ],
+        "txids": [
+            2246,
+            2708,
+            3329,
+            2708,
+            2246
+        ],
+        "tanames": [
+            "Seth REDLINGHUYS",
+            "Shrian BANDU",
+            "Aryik BHUNDOO",
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "txnames": [
+            "Kian CHAPMAN",
+            "Matthew LINGEVELDT",
+            "Caleb LAWRENCE",
+            "Matthew LINGEVELDT",
+            "Kian CHAPMAN"
+        ],
+        "aaffiliate": "UMG-B",
+        "xaffiliate": "CT-B",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "10 -11 -6 6 -6, 7 1 -6 4, 8 3 8, 7 6 9",
+        "apoints": [
+            [
+                10,
+                13,
+                11,
+                6,
+                11
+            ],
+            [
+                7,
+                1,
+                11,
+                4
+            ],
+            [
+                8,
+                3,
+                8
+            ],
+            [
+                7,
+                6,
+                9
+            ]
+        ],
+        "xpoints": [
+            [
+                12,
+                11,
+                6,
+                11,
+                6
+            ],
+            [
+                11,
+                11,
+                6,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            1,
+            0,
+            0
+        ],
+        "xgames": [
+            2,
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "points": [
+            115,
+            151
+        ],
+        "games": [
+            4,
+            11
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 202,
+        "lost": 216,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sat, 04 Oct",
+        "time": "17:00",
+        "table": 3,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 4,
+        "switch": -1,
+        "a": "d",
+        "x": "c",
+        "aid": 117,
+        "xid": 104,
+        "aname": "Umzinyathi",
+        "xname": "Eastern Cape",
+        "taids": [
+            4783,
+            4782,
+            4781,
+            4783,
+            4782
+        ],
+        "txids": [
+            2560,
+            3768,
+            4048,
+            3768,
+            2560
+        ],
+        "tanames": [
+            "Aphiwe KHUMALO",
+            "Sibani NKISI",
+            "Siyabonga THWALA",
+            "Aphiwe KHUMALO",
+            "Sibani NKISI"
+        ],
+        "txnames": [
+            "Azola MADONYELA",
+            "Alungile MAQONDO",
+            "Zukisani SIGABI",
+            "Alungile MAQONDO",
+            "Azola MADONYELA"
+        ],
+        "aaffiliate": "UMZ",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "7 8 6, 1 2 4, 5 3 3",
+        "apoints": [
+            [
+                7,
+                8,
+                6
+            ],
+            [
+                1,
+                2,
+                4
+            ],
+            [
+                5,
+                3,
+                3
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            39,
+            99
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 104,
+        "lost": 117,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 14,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 5,
+        "switch": -1,
+        "a": "d",
+        "x": "a",
+        "aid": 117,
+        "xid": 202,
+        "aname": "Umzinyathi",
+        "xname": "Cape Town B",
+        "taids": [
+            4105,
+            4783,
+            4782,
+            4105,
+            4783
+        ],
+        "txids": [
+            2246,
+            2708,
+            3324,
+            2708,
+            2246
+        ],
+        "tanames": [
+            "Siyabonga MOTLOUNG",
+            "Aphiwe KHUMALO",
+            "Sibani NKISI",
+            "Siyabonga MOTLOUNG",
+            "Aphiwe KHUMALO"
+        ],
+        "txnames": [
+            "Kian CHAPMAN",
+            "Matthew LINGEVELDT",
+            "Nahum PHILANDER",
+            "Matthew LINGEVELDT",
+            "Kian CHAPMAN"
+        ],
+        "aaffiliate": "UMZ",
+        "xaffiliate": "CT-B",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "3 2 6, 3 0 0, 4 4 5",
+        "apoints": [
+            [
+                3,
+                2,
+                6
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                4,
+                4,
+                5
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            27,
+            99
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 202,
+        "lost": 117,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "09:30",
+        "table": 15,
+        "duration": 90,
+        "division": 1,
+        "stage": "group",
+        "group": 4,
+        "match": 6,
+        "switch": 1,
+        "a": "b",
+        "x": "c",
+        "aid": 216,
+        "xid": 104,
+        "aname": "Umgungundlovu B",
+        "xname": "Eastern Cape",
+        "taids": [
+            3427,
+            3921,
+            2120,
+            3427,
+            3921
+        ],
+        "txids": [
+            4048,
+            3768,
+            2560,
+            3768,
+            4048
+        ],
+        "tanames": [
+            "Seth REDLINGHUYS",
+            "Ashlyn RAMTHOL",
+            "Shrian BANDU",
+            "Seth REDLINGHUYS",
+            "Ashlyn RAMTHOL"
+        ],
+        "txnames": [
+            "Zukisani SIGABI",
+            "Alungile MAQONDO",
+            "Azola MADONYELA",
+            "Alungile MAQONDO",
+            "Zukisani SIGABI"
+        ],
+        "aaffiliate": "UMG-B",
+        "xaffiliate": "EC",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 4 -2 -4, 9 7 7, 8 -8 -7 -3, -10 -5 -8",
+        "apoints": [
+            [
+                11,
+                4,
+                11,
+                11
+            ],
+            [
+                9,
+                7,
+                7
+            ],
+            [
+                8,
+                11,
+                11,
+                11
+            ],
+            [
+                12,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                9,
+                11,
+                2,
+                4
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                8,
+                7,
+                3
+            ],
+            [
+                10,
+                5,
+                8
+            ]
+        ],
+        "agames": [
+            3,
+            0,
+            3,
+            3
+        ],
+        "xgames": [
+            1,
+            3,
+            1,
+            0
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            135,
+            111
+        ],
+        "games": [
+            9,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 216,
+        "lost": 104,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "13:30",
+        "table": 9,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 1,
+        "switch": -1,
+        "a": "2b",
+        "x": "1a",
+        "aid": 109,
+        "xid": 102,
+        "aname": "Gauteng North",
+        "xname": "Cape Town",
+        "taids": [
+            3432,
+            3834,
+            3930,
+            3432,
+            3834
+        ],
+        "txids": [
+            1615,
+            1629,
+            2295,
+            1629,
+            1615
+        ],
+        "tanames": [
+            "Motshele LEKALAKALA",
+            "JG DU TOIT",
+            "Logan SMIT",
+            "Motshele LEKALAKALA",
+            "JG DU TOIT"
+        ],
+        "txnames": [
+            "Jodie GALANT",
+            "Cuten LODEWYK",
+            "Nashwin PIENAAR",
+            "Cuten LODEWYK",
+            "Jodie GALANT"
+        ],
+        "aaffiliate": "GN",
+        "xaffiliate": "CT",
+        "aseed": "",
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "1 3 4, 7 8 11, 4 4 -9 5",
+        "apoints": [
+            [
+                1,
+                3,
+                4
+            ],
+            [
+                7,
+                8,
+                11
+            ],
+            [
+                4,
+                4,
+                11,
+                5
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                13
+            ],
+            [
+                11,
+                11,
+                9,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            58,
+            110
+        ],
+        "games": [
+            1,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 109,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "13:30",
+        "table": 10,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 2,
+        "switch": -1,
+        "a": "3a",
+        "x": "4b",
+        "aid": 111,
+        "xid": 216,
+        "aname": "Limpopo",
+        "xname": "Umgungundlovu B",
+        "taids": [
+            1610,
+            1453,
+            3995,
+            1610,
+            1453
+        ],
+        "txids": [
+            2120,
+            3427,
+            3509,
+            3427,
+            2120
+        ],
+        "tanames": [
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE",
+            "Temoso LETJOU",
+            "Mahlatse RAMOLLO",
+            "Tebogo MAAKE"
+        ],
+        "txnames": [
+            "Shrian BANDU",
+            "Seth REDLINGHUYS",
+            "Aryik BHUNDOO",
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "aaffiliate": "LIM",
+        "xaffiliate": "UMG-B",
+        "aseed": "",
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-9 -6 14 -4, -8 9 7 7, -8 8 11 -9 10, 8 -7 -9 -7, 8 -8 3 8",
+        "apoints": [
+            [
+                11,
+                11,
+                14,
+                11
+            ],
+            [
+                11,
+                9,
+                7,
+                7
+            ],
+            [
+                11,
+                8,
+                11,
+                11,
+                10
+            ],
+            [
+                8,
+                11,
+                11,
+                11
+            ],
+            [
+                8,
+                11,
+                3,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                9,
+                6,
+                16,
+                4
+            ],
+            [
+                8,
+                11,
+                11,
+                11
+            ],
+            [
+                8,
+                11,
+                13,
+                9,
+                12
+            ],
+            [
+                11,
+                7,
+                9,
+                7
+            ],
+            [
+                11,
+                8,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            3,
+            1,
+            2,
+            3,
+            1
+        ],
+        "xgames": [
+            1,
+            3,
+            3,
+            1,
+            3
+        ],
+        "amatches": [
+            1,
+            0,
+            0,
+            1,
+            0
+        ],
+        "xmatches": [
+            0,
+            1,
+            1,
+            0,
+            1
+        ],
+        "points": [
+            203,
+            204
+        ],
+        "games": [
+            10,
+            11
+        ],
+        "matches": [
+            2,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 216,
+        "lost": 111,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "13:30",
+        "table": 11,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 3,
+        "switch": -1,
+        "a": "1b",
+        "x": "4a",
+        "aid": 108,
+        "xid": 202,
+        "aname": "Free State",
+        "xname": "Cape Town B",
+        "taids": [
+            2634,
+            3063,
+            2508,
+            2634,
+            3063
+        ],
+        "txids": [
+            2246,
+            2708,
+            3324,
+            2708,
+            2246
+        ],
+        "tanames": [
+            "Kgalalelo PHEKONYANE",
+            "Ricardo CARRASCO",
+            "Oreneile MORAILE",
+            "Kgalalelo PHEKONYANE",
+            "Ricardo CARRASCO"
+        ],
+        "txnames": [
+            "Kian CHAPMAN",
+            "Matthew LINGEVELDT",
+            "Nahum PHILANDER",
+            "Matthew LINGEVELDT",
+            "Kian CHAPMAN"
+        ],
+        "aaffiliate": "FS",
+        "xaffiliate": "CT-B",
+        "aseed": "",
+        "xseed": 4,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-13 -5 -7, 4 8 -10 10, -9 -8 -9, 4 4 4, -11 10 -9 6 -10",
+        "apoints": [
+            [
+                15,
+                11,
+                11
+            ],
+            [
+                4,
+                8,
+                12,
+                10
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                13,
+                10,
+                11,
+                6,
+                12
+            ]
+        ],
+        "xpoints": [
+            [
+                13,
+                5,
+                7
+            ],
+            [
+                11,
+                11,
+                10,
+                12
+            ],
+            [
+                9,
+                8,
+                9
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                12,
+                9,
+                11,
+                10
+            ]
+        ],
+        "agames": [
+            3,
+            1,
+            3,
+            0,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            0,
+            3,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            0,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            1,
+            0
+        ],
+        "points": [
+            168,
+            181
+        ],
+        "games": [
+            10,
+            8
+        ],
+        "matches": [
+            3,
+            2
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 108,
+        "lost": 202,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Sun, 05 Oct",
+        "time": "13:30",
+        "table": 12,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 8,
+        "match": 4,
+        "switch": -1,
+        "a": "2a",
+        "x": "3b",
+        "aid": 116,
+        "xid": 107,
+        "aname": "Umgungundlovu",
+        "xname": "Ethekwini",
+        "taids": [
+            3448,
+            2103,
+            3375,
+            3448,
+            2103
+        ],
+        "txids": [
+            3382,
+            3384,
+            3505,
+            3384,
+            3382
+        ],
+        "tanames": [
+            "Tayden ROYAPPEN",
+            "Himesh PILLAY",
+            "Mlungisi MAKHAYE",
+            "Tayden ROYAPPEN",
+            "Himesh PILLAY"
+        ],
+        "txnames": [
+            "Daniel NAIDOO",
+            "Siphelele SITHOLE",
+            "David NAIDOO",
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO"
+        ],
+        "aaffiliate": "UMG",
+        "xaffiliate": "ETK",
+        "aseed": 2,
+        "xseed": 3,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "9 6 7, 10 12 5, 8 -6 -7 -2, 6 2 -11 8",
+        "apoints": [
+            [
+                9,
+                6,
+                7
+            ],
+            [
+                10,
+                12,
+                5
+            ],
+            [
+                8,
+                11,
+                11,
+                11
+            ],
+            [
+                6,
+                2,
+                13,
+                8
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                12,
+                14,
+                11
+            ],
+            [
+                11,
+                6,
+                7,
+                2
+            ],
+            [
+                11,
+                11,
+                11,
+                11
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            3,
+            1
+        ],
+        "xgames": [
+            3,
+            3,
+            1,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            0,
+            1
+        ],
+        "points": [
+            119,
+            140
+        ],
+        "games": [
+            4,
+            10
+        ],
+        "matches": [
+            1,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 107,
+        "lost": 116,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "15:30",
+        "table": 3,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 1,
+        "switch": 1,
+        "a": "",
+        "x": "",
+        "aid": 102,
+        "xid": 216,
+        "aname": "Cape Town",
+        "xname": "Umgungundlovu B",
+        "taids": [
+            1629,
+            1615,
+            2295,
+            1629,
+            1615
+        ],
+        "txids": [
+            2120,
+            3427,
+            3921,
+            3427,
+            2120
+        ],
+        "tanames": [
+            "Cuten LODEWYK",
+            "Jodie GALANT",
+            "Nashwin PIENAAR",
+            "Cuten LODEWYK",
+            "Jodie GALANT"
+        ],
+        "txnames": [
+            "Shrian BANDU",
+            "Seth REDLINGHUYS",
+            "Ashlyn RAMTHOL",
+            "Seth REDLINGHUYS",
+            "Shrian BANDU"
+        ],
+        "aaffiliate": "CT",
+        "xaffiliate": "UMG-B",
+        "aseed": 1,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-7 -3 -4, -7 -2 -9, -6 12 . -8",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                12,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                7,
+                3,
+                4
+            ],
+            [
+                7,
+                2,
+                9
+            ],
+            [
+                6,
+                14,
+                0,
+                8
+            ]
+        ],
+        "agames": [
+            3,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            0,
+            1
+        ],
+        "amatches": [
+            1,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            0,
+            0
+        ],
+        "points": [
+            111,
+            60
+        ],
+        "games": [
+            9,
+            1
+        ],
+        "matches": [
+            3,
+            0
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 102,
+        "lost": 216,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "15:30",
+        "table": 4,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 4,
+        "match": 2,
+        "switch": -1,
+        "a": "",
+        "x": "",
+        "aid": 107,
+        "xid": 108,
+        "aname": "Ethekwini",
+        "xname": "Free State",
+        "taids": [
+            3384,
+            3382,
+            3505,
+            3384,
+            3382
+        ],
+        "txids": [
+            3063,
+            2634,
+            2508,
+            2634,
+            3063
+        ],
+        "tanames": [
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO",
+            "David NAIDOO",
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO"
+        ],
+        "txnames": [
+            "Ricardo CARRASCO",
+            "Kgalalelo PHEKONYANE",
+            "Oreneile MORAILE",
+            "Kgalalelo PHEKONYANE",
+            "Ricardo CARRASCO"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "FS",
+        "aseed": 3,
+        "xseed": "",
+        "agreek": "",
+        "xgreek": "",
+        "codes": "-4 -4 -9, 4 3 -5 6, -8 -10 -8, 10 -3 7 -5 -4",
+        "apoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                4,
+                3,
+                11,
+                6
+            ],
+            [
+                11,
+                12,
+                11
+            ],
+            [
+                10,
+                11,
+                7,
+                11,
+                11
+            ]
+        ],
+        "xpoints": [
+            [
+                4,
+                4,
+                9
+            ],
+            [
+                11,
+                11,
+                5,
+                11
+            ],
+            [
+                8,
+                10,
+                8
+            ],
+            [
+                12,
+                3,
+                11,
+                5,
+                4
+            ]
+        ],
+        "agames": [
+            3,
+            1,
+            3,
+            3
+        ],
+        "xgames": [
+            0,
+            3,
+            0,
+            2
+        ],
+        "amatches": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "xmatches": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "points": [
+            141,
+            116
+        ],
+        "games": [
+            10,
+            5
+        ],
+        "matches": [
+            3,
+            1
+        ],
+        "contests": [
+            1,
+            0
+        ],
+        "mpts": [
+            2,
+            1
+        ],
+        "won": 107,
+        "lost": 108,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    },
+    {
+        "tournament": "",
+        "event": "jtbu19",
+        "category": "junior",
+        "date": "Mon, 06 Oct",
+        "time": "19:00",
+        "table": 4,
+        "duration": 90,
+        "division": 1,
+        "stage": "knockout",
+        "group": 2,
+        "match": 1,
+        "switch": -1,
+        "a": "",
+        "x": "",
+        "aid": 107,
+        "xid": 102,
+        "aname": "Ethekwini",
+        "xname": "Cape Town",
+        "taids": [
+            3384,
+            3382,
+            3505,
+            3384,
+            3382
+        ],
+        "txids": [
+            1615,
+            1629,
+            2295,
+            1629,
+            1615
+        ],
+        "tanames": [
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO",
+            "David NAIDOO",
+            "Siphelele SITHOLE",
+            "Daniel NAIDOO"
+        ],
+        "txnames": [
+            "Jodie GALANT",
+            "Cuten LODEWYK",
+            "Nashwin PIENAAR",
+            "Cuten LODEWYK",
+            "Jodie GALANT"
+        ],
+        "aaffiliate": "ETK",
+        "xaffiliate": "CT",
+        "aseed": 3,
+        "xseed": 1,
+        "agreek": "",
+        "xgreek": "",
+        "codes": "6 5 7, 4 1 5, 8 9 12",
+        "apoints": [
+            [
+                6,
+                5,
+                7
+            ],
+            [
+                4,
+                1,
+                5
+            ],
+            [
+                8,
+                9,
+                12
+            ]
+        ],
+        "xpoints": [
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                11
+            ],
+            [
+                11,
+                11,
+                14
+            ]
+        ],
+        "agames": [
+            0,
+            0,
+            0
+        ],
+        "xgames": [
+            3,
+            3,
+            3
+        ],
+        "amatches": [
+            0,
+            0,
+            0
+        ],
+        "xmatches": [
+            1,
+            1,
+            1
+        ],
+        "points": [
+            57,
+            102
+        ],
+        "games": [
+            0,
+            9
+        ],
+        "matches": [
+            0,
+            3
+        ],
+        "contests": [
+            0,
+            1
+        ],
+        "mpts": [
+            1,
+            2
+        ],
+        "won": 102,
+        "lost": 107,
+        "u": "",
+        "uid": "",
+        "uname": ""
+    }
+]
