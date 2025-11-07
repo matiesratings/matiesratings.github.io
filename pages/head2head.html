@@ -220,6 +220,16 @@
             displayMatches(h2hMatches, player1, player2);
         }
 
+        // Format date helper function
+        function formatDate(date) {
+            const months = ['January', 'February', 'March', 'April', 'May', 'June', 
+                          'July', 'August', 'September', 'October', 'November', 'December'];
+            const day = date.getDate();
+            const month = months[date.getMonth()];
+            const year = date.getFullYear();
+            return `${day} ${month} ${year}`;
+        }
+
         function displayStats(player1, player2, p1Wins, p2Wins, total, p1GamesWon, p1GamesLost, p2GamesWon, p2GamesLost, mostRecentDate) {
             const statsSection = document.getElementById("statsSection");
             const statsDiv = document.getElementById("h2hStats");
@@ -235,24 +245,23 @@
             const leftGamesLost = p1Wins >= p2Wins ? p1GamesLost : p2GamesLost;
             const rightGamesWon = p1Wins >= p2Wins ? p2GamesWon : p1GamesWon;
             const rightGamesLost = p1Wins >= p2Wins ? p2GamesLost : p1GamesLost;
-
-            const dateStr = mostRecentDate ? mostRecentDate.toLocaleDateString() : "N/A";
+            
+            const dateStr = mostRecentDate ? formatDate(mostRecentDate) : "N/A";
 
             statsDiv.innerHTML = `
                 <div style="text-align: center; width: 100%;">
-                    <h2 style="color: var(--color-text); margin-bottom: var(--spacing-md);">Head to Head</h2>
                     <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: var(--spacing-lg); width: 100%;">
                         <div style="flex: 1; min-width: 200px;">
                             <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${leftPlayer}</div>
                             <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${leftWins}</div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Won: <strong>${leftGamesWon}</strong></div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Lost: <strong>${leftGamesLost}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games For: <strong>${leftGamesWon}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Against: <strong>${leftGamesLost}</strong></div>
                         </div>
                         <div style="flex: 1; min-width: 200px;">
                             <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${rightPlayer}</div>
                             <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${rightWins}</div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Won: <strong>${rightGamesWon}</strong></div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Lost: <strong>${rightGamesLost}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games For: <strong>${rightGamesWon}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Against: <strong>${rightGamesLost}</strong></div>
                         </div>
                     </div>
                     <div style="margin-top: var(--spacing-md); font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">

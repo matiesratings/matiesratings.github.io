@@ -70,7 +70,7 @@
     document.addEventListener("DOMContentLoaded", function () {
       // Get URL parameters
       const params = new URLSearchParams(window.location.search);
-      const tournament = params.get("tournament") || "maties_open_25";
+      const tournament = params.get("tournament") || "maties_open_25"; // Default to 2025
       const event = params.get("event");
       
       if (!event) {
