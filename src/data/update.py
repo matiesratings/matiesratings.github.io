@@ -13,7 +13,7 @@ JSON_FOLDER = SCRIPT_DIR / "json"
 HISTORICAL_FOLDER = JSON_FOLDER / "historical"
 
 # Default date for file matching (update this when processing new files)
-DEFAULT_DATE = "2025-10-02"
+DEFAULT_DATE = "2025-11-02"
 
 # Category name mapping for historical file processing
 CATEGORY_NAME_MAP = {
@@ -116,6 +116,7 @@ def extract_clubs(input_path, output_path):
 def get_latest_historical_files(input_dir=None, output_dir=None):
     """
     Processes historical rating files and extracts the latest version of each category.
+    Copies the most recent rating files from historical folder to main JSON folder.
     
     Args:
         input_dir: Directory containing historical files (default: HISTORICAL_FOLDER)
@@ -131,8 +132,11 @@ def get_latest_historical_files(input_dir=None, output_dir=None):
         return
     
     latest_files = {}
+    files_processed = 0
 
+    # Find the most recent file for each category
     for path in input_dir.glob("*.json"):
+        # Match pattern like "Men's Ratings (2025-11-02).json"
         match = re.match(r"(.+?) Ratings \((\d{4}-\d{2}-\d{2})\)\.json", path.name)
         if not match:
             continue
@@ -140,17 +144,30 @@ def get_latest_historical_files(input_dir=None, output_dir=None):
         if category not in CATEGORY_NAME_MAP:
             continue
 
-        date = datetime.strptime(date_str, "%Y-%m-%d")
-        current_best = latest_files.get(category)
-        if not current_best or date > current_best[0]:
-            latest_files[category] = (date, path)
+        try:
+            date = datetime.strptime(date_str, "%Y-%m-%d")
+            current_best = latest_files.get(category)
+            if not current_best or date > current_best[0]:
+                latest_files[category] = (date, path)
+        except ValueError:
+            continue
 
+    # Copy the latest files to the output directory
     for category, (date, path) in latest_files.items():
         output_path = output_dir / CATEGORY_NAME_MAP[category]
-        data = json.loads(path.read_text(encoding="utf-8"))
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2)
-        print(f"Updated {output_path.name} from '{path.name}' (Date: {date.date()})")
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+            print(f"Updated {output_path.name} from '{path.name}' (Date: {date.date()})")
+            files_processed += 1
+        except Exception as e:
+            print(f"Error processing {path.name}: {e}")
+    
+    if files_processed == 0:
+        print("No rating files found in historical folder.")
+    else:
+        print(f"Processed {files_processed} rating file(s).")
 
 
 # === Main Script ===
@@ -198,10 +215,9 @@ if __name__ == "__main__":
     else:
         print("Warning: Cannot extract clubs - all_players.json not found")
     
-    # Process historical files if requested
-    if len(sys.argv) > 2 and sys.argv[2] == "--historical":
-        print("\nProcessing historical files...")
-        get_latest_historical_files()
+    # Process historical rating files - always run this to get latest ratings
+    print("\nProcessing historical rating files...")
+    get_latest_historical_files()
     
     print("\nProcessing complete!")
     print(f"Output directory: {JSON_FOLDER.absolute()}")
