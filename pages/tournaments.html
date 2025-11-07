@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournaments</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+    <div class="event-section">
+        <h1>Tournaments</h1>
+        
+        <div id="tournaments-container">
+            <button class="event" onclick="location.href='/tournaments/maties_open/maties_open.html'">
+                Maties Open 2025
+            </button>
+            <button class="event" onclick="location.href='/tournaments/ussa_25/ussa_25.html'">
+                USSA Nationals 2025
+            </button>
+        </div>
+    </div>
+
+  <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            // Check if the click was outside the navigation menu and the hamburger button
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+      document.addEventListener("DOMContentLoaded", async function () {
+      // Load includes
+      loadInclude("header-placeholder", "/components/header.html");
+
+      // Set header title
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "Tournaments";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+    
+  });
+  </script>
+</body>
+</html>
+

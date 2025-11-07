@@ -116,6 +116,7 @@ function renderKnockouts(data) {
   // Render final in middle
   const finalCol = document.createElement("div");
   finalCol.className = "round";
+  finalCol.id = "final-round"; // Add ID for scrolling
 
   final.forEach(match => {
     const fm = makeMatch(match);
@@ -151,6 +152,30 @@ function renderKnockouts(data) {
 
   adjustBracketWidth();
   drawLines();
+
+  // Scroll to center (final) after rendering
+  setTimeout(() => {
+    const finalRound = document.getElementById("final-round");
+    const wrapper = document.getElementById("bracket-wrapper");
+    if (finalRound && wrapper) {
+      // Calculate the center position relative to the wrapper
+      const finalRect = finalRound.getBoundingClientRect();
+      const wrapperRect = wrapper.getBoundingClientRect();
+      const wrapperWidth = wrapper.clientWidth || wrapperRect.width;
+      
+      // Position of final relative to wrapper's left edge
+      const finalLeftRelative = finalRect.left - wrapperRect.left + wrapper.scrollLeft;
+      
+      // Center the final in the viewport
+      const scrollLeft = finalLeftRelative - (wrapperWidth / 2) + (finalRect.width / 2);
+      
+      // Smooth scroll to center
+      wrapper.scrollTo({
+        left: Math.max(0, scrollLeft),
+        behavior: 'smooth'
+      });
+    }
+  }, 150); // Small delay to ensure rendering and layout calculations are complete
 
   window.addEventListener("resize", drawLines);
   window.addEventListener("resize", adjustBracketWidth);

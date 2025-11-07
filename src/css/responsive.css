@@ -34,6 +34,12 @@
         padding: var(--spacing-lg) var(--spacing-sm);
     }
     
+    .meta-header-group .h2h-player-input {
+        width: 100% !important;
+        max-width: 100%;
+        font-size: clamp(14px, 3.5vw, 18px);
+    }
+    
     .filter-section {
         width: 95%;
         padding: var(--spacing-sm);

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tournament Event</title>
+  <link rel="stylesheet" href="/src/css/styles.css">
+
+  <!-- Firebase compat SDK -->
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database-compat.js"></script>
+
+  <script>
+    // Your Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyAi2mbAW65HJyh8UV7VyijoDmh9xheGQbM",
+      authDomain: "results-capture.firebaseapp.com",
+      databaseURL: "https://results-capture-default-rtdb.firebaseio.com",
+      projectId: "results-capture",
+      storageBucket: "results-capture.firebasestorage.app",
+      messagingSenderId: "923200999451",
+      appId: "1:923200999451:web:3dbfacc53c279e7f6c68be",
+      measurementId: "G-HN8L3JVDPQ"
+    };
+
+    // Initialize Firebase
+    let app;
+    let db;
+
+    try {
+        app = firebase.initializeApp(firebaseConfig);
+        db = firebase.database();
+    } catch (error) {
+        console.error("Firebase initialization error:", error);
+    }
+
+    // Event name mapping
+    const eventNameMap = {
+      'mens': "Men's Singles",
+      'womens': "Women's Singles",
+      'u23': "U23 Men's Singles",
+      'vets_40': "Men's 40+ Singles",
+      'vets_50': "Men's 50+ Singles",
+      'vets_60': "Men's 60+ Singles",
+      'doubles': "Open Doubles",
+      // USSA events
+      'mens_team': "Men's Team Event",
+      'mens_singles': "Men's Singles",
+      'mens_doubles': "Men's Doubles",
+      'womens_team': "Women's Team Event",
+      'womens_singles': "Women's Singles",
+      'womens_doubles': "Women's Doubles",
+      'mixed_doubles': "Mixed Doubles"
+    };
+
+    // Tournament name mapping
+    const tournamentNameMap = {
+      'maties_open_25': "Maties Open 2025",
+      'ussa_25': "USSA Nationals 2025"
+    };
+  </script>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <div id="viewToggles"></div>
+  <div id="contentContainer"></div>
+
+  <script src="/src/js/draw.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get URL parameters
+      const params = new URLSearchParams(window.location.search);
+      const tournament = params.get("tournament") || "maties_open_25";
+      const event = params.get("event");
+      
+      if (!event) {
+        document.getElementById("contentContainer").innerHTML = "No event specified. Please provide an event parameter.";
+        return;
+      }
+
+      // Load includes
+      loadInclude("header-placeholder", "/components/header.html");
+
+      // Set header title
+      const setTitle = () => {
+        const titleElement = document.getElementById("header-title");
+        if (titleElement) {
+          const tournamentName = tournamentNameMap[tournament] || tournament;
+          const eventName = eventNameMap[event] || event;
+          titleElement.innerHTML = `${tournamentName}<br>${eventName}`;
+        } else {
+          setTimeout(setTitle, 50);
+        }
+      };
+      setTitle();
+
+      if (db) {
+          // Use onValue() to listen for data changes in real-time
+          const firebasePath = `${tournament}/${event}`;
+          firebase.database().ref(firebasePath).on('value', (snapshot) => {
+              const data = snapshot.val();
+              const toggleContainer = document.getElementById("viewToggles");
+              toggleContainer.innerHTML = ''; // Clear previous buttons
+
+              if (data) {
+                  let btnGroups, btnKnockouts;
+
+                  // Groups button
+                  if (data.groups) {
+                      btnGroups = document.createElement("button");
+                      btnGroups.id = "btnGroups";
+                      btnGroups.textContent = "Groups";
+                      btnGroups.addEventListener("click", () => {
+                          renderGroups(data);
+                          // Optional: highlight active button
+                          if (btnKnockouts) btnKnockouts.classList.remove('active-toggle');
+                          btnGroups.classList.add('active-toggle');
+                      });
+                      toggleContainer.appendChild(btnGroups);
+                  }
+
+                  // Knockouts button
+                  if (data.knockouts) {
+                      btnKnockouts = document.createElement("button");
+                      btnKnockouts.id = "btnKnockouts";
+                      btnKnockouts.textContent = "Knockouts";
+                      btnKnockouts.addEventListener("click", () => {
+                          renderKnockouts(data);
+                          // Optional: highlight active button
+                          if (btnGroups) btnGroups.classList.remove('active-toggle');
+                          btnKnockouts.classList.add('active-toggle');
+                      });
+                      toggleContainer.appendChild(btnKnockouts);
+                  }
+
+                  // Render the default view based on available data
+                  if (data.groups) {
+                      renderGroups(data);
+                      if (btnGroups) btnGroups.classList.add('active-toggle');
+                  } else if (data.knockouts) {
+                      renderKnockouts(data);
+                      if (btnKnockouts) btnKnockouts.classList.add('active-toggle');
+                  }
+              } else {
+                  document.getElementById("contentContainer").innerHTML = "No data available";
+              }
+          }, (error) => {
+              console.error("Error fetching Firebase data:", error);
+              document.getElementById("contentContainer").innerHTML = "Error loading data. Please check the tournament and event parameters.";
+          });
+      }
+    });
+  </script>
+</body>
+</html>
+

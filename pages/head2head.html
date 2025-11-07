@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head 2 Head</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3SNXPPJWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D3SNXPPJWG');
+</script>
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+    <section class="meta-header" id="metaHeader" aria-label="Player selection">
+        <div class="meta-header-group">
+            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
+            <div>
+                <input type="text" id="player1Selector" class="h2h-player-input" placeholder="Search player 1..." oninput="updatePlayer1Suggestions()">
+                <div id="player1Suggestions" class="suggestion-box"></div>
+            </div>
+        </div>
+        <div class="meta-header-group">
+            <div>
+                <input type="text" id="player2Selector" class="h2h-player-input" placeholder="Search player 2..." oninput="updatePlayer2Suggestions()">
+                <div id="player2Suggestions" class="suggestion-box"></div>
+            </div>
+            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
+        </div>
+    </section>
+
+    <section id="statsSection" class="filter-section hidden" aria-label="Head to head statistics">
+        <div id="h2hStats" style="display: flex; flex-direction: column; gap: var(--spacing-md); align-items: center;">
+            <!-- Stats will be inserted here -->
+        </div>
+    </section>
+
+    <section aria-label="Head to head matches table">
+    <table role="table" aria-label="Head to head matches" id="h2hTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)" class="mobile-hidden-col">Match<br>ID</th>
+                <th onclick="sortTable(1)" class="mobile-hidden-col">Match Date</th>
+                <th onclick="sortTable(2)">Event Name</th>
+                <th onclick="sortTable(3)" class="mobile-hidden-col">Event Type</th>
+                <th onclick="sortTable(4)" class="mobile-hidden-col">Category</th>
+                <th onclick="sortTable(5)" class="mobile-hidden-col">Province</th>
+                <th onclick="sortTable(6)" class="mobile-hidden-col">Stage</th>
+                <th onclick="sortTable(7)">Winner</th>
+                <th onclick="sortTable(8)">Loser</th>
+                <th onclick="sortTable(9)">W-L</th>
+            </tr>
+        </thead>
+        <tbody id="h2h-table-body">
+            <tr>
+                <td colspan="10" class="empty-state">Select two players to view head-to-head statistics</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    </main>
+    
+    <script>
+        let h2hMatchData = [];
+        let h2hPlayerList = [];
+        let h2hSortDirections = {};
+
+        // Load match data and player list
+        function loadH2HData() {
+            Promise.all([
+                fetch('/src/data/json/matches.json').then(res => res.json()),
+                fetch('/src/data/json/all_players.json').then(res => res.json())
+            ]).then(([matches, players]) => {
+                h2hMatchData = matches;
+                h2hPlayerList = players.map(p => p.name).filter(Boolean);
+                
+                // Initialize player selectors
+                initializeSelectors();
+            }).catch(error => {
+                console.error("Error loading data:", error);
+            });
+        }
+
+        function initializeSelectors() {
+            // Player 1 selector
+            const player1Input = document.getElementById("player1Selector");
+            const player2Input = document.getElementById("player2Selector");
+            
+            // Add change listeners
+            player1Input.addEventListener('change', updateH2H);
+            player2Input.addEventListener('change', updateH2H);
+        }
+
+        function updatePlayer1Suggestions() {
+            updateSuggestions("player1Selector", "player1Suggestions");
+        }
+
+        function updatePlayer2Suggestions() {
+            updateSuggestions("player2Selector", "player2Suggestions");
+        }
+
+        function updateSuggestions(inputId, suggestionBoxId) {
+            let input = document.getElementById(inputId).value.toLowerCase();
+            let suggestionBox = document.getElementById(suggestionBoxId);
+
+            suggestionBox.innerHTML = "";
+            if (!input) {
+                suggestionBox.style.display = "none";
+                return;
+            }
+
+            let filteredNames = h2hPlayerList.filter(name => 
+                name && name.toLowerCase().includes(input)
+            );
+
+            filteredNames.forEach(name => {
+                let div = document.createElement("div");
+                div.classList.add("suggestion-item");
+                div.textContent = name;
+                div.onclick = function () {
+                    document.getElementById(inputId).value = name;
+                    suggestionBox.style.display = "none";
+                    updateH2H();
+                };
+                suggestionBox.appendChild(div);
+            });
+
+            suggestionBox.style.display = filteredNames.length ? "block" : "none";
+        }
+
+        function updateH2H() {
+            const player1 = document.getElementById("player1Selector").value.trim();
+            const player2 = document.getElementById("player2Selector").value.trim();
+
+            if (!player1 || !player2) {
+                document.getElementById("h2h-table-body").innerHTML = 
+                    '<tr><td colspan="10" class="empty-state">Select two players to view head-to-head statistics</td></tr>';
+                document.getElementById("statsSection").classList.add("hidden");
+                return;
+            }
+
+            if (player1.toLowerCase() === player2.toLowerCase()) {
+                document.getElementById("h2h-table-body").innerHTML = 
+                    '<tr><td colspan="10" class="empty-state">Please select two different players</td></tr>';
+                document.getElementById("statsSection").classList.add("hidden");
+                return;
+            }
+
+            // Filter matches between these two players
+            const h2hMatches = h2hMatchData.filter(match => {
+                const winner = match.winner?.toLowerCase();
+                const loser = match.loser?.toLowerCase();
+                const p1 = player1.toLowerCase();
+                const p2 = player2.toLowerCase();
+                
+                return (winner === p1 && loser === p2) || 
+                       (winner === p2 && loser === p1);
+            });
+
+            // Calculate stats
+            const player1Wins = h2hMatches.filter(m => 
+                m.winner?.toLowerCase() === player1.toLowerCase()
+            ).length;
+            const player2Wins = h2hMatches.filter(m => 
+                m.winner?.toLowerCase() === player2.toLowerCase()
+            ).length;
+            const totalMatches = h2hMatches.length;
+
+            // Calculate games won/lost from scores
+            let p1GamesWon = 0, p1GamesLost = 0;
+            let p2GamesWon = 0, p2GamesLost = 0;
+            let mostRecentDate = null;
+
+            h2hMatches.forEach(match => {
+                // Parse score (format: "3-0" or "3-1", etc.)
+                if (match.score) {
+                    const scoreParts = match.score.split('-');
+                    if (scoreParts.length === 2) {
+                        const winnerGames = parseInt(scoreParts[0]) || 0;
+                        const loserGames = parseInt(scoreParts[1]) || 0;
+                        
+                        if (match.winner?.toLowerCase() === player1.toLowerCase()) {
+                            p1GamesWon += winnerGames;
+                            p1GamesLost += loserGames;
+                            p2GamesWon += loserGames;
+                            p2GamesLost += winnerGames;
+                        } else {
+                            p1GamesWon += loserGames;
+                            p1GamesLost += winnerGames;
+                            p2GamesWon += winnerGames;
+                            p2GamesLost += loserGames;
+                        }
+                    }
+                }
+                
+                // Track most recent date
+                if (match.match_date) {
+                    try {
+                        const matchDate = new Date(match.match_date);
+                        if (!mostRecentDate || matchDate > mostRecentDate) {
+                            mostRecentDate = matchDate;
+                        }
+                    } catch (e) {
+                        // Ignore invalid dates
+                    }
+                }
+            });
+
+            // Display stats
+            displayStats(player1, player2, player1Wins, player2Wins, totalMatches, p1GamesWon, p1GamesLost, p2GamesWon, p2GamesLost, mostRecentDate);
+
+            // Display matches
+            displayMatches(h2hMatches, player1, player2);
+        }
+
+        function displayStats(player1, player2, p1Wins, p2Wins, total, p1GamesWon, p1GamesLost, p2GamesWon, p2GamesLost, mostRecentDate) {
+            const statsSection = document.getElementById("statsSection");
+            const statsDiv = document.getElementById("h2hStats");
+            
+            statsSection.classList.remove("hidden");
+            
+            // Determine which player has more wins (left side)
+            const leftPlayer = p1Wins >= p2Wins ? player1 : player2;
+            const rightPlayer = p1Wins >= p2Wins ? player2 : player1;
+            const leftWins = p1Wins >= p2Wins ? p1Wins : p2Wins;
+            const rightWins = p1Wins >= p2Wins ? p2Wins : p1Wins;
+            const leftGamesWon = p1Wins >= p2Wins ? p1GamesWon : p2GamesWon;
+            const leftGamesLost = p1Wins >= p2Wins ? p1GamesLost : p2GamesLost;
+            const rightGamesWon = p1Wins >= p2Wins ? p2GamesWon : p1GamesWon;
+            const rightGamesLost = p1Wins >= p2Wins ? p2GamesLost : p1GamesLost;
+
+            const dateStr = mostRecentDate ? mostRecentDate.toLocaleDateString() : "N/A";
+
+            statsDiv.innerHTML = `
+                <div style="text-align: center; width: 100%;">
+                    <h2 style="color: var(--color-text); margin-bottom: var(--spacing-md);">Head to Head</h2>
+                    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: var(--spacing-lg); width: 100%;">
+                        <div style="flex: 1; min-width: 200px;">
+                            <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${leftPlayer}</div>
+                            <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${leftWins}</div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Won: <strong>${leftGamesWon}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Lost: <strong>${leftGamesLost}</strong></div>
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${rightPlayer}</div>
+                            <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${rightWins}</div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Won: <strong>${rightGamesWon}</strong></div>
+                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Lost: <strong>${rightGamesLost}</strong></div>
+                        </div>
+                    </div>
+                    <div style="margin-top: var(--spacing-md); font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">
+                        Most Recent Match: <strong>${dateStr}</strong>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayMatches(matches, player1, player2) {
+            const tableBody = document.getElementById("h2h-table-body");
+            tableBody.innerHTML = "";
+
+            if (matches.length === 0) {
+                const row = tableBody.insertRow();
+                const cell = row.insertCell();
+                cell.colSpan = 10;
+                cell.className = "empty-state";
+                cell.textContent = "No matches found between these two players";
+                return;
+            }
+
+            // Sort by date descending (most recent first)
+            matches.sort((a, b) => {
+                try {
+                    return new Date(b.match_date) - new Date(a.match_date);
+                } catch (e) {
+                    return 0;
+                }
+            });
+
+            // Get header cells to determine which columns to show
+            const headerCells = document.querySelectorAll("#h2hTable thead th");
+            const visibleColumnIndices = [];
+            const isMobile = window.innerWidth < 780;
+
+            headerCells.forEach((th, index) => {
+                const isHiddenMobileCol = th.classList.contains("mobile-hidden-col");
+                if (!(isMobile && isHiddenMobileCol)) {
+                    visibleColumnIndices.push(index);
+                }
+            });
+
+            matches.forEach(match => {
+                const row = tableBody.insertRow();
+                const columnKeys = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
+                
+                // Only create cells for visible columns
+                visibleColumnIndices.forEach(index => {
+                    const key = columnKeys[index];
+                    const cell = row.insertCell();
+                    
+                    if (key === "winner" || key === "loser") {
+                        const link = document.createElement("a");
+                        link.href = `/pages/player.html?name=${encodeURIComponent(match[key])}`;
+                        link.textContent = match[key];
+                        link.className = "player-link";
+                        cell.appendChild(link);
+                    } else {
+                        cell.textContent = match[key] || "";
+                    }
+                });
+            });
+        }
+
+        function sortTable(columnIndex) {
+            const player1 = document.getElementById("player1Selector").value.trim();
+            const player2 = document.getElementById("player2Selector").value.trim();
+
+            if (!player1 || !player2) return;
+
+            // Get header cells to map visible column index to actual column key
+            const headerCells = document.querySelectorAll("#h2hTable thead th");
+            const columnMap = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
+            const isMobile = window.innerWidth < 780;
+            
+            // Find the actual column index from the visible column index
+            let visibleCount = 0;
+            let actualColumnIndex = -1;
+            for (let i = 0; i < headerCells.length; i++) {
+                const isHiddenMobileCol = headerCells[i].classList.contains("mobile-hidden-col");
+                if (!(isMobile && isHiddenMobileCol)) {
+                    if (visibleCount === columnIndex) {
+                        actualColumnIndex = i;
+                        break;
+                    }
+                    visibleCount++;
+                }
+            }
+            
+            if (actualColumnIndex === -1) return;
+            const key = columnMap[actualColumnIndex];
+
+            // Get current matches
+            const h2hMatches = h2hMatchData.filter(match => {
+                const winner = match.winner?.toLowerCase();
+                const loser = match.loser?.toLowerCase();
+                const p1 = player1.toLowerCase();
+                const p2 = player2.toLowerCase();
+                
+                return (winner === p1 && loser === p2) || 
+                       (winner === p2 && loser === p1);
+            });
+
+            h2hSortDirections[actualColumnIndex] = !h2hSortDirections[actualColumnIndex];
+            const ascending = h2hSortDirections[actualColumnIndex];
+
+            h2hMatches.sort((a, b) => {
+                const valA = a[key];
+                const valB = b[key];
+                
+                if (key === 'match_date') {
+                    try {
+                        return (new Date(valA) - new Date(valB)) * (ascending ? 1 : -1);
+                    } catch (e) {
+                        return 0;
+                    }
+                }
+                
+                return (isNaN(valA) ? String(valA).localeCompare(String(valB)) : valA - valB) * (ascending ? 1 : -1);
+            });
+
+            displayMatches(h2hMatches, player1, player2);
+        }
+
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                    // Set header title after header loads
+                    const setTitle = () => {
+                        const titleElement = document.getElementById("header-title");
+                        if (titleElement) {
+                            titleElement.textContent = "Head 2 Head";
+                        } else {
+                            setTimeout(setTitle, 50);
+                        }
+                    };
+                    setTitle();
+                });
+        }
+
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks) {
+                navLinks.classList.toggle('active');
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadInclude("header-placeholder", "/components/header.html");
+            loadH2HData();
+        });
+
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            if (navLinks && hamburger && !navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
+
