@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Info</title>
-    <link rel="stylesheet" href="scr/css/styles.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
     <div id="header-placeholder"></div>
-    <div id="player-info-container" style="width:100%;margin:0 0 0 0; border:none; box-shadow:none;">
-        <table id="player-info-table" style="border:none; box-shadow:none;">
+    
+    <main>
+    <section id="player-info-container" class="player-info-container" aria-label="Player information">
+        <table id="player-info-table" class="player-info-table">
             <tbody>
                 <!-- Player info will be inserted here -->
             </tbody>
         </table>
-    </div>
+    </section>
+    
+    <section aria-label="Match history">
     <div class="match-history-header">
         <h2 class="match-history-title">Match History</h2>
         <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
     </div>
 
-    <div id="filterSection" style="display: none;height: auto;">
-        <div class="filters" style="height: auto;">
+    <div id="filterSection" class="filter-section hidden" aria-label="Match history filters">
+        <div class="filters">
             <div class="filter-container">
-                <label>Name</label>
-                <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                <label>Player</label>
+                <input type="text" id="nameFilter" class="search-input" placeholder="Search player..." oninput="updateNameSuggestions()">
                 <div id="nameSuggestions" class="suggestion-box"></div>
+                <select id="playerFilterMode" onchange="filterTable()" class="wide-filter-select" style="margin-top: var(--spacing-xs);">
+                    <option value="both">Both (Wins & Losses)</option>
+                    <option value="win">Wins Only</option>
+                    <option value="loss">Losses Only</option>
+                </select>
             </div>
             <div class="filter-container">
                 <label>Event</label>
@@ -52,7 +61,13 @@
             </div>
         </div>
     </div>
-    <table>
+    
+    <div style="display: flex; justify-content: center; gap: var(--spacing-sm); margin: var(--spacing-md) 0; padding: 0 var(--spacing-md);">
+        <button id="winsButton" onclick="filterWins()" class="filter-toggle-button">Wins</button>
+        <button id="lossesButton" onclick="filterLosses()" class="filter-toggle-button">Losses</button>
+    </div>
+    
+    <table role="table" aria-label="Player match history">
         <thead id="match-table-head">
             <tr>
                 <th onclick="sortTable(0)" class="mobile-hidden-col">Match<br>ID</th>
@@ -72,6 +87,9 @@
             <!-- Data will be inserted here -->
         </tbody>
     </table>
+    </section>
+    </main>
+    
     <script>
         // --- Query and player name ---
         const params = new URLSearchParams(window.location.search);
@@ -88,7 +106,7 @@
 
         // --- Load and filter data ---
         function loadMatchData() {
-            fetch('scr/data/json/matches.json')
+            fetch('/src/data/json/matches.json')
                 .then(response => response.json())
                 .then(data => {
                     matchData = data.filter(
@@ -97,8 +115,52 @@
                     matchData.sort((a, b) => new Date(b.match_date) - new Date(a.match_date));
                     displayData(matchData.slice(0, 100));
                     populateDropdowns();
+                    resetFilterButtons();
                 })
                 .catch(error => console.error("Error loading JSON:", error));
+        }
+        
+        // --- Filter buttons (Wins/Losses) ---
+        let activeFilterButton = null;
+        
+        function resetFilterButtons() {
+            activeFilterButton = null;
+            document.getElementById("winsButton").classList.remove("active");
+            document.getElementById("lossesButton").classList.remove("active");
+        }
+        
+        function filterWins() {
+            const winsButton = document.getElementById("winsButton");
+            const lossesButton = document.getElementById("lossesButton");
+            
+            if (activeFilterButton === "wins") {
+                // Toggle off - show all matches
+                resetFilterButtons();
+                filterTable(); // Reapply other filters if any
+            } else {
+                // Filter to wins only
+                activeFilterButton = "wins";
+                winsButton.classList.add("active");
+                lossesButton.classList.remove("active");
+                filterTable(); // Apply wins filter along with other filters
+            }
+        }
+        
+        function filterLosses() {
+            const winsButton = document.getElementById("winsButton");
+            const lossesButton = document.getElementById("lossesButton");
+            
+            if (activeFilterButton === "losses") {
+                // Toggle off - show all matches
+                resetFilterButtons();
+                filterTable(); // Reapply other filters if any
+            } else {
+                // Filter to losses only
+                activeFilterButton = "losses";
+                lossesButton.classList.add("active");
+                winsButton.classList.remove("active");
+                filterTable(); // Apply losses filter along with other filters
+            }
         }
 
         // --- Display table ---
@@ -109,7 +171,7 @@
 
             if (data.length === 0) {
                 const colspan = isMobile ? 4 : 10; // fewer columns on mobile
-                const row = `<tr><td colspan="${colspan}" style="color:white; background:black; border:1px solid maroon; padding:10px; text-align:center;">Results coming soon...</td></tr>`;
+                const row = `<tr><td colspan="${colspan}" class="empty-state">Results coming soon...</td></tr>`;
                 tableBody.innerHTML = row;
                 return;
             }
@@ -118,13 +180,13 @@
                 let row = `<tr>`;
                 row += `<td class="mobile-hidden-col">${match.match_id}</td>`;
                 row += `<td class="mobile-hidden-col">${match.match_date}</td>`;
-                row += `<td style="white-space: normal;">${match.event_name}</td>`;
+                row += `<td class="event-name-cell">${match.event_name}</td>`;
                 row += `<td class="mobile-hidden-col">${match.event_type}</td>`;
                 row += `<td class="mobile-hidden-col">${match.category}</td>`;
                 row += `<td class="mobile-hidden-col">${match.province}</td>`;
                 row += `<td class="mobile-hidden-col">${match.stage}</td>`;
-                row += `<td><a href="player.html?name=${encodeURIComponent(match.winner)}" class="player-link">${match.winner}</a></td>`;
-                row += `<td><a href="player.html?name=${encodeURIComponent(match.loser)}" class="player-link">${match.loser}</a></td>`;
+                row += `<td><a href="/pages/player.html?name=${encodeURIComponent(match.winner)}" class="player-link">${match.winner}</a></td>`;
+                row += `<td><a href="/pages/player.html?name=${encodeURIComponent(match.loser)}" class="player-link">${match.loser}</a></td>`;
                 row += `<td>${match.score}</td>`;
                 row += `</tr>`;
 
@@ -137,6 +199,7 @@
             const get = id => document.getElementById(id).value;
             return {
                 name: get("nameFilter"),
+                playerMode: get("playerFilterMode") || "both",
                 event: get("eventFilter"),
                 eventType: get("eventTypeFilter"),
                 province: get("provinceFilter"),
@@ -144,17 +207,42 @@
             };
         }
         function applyFilters(data, filters) {
-            return data.filter(match =>
-                (!filters.name || match.winner.toLowerCase().includes(filters.name.toLowerCase()) || match.loser.toLowerCase().includes(filters.name.toLowerCase())) &&
-                (!filters.event || match.event_name === filters.event) &&
-                (!filters.eventType || match.event_type === filters.eventType) &&
-                (!filters.province || match.province === filters.province) &&
-                (!filters.stage || match.stage === filters.stage)
-            );
+            return data.filter(match => {
+                // Player name filter with mode (both/win/loss)
+                if (filters.name) {
+                    const nameMatches = match.winner.toLowerCase().includes(filters.name.toLowerCase()) || 
+                                       match.loser.toLowerCase().includes(filters.name.toLowerCase());
+                    if (!nameMatches) return false;
+                    
+                    // Apply mode filter if name matches
+                    if (filters.playerMode === "win") {
+                        if (!match.winner.toLowerCase().includes(filters.name.toLowerCase())) return false;
+                    } else if (filters.playerMode === "loss") {
+                        if (!match.loser.toLowerCase().includes(filters.name.toLowerCase())) return false;
+                    }
+                    // If mode is "both", we already checked nameMatches above
+                }
+                
+                // Other filters
+                return (
+                    (!filters.event || match.event_name === filters.event) &&
+                    (!filters.eventType || match.event_type === filters.eventType) &&
+                    (!filters.province || match.province === filters.province) &&
+                    (!filters.stage || match.stage === filters.stage)
+                );
+            });
         }
         function filterTable() {
             const filters = getFilterValues();
             let filteredData = applyFilters(matchData, filters);
+            
+            // Apply wins/losses filter if active
+            if (activeFilterButton === "wins") {
+                filteredData = filteredData.filter(match => match.winner === playerName);
+            } else if (activeFilterButton === "losses") {
+                filteredData = filteredData.filter(match => match.loser === playerName);
+            }
+            
             displayData(filteredData.slice(0, 100));
         }
 
@@ -162,6 +250,14 @@
         function sortTable(columnIndex, forceDirection = null) {
             const filters = getFilterValues();
             let filtered = applyFilters(matchData, filters);
+            
+            // Apply wins/losses filter if active
+            if (activeFilterButton === "wins") {
+                filtered = filtered.filter(match => match.winner === playerName);
+            } else if (activeFilterButton === "losses") {
+                filtered = filtered.filter(match => match.loser === playerName);
+            }
+            
             const columnMap = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
             const key = columnMap[columnIndex];
             if (forceDirection !== null) {
@@ -265,15 +361,25 @@
         function toggleFilters() {
             toggleCount++;
             const section = document.getElementById("filterSection");
-            section.style.display = section.style.display === "none" ? "block" : "none";
-            document.getElementById("toggleFilterButton").textContent = "Reset";
+            const button = document.getElementById("toggleFilterButton");
+            
+            if (section.classList.contains("hidden")) {
+                section.classList.remove("hidden");
+                button.textContent = "Reset";
+            } else {
+                section.classList.add("hidden");
+                button.textContent = "Filter";
+            }
+            
             if (toggleCount % 2 === 0) {
                 resetFilters();
                 toggleCount = 0;
-                document.getElementById("toggleFilterButton").textContent = "Filter";
+                button.textContent = "Filter";
             }
         }
         function resetFilters() {
+            document.getElementById("nameFilter").value = "";
+            document.getElementById("playerFilterMode").value = "both";
             document.getElementById("eventFilter").value = "";
             document.getElementById("eventTypeFilter").value = "";
             document.getElementById("provinceFilter").value = "";
@@ -293,7 +399,7 @@
                 });
         }
         document.addEventListener("DOMContentLoaded", function () {
-            loadInclude("header-placeholder", "Sections/header.html");
+            loadInclude("header-placeholder", "/components/header.html");
             loadPlayerInfo();
             loadMatchData();
         });
@@ -301,8 +407,8 @@
         function loadPlayerInfo() {
             // Fetch both open_ratings and all_players
             Promise.all([
-                fetch('scr/data/json/open_ratings.json').then(res => res.json()),
-                fetch('scr/data/json/all_players.json').then(res => res.json())
+                fetch('/src/data/json/open_ratings.json').then(res => res.json()),
+                fetch('/src/data/json/all_players.json').then(res => res.json())
             ]).then(([ratings, allPlayers]) => {
                 // Find player in open_ratings
 
@@ -315,10 +421,10 @@
                 
                     infoTable.innerHTML = `
                         <tr>
-                            <td colspan="2" style="padding: 18px 32px; background: #000; color: #fff; border: none;">
+                            <td colspan="2" class="player-info-content">
                             <h2 class="player-rating">${player.rating ? player.rating : "N/A"}</h2>
                             <h2 class="player-club">${player.club ? player.club : "Unknown"}</h2>
-                            <table style="width:100%; border-collapse: collapse; background: #000;">
+                            <table class="player-stats-table">
                                     <tr>
                                         <th>Gender</th>
                                         <th>Played</th>
@@ -338,11 +444,11 @@
                         </tr>
                     `;
                 } else {
-                    infoTable.innerHTML = `<tr><td colspan="2" style="font-size: 1.3em; text-align:center; color: #fff;">No rating info found for this player.</td></tr>`;
+                    infoTable.innerHTML = `<tr><td colspan="2" class="empty-state">No rating info found for this player.</td></tr>`;
                 }
             }).catch(() => {
                 const infoTable = document.getElementById("player-info-table").querySelector("tbody");
-                infoTable.innerHTML = `<tr><td colspan="2" style="font-size: 1.3em; text-align:center;">Could not load player info.</td></tr>`;
+                infoTable.innerHTML = `<tr><td colspan="2" class="empty-state">Could not load player info.</td></tr>`;
             });
         }
         function toggleNav() {

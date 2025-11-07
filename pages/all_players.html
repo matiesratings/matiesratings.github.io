@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Ratings</title>
-    <link rel="stylesheet" href="scr/css/styles.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3SNXPPJWG"></script>
@@ -18,15 +18,9 @@
 <body>
     <div id="header-placeholder"></div>
 
-
-
- 
-    <div style="display: flex;justify-content: space-between; align-items: center; width: 80%;margin-left: auto;margin-right: auto;">
-    
-        <div>
-            
-        </div>
-        <div id="filterSection"  style="display: none;">
+    <main>
+    <section class="meta-header flex-between meta-header-wide">
+        <div id="filterSection" class="filter-section hidden" aria-label="Player filter options">
             <!-- Filters -->
             <div class="filters">
                 <div class="filter-container">
@@ -53,11 +47,10 @@
         </div>
     
         <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
-    </div>
+    </section>
 
-
-    <!-- Data Table -->
-    <table>
+    <section aria-label="All players table">
+    <table role="table" aria-label="All players directory">
         <thead>
             <tr>
                 <th onclick="sortTable(0)">Maties ID</th>
@@ -70,9 +63,12 @@
             <!-- Data will be inserted here -->
         </tbody>
     </table>
+    </section>
+    </main>
+    
     <div id="footer-placeholder"></div>
 
-    <script src="/scr/js/players.js"></script>
+    <script src="/src/js/players.js"></script>
     <script>
         function loadInclude(id, file) {
             fetch(file)
@@ -89,7 +85,7 @@
                     setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                 }
             };
-            loadInclude("header-placeholder", "Sections/header.html");
+            loadInclude("header-placeholder", "/components/header.html");
             setTitle();
         });
     </script>

@@ -4,6 +4,34 @@ from pathlib import Path
 import re
 from datetime import datetime
 
+# === Configuration ===
+# Paths are relative to the script location (src/data/)
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent.parent
+CSV_FOLDER = SCRIPT_DIR / "csv"
+JSON_FOLDER = SCRIPT_DIR / "json"
+HISTORICAL_FOLDER = JSON_FOLDER / "historical"
+
+# Default date for file matching (update this when processing new files)
+DEFAULT_DATE = "2025-10-02"
+
+# Category name mapping for historical file processing
+CATEGORY_NAME_MAP = {
+    "Boys U11": "bu11_ratings.json",
+    "Boys U13": "bu13_ratings.json",
+    "Boys U15": "bu15_ratings.json",
+    "Boys U19": "bu19_ratings.json",
+    "Girls U11": "gu11_ratings.json",
+    "Girls U13": "gu13_ratings.json",
+    "Girls U15": "gu15_ratings.json",
+    "Girls U19": "gu19_ratings.json",
+    "Open": "open_ratings.json",
+    "Women's": "women_ratings.json",
+    "Men's": "men_ratings.json",
+    "Men's Vets 40+": "mo40_ratings.json",
+    "Men's Vets 50+": "mo50_ratings.json",
+    "Men's Vets 60+": "mo60_ratings.json"
+}
 
 # === Utilities ===
 
@@ -85,24 +113,23 @@ def extract_clubs(input_path, output_path):
         json.dump({"clubs": clubs}, f, indent=2)
 
 
-def get_latest_historical_files(input_dir, output_dir):
-    name_map = {
-        "Boys U11": "bu11_ratings.json",
-        "Boys U13": "bu13_ratings.json",
-        "Boys U15": "bu15_ratings.json",
-        "Boys U19": "bu19_ratings.json",
-        "Girls U11": "gu11_ratings.json",
-        "Girls U13": "gu13_ratings.json",
-        "Girls U15": "gu15_ratings.json",
-        "Girls U19": "gu19_ratings.json",
-        "Open": "open_ratings.json",
-        "Women's": "women_ratings.json",
-        "Men's": "men_ratings.json",
-        "Men's Vets 40+":"mo40_ratings.json",
-        "Men's Vets 50+":"mo50_ratings.json",
-        "Men's Vets 60+":"mo60_ratings.json"
-    }
-
+def get_latest_historical_files(input_dir=None, output_dir=None):
+    """
+    Processes historical rating files and extracts the latest version of each category.
+    
+    Args:
+        input_dir: Directory containing historical files (default: HISTORICAL_FOLDER)
+        output_dir: Directory to write output files (default: JSON_FOLDER)
+    """
+    if input_dir is None:
+        input_dir = HISTORICAL_FOLDER
+    if output_dir is None:
+        output_dir = JSON_FOLDER
+    
+    if not input_dir.exists():
+        print(f"Historical folder not found: {input_dir}")
+        return
+    
     latest_files = {}
 
     for path in input_dir.glob("*.json"):
@@ -110,7 +137,7 @@ def get_latest_historical_files(input_dir, output_dir):
         if not match:
             continue
         category, date_str = match.groups()
-        if category not in name_map:
+        if category not in CATEGORY_NAME_MAP:
             continue
 
         date = datetime.strptime(date_str, "%Y-%m-%d")
@@ -119,7 +146,7 @@ def get_latest_historical_files(input_dir, output_dir):
             latest_files[category] = (date, path)
 
     for category, (date, path) in latest_files.items():
-        output_path = output_dir / name_map[category]
+        output_path = output_dir / CATEGORY_NAME_MAP[category]
         data = json.loads(path.read_text(encoding="utf-8"))
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
@@ -129,22 +156,55 @@ def get_latest_historical_files(input_dir, output_dir):
 # === Main Script ===
 
 if __name__ == "__main__":
-    input_folder = Path("csv")
-    output_folder = Path("json")
-    # ensure_empty_json_files([
-    #     "open_ratings.json", "women_ratings.json",
-    #     "bu19_ratings.json", "gu19_ratings.json",
-    #     "bu15_ratings.json", "gu15_ratings.json",
-    #     "bu13_ratings.json", "gu13_ratings.json",
-    #     "bu11_ratings.json", "gu11_ratings.json",
-    #     "mo40_ratings.json", "mo50_ratings.json",
-    #     "mo60_ratings.json", "men_ratings.json"
-    # ], output_folder)
-
-    convert_csv_to_json(input_folder / "Player List (2025-10-02).csv", Path(output_folder / "all_players.json"))
-    convert_matches(input_folder / "Match Results (2025-10-02).csv", Path(output_folder /"matches.json"))
-    extract_clubs(Path(output_folder /"all_players.json"), Path(output_folder /"clubs.json"))
-    # get_latest_historical_files(output_folder / "historical", output_folder)
+    import sys
+    
+    # Ensure directories exist
+    CSV_FOLDER.mkdir(parents=True, exist_ok=True)
+    JSON_FOLDER.mkdir(parents=True, exist_ok=True)
+    
+    # Get date from command line argument or use default
+    date_str = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_DATE
+    print(f"Processing files with date: {date_str}")
+    
+    # File paths
+    player_list_file = CSV_FOLDER / f"Player List ({date_str}).csv"
+    match_results_file = CSV_FOLDER / f"Match Results ({date_str}).csv"
+    
+    all_players_output = JSON_FOLDER / "all_players.json"
+    matches_output = JSON_FOLDER / "matches.json"
+    clubs_output = JSON_FOLDER / "clubs.json"
+    
+    # Check if input files exist
+    if not player_list_file.exists():
+        print(f"Warning: Player List file not found: {player_list_file}")
+        print(f"Expected location: {player_list_file.absolute()}")
+    else:
+        print(f"Processing: {player_list_file.name}")
+        convert_csv_to_json(player_list_file, all_players_output)
+        print(f"Created: {all_players_output.name}")
+    
+    if not match_results_file.exists():
+        print(f"Warning: Match Results file not found: {match_results_file}")
+        print(f"Expected location: {match_results_file.absolute()}")
+    else:
+        print(f"Processing: {match_results_file.name}")
+        convert_matches(match_results_file, matches_output)
+        print(f"Created: {matches_output.name}")
+    
+    # Extract clubs from all_players.json
+    if all_players_output.exists():
+        extract_clubs(all_players_output, clubs_output)
+        print(f"Created: {clubs_output.name}")
+    else:
+        print("Warning: Cannot extract clubs - all_players.json not found")
+    
+    # Process historical files if requested
+    if len(sys.argv) > 2 and sys.argv[2] == "--historical":
+        print("\nProcessing historical files...")
+        get_latest_historical_files()
+    
+    print("\nProcessing complete!")
+    print(f"Output directory: {JSON_FOLDER.absolute()}")
 
 
 

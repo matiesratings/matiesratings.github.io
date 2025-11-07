@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matches</title>
-    <link rel="stylesheet" href="scr/css/styles.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
     <style>
         th, td {
             font-size: clamp(10px, 1vw, 20px); /* scale text based on screen size */
@@ -22,7 +22,9 @@
 </script>
 <body>
     <div id="header-placeholder"></div>
-    <div id="metaHeader">
+    
+    <main>
+    <section id="metaHeader" class="meta-header" aria-label="Match category selection">
         <div>
             <select id="categorySelector" onchange="filterTable()">
                 <option value="Open League">Open League</option>
@@ -46,29 +48,20 @@
         </div>
 
 
-        <button id="toggleFilterButton"  onclick="toggleFilters()">Filter</button>    
+        <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>    
+    </section>
 
-    </div>
-
-
-    <div id="filterSection"  style="display: none;height: auto;">
-        <div class="filters" style="height: auto;" >
+    <section id="filterSection" class="filter-section hidden" aria-label="Match filter options">
+        <div class="filters">
             <div class="filter-container">
-                <label>Name</label>
-                <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                <label>Player</label>
+                <input type="text" id="nameFilter" class="search-input" placeholder="Search player..." oninput="updateNameSuggestions()">
                 <div id="nameSuggestions" class="suggestion-box"></div>
-            </div>
-        
-            <div class="filter-container">
-                <label>Winner</label>
-                <input type="text" id="winnerFilter" class="search-input" placeholder="Search winner..." oninput="updateWinnerSuggestions()">
-                <div id="winnerSuggestions" class="suggestion-box"></div>
-            </div>
-        
-            <div class="filter-container">
-                <label>Loser</label>
-                <input type="text" id="loserFilter" class="search-input" placeholder="Search loser..." oninput="updateLoserSuggestions()">
-                <div id="loserSuggestions" class="suggestion-box"></div>
+                <select id="playerFilterMode" onchange="filterTable()" class="wide-filter-select" style="margin-top: var(--spacing-xs);">
+                    <option value="both">Both (Wins & Losses)</option>
+                    <option value="win">Wins Only</option>
+                    <option value="loss">Losses Only</option>
+                </select>
             </div>
         
             <div class="filter-container">
@@ -99,9 +92,10 @@
                 </select>
             </div>
         </div>
-    </div>
+    </section>
 
-    <table>
+    <section aria-label="Match results table">
+    <table role="table" aria-label="Match results">
         <thead id="match-table-head">
             <tr>
                 <th onclick="sortTable(0)"class="mobile-hidden-col">Match ID</th>
@@ -120,7 +114,10 @@
             <!-- Data will be inserted here -->
         </tbody>
     </table>
-    <script src="/scr/js/matches.js"></script>
+    </section>
+    </main>
+    
+    <script src="/src/js/matches.js"></script>
     <script>
         function loadInclude(id, file) {
             fetch(file)
@@ -137,7 +134,7 @@
                     setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                 }
             };
-            loadInclude("header-placeholder", "Sections/header.html");
+            loadInclude("header-placeholder", "/components/header.html");
             setTitle();
         });
     </script>

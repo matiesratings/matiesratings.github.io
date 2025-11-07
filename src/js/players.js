@@ -1,9 +1,21 @@
-fetch('scr/data/json/all_players.json')
-    .then(response => response.json())
+fetch('/src/data/json/all_players.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Failed to load all_players.json: ${response.status} ${response.statusText}`);
+        }
+        return response.json();
+    })
     .then(data => {
+        if (!Array.isArray(data)) {
+            throw new Error("Invalid data format: expected array");
+        }
         playerData = data;
         displayData(playerData);
-    }).catch(error => console.error("Error loading JSON:", error));
+    })
+    .catch(error => {
+        console.error("Error loading player data:", error);
+        displayData([]); // Show empty state
+    });
 
 
 function displayData(data) {
@@ -28,7 +40,7 @@ function displayData(data) {
         let row = `<tr>
             <td>${player.maties_id}</td>
             <td>
-                <a href="player.html?name=${encodeURIComponent(player.name)}"; class="player-link"">
+                <a href="/pages/player.html?name=${encodeURIComponent(player.name)}" class="player-link">
                     ${player.name}
                 </a>
             </td>
@@ -42,38 +54,54 @@ let sortDirections = {};  // key: columnIndex, value: true (asc) or false (desc)
 
 function fetchAndDisplayFilteredData(sortColumn = null, ascending = true) {
 
-    fetch(`scr/data/json/all_players.json`)
-        .then(response => response.json())
+    fetch(`/src/data/json/all_players.json`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load all_players.json: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            const name = document.getElementById("nameFilter").value.toLowerCase();
-            const club = document.getElementById("clubFilter").value.toLowerCase();
-            const gender = document.getElementById("genderFilter").value.toLowerCase();
+            if (!Array.isArray(data)) {
+                throw new Error("Invalid data format: expected array");
+            }
+            
+            const name = (document.getElementById("nameFilter")?.value || "").toLowerCase();
+            const club = (document.getElementById("clubFilter")?.value || "").toLowerCase();
+            const gender = (document.getElementById("genderFilter")?.value || "both").toLowerCase();
 
             let filtered = data.filter(player => {
-                return (!name || player.name.toLowerCase().includes(name)) &&
-                    (!club || player.club.toLowerCase().includes(club)) &&
-                    (gender === "both" || player.gender.toLowerCase() === gender)
+                return (!name || (player.name && player.name.toLowerCase().includes(name))) &&
+                    (!club || (player.club && player.club.toLowerCase().includes(club))) &&
+                    (gender === "both" || (player.gender && player.gender.toLowerCase() === gender))
                 });
 
             if (sortColumn !== null) {
                 const keys = ["maties_id", "name", "club", "gender"];
                 const key = keys[sortColumn];
 
-                filtered.sort((a, b) => {
-                    const valA = a[key];
-                    const valB = b[key];
+                if (key) {
+                    filtered.sort((a, b) => {
+                        const valA = a[key];
+                        const valB = b[key];
 
-                    if (typeof valA === "number" && typeof valB === "number") {
-                        return ascending ? valA - valB : valB - valA;
-                    } else {
-                        return ascending ? valA.localeCompare(valB) : valB.localeCompare(valA);
-                    }
-                });
+                        if (typeof valA === "number" && typeof valB === "number") {
+                            return ascending ? valA - valB : valB - valA;
+                        } else {
+                            const strA = String(valA || "");
+                            const strB = String(valB || "");
+                            return ascending ? strA.localeCompare(strB) : strB.localeCompare(strA);
+                        }
+                    });
+                }
             }
 
             displayData(filtered);
         })
-        .catch(error => console.error("Error fetching data:", error));
+        .catch(error => {
+            console.error("Error fetching filtered player data:", error);
+            displayData([]); // Show empty state
+        });
 }
 
 function filterTable() {
@@ -87,10 +115,24 @@ function sortTable(columnIndex) {
 let clubList = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("scr/data/json/clubs.json")
-        .then(response => response.json())
+    fetch("/src/data/json/clubs.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load clubs.json: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            clubList = data.clubs;
+            if (data && Array.isArray(data.clubs)) {
+                clubList = data.clubs;
+            } else {
+                console.warn("Invalid clubs data format");
+                clubList = [];
+            }
+        })
+        .catch(error => {
+            console.error("Error loading clubs data:", error);
+            clubList = [];
         });
 });
 const tableBody = document.getElementById("player-table");
@@ -177,14 +219,20 @@ function toggleFilters() {
     toggleCount++;
 
     const section = document.getElementById("filterSection");
-    section.style.display = section.style.display === "none" ? "block" : "none";
-
-    document.getElementById("toggleFilterButton").textContent = "Reset";
+    const button = document.getElementById("toggleFilterButton");
+    
+    if (section.classList.contains("hidden")) {
+        section.classList.remove("hidden");
+        button.textContent = "Reset";
+    } else {
+        section.classList.add("hidden");
+        button.textContent = "Filter";
+    }
 
     if (toggleCount % 2 === 0) {
-        resetFilters(); // replace with the function you want to call
-        toggleCount =0;
-        document.getElementById("toggleFilterButton").textContent = "Filter";
+        resetFilters();
+        toggleCount = 0;
+        button.textContent = "Filter";
     }
 }
 

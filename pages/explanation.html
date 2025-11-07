@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rating System Explained</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
     <style>
-        /* Body Styling */
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            /* padding: 20px; */
+        /* Page-specific content styling */
+        main {
             text-align: justify; /* Justify text for a clean layout */
+            max-width: 900px;
+            margin: 0 auto;
+            padding: var(--spacing-lg);
         }
 
-        /* Headers Styling */
-        h1, h2, h3 {
+        /* Headers Styling - only for content headings, not header-title */
+        main h1, main h2, main h3 {
             background-color: maroon;
             color: white;
             padding: 10px;
@@ -73,114 +73,6 @@
             color: maroon;
             font-weight: bold;
         }
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: maroon;
-            padding: 10px;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 8px;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .nav-links li {
-            padding: 5px 10px;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: white;
-            font-size: 16px;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            background-color: darkred;
-            color: lightsalmon; 
-        }
-
-        .nav-links.active li {
-            text-align: center;
-            padding: 10px;
-            width: 100%;
-        }
-
-        .nav-links.active a {
-            padding: 10px;
-            width: 100%;
-            text-align: center;
-        }
-        /* Responsive Design */
-
-    .hamburger {
-        display: none; /* Will be overridden by media query */
-        flex-direction: column;
-        cursor: pointer;
-        gap: 5px;
-    }
-
-    .hamburger .line {
-        width: 25px;
-        height: 3px;
-        background-color: white;
-    }
-
-    @media (max-width: 768px) {
-        table {
-            width: 95%; /* Table will now take up 95% width on smaller screens */
-        }
-
-        .filters {
-            flex-direction: column; /* Stack the filters vertically */
-            gap: 10px;
-        }
-
-        .filter-container {
-            width: 100%;
-        }
-
-        .slider, .slider-container, input[type="text"], .num-input, select {
-            width: 90%; /* Adjust input widths for smaller screens */
-        }
-
-        .slider-container {
-            flex-direction: column; /* Stack the slider input and range for mobile */
-        }
-
-        .nav-links {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            position: absolute;
-            top: 56px;
-            left: 0;
-        }
-
-        .nav-links.active {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: black;
-        }
-
-        .hamburger {
-            display: flex;
-        }
-        h1{
-            font-size: 35px;
-        }
-        #header-title{
-            font-size: 35px;
-        }
-    }
     .video-container {
         text-align: center;
     }
@@ -189,17 +81,6 @@
         width: 90%;
         max-width: 560px;
         height: 315px;
-    }
-
-    #header-title{
-        background-color: black;
-    }
-
-    .nav-links.active li {
-        text-align: center;
-        background-color: maroon;
-        padding: 10px;
-        width: 80%;
     }
     </style>
 
@@ -216,6 +97,7 @@
 <body>
     <div id="header-placeholder"></div>
 
+    <main>
     <!-- <h1>🏓 Rating System Explained</h1> -->
 
 
@@ -265,10 +147,10 @@
     </div>
     
     <div class="section">
-        👉   <a href="templates/League Results Template.xlsx" download="LeagueName_Year_Results.xlsx">League Match Results Excel Template</a></p>
-        👉   <a href="templates/Tournament Results Template.xlsx" download="TournamentName_Year_Results.xlsx">Tournament Match Results Excel Template</a></p>
+        👉   <a href="/templates/League Results Template.xlsx" download="LeagueName_Year_Results.xlsx">League Match Results Excel Template</a></p>
+        👉   <a href="/templates/Tournament Results Template.xlsx" download="TournamentName_Year_Results.xlsx">Tournament Match Results Excel Template</a></p>
 
-        👉   <a href="templates/Players Template.xlsx" download="Club_PlayerList.xlsx">New Player Excel Template</a></p>
+        👉   <a href="/templates/Players Template.xlsx" download="Club_PlayerList.xlsx">New Player Excel Template</a></p>
     </div>
 
 
@@ -314,6 +196,7 @@
             </li>
         </ul>
     </div>
+    </main>
     <script>
 
     function toggleNav() {
@@ -337,7 +220,7 @@
                         setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                     }
                 };
-                loadInclude("header-placeholder", "Sections/header.html");
+                loadInclude("header-placeholder", "/components/header.html");
                 setTitle();
             });
     </script>

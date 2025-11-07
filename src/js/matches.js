@@ -7,13 +7,20 @@ function toggleFilters() {
     toggleCount++;
 
     const section = document.getElementById("filterSection");
-    section.style.display = section.style.display === "none" ? "block" : "none";
-
-    document.getElementById("toggleFilterButton").textContent = "Reset";
+    const button = document.getElementById("toggleFilterButton");
+    
+    if (section.classList.contains("hidden")) {
+        section.classList.remove("hidden");
+        button.textContent = "Reset";
+    } else {
+        section.classList.add("hidden");
+        button.textContent = "Filter";
+    }
 
     if (toggleCount % 2 === 0) {
-        resetMatchFilters(); // replace with the function you want to call
-        toggleCount =0;
+        resetMatchFilters();
+        toggleCount = 0;
+        button.textContent = "Filter";
     }
 }
 function populateDropdowns() {
@@ -45,8 +52,7 @@ function populateDropdowns() {
 
 function resetMatchFilters(){
     document.getElementById("nameFilter").value = "";
-    document.getElementById("loserFilter").value = "";
-    document.getElementById("winnerFilter").value = "";
+    document.getElementById("playerFilterMode").value = "both";
     document.getElementById("eventFilter").value = "";
     document.getElementById("eventTypeFilter").value = "";
     document.getElementById("provinceFilter").value = "";
@@ -92,67 +98,7 @@ function updateNameSuggestions() {
     suggestionBox.style.display = filteredNames.length ? "block" : "none";
 }
 
-function updateWinnerSuggestions() {
-    let input = document.getElementById("winnerFilter").value.toLowerCase();
-    let suggestionBox = document.getElementById("winnerSuggestions");
-
-    suggestionBox.innerHTML = "";
-    if (!input) {
-        suggestionBox.style.display = "none";
-        return;
-    }
-
-    let filteredWinners = [...new Set(
-        matchData
-            .map(match => match.winner)
-            .filter(name => name.toLowerCase().includes(input))
-    )];
-    
-    filteredWinners.forEach(name => {
-        let div = document.createElement("div");
-        div.classList.add("suggestion-item");
-        div.textContent = name;
-        div.onclick = function () {
-            document.getElementById("winnerFilter").value = name;
-            suggestionBox.style.display = "none";
-            filterTable();
-        };
-        suggestionBox.appendChild(div);
-    });
-
-    suggestionBox.style.display = filteredWinners.length ? "block" : "none";
-}
-
-function updateLoserSuggestions() {
-    let input = document.getElementById("loserFilter").value.toLowerCase();
-    let suggestionBox = document.getElementById("loserSuggestions");
-
-    suggestionBox.innerHTML = "";
-    if (!input) {
-        suggestionBox.style.display = "none";
-        return;
-    }
-
-    let filteredLosers = [...new Set(
-        matchData
-            .map(match => match.loser)
-            .filter(name => name.toLowerCase().includes(input))
-    )];
-    
-    filteredLosers.forEach(name => {
-        let div = document.createElement("div");
-        div.classList.add("suggestion-item");
-        div.textContent = name;
-        div.onclick = function () {
-            document.getElementById("loserFilter").value = name;
-            suggestionBox.style.display = "none";
-            filterTable();
-        };
-        suggestionBox.appendChild(div);
-    });
-
-    suggestionBox.style.display = filteredLosers.length ? "block" : "none";
-}
+// Removed updateWinnerSuggestions and updateLoserSuggestions - now handled by updateNameSuggestions
 
 function updateEventSuggestions() {
     let input = document.getElementById("eventFilter").value.toLowerCase();
@@ -195,15 +141,32 @@ function toggleNav() {
 let matchData = [];
 
 function loadMatchData() {
-    fetch('scr/data/json/matches.json')
-        .then(response => response.json())
+    fetch('/src/data/json/matches.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load matches.json: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            data.sort((a, b) => new Date(b.match_date) - new Date(a.match_date)); // sort by date descending
+            if (!Array.isArray(data)) {
+                throw new Error("Invalid data format: expected array");
+            }
+            data.sort((a, b) => {
+                try {
+                    return new Date(b.match_date) - new Date(a.match_date);
+                } catch (e) {
+                    return 0;
+                }
+            }); // sort by date descending
             matchData = data;
             displayData(matchData.slice(0, 100));
             populateDropdowns();
         })
-        .catch(error => console.error("Error loading JSON:", error));
+        .catch(error => {
+            console.error("Error loading match data:", error);
+            displayData([]); // Show empty state
+        });
 }
 
 loadMatchData();
@@ -294,7 +257,7 @@ function displayData(data) {
 
             if (key === "winner" || key === "loser") {
                 const playerName = match[key];
-                cell.innerHTML = `<a href="player.html?name=${encodeURIComponent(playerName)}"; class="player-link">${playerName}</a>`;
+                cell.innerHTML = `<a href="/pages/player.html?name=${encodeURIComponent(playerName)}" class="player-link">${playerName}</a>`;
             } else {
                 cell.textContent = match[key];
             }
@@ -308,8 +271,7 @@ function getFilterValues() {
     const cat = get("categorySelector");
     return {
         name: get("nameFilter"),
-        winner: get("winnerFilter"),
-        loser: get("loserFilter"),
+        playerMode: get("playerFilterMode") || "both",
         event: get("eventFilter"),
         category: cat === "all" ? "" : cat,
         eventType: get("eventTypeFilter"),
@@ -319,17 +281,31 @@ function getFilterValues() {
 }
 
 function applyFilters(data, filters) {
-
-    return data.filter(match => (
-        (!filters.name || match.winner === filters.name || match.loser === filters.name) &&
-        (!filters.winner || match.winner === filters.winner) &&
-        (!filters.loser || match.loser === filters.loser) &&
-        (!filters.event || match.event_name === filters.event) &&
-        (!filters.category || filters.category === "All" || match.category === filters.category) &&
-        (!filters.eventType || match.event_type === filters.eventType) &&
-        (!filters.province || match.province === filters.province) &&
-        (!filters.stage || match.stage === filters.stage)
-    ));
+    return data.filter(match => {
+        // Player name filter with mode (both/win/loss)
+        if (filters.name) {
+            const nameMatches = match.winner.toLowerCase().includes(filters.name.toLowerCase()) || 
+                               match.loser.toLowerCase().includes(filters.name.toLowerCase());
+            if (!nameMatches) return false;
+            
+            // Apply mode filter if name matches
+            if (filters.playerMode === "win") {
+                if (!match.winner.toLowerCase().includes(filters.name.toLowerCase())) return false;
+            } else if (filters.playerMode === "loss") {
+                if (!match.loser.toLowerCase().includes(filters.name.toLowerCase())) return false;
+            }
+            // If mode is "both", we already checked nameMatches above
+        }
+        
+        // Other filters
+        return (
+            (!filters.event || match.event_name === filters.event) &&
+            (!filters.category || filters.category === "All" || match.category === filters.category) &&
+            (!filters.eventType || match.event_type === filters.eventType) &&
+            (!filters.province || match.province === filters.province) &&
+            (!filters.stage || match.stage === filters.stage)
+        );
+    });
 }
 
 function sortTable(columnIndex, forceDirection = null) {

@@ -22,7 +22,7 @@ function renderGroups(data) {
           const li = document.createElement("li");
 
           const a = document.createElement("a");
-          a.href = `/player.html?name=${encodeURIComponent(player.name)}`;
+          a.href = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
           a.textContent = player.name;
           a.className = "player-link";
           li.appendChild(a);
@@ -163,7 +163,7 @@ function renderKnockouts(data) {
         row.className = "player";
 
         const link = document.createElement("a");
-        link.href = `/player.html?name=${encodeURIComponent(p.name)}`;
+        link.href = `/pages/player.html?name=${encodeURIComponent(p.name)}`;
         link.textContent = p.name;
         link.className = "player-link";
         row.appendChild(link);
