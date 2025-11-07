@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Info</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    
+    <main>
+    <section id="player-info-container" class="player-info-container" aria-label="Player information">
+        <table id="player-info-table" class="player-info-table">
+            <tbody>
+                <!-- Player info will be inserted here -->
+            </tbody>
+        </table>
+    </section>
+    
+    <section aria-label="Match history">
+    <div class="match-history-header">
+        <h2 class="match-history-title">Match History</h2>
+        <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
+    </div>
+
+    <div id="filterSection" class="filter-section hidden" aria-label="Match history filters">
+        <div class="filters">
+            <div class="filter-container">
+                <label>Player</label>
+                <input type="text" id="nameFilter" class="search-input" placeholder="Search player..." oninput="updateNameSuggestions()">
+                <div id="nameSuggestions" class="suggestion-box"></div>
+                <select id="playerFilterMode" onchange="filterTable()" class="wide-filter-select" style="margin-top: var(--spacing-xs);">
+                    <option value="both">Both (Wins & Losses)</option>
+                    <option value="win">Wins Only</option>
+                    <option value="loss">Losses Only</option>
+                </select>
+            </div>
+            <div class="filter-container">
+                <label>Event</label>
+                <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()">
+                <div id="eventSuggestions" class="suggestion-box"></div>
+            </div>
+            <div class="filter-container">
+                <label>Type</label>
+                <select id="eventTypeFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Type</option>
+                </select>
+            </div>
+            <div class="filter-container">
+                <label>Province</label>
+                <select id="provinceFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Province</option>
+                </select>
+            </div>
+            <div class="filter-container">
+                <label>Stage</label>
+                <select id="stageFilter" onchange="filterTable()" class="wide-filter-select">
+                    <option value="">Stage</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display: flex; justify-content: center; gap: var(--spacing-sm); margin: var(--spacing-md) 0; padding: 0 var(--spacing-md);">
+        <button id="winsButton" onclick="filterWins()" class="filter-toggle-button">Wins</button>
+        <button id="lossesButton" onclick="filterLosses()" class="filter-toggle-button">Losses</button>
+    </div>
+    
+    <table role="table" aria-label="Player match history">
+        <thead id="match-table-head">
+            <tr>
+                <th onclick="sortTable(0)" class="mobile-hidden-col">Match<br>ID</th>
+                <th onclick="sortTable(1)" class="mobile-hidden-col">Match Date</th>
+                <th onclick="sortTable(2)">Event Name</th>
+                <th onclick="sortTable(3)" class="mobile-hidden-col">Event Type</th>
+                <th onclick="sortTable(4)" class="mobile-hidden-col">Category</th>
+                <th onclick="sortTable(5)" class="mobile-hidden-col">Province</th>
+                <th onclick="sortTable(6)" class="mobile-hidden-col">Stage</th>
+                <th onclick="sortTable(7)">Winner</th>
+                <th onclick="sortTable(8)">Loser</th>
+                <th onclick="sortTable(9)">W-L</th>
+
+            </tr>
+        </thead>
+        <tbody id="match-table">
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+    </section>
+    </main>
+    
+    <script>
+        // --- Query and player name ---
+        const params = new URLSearchParams(window.location.search);
+        const playerName = params.get("name");
+        if (!playerName) {
+            document.body.innerHTML = "<p>No player specified.</p>";
+            throw new Error("Missing player name");
+        }
+
+        // --- Variables ---
+        let matchData = [];
+        let sortDirections = {};
+        let toggleCount = 0;
+
+        // --- Load and filter data ---
+        function loadMatchData() {
+            fetch('/src/data/json/matches.json')
+                .then(response => response.json())
+                .then(data => {
+                    matchData = data.filter(
+                        match => match.winner === playerName || match.loser === playerName
+                    );
+                    matchData.sort((a, b) => new Date(b.match_date) - new Date(a.match_date));
+                    displayData(matchData.slice(0, 100));
+                    populateDropdowns();
+                    resetFilterButtons();
+                })
+                .catch(error => console.error("Error loading JSON:", error));
+        }
+        
+        // --- Filter buttons (Wins/Losses) ---
+        let activeFilterButton = null;
+        
+        function resetFilterButtons() {
+            activeFilterButton = null;
+            document.getElementById("winsButton").classList.remove("active");
+            document.getElementById("lossesButton").classList.remove("active");
+        }
+        
+        function filterWins() {
+            const winsButton = document.getElementById("winsButton");
+            const lossesButton = document.getElementById("lossesButton");
+            
+            if (activeFilterButton === "wins") {
+                // Toggle off - show all matches
+                resetFilterButtons();
+                filterTable(); // Reapply other filters if any
+            } else {
+                // Filter to wins only
+                activeFilterButton = "wins";
+                winsButton.classList.add("active");
+                lossesButton.classList.remove("active");
+                filterTable(); // Apply wins filter along with other filters
+            }
+        }
+        
+        function filterLosses() {
+            const winsButton = document.getElementById("winsButton");
+            const lossesButton = document.getElementById("lossesButton");
+            
+            if (activeFilterButton === "losses") {
+                // Toggle off - show all matches
+                resetFilterButtons();
+                filterTable(); // Reapply other filters if any
+            } else {
+                // Filter to losses only
+                activeFilterButton = "losses";
+                lossesButton.classList.add("active");
+                winsButton.classList.remove("active");
+                filterTable(); // Apply losses filter along with other filters
+            }
+        }
+
+        // --- Display table ---
+        function displayData(data) {
+            const tableBody = document.getElementById("match-table");
+            tableBody.innerHTML = "";
+            const isMobile = window.innerWidth <= 768; // define mobile breakpoint
+
+            if (data.length === 0) {
+                const colspan = isMobile ? 4 : 10; // fewer columns on mobile
+                const row = `<tr><td colspan="${colspan}" class="empty-state">Results coming soon...</td></tr>`;
+                tableBody.innerHTML = row;
+                return;
+            }
+
+            data.slice(0, 100).forEach(match => {
+                let row = `<tr>`;
+                row += `<td class="mobile-hidden-col">${match.match_id}</td>`;
+                row += `<td class="mobile-hidden-col">${match.match_date}</td>`;
+                row += `<td class="event-name-cell">${match.event_name}</td>`;
+                row += `<td class="mobile-hidden-col">${match.event_type}</td>`;
+                row += `<td class="mobile-hidden-col">${match.category}</td>`;
+                row += `<td class="mobile-hidden-col">${match.province}</td>`;
+                row += `<td class="mobile-hidden-col">${match.stage}</td>`;
+                row += `<td><a href="/pages/player.html?name=${encodeURIComponent(match.winner)}" class="player-link">${match.winner}</a></td>`;
+                row += `<td><a href="/pages/player.html?name=${encodeURIComponent(match.loser)}" class="player-link">${match.loser}</a></td>`;
+                row += `<td>${match.score}</td>`;
+                row += `</tr>`;
+
+                tableBody.innerHTML += row;
+            });
+        }
+
+        // --- Filtering ---
+        function getFilterValues() {
+            const get = id => document.getElementById(id).value;
+            return {
+                name: get("nameFilter"),
+                playerMode: get("playerFilterMode") || "both",
+                event: get("eventFilter"),
+                eventType: get("eventTypeFilter"),
+                province: get("provinceFilter"),
+                stage: get("stageFilter")
+            };
+        }
+        function applyFilters(data, filters) {
+            return data.filter(match => {
+                // Player name filter with mode (both/win/loss)
+                if (filters.name) {
+                    const nameMatches = match.winner.toLowerCase().includes(filters.name.toLowerCase()) || 
+                                       match.loser.toLowerCase().includes(filters.name.toLowerCase());
+                    if (!nameMatches) return false;
+                    
+                    // Apply mode filter if name matches
+                    if (filters.playerMode === "win") {
+                        if (!match.winner.toLowerCase().includes(filters.name.toLowerCase())) return false;
+                    } else if (filters.playerMode === "loss") {
+                        if (!match.loser.toLowerCase().includes(filters.name.toLowerCase())) return false;
+                    }
+                    // If mode is "both", we already checked nameMatches above
+                }
+                
+                // Other filters
+                return (
+                    (!filters.event || match.event_name === filters.event) &&
+                    (!filters.eventType || match.event_type === filters.eventType) &&
+                    (!filters.province || match.province === filters.province) &&
+                    (!filters.stage || match.stage === filters.stage)
+                );
+            });
+        }
+        function filterTable() {
+            const filters = getFilterValues();
+            let filteredData = applyFilters(matchData, filters);
+            
+            // Apply wins/losses filter if active
+            if (activeFilterButton === "wins") {
+                filteredData = filteredData.filter(match => match.winner === playerName);
+            } else if (activeFilterButton === "losses") {
+                filteredData = filteredData.filter(match => match.loser === playerName);
+            }
+            
+            displayData(filteredData.slice(0, 100));
+        }
+
+        // --- Sorting ---
+        function sortTable(columnIndex, forceDirection = null) {
+            const filters = getFilterValues();
+            let filtered = applyFilters(matchData, filters);
+            
+            // Apply wins/losses filter if active
+            if (activeFilterButton === "wins") {
+                filtered = filtered.filter(match => match.winner === playerName);
+            } else if (activeFilterButton === "losses") {
+                filtered = filtered.filter(match => match.loser === playerName);
+            }
+            
+            const columnMap = ['match_id', 'match_date', 'event_name', 'event_type', 'category', 'province', 'stage', 'winner', 'loser', 'score'];
+            const key = columnMap[columnIndex];
+            if (forceDirection !== null) {
+                sortDirections[columnIndex] = false;
+            } else {
+                sortDirections[columnIndex] = !sortDirections[columnIndex];
+            }
+            const ascending = sortDirections[columnIndex];
+            filtered.sort((a, b) => {
+                const valA = a[key], valB = b[key];
+                return (isNaN(valA) ? String(valA).localeCompare(String(valB)) : valA - valB) * (ascending ? 1 : -1);
+            });
+            displayData(filtered.slice(0, 100));
+        }
+
+        // --- Dropdowns ---
+        function populateDropdowns() {
+            let eventTypes = [...new Set(matchData.map(match => match.event_type))];
+            let provinces = [...new Set(matchData.map(match => match.province))];
+            let stages = [...new Set(matchData.map(match => match.stage))];
+            eventTypes.forEach(eventType => {
+                let option = document.createElement("option");
+                option.value = eventType;
+                option.textContent = eventType;
+                document.getElementById("eventTypeFilter").appendChild(option);
+            });
+            provinces.forEach(province => {
+                let option = document.createElement("option");
+                option.value = province;
+                option.textContent = province;
+                document.getElementById("provinceFilter").appendChild(option);
+            });
+            stages.forEach(stage => {
+                let option = document.createElement("option");
+                option.value = stage;
+                option.textContent = stage;
+                document.getElementById("stageFilter").appendChild(option);
+            });
+        }
+
+        // --- Suggestions ---
+        function updateNameSuggestions() {
+            let input = document.getElementById("nameFilter").value.toLowerCase();
+            let suggestionBox = document.getElementById("nameSuggestions");
+        
+            suggestionBox.innerHTML = "";
+            if (!input) {
+                suggestionBox.style.display = "none";
+                return;
+            }
+        
+            let filteredNames = [...new Set(
+                matchData
+                    .map(match => [match.winner, match.loser])
+                    .flat()
+                    .filter(name => name && name.toLowerCase().includes(input))
+            )];
+        
+            filteredNames.forEach(name => {
+                let div = document.createElement("div");
+                div.classList.add("suggestion-item");
+                div.textContent = name;
+                div.onclick = function () {
+                    document.getElementById("nameFilter").value = name;
+                    suggestionBox.style.display = "none";
+                    filterTable();
+                };
+                suggestionBox.appendChild(div);
+            });
+        
+            suggestionBox.style.display = filteredNames.length ? "block" : "none";
+        }
+        function updateEventSuggestions() {
+            let input = document.getElementById("eventFilter").value.toLowerCase();
+            let suggestionBox = document.getElementById("eventSuggestions");
+            suggestionBox.innerHTML = "";
+            if (!input) {
+                suggestionBox.style.display = "none";
+                return;
+            }
+            let filteredEvents = [...new Set(
+                matchData
+                    .map(match => match.event_name)
+                    .filter(name => name && name.toLowerCase().includes(input))
+            )];
+            filteredEvents.forEach(name => {
+                let div = document.createElement("div");
+                div.classList.add("suggestion-item");
+                div.textContent = name;
+                div.onclick = function () {
+                    document.getElementById("eventFilter").value = name;
+                    suggestionBox.style.display = "none";
+                    filterTable();
+                };
+                suggestionBox.appendChild(div);
+            });
+            suggestionBox.style.display = filteredEvents.length ? "block" : "none";
+        }
+
+        // --- Filter toggle ---
+        function toggleFilters() {
+            toggleCount++;
+            const section = document.getElementById("filterSection");
+            const button = document.getElementById("toggleFilterButton");
+            
+            if (section.classList.contains("hidden")) {
+                section.classList.remove("hidden");
+                button.textContent = "Reset";
+            } else {
+                section.classList.add("hidden");
+                button.textContent = "Filter";
+            }
+            
+            if (toggleCount % 2 === 0) {
+                resetFilters();
+                toggleCount = 0;
+                button.textContent = "Filter";
+            }
+        }
+        function resetFilters() {
+            document.getElementById("nameFilter").value = "";
+            document.getElementById("playerFilterMode").value = "both";
+            document.getElementById("eventFilter").value = "";
+            document.getElementById("eventTypeFilter").value = "";
+            document.getElementById("provinceFilter").value = "";
+            document.getElementById("stageFilter").value = "";
+            filterTable();
+        }
+
+        // --- Header include ---
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                    // Set header-title to player name after header loads
+                    const headerTitle = document.getElementById("header-title");
+                    if (headerTitle) headerTitle.textContent = playerName;
+                });
+        }
+        document.addEventListener("DOMContentLoaded", function () {
+            loadInclude("header-placeholder", "/components/header.html");
+            loadPlayerInfo();
+            loadMatchData();
+        });
+    
+        function loadPlayerInfo() {
+            // Fetch both open_ratings and all_players
+            Promise.all([
+                fetch('/src/data/json/open_ratings.json').then(res => res.json()),
+                fetch('/src/data/json/all_players.json').then(res => res.json())
+            ]).then(([ratings, allPlayers]) => {
+                // Find player in open_ratings
+
+                const player = ratings.find(p => p.name.toLowerCase() === playerName.toLowerCase());
+                const infoTable = document.getElementById("player-info-table").querySelector("tbody");
+                infoTable.innerHTML = "";
+                if (player.maties_id) {
+                    const playerAll = allPlayers.find(p => String(p.maties_id) === String(player.maties_id));
+                    const gender = playerAll ? playerAll.gender : "Unknown";
+                
+                    infoTable.innerHTML = `
+                        <tr>
+                            <td colspan="2" class="player-info-content">
+                            <h2 class="player-rating">${player.rating ? player.rating : "N/A"}</h2>
+                            <h2 class="player-club">${player.club ? player.club : "Unknown"}</h2>
+                            <table class="player-stats-table">
+                                    <tr>
+                                        <th>Gender</th>
+                                        <th>Played</th>
+                                        <th>Won</th>
+                                        <th>Lost</th>
+                                        <th>Win %</th>
+                                    </tr>
+                                    <tr>
+                                        <td>${gender}</td>
+                                        <td>${player.played ? player.played : "N/A"}</td>
+                                        <td>${player.won ? player.won : "N/A"}</td>
+                                        <td>${player.lost ? player.lost : "N/A"}</td>
+                                        <td>${player.win_per ? player.win_per : "N/A"}</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    `;
+                } else {
+                    infoTable.innerHTML = `<tr><td colspan="2" class="empty-state">No rating info found for this player.</td></tr>`;
+                }
+            }).catch(() => {
+                const infoTable = document.getElementById("player-info-table").querySelector("tbody");
+                infoTable.innerHTML = `<tr><td colspan="2" class="empty-state">Could not load player info.</td></tr>`;
+            });
+        }
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            // Check if the click was outside the navigation menu and the hamburger button
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+    </script>
+</body>
+</html>

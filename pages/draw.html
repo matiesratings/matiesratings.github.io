@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis Groups</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <div id="viewToggles">
+    <!-- <button id="btnGroups">Groups</button>
+    <button id="btnKnockouts">Knockouts</button>
+    <button id="btnGroupResults">Group Results</button> -->
+  </div>
+
+  <div id="contentContainer"></div>
+
+  <script src="/src/js/bracket.js"></script>
+  <script src="/src/js/draw.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+      // Load includes
+      loadInclude("header-placeholder", "/components/header.html");
+      // loadInclude("footer-placeholder", "/components/footer.html");
+
+      // Set header title with line break
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "Maties Open 2025 <br> Open Doubles";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+      const response = await fetch("/src/data/tournament/maties_open_25/R32.json");
+      const data = await response.json();
+
+      const toggleContainer = document.getElementById("viewToggles");
+
+      if (data.groups) {
+            const btnGroups = document.createElement("button");
+            btnGroups.id = "btnGroups";
+            btnGroups.textContent = "Groups";
+            btnGroups.addEventListener("click", () => renderGroups(data));
+            toggleContainer.appendChild(btnGroups);
+        }
+
+        if (data.knockouts) {
+            const btnKnockouts = document.createElement("button");
+            btnKnockouts.id = "btnKnockouts";
+            btnKnockouts.textContent = "Knockouts";
+            btnKnockouts.addEventListener("click", () => renderKnockouts(data));
+            toggleContainer.appendChild(btnKnockouts);
+        }
+
+        if (data.results) {
+            const btnResults = document.createElement("button");
+            btnResults.id = "btnGroupResults";
+            btnResults.textContent = "Group Results";
+            btnResults.addEventListener("click", () => renderGroupResults(data));
+            toggleContainer.appendChild(btnResults);
+        }
+
+        // Default view: first available
+        if (data.groups) {
+            renderGroups(data);
+        } else if (data.knockouts) {
+            renderKnockouts(data);
+        } else if (data.results) {
+            renderGroupResults(data);
+        }
+  });
+  </script>
+</body>
+</html>

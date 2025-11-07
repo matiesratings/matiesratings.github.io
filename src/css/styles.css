@@ -1,0 +1,118 @@
+/**
+ * Main Stylesheet - Imports all CSS modules
+ * Order matters: variables -> base -> components -> utilities -> responsive
+ */
+
+@import url('variables.css');
+@import url('base.css');
+@import url('components.css');
+@import url('utilities.css');
+@import url('responsive.css');
+
+/* Legacy styles that need to be migrated or kept for compatibility */
+/* These will be gradually moved to appropriate module files */
+
+.player-info-table {
+    font-size: clamp(14px, 10vw, 28px);
+}
+
+#header-title {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 80%;
+    white-space: normal;
+    line-height: 1.1;
+    font-size: var(--font-size-heading);
+    background-color: transparent !important;
+    border-radius: 0;
+}
+
+/* Slider specific styles */
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-xs);
+}
+
+.slider {
+    width: 70px;
+    height: 8px;
+    border-radius: var(--radius-sm);
+    background: var(--color-background);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-text);
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+    transition: transform var(--transition-fast);
+}
+
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-text);
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+    transition: transform var(--transition-fast);
+}
+
+.slider::-moz-range-thumb:hover {
+    transform: scale(1.2);
+}
+
+.slider-values {
+    font-size: 14px;
+}
+
+/* Input number styles */
+.num-input {
+    width: 50px;
+}
+
+#genderFilter {
+    width: 60px;
+}
+
+input[type="text"]#clubFilter {
+    width: 75px;
+}
+
+.wide-filter-select {
+    width: 100px;
+    padding: var(--spacing-xs);
+    margin: var(--spacing-xs);
+    border: none;
+    border-radius: var(--radius-sm);
+    text-align: center;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+/* SVG for bracket lines */
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USSA Nationals 2025</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+    <div class="event-section">
+
+        <div class="event-description">
+            <p><strong>Tournament:</strong> University Sport South Africa Nationals 2025</p>
+            <p>
+            <strong>Contact:</strong> 
+            Tournament Director - <a href="mailto:tianlouw53@gmail.com">tianlouw53@gmail.com</a>
+            </p>
+        </div>
+        <div id="events-container">
+            <h2 style="width: 100%; margin: var(--spacing-md) 0; color: var(--color-text);">Men's Events</h2>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=mens_team'">Men's Team Event</button>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=mens_singles'">Men's Singles</button>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=mens_doubles'">Men's Doubles</button>
+            
+            <h2 style="width: 100%; margin: var(--spacing-md) 0; color: var(--color-text);">Women's Events</h2>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=womens_team'">Women's Team Event</button>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=womens_singles'">Women's Singles</button>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=womens_doubles'">Women's Doubles</button>
+            
+            <h2 style="width: 100%; margin: var(--spacing-md) 0; color: var(--color-text);">Mixed Events</h2>
+            <button class="event" onclick="location.href='/pages/event.html?tournament=ussa_25&event=mixed_doubles'">Mixed Doubles</button>
+        </div>
+    </div>
+
+  <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        function toggleNav() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const navLinks = document.querySelector('.nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            
+            // Check if the click was outside the navigation menu and the hamburger button
+            if (!navLinks.contains(event.target) && !hamburger.contains(event.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+      document.addEventListener("DOMContentLoaded", async function () {
+      // Load includes
+      loadInclude("header-placeholder", "/components/header.html");
+
+      // Set header title
+      const setTitle = () => {
+          const titleElement = document.getElementById("header-title");
+          if (titleElement) {
+              titleElement.innerHTML = "USSA Nationals 2025";
+          } else {
+              setTimeout(setTitle, 50);
+          }
+      };
+      setTitle();
+    
+  });
+  </script>
+</body>
+</html>
+

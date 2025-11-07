@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Player Rankings</title>
-    <link rel="stylesheet" href="scr/css/styles.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3SNXPPJWG"></script>
@@ -18,12 +18,12 @@
 <body>
     <div id="header-placeholder"></div>
 
-
-    <div id="metaHeader">
-        <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="/scr/img/svg/Flag_of_South_Africa.svg" alt="Left Flag" style="height: 30px;">
+    <main>
+    <section class="meta-header" id="metaHeader" aria-label="Category selection">
+        <div class="meta-header-group">
+            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
             <div>
-                <select id="categorySelector" onchange="loadSelectedData()">
+                <select id="categorySelector" class="category-selector" onchange="loadSelectedData()">
                     <option value="men_ratings.json">Mens Rating</option>
                     <option value="women_ratings.json">Womens Rating</option>
                     <option value="open_ratings.json">Open Rating</option>
@@ -41,18 +41,17 @@
                 </select>
             </div>
         </div>
-        <div style="display: flex; align-items: center; gap: 10px;">
+        <div class="meta-header-group">
             <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
-            <img src="/scr/img/svg/Flag_of_South_Africa.svg" alt="Right Flag" style="height: 30px;">
+            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
         </div>
 
 
         
-    </div>
+    </section>
 
-    <div id="filterSection"  style="display: none;">
-        <!-- Filters -->
-            <div class="filters">
+    <section id="filterSection" class="filter-section hidden" aria-label="Filter options">
+        <div class="filters">
                 <div class="filter-container">
                     <label>Name</label>
                     <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
@@ -75,14 +74,11 @@
                         <input type="number" id="ratingMaxInput" class="num-input" min="0" max="3000" step="1" oninput="syncInput('rating', 'max')" />
                     </div>
                 </div>            
-            </div>
-            <!-- <button id="resetFilterButton"  onclick="resetFilters()">Reset</button> -->
-    </div>
+        </div>
+    </section>
 
-    
-
-    <!-- Data Table -->
-    <table>
+    <section aria-label="Player ratings table">
+    <table role="table" aria-label="Player ratings">
         <thead>
             <tr>
                 <!-- <th onclick="sortTable(0)" class="mobile-hidden-col">ID</th> -->
@@ -98,9 +94,12 @@
             <!-- Data will be inserted here -->
         </tbody>
     </table>
+    </section>
+    </main>
+    
     <div id="footer-placeholder"></div>
 
-    <script src="/scr/js/script.js"></script>
+    <script src="/src/js/script.js"></script>
     <script>
         function loadInclude(id, file) {
             fetch(file)
@@ -112,13 +111,13 @@
             const setTitle = (title) => {
                 const titleElement = document.getElementById("header-title");
                 if (titleElement) {
-                    titleElement.textContent = "South African Player Rankings";
+                    titleElement.textContent = "Maties Player Rankings";
                 } else {
                     setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
                 }
             };
-            loadInclude("header-placeholder", "Sections/header.html");
-            // loadInclude("footer-placeholder", "Sections/footer.html");
+            loadInclude("header-placeholder", "/components/header.html");
+            // loadInclude("footer-placeholder", "/components/footer.html");
 
             // setTitle();
         });

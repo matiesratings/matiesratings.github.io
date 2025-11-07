@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Rankings</title>
+    <meta property="og:image" content="https://matiesratings.github.io/src/img/logo_no_bg.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="National Table Tennis Players Ratings | Maties Ratings">
+    <meta property="og:description" content="National Table Tennis Ratings for South Africa.">
+    <meta property="og:url" content="https://matiesratings.github.io/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <script src="https://cdn.tailwindcss.com"></script> 
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'maroon': '#800000',
+              'darkred': '#8B0000',
+              'lightsalmon': '#FFA07A',
+            },
+            // Custom sizing utility to approximate your 'clamp' function for the table font
+            fontSize: {
+                'table-clamp': 'clamp(10px, 3.5vw, 18px)',
+                'player-info-clamp': 'clamp(14px, 10vw, 28px)',
+                'header-clamp': 'clamp(27px, 5vw, 120px)', 
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+        /* Ensures table and body elements respect min-width for small screens */
+        body {
+            min-width: 378px;
+        }
+
+        /* Suggestion box positioning (Converted from @apply to standard CSS) */
+        .suggestion-box {
+            position: absolute;
+            z-index: 10;
+            width: 100%; /* w-full */
+            background-color: black; /* bg-black */
+            color: white; /* text-white */
+            border: 1px solid #800000; /* border border-maroon */
+            border-radius: 0.25rem; /* rounded-md */
+            max-height: 10rem; /* h-40 */
+            overflow-y: auto;
+        }
+        .suggestion-item {
+            padding: 6px 9px; /* p-1.5 */
+            cursor: pointer;
+        }
+        .suggestion-item:hover {
+            background-color: #800000; /* bg-maroon */
+        }
+
+        /* Overrides Tailwind default for range sliders to match design intent */
+        .slider-container input[type="range"] {
+            /* Basic styling for range input track */
+            @apply w-full h-2 bg-black rounded-lg appearance-none cursor-pointer;
+            border: 1px solid #800000;
+        }
+        
+        /* Mobile Menu Styles (Toggled by JS when '.active') */
+        @media (max-width: 767px) {
+            .mobile-hidden-col {
+                display: none;
+            }
+
+            /* Nav Links when active on mobile */
+            #navLinks.active {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 60px; /* Adjust based on your header's height */
+                left: 0;
+                width: 100%;
+                z-index: 20;
+                background-color: black;
+                border-top: 1px solid #800000;
+            }
+            
+            #navLinks.active li {
+                text-align: center;
+                background-color: #800000; /* maroon */
+                /* padding: 10px; */
+                width: 80%;
+                margin: 0 auto;
+                border-bottom: 1px solid black;
+            }
+            
+            #navLinks.active a {
+                padding: 10px;
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3SNXPPJWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-D3SNXPPJWG');
+</script>
+
+<body class="bg-black text-white font-sans text-center m-0">
+
+    <header class="bg-black w-full"> 
+        <div class="px-2 md:px-5"> <nav class="navbar flex justify-between items-center bg-maroon p-2 my-2 mb-0 rounded-lg">
+                <ul id="navLinks" class="nav-links hidden md:flex gap-2 list-none m-0 p-1">
+                    <li class="px-2 rounded-lg">
+                        <a href="/index.html" class="text-white text-base px-2 rounded-md transition duration-300 hover:bg-darkred hover:text-lightsalmon">Players Ratings</a>
+                    </li>
+                    <li class="px-2 rounded-lg">
+                        <a href="/pages/matches.html" class="text-white text-base px-2 rounded-md transition duration-300 hover:bg-darkred hover:text-lightsalmon">Match Results</a>
+                    </li> 
+                    <li class="px-2 rounded-lg">
+                        <a href="/pages/explanation.html" class="text-white text-base px-2 rounded-md transition duration-300 hover:bg-darkred hover:text-lightsalmon">How it Works</a>
+                    </li> 
+                    <li class="px-2 rounded-lg">
+                        <a href="/tournaments/maties_open/maties_open.html" class="text-white text-base px-2 rounded-md transition duration-300 hover:bg-darkred hover:text-lightsalmon">Maties Open 2025</a>
+                    </li> 
+                </ul>
+                
+                <div class="hamburger flex md:hidden flex-col gap-1.5 cursor-pointer" onclick="toggleNav()">
+                    <div class="line w-[30px] h-[3px] bg-white"></div>
+                    <div class="line w-[30px] h-[3px] bg-white"></div>
+                    <div class="line w-[30px] h-[3px] bg-white"></div>
+                </div>
+            </nav>
+
+            <div class="flex justify-between items-center text-left py-5">
+                
+                <img src="/scr/img/logo_no_bg.png" alt="Logo" class="max-h-[100px] md:max-h-[150px]">
+                
+                <!-- <h1 id="header-title" class="m-0 text-center flex-1 font-header-clamp leading-tight px-4">
+                    Maties<br>Player Rankings
+                </h1> -->
+                <h1 id="header-title" class="m-0 text-center flex-1 text-header-clamp leading-tight px-4 font-bold">
+                    Maties<br>Player Rankings
+                </h1>
+                
+                <a href="https://www.instagram.com/matiestabletennis/">
+                    <img src="/scr/img/mattc_logo-removebg-preview.png" alt="Logo" class="max-h-[100px] md:max-h-[150px]">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="metaHeader" class="flex justify-between items-center w-[90%] mx-auto pt-5">
+        
+        <div class="flex items-center gap-2.5">
+            <img src="/scr/img/svg/Flag_of_South_Africa.svg" alt="Left Flag" class="h-[30px]">
+            <div>
+                <select id="categorySelector" onchange="loadSelectedData()" class="h-10 border-0 rounded-md text-center text-white bg-maroon text-[1.0em]">
+                    <option value="men_ratings.json">Mens Rating</option>
+                    <option value="women_ratings.json">Womens Rating</option>
+                    <option value="open_ratings.json">Open Rating</option>
+                    <option value="mo40_ratings.json">Mens 40+ Rating</option>
+                    <option value="mo50_ratings.json">Mens 50+ Rating</option>
+                    <option value="mo60_ratings.json">Mens 60+ Rating</option>
+                    <option value="bu19_ratings.json">Boys U19 Rating</option>
+                    <option value="gu19_ratings.json">Girls U19 Rating</option>
+                    <option value="bu15_ratings.json">Boys U15 Rating</option>
+                    <option value="gu15_ratings.json">Girls U15 Rating</option>
+                    <option value="bu13_ratings.json">Boys U13 Rating</option>
+                    <option value="gu13_ratings.json">Girls U13 Rating</option>
+                    <option value="bu11_ratings.json">Boys U11 Rating</option>
+                    <option value="gu11_ratings.json">Girls U11 Rating</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="flex items-center gap-2.5">
+            <button id="toggleFilterButton" onclick="toggleFilters()" class="bg-maroon text-white px-5 py-2 border border-maroon rounded-lg text-base cursor-pointer hover:bg-darkred">
+                Search
+            </button>
+            <img src="/scr/img/svg/Flag_of_South_Africa.svg" alt="Right Flag" class="h-[30px]">
+        </div>
+    </div>
+
+    <div id="filterSection" class="py-4 mb-5" style="display: none;">
+        
+        <div class="w-[85%] mx-auto"> 
+
+            <div class="filters flex flex-wrap justify-center gap-[15px] md:h-auto">
+                
+                <div class="filter-container flex flex-col items-center bg-maroon pt-2.5 pb-2.5 rounded-lg w-full md:w-auto md:px-4">
+                    <label>Name</label>
+                    <input type="text" id="nameFilter" class="search-input **w-full** p-1.5 mt-1 border-0 rounded-md text-center bg-black text-white border border-maroon" placeholder="Search name..." oninput="updateNameSuggestions()">
+                    <div id="nameSuggestions" class="suggestion-box w-[120px]"></div>
+                </div>
+                
+                <div class="filter-container flex flex-col items-center bg-maroon pt-2.5 pb-2.5 rounded-lg w-full md:w-auto md:px-4">
+                    <label>Club</label>
+                    <input type="text" id="clubFilter" class="search-input **w-full** p-1.5 mt-1 border-0 rounded-md text-center bg-black text-white border border-maroon" placeholder="Search club..." oninput="updateClubSuggestions()">
+                    <div id="clubSuggestions" class="suggestion-box w-[120px]"></div>
+                </div>
+                
+                <!-- <div class="filter-container flex flex-col items-center bg-maroon pt-2.5 pb-2.5 rounded-lg w-full md:w-auto">
+                    <label>Rating</label>
+                    <div class="slider-container flex items-center gap-1.5 w-full md:w-auto md:px-4">
+                        <input type="number" id="ratingMinInput" class="num-input w-[50px] p-1.5 border-0 rounded-md text-center bg-black text-white border border-maroon text-sm" min="0" max="3000" step="1" oninput="syncInput('rating', 'min')" />
+                        <input type="range" id="ratingMin" class="slider flex-1" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                        <input type="range" id="ratingMax" class="slider flex-1" min="0" max="3000" step="1" oninput="updateSlider('rating')" />
+                        <input type="number" id="ratingMaxInput" class="num-input w-[50px] p-1.5 border-0 rounded-md text-center bg-black text-white border border-maroon text-sm" min="0" max="3000" step="1" oninput="syncInput('rating', 'max')" />
+                    </div>
+                </div>             -->
+            </div>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="w-[90%] max-w-[90%] mx-auto my-2.5 border-collapse bg-black text-white border-2 border-maroon font-table-clamp">
+            <thead>
+                <tr class="bg-maroon text-table-clamp">
+                    <th onclick="sortTable(0)" class="small-column px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">#</th>
+                    <th onclick="sortTable(1)" class="px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">Name</th>
+                    <th onclick="sortTable(2)" class="mobile-hidden-col px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">Club</th>
+                    <th onclick="sortTable(3)" class="px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">Rating</th>
+                    <th onclick="sortTable(4)" class="px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">Played</th>
+                    <th onclick="sortTable(5)" class="px-2 py-2 text-center border border-maroon whitespace-nowrap overflow-hidden text-ellipsis cursor-pointer">Win %</th>
+                </tr>
+            </thead>
+            <tbody id="player-table">
+                </tbody>
+        </table>
+    </div>
+    
+    <div id="footer-placeholder"></div>
+
+    <script src="/scr/js/script.js"></script>
+    <script>
+        // Placeholder function for the new navbar toggle
+        function toggleNav() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active'); 
+        }
+
+        // Original script content adapted
+        function loadInclude(id, file) {
+            console.warn("loadInclude called but content is expected to be inline or loaded by JS.");
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const setTitle = (title) => {
+                const titleElement = document.getElementById("header-title");
+                if (titleElement) {
+                    titleElement.textContent = "Maties Player Rankings";
+                } else {
+                    setTimeout(setTitle, 50); 
+                }
+            };
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+/**
+ * Responsive Styles - Media queries and mobile-specific styles
+ */
+
+@media (max-width: 768px) {
+    /* Enable horizontal scroll for table sections on tablets if needed */
+    section[aria-label*="table"],
+    section[aria-label*="Match"] {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+    
+    table {
+        width: 95%;
+        font-size: clamp(9px, 3vw, 17px);
+        /* Let table scale naturally with font size */
+    }
+    
+    td, th {
+        padding: 6px 4px;
+        font-size: clamp(9px, 3vw, 17px);
+    }
+    
+    /* Allow text wrapping in event names on tablets */
+    .event-name-cell {
+        white-space: normal;
+        word-break: break-word;
+        max-width: 150px;
+    }
+    
+    .meta-header {
+        width: 100%;
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+    
+    .meta-header-group .h2h-player-input {
+        width: 100% !important;
+        max-width: 100%;
+        font-size: clamp(14px, 3.5vw, 18px);
+    }
+    
+    .filter-section {
+        width: 95%;
+        padding: var(--spacing-sm);
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        height: auto;
+    }
+
+    .filter-container {
+        width: 100%;
+        padding: var(--spacing-sm);
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .filter-container label {
+        font-size: clamp(12px, 3vw, 16px);
+        margin-bottom: 2px;
+        font-weight: 500;
+    }
+    
+    .filter-container .search-input,
+    .filter-container .wide-filter-select {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(13px, 3vw, 16px);
+        padding: var(--spacing-xs) var(--spacing-sm);
+        margin-top: 2px;
+    }
+
+    .slider-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-sm);
+    }
+
+    .slider {
+        width: 200px;
+        min-width: 150px;
+        height: 12px;
+        flex: 1 1 auto;
+    }
+
+    .slider::-webkit-slider-thumb {
+        width: 28px;
+        height: 28px;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 28px;
+        height: 28px;
+    }
+
+    input[type="text"],
+    .num-input,
+    select {
+        width: 90%;
+    }
+    
+    /* Make selector text larger on tablets, but keep container reasonable */
+    .meta-header select,
+    .meta-header #categorySelector {
+        font-size: clamp(16px, 3.5vw, 24px);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    .num-input {
+        width: 80px;
+        min-width: 60px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 56px;
+        left: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--color-background);
+        border-radius: var(--radius-md);
+    }
+
+    .nav-links.active li {
+        text-align: center;
+        background-color: var(--color-primary);
+        padding: var(--spacing-sm);
+        width: 80%;
+        border-radius: var(--radius-sm);
+    }
+
+    .nav-links.active a {
+        padding: var(--spacing-sm);
+        width: 100%;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .mobile-hidden-col {
+        display: none;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    #header-title {
+        font-size: 35px;
+    }
+    
+    #events-container .event {
+        flex: 1 1 calc(50% - 12px);
+        max-width: 45%;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    /* Wrap tables in a scrollable container on very small screens */
+    section[aria-label*="table"],
+    section[aria-label*="Match"] {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+    
+    table {
+        width: 100%;
+        min-width: 100%;
+        font-size: clamp(9px, 2.8vw, 16px);
+        table-layout: auto;
+        /* Try to fit within viewport, but allow scroll if needed */
+    }
+    
+    .meta-header {
+        width: 100%;
+        padding: var(--spacing-lg) var(--spacing-xs);
+    }
+
+    td, th {
+        padding: 4px 3px;
+        font-size: clamp(9px, 2.8vw, 16px);
+        min-width: 0;
+    }
+    
+    /* Allow event name and other text columns to wrap on very small screens */
+    .event-name-cell {
+        white-space: normal;
+        word-break: break-word;
+        max-width: 120px;
+    }
+    
+    /* Allow player link columns to wrap */
+    td .player-link {
+        display: inline-block;
+        max-width: 100px;
+        word-break: break-word;
+        white-space: normal;
+    }
+    
+    /* Keep small columns compact */
+    .small-column {
+        min-width: 35px;
+        max-width: 50px;
+    }
+
+    .filter-section {
+        width: 100%;
+        padding: var(--spacing-sm) var(--spacing-xs);
+    }
+
+    .filters {
+        gap: var(--spacing-sm);
+    }
+    
+    .filter-container {
+        padding: var(--spacing-sm) var(--spacing-xs);
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .filter-container label {
+        font-size: clamp(13px, 3.5vw, 17px);
+        margin-bottom: 2px;
+        font-weight: 500;
+        display: block;
+    }
+    
+    .filter-container .search-input,
+    .filter-container .wide-filter-select {
+        width: 100%;
+        max-width: 100%;
+        font-size: clamp(13px, 3.5vw, 17px);
+        padding: var(--spacing-xs) var(--spacing-sm);
+        margin-top: 2px;
+    }
+
+    .slider-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-xs);
+        padding: var(--spacing-xs);
+    }
+
+    .slider {
+        width: 100%;
+        max-width: 250px;
+        height: 14px;
+    }
+
+    .slider::-webkit-slider-thumb {
+        width: 32px;
+        height: 32px;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 32px;
+        height: 32px;
+    }
+
+    input[type="text"],
+    .num-input,
+    select {
+        width: 90%;
+    }
+    
+    /* Make selector text larger on very small screens, but keep container compact */
+    .meta-header select,
+    .meta-header #categorySelector {
+        font-size: clamp(18px, 4.5vw, 26px);
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+
+    .num-input {
+        width: 70px;
+        min-width: 60px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .suggestion-box {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
+

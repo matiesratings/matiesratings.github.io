@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Ratings</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3SNXPPJWG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D3SNXPPJWG');
+</script>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+    <section class="meta-header flex-between meta-header-wide">
+        <div id="filterSection" class="filter-section hidden" aria-label="Player filter options">
+            <!-- Filters -->
+            <div class="filters">
+                <div class="filter-container">
+                    <label>Name</label>
+                    <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                    <div id="nameSuggestions" class="suggestion-box"></div>
+                </div>
+                
+                <div class="filter-container">
+                    <label>Club</label>
+                    <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()">
+                    <div id="clubSuggestions" class="suggestion-box"></div>
+                </div>
+                
+                <div class="filter-container">
+                    <label>Gender</label>
+                    <select id="genderFilter" onchange="filterTable()">
+                        <option value="both">Both</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>        
+            </div>
+        </div>
+    
+        <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
+    </section>
+
+    <section aria-label="All players table">
+    <table role="table" aria-label="All players directory">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Maties ID</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">Club</th>
+                <th onclick="sortTable(3)">Gender</th>
+            </tr>
+        </thead>
+        <tbody id="player-table">
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+    </section>
+    </main>
+    
+    <div id="footer-placeholder"></div>
+
+    <script src="/src/js/players.js"></script>
+    <script>
+        function loadInclude(id, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => document.getElementById(id).innerHTML = data);
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const setTitle = (title) => {
+                const titleElement = document.getElementById("header-title");
+                if (titleElement) {
+                    titleElement.textContent = "All Players"; // set your page-specific title here
+                } else {
+                    setTimeout(setTitle, 50); // wait and retry if header hasn't loaded yet
+                }
+            };
+            loadInclude("header-placeholder", "/components/header.html");
+            setTitle();
+        });
+    </script>
+
+
+</body>
+</html>
+

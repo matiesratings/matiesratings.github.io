@@ -1,0 +1,40 @@
+/**
+ * CSS Variables - Theme Configuration
+ * Centralized color and sizing variables for easy theming
+ */
+
+:root {
+    /* Colors */
+    --color-primary: maroon;
+    --color-primary-dark: darkred;
+    --color-primary-light: #8B0000;
+    --color-background: black;
+    --color-text: white;
+    --color-border: maroon;
+    
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    
+    /* Border Radius */
+    --radius-sm: 5px;
+    --radius-md: 8px;
+    
+    /* Typography */
+    --font-family: Arial, sans-serif;
+    --font-size-base: clamp(10px, 3.5vw, 18px);
+    --font-size-heading: clamp(27px, 5vw, 75px);
+    
+    /* Layout */
+    --container-width: 90%;
+    --container-max-width: 1200px;
+    --header-width: 85%;
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
+
