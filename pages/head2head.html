@@ -20,24 +20,29 @@
     
     <main>
     <section class="meta-header" id="metaHeader" aria-label="Player selection">
-        <div class="meta-header-group">
-            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
-            <div>
-                <input type="text" id="player1Selector" class="h2h-player-input" placeholder="Search player 1..." oninput="updatePlayer1Suggestions()" autocomplete="off">
-                <div id="player1Suggestions" class="suggestion-box"></div>
+        <div class="h2h-selectors-container">
+            <div class="h2h-player-wrapper">
+                <label for="player1Selector" class="h2h-label">Player 1</label>
+                <div class="h2h-input-wrapper">
+                    <input type="text" id="player1Selector" class="h2h-player-input" placeholder="Search player 1..." oninput="updatePlayer1Suggestions()" autocomplete="off">
+                    <div id="player1Suggestions" class="suggestion-box"></div>
+                </div>
             </div>
-        </div>
-        <div class="meta-header-group">
-            <div>
-                <input type="text" id="player2Selector" class="h2h-player-input" placeholder="Search player 2..." oninput="updatePlayer2Suggestions()" autocomplete="off">
-                <div id="player2Suggestions" class="suggestion-box"></div>
+            <div class="h2h-vs-divider">
+                <span>VS</span>
             </div>
-            <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
+            <div class="h2h-player-wrapper">
+                <label for="player2Selector" class="h2h-label">Player 2</label>
+                <div class="h2h-input-wrapper">
+                    <input type="text" id="player2Selector" class="h2h-player-input" placeholder="Search player 2..." oninput="updatePlayer2Suggestions()" autocomplete="off">
+                    <div id="player2Suggestions" class="suggestion-box"></div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="statsSection" class="filter-section hidden" aria-label="Head to head statistics">
-        <div id="h2hStats" style="display: flex; flex-direction: column; gap: var(--spacing-md); align-items: center;">
+        <div id="h2hStats" class="h2h-stats-container">
             <!-- Stats will be inserted here -->
         </div>
     </section>
@@ -295,36 +300,75 @@
             
             statsSection.classList.remove("hidden");
             
-            // Determine which player has more wins (left side)
-            const leftPlayer = p1Wins >= p2Wins ? player1 : player2;
-            const rightPlayer = p1Wins >= p2Wins ? player2 : player1;
-            const leftWins = p1Wins >= p2Wins ? p1Wins : p2Wins;
-            const rightWins = p1Wins >= p2Wins ? p2Wins : p1Wins;
-            const leftGamesWon = p1Wins >= p2Wins ? p1GamesWon : p2GamesWon;
-            const leftGamesLost = p1Wins >= p2Wins ? p1GamesLost : p2GamesLost;
-            const rightGamesWon = p1Wins >= p2Wins ? p2GamesWon : p1GamesWon;
-            const rightGamesLost = p1Wins >= p2Wins ? p2GamesLost : p1GamesLost;
-            
             const dateStr = mostRecentDate ? formatDate(mostRecentDate) : "N/A";
+            
+            // Get input elements for visual reference
+            const player1Input = document.getElementById("player1Selector");
+            const player2Input = document.getElementById("player2Selector");
+            const p1Rect = player1Input.getBoundingClientRect();
+            const p2Rect = player2Input.getBoundingClientRect();
 
+            // Create a layout that visually connects stats to input boxes
             statsDiv.innerHTML = `
-                <div style="text-align: center; width: 100%;">
-                    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: var(--spacing-lg); width: 100%;">
-                        <div style="flex: 1; min-width: 200px;">
-                            <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${leftPlayer}</div>
-                            <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${leftWins}</div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games For: <strong>${leftGamesWon}</strong></div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Against: <strong>${leftGamesLost}</strong></div>
+                <div class="h2h-stats-grid">
+                    <!-- Player 1 Stats Column - aligned with Player 1 input -->
+                    <div class="h2h-stats-column" data-player="1">
+                        <div class="h2h-stats-header">
+                            <div class="h2h-stats-indicator"></div>
+                            <div class="h2h-stats-label">${player1}</div>
                         </div>
-                        <div style="flex: 1; min-width: 200px;">
-                            <div style="font-size: clamp(18px, 3vw, 24px); font-weight: bold; color: var(--color-text); margin-bottom: var(--spacing-xs);">${rightPlayer}</div>
-                            <div style="font-size: clamp(24px, 4vw, 36px); color: var(--color-primary-light); margin-bottom: var(--spacing-xs);">${rightWins}</div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games For: <strong>${rightGamesWon}</strong></div>
-                            <div style="font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">Games Against: <strong>${rightGamesLost}</strong></div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p1Wins}</div>
+                            <div class="h2h-stat-label">Wins</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p2Wins}</div>
+                            <div class="h2h-stat-label">Losses</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p1GamesWon}</div>
+                            <div class="h2h-stat-label">Games For</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p1GamesLost}</div>
+                            <div class="h2h-stat-label">Games Against</div>
                         </div>
                     </div>
-                    <div style="margin-top: var(--spacing-md); font-size: clamp(14px, 2vw, 18px); color: var(--color-text);">
-                        Most Recent Match: <strong>${dateStr}</strong>
+                    
+                    <!-- Center divider with total matches -->
+                    <div class="h2h-stats-center">
+                        <div class="h2h-total-matches">
+                            <div class="h2h-total-number">${total}</div>
+                            <div class="h2h-total-label">Total Matches</div>
+                        </div>
+                        <div class="h2h-recent-match">
+                            <div class="h2h-recent-label">Most Recent</div>
+                            <div class="h2h-recent-date">${dateStr}</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Player 2 Stats Column - aligned with Player 2 input -->
+                    <div class="h2h-stats-column" data-player="2">
+                        <div class="h2h-stats-header">
+                            <div class="h2h-stats-label">${player2}</div>
+                            <div class="h2h-stats-indicator"></div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p2Wins}</div>
+                            <div class="h2h-stat-label">Wins</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p1Wins}</div>
+                            <div class="h2h-stat-label">Losses</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p2GamesWon}</div>
+                            <div class="h2h-stat-label">Games For</div>
+                        </div>
+                        <div class="h2h-stat-card">
+                            <div class="h2h-stat-value">${p2GamesLost}</div>
+                            <div class="h2h-stat-label">Games Against</div>
+                        </div>
                     </div>
                 </div>
             `;

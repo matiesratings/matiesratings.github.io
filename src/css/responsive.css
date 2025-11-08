@@ -96,6 +96,104 @@
         font-size: clamp(14px, 3.5vw, 18px);
     }
     
+    /* Head-to-Head responsive styles */
+    .h2h-selectors-container {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    
+    .h2h-vs-divider {
+        min-width: auto;
+        padding: var(--spacing-xs);
+    }
+    
+    .h2h-vs-divider span {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: clamp(18px, 4vw, 24px);
+    }
+    
+    .h2h-stats-grid {
+        grid-template-columns: 1fr auto 1fr;
+        gap: var(--spacing-xs);
+    }
+    
+    .h2h-stats-column[data-player="1"],
+    .h2h-stats-column[data-player="2"] {
+        border: none !important;
+        padding: 0 !important;
+        align-items: center !important;
+    }
+    
+    .h2h-stats-header {
+        margin-bottom: var(--spacing-xs) !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+        width: 100%;
+    }
+    
+    .h2h-stats-label {
+        font-size: clamp(11px, 2.2vw, 16px) !important;
+        text-align: center !important;
+        max-width: 100% !important;
+        padding: 0 var(--spacing-xs) !important;
+    }
+    
+    .h2h-stats-indicator {
+        width: 8px !important;
+        height: 8px !important;
+    }
+    
+    .h2h-stat-card {
+        padding: var(--spacing-xs) !important;
+        min-width: 60px !important;
+        max-width: 80px !important;
+        margin: 0 auto var(--spacing-xs) auto !important;
+        width: 100% !important;
+    }
+    
+    .h2h-stat-value {
+        font-size: clamp(16px, 3vw, 24px) !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .h2h-stat-label {
+        font-size: clamp(8px, 1.5vw, 10px) !important;
+    }
+    
+    .h2h-stats-center {
+        min-width: 80px !important;
+        padding: var(--spacing-xs) !important;
+        gap: var(--spacing-xs) !important;
+    }
+    
+    .h2h-total-matches {
+        padding: var(--spacing-xs) !important;
+        min-width: 70px !important;
+    }
+    
+    .h2h-total-number {
+        font-size: clamp(18px, 4vw, 28px) !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .h2h-total-label {
+        font-size: clamp(8px, 1.5vw, 10px) !important;
+    }
+    
+    .h2h-recent-match {
+        padding: var(--spacing-xs) !important;
+        min-width: 70px !important;
+    }
+    
+    .h2h-recent-label {
+        font-size: clamp(8px, 1.5vw, 10px) !important;
+        margin-bottom: 2px !important;
+    }
+    
+    .h2h-recent-date {
+        font-size: clamp(9px, 1.8vw, 12px) !important;
+    }
+    
     .filter-section {
         width: 95%;
         padding: var(--spacing-sm);
@@ -408,6 +506,64 @@
 
     .suggestion-box {
         width: 100%;
+    }
+    
+    /* Head-to-Head responsive styles for very small screens */
+    .h2h-selectors-container {
+        padding: var(--spacing-sm);
+    }
+    
+    .h2h-player-wrapper {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .h2h-stats-grid {
+        grid-template-columns: 1fr auto 1fr;
+        gap: var(--spacing-xs);
+    }
+    
+    .h2h-stat-card {
+        min-width: 50px !important;
+        max-width: 70px !important;
+        padding: var(--spacing-xs) !important;
+    }
+    
+    .h2h-stat-value {
+        font-size: clamp(14px, 2.5vw, 20px) !important;
+    }
+    
+    .h2h-stat-label {
+        font-size: clamp(7px, 1.2vw, 9px) !important;
+    }
+    
+    .h2h-stats-label {
+        font-size: clamp(10px, 2vw, 14px) !important;
+        text-align: center !important;
+        max-width: 100% !important;
+        padding: 0 var(--spacing-xs) !important;
+    }
+    
+    .h2h-stats-header {
+        justify-content: center !important;
+        flex-direction: row !important;
+    }
+    
+    .h2h-stats-center {
+        min-width: 60px !important;
+        padding: var(--spacing-xs) !important;
+    }
+    
+    .h2h-total-number {
+        font-size: clamp(16px, 3.5vw, 24px) !important;
+    }
+    
+    .h2h-total-label {
+        font-size: clamp(7px, 1.2vw, 9px) !important;
+    }
+    
+    .h2h-recent-date {
+        font-size: clamp(8px, 1.5vw, 11px) !important;
     }
 
     h1 {
