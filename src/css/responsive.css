@@ -4,11 +4,67 @@
 
 @media (max-width: 768px) {
     /* Enable horizontal scroll for table sections on tablets if needed */
-    section[aria-label*="table"],
-    section[aria-label*="Match"] {
+    /* Exclude meta-header sections to prevent clipping dropdowns */
+    section[aria-label*="table"]:not(.meta-header),
+    section[aria-label*="Match"]:not(.meta-header):not([id="metaHeader"]) {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         width: 100%;
+    }
+    
+    /* CRITICAL: Remove stacking contexts on mobile so dropdowns can escape */
+    .meta-header {
+        overflow: visible !important;
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .meta-header-group {
+        position: static !important;
+    }
+    
+    .meta-header .custom-dropdown {
+        position: relative !important;
+        z-index: auto !important;
+    }
+    
+    /* CRITICAL: Remove z-index from ALL dropdown wrappers on mobile */
+    /* This prevents other dropdown displays from appearing above open dropdown options */
+    .custom-dropdown {
+        z-index: auto !important;
+    }
+    
+    .filter-container .custom-dropdown {
+        z-index: auto !important;
+    }
+    
+    /* Filter containers should not create stacking contexts */
+    .filter-container {
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .filter-section {
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .filters {
+        position: static !important;
+    }
+    
+    /* All dropdown displays should have no z-index on mobile */
+    .custom-dropdown-display {
+        position: relative !important;
+        z-index: auto !important;
+    }
+    
+    /* Only the OPEN dropdown options should be above everything */
+    .meta-header .custom-dropdown-options.show,
+    .filter-container .custom-dropdown-options.show,
+    .custom-dropdown-options.show {
+        z-index: 2147483647 !important; /* Maximum z-index value */
+        position: fixed !important;
     }
     
     table {
@@ -171,11 +227,67 @@
 /* Very small screens */
 @media (max-width: 480px) {
     /* Wrap tables in a scrollable container on very small screens */
-    section[aria-label*="table"],
-    section[aria-label*="Match"] {
+    /* Exclude meta-header sections to prevent clipping dropdowns */
+    section[aria-label*="table"]:not(.meta-header),
+    section[aria-label*="Match"]:not(.meta-header):not([id="metaHeader"]) {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         width: 100%;
+    }
+    
+    /* CRITICAL: Remove stacking contexts on mobile so dropdowns can escape */
+    .meta-header {
+        overflow: visible !important;
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .meta-header-group {
+        position: static !important;
+    }
+    
+    .meta-header .custom-dropdown {
+        position: relative !important;
+        z-index: auto !important;
+    }
+    
+    /* CRITICAL: Remove z-index from ALL dropdown wrappers on mobile */
+    /* This prevents other dropdown displays from appearing above open dropdown options */
+    .custom-dropdown {
+        z-index: auto !important;
+    }
+    
+    .filter-container .custom-dropdown {
+        z-index: auto !important;
+    }
+    
+    /* Filter containers should not create stacking contexts */
+    .filter-container {
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .filter-section {
+        position: static !important;
+        z-index: auto !important;
+    }
+    
+    .filters {
+        position: static !important;
+    }
+    
+    /* All dropdown displays should have no z-index on mobile */
+    .custom-dropdown-display {
+        position: relative !important;
+        z-index: auto !important;
+    }
+    
+    /* Only the OPEN dropdown options should be above everything */
+    .meta-header .custom-dropdown-options.show,
+    .filter-container .custom-dropdown-options.show,
+    .custom-dropdown-options.show {
+        z-index: 2147483647 !important; /* Maximum z-index value */
+        position: fixed !important;
     }
     
     table {

@@ -25,13 +25,13 @@
             <div class="filters">
                 <div class="filter-container">
                     <label>Name</label>
-                    <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()">
+                    <input type="text" id="nameFilter" class="search-input" placeholder="Search name..." oninput="updateNameSuggestions()" autocomplete="off">
                     <div id="nameSuggestions" class="suggestion-box"></div>
                 </div>
                 
                 <div class="filter-container">
                     <label>Club</label>
-                    <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()">
+                    <input type="text" id="clubFilter" class="search-input" placeholder="Search club..." oninput="updateClubSuggestions()" autocomplete="off">
                     <div id="clubSuggestions" class="suggestion-box"></div>
                 </div>
                 
@@ -68,6 +68,7 @@
     
     <div id="footer-placeholder"></div>
 
+    <script src="/src/js/utils.js"></script>
     <script src="/src/js/players.js"></script>
     <script>
         function loadInclude(id, file) {
@@ -87,6 +88,8 @@
             };
             loadInclude("header-placeholder", "/components/header.html");
             setTitle();
+            // Convert selects to custom dropdowns
+            setTimeout(() => convertAllSelectsToCustomDropdowns(), 100);
         });
     </script>
 

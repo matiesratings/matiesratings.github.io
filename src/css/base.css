@@ -13,6 +13,12 @@ body {
     text-align: center;
     min-width: 378px;
     margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    overflow: visible;
 }
 
 h1 {

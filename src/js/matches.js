@@ -48,6 +48,11 @@ function populateDropdowns() {
         option.textContent = stage;
         document.getElementById("stageFilter").appendChild(option);
     });
+    
+    // Convert selects to custom dropdowns after options are populated
+    if (typeof convertAllSelectsToCustomDropdowns === 'function') {
+        setTimeout(() => convertAllSelectsToCustomDropdowns(), 0);
+    }
 }
 
 function resetMatchFilters(){

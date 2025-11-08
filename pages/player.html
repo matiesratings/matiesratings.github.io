@@ -28,7 +28,7 @@
         <div class="filters">
             <div class="filter-container">
                 <label>Player</label>
-                <input type="text" id="nameFilter" class="search-input" placeholder="Search player..." oninput="updateNameSuggestions()">
+                <input type="text" id="nameFilter" class="search-input" placeholder="Search player..." oninput="updateNameSuggestions()" autocomplete="off">
                 <div id="nameSuggestions" class="suggestion-box"></div>
                 <select id="playerFilterMode" onchange="filterTable()" class="wide-filter-select" style="margin-top: var(--spacing-xs);">
                     <option value="both">Both (Wins & Losses)</option>
@@ -38,7 +38,7 @@
             </div>
             <div class="filter-container">
                 <label>Event</label>
-                <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()">
+                <input type="text" id="eventFilter" class="search-input" placeholder="Search event..." oninput="updateEventSuggestions()" autocomplete="off">
                 <div id="eventSuggestions" class="suggestion-box"></div>
             </div>
             <div class="filter-container">
@@ -90,6 +90,7 @@
     </section>
     </main>
     
+    <script src="/src/js/utils.js"></script>
     <script>
         // --- Query and player name ---
         const params = new URLSearchParams(window.location.search);
@@ -116,6 +117,8 @@
                     displayData(matchData.slice(0, 100));
                     populateDropdowns();
                     resetFilterButtons();
+                    // Convert selects to custom dropdowns after options are populated
+                    setTimeout(() => convertAllSelectsToCustomDropdowns(), 0);
                 })
                 .catch(error => console.error("Error loading JSON:", error));
         }

@@ -99,6 +99,7 @@
     
     <div id="footer-placeholder"></div>
 
+    <script src="/src/js/utils.js"></script>
     <script src="/src/js/script.js"></script>
     <script>
         function loadInclude(id, file) {
@@ -120,6 +121,8 @@
             // loadInclude("footer-placeholder", "/components/footer.html");
 
             // setTitle();
+            // Convert selects to custom dropdowns
+            setTimeout(() => convertAllSelectsToCustomDropdowns(), 100);
         });
     </script>
 

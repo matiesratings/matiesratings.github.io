@@ -23,13 +23,13 @@
         <div class="meta-header-group">
             <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
             <div>
-                <input type="text" id="player1Selector" class="h2h-player-input" placeholder="Search player 1..." oninput="updatePlayer1Suggestions()">
+                <input type="text" id="player1Selector" class="h2h-player-input" placeholder="Search player 1..." oninput="updatePlayer1Suggestions()" autocomplete="off">
                 <div id="player1Suggestions" class="suggestion-box"></div>
             </div>
         </div>
         <div class="meta-header-group">
             <div>
-                <input type="text" id="player2Selector" class="h2h-player-input" placeholder="Search player 2..." oninput="updatePlayer2Suggestions()">
+                <input type="text" id="player2Selector" class="h2h-player-input" placeholder="Search player 2..." oninput="updatePlayer2Suggestions()" autocomplete="off">
                 <div id="player2Suggestions" class="suggestion-box"></div>
             </div>
             <img src="/src/img/svg/Flag_of_South_Africa.svg" alt="South African Flag" class="flag-icon">
@@ -96,19 +96,65 @@
             // Add change listeners
             player1Input.addEventListener('change', updateH2H);
             player2Input.addEventListener('change', updateH2H);
+            
+            // Add input listeners to detect when a player is cleared
+            player1Input.addEventListener('input', function() {
+                if (!this.value.trim()) {
+                    // Player 1 cleared, reset Player 2 suggestions if it's open
+                    const player2Box = document.getElementById("player2Suggestions");
+                    if (player2Box.style.display === "block") {
+                        updatePlayer2Suggestions();
+                    }
+                }
+            });
+            
+            player2Input.addEventListener('input', function() {
+                if (!this.value.trim()) {
+                    // Player 2 cleared, reset Player 1 suggestions if it's open
+                    const player1Box = document.getElementById("player1Suggestions");
+                    if (player1Box.style.display === "block") {
+                        updatePlayer1Suggestions();
+                    }
+                }
+            });
+        }
+
+        // Get all opponents of a given player from match data
+        function getOpponents(playerName) {
+            if (!playerName || !playerName.trim()) {
+                return [];
+            }
+            
+            const playerLower = playerName.toLowerCase().trim();
+            const opponents = new Set();
+            
+            h2hMatchData.forEach(match => {
+                const winner = match.winner?.toLowerCase();
+                const loser = match.loser?.toLowerCase();
+                
+                if (winner === playerLower && loser) {
+                    opponents.add(match.loser);
+                } else if (loser === playerLower && winner) {
+                    opponents.add(match.winner);
+                }
+            });
+            
+            return Array.from(opponents).filter(Boolean);
         }
 
         function updatePlayer1Suggestions() {
-            updateSuggestions("player1Selector", "player1Suggestions");
+            updateSuggestions("player1Selector", "player1Suggestions", "player2Selector");
         }
 
         function updatePlayer2Suggestions() {
-            updateSuggestions("player2Selector", "player2Suggestions");
+            updateSuggestions("player2Selector", "player2Suggestions", "player1Selector");
         }
 
-        function updateSuggestions(inputId, suggestionBoxId) {
+        function updateSuggestions(inputId, suggestionBoxId, otherPlayerInputId) {
             let input = document.getElementById(inputId).value.toLowerCase();
             let suggestionBox = document.getElementById(suggestionBoxId);
+            let otherPlayerInput = document.getElementById(otherPlayerInputId);
+            let otherPlayerValue = otherPlayerInput.value.trim();
 
             suggestionBox.innerHTML = "";
             if (!input) {
@@ -116,7 +162,20 @@
                 return;
             }
 
-            let filteredNames = h2hPlayerList.filter(name => 
+            // Determine which player list to use
+            let playerListToFilter = h2hPlayerList;
+            
+            // If the other player is selected, filter to only their opponents
+            if (otherPlayerValue) {
+                const opponents = getOpponents(otherPlayerValue);
+                // Only filter if we found opponents (player exists in match data)
+                if (opponents.length > 0) {
+                    playerListToFilter = opponents;
+                }
+            }
+
+            // Filter by input text
+            let filteredNames = playerListToFilter.filter(name => 
                 name && name.toLowerCase().includes(input)
             );
 

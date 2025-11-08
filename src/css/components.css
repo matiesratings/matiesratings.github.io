@@ -5,6 +5,8 @@
 /* Header Components */
 header {
     border-radius: var(--radius-md);
+    position: relative;
+    z-index: 100;
 }
 
 .header-content {
@@ -42,6 +44,8 @@ header {
     margin: 8px;
     margin-bottom: 0;
     border-radius: var(--radius-md);
+    position: relative;
+    z-index: 100;
 }
 
 .nav-links {
@@ -91,6 +95,9 @@ header {
     align-items: center;
     padding: var(--spacing-lg) var(--spacing-md);
     box-sizing: border-box;
+    position: relative;
+    z-index: 200;
+    overflow: visible;
 }
 
 /* Style selects in meta-header to have larger text but reasonable size */
@@ -105,6 +112,12 @@ header {
     color: var(--color-text);
     background-color: var(--color-primary);
     min-width: 150px;
+}
+
+/* Custom dropdown display in meta-header should match select styling */
+.meta-header .custom-dropdown-display {
+    background-color: var(--color-primary);
+    border: none;
 }
 
 /* Override for all_players page */
@@ -129,6 +142,8 @@ header {
     max-width: var(--container-max-width);
     margin: 0 auto;
     border-radius: var(--radius-md);
+    position: relative;
+    z-index: 150;
 }
 
 .filters {
@@ -148,6 +163,8 @@ header {
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--radius-md);
     min-width: fit-content;
+    position: relative;
+    z-index: 150;
 }
 
 .filter-container label {
@@ -206,6 +223,104 @@ header {
 .suggestion-container {
     position: relative;
     display: inline-block;
+}
+
+/* Custom Dropdown (replaces native select) */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 100px;
+    z-index: 1000;
+}
+
+/* Ensure custom dropdown matches select width in filter containers */
+.filter-container .custom-dropdown {
+    width: 100%;
+}
+
+/* Larger dropdowns in meta-header */
+.meta-header .custom-dropdown {
+    font-size: clamp(16px, 3vw, 28px);
+    z-index: 10001;
+}
+
+.meta-header .custom-dropdown-display {
+    font-size: clamp(16px, 3vw, 28px);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    min-height: clamp(40px, 6vw, 50px);
+}
+
+.meta-header .custom-dropdown-option {
+    font-size: clamp(16px, 3vw, 28px);
+    padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+.custom-dropdown-display {
+    width: 100%;
+    padding: var(--spacing-xs);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    min-height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-dropdown-display:hover {
+    background-color: var(--color-primary);
+}
+
+.custom-dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    max-height: 150px;
+    overflow-y: auto;
+    display: none;
+    z-index: 999999;
+    margin-top: 2px;
+}
+
+/* All dropdowns should be above everything - they're temporary UI elements */
+.meta-header .custom-dropdown-options,
+.filter-container .custom-dropdown-options,
+.custom-dropdown-options {
+    z-index: 999999 !important;
+}
+
+.custom-dropdown-options.show {
+    display: block;
+}
+
+.custom-dropdown-option {
+    padding: var(--spacing-xs);
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-dropdown-option:hover {
+    background-color: var(--color-primary);
+}
+
+.custom-dropdown-option.selected {
+    background-color: var(--color-primary);
+    font-weight: bold;
+}
+
+/* Hide original select */
+.custom-dropdown select {
+    display: none;
 }
 
 /* Tables */
