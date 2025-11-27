@@ -68,6 +68,22 @@
           }
       };
       setTitle();
+
+      // Override header images with USSA-specific images
+      const updateHeaderImages = () => {
+          const headerImages = document.querySelectorAll('.header-logo-container img');
+          if (headerImages.length >= 2) {
+              // Change first logo (left side)
+              headerImages[0].src = "/src/img/ussa.png";
+              headerImages[0].alt = "USSA Logo";
+              // Change second logo (right side)
+              headerImages[1].src = "/src/img/sol_plaatjie.jpg";
+              headerImages[1].alt = "Sol Plaatjie Logo";
+          } else {
+              setTimeout(updateHeaderImages, 50);
+          }
+      };
+      updateHeaderImages();
     
   });
   </script>
