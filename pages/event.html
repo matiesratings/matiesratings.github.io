@@ -123,13 +123,16 @@
               if (data) {
                   let btnGroups, btnKnockouts;
 
+                  // Get event name for doubles detection
+                  const eventName = eventNameMap[event] || event;
+
                   // Groups button
                   if (data.groups) {
                       btnGroups = document.createElement("button");
                       btnGroups.id = "btnGroups";
                       btnGroups.textContent = "Groups";
                       btnGroups.addEventListener("click", () => {
-                          renderGroups(data);
+                          renderGroups(data, eventName);
                           // Optional: highlight active button
                           if (btnKnockouts) btnKnockouts.classList.remove('active-toggle');
                           btnGroups.classList.add('active-toggle');
@@ -143,7 +146,7 @@
                       btnKnockouts.id = "btnKnockouts";
                       btnKnockouts.textContent = "Knockouts";
                       btnKnockouts.addEventListener("click", () => {
-                          renderKnockouts(data);
+                          renderKnockouts(data, eventName);
                           // Optional: highlight active button
                           if (btnGroups) btnGroups.classList.remove('active-toggle');
                           btnKnockouts.classList.add('active-toggle');
@@ -154,10 +157,10 @@
                   // Render the default view based on available data
                   // Prioritize knockouts if present, otherwise show groups
                   if (data.knockouts) {
-                      renderKnockouts(data);
+                      renderKnockouts(data, eventName);
                       if (btnKnockouts) btnKnockouts.classList.add('active-toggle');
                   } else if (data.groups) {
-                      renderGroups(data);
+                      renderGroups(data, eventName);
                       if (btnGroups) btnGroups.classList.add('active-toggle');
                   }
               } else {

@@ -1,6 +1,48 @@
 // draw.js
 
-function renderGroups(data) {
+// Helper function to create player name links
+// If event is doubles, splits names by " / " and creates separate links for each player
+function createPlayerNameLinks(playerName, eventName, stopPropagation = false) {
+    const isDoubles = eventName && eventName.toLowerCase().includes('doubles');
+    
+    if (isDoubles && playerName.includes(' / ')) {
+        // Split the name and create separate links for each player
+        const players = playerName.split(' / ').map(p => p.trim());
+        const wrapper = document.createElement("span");
+        wrapper.className = "doubles-player-names";
+        wrapper.style.display = "flex";
+        wrapper.style.flexDirection = "column";
+        
+        players.forEach((player) => {
+            const link = document.createElement("a");
+            link.href = `/pages/player.html?name=${encodeURIComponent(player)}`;
+            link.textContent = player;
+            link.className = "player-link";
+            if (stopPropagation) {
+                link.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                });
+            }
+            wrapper.appendChild(link);
+        });
+        
+        return wrapper;
+    } else {
+        // Single link for the full name
+        const link = document.createElement("a");
+        link.href = `/pages/player.html?name=${encodeURIComponent(playerName)}`;
+        link.textContent = playerName;
+        link.className = "player-link";
+        if (stopPropagation) {
+            link.addEventListener("click", (e) => {
+                e.stopPropagation();
+            });
+        }
+        return link;
+    }
+}
+
+function renderGroups(data, eventName = '') {
     const container = document.getElementById("contentContainer");
     container.innerHTML = ""; // clear old content
 
@@ -22,15 +64,9 @@ function renderGroups(data) {
         group.players.forEach(player => {
           const li = document.createElement("li");
 
-          const a = document.createElement("a");
-          a.href = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
-          a.textContent = player.name;
-          a.className = "player-link";
-          // Prevent navigation when clicking on player link inside group card
-          a.addEventListener("click", (e) => {
-              e.stopPropagation();
-          });
-          li.appendChild(a);
+          // Use helper function to create player name links
+          const nameLinks = createPlayerNameLinks(player.name, eventName, true);
+          li.appendChild(nameLinks);
 
           // Add club next to player name
           const spanClub = document.createElement("span");
@@ -44,7 +80,7 @@ function renderGroups(data) {
         
         // Add click handler to show group details modal
         card.addEventListener("click", () => {
-            showGroupDetailsModal(group);
+            showGroupDetailsModal(group, eventName);
         });
         
         groupsWrapper.appendChild(card);
@@ -52,7 +88,7 @@ function renderGroups(data) {
     container.appendChild(groupsWrapper);
 }
 
-function showGroupDetailsModal(group) {
+function showGroupDetailsModal(group, eventName = '') {
     // Create modal overlay
     const overlay = document.createElement("div");
     overlay.className = "group-modal-overlay";
@@ -126,11 +162,8 @@ function showGroupDetailsModal(group) {
         row.appendChild(rankCell);
         
         const nameCell = document.createElement("td");
-        const nameLink = document.createElement("a");
-        nameLink.href = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
-        nameLink.textContent = player.name;
-        nameLink.className = "player-link";
-        nameCell.appendChild(nameLink);
+        const nameLinks = createPlayerNameLinks(player.name, eventName);
+        nameCell.appendChild(nameLinks);
         row.appendChild(nameCell);
         
         const clubCell = document.createElement("td");
@@ -161,11 +194,8 @@ function showGroupDetailsModal(group) {
             
             const player1Div = document.createElement("div");
             player1Div.className = "group-match-player";
-            const player1Link = document.createElement("a");
-            player1Link.href = `/pages/player.html?name=${encodeURIComponent(match.player1)}`;
-            player1Link.textContent = match.player1;
-            player1Link.className = "player-link";
-            player1Div.appendChild(player1Link);
+            const player1Links = createPlayerNameLinks(match.player1, eventName);
+            player1Div.appendChild(player1Links);
             const score1 = document.createElement("span");
             score1.className = "group-match-score";
             score1.textContent = match.score1;
@@ -177,11 +207,8 @@ function showGroupDetailsModal(group) {
             
             const player2Div = document.createElement("div");
             player2Div.className = "group-match-player";
-            const player2Link = document.createElement("a");
-            player2Link.href = `/pages/player.html?name=${encodeURIComponent(match.player2)}`;
-            player2Link.textContent = match.player2;
-            player2Link.className = "player-link";
-            player2Div.appendChild(player2Link);
+            const player2Links = createPlayerNameLinks(match.player2, eventName);
+            player2Div.appendChild(player2Links);
             const score2 = document.createElement("span");
             score2.className = "group-match-score";
             score2.textContent = match.score2;
@@ -255,7 +282,7 @@ document.addEventListener('click', function(event) {
     }
 });
 
-function renderKnockouts(data) {
+function renderKnockouts(data, eventName = '') {
   const container = document.getElementById("contentContainer");
   container.innerHTML = `
     <div id="bracket-wrapper">
@@ -418,11 +445,9 @@ function renderKnockouts(data) {
         const row = document.createElement("div");
         row.className = "player";
 
-        const link = document.createElement("a");
-        link.href = `/pages/player.html?name=${encodeURIComponent(p.name)}`;
-        link.textContent = p.name;
-        link.className = "player-link";
-        row.appendChild(link);
+        // Use helper function to create player name links
+        const nameLinks = createPlayerNameLinks(p.name, eventName);
+        row.appendChild(nameLinks);
 
         if (p.score !== undefined && p.score !== null) {
           const score = document.createElement("span");
