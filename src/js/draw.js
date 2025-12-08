@@ -11,6 +11,7 @@ function renderGroups(data) {
     data.groups.forEach(group => {
         const card = document.createElement("div");
         card.className = "group-card";
+        card.style.cursor = "pointer"; // Make it clear it's clickable
 
         const title = document.createElement("h2");
         title.textContent = group.name;
@@ -25,6 +26,10 @@ function renderGroups(data) {
           a.href = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
           a.textContent = player.name;
           a.className = "player-link";
+          // Prevent navigation when clicking on player link inside group card
+          a.addEventListener("click", (e) => {
+              e.stopPropagation();
+          });
           li.appendChild(a);
 
           // Add club next to player name
@@ -36,9 +41,196 @@ function renderGroups(data) {
           ul.appendChild(li);
       });
         card.appendChild(ul);
+        
+        // Add click handler to show group details modal
+        card.addEventListener("click", () => {
+            showGroupDetailsModal(group);
+        });
+        
         groupsWrapper.appendChild(card);
     });
     container.appendChild(groupsWrapper);
+}
+
+function showGroupDetailsModal(group) {
+    // Create modal overlay
+    const overlay = document.createElement("div");
+    overlay.className = "group-modal-overlay";
+    overlay.id = "group-modal-overlay";
+    
+    // Create modal content
+    const modal = document.createElement("div");
+    modal.className = "group-modal";
+    
+    // Modal header with close button
+    const header = document.createElement("div");
+    header.className = "group-modal-header";
+    
+    const title = document.createElement("h2");
+    title.textContent = group.name;
+    header.appendChild(title);
+    
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "group-modal-close";
+    closeBtn.innerHTML = "&times;";
+    closeBtn.setAttribute("aria-label", "Close");
+    closeBtn.addEventListener("click", () => closeGroupModal());
+    header.appendChild(closeBtn);
+    
+    modal.appendChild(header);
+    
+    // Player standings section
+    const standingsSection = document.createElement("div");
+    standingsSection.className = "group-modal-section";
+    
+    const standingsTitle = document.createElement("h3");
+    standingsTitle.textContent = "Standings";
+    standingsSection.appendChild(standingsTitle);
+    
+    const standingsTable = document.createElement("table");
+    standingsTable.className = "group-standings-table";
+    
+    // Table header
+    const thead = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    
+    // Rank header
+    const rankTh = document.createElement("th");
+    rankTh.textContent = "Rank";
+    headerRow.appendChild(rankTh);
+    
+    // Player header (centered)
+    const playerTh = document.createElement("th");
+    playerTh.textContent = "Player";
+    playerTh.className = "centered-header";
+    headerRow.appendChild(playerTh);
+    
+    // Association header (centered)
+    const associationTh = document.createElement("th");
+    associationTh.textContent = "Association";
+    associationTh.className = "centered-header";
+    headerRow.appendChild(associationTh);
+    
+    thead.appendChild(headerRow);
+    standingsTable.appendChild(thead);
+    
+    // Table body - sort players by rank
+    const tbody = document.createElement("tbody");
+    const sortedPlayers = [...group.players].sort((a, b) => a.rank - b.rank);
+    sortedPlayers.forEach(player => {
+        const row = document.createElement("tr");
+        
+        const rankCell = document.createElement("td");
+        rankCell.textContent = player.rank;
+        rankCell.className = "rank-cell";
+        row.appendChild(rankCell);
+        
+        const nameCell = document.createElement("td");
+        const nameLink = document.createElement("a");
+        nameLink.href = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
+        nameLink.textContent = player.name;
+        nameLink.className = "player-link";
+        nameCell.appendChild(nameLink);
+        row.appendChild(nameCell);
+        
+        const clubCell = document.createElement("td");
+        clubCell.textContent = player.club;
+        row.appendChild(clubCell);
+        
+        tbody.appendChild(row);
+    });
+    standingsTable.appendChild(tbody);
+    standingsSection.appendChild(standingsTable);
+    modal.appendChild(standingsSection);
+    
+    // Matches section
+    if (group.matches && group.matches.length > 0) {
+        const matchesSection = document.createElement("div");
+        matchesSection.className = "group-modal-section";
+        
+        const matchesTitle = document.createElement("h3");
+        matchesTitle.textContent = "Matches";
+        matchesSection.appendChild(matchesTitle);
+        
+        const matchesList = document.createElement("div");
+        matchesList.className = "group-matches-list";
+        
+        group.matches.forEach(match => {
+            const matchItem = document.createElement("div");
+            matchItem.className = "group-match-item";
+            
+            const player1Div = document.createElement("div");
+            player1Div.className = "group-match-player";
+            const player1Link = document.createElement("a");
+            player1Link.href = `/pages/player.html?name=${encodeURIComponent(match.player1)}`;
+            player1Link.textContent = match.player1;
+            player1Link.className = "player-link";
+            player1Div.appendChild(player1Link);
+            const score1 = document.createElement("span");
+            score1.className = "group-match-score";
+            score1.textContent = match.score1;
+            player1Div.appendChild(score1);
+            
+            const vsDiv = document.createElement("div");
+            vsDiv.className = "group-match-vs";
+            vsDiv.textContent = "vs";
+            
+            const player2Div = document.createElement("div");
+            player2Div.className = "group-match-player";
+            const player2Link = document.createElement("a");
+            player2Link.href = `/pages/player.html?name=${encodeURIComponent(match.player2)}`;
+            player2Link.textContent = match.player2;
+            player2Link.className = "player-link";
+            player2Div.appendChild(player2Link);
+            const score2 = document.createElement("span");
+            score2.className = "group-match-score";
+            score2.textContent = match.score2;
+            player2Div.appendChild(score2);
+            
+            matchItem.appendChild(player1Div);
+            matchItem.appendChild(vsDiv);
+            matchItem.appendChild(player2Div);
+            matchesList.appendChild(matchItem);
+        });
+        
+        matchesSection.appendChild(matchesList);
+        modal.appendChild(matchesSection);
+    }
+    
+    overlay.appendChild(modal);
+    
+    // Close modal when clicking overlay
+    overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) {
+            closeGroupModal();
+        }
+    });
+    
+    // Close modal on Escape key
+    const escapeHandler = (e) => {
+        if (e.key === "Escape") {
+            closeGroupModal();
+            document.removeEventListener("keydown", escapeHandler);
+        }
+    };
+    document.addEventListener("keydown", escapeHandler);
+    
+    document.body.appendChild(overlay);
+    
+    // Animate modal appearance
+    setTimeout(() => {
+        overlay.classList.add("active");
+    }, 10);
+}
+
+function closeGroupModal() {
+    const overlay = document.getElementById("group-modal-overlay");
+    if (overlay) {
+        overlay.classList.remove("active");
+        setTimeout(() => {
+            overlay.remove();
+        }, 300); // Match transition duration
+    }
 }
 
 
@@ -95,7 +287,36 @@ function renderKnockouts(data) {
     rightRounds.push(round.matches.slice(mid));
   });
 
-  const final = knockouts[numRounds - 1].matches;
+  const finalRoundMatches = knockouts[numRounds - 1].matches;
+  
+  // Helper function to check if a match is valid (has non-empty names and scores)
+  function isValidMatch(match) {
+    if (!match || !Array.isArray(match) || match.length < 2) return false;
+    return match.every(player => 
+      player && 
+      player.name && 
+      player.name.trim() !== "" && 
+      player.score !== undefined && 
+      player.score !== null
+    );
+  }
+  
+  // Separate final match from other matches (like 3rd/4th place)
+  // The first valid match is the final, subsequent valid matches are playoff matches
+  let finalMatch = null;
+  const otherMatches = [];
+  let foundFinal = false;
+  
+  finalRoundMatches.forEach(match => {
+    if (isValidMatch(match)) {
+      if (!foundFinal) {
+        finalMatch = match;
+        foundFinal = true;
+      } else {
+        otherMatches.push(match);
+      }
+    }
+  });
 
   // Render left side
   leftRounds.forEach((round, r) => {
@@ -118,8 +339,9 @@ function renderKnockouts(data) {
   finalCol.className = "round";
   finalCol.id = "final-round"; // Add ID for scrolling
 
-  final.forEach(match => {
-    const fm = makeMatch(match);
+  // Render the final match (bright/prominent)
+  if (finalMatch) {
+    const fm = makeMatch(finalMatch);
     fm.classList.add("final");
 
     const header = document.createElement("div");
@@ -128,7 +350,16 @@ function renderKnockouts(data) {
     document.getElementById("stage-header").appendChild(header);
 
     finalCol.appendChild(fm);
+  }
+
+  // Render other matches (like 3rd/4th place) below the final (less prominent)
+  otherMatches.forEach(match => {
+    const pm = makeMatch(match);
+    pm.classList.add("playoff-match");
+
+    finalCol.appendChild(pm);
   });
+  
   bracket.appendChild(finalCol);
 
   // Render right side

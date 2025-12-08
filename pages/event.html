@@ -152,12 +152,13 @@
                   }
 
                   // Render the default view based on available data
-                  if (data.groups) {
-                      renderGroups(data);
-                      if (btnGroups) btnGroups.classList.add('active-toggle');
-                  } else if (data.knockouts) {
+                  // Prioritize knockouts if present, otherwise show groups
+                  if (data.knockouts) {
                       renderKnockouts(data);
                       if (btnKnockouts) btnKnockouts.classList.add('active-toggle');
+                  } else if (data.groups) {
+                      renderGroups(data);
+                      if (btnGroups) btnGroups.classList.add('active-toggle');
                   }
               } else {
                   document.getElementById("contentContainer").innerHTML = "No data available";
