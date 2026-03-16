@@ -1,0 +1,50 @@
+[
+	{
+		"rank" : 1,
+		"maties_id" : 246,
+		"name" : "Tamika Van As",
+		"club" : "Boundary",
+		"gender" : "Female",
+		"rating" : 1382,
+		"win_per" : 100.0,
+		"played" : 9,
+		"won" : 9,
+		"lost" : 0,
+		"last_played" : "2025-07-20",
+		"best_win" : "Refilwe Phoofolo (1269)",
+		"max_rating" : 1382,
+		"max_rating_date" : "2025-07-20"
+	},
+	{
+		"rank" : 2,
+		"maties_id" : 942,
+		"name" : "Refilwe Phoofolo",
+		"club" : "Tempe Military",
+		"gender" : "Female",
+		"rating" : 1269,
+		"win_per" : 66.7,
+		"played" : 9,
+		"won" : 6,
+		"lost" : 3,
+		"last_played" : "2025-07-20",
+		"best_win" : "Shiloh Smith (1200)",
+		"max_rating" : 1289,
+		"max_rating_date" : "2025-07-19"
+	},
+	{
+		"rank" : 3,
+		"maties_id" : 950,
+		"name" : "Leora Ramchurran",
+		"club" : "Titans",
+		"gender" : "Female",
+		"rating" : 1228,
+		"win_per" : 55.6,
+		"played" : 9,
+		"won" : 5,
+		"lost" : 4,
+		"last_played" : "2025-08-09",
+		"best_win" : "Boitlamo Nkele (1219)",
+		"max_rating" : 1250,
+		"max_rating_date" : "2025-08-09"
+	}
+]

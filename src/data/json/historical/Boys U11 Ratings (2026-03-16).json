@@ -1,0 +1,50 @@
+[
+	{
+		"rank" : 1,
+		"maties_id" : 895,
+		"name" : "Saeed Tifflin",
+		"club" : "Masters",
+		"gender" : "Male",
+		"rating" : 1318,
+		"win_per" : 78.6,
+		"played" : 14,
+		"won" : 11,
+		"lost" : 3,
+		"last_played" : "2025-08-09",
+		"best_win" : "Vaishant Padayachee (1282)",
+		"max_rating" : 1400,
+		"max_rating_date" : "2025-07-20"
+	},
+	{
+		"rank" : 2,
+		"maties_id" : 253,
+		"name" : "Samuel Schrieff",
+		"club" : "Boundary",
+		"gender" : "Male",
+		"rating" : 1282,
+		"win_per" : 77.8,
+		"played" : 9,
+		"won" : 7,
+		"lost" : 2,
+		"last_played" : "2025-07-20",
+		"best_win" : "Jacob Mohwa (1161)",
+		"max_rating" : 1313,
+		"max_rating_date" : "2025-07-19"
+	},
+	{
+		"rank" : 3,
+		"maties_id" : 906,
+		"name" : "Vaishant Padayachee",
+		"club" : "Masters",
+		"gender" : "Male",
+		"rating" : 1273,
+		"win_per" : 70.0,
+		"played" : 10,
+		"won" : 7,
+		"lost" : 3,
+		"last_played" : "2025-08-09",
+		"best_win" : "Saeed Tifflin (1370)",
+		"max_rating" : 1331,
+		"max_rating_date" : "2025-08-09"
+	}
+]
