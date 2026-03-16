@@ -1,0 +1,191 @@
+{
+  "league_name": "Maties Res League",
+  "season": "2026",
+  "description": "Stellenbosch University Inter-Residence Table Tennis League",
+  "round_dates": [
+    "2026-02-02",
+    "2026-02-09",
+    "2026-02-16",
+    "2026-03-02",
+    "2026-03-09",
+    "2026-03-16",
+    "2026-03-23",
+    "2026-03-30",
+    "2026-04-06"
+  ],
+  "divisions": [
+    {
+      "id": "mens_a",
+      "name": "Men's Division A",
+      "teams": [
+        { "name": "Huis Marais", "players": ["Pieter van der Merwe", "Johan Smit", "Andries Botha", "Willem Kruger", "Ruan Kotze"] },
+        { "name": "Dagbreek", "players": ["Ruan Pretorius", "Francois Nel", "Danie Louw"] },
+        { "name": "Simonsberg", "players": ["Marco de Villiers", "Stefan Muller", "Hendrik Coetzee", "Thabo Molefe"] },
+        { "name": "Wilgenhof", "players": ["Werner Steyn", "Gustav du Plessis", "Louis Naude", "Jacques Ferreira"] },
+        { "name": "Helderberg", "players": ["Christo Swanepoel", "Hennie Viljoen", "Marius Potgieter", "Eben Olivier"] },
+        { "name": "Eendrag", "players": ["Andre Jansen", "Riaan van Zyl", "Wikus Joubert", "Dean Malan"] },
+        { "name": "Helshoogte", "players": ["Gerhard Fourie", "Fanie Theron", "Lukas Barnard"] },
+        { "name": "Majuba", "players": ["Nico Rossouw", "Anton Brink", "Jaco van Wyk", "Pieter-Jan Lombard"] }
+      ],
+      "results": [
+        { "round": 1, "home": "Huis Marais", "away": "Majuba", "home_score": 4, "away_score": 1 },
+        { "round": 1, "home": "Dagbreek", "away": "Helshoogte", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Simonsberg", "away": "Eendrag", "home_score": 2, "away_score": 3 },
+        { "round": 1, "home": "Wilgenhof", "away": "Helderberg", "home_score": 4, "away_score": 1 },
+        { "round": 2, "home": "Huis Marais", "away": "Helshoogte", "home_score": 5, "away_score": 0 },
+        { "round": 2, "home": "Majuba", "away": "Eendrag", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Dagbreek", "away": "Helderberg", "home_score": 1, "away_score": 4 },
+        { "round": 2, "home": "Simonsberg", "away": "Wilgenhof", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Huis Marais", "away": "Eendrag", "home_score": 4, "away_score": 1 },
+        { "round": 3, "home": "Helshoogte", "away": "Helderberg", "home_score": 2, "away_score": 3 },
+        { "round": 3, "home": "Majuba", "away": "Wilgenhof", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Dagbreek", "away": "Simonsberg", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Huis Marais", "away": "Helderberg", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Eendrag", "away": "Wilgenhof", "home_score": 4, "away_score": 1 },
+        { "round": 4, "home": "Helshoogte", "away": "Simonsberg", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Majuba", "away": "Dagbreek", "home_score": 1, "away_score": 4 }
+      ]
+    },
+    {
+      "id": "mens_b",
+      "name": "Men's Division B",
+      "teams": [
+        { "name": "Goldfields", "players": ["Charl le Roux", "Heinrich Venter", "Martin Scheepers"] },
+        { "name": "Huis Visser", "players": ["Brendan Paulse", "Liam Adams", "Jason Petersen"] },
+        { "name": "Metanoia", "players": ["Sipho Nkosi", "Thulani Dlamini", "Kagiso Mohale"] },
+        { "name": "Pieke", "players": ["Rudi Engelbrecht", "Stephan Cloete", "Francois de Beer", "JP Marais"] },
+        { "name": "Nooitgedacht", "players": ["Wian Vos", "Dewald Brits", "Andre Hugo"] },
+        { "name": "Huis ten Bosch", "players": ["Paul de Klerk", "Tertius Myburgh", "Jan Groenewald", "Aiden Meyer"] },
+        { "name": "Academia", "players": ["David Osei", "Emmanuel Mensah", "Samuel Adeyemi", "Kwame Asante", "Daniel Boateng"] },
+        { "name": "Concordia", "players": ["Luan Booysen", "Francois Marx", "Chris de Jager"] },
+        { "name": "Vesta", "players": ["Quinton Bosch", "Rikus Basson", "Marco Schoeman"] }
+      ],
+      "results": [
+        { "round": 1, "home": "Huis Visser", "away": "Vesta", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Metanoia", "away": "Concordia", "home_score": 4, "away_score": 1 },
+        { "round": 1, "home": "Pieke", "away": "Academia", "home_score": 2, "away_score": 3 },
+        { "round": 1, "home": "Nooitgedacht", "away": "Huis ten Bosch", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Goldfields", "away": "Vesta", "home_score": 4, "away_score": 1 },
+        { "round": 2, "home": "Huis Visser", "away": "Academia", "home_score": 1, "away_score": 4 },
+        { "round": 2, "home": "Metanoia", "away": "Huis ten Bosch", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Pieke", "away": "Nooitgedacht", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Goldfields", "away": "Concordia", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Vesta", "away": "Academia", "home_score": 2, "away_score": 3 },
+        { "round": 3, "home": "Huis Visser", "away": "Nooitgedacht", "home_score": 4, "away_score": 1 },
+        { "round": 3, "home": "Metanoia", "away": "Pieke", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Goldfields", "away": "Academia", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Concordia", "away": "Huis ten Bosch", "home_score": 1, "away_score": 4 },
+        { "round": 4, "home": "Vesta", "away": "Nooitgedacht", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Huis Visser", "away": "Metanoia", "home_score": 3, "away_score": 2 }
+      ]
+    },
+    {
+      "id": "mens_c",
+      "name": "Men's Division C",
+      "teams": [
+        { "name": "Excelsior", "players": ["Hein Steenkamp", "Jannie Boshoff", "Attie Liebenberg"] },
+        { "name": "Aurora", "players": ["Kyle Thompson", "Ryan Mitchell", "Brandon Lee", "Sean O'Brien"] },
+        { "name": "Devon Park", "players": ["Renier van Niekerk", "Corne Snyman", "Jansen van Rensburg"] },
+        { "name": "Olympus", "players": ["Tshepo Mabena", "Lesego Phalane", "Mpho Kgomo", "Tumelo Seboka", "Lerato Mokoena"] },
+        { "name": "PSO Tygerberg", "players": ["Adriaan Stander", "Lourens van der Walt", "Pieter Scholtz"] },
+        { "name": "Die Kluis", "players": ["Norman Webb", "Patrick Stevens", "Gary Simpson"] },
+        { "name": "Oude Molen", "players": ["Jacques du Toit", "Ruben Meyer", "Deon Swart", "Leon Visser"] },
+        { "name": "Silene", "players": ["Fritz Koegelenberg", "Bertus van Aswegen", "Morne Breytenbach", "Chris Venter"] }
+      ],
+      "results": [
+        { "round": 1, "home": "Excelsior", "away": "Silene", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Aurora", "away": "Oude Molen", "home_score": 4, "away_score": 1 },
+        { "round": 1, "home": "Devon Park", "away": "Die Kluis", "home_score": 2, "away_score": 3 },
+        { "round": 1, "home": "Olympus", "away": "PSO Tygerberg", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Excelsior", "away": "Oude Molen", "home_score": 5, "away_score": 0 },
+        { "round": 2, "home": "Silene", "away": "Die Kluis", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Aurora", "away": "PSO Tygerberg", "home_score": 2, "away_score": 3 },
+        { "round": 2, "home": "Devon Park", "away": "Olympus", "home_score": 1, "away_score": 4 },
+        { "round": 3, "home": "Excelsior", "away": "Die Kluis", "home_score": 4, "away_score": 1 },
+        { "round": 3, "home": "Oude Molen", "away": "PSO Tygerberg", "home_score": 1, "away_score": 4 },
+        { "round": 3, "home": "Silene", "away": "Olympus", "home_score": 2, "away_score": 3 },
+        { "round": 3, "home": "Aurora", "away": "Devon Park", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Excelsior", "away": "PSO Tygerberg", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Die Kluis", "away": "Olympus", "home_score": 4, "away_score": 1 },
+        { "round": 4, "home": "Oude Molen", "away": "Devon Park", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Silene", "away": "Aurora", "home_score": 1, "away_score": 4 }
+      ]
+    },
+    {
+      "id": "mens_d",
+      "name": "Men's Division D",
+      "teams": [
+        { "name": "Lobelia", "players": ["Waldo Pieterse", "Eben Greyling", "Liam Scott"] },
+        { "name": "Sonop", "players": ["Pieter Klopper", "Riaan du Preez", "Danie Human"] },
+        { "name": "Kiepersol", "players": ["Morne Viviers", "Charl Henning", "Stefan de Wet", "PW Botha"] },
+        { "name": "Botmashof", "players": ["Leon Maree", "Hannes Dippenaar", "Jacques Visser"] },
+        { "name": "Aristea", "players": ["Timothy Brown", "Craig Miller", "David Wilson"] },
+        { "name": "Nemesis M", "players": ["JD Rossouw", "Kobus Hefer", "Anton Prinsloo", "Barend Vos"] },
+        { "name": "Neethlingshof", "players": ["Frikkie Lubbe", "Sarel Blignaut", "Wimpie van Deventer"] },
+        { "name": "Victoria", "players": ["James Clarke", "Robert Evans", "Thomas Wright"] },
+        { "name": "Minerva M", "players": ["Pieter le Grange", "Gerrit van Tonder", "Stefan Vorster", "Albert Wessels"] },
+        { "name": "Equite", "players": ["Tumisho Makhubele", "Blessing Moyo", "Farai Chigumba"] }
+      ],
+      "results": [
+        { "round": 1, "home": "Lobelia", "away": "Equite", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Sonop", "away": "Minerva M", "home_score": 4, "away_score": 1 },
+        { "round": 1, "home": "Kiepersol", "away": "Victoria", "home_score": 2, "away_score": 3 },
+        { "round": 1, "home": "Botmashof", "away": "Neethlingshof", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Aristea", "away": "Nemesis M", "home_score": 1, "away_score": 4 },
+        { "round": 2, "home": "Lobelia", "away": "Minerva M", "home_score": 4, "away_score": 1 },
+        { "round": 2, "home": "Equite", "away": "Victoria", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Sonop", "away": "Neethlingshof", "home_score": 2, "away_score": 3 },
+        { "round": 2, "home": "Kiepersol", "away": "Nemesis M", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Botmashof", "away": "Aristea", "home_score": 4, "away_score": 1 },
+        { "round": 3, "home": "Lobelia", "away": "Victoria", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Minerva M", "away": "Neethlingshof", "home_score": 1, "away_score": 4 },
+        { "round": 3, "home": "Equite", "away": "Nemesis M", "home_score": 2, "away_score": 3 },
+        { "round": 3, "home": "Sonop", "away": "Aristea", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Kiepersol", "away": "Botmashof", "home_score": 4, "away_score": 1 },
+        { "round": 4, "home": "Lobelia", "away": "Neethlingshof", "home_score": 5, "away_score": 0 },
+        { "round": 4, "home": "Victoria", "away": "Nemesis M", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Minerva M", "away": "Aristea", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Equite", "away": "Botmashof", "home_score": 1, "away_score": 4 },
+        { "round": 4, "home": "Sonop", "away": "Kiepersol", "home_score": 3, "away_score": 2 }
+      ]
+    },
+    {
+      "id": "womens",
+      "name": "Women's Division",
+      "teams": [
+        { "name": "Harmonie", "players": ["Annelise van Niekerk", "Marisa Botha", "Lizelle Steyn"] },
+        { "name": "Monica", "players": ["Chantel Fourie", "Bianca Kruger", "Annemarie Jansen", "Lize Pretorius"] },
+        { "name": "Heemstede", "players": ["Sarah Johnson", "Kate Williams", "Emma Brown"] },
+        { "name": "Lydia", "players": ["Monique du Plessis", "Hanli van der Merwe", "Ronel Swanepoel"] },
+        { "name": "Serruria", "players": ["Elaine Viljoen", "Carina Booysen", "Megan Thompson"] },
+        { "name": "Minerva W", "players": ["Zanele Dlamini", "Palesa Mokoena", "Lerato Phalane", "Karabo Maseko"] },
+        { "name": "Nerina", "players": ["Louise van Zyl", "Ingrid Joubert", "Carmen de Wit"] },
+        { "name": "Irene", "players": ["Jessica Adams", "Amber Scott", "Danielle Peters"] },
+        { "name": "Erica", "players": ["Lindie Engelbrecht", "Anke Cloete", "Wilma de Beer"] },
+        { "name": "Nemesis W", "players": ["Thandi Molefe", "Zinhle Mthembu", "Ayanda Khumalo"] }
+      ],
+      "results": [
+        { "round": 1, "home": "Harmonie", "away": "Nemesis W", "home_score": 4, "away_score": 1 },
+        { "round": 1, "home": "Monica", "away": "Erica", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Heemstede", "away": "Irene", "home_score": 2, "away_score": 3 },
+        { "round": 1, "home": "Lydia", "away": "Nerina", "home_score": 3, "away_score": 2 },
+        { "round": 1, "home": "Serruria", "away": "Minerva W", "home_score": 1, "away_score": 4 },
+        { "round": 2, "home": "Harmonie", "away": "Erica", "home_score": 5, "away_score": 0 },
+        { "round": 2, "home": "Nemesis W", "away": "Irene", "home_score": 3, "away_score": 2 },
+        { "round": 2, "home": "Monica", "away": "Nerina", "home_score": 4, "away_score": 1 },
+        { "round": 2, "home": "Heemstede", "away": "Minerva W", "home_score": 2, "away_score": 3 },
+        { "round": 2, "home": "Lydia", "away": "Serruria", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Harmonie", "away": "Irene", "home_score": 3, "away_score": 2 },
+        { "round": 3, "home": "Erica", "away": "Nerina", "home_score": 1, "away_score": 4 },
+        { "round": 3, "home": "Nemesis W", "away": "Minerva W", "home_score": 2, "away_score": 3 },
+        { "round": 3, "home": "Monica", "away": "Serruria", "home_score": 4, "away_score": 1 },
+        { "round": 3, "home": "Heemstede", "away": "Lydia", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Harmonie", "away": "Nerina", "home_score": 4, "away_score": 1 },
+        { "round": 4, "home": "Irene", "away": "Minerva W", "home_score": 3, "away_score": 2 },
+        { "round": 4, "home": "Erica", "away": "Serruria", "home_score": 2, "away_score": 3 },
+        { "round": 4, "home": "Nemesis W", "away": "Lydia", "home_score": 1, "away_score": 4 },
+        { "round": 4, "home": "Monica", "away": "Heemstede", "home_score": 3, "away_score": 2 }
+      ]
+    }
+  ]
+}

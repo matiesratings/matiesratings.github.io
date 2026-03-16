@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leagues</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <div class="event-section">
+        <div id="leagues-container">
+            <button class="event" onclick="location.href='/pages/league.html?league=maties_res_league'">
+                Maties Res League 2026
+            </button>
+        </div>
+    </div>
+
+    <script src="/src/js/utils.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            loadInclude("header-placeholder", "/components/header.html");
+            setupNavCloseOnOutsideClick();
+            setHeaderTitle("Leagues");
+        });
+    </script>
+</body>
+</html>

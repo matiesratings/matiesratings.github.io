@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <div class="league-division-bar">
+            <span class="league-division-label">Division:</span>
+            <div id="divisionButtons"></div>
+        </div>
+
+        <div id="viewToggles">
+            <button data-view="standings" class="active-toggle">Standings</button>
+            <button data-view="fixtures">Fixtures</button>
+            <button data-view="rosters">Teams</button>
+        </div>
+
+        <div id="standings-container">
+            <div id="standings-sub-toggles">
+                <button data-sub="team" class="active-toggle">Team</button>
+                <button data-sub="player">Player</button>
+            </div>
+            <div id="team-standings"></div>
+            <div id="player-standings" class="hidden"></div>
+        </div>
+        <div id="fixtures-container" class="hidden"></div>
+        <div id="rosters-container" class="hidden"></div>
+    </main>
+
+    <!-- Info modal -->
+    <button id="infoBtn" class="league-info-btn" aria-label="League info">?</button>
+    <div id="infoModal" class="league-info-overlay">
+        <div class="league-info-modal">
+            <div class="league-info-modal-header">
+                <h2>League Info</h2>
+                <button class="group-modal-close" id="infoModalClose">&times;</button>
+            </div>
+            <div class="league-info-modal-body">
+                <p><strong>Season:</strong> 2026 — Semester 1</p>
+                <p><strong>Match Format:</strong> 5 individual rubbers per fixture (best of 5 games each)</p>
+                <p><strong>Points:</strong> Win = 2 pts | Loss = 0 pts</p>
+                <p><strong>Walkovers:</strong> Teams must field a minimum of 3 players. A team that cannot field 3 players forfeits the fixture 0-5. Individual no-shows are awarded as a 0-3 rubber loss. Teams must notify the opposing captain at least 24 hours in advance to avoid a walkover penalty.</p>
+                <p><strong>Contact:</strong> League Coordinator — <a href="mailto:tianlouw53@gmail.com">tianlouw53@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/js/utils.js"></script>
+    <script src="/src/js/league.js"></script>
+</body>
+</html>
