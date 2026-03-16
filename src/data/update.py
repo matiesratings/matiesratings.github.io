@@ -12,8 +12,8 @@ CSV_FOLDER = SCRIPT_DIR / "csv"
 JSON_FOLDER = SCRIPT_DIR / "json"
 HISTORICAL_FOLDER = JSON_FOLDER / "historical"
 
-# Default date for file matching (update this when processing new files)
-DEFAULT_DATE = "2025-11-02"
+# CSV file prefixes to auto-detect
+CSV_FILE_PREFIXES = ["Player List", "Match Results"]
 
 # Category name mapping for historical file processing
 CATEGORY_NAME_MAP = {
@@ -113,6 +113,34 @@ def extract_clubs(input_path, output_path):
         json.dump({"clubs": clubs}, f, indent=2)
 
 
+def get_latest_csv(prefix, folder=None):
+    """
+    Finds the latest CSV file matching a given prefix by date.
+    E.g. prefix="Player List" matches "Player List (2026-02-17).csv"
+
+    Returns the path to the latest file, or None if not found.
+    """
+    if folder is None:
+        folder = CSV_FOLDER
+
+    latest_date = None
+    latest_path = None
+
+    for path in folder.glob(f"{prefix} (*.csv"):
+        match = re.match(rf"{re.escape(prefix)} \((\d{{4}}-\d{{2}}-\d{{2}})\)\.csv", path.name)
+        if not match:
+            continue
+        try:
+            date = datetime.strptime(match.group(1), "%Y-%m-%d")
+            if latest_date is None or date > latest_date:
+                latest_date = date
+                latest_path = path
+        except ValueError:
+            continue
+
+    return latest_path
+
+
 def get_latest_historical_files(input_dir=None, output_dir=None):
     """
     Processes historical rating files and extracts the latest version of each category.
@@ -173,52 +201,55 @@ def get_latest_historical_files(input_dir=None, output_dir=None):
 # === Main Script ===
 
 if __name__ == "__main__":
-    import sys
-    
     # Ensure directories exist
     CSV_FOLDER.mkdir(parents=True, exist_ok=True)
     JSON_FOLDER.mkdir(parents=True, exist_ok=True)
-    
-    # Get date from command line argument or use default
-    date_str = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_DATE
-    print(f"Processing files with date: {date_str}")
-    
-    # File paths
-    player_list_file = CSV_FOLDER / f"Player List ({date_str}).csv"
-    match_results_file = CSV_FOLDER / f"Match Results ({date_str}).csv"
-    
+
     all_players_output = JSON_FOLDER / "all_players.json"
     matches_output = JSON_FOLDER / "matches.json"
     clubs_output = JSON_FOLDER / "clubs.json"
-    
-    # Check if input files exist
-    if not player_list_file.exists():
-        print(f"Warning: Player List file not found: {player_list_file}")
-        print(f"Expected location: {player_list_file.absolute()}")
+
+    # Auto-detect latest CSV files and extract the date
+    player_list_file = get_latest_csv("Player List")
+    match_results_file = get_latest_csv("Match Results")
+
+    # Determine the data date from whichever CSV was found
+    data_date = None
+    for f in [player_list_file, match_results_file]:
+        if f:
+            m = re.search(r"\((\d{4}-\d{2}-\d{2})\)", f.name)
+            if m:
+                data_date = m.group(1)
+                break
+
+    if data_date:
+        print(f"DATA_DATE={data_date}")
+
+    if not player_list_file:
+        print("Warning: No Player List CSV found in csv/")
     else:
         print(f"Processing: {player_list_file.name}")
         convert_csv_to_json(player_list_file, all_players_output)
         print(f"Created: {all_players_output.name}")
-    
-    if not match_results_file.exists():
-        print(f"Warning: Match Results file not found: {match_results_file}")
-        print(f"Expected location: {match_results_file.absolute()}")
+
+    if not match_results_file:
+        print("Warning: No Match Results CSV found in csv/")
     else:
         print(f"Processing: {match_results_file.name}")
         convert_matches(match_results_file, matches_output)
         print(f"Created: {matches_output.name}")
-    
+
     # Extract clubs from all_players.json
     if all_players_output.exists():
         extract_clubs(all_players_output, clubs_output)
         print(f"Created: {clubs_output.name}")
     else:
         print("Warning: Cannot extract clubs - all_players.json not found")
-    
+
     # Process historical rating files - always run this to get latest ratings
     print("\nProcessing historical rating files...")
     get_latest_historical_files()
-    
+
     print("\nProcessing complete!")
     print(f"Output directory: {JSON_FOLDER.absolute()}")
 
