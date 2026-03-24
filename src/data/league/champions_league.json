@@ -169,6 +169,13 @@
           "away": "Stephan Kleinhans",
           "home_score": 4,
           "away_score": 0
+        },
+        {
+          "round": 5,
+          "home": "Jacques Malan",
+          "away": "Brendan de Wet",
+          "home_score": 4,
+          "away_score": 1
         }
       ]
     },
