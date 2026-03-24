@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Rankings</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <div class="meta-header">
+            <select id="sortCategory">
+                <option value="men">Men's Avg Rating</option>
+                <option value="open">Open Avg Rating</option>
+                <option value="women">Women's Avg Rating</option>
+            </select>
+        </div>
+
+        <div class="filter-section hidden" id="filterSection">
+            <div class="filters">
+                <div class="filter-container">
+                    <label>Club</label>
+                    <input type="text" id="clubFilter" class="search-input" placeholder="Search..." oninput="filterTable()" autocomplete="off">
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; margin: var(--spacing-sm);">
+            <button id="toggleFilterButton" onclick="toggleFilters()">Filter</button>
+        </div>
+
+        <table role="table" aria-label="Club rankings">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)" class="small-column">#</th>
+                    <th onclick="sortTable(1)">Club</th>
+                    <th onclick="sortTable(2)">Players</th>
+                    <th onclick="sortTable(3)">Avg Rating</th>
+                    <th onclick="sortTable(4)" class="mobile-hidden-col">Top 100</th>
+                    <th onclick="sortTable(5)" class="mobile-hidden-col">Top 10s</th>
+                    <th onclick="sortTable(6)">Win %</th>
+                </tr>
+            </thead>
+            <tbody id="club-table"></tbody>
+        </table>
+    </main>
+
+    <script src="/src/js/utils.js"></script>
+    <script src="/src/js/clubs.js"></script>
+</body>
+</html>

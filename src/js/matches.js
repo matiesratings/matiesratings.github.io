@@ -145,6 +145,31 @@ function toggleNav() {
 
 let matchData = [];
 
+const STAGE_ORDER = {
+    "groups": 0, "group": 0, "group stage": 0,
+    "round of 128": 1, "r128": 1,
+    "round of 64": 2, "r64": 2,
+    "round of 32": 3, "r32": 3,
+    "round of 16": 4, "r16": 4,
+    "quarterfinals": 5, "quarterfinal": 5, "quarter-final": 5, "qf": 5,
+    "semifinals": 6, "semifinal": 6, "semi-final": 6, "sf": 6,
+    "3rd place": 7, "third place": 7, "bronze": 7, "playoff": 7,
+    "final": 8, "finals": 8
+};
+
+function getStageOrder(stage) {
+    if (!stage) return 0;
+    return STAGE_ORDER[stage.toLowerCase()] ?? 0;
+}
+
+function chronologicalSort(a, b) {
+    const dateA = new Date(a.match_date), dateB = new Date(b.match_date);
+    if (dateA.getTime() !== dateB.getTime()) return dateB - dateA;
+    const eventCmp = (a.event_name || "").localeCompare(b.event_name || "");
+    if (eventCmp !== 0) return eventCmp;
+    return getStageOrder(b.stage) - getStageOrder(a.stage);
+}
+
 function loadMatchData() {
     fetch('/src/data/json/matches.json')
         .then(response => {
@@ -157,13 +182,7 @@ function loadMatchData() {
             if (!Array.isArray(data)) {
                 throw new Error("Invalid data format: expected array");
             }
-            data.sort((a, b) => {
-                try {
-                    return new Date(b.match_date) - new Date(a.match_date);
-                } catch (e) {
-                    return 0;
-                }
-            }); // sort by date descending
+            data.sort(chronologicalSort);
             matchData = data;
             displayData(matchData.slice(0, 100));
             populateDropdowns();

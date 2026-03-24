@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Profile</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section id="club-info" class="player-info-container">
+            <div id="club-card" class="player-info-content" style="padding: 18px 32px;"></div>
+        </section>
+
+        <section aria-label="Club members">
+            <div class="match-history-header">
+                <h2 class="match-history-title">Members</h2>
+            </div>
+            <div id="memberToggles" style="display:flex; justify-content:center; gap:var(--spacing-sm); margin:var(--spacing-md) 0;">
+                <button class="filter-toggle-button active" data-filter="all" onclick="filterMembers('all')">All</button>
+                <button class="filter-toggle-button" data-filter="men" onclick="filterMembers('men')">Men</button>
+                <button class="filter-toggle-button" data-filter="women" onclick="filterMembers('women')">Women</button>
+                <button class="filter-toggle-button" data-filter="juniors" onclick="filterMembers('juniors')">Juniors</button>
+            </div>
+            <table role="table" aria-label="Club members">
+                <thead>
+                    <tr>
+                        <th onclick="sortMembers(0)" class="small-column">#</th>
+                        <th onclick="sortMembers(1)">Name</th>
+                        <th onclick="sortMembers(2)">Rating</th>
+                        <th onclick="sortMembers(3)" class="mobile-hidden-col">Played</th>
+                        <th onclick="sortMembers(4)" class="mobile-hidden-col">Win %</th>
+                    </tr>
+                </thead>
+                <tbody id="members-table"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="/src/js/utils.js"></script>
+    <script src="/src/js/club.js"></script>
+</body>
+</html>
