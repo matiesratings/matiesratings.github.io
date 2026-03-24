@@ -1070,32 +1070,77 @@ th {
 
 /* League Styles */
 
-/* Floating info button */
+/* Sponsor bar */
+#sponsor-bar {
+    text-align: center;
+    padding: var(--spacing-lg) var(--spacing-sm) 0;
+}
+
+.sponsor-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+    text-decoration: none;
+    color: var(--color-text);
+    transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.sponsor-link:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+.sponsor-label {
+    font-size: clamp(10px, 2vw, 12px);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.45;
+    color: #aaa;
+}
+
+.sponsor-banner {
+    width: clamp(280px, 75vw, 1100px);
+    height: auto;
+    border-radius: var(--radius-sm);
+}
+
+/* Circular crop for swapped header logo (sponsor) */
+.header-logo-circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Info button - pill shape */
 .league-info-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    bottom: 24px;
+    right: 24px;
+    height: 48px;
+    border-radius: 24px;
     background-color: var(--color-primary);
     color: var(--color-text);
-    border: 2px solid var(--color-text);
-    font-size: 20px;
-    font-weight: bold;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
     z-index: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    transition: background-color var(--transition-normal), transform var(--transition-fast);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 0 22px;
+    gap: 7px;
+    transition: background-color var(--transition-normal), transform var(--transition-fast), box-shadow var(--transition-fast);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
 }
 
 .league-info-btn:hover {
     background-color: var(--color-primary-dark);
-    transform: scale(1.1);
+    transform: scale(1.06);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 
 /* Info modal overlay */
@@ -1194,6 +1239,225 @@ th {
 #standings-sub-toggles button.active-toggle {
     background-color: var(--color-primary);
     border-color: var(--color-text);
+}
+
+/* Admin page */
+.admin-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    gap: var(--spacing-md);
+}
+
+.admin-login h2 {
+    font-size: clamp(24px, 5vw, 40px);
+}
+
+.admin-login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    width: 280px;
+}
+
+.admin-login-form input {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-size: 16px;
+    text-align: center;
+}
+
+.admin-login-form button {
+    width: 100%;
+    padding: var(--spacing-sm);
+    font-size: 16px;
+}
+
+.admin-section {
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    margin: var(--spacing-lg) auto;
+}
+
+.admin-section h3 {
+    margin: 0 0 var(--spacing-md);
+    font-size: clamp(18px, 3vw, 24px);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: var(--spacing-sm);
+}
+
+.admin-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    justify-content: center;
+}
+
+.admin-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.admin-control label {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+}
+
+.admin-control select {
+    font-size: 16px;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    min-width: 200px;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+.admin-match {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid rgba(128, 0, 0, 0.3);
+    flex-wrap: wrap;
+}
+
+.admin-match:last-child {
+    border-bottom: none;
+}
+
+.admin-match-home {
+    flex: 1;
+    text-align: right;
+    font-size: clamp(13px, 2.5vw, 16px);
+    min-width: 100px;
+}
+
+.admin-match-away {
+    flex: 1;
+    text-align: left;
+    font-size: clamp(13px, 2.5vw, 16px);
+    min-width: 100px;
+}
+
+.admin-match-vs {
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.admin-score {
+    width: 50px;
+    padding: var(--spacing-xs);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.admin-score:focus {
+    border-color: var(--color-text);
+    outline: none;
+}
+
+.admin-actions {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    margin-top: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.admin-actions button {
+    padding: var(--spacing-sm) var(--spacing-xl);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.admin-hint {
+    text-align: center;
+    margin-top: var(--spacing-md);
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.admin-hint code {
+    background-color: rgba(128, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.winner {
+    font-weight: bold;
+}
+
+.admin-publish-btn {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    font-size: 18px;
+    padding: var(--spacing-md) var(--spacing-xl);
+}
+
+.admin-publish-btn:hover {
+    background-color: #1b5e20;
+}
+
+.admin-publish-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.admin-token-row {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    margin-top: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.admin-token-row input {
+    width: 300px;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-size: 14px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: monospace;
+}
+
+.admin-fallback {
+    margin-top: var(--spacing-lg);
+    text-align: center;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.admin-fallback summary {
+    font-size: 14px;
+}
+
+#publish-status {
+    text-align: center;
+    margin-top: var(--spacing-sm);
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .league-division-bar {

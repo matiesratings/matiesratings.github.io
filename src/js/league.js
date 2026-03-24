@@ -1,23 +1,29 @@
 /**
- * League page logic - generates round-robin schedules, computes standings,
- * and renders the league view with fixtures and standings.
+ * League page logic - handles both team leagues and individual leagues.
+ * Generates round-robin (or double round-robin) schedules, computes standings,
+ * and renders fixtures, standings, and rosters.
  */
 
 let leagueData = null;
 let currentDivision = null;
 let currentView = "standings";
 let lastCompletedRoundIdx = -1;
+let isIndividual = false;
 
-/**
- * Generate a round-robin schedule using the circle method.
- */
-function generateRoundRobin(teamNames) {
-    const teams = [...teamNames];
+/** Helper: wrap a name in a player link */
+function playerLink(name) {
+    const encoded = encodeURIComponent(name);
+    return `<a href="/pages/player.html?name=${encoded}" class="player-link">${name}</a>`;
+}
+
+// ── Schedule generation ──
+
+function generateRoundRobin(names) {
+    const teams = [...names];
     if (teams.length % 2 !== 0) teams.push(null);
     const n = teams.length;
     const rounds = [];
-
-    for (let round = 0; round < n - 1; round++) {
+    for (let r = 0; r < n - 1; r++) {
         const matches = [];
         for (let i = 0; i < n / 2; i++) {
             const home = teams[i];
@@ -33,14 +39,19 @@ function generateRoundRobin(teamNames) {
     return rounds;
 }
 
-/**
- * Merge completed results into the generated schedule
- */
+function generateDoubleRoundRobin(names) {
+    const first = generateRoundRobin(names);
+    const second = first.map(round =>
+        round.map(m => ({ home: m.away, away: m.home, completed: false }))
+    );
+    return [...first, ...second];
+}
+
 function mergeResults(schedule, results) {
     for (const result of results) {
-        const roundIndex = result.round - 1;
-        if (roundIndex >= 0 && roundIndex < schedule.length) {
-            const match = schedule[roundIndex].find(
+        const ri = result.round - 1;
+        if (ri >= 0 && ri < schedule.length) {
+            const match = schedule[ri].find(
                 m => m.home === result.home && m.away === result.away
             );
             if (match) {
@@ -52,41 +63,25 @@ function mergeResults(schedule, results) {
     }
 }
 
-/**
- * Compute team standings from the schedule
- */
-function computeStandings(schedule, teamNames) {
+// ── Standings computation ──
+
+function computeStandings(schedule, names) {
     const stats = {};
-    for (const name of teamNames) {
+    for (const name of names) {
         stats[name] = { name, played: 0, won: 0, lost: 0, points: 0, mf: 0, ma: 0 };
     }
-
     for (const round of schedule) {
-        for (const match of round) {
-            if (!match.completed) continue;
-            const home = stats[match.home];
-            const away = stats[match.away];
-            if (!home || !away) continue;
-
-            home.played++;
-            away.played++;
-            home.mf += match.home_score;
-            home.ma += match.away_score;
-            away.mf += match.away_score;
-            away.ma += match.home_score;
-
-            if (match.home_score > match.away_score) {
-                home.won++;
-                home.points += 2;
-                away.lost++;
-            } else {
-                away.won++;
-                away.points += 2;
-                home.lost++;
-            }
+        for (const m of round) {
+            if (!m.completed) continue;
+            const h = stats[m.home], a = stats[m.away];
+            if (!h || !a) continue;
+            h.played++; a.played++;
+            h.mf += m.home_score; h.ma += m.away_score;
+            a.mf += m.away_score; a.ma += m.home_score;
+            if (m.home_score > m.away_score) { h.won++; h.points += 2; a.lost++; }
+            else { a.won++; a.points += 2; h.lost++; }
         }
     }
-
     return Object.values(stats).sort((a, b) => {
         if (b.points !== a.points) return b.points - a.points;
         if ((b.mf - b.ma) !== (a.mf - a.ma)) return (b.mf - b.ma) - (a.mf - a.ma);
@@ -94,218 +89,198 @@ function computeStandings(schedule, teamNames) {
     });
 }
 
-/**
- * Compute individual player standings from the schedule.
- */
 function computePlayerStandings(schedule, teams) {
-    const playerStats = {};
+    const stats = {};
     const teamMap = {};
-
     for (const team of teams) {
         teamMap[team.name] = team;
-        for (const player of team.players) {
-            playerStats[team.name + "|" + player] = {
-                name: player,
-                team: team.name,
-                played: 0,
-                won: 0,
-                lost: 0
-            };
+        for (const p of team.players) {
+            stats[team.name + "|" + p] = { name: p, team: team.name, played: 0, won: 0, lost: 0 };
         }
     }
-
-    let fixtureIdx = 0;
+    let fi = 0;
     for (const round of schedule) {
-        for (const match of round) {
-            if (!match.completed) { fixtureIdx++; continue; }
-
-            const homeTeam = teamMap[match.home];
-            const awayTeam = teamMap[match.away];
-            if (!homeTeam || !awayTeam) { fixtureIdx++; continue; }
-
-            const totalRubbers = match.home_score + match.away_score;
-            const hPlayers = homeTeam.players;
-            const aPlayers = awayTeam.players;
-
-            for (let r = 0; r < totalRubbers; r++) {
-                const hp = hPlayers[(fixtureIdx + r) % hPlayers.length];
-                const ap = aPlayers[(fixtureIdx + r) % aPlayers.length];
-                const hKey = match.home + "|" + hp;
-                const aKey = match.away + "|" + ap;
-
-                playerStats[hKey].played++;
-                playerStats[aKey].played++;
-
-                if (r < match.home_score) {
-                    playerStats[hKey].won++;
-                    playerStats[aKey].lost++;
-                } else {
-                    playerStats[aKey].won++;
-                    playerStats[hKey].lost++;
-                }
+        for (const m of round) {
+            if (!m.completed) { fi++; continue; }
+            const ht = teamMap[m.home], at = teamMap[m.away];
+            if (!ht || !at) { fi++; continue; }
+            const total = m.home_score + m.away_score;
+            for (let r = 0; r < total; r++) {
+                const hp = ht.players[(fi + r) % ht.players.length];
+                const ap = at.players[(fi + r) % at.players.length];
+                const hk = m.home + "|" + hp, ak = m.away + "|" + ap;
+                stats[hk].played++; stats[ak].played++;
+                if (r < m.home_score) { stats[hk].won++; stats[ak].lost++; }
+                else { stats[ak].won++; stats[hk].lost++; }
             }
-            fixtureIdx++;
+            fi++;
         }
     }
-
-    return Object.values(playerStats)
-        .filter(p => p.played > 0)
-        .sort((a, b) => {
-            const aPct = a.won / a.played;
-            const bPct = b.won / b.played;
-            if (bPct !== aPct) return bPct - aPct;
-            if (b.won !== a.won) return b.won - a.won;
-            return b.played - a.played;
-        });
+    return Object.values(stats).filter(p => p.played > 0).sort((a, b) => {
+        const ap = a.won / a.played, bp = b.won / b.played;
+        if (bp !== ap) return bp - ap;
+        return b.won !== a.won ? b.won - a.won : b.played - a.played;
+    });
 }
+
+// ── Rendering ──
 
 function formatDate(dateStr) {
     if (!dateStr) return "TBD";
-    const date = new Date(dateStr + "T00:00:00");
-    return date.toLocaleDateString("en-ZA", { weekday: "short", day: "numeric", month: "short" });
+    const d = new Date(dateStr + "T00:00:00");
+    return d.toLocaleDateString("en-ZA", { weekday: "short", day: "numeric", month: "short" });
 }
 
-/**
- * Render the team standings table
- */
 function renderTeamStandings(standings) {
-    const container = document.getElementById("team-standings");
-    if (!container) return;
-
-    let html = `<table class="league-table">
-        <thead><tr>
-            <th>#</th>
-            <th class="text-left">Team</th>
-            <th>P</th><th>W</th><th>L</th>
-            <th>MF</th><th>MA</th><th>Pts</th>
-        </tr></thead><tbody>`;
-
-    standings.forEach((team, i) => {
-        html += `<tr>
-            <td>${i + 1}</td>
-            <td class="text-left league-team-name">${team.name}</td>
-            <td>${team.played}</td><td>${team.won}</td><td>${team.lost}</td>
-            <td>${team.mf}</td><td>${team.ma}</td>
-            <td><strong>${team.points}</strong></td>
-        </tr>`;
+    const el = document.getElementById("team-standings");
+    if (!el) return;
+    const label = isIndividual ? "Player" : "Team";
+    const forLabel = isIndividual ? "GF" : "MF";
+    const againstLabel = isIndividual ? "GA" : "MA";
+    let html = `<table class="league-table"><thead><tr>
+        <th>#</th><th class="text-left">${label}</th>
+        <th>P</th><th>W</th><th>L</th>
+        <th>${forLabel}</th><th>${againstLabel}</th><th>Pts</th>
+    </tr></thead><tbody>`;
+    standings.forEach((t, i) => {
+        const nameCell = isIndividual ? playerLink(t.name) : t.name;
+        html += `<tr><td>${i + 1}</td>
+            <td class="text-left league-team-name">${nameCell}</td>
+            <td>${t.played}</td><td>${t.won}</td><td>${t.lost}</td>
+            <td>${t.mf}</td><td>${t.ma}</td>
+            <td><strong>${t.points}</strong></td></tr>`;
     });
-
-    html += `</tbody></table>`;
-    container.innerHTML = html;
+    el.innerHTML = html + `</tbody></table>`;
 }
 
-/**
- * Render individual player standings table
- */
 function renderPlayerStandings(players) {
-    const container = document.getElementById("player-standings");
-    if (!container) return;
-
-    let html = `<table class="league-table">
-        <thead><tr>
-            <th>#</th>
-            <th class="text-left">Player</th>
-            <th class="text-left mobile-hidden-col">Team</th>
-            <th>P</th><th>W</th><th>L</th><th>Win%</th>
-        </tr></thead><tbody>`;
-
+    const el = document.getElementById("player-standings");
+    if (!el) return;
+    let html = `<table class="league-table"><thead><tr>
+        <th>#</th><th class="text-left">Player</th>
+        <th class="text-left mobile-hidden-col">Team</th>
+        <th>P</th><th>W</th><th>L</th><th>Win%</th>
+    </tr></thead><tbody>`;
     players.forEach((p, i) => {
-        const winPct = p.played > 0 ? Math.round((p.won / p.played) * 100) : 0;
-        html += `<tr>
-            <td>${i + 1}</td>
-            <td class="text-left league-team-name">${p.name}</td>
+        const pct = p.played > 0 ? Math.round((p.won / p.played) * 100) : 0;
+        html += `<tr><td>${i + 1}</td>
+            <td class="text-left league-team-name">${playerLink(p.name)}</td>
             <td class="text-left league-team-name mobile-hidden-col">${p.team}</td>
             <td>${p.played}</td><td>${p.won}</td><td>${p.lost}</td>
-            <td><strong>${winPct}%</strong></td>
-        </tr>`;
+            <td><strong>${pct}%</strong></td></tr>`;
     });
-
-    html += `</tbody></table>`;
-    container.innerHTML = html;
+    el.innerHTML = html + `</tbody></table>`;
 }
 
-/**
- * Render the fixtures view
- */
 function renderFixtures(schedule, roundDates) {
-    const container = document.getElementById("fixtures-container");
-    if (!container) return -1;
-
-    let html = "";
-    let lastCompleted = -1;
-
-    schedule.forEach((round, index) => {
-        const roundNum = index + 1;
-        const date = roundDates[index] || null;
-        if (round.some(m => m.completed)) lastCompleted = index;
-
-        html += `<div class="fixture-round" id="fixture-round-${index}">
+    const el = document.getElementById("fixtures-container");
+    if (!el) return -1;
+    let html = "", last = -1;
+    schedule.forEach((round, idx) => {
+        if (round.some(m => m.completed)) last = idx;
+        const date = roundDates[idx] || null;
+        html += `<div class="fixture-round" id="fixture-round-${idx}">
             <div class="fixture-round-header">
-                <span class="fixture-round-title">Round ${roundNum}</span>
+                <span class="fixture-round-title">Round ${idx + 1}</span>
                 <span class="fixture-round-date">${formatDate(date)}</span>
-            </div>
-            <div class="fixture-round-matches">`;
-
-        for (const match of round) {
-            const homeWon = match.completed && match.home_score > match.away_score;
-            const awayWon = match.completed && match.away_score > match.home_score;
-
-            html += `<div class="fixture-card ${match.completed ? "completed" : "upcoming"}">
-                <div class="fixture-team ${homeWon ? "winner" : ""}">${match.home}</div>`;
-
-            if (match.completed) {
+            </div><div class="fixture-round-matches">`;
+        for (const m of round) {
+            const hw = m.completed && m.home_score > m.away_score;
+            const aw = m.completed && m.away_score > m.home_score;
+            const homeName = isIndividual ? playerLink(m.home) : m.home;
+            const awayName = isIndividual ? playerLink(m.away) : m.away;
+            html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
+                <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
+            if (m.completed) {
                 html += `<div class="fixture-score">
-                    <span class="${homeWon ? "score-winner" : ""}">${match.home_score}</span>
+                    <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
                     <span class="score-separator">-</span>
-                    <span class="${awayWon ? "score-winner" : ""}">${match.away_score}</span>
-                </div>`;
+                    <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
             } else {
                 html += `<div class="fixture-vs">vs</div>`;
             }
-
-            html += `<div class="fixture-team ${awayWon ? "winner" : ""}">${match.away}</div>
-            </div>`;
+            html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div></div>`;
         }
-
         html += `</div></div>`;
     });
-
-    container.innerHTML = html;
-    return lastCompleted;
+    el.innerHTML = html;
+    return last;
 }
 
 function scrollToLatestFixture(idx) {
     if (idx < 0) return;
     const el = document.getElementById("fixture-round-" + idx);
-    if (el) {
-        setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 100);
-    }
+    if (el) setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 100);
 }
 
-/**
- * Render team rosters
- */
 function renderRosters(division) {
-    const container = document.getElementById("rosters-container");
-    if (!container) return;
-
+    const el = document.getElementById("rosters-container");
+    if (!el) return;
     let html = '<div class="rosters-grid">';
     for (const team of division.teams) {
-        html += `<div class="roster-card">
-            <h3 class="roster-team-name">${team.name}</h3>
+        html += `<div class="roster-card"><h3 class="roster-team-name">${team.name}</h3>
             <ul class="roster-player-list">`;
-        for (const player of team.players) {
-            html += `<li>${player}</li>`;
-        }
+        for (const p of team.players) html += `<li>${playerLink(p)}</li>`;
         html += `</ul></div>`;
     }
-    html += "</div>";
-    container.innerHTML = html;
+    el.innerHTML = html + "</div>";
 }
 
-/**
- * Switch main view
- */
+// ── Sponsor ──
+
+function renderSponsor() {
+    const bar = document.getElementById("sponsor-bar");
+    if (!bar || !leagueData.sponsor) return;
+    const s = leagueData.sponsor;
+    bar.classList.remove("hidden");
+    bar.innerHTML = `<a href="${s.url}" target="_blank" rel="noopener" class="sponsor-link">
+        <span class="sponsor-label">Sponsored by</span>
+        <img src="${s.banner}" alt="${s.name}" class="sponsor-banner">
+    </a>`;
+
+    // Replace the left header logo with the sponsor logo
+    if (s.logo) {
+        const swapLogo = () => {
+            const leftLogo = document.querySelector(".header-logo-container > img.header-logo");
+            if (leftLogo) {
+                const link = document.createElement("a");
+                link.href = s.url;
+                link.target = "_blank";
+                link.rel = "noopener";
+                link.ariaLabel = s.name;
+                const img = document.createElement("img");
+                img.src = s.logo;
+                img.alt = s.name;
+                img.className = "header-logo header-logo-circular";
+                link.appendChild(img);
+                leftLogo.parentNode.replaceChild(link, leftLogo);
+            } else {
+                setTimeout(swapLogo, 50);
+            }
+        };
+        swapLogo();
+    }
+}
+
+// ── Info modal ──
+
+function renderInfoModal() {
+    const body = document.getElementById("infoModalBody");
+    if (!body || !leagueData.info) return;
+    body.innerHTML = leagueData.info.map(p => `<p>${p}</p>`).join("");
+}
+
+function setupInfoModal() {
+    const btn = document.getElementById("infoBtn");
+    const modal = document.getElementById("infoModal");
+    const close = document.getElementById("infoModalClose");
+    btn.addEventListener("click", () => modal.classList.add("active"));
+    close.addEventListener("click", () => modal.classList.remove("active"));
+    modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("active"); });
+}
+
+// ── View switching ──
+
 function switchView(view) {
     currentView = view;
     document.querySelectorAll("#viewToggles button").forEach(btn => {
@@ -314,15 +289,9 @@ function switchView(view) {
     document.getElementById("standings-container").classList.toggle("hidden", view !== "standings");
     document.getElementById("fixtures-container").classList.toggle("hidden", view !== "fixtures");
     document.getElementById("rosters-container").classList.toggle("hidden", view !== "rosters");
-
-    if (view === "fixtures") {
-        scrollToLatestFixture(lastCompletedRoundIdx);
-    }
+    if (view === "fixtures") scrollToLatestFixture(lastCompletedRoundIdx);
 }
 
-/**
- * Switch standings sub-view (team / player)
- */
 function switchStandingsSub(sub) {
     document.querySelectorAll("#standings-sub-toggles button").forEach(btn => {
         btn.classList.toggle("active-toggle", btn.dataset.sub === sub);
@@ -331,19 +300,18 @@ function switchStandingsSub(sub) {
     document.getElementById("player-standings").classList.toggle("hidden", sub !== "player");
 }
 
-/**
- * Short label for division buttons
- */
+// ── Division handling ──
+
 function getDivisionLabel(div) {
     if (div.id === "womens") return "Women's";
-    const match = div.id.match(/mens_([a-z])/);
-    if (match) return match[1].toUpperCase();
+    if (div.id === "premier") return "Premier";
+    if (div.id === "first") return "1st";
+    if (div.id === "second") return "2nd";
+    const m = div.id.match(/mens_([a-z])/);
+    if (m) return m[1].toUpperCase();
     return div.name;
 }
 
-/**
- * Load and render a division
- */
 function loadDivision(divisionId) {
     const division = leagueData.divisions.find(d => d.id === divisionId);
     if (!division) return;
@@ -353,60 +321,59 @@ function loadDivision(divisionId) {
         btn.classList.toggle("active-toggle", btn.dataset.division === divisionId);
     });
 
-    const teamNames = division.teams.map(t => t.name);
-    const schedule = generateRoundRobin(teamNames);
+    if (isIndividual && division.players && !division.teams) {
+        division.teams = division.players.map(p => ({ name: p, players: [p] }));
+    }
+
+    const names = division.teams.map(t => t.name);
+    const schedule = leagueData.double_round_robin
+        ? generateDoubleRoundRobin(names)
+        : generateRoundRobin(names);
     mergeResults(schedule, division.results);
 
-    renderTeamStandings(computeStandings(schedule, teamNames));
-    renderPlayerStandings(computePlayerStandings(schedule, division.teams));
-    lastCompletedRoundIdx = renderFixtures(schedule, leagueData.round_dates);
+    const roundDates = division.round_dates || leagueData.round_dates || [];
+    renderTeamStandings(computeStandings(schedule, names));
+
+    if (!isIndividual) {
+        renderPlayerStandings(computePlayerStandings(schedule, division.teams));
+    }
+
+    lastCompletedRoundIdx = renderFixtures(schedule, roundDates);
     renderRosters(division);
 
-    if (currentView === "fixtures") {
-        scrollToLatestFixture(lastCompletedRoundIdx);
-    }
+    if (currentView === "fixtures") scrollToLatestFixture(lastCompletedRoundIdx);
 }
 
-/**
- * Setup info modal
- */
-function setupInfoModal() {
-    const btn = document.getElementById("infoBtn");
-    const modal = document.getElementById("infoModal");
-    const closeBtn = document.getElementById("infoModalClose");
+// ── Init ──
 
-    btn.addEventListener("click", () => modal.classList.add("active"));
-    closeBtn.addEventListener("click", () => modal.classList.remove("active"));
-    modal.addEventListener("click", (e) => {
-        if (e.target === modal) modal.classList.remove("active");
-    });
-}
-
-/**
- * Initialize the league page
- */
 async function initLeague() {
     const params = new URLSearchParams(window.location.search);
     const leagueId = params.get("league");
     if (!leagueId) {
-        document.querySelector("main").innerHTML =
-            '<p class="empty-state">No league specified.</p>';
+        document.querySelector("main").innerHTML = '<p class="empty-state">No league specified.</p>';
         return;
     }
 
     try {
-        const response = await fetch(`/src/data/league/${leagueId}.json`);
-        if (!response.ok) throw new Error("League not found");
-        leagueData = await response.json();
-    } catch (err) {
-        document.querySelector("main").innerHTML =
-            '<p class="empty-state">Could not load league data.</p>';
+        const res = await fetch(`/src/data/league/${leagueId}.json`);
+        if (!res.ok) throw new Error();
+        leagueData = await res.json();
+    } catch {
+        document.querySelector("main").innerHTML = '<p class="empty-state">Could not load league data.</p>';
         return;
     }
 
-    setHeaderTitle(leagueData.league_name + " " + leagueData.season);
+    isIndividual = leagueData.type === "individual";
 
-    // Division buttons
+    setHeaderTitle(leagueData.league_name + " " + leagueData.season);
+    renderSponsor();
+    renderInfoModal();
+
+    if (isIndividual) {
+        document.querySelector('[data-view="rosters"]').style.display = "none";
+        document.getElementById("standings-sub-toggles").style.display = "none";
+    }
+
     const btnContainer = document.getElementById("divisionButtons");
     for (const div of leagueData.divisions) {
         const btn = document.createElement("button");
@@ -417,21 +384,16 @@ async function initLeague() {
         btnContainer.appendChild(btn);
     }
 
-    // Main view toggles
     document.querySelectorAll("#viewToggles button").forEach(btn => {
         btn.addEventListener("click", () => switchView(btn.dataset.view));
     });
-
-    // Standings sub-toggles
     document.querySelectorAll("#standings-sub-toggles button").forEach(btn => {
         btn.addEventListener("click", () => switchStandingsSub(btn.dataset.sub));
     });
 
     setupInfoModal();
 
-    if (leagueData.divisions.length > 0) {
-        loadDivision(leagueData.divisions[0].id);
-    }
+    if (leagueData.divisions.length > 0) loadDivision(leagueData.divisions[0].id);
     switchView("standings");
 }
 

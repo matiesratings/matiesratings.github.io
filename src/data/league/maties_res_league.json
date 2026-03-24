@@ -2,6 +2,13 @@
   "league_name": "Maties Res League",
   "season": "2026",
   "description": "Stellenbosch University Inter-Residence Table Tennis League",
+  "info": [
+    "<strong>Season:</strong> 2026 — Semester 1",
+    "<strong>Match Format:</strong> 5 individual rubbers per fixture (best of 5 games each)",
+    "<strong>Points:</strong> Win = 2 pts | Loss = 0 pts",
+    "<strong>Walkovers:</strong> Teams must field a minimum of 3 players. A team that cannot field 3 players forfeits the fixture 0-5. Individual no-shows are awarded as a 0-3 rubber loss. Teams must notify the opposing captain at least 24 hours in advance.",
+    "<strong>Contact:</strong> League Coordinator — <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>"
+  ],
   "round_dates": [
     "2026-02-02",
     "2026-02-09",

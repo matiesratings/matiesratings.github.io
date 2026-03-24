@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Admin</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <!-- Login gate -->
+    <div id="login-gate" class="admin-login">
+        <h2>League Admin</h2>
+        <div class="admin-login-form">
+            <input type="text" id="loginUser" placeholder="Username" autocomplete="username">
+            <input type="password" id="loginPass" placeholder="Password" autocomplete="current-password">
+            <button id="loginBtn">Login</button>
+            <p id="loginError" class="hidden" style="color: #ff6b6b; margin-top: 8px;">Incorrect credentials</p>
+        </div>
+    </div>
+
+    <!-- Admin panel (hidden until login) -->
+    <main id="admin-panel" class="hidden">
+        <div class="admin-section">
+            <div class="admin-controls">
+                <div class="admin-control">
+                    <label>League</label>
+                    <select id="leagueSelect">
+                        <option value="">-- Select --</option>
+                        <option value="champions_league">Champions League</option>
+                        <option value="maties_res_league">Maties Res League</option>
+                    </select>
+                </div>
+                <div class="admin-control">
+                    <label>Division</label>
+                    <select id="divisionSelect" disabled>
+                        <option value="">-- Select league first --</option>
+                    </select>
+                </div>
+                <div class="admin-control">
+                    <label>Round</label>
+                    <select id="roundSelect" disabled>
+                        <option value="">-- Select division first --</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="fixtures-form" class="admin-section hidden">
+            <h3 id="fixtures-form-title">Enter Results</h3>
+            <div id="match-inputs"></div>
+            <div class="admin-actions">
+                <button id="saveResultsBtn">Save Results</button>
+            </div>
+        </div>
+
+        <div id="standings-preview" class="admin-section hidden">
+            <h3>Updated Standings</h3>
+            <div id="admin-standings"></div>
+        </div>
+
+        <div id="publish-section" class="admin-section hidden">
+            <div class="admin-actions">
+                <button id="publishBtn" class="admin-publish-btn">Publish to Site</button>
+            </div>
+            <div id="token-setup" class="hidden">
+                <p class="admin-hint">Enter a GitHub Personal Access Token with <strong>repo</strong> scope to publish directly. This is stored only in your browser.</p>
+                <div class="admin-token-row">
+                    <input type="password" id="githubToken" placeholder="ghp_xxxxxxxxxxxx">
+                    <button id="saveTokenBtn">Save Token</button>
+                </div>
+            </div>
+            <p id="publish-status" class="hidden"></p>
+            <details class="admin-fallback">
+                <summary>Manual option (download file)</summary>
+                <div class="admin-actions" style="margin-top: 10px;">
+                    <button id="downloadBtn">Download JSON</button>
+                    <button id="copyBtn">Copy to Clipboard</button>
+                </div>
+                <p class="admin-hint">Replace <code id="json-path"></code> then commit and push.</p>
+            </details>
+        </div>
+
+        <div id="existing-results" class="admin-section hidden">
+            <h3>All Results in This Division</h3>
+            <div id="results-list"></div>
+        </div>
+    </main>
+
+    <script src="/src/js/utils.js"></script>
+    <script src="/src/js/admin.js"></script>
+</body>
+</html>
