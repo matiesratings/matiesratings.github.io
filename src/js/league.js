@@ -117,10 +117,15 @@ function computePlayerStandings(schedule, teams) {
             fi++;
         }
     }
-    return Object.values(stats).filter(p => p.played > 0).sort((a, b) => {
-        const ap = a.won / a.played, bp = b.won / b.played;
-        if (bp !== ap) return bp - ap;
-        return b.won !== a.won ? b.won - a.won : b.played - a.played;
+    return Object.values(stats).sort((a, b) => {
+        // Players with matches first, then by win%, then by name
+        if (a.played !== b.played && (a.played === 0 || b.played === 0)) return b.played - a.played;
+        if (a.played > 0 && b.played > 0) {
+            const ap = a.won / a.played, bp = b.won / b.played;
+            if (bp !== ap) return bp - ap;
+            if (b.won !== a.won) return b.won - a.won;
+        }
+        return a.name.localeCompare(b.name);
     });
 }
 
@@ -200,7 +205,7 @@ function renderPlayerStandings(players) {
     el.innerHTML = html + `</tbody></table>`;
 }
 
-function renderFixtures(schedule, roundDates) {
+function renderFixtures(schedule, roundDates, finalsDate) {
     const el = document.getElementById("fixtures-container");
     if (!el) return -1;
     let html = "", last = -1;
@@ -231,6 +236,22 @@ function renderFixtures(schedule, roundDates) {
         }
         html += `</div></div>`;
     });
+
+    // Finals block
+    if (finalsDate) {
+        html += `<div class="fixture-round" id="fixture-round-finals">
+            <div class="fixture-round-header">
+                <span class="fixture-round-title">Finals</span>
+                <span class="fixture-round-date">${formatDate(finalsDate)}</span>
+            </div><div class="fixture-round-matches">
+                <div class="fixture-card upcoming">
+                    <div class="fixture-team" style="opacity:0.5;">TBD</div>
+                    <div class="fixture-vs">vs</div>
+                    <div class="fixture-team" style="opacity:0.5;">TBD</div>
+                </div>
+            </div></div>`;
+    }
+
     el.innerHTML = html;
     return last;
 }
@@ -355,14 +376,56 @@ function switchStandingsSub(sub) {
 
 // ── Division handling ──
 
+let currentGender = null; // "mens", "womens", or null (for CL-style flat list)
+
 function getDivisionLabel(div) {
     if (div.id === "womens") return "Women's";
     if (div.id === "premier") return "Premier";
     if (div.id === "first") return "1st";
     if (div.id === "second") return "2nd";
-    const m = div.id.match(/mens_([a-z])/);
-    if (m) return m[1].toUpperCase();
+    const mw = div.id.match(/^(?:mens|womens)_([a-z])$/);
+    if (mw) return mw[1].toUpperCase();
     return div.name;
+}
+
+function hasGenderDivisions() {
+    return leagueData.divisions.some(d => d.id.startsWith("mens_") || d.id.startsWith("womens_"));
+}
+
+function getGenders() {
+    const genders = [];
+    if (leagueData.divisions.some(d => d.id.startsWith("mens_"))) genders.push("mens");
+    if (leagueData.divisions.some(d => d.id.startsWith("womens_"))) genders.push("womens");
+    return genders;
+}
+
+function getDivisionsForGender(gender) {
+    return leagueData.divisions.filter(d => d.id.startsWith(gender + "_"));
+}
+
+function switchGender(gender) {
+    currentGender = gender;
+    document.querySelectorAll(".league-gender-btn").forEach(btn => {
+        btn.classList.toggle("active-toggle", btn.dataset.gender === gender);
+    });
+    renderDivisionButtons();
+    // Auto-select first division in this gender
+    const divs = getDivisionsForGender(gender);
+    if (divs.length > 0) loadDivision(divs[0].id);
+}
+
+function renderDivisionButtons() {
+    const container = document.getElementById("divisionButtons");
+    container.innerHTML = "";
+    const divs = currentGender ? getDivisionsForGender(currentGender) : leagueData.divisions;
+    for (const div of divs) {
+        const btn = document.createElement("button");
+        btn.className = "league-division-btn";
+        btn.dataset.division = div.id;
+        btn.textContent = getDivisionLabel(div);
+        btn.addEventListener("click", () => loadDivision(div.id));
+        container.appendChild(btn);
+    }
 }
 
 function loadDivision(divisionId) {
@@ -385,13 +448,14 @@ function loadDivision(divisionId) {
     mergeResults(schedule, division.results);
 
     const roundDates = division.round_dates || leagueData.round_dates || [];
+    const finalsDate = division.finals_date || null;
     renderTeamStandings(computeStandings(schedule, names));
 
     if (!isIndividual) {
         renderPlayerStandings(computePlayerStandings(schedule, division.teams));
     }
 
-    lastCompletedRoundIdx = renderFixtures(schedule, roundDates);
+    lastCompletedRoundIdx = renderFixtures(schedule, roundDates, finalsDate);
     renderRosters(division);
 
     if (currentView === "fixtures") scrollToLatestFixture(lastCompletedRoundIdx);
@@ -428,14 +492,34 @@ async function initLeague() {
         document.getElementById("standings-sub-toggles").style.display = "none";
     }
 
-    const btnContainer = document.getElementById("divisionButtons");
-    for (const div of leagueData.divisions) {
-        const btn = document.createElement("button");
-        btn.className = "league-division-btn";
-        btn.dataset.division = div.id;
-        btn.textContent = getDivisionLabel(div);
-        btn.addEventListener("click", () => loadDivision(div.id));
-        btnContainer.appendChild(btn);
+    // Hide Teams tab if no player data in any division
+    const hasPlayerData = leagueData.divisions.some(d =>
+        d.teams && d.teams.some(t => t.players && t.players.length > 0)
+    );
+    if (!hasPlayerData && !isIndividual) {
+        document.querySelector('[data-view="rosters"]').style.display = "none";
+        document.getElementById("standings-sub-toggles").style.display = "none";
+    }
+
+    // Build gender + division buttons (or flat list for CL-style leagues)
+    const genderContainer = document.getElementById("genderButtons");
+    if (hasGenderDivisions()) {
+        const genders = getGenders();
+        for (const g of genders) {
+            const btn = document.createElement("button");
+            btn.className = "league-division-btn league-gender-btn";
+            btn.dataset.gender = g;
+            btn.textContent = g === "mens" ? "Men's" : "Women's";
+            btn.addEventListener("click", () => switchGender(g));
+            genderContainer.appendChild(btn);
+        }
+        // Auto-select first gender
+        switchGender(genders[0]);
+    } else {
+        // Flat list (Champions League style)
+        genderContainer.style.display = "none";
+        renderDivisionButtons();
+        if (leagueData.divisions.length > 0) loadDivision(leagueData.divisions[0].id);
     }
 
     document.querySelectorAll("#viewToggles button").forEach(btn => {
@@ -446,8 +530,6 @@ async function initLeague() {
     });
 
     setupInfoModal();
-
-    if (leagueData.divisions.length > 0) loadDivision(leagueData.divisions[0].id);
     switchView("standings");
 }
 
