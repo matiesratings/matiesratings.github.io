@@ -1105,6 +1105,26 @@ th {
     border-radius: var(--radius-sm);
 }
 
+/* Mobile sponsor banner inside header */
+.sponsor-bar-mobile {
+    text-align: center;
+    padding: 8px 8px 0;
+}
+
+.sponsor-bar-mobile .sponsor-link {
+    display: block;
+}
+
+.sponsor-bar-mobile .sponsor-label {
+    display: none;
+}
+
+.sponsor-bar-mobile .sponsor-banner {
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--radius-md);
+}
+
 /* Circular crop for swapped header logo (sponsor) */
 .header-logo-circular {
     width: 100px;

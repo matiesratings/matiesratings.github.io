@@ -260,6 +260,31 @@ function renderSponsor() {
         };
         swapLogo();
     }
+
+    // On mobile, move the sponsor banner into the header (between navbar and logos)
+    const moveBannerOnMobile = () => {
+        const navbar = document.querySelector(".navbar");
+        const logoContainer = document.querySelector(".header-logo-container");
+        if (!navbar || !logoContainer) {
+            setTimeout(moveBannerOnMobile, 50);
+            return;
+        }
+
+        const mobileBar = bar.cloneNode(true);
+        mobileBar.id = "sponsor-bar-mobile";
+        mobileBar.className = "sponsor-bar-mobile";
+        logoContainer.parentNode.insertBefore(mobileBar, logoContainer);
+
+        // Show/hide based on screen width
+        const toggle = () => {
+            const mobile = window.innerWidth <= 768;
+            bar.classList.toggle("hidden", mobile);
+            mobileBar.classList.toggle("hidden", !mobile);
+        };
+        toggle();
+        window.addEventListener("resize", toggle);
+    };
+    moveBannerOnMobile();
 }
 
 // ── Info modal ──
