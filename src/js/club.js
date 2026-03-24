@@ -26,9 +26,9 @@ function renderClubCard(club) {
     const card = document.getElementById("club-card");
     const divider = '<div style="border-top:1px solid var(--color-primary); margin:14px auto; width:60%;"></div>';
 
-    // Headline stats
-    const avgRating = club.avg_men_rating || club.avg_open_rating || club.avg_women_rating;
-    const ratingLabel = club.avg_men_rating ? "Avg Men's Rating" : club.avg_open_rating ? "Avg Open Rating" : "Avg Women's Rating";
+    // Headline stats - prefer open rating
+    const avgRating = club.avg_open_rating || club.avg_men_rating || club.avg_women_rating;
+    const ratingLabel = club.avg_open_rating ? "Avg Open Rating" : club.avg_men_rating ? "Avg Men's Rating" : "Avg Women's Rating";
 
     const stats = [];
     stats.push(`<div style="text-align:center;"><div style="font-size:clamp(20px,4vw,28px); font-weight:bold;">${club.total_players}</div><div style="font-size:clamp(10px,2vw,12px); opacity:0.45; text-transform:uppercase;">Players</div></div>`);
@@ -180,14 +180,15 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     renderClubCard(clubStats);
 
-    // Load members from rating files
-    const [menRes, womenRes, openRes] = await Promise.all([
+    // Load all data sources
+    const [allPlayersRes, menRes, womenRes, openRes] = await Promise.all([
+        fetch("/src/data/json/all_players.json").then(r => r.ok ? r.json() : []).catch(() => []),
         fetch("/src/data/json/men_ratings.json").then(r => r.ok ? r.json() : []).catch(() => []),
         fetch("/src/data/json/women_ratings.json").then(r => r.ok ? r.json() : []).catch(() => []),
         fetch("/src/data/json/open_ratings.json").then(r => r.ok ? r.json() : []).catch(() => [])
     ]);
 
-    // Also load junior categories to tag juniors
+    // Tag juniors
     const juniorNames = new Set();
     for (const catId of JUNIOR_CATS) {
         try {
@@ -199,27 +200,35 @@ document.addEventListener("DOMContentLoaded", async function () {
         } catch { /* skip */ }
     }
 
-    // Build member list: prefer men's/women's rating, fallback to open
-    const seen = new Set();
-    const addMember = (p, gender) => {
-        if (p.club !== clubName || seen.has(p.name)) return;
-        seen.add(p.name);
+    // Index ratings by name (prefer open rating for display)
+    const openByName = {};
+    openRes.filter(p => p.club === clubName).forEach(p => { openByName[p.name] = p; });
+    const menByName = {};
+    menRes.filter(p => p.club === clubName).forEach(p => { menByName[p.name] = p; });
+    const womenByName = {};
+    womenRes.filter(p => p.club === clubName).forEach(p => { womenByName[p.name] = p; });
+
+    // Build member list from all_players (every member, rated or not)
+    const clubPlayers = allPlayersRes.filter(p => p.club === clubName);
+    for (const p of clubPlayers) {
+        const ratingSource = openByName[p.name] || menByName[p.name] || womenByName[p.name];
         allMembers.push({
             name: p.name,
-            gender: gender,
-            rating: p.rating || null,
-            played: p.played || null,
-            win_per: p.win_per || null,
+            gender: p.gender || "Unknown",
+            rating: ratingSource ? ratingSource.rating : null,
+            played: ratingSource ? ratingSource.played : null,
+            win_per: ratingSource ? ratingSource.win_per : null,
             isJunior: juniorNames.has(p.name)
         });
-    };
+    }
 
-    menRes.forEach(p => addMember(p, "Male"));
-    womenRes.forEach(p => addMember(p, "Female"));
-    openRes.forEach(p => addMember(p, p.gender || "Unknown"));
-
-    // Sort by rating descending
-    allMembers.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    // Sort: rated players first (by rating desc), then unrated alphabetically
+    allMembers.sort((a, b) => {
+        if (a.rating && !b.rating) return -1;
+        if (!a.rating && b.rating) return 1;
+        if (a.rating && b.rating) return b.rating - a.rating;
+        return a.name.localeCompare(b.name);
+    });
 
     renderMembers();
 });

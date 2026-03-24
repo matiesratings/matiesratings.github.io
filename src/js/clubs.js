@@ -5,7 +5,7 @@
 
 let clubData = [];
 let sortDirections = {};
-let currentCategory = "men";
+let currentCategory = "open";
 let toggleCount = 0;
 
 function getRatingKey() {
