@@ -1116,7 +1116,10 @@ th {
 }
 
 .sponsor-bar-mobile .sponsor-label {
-    display: none;
+    display: block;
+    font-size: 8px;
+    opacity: 0.4;
+    margin-bottom: 6px;
 }
 
 .sponsor-bar-mobile .sponsor-banner {
@@ -1132,6 +1135,16 @@ th {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.header-logo-circular:hover {
+    animation: pulse-logo 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-logo {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
 }
 
 /* Info button - pill shape */
@@ -1143,7 +1156,7 @@ th {
     border-radius: 24px;
     background-color: var(--color-primary);
     color: var(--color-text);
-    border: 2px solid rgba(255, 255, 255, 0.35);
+    border: none;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;

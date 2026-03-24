@@ -9,6 +9,7 @@ let currentDivision = null;
 let currentView = "standings";
 let lastCompletedRoundIdx = -1;
 let isIndividual = false;
+let ratingsMap = {}; // name → rating
 
 /** Helper: wrap a name in a player link */
 function playerLink(name) {
@@ -123,6 +124,26 @@ function computePlayerStandings(schedule, teams) {
     });
 }
 
+// ── Ratings lookup ──
+
+async function loadRatings() {
+    try {
+        const [menRes, womenRes] = await Promise.all([
+            fetch("/src/data/json/men_ratings.json"),
+            fetch("/src/data/json/women_ratings.json")
+        ]);
+        const men = menRes.ok ? await menRes.json() : [];
+        const women = womenRes.ok ? await womenRes.json() : [];
+        for (const p of [...men, ...women]) {
+            ratingsMap[p.name] = p.rating;
+        }
+    } catch { /* ratings are optional */ }
+}
+
+function getRating(name) {
+    return ratingsMap[name] || null;
+}
+
 // ── Rendering ──
 
 function formatDate(dateStr) {
@@ -137,17 +158,24 @@ function renderTeamStandings(standings) {
     const label = isIndividual ? "Player" : "Team";
     const forLabel = isIndividual ? "GF" : "MF";
     const againstLabel = isIndividual ? "GA" : "MA";
+    const showRating = isIndividual;
     let html = `<table class="league-table"><thead><tr>
         <th>#</th><th class="text-left">${label}</th>
+        ${showRating ? '<th>Rating</th>' : ''}
         <th>P</th><th>W</th><th>L</th>
-        <th>${forLabel}</th><th>${againstLabel}</th><th>Pts</th>
+        <th class="mobile-hidden-col">${forLabel}</th><th class="mobile-hidden-col">${againstLabel}</th><th>Pts</th>
     </tr></thead><tbody>`;
     standings.forEach((t, i) => {
         const nameCell = isIndividual ? playerLink(t.name) : t.name;
+        const rating = showRating ? getRating(t.name) : null;
+        const ratingCell = showRating
+            ? `<td>${rating !== null ? rating : '<span style="opacity:0.3">—</span>'}</td>`
+            : '';
         html += `<tr><td>${i + 1}</td>
             <td class="text-left league-team-name">${nameCell}</td>
+            ${ratingCell}
             <td>${t.played}</td><td>${t.won}</td><td>${t.lost}</td>
-            <td>${t.mf}</td><td>${t.ma}</td>
+            <td class="mobile-hidden-col">${t.mf}</td><td class="mobile-hidden-col">${t.ma}</td>
             <td><strong>${t.points}</strong></td></tr>`;
     });
     el.innerHTML = html + `</tbody></table>`;
@@ -391,6 +419,7 @@ async function initLeague() {
     isIndividual = leagueData.type === "individual";
 
     setHeaderTitle(leagueData.league_name + " " + leagueData.season);
+    await loadRatings();
     renderSponsor();
     renderInfoModal();
 
