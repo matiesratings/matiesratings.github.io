@@ -110,6 +110,40 @@
             <div id="results-list"></div>
         </div>
 
+        <!-- Data upload (master only) -->
+        <div id="data-upload-section" class="admin-section hidden">
+            <h3>Upload Ratings Data</h3>
+            <p class="admin-hint" style="margin-bottom:16px;">Upload CSVs and rating JSONs. Processing happens in the browser — one click publishes everything.</p>
+
+            <div style="display:flex; flex-direction:column; gap:12px; max-width:500px; margin:0 auto;">
+                <div class="admin-upload-row">
+                    <label>Player List CSV</label>
+                    <input type="file" id="uploadPlayers" accept=".csv">
+                </div>
+                <div class="admin-upload-row">
+                    <label>Match Results CSV</label>
+                    <input type="file" id="uploadMatches" accept=".csv">
+                </div>
+                <div class="admin-upload-row">
+                    <label>Clutch Rate CSV</label>
+                    <input type="file" id="uploadClutch" accept=".csv">
+                </div>
+                <div class="admin-upload-row">
+                    <label>Rating JSONs <span style="opacity:0.5;">(e.g. Men's Ratings (2026-03-16).json)</span></label>
+                    <input type="file" id="uploadRatings" accept=".json" multiple>
+                </div>
+            </div>
+
+            <div id="upload-preview" class="hidden" style="margin-top:16px; text-align:center;">
+                <p id="upload-summary" style="font-size:14px; opacity:0.7;"></p>
+            </div>
+
+            <div class="admin-actions" style="margin-top:16px;">
+                <button id="processUploadBtn">Process & Publish</button>
+            </div>
+            <p id="upload-status" class="hidden" style="text-align:center; margin-top:8px; font-weight:500;"></p>
+        </div>
+
         <!-- Create league modal -->
         <div id="create-league-modal" class="league-info-overlay">
             <div class="league-info-modal" style="max-width:500px;">

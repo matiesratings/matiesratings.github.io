@@ -1514,6 +1514,26 @@ th {
     color: #ff6b6b;
 }
 
+/* Upload rows */
+.admin-upload-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+.admin-upload-row label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.admin-upload-row input[type="file"] {
+    font-size: 13px;
+    color: var(--color-text);
+}
+
 .admin-individual-match .admin-score {
     width: 40px;
     font-size: 16px;
