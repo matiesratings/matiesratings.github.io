@@ -1,0 +1,11 @@
+{
+  "league_name": "Cape Town League",
+  "season": "2026",
+  "auth": {
+    "user": "cpt",
+    "pass": "cpt2026"
+  },
+  "info": [],
+  "divisions": [],
+  "double_round_robin": true
+}
