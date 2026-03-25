@@ -2,6 +2,7 @@
   "league_name": "Champions League",
   "season": "2026",
   "type": "individual",
+  "auth": { "user": "clleague", "pass": "cl2026" },
   "double_round_robin": true,
   "sponsor": {
     "name": "Smart Operator AI",
