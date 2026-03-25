@@ -2,13 +2,16 @@
   "league_name": "Maties Res League",
   "season": "2026",
   "description": "Campus Table Tennis League 2026",
-  "auth": { "user": "resleague", "pass": "res2026" },
+  "auth": {
+    "user": "resleague",
+    "pass": "res2026"
+  },
   "info": [
-    "<strong>Season:</strong> 2026 \u2014 Semester 1 & 2",
-    "<strong>Match Format:</strong> 5 individual rubbers per fixture (best of 5 games each)",
+    "<strong>Season:</strong> 2026 — Semester 1 & 2",
+    "<strong>Match Format:</strong> 5 individual matches per fixture (best of 5 games each)",
     "<strong>Points:</strong> Win = 2 pts | Loss = 0 pts",
     "<strong>Walkovers:</strong> Teams must field a minimum of 2 players. If a player is missing, their individual matches are forfeited 0-3. Teams must notify the opposing captain at least 24 hours in advance.",
-    "<strong>Contact:</strong> League Coordinator \u2014 <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>"
+    "<strong>Contact:</strong> League Coordinator — <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>"
   ],
   "divisions": [
     {
