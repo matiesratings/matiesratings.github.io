@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maties Juniors Open</title>
+    <title>Test Open 2026</title>
     <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
@@ -12,11 +12,11 @@
   <div id="tournament-info" style="display:none">
     <div class="event-section">
         <div class="event-description">
-            <p><strong>Date:</strong> 4 April 2026 - 4 April 2026</p>
-            <p><strong>Location:</strong> Maties Gymnasium </p>
+            <p><strong>Date:</strong> 2026-03-20 - 2026-03-21</p>
+            <p><strong>Location:</strong> Coetzenburg Sports Centre</p>
         </div>
         <div id="events-container">
-            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=bu19'">Boys U19</button>
+            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=2'">Men's Singles</button>
         </div>
     </div>
   </div>
@@ -28,131 +28,89 @@
         fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
     }
     function toggleNav() {
-        document.querySelector('.nav-links').classList.toggle('active');
+        document.querySelector(".nav-links").classList.toggle("active");
     }
-    document.addEventListener('click', function(ev) {
-        const navLinks = document.querySelector('.nav-links');
-        const hamburger = document.querySelector('.hamburger');
+    document.addEventListener("click", function(ev) {
+        const navLinks = document.querySelector(".nav-links");
+        const hamburger = document.querySelector(".hamburger");
         if (navLinks && hamburger && !navLinks.contains(ev.target) && !hamburger.contains(ev.target)) {
-            navLinks.classList.remove('active');
+            navLinks.classList.remove("active");
         }
     });
 
-    const eventNameMap = {'bu19': 'Boys U19'};
+    const API_BASE = "https://tournament-manager-19sp.onrender.com/api";
+    const TOURNAMENT_ID = 2;
+    const eventNameMap = {'2': 'Men's Singles'};
 
     document.addEventListener("DOMContentLoaded", function () {
         loadInclude("header-placeholder", "/components/header.html");
 
         const params = new URLSearchParams(window.location.search);
-        const eventSlug = params.get("event");
+        const eventId = params.get("event");
 
-        if (!eventSlug) {
-            // Show tournament overview with event buttons
+        if (!eventId) {
             document.getElementById("tournament-info").style.display = "block";
             const setTitle = () => {
                 const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Maties Juniors Open";
+                if (el) el.innerHTML = "Test Open 2026";
                 else setTimeout(setTitle, 50);
             };
             setTitle();
         } else {
-            // Load event draw from static JSON
-            const eventName = eventNameMap[eventSlug] || eventSlug;
+            const eventName = eventNameMap[eventId] || "Event";
             const setTitle = () => {
                 const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Maties Juniors Open<br>" + eventName;
+                if (el) el.innerHTML = "Test Open 2026<br>" + eventName;
                 else setTimeout(setTitle, 50);
             };
             setTitle();
 
-            let currentView = 'knockouts';
-            let lastData = null;
+            let currentView = "knockouts";
 
             function loadEventData() {
-                const cacheBust = '?t=' + Date.now();
-                fetch("/src/data/tournament/maties_juniors_open/" + eventSlug + ".json" + cacheBust)
+                fetch(API_BASE + "/tournaments/" + TOURNAMENT_ID + "/export/matiesratings-draws/" + eventId)
                     .then(r => r.json())
                     .then(data => {
-                        lastData = data;
-                        const toggleContainer = document.getElementById("viewToggles");
-
-                        // Only build buttons once
-                        if (toggleContainer.children.length === 0) {
+                        const tc = document.getElementById("viewToggles");
+                        if (tc.children.length === 0) {
                             if (data.groups) {
-                                const btnGroups = document.createElement("button");
-                                btnGroups.id = "btnGroups";
-                                btnGroups.textContent = "Groups";
-                                btnGroups.addEventListener("click", () => {
-                                    currentView = 'groups';
-                                    renderGroups(data, eventName);
-                                    btnGroups.classList.add('active-toggle');
-                                    const ko = document.getElementById("btnKnockouts");
-                                    if (ko) ko.classList.remove('active-toggle');
-                                });
-                                toggleContainer.appendChild(btnGroups);
+                                const bg = document.createElement("button");
+                                bg.id = "btnGroups"; bg.textContent = "Groups";
+                                bg.addEventListener("click", () => { currentView="groups"; renderGroups(data,eventName); bg.classList.add("active-toggle"); const k=document.getElementById("btnKnockouts"); if(k) k.classList.remove("active-toggle"); });
+                                tc.appendChild(bg);
                             }
                             if (data.knockouts) {
-                                const btnKnockouts = document.createElement("button");
-                                btnKnockouts.id = "btnKnockouts";
-                                btnKnockouts.textContent = "Knockouts";
-                                btnKnockouts.addEventListener("click", () => {
-                                    currentView = 'knockouts';
-                                    renderKnockouts(data, eventName);
-                                    btnKnockouts.classList.add('active-toggle');
-                                    const gr = document.getElementById("btnGroups");
-                                    if (gr) gr.classList.remove('active-toggle');
-                                });
-                                toggleContainer.appendChild(btnKnockouts);
+                                const bk = document.createElement("button");
+                                bk.id = "btnKnockouts"; bk.textContent = "Knockouts";
+                                bk.addEventListener("click", () => { currentView="knockouts"; renderKnockouts(data,eventName); bk.classList.add("active-toggle"); const g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle"); });
+                                tc.appendChild(bk);
                             }
-
-                            // Add live indicator
-                            const liveIndicator = document.createElement("span");
-                            liveIndicator.id = "liveIndicator";
-                            liveIndicator.style.cssText = "margin-left:auto;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
-                            liveIndicator.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite"></span> LIVE';
-                            toggleContainer.appendChild(liveIndicator);
-                            toggleContainer.style.display = "flex";
-                            toggleContainer.style.alignItems = "center";
+                            const li = document.createElement("span"); li.id="liveIndicator";
+                            li.style.cssText="margin-left:auto;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
+                            tc.appendChild(li); tc.style.display="flex"; tc.style.alignItems="center";
                         }
-
-                        // Re-render current view with fresh data
-                        if (currentView === 'knockouts' && data.knockouts) {
-                            renderKnockouts(data, eventName);
-                            const ko = document.getElementById("btnKnockouts");
-                            if (ko) ko.classList.add('active-toggle');
-                            const gr = document.getElementById("btnGroups");
-                            if (gr) gr.classList.remove('active-toggle');
+                        if (currentView==="knockouts" && data.knockouts) {
+                            renderKnockouts(data,eventName);
+                            const k=document.getElementById("btnKnockouts"); if(k) k.classList.add("active-toggle");
+                            const g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle");
                         } else if (data.groups) {
-                            renderGroups(data, eventName);
-                            const gr = document.getElementById("btnGroups");
-                            if (gr) gr.classList.add('active-toggle');
-                            const ko = document.getElementById("btnKnockouts");
-                            if (ko) ko.classList.remove('active-toggle');
+                            renderGroups(data,eventName);
+                            const g=document.getElementById("btnGroups"); if(g) g.classList.add("active-toggle");
+                            const k=document.getElementById("btnKnockouts"); if(k) k.classList.remove("active-toggle");
                         }
-
-                        // Update live indicator timestamp
-                        const indicator = document.getElementById("liveIndicator");
-                        if (indicator) {
-                            const now = new Date().toLocaleTimeString();
-                            indicator.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite"></span> LIVE &middot; ' + now;
-                        }
+                        const ind = document.getElementById("liveIndicator");
+                        if (ind) { const now=new Date().toLocaleTimeString(); ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite'></span> LIVE &middot; "+now; }
                     })
                     .catch(err => {
-                        document.getElementById("contentContainer").innerHTML =
-                            "<p style='padding:20px'>Error loading event data.</p>";
+                        const ind = document.getElementById("liveIndicator");
+                        if(ind) ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#f87171;display:inline-block'></span> offline";
                     });
             }
-
-            // Initial load
             loadEventData();
-
-            // Auto-refresh every 60 seconds for live results
-            setInterval(loadEventData, 60000);
+            setInterval(loadEventData, 30000);
         }
     });
   </script>
-  <style>
-    @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }
-  </style>
+  <style>@keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }</style>
 </body>
 </html>
