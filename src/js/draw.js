@@ -316,15 +316,13 @@ function renderKnockouts(data, eventName = '') {
 
   const finalRoundMatches = knockouts[numRounds - 1].matches;
   
-  // Helper function to check if a match is valid (has non-empty names and scores)
+  // Helper function to check if a match is valid (has at least one non-empty name)
   function isValidMatch(match) {
     if (!match || !Array.isArray(match) || match.length < 2) return false;
-    return match.every(player => 
-      player && 
-      player.name && 
-      player.name.trim() !== "" && 
-      player.score !== undefined && 
-      player.score !== null
+    return match.some(player =>
+      player &&
+      player.name &&
+      player.name.trim() !== ""
     );
   }
   
