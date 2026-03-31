@@ -1,0 +1,28 @@
+match_id,match_date,event_name,event_type,province,stage,p1_id,p1_name,p2_id,p2_name,p1_score,p2_score,winner,winner_id,category
+1,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,11,Ethan Van der Berg,18,Ruan Basson,3,1,Ethan Van der Berg,11,Boys U19
+2,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,12,Liam Rossouw,17,Caleb Mostert,3,0,Liam Rossouw,12,Boys U19
+3,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,13,Noah De Villiers,19,Keegan Lourens,3,1,Noah De Villiers,13,Boys U19
+4,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,14,Jayden Smit,20,Tyrone Hendricks,3,2,Jayden Smit,14,Boys U19
+5,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,15,Aiden Terblanche,26,Marco Fourie,2,3,Marco Fourie,26,Boys U19
+6,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,21,Jaden Davids,23,Brandon Williams,3,1,Jaden Davids,21,Boys U19
+7,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Round of 16,24,Tyler Samuels,21,Jaden Davids,3,2,Tyler Samuels,24,Boys U19
+8,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Round of 16,15,Aiden Terblanche,22,Kyle Adams,3,2,Aiden Terblanche,15,Boys U19
+9,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,22,Kyle Adams,11,Ethan Van der Berg,3,0,Kyle Adams,22,Boys U19
+10,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,25,Zander Theron,12,Liam Rossouw,1,3,Liam Rossouw,12,Boys U19
+11,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,16,Dylan Pieterse,13,Noah De Villiers,0,3,Noah De Villiers,13,Boys U19
+12,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,24,Tyler Samuels,14,Jayden Smit,3,0,Tyler Samuels,24,Boys U19
+13,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,15,Aiden Terblanche,23,Brandon Williams,0,3,Brandon Williams,23,Boys U19
+14,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Quarter-Finals,11,Ethan Van der Berg,19,Keegan Lourens,2,3,Keegan Lourens,19,Boys U19
+15,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,26,Marco Fourie,21,Jaden Davids,2,3,Jaden Davids,21,Boys U19
+16,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Quarter-Finals,17,Caleb Mostert,14,Jayden Smit,0,3,Jayden Smit,14,Boys U19
+17,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Quarter-Finals,13,Noah De Villiers,24,Tyler Samuels,3,1,Noah De Villiers,13,Boys U19
+18,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Quarter-Finals,15,Aiden Terblanche,12,Liam Rossouw,3,2,Aiden Terblanche,15,Boys U19
+19,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,18,Ruan Basson,22,Kyle Adams,1,3,Kyle Adams,22,Boys U19
+20,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,17,Caleb Mostert,25,Zander Theron,1,3,Zander Theron,25,Boys U19
+21,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,19,Keegan Lourens,16,Dylan Pieterse,3,1,Keegan Lourens,19,Boys U19
+22,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,20,Tyrone Hendricks,24,Tyler Samuels,3,1,Tyrone Hendricks,20,Boys U19
+23,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,15,Aiden Terblanche,21,Jaden Davids,3,2,Aiden Terblanche,15,Boys U19
+24,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Semi-Finals,19,Keegan Lourens,14,Jayden Smit,3,1,Keegan Lourens,19,Boys U19
+25,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Groups,23,Brandon Williams,26,Marco Fourie,0,3,Marco Fourie,26,Boys U19
+26,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Semi-Finals,13,Noah De Villiers,15,Aiden Terblanche,3,1,Noah De Villiers,13,Boys U19
+27,2026-04-04,Maties Juniors Open,Tournament,Western Cape,Finals,19,Keegan Lourens,13,Noah De Villiers,3,2,Keegan Lourens,19,Boys U19
