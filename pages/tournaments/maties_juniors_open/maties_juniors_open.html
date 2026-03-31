@@ -67,7 +67,7 @@
             let currentView = "knockouts";
 
             function loadEventData() {
-                fetch(API_BASE + "/tournaments/" + TOURNAMENT_ID + "/export/matiesratings-draws/" + eventId)
+                fetch(API_BASE + "/public/tournaments/" + TOURNAMENT_ID + "/draws/" + eventId)
                     .then(r => r.json())
                     .then(data => {
                         const tc = document.getElementById("viewToggles");
