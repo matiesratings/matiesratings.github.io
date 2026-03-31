@@ -1,0 +1,253 @@
+{
+  "groups": [
+    {
+      "name": "A",
+      "players": [
+        {
+          "name": "Ethan Van der Berg",
+          "club": "MAT"
+        },
+        {
+          "name": "Ruan Basson",
+          "club": "TYG"
+        },
+        {
+          "name": "Kyle Adams",
+          "club": "PRL"
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "players": [
+        {
+          "name": "Liam Rossouw",
+          "club": "MAT"
+        },
+        {
+          "name": "Caleb Mostert",
+          "club": "TYG"
+        },
+        {
+          "name": "Zander Theron",
+          "club": "BLV"
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "players": [
+        {
+          "name": "Noah De Villiers",
+          "club": "MAT"
+        },
+        {
+          "name": "Keegan Lourens",
+          "club": "PRL"
+        },
+        {
+          "name": "Dylan Pieterse",
+          "club": "TYG"
+        }
+      ]
+    },
+    {
+      "name": "D",
+      "players": [
+        {
+          "name": "Jayden Smit",
+          "club": "MAT"
+        },
+        {
+          "name": "Tyrone Hendricks",
+          "club": "PRL"
+        },
+        {
+          "name": "Tyler Samuels",
+          "club": "BLV"
+        }
+      ]
+    },
+    {
+      "name": "E",
+      "players": [
+        {
+          "name": "Aiden Terblanche",
+          "club": "TYG"
+        },
+        {
+          "name": "Jaden Davids",
+          "club": "PRL"
+        },
+        {
+          "name": "Brandon Williams",
+          "club": "BLV"
+        },
+        {
+          "name": "Marco Fourie",
+          "club": "BLV"
+        }
+      ]
+    }
+  ],
+  "knockouts": [
+    {
+      "stage": "Round of 16",
+      "matches": [
+        [
+          {
+            "name": "Ethan Van der Berg"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Keegan Lourens"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Caleb Mostert"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Jayden Smit"
+          }
+        ],
+        [
+          {
+            "name": "Noah De Villiers"
+          },
+          {
+            "name": "Bye"
+          }
+        ],
+        [
+          {
+            "name": "Tyler Samuels",
+            "score": "3"
+          },
+          {
+            "name": "Jaden Davids",
+            "score": "2"
+          }
+        ],
+        [
+          {
+            "name": "Aiden Terblanche",
+            "score": "3"
+          },
+          {
+            "name": "Kyle Adams",
+            "score": "2"
+          }
+        ],
+        [
+          {
+            "name": "Bye"
+          },
+          {
+            "name": "Liam Rossouw"
+          }
+        ]
+      ]
+    },
+    {
+      "stage": "Quarter-Final",
+      "matches": [
+        [
+          {
+            "name": "Ethan Van der Berg",
+            "score": "2"
+          },
+          {
+            "name": "Keegan Lourens",
+            "score": "3"
+          }
+        ],
+        [
+          {
+            "name": "Caleb Mostert",
+            "score": "0"
+          },
+          {
+            "name": "Jayden Smit",
+            "score": "3"
+          }
+        ],
+        [
+          {
+            "name": "Noah De Villiers",
+            "score": "3"
+          },
+          {
+            "name": "Tyler Samuels",
+            "score": "1"
+          }
+        ],
+        [
+          {
+            "name": "Aiden Terblanche",
+            "score": "3"
+          },
+          {
+            "name": "Liam Rossouw",
+            "score": "2"
+          }
+        ]
+      ]
+    },
+    {
+      "stage": "Semi-Final",
+      "matches": [
+        [
+          {
+            "name": "Keegan Lourens",
+            "score": "3"
+          },
+          {
+            "name": "Jayden Smit",
+            "score": "1"
+          }
+        ],
+        [
+          {
+            "name": "Noah De Villiers",
+            "score": "3"
+          },
+          {
+            "name": "Aiden Terblanche",
+            "score": "1"
+          }
+        ]
+      ]
+    },
+    {
+      "stage": "Final",
+      "matches": [
+        [
+          {
+            "name": "Keegan Lourens",
+            "score": "3"
+          },
+          {
+            "name": "Noah De Villiers",
+            "score": "2"
+          }
+        ]
+      ]
+    }
+  ]
+}
