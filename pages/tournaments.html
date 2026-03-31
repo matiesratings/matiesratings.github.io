@@ -7,58 +7,61 @@
     <link rel="stylesheet" href="/src/css/styles.css">
     <style>
         .tournaments-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
-        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; transition:transform 0.2s,box-shadow 0.2s; cursor:pointer; }
+        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; transition:transform 0.2s,box-shadow 0.2s; }
         .tournament-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
         .tournament-card h3 { margin:0 0 8px; font-size:18px; color:white; }
         .tournament-date { color:#aaa; font-size:14px; margin:4px 0; }
         .tournament-venue { color:#888; font-size:13px; margin:4px 0; }
+        .tournament-desc { color:#777; font-size:12px; margin:6px 0; }
         .tournament-status { display:inline-block; padding:3px 10px; border-radius:12px; font-size:11px; font-weight:bold; margin-top:8px; }
         .tournament-status.completed { background:#052e16; color:#4ade80; }
         .tournament-status.in-progress { background:maroon; color:white; }
+        .tournament-status.upcoming { background:#1a1a1a; color:#aaa; border:1px solid #444; }
     </style>
 </head>
 <body>
   <div id="header-placeholder"></div>
     <div class="event-section">
         <div class="tournaments-grid">
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html'">
-                <h3>Maties Juniors Open</h3>
-                <p class="tournament-date">4 Apr 2026</p>
-                <p class="tournament-venue">Maties Gymnasium</p>
-                <span class="tournament-status in-progress">In Progress</span>
-            </div>
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_open/maties_open.html'">
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_open/maties_open.html'" style="cursor:pointer">
                 <h3>Maties Open 2025</h3>
                 <p class="tournament-date">29-31 Aug 2025</p>
                 <p class="tournament-venue">Coetzenburg Centre</p>
                 <span class="tournament-status completed">Completed</span>
             </div>
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/ussa_25/ussa_25.html'">
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/ussa_25/ussa_25.html'" style="cursor:pointer">
                 <h3>USSA Nationals 2025</h3>
                 <p class="tournament-date">28 Sep - 4 Oct 2025</p>
                 <p class="tournament-venue">Sol Plaatjie University</p>
                 <span class="tournament-status completed">Completed</span>
             </div>
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html'" style="cursor:pointer">
+                <h3>Maties Junior's Open</h3>
+                <p class="tournament-date">4 Apr 2026</p>
+                <p class="tournament-venue">Maties Gymnasium </p>
+                
+                <span class="tournament-status in-progress">In Progress</span>
+            </div>
         </div>
     </div>
   <script>
     function loadInclude(id, file) {
-        fetch(file).then(function(r){return r.text()}).then(function(d){document.getElementById(id).innerHTML=d});
+        fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
     }
     function toggleNav() {
-        document.querySelector(".nav-links").classList.toggle("active");
+        document.querySelector('.nav-links').classList.toggle('active');
     }
-    document.addEventListener("click", function(event) {
-        var navLinks = document.querySelector(".nav-links");
-        var hamburger = document.querySelector(".hamburger");
+    document.addEventListener('click', function(event) {
+        const navLinks = document.querySelector('.nav-links');
+        const hamburger = document.querySelector('.hamburger');
         if (navLinks && hamburger && !navLinks.contains(event.target) && !hamburger.contains(event.target)) {
-            navLinks.classList.remove("active");
+            navLinks.classList.remove('active');
         }
     });
     document.addEventListener("DOMContentLoaded", function () {
         loadInclude("header-placeholder", "/components/header.html");
-        var setTitle = function() {
-            var el = document.getElementById("header-title");
+        const setTitle = () => {
+            const el = document.getElementById("header-title");
             if (el) el.innerHTML = "Tournaments";
             else setTimeout(setTitle, 50);
         };
