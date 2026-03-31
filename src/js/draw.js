@@ -327,19 +327,14 @@ function renderKnockouts(data, eventName = '') {
   }
   
   // Separate final match from other matches (like 3rd/4th place)
-  // The first valid match is the final, subsequent valid matches are playoff matches
-  let finalMatch = null;
+  // The first match is always the final — always render it even if names are TBD.
+  // Subsequent valid matches are playoff matches (3rd/4th place).
+  let finalMatch = finalRoundMatches.length > 0 ? finalRoundMatches[0] : null;
   const otherMatches = [];
-  let foundFinal = false;
-  
-  finalRoundMatches.forEach(match => {
+
+  finalRoundMatches.slice(1).forEach(match => {
     if (isValidMatch(match)) {
-      if (!foundFinal) {
-        finalMatch = match;
-        foundFinal = true;
-      } else {
-        otherMatches.push(match);
-      }
+      otherMatches.push(match);
     }
   });
 
