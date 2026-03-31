@@ -8,15 +8,21 @@
 </head>
 <body>
   <div id="header-placeholder"></div>
+  <div id="viewToggles"></div>
+  <div id="tournament-info" style="display:none">
     <div class="event-section">
         <div class="event-description">
             <p><strong>Date:</strong> 4 April 2026 - 4 April 2026</p>
             <p><strong>Location:</strong> Maties Gymnasium </p>
         </div>
         <div id="events-container">
-            <button class="event" onclick="location.href='/pages/event.html?tournament=maties_juniors_open&event=bu19'">Boys U19</button>
+            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=bu19'">Boys U19</button>
         </div>
     </div>
+  </div>
+  <div id="contentContainer"></div>
+
+  <script src="/src/js/draw.js"></script>
   <script>
     function loadInclude(id, file) {
         fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
@@ -24,14 +30,82 @@
     function toggleNav() {
         document.querySelector('.nav-links').classList.toggle('active');
     }
+    document.addEventListener('click', function(ev) {
+        const navLinks = document.querySelector('.nav-links');
+        const hamburger = document.querySelector('.hamburger');
+        if (navLinks && hamburger && !navLinks.contains(ev.target) && !hamburger.contains(ev.target)) {
+            navLinks.classList.remove('active');
+        }
+    });
+
+    const eventNameMap = {'bu19': 'Boys U19'};
+
     document.addEventListener("DOMContentLoaded", function () {
         loadInclude("header-placeholder", "/components/header.html");
-        const setTitle = () => {
-            const el = document.getElementById("header-title");
-            if (el) el.innerHTML = "Maties Juniors Open";
-            else setTimeout(setTitle, 50);
-        };
-        setTitle();
+
+        const params = new URLSearchParams(window.location.search);
+        const eventSlug = params.get("event");
+
+        if (!eventSlug) {
+            // Show tournament overview with event buttons
+            document.getElementById("tournament-info").style.display = "block";
+            const setTitle = () => {
+                const el = document.getElementById("header-title");
+                if (el) el.innerHTML = "Maties Juniors Open";
+                else setTimeout(setTitle, 50);
+            };
+            setTitle();
+        } else {
+            // Load event draw from static JSON
+            const eventName = eventNameMap[eventSlug] || eventSlug;
+            const setTitle = () => {
+                const el = document.getElementById("header-title");
+                if (el) el.innerHTML = "Maties Juniors Open<br>" + eventName;
+                else setTimeout(setTitle, 50);
+            };
+            setTitle();
+
+            fetch("/src/data/tournament/maties_juniors_open/" + eventSlug + ".json")
+                .then(r => r.json())
+                .then(data => {
+                    const toggleContainer = document.getElementById("viewToggles");
+                    let btnGroups, btnKnockouts;
+
+                    if (data.groups) {
+                        btnGroups = document.createElement("button");
+                        btnGroups.textContent = "Groups";
+                        btnGroups.addEventListener("click", () => {
+                            renderGroups(data, eventName);
+                            if (btnKnockouts) btnKnockouts.classList.remove('active-toggle');
+                            btnGroups.classList.add('active-toggle');
+                        });
+                        toggleContainer.appendChild(btnGroups);
+                    }
+
+                    if (data.knockouts) {
+                        btnKnockouts = document.createElement("button");
+                        btnKnockouts.textContent = "Knockouts";
+                        btnKnockouts.addEventListener("click", () => {
+                            renderKnockouts(data, eventName);
+                            if (btnGroups) btnGroups.classList.remove('active-toggle');
+                            btnKnockouts.classList.add('active-toggle');
+                        });
+                        toggleContainer.appendChild(btnKnockouts);
+                    }
+
+                    if (data.knockouts) {
+                        renderKnockouts(data, eventName);
+                        if (btnKnockouts) btnKnockouts.classList.add('active-toggle');
+                    } else if (data.groups) {
+                        renderGroups(data, eventName);
+                        if (btnGroups) btnGroups.classList.add('active-toggle');
+                    }
+                })
+                .catch(err => {
+                    document.getElementById("contentContainer").innerHTML =
+                        "<p style='padding:20px'>Error loading event data.</p>";
+                });
+        }
     });
   </script>
 </body>
