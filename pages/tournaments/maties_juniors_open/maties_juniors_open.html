@@ -85,8 +85,8 @@
                                 tc.appendChild(bk);
                             }
                             const li = document.createElement("span"); li.id="liveIndicator";
-                            li.style.cssText="margin-left:auto;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
-                            tc.appendChild(li); tc.style.display="flex"; tc.style.alignItems="center";
+                            li.style.cssText="position:absolute;right:10px;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
+                            tc.appendChild(li); tc.style.display="flex"; tc.style.justifyContent="center"; tc.style.alignItems="center"; tc.style.position="relative";
                         }
                         if (currentView==="knockouts" && data.knockouts) {
                             renderKnockouts(data,eventName);
