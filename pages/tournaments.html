@@ -6,8 +6,8 @@
     <title>Tournaments</title>
     <link rel="stylesheet" href="/src/css/styles.css">
     <style>
-        .tournaments-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px; padding:20px; max-width:1200px; margin:0 auto; }
-        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; transition:transform 0.2s,box-shadow 0.2s; }
+        .tournaments-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr)); gap:16px; padding:16px; max-width:1200px; margin:0 auto; width:100%; box-sizing:border-box; }
+        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; transition:transform 0.2s,box-shadow 0.2s; cursor:pointer; }
         .tournament-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
         .tournament-card h3 { margin:0 0 8px; font-size:18px; color:white; }
         .tournament-date { color:#aaa; font-size:14px; margin:4px 0; }
@@ -23,24 +23,23 @@
   <div id="header-placeholder"></div>
     <div class="event-section">
         <div class="tournaments-grid">
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_open/maties_open.html'" style="cursor:pointer">
-                <h3>Maties Open 2025</h3>
-                <p class="tournament-date">29-31 Aug 2025</p>
-                <p class="tournament-venue">Coetzenburg Centre</p>
-                <span class="tournament-status completed">Completed</span>
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html'">
+                <h3>Maties Junior's Open</h3>
+                <p class="tournament-date">4 Apr 2026</p>
+                <p class="tournament-venue">Maties Gymnasium</p>
+                <span class="tournament-status in-progress">In Progress</span>
             </div>
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/ussa_25/ussa_25.html'" style="cursor:pointer">
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/ussa_25/ussa_25.html'">
                 <h3>USSA Nationals 2025</h3>
                 <p class="tournament-date">28 Sep - 4 Oct 2025</p>
                 <p class="tournament-venue">Sol Plaatjie University</p>
                 <span class="tournament-status completed">Completed</span>
             </div>
-            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html'" style="cursor:pointer">
-                <h3>Maties Junior's Open</h3>
-                <p class="tournament-date">4 Apr 2026</p>
-                <p class="tournament-venue">Maties Gymnasium </p>
-                
-                <span class="tournament-status in-progress">In Progress</span>
+            <div class="tournament-card" onclick="location.href='/pages/tournaments/maties_open/maties_open.html'">
+                <h3>Maties Open 2025</h3>
+                <p class="tournament-date">29-31 Aug 2025</p>
+                <p class="tournament-venue">Coetzenburg Centre</p>
+                <span class="tournament-status completed">Completed</span>
             </div>
         </div>
     </div>
