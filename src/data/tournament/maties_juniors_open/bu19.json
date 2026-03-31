@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "name": "A",
+      "name": "Group A",
       "players": [
         {
           "name": "Ethan Van der Berg",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "name": "B",
+      "name": "Group B",
       "players": [
         {
           "name": "Liam Rossouw",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "C",
+      "name": "Group C",
       "players": [
         {
           "name": "Noah De Villiers",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "D",
+      "name": "Group D",
       "players": [
         {
           "name": "Jayden Smit",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "name": "E",
+      "name": "Group E",
       "players": [
         {
           "name": "Aiden Terblanche",
