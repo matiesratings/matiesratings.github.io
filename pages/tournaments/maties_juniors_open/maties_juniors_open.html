@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Open 2026</title>
+    <title>Maties Juniors Open</title>
     <link rel="stylesheet" href="/src/css/styles.css">
 </head>
 <body>
@@ -12,11 +12,11 @@
   <div id="tournament-info" style="display:none">
     <div class="event-section">
         <div class="event-description">
-            <p><strong>Date:</strong> 2026-03-20 - 2026-03-21</p>
-            <p><strong>Location:</strong> Coetzenburg Sports Centre</p>
+            <p><strong>Date:</strong> 4 April 2026</p>
+            <p><strong>Location:</strong> Maties Gymnasium</p>
         </div>
         <div id="events-container">
-            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=2'">Men's Singles</button>
+            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=1">Boys U19</button>
         </div>
     </div>
   </div>
@@ -28,23 +28,22 @@
         fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
     }
     function toggleNav() {
-        document.querySelector(".nav-links").classList.toggle("active");
+        document.querySelector('.nav-links').classList.toggle('active');
     }
-    document.addEventListener("click", function(ev) {
-        const navLinks = document.querySelector(".nav-links");
-        const hamburger = document.querySelector(".hamburger");
+    document.addEventListener('click', function(ev) {
+        const navLinks = document.querySelector('.nav-links');
+        const hamburger = document.querySelector('.hamburger');
         if (navLinks && hamburger && !navLinks.contains(ev.target) && !hamburger.contains(ev.target)) {
-            navLinks.classList.remove("active");
+            navLinks.classList.remove('active');
         }
     });
 
     const API_BASE = "https://tournament-manager-19sp.onrender.com/api";
-    const TOURNAMENT_ID = 2;
-    const eventNameMap = {'2': 'Men's Singles'};
+    const TOURNAMENT_ID = 1;
+    const eventNameMap = {"1": "Boys U19"};
 
     document.addEventListener("DOMContentLoaded", function () {
         loadInclude("header-placeholder", "/components/header.html");
-
         const params = new URLSearchParams(window.location.search);
         const eventId = params.get("event");
 
@@ -52,7 +51,7 @@
             document.getElementById("tournament-info").style.display = "block";
             const setTitle = () => {
                 const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Test Open 2026";
+                if (el) el.innerHTML = "Maties Juniors Open";
                 else setTimeout(setTitle, 50);
             };
             setTitle();
@@ -60,7 +59,7 @@
             const eventName = eventNameMap[eventId] || "Event";
             const setTitle = () => {
                 const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Test Open 2026<br>" + eventName;
+                if (el) el.innerHTML = "Maties Juniors Open<br>" + eventName;
                 else setTimeout(setTitle, 50);
             };
             setTitle();
