@@ -5,15 +5,38 @@
       "players": [
         {
           "name": "Ethan Van der Berg",
-          "club": "MAT"
-        },
-        {
-          "name": "Ruan Basson",
-          "club": "TYG"
+          "club": "MAT",
+          "rank": 1
         },
         {
           "name": "Kyle Adams",
-          "club": "PRL"
+          "club": "PRL",
+          "rank": 2
+        },
+        {
+          "name": "Ruan Basson",
+          "club": "TYG",
+          "rank": 3
+        }
+      ],
+      "matches": [
+        {
+          "player1": "Ethan Van der Berg",
+          "player2": "Ruan Basson",
+          "score1": "3",
+          "score2": "1"
+        },
+        {
+          "player1": "Kyle Adams",
+          "player2": "Ethan Van der Berg",
+          "score1": "3",
+          "score2": "0"
+        },
+        {
+          "player1": "Ruan Basson",
+          "player2": "Kyle Adams",
+          "score1": "1",
+          "score2": "3"
         }
       ]
     },
@@ -22,15 +45,38 @@
       "players": [
         {
           "name": "Liam Rossouw",
-          "club": "MAT"
+          "club": "MAT",
+          "rank": 1
         },
         {
           "name": "Caleb Mostert",
-          "club": "TYG"
+          "club": "TYG",
+          "rank": 2
         },
         {
           "name": "Zander Theron",
-          "club": "BLV"
+          "club": "BLV",
+          "rank": 3
+        }
+      ],
+      "matches": [
+        {
+          "player1": "Liam Rossouw",
+          "player2": "Caleb Mostert",
+          "score1": "3",
+          "score2": "0"
+        },
+        {
+          "player1": "Zander Theron",
+          "player2": "Liam Rossouw",
+          "score1": "1",
+          "score2": "3"
+        },
+        {
+          "player1": "Caleb Mostert",
+          "player2": "Zander Theron",
+          "score1": "1",
+          "score2": "3"
         }
       ]
     },
@@ -39,15 +85,38 @@
       "players": [
         {
           "name": "Noah De Villiers",
-          "club": "MAT"
+          "club": "MAT",
+          "rank": 1
         },
         {
           "name": "Keegan Lourens",
-          "club": "PRL"
+          "club": "PRL",
+          "rank": 2
         },
         {
           "name": "Dylan Pieterse",
-          "club": "TYG"
+          "club": "TYG",
+          "rank": 3
+        }
+      ],
+      "matches": [
+        {
+          "player1": "Noah De Villiers",
+          "player2": "Keegan Lourens",
+          "score1": "3",
+          "score2": "1"
+        },
+        {
+          "player1": "Dylan Pieterse",
+          "player2": "Noah De Villiers",
+          "score1": "0",
+          "score2": "3"
+        },
+        {
+          "player1": "Keegan Lourens",
+          "player2": "Dylan Pieterse",
+          "score1": "3",
+          "score2": "1"
         }
       ]
     },
@@ -56,15 +125,38 @@
       "players": [
         {
           "name": "Jayden Smit",
-          "club": "MAT"
-        },
-        {
-          "name": "Tyrone Hendricks",
-          "club": "PRL"
+          "club": "MAT",
+          "rank": 1
         },
         {
           "name": "Tyler Samuels",
-          "club": "BLV"
+          "club": "BLV",
+          "rank": 2
+        },
+        {
+          "name": "Tyrone Hendricks",
+          "club": "PRL",
+          "rank": 3
+        }
+      ],
+      "matches": [
+        {
+          "player1": "Jayden Smit",
+          "player2": "Tyrone Hendricks",
+          "score1": "3",
+          "score2": "2"
+        },
+        {
+          "player1": "Tyler Samuels",
+          "player2": "Jayden Smit",
+          "score1": "3",
+          "score2": "0"
+        },
+        {
+          "player1": "Tyrone Hendricks",
+          "player2": "Tyler Samuels",
+          "score1": "3",
+          "score2": "1"
         }
       ]
     },
@@ -72,20 +164,62 @@
       "name": "Group E",
       "players": [
         {
-          "name": "Aiden Terblanche",
-          "club": "TYG"
+          "name": "Jaden Davids",
+          "club": "PRL",
+          "rank": 1
         },
         {
-          "name": "Jaden Davids",
-          "club": "PRL"
+          "name": "Aiden Terblanche",
+          "club": "TYG",
+          "rank": 2
         },
         {
           "name": "Brandon Williams",
-          "club": "BLV"
+          "club": "BLV",
+          "rank": 3
         },
         {
           "name": "Marco Fourie",
-          "club": "BLV"
+          "club": "BLV",
+          "rank": 4
+        }
+      ],
+      "matches": [
+        {
+          "player1": "Aiden Terblanche",
+          "player2": "Marco Fourie",
+          "score1": "2",
+          "score2": "3"
+        },
+        {
+          "player1": "Jaden Davids",
+          "player2": "Brandon Williams",
+          "score1": "3",
+          "score2": "1"
+        },
+        {
+          "player1": "Aiden Terblanche",
+          "player2": "Brandon Williams",
+          "score1": "0",
+          "score2": "3"
+        },
+        {
+          "player1": "Marco Fourie",
+          "player2": "Jaden Davids",
+          "score1": "2",
+          "score2": "3"
+        },
+        {
+          "player1": "Aiden Terblanche",
+          "player2": "Jaden Davids",
+          "score1": "3",
+          "score2": "2"
+        },
+        {
+          "player1": "Brandon Williams",
+          "player2": "Marco Fourie",
+          "score1": "0",
+          "score2": "3"
         }
       ]
     }
