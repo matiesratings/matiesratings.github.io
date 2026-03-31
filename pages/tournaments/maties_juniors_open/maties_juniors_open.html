@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maties Juniors Open</title>
+    <title>Maties Junior's Open</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <style>
+        .events-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; padding:16px 0; max-width:1000px; margin:0 auto; }
+        .event-card { background:#111; border:1px solid maroon; border-radius:8px; padding:16px; cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; text-align:left; }
+        .event-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
+        .event-card h3 { margin:0 0 6px; font-size:16px; color:white; }
+        .event-card .event-meta { color:#888; font-size:13px; margin:2px 0; }
+        .event-card .event-entries { color:#aaa; font-size:12px; margin-top:6px; }
+        .event-card .event-status { display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:bold; margin-top:8px; }
+        .event-card .event-status.groups { background:maroon; color:white; }
+        .event-card .event-status.knockout { background:#1a0033; color:#c084fc; border:1px solid #7c3aed; }
+        .event-card .event-status.completed { background:#052e16; color:#4ade80; }
+        .event-card .event-status.pending { background:#222; color:#888; border:1px solid #444; }
+        .event-card .event-winner { color:#4ade80; font-size:13px; margin-top:6px; font-weight:bold; }
+        .tournament-desc { text-align:center; max-width:600px; margin:0 auto 16px; }
+        .tournament-desc p { color:#aaa; font-size:14px; margin:4px 0; }
+        @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }
+    </style>
 </head>
 <body>
   <div id="header-placeholder"></div>
   <div id="viewToggles"></div>
   <div id="tournament-info" style="display:none">
     <div class="event-section">
-        <div class="event-description">
+        <div class="tournament-desc">
             <p><strong>Date:</strong> 4 April 2026</p>
             <p><strong>Location:</strong> Maties Gymnasium</p>
         </div>
-        <div id="events-container">
-            <button class="event" onclick="location.href='/pages/tournaments/maties_juniors_open/maties_juniors_open.html?event=1'">Boys U19</button>
+        <div id="events-container" class="events-grid">
+            <p style="color:#666;text-align:center">Loading events...</p>
         </div>
     </div>
   </div>
@@ -24,92 +41,148 @@
 
   <script src="/src/js/draw.js"></script>
   <script>
+    const API_BASE = "https://tournament-manager-19sp.onrender.com/api";
+    const TOURNAMENT_ID = 1;
+    const TOURNAMENT_NAME = "Maties Junior's Open";
+    const PAGE_BASE = "/pages/tournaments/maties_juniors_open/maties_juniors_open.html";
+
+    const STATUS_MAP = {
+        "pending": { label: "Pending", cls: "pending" },
+        "groups_in_progress": { label: "Groups", cls: "groups" },
+        "knockout_in_progress": { label: "Knockout", cls: "knockout" },
+        "completed": { label: "Completed", cls: "completed" },
+    };
+
+    const FORMAT_MAP = {
+        "groups_knockout": "Groups + Knockout",
+        "straight_knockout": "Straight Knockout",
+    };
+
+    const MATCH_MAP = {
+        "bo3": "Best of 3",
+        "bo5": "Best of 5",
+        "bo7": "Best of 7",
+    };
+
     function loadInclude(id, file) {
-        fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
+        fetch(file).then(function(r){return r.text()}).then(function(d){document.getElementById(id).innerHTML=d});
     }
     function toggleNav() {
-        document.querySelector('.nav-links').classList.toggle('active');
+        document.querySelector(".nav-links").classList.toggle("active");
     }
-    document.addEventListener('click', function(ev) {
-        const navLinks = document.querySelector('.nav-links');
-        const hamburger = document.querySelector('.hamburger');
+    document.addEventListener("click", function(ev) {
+        var navLinks = document.querySelector(".nav-links");
+        var hamburger = document.querySelector(".hamburger");
         if (navLinks && hamburger && !navLinks.contains(ev.target) && !hamburger.contains(ev.target)) {
-            navLinks.classList.remove('active');
+            navLinks.classList.remove("active");
         }
     });
 
-    const API_BASE = "https://tournament-manager-19sp.onrender.com/api";
-    const TOURNAMENT_ID = 1;
-    const eventNameMap = {"1": "Boys U19"};
+    function loadEventCards() {
+        fetch(API_BASE + "/public/tournaments/" + TOURNAMENT_ID + "/entry-info")
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                var container = document.getElementById("events-container");
+                container.innerHTML = "";
+                data.events.forEach(function(evt) {
+                    var card = document.createElement("div");
+                    card.className = "event-card";
+                    card.onclick = function() { location.href = PAGE_BASE + "?event=" + evt.id; };
+
+                    var statusInfo = STATUS_MAP[evt.status] || STATUS_MAP["pending"];
+                    var format = FORMAT_MAP[evt.competition_format] || evt.competition_format;
+                    var match = MATCH_MAP[evt.match_format] || evt.match_format;
+
+                    var html = '<h3>' + evt.name + '</h3>';
+                    html += '<p class="event-meta">' + format + ' / ' + match + '</p>';
+                    html += '<p class="event-entries">' + evt.entry_count + ' entries</p>';
+                    html += '<span class="event-status ' + statusInfo.cls + '">' + statusInfo.label + '</span>';
+
+                    card.innerHTML = html;
+                    container.appendChild(card);
+                });
+            })
+            .catch(function() {
+                var container = document.getElementById("events-container");
+                container.innerHTML = '<p style="color:#666;text-align:center">Could not load events</p>';
+            });
+    }
 
     document.addEventListener("DOMContentLoaded", function () {
         loadInclude("header-placeholder", "/components/header.html");
-        const params = new URLSearchParams(window.location.search);
-        const eventId = params.get("event");
+        var params = new URLSearchParams(window.location.search);
+        var eventId = params.get("event");
 
         if (!eventId) {
             document.getElementById("tournament-info").style.display = "block";
-            const setTitle = () => {
-                const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Maties Juniors Open";
+            var setTitle = function() {
+                var el = document.getElementById("header-title");
+                if (el) el.innerHTML = TOURNAMENT_NAME;
                 else setTimeout(setTitle, 50);
             };
             setTitle();
+            loadEventCards();
         } else {
-            const eventName = eventNameMap[eventId] || "Event";
-            const setTitle = () => {
-                const el = document.getElementById("header-title");
-                if (el) el.innerHTML = "Maties Juniors Open<br>" + eventName;
-                else setTimeout(setTitle, 50);
-            };
-            setTitle();
+            // Find event name from API
+            fetch(API_BASE + "/public/tournaments/" + TOURNAMENT_ID + "/entry-info")
+                .then(function(r) { return r.json(); })
+                .then(function(info) {
+                    var evt = info.events.find(function(e) { return String(e.id) === eventId; });
+                    var eventName = evt ? evt.name : "Event";
 
-            let currentView = "knockouts";
+                    var setTitle = function() {
+                        var el = document.getElementById("header-title");
+                        if (el) el.innerHTML = TOURNAMENT_NAME + "<br>" + eventName;
+                        else setTimeout(setTitle, 50);
+                    };
+                    setTitle();
 
-            function loadEventData() {
-                fetch(API_BASE + "/public/tournaments/" + TOURNAMENT_ID + "/draws/" + eventId)
-                    .then(r => r.json())
-                    .then(data => {
-                        const tc = document.getElementById("viewToggles");
-                        if (tc.children.length === 0) {
-                            if (data.groups) {
-                                const bg = document.createElement("button");
-                                bg.id = "btnGroups"; bg.textContent = "Groups";
-                                bg.addEventListener("click", () => { currentView="groups"; renderGroups(data,eventName); bg.classList.add("active-toggle"); const k=document.getElementById("btnKnockouts"); if(k) k.classList.remove("active-toggle"); });
-                                tc.appendChild(bg);
-                            }
-                            if (data.knockouts) {
-                                const bk = document.createElement("button");
-                                bk.id = "btnKnockouts"; bk.textContent = "Knockouts";
-                                bk.addEventListener("click", () => { currentView="knockouts"; renderKnockouts(data,eventName); bk.classList.add("active-toggle"); const g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle"); });
-                                tc.appendChild(bk);
-                            }
-                            const li = document.createElement("span"); li.id="liveIndicator";
-                            li.style.cssText="position:absolute;right:10px;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
-                            tc.appendChild(li); tc.style.display="flex"; tc.style.justifyContent="center"; tc.style.alignItems="center"; tc.style.position="relative";
-                        }
-                        if (currentView==="knockouts" && data.knockouts) {
-                            renderKnockouts(data,eventName);
-                            const k=document.getElementById("btnKnockouts"); if(k) k.classList.add("active-toggle");
-                            const g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle");
-                        } else if (data.groups) {
-                            renderGroups(data,eventName);
-                            const g=document.getElementById("btnGroups"); if(g) g.classList.add("active-toggle");
-                            const k=document.getElementById("btnKnockouts"); if(k) k.classList.remove("active-toggle");
-                        }
-                        const ind = document.getElementById("liveIndicator");
-                        if (ind) { const now=new Date().toLocaleTimeString(); ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite'></span> LIVE &middot; "+now; }
-                    })
-                    .catch(err => {
-                        const ind = document.getElementById("liveIndicator");
-                        if(ind) ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#f87171;display:inline-block'></span> offline";
-                    });
-            }
-            loadEventData();
-            setInterval(loadEventData, 30000);
+                    var currentView = "knockouts";
+
+                    function loadEventData() {
+                        fetch(API_BASE + "/public/tournaments/" + TOURNAMENT_ID + "/draws/" + eventId)
+                            .then(function(r) { return r.json(); })
+                            .then(function(data) {
+                                var tc = document.getElementById("viewToggles");
+                                if (tc.children.length === 0) {
+                                    if (data.groups) {
+                                        var bg = document.createElement("button");
+                                        bg.id = "btnGroups"; bg.textContent = "Groups";
+                                        bg.addEventListener("click", function() { currentView="groups"; renderGroups(data,eventName); bg.classList.add("active-toggle"); var k=document.getElementById("btnKnockouts"); if(k) k.classList.remove("active-toggle"); });
+                                        tc.appendChild(bg);
+                                    }
+                                    if (data.knockouts) {
+                                        var bk = document.createElement("button");
+                                        bk.id = "btnKnockouts"; bk.textContent = "Knockouts";
+                                        bk.addEventListener("click", function() { currentView="knockouts"; renderKnockouts(data,eventName); bk.classList.add("active-toggle"); var g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle"); });
+                                        tc.appendChild(bk);
+                                    }
+                                    var li = document.createElement("span"); li.id="liveIndicator";
+                                    li.style.cssText="position:absolute;right:10px;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
+                                    tc.appendChild(li); tc.style.display="flex"; tc.style.justifyContent="center"; tc.style.alignItems="center"; tc.style.position="relative";
+                                }
+                                if (currentView==="knockouts" && data.knockouts) {
+                                    renderKnockouts(data,eventName);
+                                    var k=document.getElementById("btnKnockouts"); if(k) k.classList.add("active-toggle");
+                                    var g=document.getElementById("btnGroups"); if(g) g.classList.remove("active-toggle");
+                                } else if (data.groups) {
+                                    renderGroups(data,eventName);
+                                    var g2=document.getElementById("btnGroups"); if(g2) g2.classList.add("active-toggle");
+                                    var k2=document.getElementById("btnKnockouts"); if(k2) k2.classList.remove("active-toggle");
+                                }
+                                var ind = document.getElementById("liveIndicator");
+                                if (ind) { var now=new Date().toLocaleTimeString(); ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite'></span> LIVE &middot; "+now; }
+                            })
+                            .catch(function() {
+                                var ind = document.getElementById("liveIndicator");
+                                if(ind) ind.innerHTML="<span style='width:8px;height:8px;border-radius:50%;background:#f87171;display:inline-block'></span> offline";
+                            });
+                    }
+                    loadEventData();
+                    setInterval(loadEventData, 30000);
+                });
         }
     });
   </script>
-  <style>@keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }</style>
 </body>
 </html>
