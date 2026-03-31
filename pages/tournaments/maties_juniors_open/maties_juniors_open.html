@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maties Juniors Open</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+    <div class="event-section">
+        <div class="event-description">
+            <p><strong>Date:</strong> 4 April 2026 - 4 April 2026</p>
+            <p><strong>Location:</strong> Maties Gymnasium </p>
+        </div>
+        <div id="events-container">
+            <button class="event" onclick="location.href='/pages/event.html?tournament=maties_juniors_open&event=bu19'">Boys U19</button>
+        </div>
+    </div>
+  <script>
+    function loadInclude(id, file) {
+        fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
+    }
+    function toggleNav() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        loadInclude("header-placeholder", "/components/header.html");
+        const setTitle = () => {
+            const el = document.getElementById("header-title");
+            if (el) el.innerHTML = "Maties Juniors Open";
+            else setTimeout(setTitle, 50);
+        };
+        setTitle();
+    });
+  </script>
+</body>
+</html>
