@@ -16,21 +16,52 @@
     {
       "id": "premier_division",
       "name": "Premier Division",
-      "players": [],
+      "players": [
+        "Tian Louw",
+        "Kirshwan Steyn",
+        "Shane Overmeyer",
+        "Joshua Du Plooy",
+        "David Nwafor",
+        "DJ Swanevelder",
+        "Dirk Coetzee",
+        "Le Roux Strydom",
+        "Tayla Bailey",
+        "Steffan Brundyn"
+      ],
       "results": [],
       "round_dates": []
     },
     {
       "id": "2nd_division",
       "name": "2nd Division",
-      "players": [],
+      "players": [
+        "Timothy Prinsloo",
+        "Joshua Davids",
+        "Jaidyn Nel",
+        "Phenyo Tongwane",
+        "Riley Brown",
+        "Bevan Fortune",
+        "Carmen Harris",
+        "Juan Engelbrecht",
+        "Andria van Tonder"
+      ],
       "results": [],
       "round_dates": []
     },
     {
       "id": "1st_division",
       "name": "1st Division",
-      "players": [],
+      "players": [
+        "Gajen Chetty",
+        "Cetinhan Celik",
+        "Duwayne Petersen",
+        "Gustav Becker",
+        "Benje Bester",
+        "Finn Kahn",
+        "TJ Sabad",
+        "Amien Phillips",
+        "Simon van der Merwe"
+      ],
       "results": [],
       "round_dates": []
     }
