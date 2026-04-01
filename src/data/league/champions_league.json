@@ -20,6 +20,7 @@
       "id": "premier_division",
       "name": "Premier Division",
       "players": [
+        "Tian Louw",
         "Kirshwan Steyn",
         "Shane Overmeyer",
         "Joshua Du Plooy",
@@ -28,8 +29,7 @@
         "Dirk Coetzee",
         "Le Roux Strydom",
         "Tayla Bailey",
-        "Steffan Brundyn",
-        "Tian Louw"
+        "Steffan Brundyn"
       ],
       "results": [
         {
@@ -141,8 +141,8 @@
           "round": 1,
           "home": "Tian Louw",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 9,
