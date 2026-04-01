@@ -31,7 +31,638 @@
         "Steffan Brundyn",
         "Tian Louw"
       ],
-      "results": []
+      "results": [
+        {
+          "round": 4,
+          "home": "Le Roux Strydom",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Le Roux Strydom",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Shane Overmeyer",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Kirshwan Steyn",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Tian Louw",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "David Nwafor",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Tayla Bailey",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Kirshwan Steyn",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Shane Overmeyer",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Dirk Coetzee",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Shane Overmeyer",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Shane Overmeyer",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Joshua Du Plooy",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Le Roux Strydom",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Dirk Coetzee",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Tian Louw",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Le Roux Strydom",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Joshua Du Plooy",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "David Nwafor",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Kirshwan Steyn",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Steffan Brundyn",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Kirshwan Steyn",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Shane Overmeyer",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Tian Louw",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Tian Louw",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Tian Louw",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Dirk Coetzee",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Steffan Brundyn",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Tayla Bailey",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "DJ Swanevelder",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Steffan Brundyn",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Kirshwan Steyn",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "DJ Swanevelder",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Le Roux Strydom",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Joshua Du Plooy",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Dirk Coetzee",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Kirshwan Steyn",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Tayla Bailey",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Tayla Bailey",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Steffan Brundyn",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Joshua Du Plooy",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Tian Louw",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "David Nwafor",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Tian Louw",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "DJ Swanevelder",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "DJ Swanevelder",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Tayla Bailey",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Tian Louw",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Tayla Bailey",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Kirshwan Steyn",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dirk Coetzee",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "David Nwafor",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "DJ Swanevelder",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Joshua Du Plooy",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Le Roux Strydom",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Joshua Du Plooy",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Shane Overmeyer",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "David Nwafor",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Joshua Du Plooy",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Joshua Du Plooy",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "David Nwafor",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Tian Louw",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "DJ Swanevelder",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Shane Overmeyer",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Steffan Brundyn",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Tayla Bailey",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Dirk Coetzee",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "DJ Swanevelder",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Kirshwan Steyn",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Le Roux Strydom",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Steffan Brundyn",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Kirshwan Steyn",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dirk Coetzee",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "David Nwafor",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "DJ Swanevelder",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Steffan Brundyn",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Steffan Brundyn",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Tayla Bailey",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Joshua Du Plooy",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Le Roux Strydom",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Shane Overmeyer",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Steffan Brundyn",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Dirk Coetzee",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "David Nwafor",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Le Roux Strydom",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "DJ Swanevelder",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "David Nwafor",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dirk Coetzee",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Tayla Bailey",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Shane Overmeyer",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
     },
     {
       "id": "1st_division",
@@ -47,7 +678,656 @@
         "Duwayne Petersen",
         "Gustav Becker"
       ],
-      "results": []
+      "results": [
+        {
+          "round": 8,
+          "home": "Duwayne Petersen",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 8,
+          "home": "Gajen Chetty",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 7,
+          "home": "Amien Phillips",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 5,
+          "home": "Duwayne Petersen",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 5,
+          "home": "Gajen Chetty",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 3,
+          "home": "Gajen Chetty",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 7,
+          "home": "Gajen Chetty",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 4,
+          "home": "TJ Sabad",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 4,
+          "home": "TJ Sabad",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 8,
+          "home": "Cetinhan Celik",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 8,
+          "home": "Duwayne Petersen",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 4,
+          "home": "Amien Phillips",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 7,
+          "home": "Gustav Becker",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 5,
+          "home": "Simon van der Merwe",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 3,
+          "home": "Simon van der Merwe",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 6,
+          "home": "Amien Phillips",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 5,
+          "home": "Gustav Becker",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 1,
+          "home": "Benje Bester",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 8,
+          "home": "Cetinhan Celik",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 1,
+          "home": "Duwayne Petersen",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 1,
+          "home": "Finn Kahn",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 1,
+          "home": "Benje Bester",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 1,
+          "home": "Amien Phillips",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 7,
+          "home": "Simon van der Merwe",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 6,
+          "home": "Cetinhan Celik",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 2,
+          "home": "Benje Bester",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 6,
+          "home": "Cetinhan Celik",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 6,
+          "home": "Duwayne Petersen",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 4,
+          "home": "Gajen Chetty",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 8,
+          "home": "Gustav Becker",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 7,
+          "home": "Cetinhan Celik",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 4,
+          "home": "Benje Bester",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 3,
+          "home": "Benje Bester",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 3,
+          "home": "Finn Kahn",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 5,
+          "home": "Gustav Becker",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 2,
+          "home": "TJ Sabad",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 2,
+          "home": "Finn Kahn",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 7,
+          "home": "Cetinhan Celik",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 6,
+          "home": "Gustav Becker",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 4,
+          "home": "Finn Kahn",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 6,
+          "home": "Gustav Becker",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 2,
+          "home": "Amien Phillips",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 6,
+          "home": "Gajen Chetty",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 8,
+          "home": "Gustav Becker",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 1,
+          "home": "Amien Phillips",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 2,
+          "home": "Simon van der Merwe",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 3,
+          "home": "Amien Phillips",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 3,
+          "home": "Benje Bester",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 2,
+          "home": "Gajen Chetty",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 3,
+          "home": "TJ Sabad",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 8,
+          "home": "Amien Phillips",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 7,
+          "home": "Duwayne Petersen",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 5,
+          "home": "TJ Sabad",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 1,
+          "home": "Cetinhan Celik",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 3,
+          "home": "Finn Kahn",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 5,
+          "home": "Gajen Chetty",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 7,
+          "home": "Duwayne Petersen",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 6,
+          "home": "Simon van der Merwe",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 3,
+          "home": "TJ Sabad",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 2,
+          "home": "TJ Sabad",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 2,
+          "home": "Benje Bester",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 4,
+          "home": "Finn Kahn",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 5,
+          "home": "TJ Sabad",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 1,
+          "home": "Cetinhan Celik",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 7,
+          "home": "Gustav Becker",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 2,
+          "home": "Finn Kahn",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 5,
+          "home": "Finn Kahn",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 4,
+          "home": "Simon van der Merwe",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 4,
+          "home": "Benje Bester",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 6,
+          "home": "Duwayne Petersen",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 1,
+          "home": "Simon van der Merwe",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 8,
+          "home": "Simon van der Merwe",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Cetinhan Celik"
+        }
+      ]
     },
     {
       "id": "2nd_division",
@@ -63,7 +1343,656 @@
         "Juan Engelbrecht",
         "Andria van Tonder"
       ],
-      "results": []
+      "results": [
+        {
+          "round": 7,
+          "home": "Juan Engelbrecht",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 7,
+          "home": "Juan Engelbrecht",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 3,
+          "home": "Jaidyn Nel",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 8,
+          "home": "Carmen Harris",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 8,
+          "home": "Carmen Harris",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 7,
+          "home": "Carmen Harris",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 5,
+          "home": "Jaidyn Nel",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 2,
+          "home": "Phenyo Tongwane",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 1,
+          "home": "Carmen Harris",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 3,
+          "home": "Joshua Davids",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 4,
+          "home": "Riley Brown",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 2,
+          "home": "Jaidyn Nel",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 1,
+          "home": "Joshua Davids",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 1,
+          "home": "Phenyo Tongwane",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 5,
+          "home": "Andria van Tonder",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 4,
+          "home": "Joshua Davids",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 6,
+          "home": "Andria van Tonder",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 3,
+          "home": "Joshua Davids",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 6,
+          "home": "Riley Brown",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 8,
+          "home": "Bevan Fortune",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 2,
+          "home": "Joshua Davids",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 3,
+          "home": "Timothy Prinsloo",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 3,
+          "home": "Jaidyn Nel",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 8,
+          "home": "Riley Brown",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 1,
+          "home": "Juan Engelbrecht",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 7,
+          "home": "Andria van Tonder",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 3,
+          "home": "Bevan Fortune",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 4,
+          "home": "Phenyo Tongwane",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 8,
+          "home": "Andria van Tonder",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 2,
+          "home": "Bevan Fortune",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 3,
+          "home": "Timothy Prinsloo",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 6,
+          "home": "Carmen Harris",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 2,
+          "home": "Timothy Prinsloo",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 8,
+          "home": "Juan Engelbrecht",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 4,
+          "home": "Jaidyn Nel",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 4,
+          "home": "Joshua Davids",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 2,
+          "home": "Joshua Davids",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 4,
+          "home": "Bevan Fortune",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 5,
+          "home": "Juan Engelbrecht",
+          "away": "Carmen Harris",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 7,
+          "home": "Bevan Fortune",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 7,
+          "home": "Riley Brown",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 2,
+          "home": "Jaidyn Nel",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 4,
+          "home": "Jaidyn Nel",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 6,
+          "home": "Juan Engelbrecht",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 4,
+          "home": "Timothy Prinsloo",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 1,
+          "home": "Phenyo Tongwane",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 7,
+          "home": "Andria van Tonder",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 6,
+          "home": "Andria van Tonder",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 5,
+          "home": "Riley Brown",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 5,
+          "home": "Bevan Fortune",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 5,
+          "home": "Bevan Fortune",
+          "away": "Riley Brown",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 6,
+          "home": "Carmen Harris",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 7,
+          "home": "Carmen Harris",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 8,
+          "home": "Juan Engelbrecht",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Bevan Fortune"
+        },
+        {
+          "round": 5,
+          "home": "Joshua Davids",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 1,
+          "home": "Riley Brown",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Phenyo Tongwane"
+        },
+        {
+          "round": 5,
+          "home": "Jaidyn Nel",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 5,
+          "home": "Andria van Tonder",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 6,
+          "home": "Juan Engelbrecht",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Riley Brown"
+        },
+        {
+          "round": 3,
+          "home": "Riley Brown",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Timothy Prinsloo"
+        },
+        {
+          "round": 7,
+          "home": "Phenyo Tongwane",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 2,
+          "home": "Riley Brown",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 2,
+          "home": "Timothy Prinsloo",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 1,
+          "home": "Timothy Prinsloo",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 8,
+          "home": "Andria van Tonder",
+          "away": "Phenyo Tongwane",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Joshua Davids"
+        },
+        {
+          "round": 6,
+          "home": "Bevan Fortune",
+          "away": "Jaidyn Nel",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 8,
+          "home": "Phenyo Tongwane",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Andria van Tonder"
+        },
+        {
+          "round": 3,
+          "home": "Phenyo Tongwane",
+          "away": "Juan Engelbrecht",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 1,
+          "home": "Carmen Harris",
+          "away": "Andria van Tonder",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Juan Engelbrecht"
+        },
+        {
+          "round": 6,
+          "home": "Phenyo Tongwane",
+          "away": "Timothy Prinsloo",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Carmen Harris"
+        },
+        {
+          "round": 1,
+          "home": "Timothy Prinsloo",
+          "away": "Joshua Davids",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Jaidyn Nel"
+        },
+        {
+          "round": 4,
+          "home": "Timothy Prinsloo",
+          "away": "Bevan Fortune",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Juan Engelbrecht"
+        }
+      ]
     }
   ]
 }
