@@ -1,17 +1,15 @@
 {
   "league_name": "Maties Res League",
   "season": "2026",
+  "type": "team",
   "description": "Campus Table Tennis League 2026",
-  "auth": {
-    "user": "resleague",
-    "pass": "res2026"
-  },
+  "double_round_robin": false,
   "info": [
-    "<strong>Season:</strong> 2026 — Semester 1 & 2",
-    "<strong>Match Format:</strong> 5 individual matches per fixture (best of 5 games each)",
+    "<strong>Season:</strong> 2026 \u2014 Semester 1 & 2",
+    "<strong>Match Format:</strong> 5 individual rubbers per fixture (best of 5 games each)",
     "<strong>Points:</strong> Win = 2 pts | Loss = 0 pts",
     "<strong>Walkovers:</strong> Teams must field a minimum of 2 players. If a player is missing, their individual matches are forfeited 0-3. Teams must notify the opposing captain at least 24 hours in advance.",
-    "<strong>Contact:</strong> League Coordinator — <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>"
+    "<strong>Contact:</strong> League Coordinator \u2014 <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>"
   ],
   "divisions": [
     {
@@ -26,6 +24,7 @@
         "2026-08-03",
         "2026-08-10"
       ],
+      "finals_date": "2026-09-21",
       "teams": [
         {
           "name": "Dagbreek",
@@ -60,165 +59,7 @@
           "players": []
         }
       ],
-      "results": [],
-      "finals_date": "2026-09-21"
-    },
-    {
-      "id": "mens_b",
-      "name": "Men's Division B",
-      "round_dates": [
-        "2026-04-15",
-        "2026-04-22",
-        "2026-04-29",
-        "2026-05-06",
-        "2026-07-22",
-        "2026-07-29",
-        "2026-08-05",
-        "2026-08-12",
-        "2026-08-19"
-      ],
-      "teams": [
-        {
-          "name": "Dagbreek",
-          "players": []
-        },
-        {
-          "name": "Eendrag",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Marais",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        },
-        {
-          "name": "Metanoia",
-          "players": []
-        },
-        {
-          "name": "Oude Molen",
-          "players": []
-        },
-        {
-          "name": "Simonsberg",
-          "players": []
-        },
-        {
-          "name": "Wilgenhof",
-          "players": []
-        }
-      ],
-      "results": [],
-      "finals_date": "2026-09-21"
-    },
-    {
-      "id": "mens_c",
-      "name": "Men's Division C",
-      "round_dates": [
-        "2026-04-14",
-        "2026-04-21",
-        "2026-04-28",
-        "2026-05-05",
-        "2026-07-21",
-        "2026-07-28",
-        "2026-08-04"
-      ],
-      "teams": [
-        {
-          "name": "Dagbreek 1",
-          "players": []
-        },
-        {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Eendrag",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Visser 1",
-          "players": []
-        },
-        {
-          "name": "Huis Visser 2",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        },
-        {
-          "name": "Pieke",
-          "players": []
-        }
-      ],
-      "results": [],
-      "finals_date": "2026-09-22"
-    },
-    {
-      "id": "mens_d",
-      "name": "Men's Division D",
-      "round_dates": [
-        "2026-04-16",
-        "2026-04-23",
-        "2026-04-30",
-        "2026-05-07",
-        "2026-07-23",
-        "2026-07-30",
-        "2026-08-06"
-      ],
-      "teams": [
-        {
-          "name": "Dagbreek",
-          "players": []
-        },
-        {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Dragons",
-          "players": []
-        },
-        {
-          "name": "Eendrag 1",
-          "players": []
-        },
-        {
-          "name": "Eendrag 2",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        }
-      ],
-      "results": [],
-      "finals_date": "2026-09-22"
+      "results": []
     },
     {
       "id": "womens_a",
@@ -232,6 +73,7 @@
         "2026-08-03",
         "2026-08-10"
       ],
+      "finals_date": "2026-09-21",
       "teams": [
         {
           "name": "Heemstede 1",
@@ -266,8 +108,7 @@
           "players": []
         }
       ],
-      "results": [],
-      "finals_date": "2026-09-21"
+      "results": []
     },
     {
       "id": "womens_b",
@@ -283,6 +124,7 @@
         "2026-08-12",
         "2026-08-19"
       ],
+      "finals_date": "2026-09-21",
       "teams": [
         {
           "name": "Erica",
@@ -325,8 +167,115 @@
           "players": []
         }
       ],
-      "results": [],
-      "finals_date": "2026-09-21"
+      "results": []
+    },
+    {
+      "id": "mens_d",
+      "name": "Men's Division D",
+      "round_dates": [
+        "2026-04-16",
+        "2026-04-23",
+        "2026-04-30",
+        "2026-05-07",
+        "2026-07-23",
+        "2026-07-30",
+        "2026-08-06"
+      ],
+      "finals_date": "2026-09-22",
+      "teams": [
+        {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Dragons",
+          "players": []
+        },
+        {
+          "name": "Eendrag 1",
+          "players": []
+        },
+        {
+          "name": "Eendrag 2",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 1",
+          "players": []
+        }
+      ],
+      "results": []
+    },
+    {
+      "id": "mens_b",
+      "name": "Men's Division B",
+      "round_dates": [
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29",
+        "2026-05-06",
+        "2026-07-22",
+        "2026-07-29",
+        "2026-08-05",
+        "2026-08-12",
+        "2026-08-19"
+      ],
+      "finals_date": "2026-09-21",
+      "teams": [
+        {
+          "name": "Dagbreek",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Marais",
+          "players": []
+        },
+        {
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Metanoia",
+          "players": []
+        },
+        {
+          "name": "Oude Molen",
+          "players": []
+        },
+        {
+          "name": "Simonsberg",
+          "players": []
+        },
+        {
+          "name": "Wilgenhof",
+          "players": []
+        }
+      ],
+      "results": []
     },
     {
       "id": "womens_c",
@@ -342,6 +291,7 @@
         "2026-08-11",
         "2026-08-18"
       ],
+      "finals_date": "2026-09-22",
       "teams": [
         {
           "name": "Aristea",
@@ -380,8 +330,56 @@
           "players": []
         }
       ],
-      "results": [],
-      "finals_date": "2026-09-22"
+      "results": []
+    },
+    {
+      "id": "mens_c",
+      "name": "Men's Division C",
+      "round_dates": [
+        "2026-04-14",
+        "2026-04-21",
+        "2026-04-28",
+        "2026-05-05",
+        "2026-07-21",
+        "2026-07-28",
+        "2026-08-04"
+      ],
+      "finals_date": "2026-09-22",
+      "teams": [
+        {
+          "name": "Dagbreek 1",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 1",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 2",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Pieke",
+          "players": []
+        }
+      ],
+      "results": []
     }
   ]
 }
