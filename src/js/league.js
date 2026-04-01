@@ -56,9 +56,13 @@ function mergeResults(schedule, results) {
                 m => m.home === result.home && m.away === result.away
             );
             if (match) {
-                match.home_score = result.home_score;
-                match.away_score = result.away_score;
-                match.completed = true;
+                if (result.home_score != null && result.away_score != null) {
+                    match.home_score = result.home_score;
+                    match.away_score = result.away_score;
+                    match.completed = true;
+                }
+                if (result.umpire) match.umpire = result.umpire;
+                if (result.group) match.group = result.group;
             }
         }
     }
