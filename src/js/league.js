@@ -452,10 +452,11 @@ function loadDivision(divisionId) {
     const names = division.teams.map(t => t.name);
     let schedule;
 
-    // If results contain all fixtures (including unplayed), build schedule from them
-    // This supports custom formats like groups-of-3 with umpires
-    const hasPrebuiltSchedule = division.results && division.results.length > 0
-        && division.results.some(r => r.umpire || r.group);
+    // If results contain all fixtures (including unplayed ones with null scores),
+    // build the schedule from them instead of generating our own.
+    // This ensures the tournament manager's round structure is used exactly.
+    const totalExpectedMatches = names.length * (names.length - 1) / 2 * (leagueData.double_round_robin ? 2 : 1);
+    const hasPrebuiltSchedule = division.results && division.results.length >= totalExpectedMatches;
 
     if (hasPrebuiltSchedule) {
         // Group results by round number to build schedule
