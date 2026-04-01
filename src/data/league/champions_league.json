@@ -141,8 +141,8 @@
           "round": 1,
           "home": "Tian Louw",
           "away": "Steffan Brundyn",
-          "home_score": 4,
-          "away_score": 0
+          "home_score": null,
+          "away_score": null
         },
         {
           "round": 9,
