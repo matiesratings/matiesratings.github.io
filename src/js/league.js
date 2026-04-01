@@ -450,10 +450,40 @@ function loadDivision(divisionId) {
     }
 
     const names = division.teams.map(t => t.name);
-    const schedule = leagueData.double_round_robin
-        ? generateDoubleRoundRobin(names)
-        : generateRoundRobin(names);
-    mergeResults(schedule, division.results);
+    let schedule;
+
+    // If results contain all fixtures (including unplayed), build schedule from them
+    // This supports custom formats like groups-of-3 with umpires
+    const hasPrebuiltSchedule = division.results && division.results.length > 0
+        && division.results.some(r => r.umpire || r.group);
+
+    if (hasPrebuiltSchedule) {
+        // Group results by round number to build schedule
+        const roundMap = {};
+        for (const r of division.results) {
+            const ri = r.round - 1;
+            if (!roundMap[ri]) roundMap[ri] = [];
+            roundMap[ri].push({
+                home: r.home,
+                away: r.away,
+                home_score: r.home_score,
+                away_score: r.away_score,
+                completed: r.home_score != null && r.away_score != null,
+                umpire: r.umpire || null,
+                group: r.group || null,
+            });
+        }
+        const maxRound = Math.max(...Object.keys(roundMap).map(Number));
+        schedule = [];
+        for (let i = 0; i <= maxRound; i++) {
+            schedule.push(roundMap[i] || []);
+        }
+    } else {
+        schedule = leagueData.double_round_robin
+            ? generateDoubleRoundRobin(names)
+            : generateRoundRobin(names);
+        mergeResults(schedule, division.results);
+    }
 
     const roundDates = division.round_dates || leagueData.round_dates || [];
     const finalsDate = division.finals_date || null;
