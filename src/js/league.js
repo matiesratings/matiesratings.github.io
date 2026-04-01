@@ -232,7 +232,11 @@ function renderFixtures(schedule, roundDates, finalsDate) {
             } else {
                 html += `<div class="fixture-vs">vs</div>`;
             }
-            html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div></div>`;
+            html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div>`;
+            if (m.umpire) {
+                html += `<div class="fixture-umpire" style="font-size:10px;color:#555;text-align:center;padding:2px 0;">Ump: ${m.umpire}</div>`;
+            }
+            html += `</div>`;
         }
         html += `</div></div>`;
     });
