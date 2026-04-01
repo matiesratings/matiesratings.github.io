@@ -5,35 +5,30 @@
   "description": "",
   "double_round_robin": false,
   "info": [
-    "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
-    "<strong>Match Times:</strong> Warmups from 18:15, first matches at 18:45, second round at 19:45",
-    "<strong>Match Format:</strong> Best of 7",
-    "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
-    "<strong>Entry:</strong> R250, EFT before 27 March",
-    "<strong>Prizes:</strong> Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists",
-    "<strong>Contact:</strong> League Coordinator \u2014 <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>",
-    "<strong>Rules:</strong><br>1. Be on time (10+ min late = forfeit)<br>2. Show up to matches (no-show = forfeit + R200 fine + 2 warnings)<br>3. No unsportsmanlike behaviour (warnings / fine / forfeit / expulsion)<br>4. Appropriate attire (no white shirts, dark soles, or distracting accessories)<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits with notice = expulsion from league<br>\u2022 No rescheduling unless approved by coordinator"
+    "<strong>Season:</strong> 2026",
+    "<strong>Match Format:</strong> Best of 7 (first to 4 games)",
+    "<strong>Venue:</strong> Maties Table Tennis Club, Coetzenburg"
   ],
   "sponsor": {
     "name": "Smart Operator AI",
     "url": "https://www.smart-operator.ai/",
-    "logo": ""
+    "logo": "/src/img/smart_operator_logo.png"
   },
   "divisions": [
     {
       "id": "premier_division",
       "name": "Premier Division",
       "players": [
-        "Dirk Coetzee",
-        "Le Roux Strydom",
-        "Tayla Bailey",
-        "Steffan Brundyn",
         "Tian Louw",
         "Kirshwan Steyn",
         "Shane Overmeyer",
         "Joshua Du Plooy",
         "David Nwafor",
-        "DJ Swanevelder"
+        "DJ Swanevelder",
+        "Dirk Coetzee",
+        "Le Roux Strydom",
+        "Tayla Bailey",
+        "Steffan Brundyn"
       ],
       "results": []
     },
