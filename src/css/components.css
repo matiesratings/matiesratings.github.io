@@ -1688,6 +1688,14 @@ th {
     padding: var(--spacing-sm) var(--spacing-md);
 }
 
+.league-table th.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+.league-table th.sortable:hover {
+    color: var(--color-primary-light);
+}
+
 .league-team-name {
     white-space: nowrap;
     overflow: hidden;
