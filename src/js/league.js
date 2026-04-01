@@ -172,18 +172,54 @@ function formatDate(dateStr) {
     return d.toLocaleDateString("en-ZA", { weekday: "short", day: "numeric", month: "short" });
 }
 
-function renderTeamStandings(standings) {
+let _lastStandings = [];
+let _sortCol = "default";
+let _sortAsc = false;
+
+function sortStandingsBy(col) {
+    if (_sortCol === col) { _sortAsc = !_sortAsc; }
+    else { _sortCol = col; _sortAsc = false; }
+
+    const sorted = [..._lastStandings].sort((a, b) => {
+        let va, vb;
+        switch (col) {
+            case "name": va = a.name; vb = b.name; return _sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+            case "played": va = a.played; vb = b.played; break;
+            case "won": va = a.won; vb = b.won; break;
+            case "lost": va = a.lost; vb = b.lost; break;
+            case "mf": va = a.mf; vb = b.mf; break;
+            case "ma": va = a.ma; vb = b.ma; break;
+            case "gf": va = a.gf || 0; vb = b.gf || 0; break;
+            case "ga": va = a.ga || 0; vb = b.ga || 0; break;
+            case "diff": va = a.mf - a.ma; vb = b.mf - b.ma; break;
+            case "gdiff": va = (a.gf || 0) - (a.ga || 0); vb = (b.gf || 0) - (b.ga || 0); break;
+            case "points": va = a.points; vb = b.points; break;
+            case "rating": va = ratingsMap[a.name] || 0; vb = ratingsMap[b.name] || 0; break;
+            default: return 0;
+        }
+        return _sortAsc ? va - vb : vb - va;
+    });
+    renderTeamStandings(sorted, true);
+}
+
+function renderTeamStandings(standings, isResort) {
+    if (!isResort) { _lastStandings = standings; _sortCol = "default"; }
     const el = document.getElementById("team-standings");
     if (!el) return;
     const label = isIndividual ? "Player" : "Team";
     const forLabel = isIndividual ? "GF" : "MF";
     const againstLabel = isIndividual ? "GA" : "MA";
     const showRating = isIndividual;
+    const arrow = (col) => _sortCol === col ? (_sortAsc ? " ▲" : " ▼") : "";
     let html = `<table class="league-table"><thead><tr>
-        <th>#</th><th class="text-left">${label}</th>
-        ${showRating ? '<th>Rating</th>' : ''}
-        <th>P</th><th>W</th><th>L</th>
-        <th class="mobile-hidden-col">${forLabel}</th><th class="mobile-hidden-col">${againstLabel}</th><th>Pts</th>
+        <th>#</th><th class="text-left sortable" onclick="sortStandingsBy('name')">${label}${arrow("name")}</th>
+        ${showRating ? `<th class="sortable" onclick="sortStandingsBy('rating')">Rating${arrow("rating")}</th>` : ''}
+        <th class="sortable" onclick="sortStandingsBy('played')">P${arrow("played")}</th>
+        <th class="sortable" onclick="sortStandingsBy('won')">W${arrow("won")}</th>
+        <th class="sortable" onclick="sortStandingsBy('lost')">L${arrow("lost")}</th>
+        <th class="mobile-hidden-col sortable" onclick="sortStandingsBy('mf')">${forLabel}${arrow("mf")}</th>
+        <th class="mobile-hidden-col sortable" onclick="sortStandingsBy('ma')">${againstLabel}${arrow("ma")}</th>
+        <th class="sortable" onclick="sortStandingsBy('points')">Pts${arrow("points")}</th>
     </tr></thead><tbody>`;
     standings.forEach((t, i) => {
         const nameCell = isIndividual ? playerLink(t.name) : t.name;
