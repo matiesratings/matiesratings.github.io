@@ -2,649 +2,72 @@
   "league_name": "Champions League",
   "season": "2026",
   "type": "individual",
-  "auth": { "user": "clleague", "pass": "cl2026" },
-  "double_round_robin": true,
-  "sponsor": {
-    "name": "Smart Operator AI",
-    "url": "https://www.smart-operator.ai/",
-    "linkedin": "https://www.linkedin.com/company/smart-operator-ai/posts/?feedView=all",
-    "logo": "/src/img/smart_operator_logo.png",
-    "banner": "/src/img/smart_operator_banner.png"
-  },
+  "description": "",
+  "double_round_robin": false,
   "info": [
     "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
     "<strong>Match Times:</strong> Warmups from 18:15, first matches at 18:45, second round at 19:45",
     "<strong>Match Format:</strong> Best of 7",
-    "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
+    "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
     "<strong>Entry:</strong> R250, EFT before 27 March",
     "<strong>Prizes:</strong> Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists",
-    "<strong>Contact:</strong> League Coordinator — <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>",
-    "<strong>Rules:</strong><br>1. Be on time (10+ min late = forfeit)<br>2. Show up to matches (no-show = forfeit + R200 fine + 2 warnings)<br>3. No unsportsmanlike behaviour (warnings / fine / forfeit / expulsion)<br>4. Appropriate attire (no white shirts, dark soles, or distracting accessories)<br>• 3 warnings = expulsion from league<br>• 3 forfeits with notice = expulsion from league<br>• No rescheduling unless approved by coordinator"
+    "<strong>Contact:</strong> League Coordinator \u2014 <a href=\"mailto:tianlouw53@gmail.com\">tianlouw53@gmail.com</a>",
+    "<strong>Rules:</strong><br>1. Be on time (10+ min late = forfeit)<br>2. Show up to matches (no-show = forfeit + R200 fine + 2 warnings)<br>3. No unsportsmanlike behaviour (warnings / fine / forfeit / expulsion)<br>4. Appropriate attire (no white shirts, dark soles, or distracting accessories)<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits with notice = expulsion from league<br>\u2022 No rescheduling unless approved by coordinator"
   ],
+  "sponsor": {
+    "name": "Smart Operator AI",
+    "url": "https://www.smart-operator.ai/",
+    "logo": ""
+  },
   "divisions": [
     {
-      "id": "premier",
+      "id": "premier_division",
       "name": "Premier Division",
-      "round_dates": [
-        "2026-04-10",
-        "2026-04-10",
-        "2026-04-17",
-        "2026-04-17",
-        "2026-04-24",
-        "2026-04-24",
-        "2026-05-08",
-        "2026-05-08",
-        "2026-05-15",
-        "2026-05-15",
-        "2026-05-22",
-        "2026-05-29",
-        "2026-07-24",
-        "2026-07-31"
-      ],
       "players": [
+        "Dirk Coetzee",
+        "Le Roux Strydom",
+        "Tayla Bailey",
+        "Steffan Brundyn",
         "Tian Louw",
-        "Ruhan Memory",
-        "Brendan de Wet",
-        "Stephan Kleinhans",
-        "Jacques Malan",
-        "Divan Nortje",
-        "Keagan Roodt",
-        "PW van der Westhuizen"
+        "Kirshwan Steyn",
+        "Shane Overmeyer",
+        "Joshua Du Plooy",
+        "David Nwafor",
+        "DJ Swanevelder"
       ],
-      "results": [
-        {
-          "round": 1,
-          "home": "Tian Louw",
-          "away": "PW van der Westhuizen",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 1,
-          "home": "Ruhan Memory",
-          "away": "Keagan Roodt",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 1,
-          "home": "Brendan de Wet",
-          "away": "Divan Nortje",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 1,
-          "home": "Stephan Kleinhans",
-          "away": "Jacques Malan",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 2,
-          "home": "Tian Louw",
-          "away": "Keagan Roodt",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 2,
-          "home": "PW van der Westhuizen",
-          "away": "Divan Nortje",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 2,
-          "home": "Ruhan Memory",
-          "away": "Jacques Malan",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 2,
-          "home": "Brendan de Wet",
-          "away": "Stephan Kleinhans",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 3,
-          "home": "Tian Louw",
-          "away": "Divan Nortje",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 3,
-          "home": "Keagan Roodt",
-          "away": "Jacques Malan",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 3,
-          "home": "PW van der Westhuizen",
-          "away": "Stephan Kleinhans",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 3,
-          "home": "Ruhan Memory",
-          "away": "Brendan de Wet",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 4,
-          "home": "Tian Louw",
-          "away": "Jacques Malan",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 4,
-          "home": "Divan Nortje",
-          "away": "Stephan Kleinhans",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 4,
-          "home": "Keagan Roodt",
-          "away": "Brendan de Wet",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "PW van der Westhuizen",
-          "away": "Ruhan Memory",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 5,
-          "home": "Tian Louw",
-          "away": "Stephan Kleinhans",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 5,
-          "home": "Jacques Malan",
-          "away": "Brendan de Wet",
-          "home_score": 4,
-          "away_score": 1
-        }
-      ]
+      "results": []
     },
     {
-      "id": "first",
+      "id": "1st_division",
       "name": "1st Division",
-      "round_dates": [
-        "2026-04-10",
-        "2026-04-10",
-        "2026-04-17",
-        "2026-04-17",
-        "2026-04-24",
-        "2026-04-24",
-        "2026-05-08",
-        "2026-05-08",
-        "2026-05-15",
-        "2026-05-15",
-        "2026-05-22",
-        "2026-05-29",
-        "2026-07-24",
-        "2026-07-31"
-      ],
       "players": [
-        "Albertus Steenkamp",
-        "Jayden Francis",
-        "Cornel Botha",
-        "Shaun Gildenhuys",
-        "Marius le Roux",
-        "Jan-Hendrik Erasmus",
-        "Dewald van Niekerk",
-        "Tiaan Swart"
+        "Benje Bester",
+        "Finn Kahn",
+        "TJ Sabad",
+        "Amien Phillips",
+        "Simon van der Merwe",
+        "Gajen Chetty",
+        "Cetinhan Celik",
+        "Duwayne Petersen",
+        "Gustav Becker"
       ],
-      "results": [
-        {
-          "round": 1,
-          "home": "Albertus Steenkamp",
-          "away": "Tiaan Swart",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 1,
-          "home": "Jayden Francis",
-          "away": "Dewald van Niekerk",
-          "home_score": 1,
-          "away_score": 4
-        },
-        {
-          "round": 1,
-          "home": "Cornel Botha",
-          "away": "Jan-Hendrik Erasmus",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 1,
-          "home": "Shaun Gildenhuys",
-          "away": "Marius le Roux",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 2,
-          "home": "Albertus Steenkamp",
-          "away": "Dewald van Niekerk",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 2,
-          "home": "Tiaan Swart",
-          "away": "Jan-Hendrik Erasmus",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 2,
-          "home": "Jayden Francis",
-          "away": "Marius le Roux",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 2,
-          "home": "Cornel Botha",
-          "away": "Shaun Gildenhuys",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 3,
-          "home": "Albertus Steenkamp",
-          "away": "Jan-Hendrik Erasmus",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 3,
-          "home": "Dewald van Niekerk",
-          "away": "Marius le Roux",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 3,
-          "home": "Tiaan Swart",
-          "away": "Shaun Gildenhuys",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 3,
-          "home": "Jayden Francis",
-          "away": "Cornel Botha",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Albertus Steenkamp",
-          "away": "Marius le Roux",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 4,
-          "home": "Jan-Hendrik Erasmus",
-          "away": "Shaun Gildenhuys",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Dewald van Niekerk",
-          "away": "Cornel Botha",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 4,
-          "home": "Tiaan Swart",
-          "away": "Jayden Francis",
-          "home_score": 4,
-          "away_score": 2
-        }
-      ]
+      "results": []
     },
     {
-      "id": "second",
+      "id": "2nd_division",
       "name": "2nd Division",
-      "round_dates": [
-        "2026-04-10",
-        "2026-04-10",
-        "2026-04-17",
-        "2026-04-17",
-        "2026-04-24",
-        "2026-04-24",
-        "2026-05-08",
-        "2026-05-08",
-        "2026-05-15",
-        "2026-05-15",
-        "2026-05-22",
-        "2026-05-22",
-        "2026-05-29",
-        "2026-05-29",
-        "2026-07-24",
-        "2026-07-24",
-        "2026-07-31",
-        "2026-07-31"
-      ],
       "players": [
-        "Rikus Potgieter",
-        "Daneel Pretorius",
-        "Liam van Zyl",
-        "Christian Muller",
-        "Gustav Schoeman",
-        "Francois Strydom",
-        "Jean du Plessis",
-        "Ethan Joubert",
-        "Connor Adams",
-        "Barend Viljoen"
+        "Timothy Prinsloo",
+        "Joshua Davids",
+        "Jaidyn Nel",
+        "Phenyo Tongwane",
+        "Riley Brown",
+        "Bevan Fortune",
+        "Carmen Harris",
+        "Juan Engelbrecht",
+        "Andria van Tonder"
       ],
-      "results": [
-        {
-          "round": 1,
-          "home": "Rikus Potgieter",
-          "away": "Barend Viljoen",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 1,
-          "home": "Daneel Pretorius",
-          "away": "Connor Adams",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 1,
-          "home": "Liam van Zyl",
-          "away": "Ethan Joubert",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 1,
-          "home": "Christian Muller",
-          "away": "Jean du Plessis",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 1,
-          "home": "Gustav Schoeman",
-          "away": "Francois Strydom",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 2,
-          "home": "Rikus Potgieter",
-          "away": "Connor Adams",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 2,
-          "home": "Barend Viljoen",
-          "away": "Ethan Joubert",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 2,
-          "home": "Daneel Pretorius",
-          "away": "Jean du Plessis",
-          "home_score": 1,
-          "away_score": 4
-        },
-        {
-          "round": 2,
-          "home": "Liam van Zyl",
-          "away": "Francois Strydom",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 2,
-          "home": "Christian Muller",
-          "away": "Gustav Schoeman",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 3,
-          "home": "Rikus Potgieter",
-          "away": "Ethan Joubert",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 3,
-          "home": "Connor Adams",
-          "away": "Jean du Plessis",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 3,
-          "home": "Barend Viljoen",
-          "away": "Francois Strydom",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 3,
-          "home": "Daneel Pretorius",
-          "away": "Gustav Schoeman",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 3,
-          "home": "Liam van Zyl",
-          "away": "Christian Muller",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Rikus Potgieter",
-          "away": "Jean du Plessis",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 4,
-          "home": "Ethan Joubert",
-          "away": "Francois Strydom",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 4,
-          "home": "Connor Adams",
-          "away": "Gustav Schoeman",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Barend Viljoen",
-          "away": "Christian Muller",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 4,
-          "home": "Daneel Pretorius",
-          "away": "Liam van Zyl",
-          "home_score": 4,
-          "away_score": 0
-        }
-      ]
-    },
-    {
-      "id": "womens",
-      "name": "Women's Division",
-      "round_dates": [
-        "2026-04-10",
-        "2026-04-10",
-        "2026-04-17",
-        "2026-04-17",
-        "2026-04-24",
-        "2026-04-24",
-        "2026-05-08",
-        "2026-05-08",
-        "2026-05-15",
-        "2026-05-15",
-        "2026-05-22",
-        "2026-05-29",
-        "2026-07-24",
-        "2026-07-31"
-      ],
-      "players": [
-        "Elmari Booysen",
-        "Tamzin Petersen",
-        "Lize-Mari Jansen",
-        "Anke Rossouw",
-        "Megan van der Merwe",
-        "Karla de Villiers",
-        "Thandi Nkosi",
-        "Nicole Swart"
-      ],
-      "results": [
-        {
-          "round": 1,
-          "home": "Elmari Booysen",
-          "away": "Nicole Swart",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 1,
-          "home": "Tamzin Petersen",
-          "away": "Thandi Nkosi",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 1,
-          "home": "Lize-Mari Jansen",
-          "away": "Karla de Villiers",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 1,
-          "home": "Anke Rossouw",
-          "away": "Megan van der Merwe",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 2,
-          "home": "Elmari Booysen",
-          "away": "Thandi Nkosi",
-          "home_score": 4,
-          "away_score": 0
-        },
-        {
-          "round": 2,
-          "home": "Nicole Swart",
-          "away": "Karla de Villiers",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 2,
-          "home": "Tamzin Petersen",
-          "away": "Megan van der Merwe",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 2,
-          "home": "Lize-Mari Jansen",
-          "away": "Anke Rossouw",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 3,
-          "home": "Elmari Booysen",
-          "away": "Karla de Villiers",
-          "home_score": 4,
-          "away_score": 2
-        },
-        {
-          "round": 3,
-          "home": "Thandi Nkosi",
-          "away": "Megan van der Merwe",
-          "home_score": 1,
-          "away_score": 4
-        },
-        {
-          "round": 3,
-          "home": "Nicole Swart",
-          "away": "Anke Rossouw",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 3,
-          "home": "Tamzin Petersen",
-          "away": "Lize-Mari Jansen",
-          "home_score": 3,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Elmari Booysen",
-          "away": "Megan van der Merwe",
-          "home_score": 4,
-          "away_score": 1
-        },
-        {
-          "round": 4,
-          "home": "Karla de Villiers",
-          "away": "Anke Rossouw",
-          "home_score": 4,
-          "away_score": 3
-        },
-        {
-          "round": 4,
-          "home": "Thandi Nkosi",
-          "away": "Lize-Mari Jansen",
-          "home_score": 2,
-          "away_score": 4
-        },
-        {
-          "round": 4,
-          "home": "Nicole Swart",
-          "away": "Tamzin Petersen",
-          "home_score": 4,
-          "away_score": 2
-        }
-      ]
+      "results": []
     }
   ]
 }
