@@ -69,7 +69,7 @@ function mergeResults(schedule, results) {
 function computeStandings(schedule, names) {
     const stats = {};
     for (const name of names) {
-        stats[name] = { name, played: 0, won: 0, lost: 0, points: 0, mf: 0, ma: 0 };
+        stats[name] = { name, played: 0, won: 0, lost: 0, points: 0, mf: 0, ma: 0, gf: 0, ga: 0 };
     }
     for (const round of schedule) {
         for (const m of round) {
@@ -81,12 +81,27 @@ function computeStandings(schedule, names) {
             a.mf += m.away_score; a.ma += m.home_score;
             if (m.home_score > m.away_score) { h.won++; h.points += 2; a.lost++; }
             else { a.won++; a.points += 2; h.lost++; }
+            // Accumulate individual game scores from matches (rubbers)
+            if (m.matches) {
+                for (const rm of m.matches) {
+                    h.gf += (rm.home_games || 0);
+                    h.ga += (rm.away_games || 0);
+                    a.gf += (rm.away_games || 0);
+                    a.ga += (rm.home_games || 0);
+                }
+            }
         }
     }
+    // Sort: Pts → MF-MA → GF-GA → rating (looked up from global ratingsData)
     return Object.values(stats).sort((a, b) => {
         if (b.points !== a.points) return b.points - a.points;
         if ((b.mf - b.ma) !== (a.mf - a.ma)) return (b.mf - b.ma) - (a.mf - a.ma);
-        return b.mf - a.mf;
+        if ((b.gf - b.ga) !== (a.gf - a.ga)) return (b.gf - b.ga) - (a.gf - a.ga);
+        // Rating tiebreaker
+        const ar = ratingsMap[a.name] || 0;
+        const br = ratingsMap[b.name] || 0;
+        if (br !== ar) return br - ar;
+        return a.name.localeCompare(b.name);
     });
 }
 
