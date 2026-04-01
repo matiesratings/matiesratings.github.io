@@ -2,8 +2,8 @@
   "league_name": "Champions League",
   "season": "2026",
   "type": "individual",
-  "description": null,
-  "double_round_robin": false,
+  "description": "",
+  "double_round_robin": true,
   "info": [],
   "sponsor": {
     "name": "Smart Operator AI",
@@ -17,19 +17,22 @@
       "id": "premier_division",
       "name": "Premier Division",
       "players": [],
-      "results": []
-    },
-    {
-      "id": "1st_division",
-      "name": "1st Division",
-      "players": [],
-      "results": []
+      "results": [],
+      "round_dates": []
     },
     {
       "id": "2nd_division",
       "name": "2nd Division",
       "players": [],
-      "results": []
+      "results": [],
+      "round_dates": []
+    },
+    {
+      "id": "1st_division",
+      "name": "1st Division",
+      "players": [],
+      "results": [],
+      "round_dates": []
     }
   ]
 }
