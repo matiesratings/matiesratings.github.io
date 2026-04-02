@@ -59,164 +59,204 @@
           "players": []
         }
       ],
-      "results": []
-    },
-    {
-      "id": "womens_a",
-      "name": "Women's Division A",
-      "round_dates": [
-        "2026-04-13",
-        "2026-04-20",
-        "2026-05-04",
-        "2026-07-20",
-        "2026-07-27",
-        "2026-08-03",
-        "2026-08-10"
-      ],
-      "finals_date": "2026-09-21",
-      "teams": [
+      "results": [
         {
-          "name": "Heemstede 1",
-          "players": []
+          "round": 7,
+          "home": "Dagbreek",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Heemstede 2",
-          "players": []
+          "round": 7,
+          "home": "Eendrag",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Huis ten Bosch",
-          "players": []
+          "round": 5,
+          "home": "Dagbreek",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Minerva",
-          "players": []
+          "round": 4,
+          "home": "Eendrag",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Monica",
-          "players": []
+          "round": 6,
+          "home": "Eendrag",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Nemesia",
-          "players": []
+          "round": 2,
+          "home": "Huis Visser",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Nerina",
-          "players": []
+          "round": 5,
+          "home": "Majuba",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Sonop",
-          "players": []
+          "round": 7,
+          "home": "Helshoogte",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Simonsberg",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dragons",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Majuba",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Dragons",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Majuba",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Majuba",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Helshoogte",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Huis Marais",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Simonsberg",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Huis Marais",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Huis Marais",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dragons",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis Marais",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Huis Visser",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dragons",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Helshoogte",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Eendrag",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Helshoogte",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
         }
-      ],
-      "results": []
-    },
-    {
-      "id": "womens_b",
-      "name": "Women's Division B",
-      "round_dates": [
-        "2026-04-15",
-        "2026-04-22",
-        "2026-04-29",
-        "2026-05-06",
-        "2026-07-22",
-        "2026-07-29",
-        "2026-08-05",
-        "2026-08-12",
-        "2026-08-19"
-      ],
-      "finals_date": "2026-09-21",
-      "teams": [
-        {
-          "name": "Erica",
-          "players": []
-        },
-        {
-          "name": "Heemstede",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "Lydia",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
-          "name": "Nemesia",
-          "players": []
-        },
-        {
-          "name": "Nerina",
-          "players": []
-        },
-        {
-          "name": "Serruria",
-          "players": []
-        },
-        {
-          "name": "Sonop",
-          "players": []
-        },
-        {
-          "name": "Tigers",
-          "players": []
-        }
-      ],
-      "results": []
-    },
-    {
-      "id": "mens_d",
-      "name": "Men's Division D",
-      "round_dates": [
-        "2026-04-16",
-        "2026-04-23",
-        "2026-04-30",
-        "2026-05-07",
-        "2026-07-23",
-        "2026-07-30",
-        "2026-08-06"
-      ],
-      "finals_date": "2026-09-22",
-      "teams": [
-        {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Dragons",
-          "players": []
-        },
-        {
-          "name": "Eendrag 1",
-          "players": []
-        },
-        {
-          "name": "Eendrag 2",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        },
-        {
-          "name": "Dagbreek 1",
-          "players": []
-        }
-      ],
-      "results": []
+      ]
     },
     {
       "id": "mens_b",
@@ -275,7 +315,1436 @@
           "players": []
         }
       ],
-      "results": []
+      "results": [
+        {
+          "round": 9,
+          "home": "Huis Marais",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis Marais",
+          "away": "Wilgenhof",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Helshoogte",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Eendrag",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Oude Molen",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Metanoia",
+          "away": "Wilgenhof",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Wilgenhof",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Metanoia",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Eendrag",
+          "away": "Oude Molen",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Helshoogte",
+          "away": "Oude Molen",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Helshoogte",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Majuba",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis Marais",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Huis Visser",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Helshoogte",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Simonsberg",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Wilgenhof",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Dagbreek",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Majuba",
+          "away": "Oude Molen",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Huis Visser",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Majuba",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Huis Visser",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Simonsberg",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Huis Marais",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Eendrag",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek",
+          "away": "Wilgenhof",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis Visser",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Metanoia",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Wilgenhof",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Helshoogte",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Oude Molen",
+          "away": "Wilgenhof",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Oude Molen",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek",
+          "away": "Oude Molen",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Wilgenhof",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Simonsberg",
+          "away": "Dagbreek",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Huis Visser",
+          "away": "Oude Molen",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis Visser",
+          "away": "Simonsberg",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Majuba",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Simonsberg",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Metanoia",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Oude Molen",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Dagbreek",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Eendrag",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Dagbreek",
+          "away": "Huis Marais",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Helshoogte",
+          "away": "Wilgenhof",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "mens_c",
+      "name": "Men's Division C",
+      "round_dates": [
+        "2026-04-14",
+        "2026-04-21",
+        "2026-04-28",
+        "2026-05-05",
+        "2026-07-21",
+        "2026-07-28",
+        "2026-08-04"
+      ],
+      "finals_date": "2026-09-22",
+      "teams": [
+        {
+          "name": "Dagbreek 1",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 1",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 2",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Pieke",
+          "players": []
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Helshoogte",
+          "away": "Huis Visser 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Huis Visser 1",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Eendrag",
+          "away": "Pieke",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Eendrag",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Pieke",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek 1",
+          "away": "Pieke",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Huis Visser 2",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek 2",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Majuba",
+          "away": "Huis Visser 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Dagbreek 2",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Helshoogte",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Eendrag",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Huis Visser 1",
+          "away": "Huis Visser 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek 1",
+          "away": "Huis Visser 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Majuba",
+          "away": "Pieke",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Dagbreek 1",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek 2",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Majuba",
+          "away": "Huis Visser 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Eendrag",
+          "away": "Huis Visser 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Huis Visser 2",
+          "away": "Pieke",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis Visser 1",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Helshoogte",
+          "away": "Huis Visser 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dagbreek 2",
+          "away": "Pieke",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Huis Visser 1",
+          "away": "Eendrag",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Pieke",
+          "away": "Huis Visser 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Majuba",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Helshoogte",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Dagbreek 1",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "mens_d",
+      "name": "Men's Division D",
+      "round_dates": [
+        "2026-04-16",
+        "2026-04-23",
+        "2026-04-30",
+        "2026-05-07",
+        "2026-07-23",
+        "2026-07-30",
+        "2026-08-06"
+      ],
+      "finals_date": "2026-09-22",
+      "teams": [
+        {
+          "name": "Eendrag 2",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 1",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Dragons",
+          "players": []
+        },
+        {
+          "name": "Eendrag 1",
+          "players": []
+        }
+      ],
+      "results": [
+        {
+          "round": 2,
+          "home": "Eendrag 1",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis Visser",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Eendrag 2",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek 2",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Dagbreek 1",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Eendrag 1",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Huis Visser",
+          "away": "Eendrag 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Majuba",
+          "away": "Eendrag 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Huis Visser",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Eendrag 1",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Eendrag 2",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dagbreek 2",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Eendrag 2",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dragons",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Eendrag 2",
+          "away": "Dragons",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dragons",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Dagbreek 2",
+          "away": "Eendrag 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Majuba",
+          "away": "Eendrag 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dagbreek 1",
+          "away": "Helshoogte",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Dragons",
+          "away": "Dagbreek 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek 2",
+          "away": "Huis Visser",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Huis Visser",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Dagbreek 1",
+          "away": "Eendrag 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Helshoogte",
+          "away": "Dagbreek 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dagbreek 1",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Helshoogte",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Dragons",
+          "away": "Majuba",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Eendrag 1",
+          "away": "Eendrag 2",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "womens_a",
+      "name": "Women's Division A",
+      "round_dates": [
+        "2026-04-13",
+        "2026-04-20",
+        "2026-05-04",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-10"
+      ],
+      "finals_date": "2026-09-21",
+      "teams": [
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Monica",
+          "players": []
+        },
+        {
+          "name": "Nemesia",
+          "players": []
+        },
+        {
+          "name": "Nerina",
+          "players": []
+        },
+        {
+          "name": "Sonop",
+          "players": []
+        },
+        {
+          "name": "Heemstede 1",
+          "players": []
+        },
+        {
+          "name": "Heemstede 2",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        }
+      ],
+      "results": [
+        {
+          "round": 2,
+          "home": "Monica",
+          "away": "Heemstede 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Nerina",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Heemstede 2",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Monica",
+          "away": "Heemstede 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Sonop",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Nerina",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nerina",
+          "away": "Heemstede 1",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Monica",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Heemstede 1",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis ten Bosch",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Minerva",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Sonop",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Minerva",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Heemstede 1",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Monica",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Heemstede 2",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Heemstede 1",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Heemstede 2",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Huis ten Bosch",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Heemstede 1",
+          "away": "Heemstede 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nemesia",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nerina",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Minerva",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Minerva",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Huis ten Bosch",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Heemstede 2",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Nemesia",
+          "away": "Heemstede 2",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis ten Bosch",
+          "away": "Heemstede 1",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "womens_b",
+      "name": "Women's Division B",
+      "round_dates": [
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29",
+        "2026-05-06",
+        "2026-07-22",
+        "2026-07-29",
+        "2026-08-05",
+        "2026-08-12",
+        "2026-08-19"
+      ],
+      "finals_date": "2026-09-21",
+      "teams": [
+        {
+          "name": "Erica",
+          "players": []
+        },
+        {
+          "name": "Heemstede",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
+          "name": "Lydia",
+          "players": []
+        },
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Nemesia",
+          "players": []
+        },
+        {
+          "name": "Nerina",
+          "players": []
+        },
+        {
+          "name": "Serruria",
+          "players": []
+        },
+        {
+          "name": "Sonop",
+          "players": []
+        },
+        {
+          "name": "Tigers",
+          "players": []
+        }
+      ],
+      "results": [
+        {
+          "round": 8,
+          "home": "Sonop",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Minerva",
+          "away": "Lydia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Erica",
+          "away": "Heemstede",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Minerva",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nerina",
+          "away": "Heemstede",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Nemesia",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Minerva",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Minerva",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Tigers",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Nemesia",
+          "away": "Serruria",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nemesia",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Lydia",
+          "away": "Tigers",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Lydia",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Minerva",
+          "away": "Erica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis ten Bosch",
+          "away": "Heemstede",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Huis ten Bosch",
+          "away": "Lydia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Tigers",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Tigers",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Serruria",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Heemstede",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Lydia",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Huis ten Bosch",
+          "away": "Tigers",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Erica",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Huis ten Bosch",
+          "away": "Erica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Sonop",
+          "away": "Erica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Heemstede",
+          "away": "Serruria",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Sonop",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Lydia",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis ten Bosch",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Serruria",
+          "away": "Sonop",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Heemstede",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Sonop",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Erica",
+          "away": "Lydia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Erica",
+          "away": "Serruria",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nerina",
+          "away": "Tigers",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Huis ten Bosch",
+          "away": "Serruria",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Tigers",
+          "away": "Heemstede",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Serruria",
+          "away": "Tigers",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Erica",
+          "away": "Tigers",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Nerina",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Serruria",
+          "away": "Lydia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Heemstede",
+          "away": "Lydia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nemesia",
+          "away": "Heemstede",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Minerva",
+          "away": "Serruria",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Nerina",
+          "away": "Erica",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
     },
     {
       "id": "womens_c",
@@ -330,56 +1799,260 @@
           "players": []
         }
       ],
-      "results": []
-    },
-    {
-      "id": "mens_c",
-      "name": "Men's Division C",
-      "round_dates": [
-        "2026-04-14",
-        "2026-04-21",
-        "2026-04-28",
-        "2026-05-05",
-        "2026-07-21",
-        "2026-07-28",
-        "2026-08-04"
-      ],
-      "finals_date": "2026-09-22",
-      "teams": [
+      "results": [
         {
-          "name": "Dagbreek 1",
-          "players": []
+          "round": 3,
+          "home": "Aristea",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Dagbreek 2",
-          "players": []
+          "round": 5,
+          "home": "Nemesia",
+          "away": "ISA",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Eendrag",
-          "players": []
+          "round": 8,
+          "home": "Harmonie",
+          "away": "ISA",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Helshoogte",
-          "players": []
+          "round": 2,
+          "home": "Monica",
+          "away": "Harmonie",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Huis Visser 1",
-          "players": []
+          "round": 5,
+          "home": "Nerina",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Huis Visser 2",
-          "players": []
+          "round": 1,
+          "home": "Metanoia",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Majuba",
-          "players": []
+          "round": 9,
+          "home": "Metanoia",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
         },
         {
-          "name": "Pieke",
-          "players": []
+          "round": 7,
+          "home": "Minerva",
+          "away": "Harmonie",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Monica",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nerina",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Huis ten Bosch",
+          "away": "ISA",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Nemesia",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Monica",
+          "away": "Aristea",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Huis ten Bosch",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "ISA",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Minerva",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Harmonie",
+          "away": "Metanoia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Huis ten Bosch",
+          "away": "Harmonie",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nemesia",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Minerva",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Aristea",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Aristea",
+          "away": "Harmonie",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Aristea",
+          "away": "ISA",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Metanoia",
+          "away": "Aristea",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Huis ten Bosch",
+          "away": "Aristea",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Minerva",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Metanoia",
+          "away": "Huis ten Bosch",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Nerina",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Harmonie",
+          "away": "Nemesia",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "ISA",
+          "away": "Minerva",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Harmonie",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nerina",
+          "away": "Aristea",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "ISA",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Huis ten Bosch",
+          "away": "Monica",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Metanoia",
+          "away": "ISA",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Metanoia",
+          "away": "Nerina",
+          "home_score": null,
+          "away_score": null
         }
-      ],
-      "results": []
+      ]
     }
   ]
 }
