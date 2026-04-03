@@ -6,8 +6,9 @@
 
 let leagueData = null;
 let currentDivision = null;
-let currentView = "standings";
+let currentView = "fixtures";
 let lastCompletedRoundIdx = -1;
+let nextUpcomingRoundIdx = -1;
 let isIndividual = false;
 let ratingsMap = {}; // name → rating
 
@@ -213,9 +214,16 @@ function renderFixtures(schedule, roundDates, finalsDate) {
     const el = document.getElementById("fixtures-container");
     if (!el) return -1;
     let html = "", last = -1;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    let nextUpcoming = -1;
     schedule.forEach((round, idx) => {
         if (round.some(m => m.completed)) last = idx;
         const date = roundDates[idx] || null;
+        if (nextUpcoming < 0 && date) {
+            const roundDate = new Date(date + "T00:00:00");
+            if (roundDate >= today) nextUpcoming = idx;
+        }
         html += `<div class="fixture-round" id="fixture-round-${idx}">
             <div class="fixture-round-header">
                 <span class="fixture-round-title">Round ${idx + 1}</span>
@@ -275,12 +283,15 @@ function renderFixtures(schedule, roundDates, finalsDate) {
     }
 
     el.innerHTML = html;
+    nextUpcomingRoundIdx = nextUpcoming;
     return last;
 }
 
-function scrollToLatestFixture(idx) {
-    if (idx < 0) return;
-    const el = document.getElementById("fixture-round-" + idx);
+function scrollToCurrentFixture() {
+    // Prefer next upcoming round by date, fall back to last completed
+    const target = nextUpcomingRoundIdx >= 0 ? nextUpcomingRoundIdx : lastCompletedRoundIdx;
+    if (target < 0) return;
+    const el = document.getElementById("fixture-round-" + target);
     if (el) setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "center" }), 100);
 }
 
@@ -385,7 +396,7 @@ function switchView(view) {
     document.getElementById("standings-container").classList.toggle("hidden", view !== "standings");
     document.getElementById("fixtures-container").classList.toggle("hidden", view !== "fixtures");
     document.getElementById("rosters-container").classList.toggle("hidden", view !== "rosters");
-    if (view === "fixtures") scrollToLatestFixture(lastCompletedRoundIdx);
+    if (view === "fixtures") scrollToCurrentFixture();
 }
 
 function switchStandingsSub(sub) {
@@ -511,7 +522,7 @@ function loadDivision(divisionId) {
     lastCompletedRoundIdx = renderFixtures(schedule, roundDates, finalsDate);
     renderRosters(division);
 
-    if (currentView === "fixtures") scrollToLatestFixture(lastCompletedRoundIdx);
+    if (currentView === "fixtures") scrollToCurrentFixture();
 }
 
 // ── Init ──
@@ -583,7 +594,7 @@ async function initLeague() {
     });
 
     setupInfoModal();
-    switchView("standings");
+    switchView("fixtures");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
