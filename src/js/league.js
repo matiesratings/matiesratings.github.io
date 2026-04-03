@@ -238,26 +238,64 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                 <span class="fixture-round-title">Round ${idx + 1}</span>
                 <span class="fixture-round-date">${formatDate(date)}</span>
             </div><div class="fixture-round-matches">`;
-        for (const m of round) {
-            const hw = m.completed && m.home_score > m.away_score;
-            const aw = m.completed && m.away_score > m.home_score;
-            const homeName = isIndividual ? playerLink(m.home) : m.home;
-            const awayName = isIndividual ? playerLink(m.away) : m.away;
-            html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
-                <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
-            if (m.completed) {
-                html += `<div class="fixture-score">
-                    <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
-                    <span class="score-separator">-</span>
-                    <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
-            } else {
-                html += `<div class="fixture-vs">vs</div>`;
+
+        // Check if this round has grouped matches (tables)
+        const hasGroups = round.some(m => m.group);
+        if (hasGroups) {
+            const tableOffset = currentDivision.table_offset || 0;
+            const groups = {};
+            for (const m of round) {
+                const g = m.group || 0;
+                if (!groups[g]) groups[g] = [];
+                groups[g].push(m);
             }
-            html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div>`;
-            if (m.umpire) {
-                html += `<div class="fixture-umpire" style="font-size:10px;color:#555;text-align:center;padding:2px 0;">Ump: ${m.umpire}</div>`;
+            for (const g of Object.keys(groups).sort((a, b) => a - b)) {
+                html += `<div class="fixture-group"><div class="fixture-group-header">Table ${parseInt(g) + tableOffset}</div>`;
+                for (const m of groups[g]) {
+                    const hw = m.completed && m.home_score > m.away_score;
+                    const aw = m.completed && m.away_score > m.home_score;
+                    const homeName = isIndividual ? playerLink(m.home) : m.home;
+                    const awayName = isIndividual ? playerLink(m.away) : m.away;
+                    html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
+                        <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
+                    if (m.completed) {
+                        html += `<div class="fixture-score">
+                            <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
+                            <span class="score-separator">-</span>
+                            <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
+                    } else {
+                        html += `<div class="fixture-vs">vs</div>`;
+                    }
+                    html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div>`;
+                    if (m.umpire) {
+                        html += `<div class="fixture-umpire">Ump: ${m.umpire}</div>`;
+                    }
+                    html += `</div>`;
+                }
+                html += `</div>`;
             }
-            html += `</div>`;
+        } else {
+            for (const m of round) {
+                const hw = m.completed && m.home_score > m.away_score;
+                const aw = m.completed && m.away_score > m.home_score;
+                const homeName = isIndividual ? playerLink(m.home) : m.home;
+                const awayName = isIndividual ? playerLink(m.away) : m.away;
+                html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
+                    <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
+                if (m.completed) {
+                    html += `<div class="fixture-score">
+                        <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
+                        <span class="score-separator">-</span>
+                        <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
+                } else {
+                    html += `<div class="fixture-vs">vs</div>`;
+                }
+                html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div>`;
+                if (m.umpire) {
+                    html += `<div class="fixture-umpire">Ump: ${m.umpire}</div>`;
+                }
+                html += `</div>`;
+            }
         }
         html += `</div></div>`;
     });
