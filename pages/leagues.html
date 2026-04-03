@@ -5,26 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leagues</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <style>
+        .leagues-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr)); gap:16px; padding:16px; max-width:1200px; margin:0 auto; }
+        .league-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; }
+        .league-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
+        .league-card h3 { margin:0 0 4px; font-size:18px; color:white; }
+        .league-card .league-meta { color:#888; font-size:13px; margin-bottom:12px; }
+        .league-card .league-leaders { display:flex; flex-direction:column; gap:6px; }
+        .league-leader-row { display:flex; justify-content:space-between; align-items:center; padding:4px 8px; background:#0a0a0a; border-radius:4px; border-left:3px solid maroon; }
+        .league-leader-div { color:#888; font-size:11px; font-weight:600; }
+        .league-leader-name { color:#fff; font-size:13px; font-weight:500; }
+        .league-leader-pts { color:#4ade80; font-size:11px; font-weight:bold; }
+        .league-status { display:inline-block; padding:3px 10px; border-radius:12px; font-size:11px; font-weight:bold; margin-bottom:10px; background:maroon; color:white; }
+    </style>
 </head>
 <body>
     <div id="header-placeholder"></div>
     <div class="event-section">
-        <div id="leagues-container">
-            <!-- <button class="event" onclick="location.href='/pages/league.html?league=champions_league'">
-                Champions League 2026
-            </button> -->
-            <button class="event" onclick="location.href='/pages/league.html?league=maties_res_league'">
-                Maties Res League 2026
-            </button>
-        </div>
+        <div class="leagues-grid" id="leagues-grid"></div>
     </div>
 
     <script src="/src/js/utils.js"></script>
     <script>
+        const LEAGUES = [
+            { id: "champions_league", name: "Champions League", season: "2026" },
+            { id: "maties_res_league", name: "Maties Res League", season: "2026" },
+        ];
+
+        function computeLeader(division, isDoubleRR) {
+            const teams = division.teams || (division.players || []).map(p => ({ name: p, players: [p] }));
+            const names = teams.map(t => t.name);
+            const stats = {};
+            for (const n of names) stats[n] = { name: n, points: 0, mf: 0, ma: 0 };
+
+            // Use results directly
+            for (const r of (division.results || [])) {
+                if (r.home_score == null || r.away_score == null) continue;
+                const h = stats[r.home], a = stats[r.away];
+                if (!h || !a) continue;
+                h.mf += r.home_score; h.ma += r.away_score;
+                a.mf += r.away_score; a.ma += r.home_score;
+                if (r.home_score > r.away_score) h.points += 2;
+                else a.points += 2;
+            }
+
+            const sorted = Object.values(stats).sort((a, b) => {
+                if (b.points !== a.points) return b.points - a.points;
+                return (b.mf - b.ma) - (a.mf - a.ma);
+            });
+            return sorted[0] || null;
+        }
+
+        function getDivLabel(div) {
+            const id = div.id || "";
+            const mw = id.match(/^(?:mens|womens)_([a-z])$/);
+            if (mw) return mw[1].toUpperCase();
+            if (id === "premier" || id === "premier_division") return "Prem";
+            if (id === "first" || id === "1st_division") return "1st";
+            if (id === "second" || id === "2nd_division") return "2nd";
+            if (id === "third" || id === "3rd_division") return "3rd";
+            return div.name;
+        }
+
+        function hasGenderDivisions(data) {
+            return data.divisions.some(d => (d.id || "").startsWith("mens_") || (d.id || "").startsWith("womens_"));
+        }
+
+        async function loadLeagues() {
+            const grid = document.getElementById("leagues-grid");
+
+            for (const league of LEAGUES) {
+                try {
+                    const res = await fetch(`/src/data/league/${league.id}.json`);
+                    if (!res.ok) continue;
+                    const data = await res.json();
+
+                    const isGender = hasGenderDivisions(data);
+                    let leadersHtml = "";
+
+                    if (isGender) {
+                        // Group by gender, show leaders per gender
+                        for (const gender of ["mens", "womens"]) {
+                            const divs = data.divisions.filter(d => (d.id || "").startsWith(gender + "_"));
+                            if (divs.length === 0) continue;
+                            const genderLabel = gender === "mens" ? "Men's" : "Women's";
+                            leadersHtml += `<div style="font-size:11px;color:#666;font-weight:600;margin-top:6px;margin-bottom:2px;">${genderLabel}</div>`;
+                            for (const div of divs) {
+                                const leader = computeLeader(div, data.double_round_robin);
+                                if (!leader || leader.points === 0) continue;
+                                leadersHtml += `<div class="league-leader-row">
+                                    <span class="league-leader-div">${getDivLabel(div)}</span>
+                                    <span class="league-leader-name">${leader.name}</span>
+                                    <span class="league-leader-pts">${leader.points} pts</span>
+                                </div>`;
+                            }
+                        }
+                    } else {
+                        for (const div of data.divisions) {
+                            const leader = computeLeader(div, data.double_round_robin);
+                            if (!leader || leader.points === 0) continue;
+                            leadersHtml += `<div class="league-leader-row">
+                                <span class="league-leader-div">${getDivLabel(div)}</span>
+                                <span class="league-leader-name">${leader.name}</span>
+                                <span class="league-leader-pts">${leader.points} pts</span>
+                            </div>`;
+                        }
+                    }
+
+                    const card = document.createElement("div");
+                    card.className = "league-card";
+                    card.onclick = () => location.href = `/pages/league.html?league=${league.id}`;
+                    card.innerHTML = `
+                        <h3>${data.league_name} ${data.season || ""}</h3>
+                        <p class="league-meta">${data.type === "team" ? "Team League" : "Individual League"} · ${data.divisions.length} divisions</p>
+                        <span class="league-status">In Progress</span>
+                        ${leadersHtml ? `<div class="league-leaders">${leadersHtml}</div>` : '<p style="color:#555;font-size:12px;">No results yet</p>'}
+                    `;
+                    grid.appendChild(card);
+                } catch { /* skip failed leagues */ }
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", function () {
             loadInclude("header-placeholder", "/components/header.html");
             setupNavCloseOnOutsideClick();
             setHeaderTitle("Leagues");
+            loadLeagues();
         });
     </script>
 </body>
