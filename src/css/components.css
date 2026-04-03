@@ -1250,7 +1250,10 @@ th {
     width: 100%;
     border-collapse: collapse;
     margin-top: var(--spacing-sm);
-    font-size: clamp(11px, 2vw, 14px);
+    font-size: clamp(11px, 2vw, 13px);
+    table-layout: fixed;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .league-info-modal-body .info-table th,
 .league-info-modal-body .info-table td {
@@ -1258,6 +1261,16 @@ th {
     padding: var(--spacing-xs) var(--spacing-sm);
     text-align: left;
     vertical-align: top;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.league-info-modal-body .info-table th:first-child,
+.league-info-modal-body .info-table td:first-child {
+    width: 25%;
+}
+.league-info-modal-body .info-table th:last-child,
+.league-info-modal-body .info-table td:last-child {
+    width: 30%;
 }
 .league-info-modal-body .info-table th {
     background-color: var(--color-primary);
@@ -1763,8 +1776,21 @@ th {
     padding: var(--spacing-sm) var(--spacing-md);
     border-bottom: 1px solid var(--color-border);
     gap: var(--spacing-sm);
-    flex-wrap: nowrap;
-    position: relative;
+}
+
+/* Inside table groups: left-align match, right-align umpire */
+.fixture-group .fixture-card {
+    justify-content: flex-start;
+}
+.fixture-group .fixture-team {
+    flex: 0 1 auto;
+}
+.fixture-group .fixture-vs,
+.fixture-group .fixture-score {
+    min-width: auto;
+}
+.fixture-group .fixture-umpire {
+    margin-left: auto;
 }
 
 .fixture-card:last-child {
@@ -1838,13 +1864,12 @@ th {
     border-bottom: 1px solid var(--color-border);
 }
 
-/* Umpire label — absolutely positioned so it doesn't affect match centering */
+/* Umpire label — sits in the flex row but doesn't shrink the match area */
 .fixture-umpire {
-    position: absolute;
-    right: var(--spacing-md);
     font-size: 10px;
     color: var(--color-text-secondary);
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 /* Roster Grid */
