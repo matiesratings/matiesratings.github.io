@@ -325,7 +325,7 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                 const homeName = playerLink(m.home);
                 const awayName = playerLink(m.away);
                 html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
-                    <span class="fixture-table-num">T${tableNum}</span>
+                    <span class="fixture-table-num">Table ${tableNum}</span>
                     <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
                 if (m.completed) {
                     html += `<div class="fixture-score">
