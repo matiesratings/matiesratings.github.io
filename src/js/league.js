@@ -413,7 +413,7 @@ function renderSponsor() {
 function renderInfoModal() {
     const body = document.getElementById("infoModalBody");
     if (!body || !leagueData.info) return;
-    body.innerHTML = leagueData.info.map(p => `<p>${p}</p>`).join("");
+    body.innerHTML = leagueData.info.map(p => `<div class="info-item">${p}</div>`).join("");
 }
 
 function setupInfoModal() {

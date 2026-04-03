@@ -1237,7 +1237,8 @@ th {
     line-height: 1.7;
 }
 
-.league-info-modal-body p {
+.league-info-modal-body p,
+.league-info-modal-body .info-item {
     margin: var(--spacing-sm) 0;
 }
 
@@ -1784,9 +1785,6 @@ th {
 }
 .fixture-group .fixture-team {
     flex: 0 1 auto;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: unset;
 }
 .fixture-group .fixture-vs,
 .fixture-group .fixture-score {
