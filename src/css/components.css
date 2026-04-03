@@ -1782,17 +1782,14 @@ th {
     gap: var(--spacing-sm);
 }
 
-/* Inside table groups: two-row layout — match on top, umpire below right */
+/* Inside table groups: centered match, umpire on second line */
 .fixture-group .fixture-card {
     flex-wrap: wrap;
     justify-content: center;
-    padding: var(--spacing-sm) var(--spacing-md);
+    padding: 6px var(--spacing-md);
 }
 .fixture-group .fixture-team {
     flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 .fixture-group .fixture-team:first-of-type {
     text-align: right;
@@ -1808,9 +1805,19 @@ th {
 .fixture-group .fixture-umpire {
     width: 100%;
     text-align: right;
-    margin-top: 2px;
-    font-size: 10px;
-    opacity: 0.5;
+    margin-top: -2px;
+    padding-bottom: 2px;
+    font-size: 9px;
+    opacity: 0.4;
+}
+@media (max-width: 500px) {
+    .fixture-group .fixture-team {
+        font-size: 12px;
+    }
+    .fixture-group .fixture-vs {
+        font-size: 11px;
+        min-width: 28px;
+    }
 }
 
 .fixture-card:last-child {
@@ -1894,11 +1901,11 @@ th {
 
 /* Table number label (premier) */
 .fixture-table-num {
-    font-size: 10px;
-    font-weight: 700;
+    font-size: 9px;
+    font-weight: 600;
     color: var(--color-text-secondary);
-    width: 46px;
-    min-width: 46px;
+    width: 20px;
+    min-width: 20px;
     flex-shrink: 0;
     text-align: left;
 }
