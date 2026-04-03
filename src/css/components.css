@@ -1250,7 +1250,7 @@ th {
     width: 100%;
     border-collapse: collapse;
     margin-top: var(--spacing-sm);
-    font-size: clamp(11px, 2vw, 13px);
+    font-size: clamp(9px, 1.8vw, 11px);
     table-layout: fixed;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -1784,6 +1784,9 @@ th {
 }
 .fixture-group .fixture-team {
     flex: 0 1 auto;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
 }
 .fixture-group .fixture-vs,
 .fixture-group .fixture-score {
