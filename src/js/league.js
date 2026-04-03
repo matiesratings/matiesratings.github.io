@@ -312,18 +312,20 @@ function renderFixtures(schedule, roundDates, finalsDate) {
             }
         } else if (round.length === 10 && isIndividual) {
             // Premier-style: 10 matches per round = two time slots of 5
-            // Sort by avg rating, dotted line between slot 1 (1-5) and slot 2 (6-10)
+            // Sort by avg rating, T1-T5 labels, dotted line between slots
             const ordered = orderByRatingWithT5Balance(round);
             for (let mi = 0; mi < ordered.length; mi++) {
                 if (mi === 5) {
                     html += `<div class="fixture-slot-divider"></div>`;
                 }
+                const tableNum = (mi % 5) + 1;
                 const m = ordered[mi];
                 const hw = m.completed && m.home_score > m.away_score;
                 const aw = m.completed && m.away_score > m.home_score;
                 const homeName = playerLink(m.home);
                 const awayName = playerLink(m.away);
                 html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
+                    <span class="fixture-table-num">T${tableNum}</span>
                     <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
                 if (m.completed) {
                     html += `<div class="fixture-score">
