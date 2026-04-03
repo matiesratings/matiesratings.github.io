@@ -1262,6 +1262,9 @@ th {
     padding: var(--spacing-xs) var(--spacing-sm);
     text-align: left;
     vertical-align: top;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
