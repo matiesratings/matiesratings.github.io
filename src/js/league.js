@@ -217,6 +217,7 @@ function renderFixtures(schedule, roundDates, finalsDate) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     let nextUpcoming = -1;
+    let prevDate = null;
     schedule.forEach((round, idx) => {
         if (round.some(m => m.completed)) last = idx;
         const date = roundDates[idx] || null;
@@ -224,6 +225,14 @@ function renderFixtures(schedule, roundDates, finalsDate) {
             const roundDate = new Date(date + "T00:00:00");
             if (roundDate >= today) nextUpcoming = idx;
         }
+        // Insert a break divider if there's a gap of more than 21 days between rounds
+        if (date && prevDate) {
+            const gap = new Date(date + "T00:00:00") - new Date(prevDate + "T00:00:00");
+            if (gap > 21 * 24 * 60 * 60 * 1000) {
+                html += `<div class="fixture-round fixture-break"><div class="fixture-round-header"><span class="fixture-round-title" style="opacity:0.5;font-style:italic;">— Break —</span></div></div>`;
+            }
+        }
+        if (date) prevDate = date;
         html += `<div class="fixture-round" id="fixture-round-${idx}">
             <div class="fixture-round-header">
                 <span class="fixture-round-title">Round ${idx + 1}</span>
