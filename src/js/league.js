@@ -11,6 +11,7 @@ let lastCompletedRoundIdx = -1;
 let nextUpcomingRoundIdx = -1;
 let isIndividual = false;
 let ratingsMap = {}; // name → rating
+let clubMap = {};    // name → club
 
 /** Helper: wrap a name in a player link */
 function playerLink(name) {
@@ -150,6 +151,7 @@ async function loadRatings() {
         // mixed-gender leagues like CL where table order needs all players
         for (const p of [...men, ...women, ...open]) {
             ratingsMap[p.name] = p.rating;
+            if (p.club) clubMap[p.name] = p.club;
         }
     } catch { /* ratings are optional */ }
 }
@@ -255,7 +257,15 @@ function splitIntoValidSlots(matches) {
     ];
 }
 
-/** Sort a slot's 5 matches by avg rating descending (T1=highest), with T5 fairness swap */
+/** Check if both players are from the same club (Maties vs Maties) */
+function isSameClub(m) {
+    const hClub = clubMap[m.home];
+    const aClub = clubMap[m.away];
+    return hClub && aClub && hClub === aClub;
+}
+
+/** Sort a slot's 5 matches by avg rating descending (T1=highest).
+ *  Maties-vs-Maties matches forced to T5; otherwise T5 fairness swap. */
 function assignTables(slot) {
     const sorted = [...slot].sort((a, b) => {
         const avgA = ((ratingsMap[a.home] || 0) + (ratingsMap[a.away] || 0)) / 2;
@@ -263,10 +273,19 @@ function assignTables(slot) {
         return avgB - avgA;
     });
     if (sorted.length === 5) {
-        const t5 = sorted[4], t4 = sorted[3];
-        const t5load = (t5Counts[t5.home] || 0) + (t5Counts[t5.away] || 0);
-        const t4load = (t5Counts[t4.home] || 0) + (t5Counts[t4.away] || 0);
-        if (t5load > t4load) { sorted[3] = t5; sorted[4] = t4; }
+        // If any match is same-club, force it to T5
+        const sameClubIdx = sorted.findIndex(m => isSameClub(m));
+        if (sameClubIdx >= 0 && sameClubIdx !== 4) {
+            const tmp = sorted[4];
+            sorted[4] = sorted[sameClubIdx];
+            sorted[sameClubIdx] = tmp;
+        } else if (sameClubIdx < 0) {
+            // No same-club match: do T5 fairness swap
+            const t5 = sorted[4], t4 = sorted[3];
+            const t5load = (t5Counts[t5.home] || 0) + (t5Counts[t5.away] || 0);
+            const t4load = (t5Counts[t4.home] || 0) + (t5Counts[t4.away] || 0);
+            if (t5load > t4load) { sorted[3] = t5; sorted[4] = t4; }
+        }
         t5Counts[sorted[4].home] = (t5Counts[sorted[4].home] || 0) + 1;
         t5Counts[sorted[4].away] = (t5Counts[sorted[4].away] || 0) + 1;
     }
