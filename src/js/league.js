@@ -214,47 +214,36 @@ function renderPlayerStandings(players) {
     el.innerHTML = html + `</tbody></table>`;
 }
 
-// ── Premier table assignment helpers ──
+// ── Premier table ordering helpers ──
 
-/** Split 10 matches into two groups of 5 where each player appears once per group */
-function splitIntoHalves(matches) {
-    const g1 = [], g2 = [];
-    const used1 = new Set();
-    // Greedy: try to put match in g1 if both players aren't there yet
-    for (const m of matches) {
-        if (g1.length < 5 && !used1.has(m.home) && !used1.has(m.away)) {
-            g1.push(m);
-            used1.add(m.home);
-            used1.add(m.away);
-        } else {
-            g2.push(m);
-        }
-    }
-    return [g1, g2];
-}
+let t5Counts = {}; // track table 5 (pos 5 & 10) assignments per player
 
-/** Sort matches by average rating descending (highest avg = table 1),
- *  then try to balance table 5 fairness by swapping t4/t5 if needed */
-function sortByAvgRating(matches) {
+/** Sort 10 matches by avg rating descending, then balance T5 fairness at positions 5 and 10 */
+function orderByRatingWithT5Balance(matches) {
     const sorted = [...matches].sort((a, b) => {
         const avgA = ((ratingsMap[a.home] || 0) + (ratingsMap[a.away] || 0)) / 2;
         const avgB = ((ratingsMap[b.home] || 0) + (ratingsMap[b.away] || 0)) / 2;
         return avgB - avgA;
     });
-    // If we have 5 matches, try swapping t4 and t5 if t5 players already have more t5 time
-    if (sorted.length === 5) {
+    // Try swapping positions 4/5 for T5 fairness (first half)
+    if (sorted.length >= 5) {
         const t5 = sorted[4], t4 = sorted[3];
         const t5load = (t5Counts[t5.home] || 0) + (t5Counts[t5.away] || 0);
         const t4load = (t5Counts[t4.home] || 0) + (t5Counts[t4.away] || 0);
-        if (t5load > t4load) {
-            sorted[3] = t5;
-            sorted[4] = t4;
-        }
+        if (t5load > t4load) { sorted[3] = t5; sorted[4] = t4; }
     }
+    // Try swapping positions 9/10 for T5 fairness (second half)
+    if (sorted.length >= 10) {
+        const t10 = sorted[9], t9 = sorted[8];
+        const t10load = (t5Counts[t10.home] || 0) + (t5Counts[t10.away] || 0);
+        const t9load = (t5Counts[t9.home] || 0) + (t5Counts[t9.away] || 0);
+        if (t10load > t9load) { sorted[8] = t10; sorted[9] = t9; }
+    }
+    // Record T5 assignments
+    if (sorted.length >= 5) { t5Counts[sorted[4].home] = (t5Counts[sorted[4].home] || 0) + 1; t5Counts[sorted[4].away] = (t5Counts[sorted[4].away] || 0) + 1; }
+    if (sorted.length >= 10) { t5Counts[sorted[9].home] = (t5Counts[sorted[9].home] || 0) + 1; t5Counts[sorted[9].away] = (t5Counts[sorted[9].away] || 0) + 1; }
     return sorted;
 }
-
-let t5Counts = {}; // track table 5 assignments per player across rounds
 
 function renderFixtures(schedule, roundDates, finalsDate) {
     t5Counts = {};
@@ -323,41 +312,28 @@ function renderFixtures(schedule, roundDates, finalsDate) {
             }
         } else if (round.length === 10 && isIndividual) {
             // Premier-style: 10 matches per round = two time slots of 5
-            // Split into two valid halves, sort by avg rating, assign tables
-            const halves = splitIntoHalves(round);
-            for (let h = 0; h < halves.length; h++) {
-                const half = sortByAvgRating(halves[h]);
-                // Track table 5 for fairness
-                for (let ti = 0; ti < half.length; ti++) {
-                    if (ti === 4) { // table 5
-                        t5Counts[half[ti].home] = (t5Counts[half[ti].home] || 0) + 1;
-                        t5Counts[half[ti].away] = (t5Counts[half[ti].away] || 0) + 1;
-                    }
-                }
-                for (let ti = 0; ti < half.length; ti++) {
-                    const m = half[ti];
-                    const tableNum = ti + 1;
-                    const hw = m.completed && m.home_score > m.away_score;
-                    const aw = m.completed && m.away_score > m.home_score;
-                    const homeName = playerLink(m.home);
-                    const awayName = playerLink(m.away);
-                    const tableLabel = `<span class="fixture-table-num">T${tableNum}</span>`;
-                    html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
-                        ${tableLabel}
-                        <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
-                    if (m.completed) {
-                        html += `<div class="fixture-score">
-                            <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
-                            <span class="score-separator">-</span>
-                            <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
-                    } else {
-                        html += `<div class="fixture-vs">vs</div>`;
-                    }
-                    html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div></div>`;
-                }
-                if (h === 0) {
+            // Sort by avg rating, dotted line between slot 1 (1-5) and slot 2 (6-10)
+            const ordered = orderByRatingWithT5Balance(round);
+            for (let mi = 0; mi < ordered.length; mi++) {
+                if (mi === 5) {
                     html += `<div class="fixture-slot-divider"></div>`;
                 }
+                const m = ordered[mi];
+                const hw = m.completed && m.home_score > m.away_score;
+                const aw = m.completed && m.away_score > m.home_score;
+                const homeName = playerLink(m.home);
+                const awayName = playerLink(m.away);
+                html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
+                    <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
+                if (m.completed) {
+                    html += `<div class="fixture-score">
+                        <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
+                        <span class="score-separator">-</span>
+                        <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
+                } else {
+                    html += `<div class="fixture-vs">vs</div>`;
+                }
+                html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div></div>`;
             }
         } else {
             for (const m of round) {
