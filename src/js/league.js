@@ -138,13 +138,17 @@ function computePlayerStandings(schedule, teams) {
 
 async function loadRatings() {
     try {
-        const [menRes, womenRes] = await Promise.all([
+        const [menRes, womenRes, openRes] = await Promise.all([
             fetch("/src/data/json/men_ratings.json"),
-            fetch("/src/data/json/women_ratings.json")
+            fetch("/src/data/json/women_ratings.json"),
+            fetch("/src/data/json/open_ratings.json")
         ]);
         const men = menRes.ok ? await menRes.json() : [];
         const women = womenRes.ok ? await womenRes.json() : [];
-        for (const p of [...men, ...women]) {
+        const open = openRes.ok ? await openRes.json() : [];
+        // Load men/women first, then open overwrites — open is used for
+        // mixed-gender leagues like CL where table order needs all players
+        for (const p of [...men, ...women, ...open]) {
             ratingsMap[p.name] = p.rating;
         }
     } catch { /* ratings are optional */ }
