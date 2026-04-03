@@ -1352,7 +1352,7 @@
     {
       "id": "2nd_division",
       "name": "2nd Division",
-      "table_offset": 3,
+      "table_offset": 0,
       "round_dates": [
         "2026-04-07", "2026-04-13", "2026-04-20", "2026-04-28",
         "2026-05-04",
