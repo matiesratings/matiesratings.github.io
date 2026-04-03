@@ -300,18 +300,10 @@ function renderFixtures(schedule, roundDates, finalsDate) {
         html += `</div></div>`;
     });
 
-    // Inter-divisional event block
+    // Inter-divisional event block (same style as break)
     const interDivDate = currentDivision.inter_divisional_date || leagueData.inter_divisional_date || null;
     if (interDivDate) {
-        html += `<div class="fixture-round" id="fixture-round-interdiv">
-            <div class="fixture-round-header">
-                <span class="fixture-round-title">Inter-Divisional Event</span>
-                <span class="fixture-round-date">${formatDate(interDivDate)}</span>
-            </div><div class="fixture-round-matches">
-                <div class="fixture-card upcoming">
-                    <div class="fixture-team" style="opacity:0.5;text-align:center;width:100%;">TBD</div>
-                </div>
-            </div></div>`;
+        html += `<div class="fixture-round fixture-break"><div class="fixture-round-header"><span class="fixture-round-title">Inter-Divisional Event</span><span class="fixture-round-date">${formatDate(interDivDate)}</span></div></div>`;
     }
 
     // Finals block
