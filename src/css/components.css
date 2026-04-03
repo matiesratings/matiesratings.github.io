@@ -1868,6 +1868,21 @@ th {
     border-bottom: 1px solid var(--color-border);
 }
 
+/* Dotted divider between time slots in premier */
+.fixture-slot-divider {
+    border-top: 2px dotted var(--color-border);
+    margin: 0;
+}
+
+/* Table number label */
+.fixture-table-num {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    min-width: 22px;
+    flex-shrink: 0;
+}
+
 /* Umpire label — sits in the flex row but doesn't shrink the match area */
 .fixture-umpire {
     font-size: 10px;

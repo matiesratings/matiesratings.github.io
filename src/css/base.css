@@ -11,7 +11,7 @@ body {
     color: var(--color-text);
     font-family: var(--font-family);
     text-align: center;
-    min-width: 378px;
+    min-width: 0;
     margin: 0;
     overflow-x: hidden;
 }
