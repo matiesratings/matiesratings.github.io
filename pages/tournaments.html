@@ -6,8 +6,10 @@
     <title>Tournaments</title>
     <link rel="stylesheet" href="/src/css/styles.css">
     <style>
-        .tournaments-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(280px,100%),1fr)); gap:16px; padding:16px; max-width:1200px; margin:0 auto; }
-        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; transition:transform 0.2s,box-shadow 0.2s; }
+        .tournaments-grid { display:grid; grid-template-columns:1fr; gap:16px; padding:12px; max-width:1200px; margin:0 auto; width:100%; box-sizing:border-box; }
+        @media (min-width:600px) { .tournaments-grid { grid-template-columns:repeat(2,1fr); } }
+        @media (min-width:900px) { .tournaments-grid { grid-template-columns:repeat(3,1fr); } }
+        .tournament-card { background:#111; border:1px solid maroon; border-radius:8px; padding:16px; transition:transform 0.2s,box-shadow 0.2s; box-sizing:border-box; overflow:hidden; }
         .tournament-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
         .tournament-card h3 { margin:0 0 8px; font-size:18px; color:white; }
         .tournament-date { color:#aaa; font-size:14px; margin:4px 0; }

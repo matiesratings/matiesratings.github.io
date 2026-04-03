@@ -6,8 +6,10 @@
     <title>Leagues</title>
     <link rel="stylesheet" href="/src/css/styles.css">
     <style>
-        .leagues-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr)); gap:16px; padding:16px; max-width:1200px; margin:0 auto; }
-        .league-card { background:#111; border:1px solid maroon; border-radius:8px; padding:20px; cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; }
+        .leagues-grid { display:grid; grid-template-columns:1fr; gap:16px; padding:12px; max-width:1200px; margin:0 auto; width:100%; box-sizing:border-box; }
+        @media (min-width:700px) { .leagues-grid { grid-template-columns:repeat(2,1fr); } }
+        @media (min-width:1050px) { .leagues-grid { grid-template-columns:repeat(3,1fr); } }
+        .league-card { background:#111; border:1px solid maroon; border-radius:8px; padding:16px; cursor:pointer; transition:transform 0.2s,box-shadow 0.2s; box-sizing:border-box; overflow:hidden; }
         .league-card:hover { transform:translateY(-2px); box-shadow:0 4px 12px rgba(128,0,0,0.3); }
         .league-card h3 { margin:0 0 4px; font-size:18px; color:white; }
         .league-card .league-meta { color:#888; font-size:13px; margin-bottom:12px; }
