@@ -350,7 +350,7 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                         <div class="fr-home ${hw ? "winner" : ""}">${homeName}</div>
                         <div class="fr-score">${score}</div>
                         <div class="fr-away ${aw ? "winner" : ""}">${awayName}</div>
-                        <div class="fr-ump">${m.umpire || ""}</div>
+                        <div class="fr-ump">${m.umpire ? m.umpire.split(" ")[0] : ""}</div>
                     </div>`;
                 }
                 html += `</div>`;
