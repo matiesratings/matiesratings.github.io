@@ -4,16 +4,6 @@
   "type": "individual",
   "description": "",
   "double_round_robin": true,
-  "info": [
-    "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
-    "<strong>Match Times:</strong><br>Premier Division — Fridays, warmups 18:15, matches at 18:45, second round at 19:45<br>1st Division — Wednesdays, warmups 19:00, matches start 19:20<br>2nd Division — Mondays, warmups 19:00, matches start 19:20",
-    "<strong>Match Format:</strong> Best of 7<br>Premier: 2 matches per night (10 players, 5 tables)<br>1st &amp; 2nd: Groups of 3, 2 matches per night",
-    "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
-    "<strong>Entry:</strong> R250, EFT before 27 March",
-    "<strong>Prizes:</strong><br>Premier — Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists<br>1st &amp; 2nd Division — Medals",
-    "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 10+ min (Prem) / 15+ min (1st/2nd) after scheduled time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
-    "<strong>Additional rules:</strong><br>• Matches to be played at Maties Club only<br>• No rescheduling/postponements allowed — only under extreme circumstances and with the approval of the coordinator<br>• 3 warnings = expulsion from league<br>• 3 forfeits (with notice) = expulsion from league"
-  ],
   "sponsor": {
     "name": "Smart Operator AI",
     "url": "https://www.smart-operator.ai/",
@@ -680,6 +670,16 @@
           "home_score": null,
           "away_score": null
         }
+      ],
+      "info": [
+        "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
+        "<strong>Match Times:</strong> Fridays \u2014 Warmups from 18:15, first matches at 18:45, second round at 19:45",
+        "<strong>Match Format:</strong> Best of 7, 2 matches per night (5 tables)",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
+        "<strong>Entry:</strong> R250, EFT before 27 March",
+        "<strong>Prizes:</strong> Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists",
+        "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 10+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     },
     {
@@ -1358,6 +1358,15 @@
           "group": 3,
           "umpire": "Cetinhan Celik"
         }
+      ],
+      "info": [
+        "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
+        "<strong>Match Times:</strong> Wednesdays \u2014 Warmups from 19:00, matches start 19:20",
+        "<strong>Match Format:</strong> Best of 7, groups of 3 (2 matches per night)",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
+        "<strong>Entry:</strong> R250, EFT before 27 March",
+        "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 15+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     },
     {
@@ -2036,6 +2045,15 @@
           "group": 1,
           "umpire": "Juan Engelbrecht"
         }
+      ],
+      "info": [
+        "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
+        "<strong>Match Times:</strong> Mondays \u2014 Warmups from 19:00, first matches at 19:20",
+        "<strong>Match Format:</strong> Best of 7, groups of 3 (2 matches per night)",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
+        "<strong>Entry:</strong> R250, EFT before 27 March",
+        "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 15+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     }
   ]

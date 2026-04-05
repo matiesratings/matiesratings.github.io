@@ -516,8 +516,10 @@ function renderSponsor() {
 
 function renderInfoModal() {
     const body = document.getElementById("infoModalBody");
-    if (!body || !leagueData.info) return;
-    body.innerHTML = leagueData.info.map(p => `<div class="info-item">${p}</div>`).join("");
+    if (!body) return;
+    const info = (currentDivision && currentDivision.info) || leagueData.info;
+    if (!info) return;
+    body.innerHTML = info.map(p => `<div class="info-item">${p}</div>`).join("");
 }
 
 function setupInfoModal() {
@@ -608,6 +610,7 @@ function loadDivision(divisionId) {
     const division = leagueData.divisions.find(d => d.id === divisionId);
     if (!division) return;
     currentDivision = division;
+    renderInfoModal();
 
     document.querySelectorAll(".league-division-btn").forEach(btn => {
         btn.classList.toggle("active-toggle", btn.dataset.division === divisionId);
