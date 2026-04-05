@@ -8,11 +8,11 @@
     "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
     "<strong>Match Times:</strong> Warmups from 18:15, first matches at 18:45, second round at 19:45",
     "<strong>Match Format:</strong> Best of 7",
-    "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
+    "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
     "<strong>Entry:</strong> R250, EFT before 27 March",
     "<strong>Prizes:</strong> Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists",
     "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 10+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
-    "<strong>Additional rules:</strong><br>• Matches to be played at Maties Club only<br>• No rescheduling/postponements allowed — only under extreme circumstances and with the approval of the coordinator<br>• 3 warnings = expulsion from league<br>• 3 forfeits (with notice) = expulsion from league"
+    "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
   ],
   "sponsor": {
     "name": "Smart Operator AI",
@@ -25,42 +25,237 @@
       "id": "premier_division",
       "name": "Premier Division",
       "round_dates": [
-        "2026-04-10", "2026-04-17", "2026-04-24",
-        "2026-05-08", "2026-05-15", "2026-05-22", "2026-05-29",
-        "2026-07-24", "2026-07-31"
+        "2026-04-10",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-07-24",
+        "2026-07-31"
       ],
       "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
       "players": [
-        "Tian Louw",
         "Kirshwan Steyn",
+        "David Nwafor",
         "Shane Overmeyer",
         "Joshua Du Plooy",
-        "David Nwafor",
+        "Tian Louw",
         "DJ Swanevelder",
-        "Dirk Coetzee",
-        "Le Roux Strydom",
         "Tayla Bailey",
+        "Le Roux Strydom",
+        "Dirk Coetzee",
         "Steffan Brundyn"
       ],
       "results": [
         {
-          "round": 4,
-          "home": "Le Roux Strydom",
+          "round": 1,
+          "home": "Kirshwan Steyn",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "David Nwafor",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 8,
+          "round": 1,
+          "home": "Shane Overmeyer",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Joshua Du Plooy",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Tian Louw",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Dirk Coetzee",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
           "home": "Le Roux Strydom",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Tayla Bailey",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "DJ Swanevelder",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Tian Louw",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Kirshwan Steyn",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Dirk Coetzee",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Steffan Brundyn",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "David Nwafor",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Shane Overmeyer",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Tayla Bailey",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "DJ Swanevelder",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Tian Louw",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Joshua Du Plooy",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Shane Overmeyer",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Kirshwan Steyn",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Tayla Bailey",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Le Roux Strydom",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Dirk Coetzee",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Steffan Brundyn",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Tian Louw",
           "away": "Kirshwan Steyn",
           "home_score": null,
           "away_score": null
         },
         {
           "round": 3,
+          "home": "Joshua Du Plooy",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
           "home": "Shane Overmeyer",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "David Nwafor",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Steffan Brundyn",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
@@ -73,498 +268,141 @@
           "away_score": null
         },
         {
-          "round": 6,
+          "round": 4,
           "home": "Tian Louw",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "David Nwafor",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "Tayla Bailey",
-          "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "Kirshwan Steyn",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 6,
-          "home": "Shane Overmeyer",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Dirk Coetzee",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "Shane Overmeyer",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Shane Overmeyer",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "Joshua Du Plooy",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Le Roux Strydom",
           "away": "Shane Overmeyer",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 9,
-          "home": "Dirk Coetzee",
-          "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Tian Louw",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "Le Roux Strydom",
+          "round": 4,
+          "home": "DJ Swanevelder",
           "away": "David Nwafor",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 8,
-          "home": "Joshua Du Plooy",
-          "away": "Tian Louw",
+          "round": 4,
+          "home": "Tayla Bailey",
+          "away": "Steffan Brundyn",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 6,
-          "home": "David Nwafor",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 6,
-          "home": "Kirshwan Steyn",
+          "round": 4,
+          "home": "Le Roux Strydom",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 3,
-          "home": "Steffan Brundyn",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "Kirshwan Steyn",
-          "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
+          "round": 4,
           "home": "Shane Overmeyer",
           "away": "Kirshwan Steyn",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 7,
-          "home": "Tian Louw",
+          "round": 4,
+          "home": "David Nwafor",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Steffan Brundyn",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Dirk Coetzee",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Le Roux Strydom",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Kirshwan Steyn",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Shane Overmeyer",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Joshua Du Plooy",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 2,
+          "round": 5,
           "home": "Tian Louw",
           "away": "Le Roux Strydom",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 9,
-          "home": "Tian Louw",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "Dirk Coetzee",
-          "away": "Shane Overmeyer",
+          "round": 5,
+          "home": "DJ Swanevelder",
+          "away": "Tayla Bailey",
           "home_score": null,
           "away_score": null
         },
         {
           "round": 5,
           "home": "Steffan Brundyn",
-          "away": "Tian Louw",
+          "away": "Kirshwan Steyn",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 9,
-          "home": "Tayla Bailey",
-          "away": "Joshua Du Plooy",
+          "round": 5,
+          "home": "Dirk Coetzee",
+          "away": "David Nwafor",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 6,
-          "home": "DJ Swanevelder",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "Steffan Brundyn",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Kirshwan Steyn",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "DJ Swanevelder",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 6,
+          "round": 5,
           "home": "Le Roux Strydom",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Tayla Bailey",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "DJ Swanevelder",
           "away": "Tian Louw",
           "home_score": null,
           "away_score": null
         },
         {
           "round": 6,
-          "home": "Joshua Du Plooy",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "Dirk Coetzee",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
           "home": "Kirshwan Steyn",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Tayla Bailey",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Tayla Bailey",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "Steffan Brundyn",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 6,
-          "home": "Joshua Du Plooy",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "Tian Louw",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "David Nwafor",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "Tian Louw",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "DJ Swanevelder",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 8,
-          "home": "DJ Swanevelder",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "Tayla Bailey",
-          "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Tian Louw",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "Tayla Bailey",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "Kirshwan Steyn",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "Dirk Coetzee",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "David Nwafor",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "DJ Swanevelder",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "Joshua Du Plooy",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "Le Roux Strydom",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "Joshua Du Plooy",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "Shane Overmeyer",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "David Nwafor",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "Joshua Du Plooy",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Joshua Du Plooy",
-          "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "David Nwafor",
-          "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "Tian Louw",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "DJ Swanevelder",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "Shane Overmeyer",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "Steffan Brundyn",
-          "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "Tayla Bailey",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 6,
-          "home": "Dirk Coetzee",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "DJ Swanevelder",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "Kirshwan Steyn",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Le Roux Strydom",
-          "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 7,
-          "home": "Steffan Brundyn",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "Kirshwan Steyn",
-          "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
-          "home": "Dirk Coetzee",
-          "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 4,
-          "home": "David Nwafor",
-          "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "DJ Swanevelder",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
@@ -577,16 +415,107 @@
           "away_score": null
         },
         {
-          "round": 8,
-          "home": "Steffan Brundyn",
+          "round": 6,
+          "home": "David Nwafor",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Shane Overmeyer",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Joshua Du Plooy",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Le Roux Strydom",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Tayla Bailey",
           "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 4,
-          "home": "Tayla Bailey",
+          "round": 6,
+          "home": "DJ Swanevelder",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Tian Louw",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Joshua Du Plooy",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Kirshwan Steyn",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Le Roux Strydom",
           "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Dirk Coetzee",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Steffan Brundyn",
+          "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "David Nwafor",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "DJ Swanevelder",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Tian Louw",
+          "away": "Tayla Bailey",
           "home_score": null,
           "away_score": null
         },
@@ -599,78 +528,155 @@
         },
         {
           "round": 7,
-          "home": "Le Roux Strydom",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 1,
           "home": "Shane Overmeyer",
-          "away": "Le Roux Strydom",
+          "away": "Dirk Coetzee",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 3,
-          "home": "Steffan Brundyn",
-          "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
-          "home": "Dirk Coetzee",
-          "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 5,
-          "home": "David Nwafor",
-          "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 3,
-          "home": "Le Roux Strydom",
-          "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 2,
-          "home": "DJ Swanevelder",
-          "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
-        },
-        {
-          "round": 9,
+          "round": 7,
           "home": "David Nwafor",
           "away": "Steffan Brundyn",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 3,
-          "home": "Dirk Coetzee",
-          "away": "David Nwafor",
+          "round": 8,
+          "home": "Kirshwan Steyn",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "DJ Swanevelder",
+          "away": "Joshua Du Plooy",
           "home_score": null,
           "away_score": null
         },
         {
           "round": 8,
           "home": "Tayla Bailey",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Le Roux Strydom",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Dirk Coetzee",
           "away": "Steffan Brundyn",
           "home_score": null,
           "away_score": null
         },
         {
-          "round": 2,
+          "round": 8,
+          "home": "Joshua Du Plooy",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
           "home": "Shane Overmeyer",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "David Nwafor",
+          "away": "DJ Swanevelder",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Steffan Brundyn",
+          "away": "Tayla Bailey",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Dirk Coetzee",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Kirshwan Steyn",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Joshua Du Plooy",
+          "away": "David Nwafor",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Tian Louw",
+          "away": "Steffan Brundyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "DJ Swanevelder",
+          "away": "Dirk Coetzee",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Tayla Bailey",
+          "away": "Le Roux Strydom",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "David Nwafor",
+          "away": "Kirshwan Steyn",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Steffan Brundyn",
+          "away": "Shane Overmeyer",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Dirk Coetzee",
           "away": "Joshua Du Plooy",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Le Roux Strydom",
+          "away": "Tian Louw",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Tayla Bailey",
+          "away": "DJ Swanevelder",
           "home_score": null,
           "away_score": null
         }
@@ -681,9 +687,14 @@
       "name": "1st Division",
       "table_offset": 0,
       "round_dates": [
-        "2026-04-08", "2026-04-15", "2026-04-22", "2026-04-29",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29",
         "2026-05-06",
-        "2026-07-22", "2026-07-29", "2026-08-05"
+        "2026-07-22",
+        "2026-07-29",
+        "2026-08-05"
       ],
       "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
@@ -1354,9 +1365,14 @@
       "name": "2nd Division",
       "table_offset": 0,
       "round_dates": [
-        "2026-04-07", "2026-04-13", "2026-04-20", "2026-04-28",
+        "2026-04-07",
+        "2026-04-13",
+        "2026-04-20",
+        "2026-04-28",
         "2026-05-04",
-        "2026-07-20", "2026-07-27", "2026-08-03"
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03"
       ],
       "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
