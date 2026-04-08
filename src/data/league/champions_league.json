@@ -97,8 +97,8 @@
           "round": 1,
           "home": "DJ Swanevelder",
           "away": "Steffan Brundyn",
-          "home_score": 4,
-          "away_score": 3
+          "home_score": null,
+          "away_score": null
         },
         {
           "round": 1,
