@@ -4,6 +4,11 @@
   "type": "individual",
   "description": "",
   "double_round_robin": true,
+  "info": [
+    "<strong>Season:</strong> 2026",
+    "<strong>Match Format:</strong> Best of 7 (first to 4 games)",
+    "<strong>Venue:</strong> Maties Table Tennis Club, Coetzenburg"
+  ],
   "sponsor": {
     "name": "Smart Operator AI",
     "url": "https://www.smart-operator.ai/",
@@ -25,19 +30,18 @@
         "2026-07-24",
         "2026-07-31"
       ],
-      "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
       "players": [
-        "DJ Swanevelder",
-        "David Nwafor",
-        "Dirk Coetzee",
-        "Joshua Du Plooy",
+        "Tian Louw",
         "Kirshwan Steyn",
-        "Le Roux Strydom",
         "Shane Overmeyer",
-        "Steffan Brundyn",
+        "Joshua Du Plooy",
+        "David Nwafor",
+        "DJ Swanevelder",
+        "Dirk Coetzee",
+        "Le Roux Strydom",
         "Tayla Bailey",
-        "Tian Louw"
+        "Steffan Brundyn"
       ],
       "results": [
         {
@@ -93,8 +97,8 @@
           "round": 1,
           "home": "DJ Swanevelder",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3
         },
         {
           "round": 1,
@@ -671,21 +675,21 @@
           "away_score": null
         }
       ],
+      "inter_divisional_date": "2026-08-01",
       "info": [
         "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
-        "<strong>Match Times:</strong> Fridays — Warmups from 18:15, first matches at 18:45, second round at 19:45",
+        "<strong>Match Times:</strong> Fridays \u2014 Warmups from 18:15, first matches at 18:45, second round at 19:45",
         "<strong>Match Format:</strong> Best of 7, 2 matches per night (5 tables)",
-        "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
         "<strong>Entry:</strong> R250, EFT before 27 March",
         "<strong>Prizes:</strong> Medals, R2500 to winner, R1000 to runner-up, R500 to semifinalists",
         "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 10+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
-        "<strong>Additional rules:</strong><br>• Matches to be played at Maties Club only<br>• No rescheduling/postponements allowed — only under extreme circumstances and with the approval of the coordinator<br>• 3 warnings = expulsion from league<br>• 3 forfeits (with notice) = expulsion from league"
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     },
     {
       "id": "1st_division",
       "name": "1st Division",
-      "table_offset": 0,
       "round_dates": [
         "2026-04-08",
         "2026-04-15",
@@ -696,7 +700,6 @@
         "2026-07-29",
         "2026-08-05"
       ],
-      "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
       "players": [
         "Benje Bester",
@@ -1359,20 +1362,20 @@
           "umpire": "Cetinhan Celik"
         }
       ],
+      "inter_divisional_date": "2026-08-01",
       "info": [
         "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
-        "<strong>Match Times:</strong> Wednesdays — Warmups from 19:00, matches start 19:20",
+        "<strong>Match Times:</strong> Wednesdays \u2014 Warmups from 19:00, matches start 19:20",
         "<strong>Match Format:</strong> Best of 7, groups of 3 (2 matches per night)",
-        "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
         "<strong>Entry:</strong> R250, EFT before 27 March",
         "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 15+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
-        "<strong>Additional rules:</strong><br>• Matches to be played at Maties Club only<br>• No rescheduling/postponements allowed — only under extreme circumstances and with the approval of the coordinator<br>• 3 warnings = expulsion from league<br>• 3 forfeits (with notice) = expulsion from league"
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     },
     {
       "id": "2nd_division",
       "name": "2nd Division",
-      "table_offset": 0,
       "round_dates": [
         "2026-04-07",
         "2026-04-13",
@@ -1383,18 +1386,17 @@
         "2026-07-27",
         "2026-08-03"
       ],
-      "inter_divisional_date": "2026-08-01",
       "finals_date": "2026-08-15",
       "players": [
-        "Timothy Prinsloo",
-        "Joshua Davids",
         "Jaidyn Nel",
         "Phenyo Tongwane",
-        "Jaydon Nortje",
         "Bevan Fortune",
         "Carmen Harris",
         "Juan Engelbrecht",
-        "Andria van Tonder"
+        "Andria van Tonder",
+        "Jaydon Nortje",
+        "Timothy Prinsloo",
+        "Joshua Davids"
       ],
       "results": [
         {
@@ -1440,7 +1442,7 @@
           "home_score": null,
           "away_score": null,
           "group": 3,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 7,
@@ -1674,7 +1676,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 6,
@@ -1710,7 +1712,7 @@
           "home_score": null,
           "away_score": null,
           "group": 3,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 4,
@@ -1728,7 +1730,7 @@
           "home_score": null,
           "away_score": null,
           "group": 2,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 4,
@@ -1818,7 +1820,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 6,
@@ -1845,7 +1847,7 @@
           "home_score": null,
           "away_score": null,
           "group": 2,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 5,
@@ -1926,7 +1928,7 @@
           "home_score": null,
           "away_score": null,
           "group": 2,
-          "umpire": "Jaydon Nortje"
+          "umpire": "Riley Brown"
         },
         {
           "round": 3,
@@ -2046,20 +2048,16 @@
           "umpire": "Juan Engelbrecht"
         }
       ],
+      "inter_divisional_date": "2026-08-01",
       "info": [
         "<strong>Location:</strong> Dance Hall of the Maties Gym, Coetzenburg Road, Stellenbosch",
-        "<strong>Match Times:</strong> Mondays — Warmups from 19:00, first matches at 19:20",
+        "<strong>Match Times:</strong> Mondays \u2014 Warmups from 19:00, first matches at 19:20",
         "<strong>Match Format:</strong> Best of 7, groups of 3 (2 matches per night)",
-        "<strong>League Format:</strong> Double round robin — top 4 play semifinals and finals",
+        "<strong>League Format:</strong> Double round robin \u2014 top 4 play semifinals and finals",
         "<strong>Entry:</strong> R250, EFT before 27 March",
         "<strong>Rules &amp; Penalties:</strong><table class=\"info-table\"><thead><tr><th>Rule</th><th>Infringement</th><th>Penalty</th></tr></thead><tbody><tr><td>1. Be on time</td><td>Arriving 15+ minutes after scheduled match time</td><td>Forfeit</td></tr><tr><td rowspan=\"2\">2. Show up to matches</td><td>Forfeit with notice &amp; valid reason</td><td>Forfeit</td></tr><tr><td>No-show (no notice)</td><td>Forfeit + R200 fine + 2 warnings</td></tr><tr><td>3. Unsportsmanlike behaviour</td><td>Foul language, disrespectful conduct, \"throwing\" matches, damaging equipment</td><td>Up to discretion: warnings, fine, forfeit or expulsion</td></tr><tr><td>4. Wear appropriate attire</td><td>Most clothing allowed except: white shirts, distracting accessories, shoes with dark soles</td><td>Will be asked to remove/replace</td></tr></tbody></table>",
-        "<strong>Additional rules:</strong><br>• Matches to be played at Maties Club only<br>• No rescheduling/postponements allowed — only under extreme circumstances and with the approval of the coordinator<br>• 3 warnings = expulsion from league<br>• 3 forfeits (with notice) = expulsion from league"
+        "<strong>Additional rules:</strong><br>\u2022 Matches to be played at Maties Club only<br>\u2022 No rescheduling/postponements allowed \u2014 only under extreme circumstances and with the approval of the coordinator<br>\u2022 3 warnings = expulsion from league<br>\u2022 3 forfeits (with notice) = expulsion from league"
       ]
     }
-  ],
-  "info": [
-    "<strong>Season:</strong> 2026",
-    "<strong>Match Format:</strong> Best of 7 (first to 4 games)",
-    "<strong>Venue:</strong> Maties Table Tennis Club, Coetzenburg"
   ]
 }
