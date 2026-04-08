@@ -3,23 +3,10 @@
  * Supports per-league auth + master admin.
  */
 
-// ── Auth (Firebase Google) ──
+// ── Auth ──
+const MASTER = { user: "admin", pass: "maties2026" };
 const KNOWN_LEAGUES = ["champions_league", "maties_res_league"];
 const GITHUB_REPO = "matiesratings/matiesratings.github.io";
-
-const firebaseConfig = {
-    apiKey: "AIzaSyAi2mbAW65HJyh8UV7VyijoDmh9xheGQbM",
-    authDomain: "results-capture.firebaseapp.com",
-    databaseURL: "https://results-capture-default-rtdb.firebaseio.com",
-    projectId: "results-capture",
-    storageBucket: "results-capture.firebasestorage.app",
-    messagingSenderId: "923200999451",
-    appId: "1:923200999451:web:3dbfacc53c279e7f6c68be"
-};
-firebase.initializeApp(firebaseConfig);
-const fbAuth = firebase.auth();
-const fbDb = firebase.database();
-const fbProvider = new firebase.auth.GoogleAuthProvider();
 
 let isMaster = false;
 let accessibleLeagues = []; // league IDs this user can access
@@ -85,54 +72,39 @@ function formatDate(ds) { if (!ds) return "TBD"; return new Date(ds + "T00:00:00
 function show(id) { document.getElementById(id)?.classList.remove("hidden"); }
 function hide(id) { document.getElementById(id)?.classList.add("hidden"); }
 
-// ── Login (Firebase Google Auth) ──
+// ── Login ──
 
-async function initAuth() {
-    fbAuth.onAuthStateChanged(async (user) => {
-        if (!user) {
-            show("login-gate");
-            hide("admin-panel");
-            return;
-        }
+async function tryLogin() {
+    const user = document.getElementById("loginUser").value.trim();
+    const pass = document.getElementById("loginPass").value;
 
-        const email = user.email.toLowerCase();
-        document.getElementById("user-email").textContent = `Signed in as ${email}`;
-
-        // Check super admin list (hardcoded fallback + Firebase RTDB)
-        const SUPER_ADMIN_FALLBACK = ["dewald.swanevelder22@gmail.com", "tianlouw53@gmail.com"];
-        isMaster = SUPER_ADMIN_FALLBACK.includes(email);
-        if (!isMaster) {
-            try {
-                const superSnap = await fbDb.ref("admin/super_admins").once("value");
-                const superAdmins = superSnap.val() || {};
-                isMaster = Object.values(superAdmins).map(e => e.toLowerCase()).includes(email);
-            } catch { /* fallback already checked */ }
-        }
-
-        // Check per-league admin access
-        accessibleLeagues = [];
-        if (isMaster) {
-            accessibleLeagues = [...KNOWN_LEAGUES];
-        } else {
-            try {
-                const leagueSnap = await fbDb.ref("admin/league_admins").once("value");
-                const leagueAdmins = leagueSnap.val() || {};
-                for (const [leagueId, emails] of Object.entries(leagueAdmins)) {
-                    const emailList = Object.values(emails).map(e => e.toLowerCase());
-                    if (emailList.includes(email)) accessibleLeagues.push(leagueId);
-                }
-            } catch { /* skip */ }
-        }
-
-        if (accessibleLeagues.length === 0) {
-            show("loginError");
-            fbAuth.signOut();
-            return;
-        }
-
-        document.getElementById("user-role").textContent = isMaster ? "Super Admin" : `League Admin (${accessibleLeagues.length} league${accessibleLeagues.length > 1 ? "s" : ""})`;
+    // Check master
+    if (user === MASTER.user && pass === MASTER.pass) {
+        isMaster = true;
+        accessibleLeagues = [...KNOWN_LEAGUES];
         showAdmin();
-    });
+        return;
+    }
+
+    // Check per-league auth
+    accessibleLeagues = [];
+    for (const lid of KNOWN_LEAGUES) {
+        try {
+            const res = await fetch(`/src/data/league/${lid}.json`);
+            if (!res.ok) continue;
+            const data = await res.json();
+            if (data.auth && data.auth.user === user && data.auth.pass === pass) {
+                accessibleLeagues.push(lid);
+            }
+        } catch { /* skip */ }
+    }
+
+    if (accessibleLeagues.length > 0) {
+        isMaster = false;
+        showAdmin();
+    } else {
+        show("loginError");
+    }
 }
 
 function showAdmin() {
@@ -504,7 +476,8 @@ async function createNewLeague() {
     const season = document.getElementById("newLeagueSeason").value.trim();
     const type = document.getElementById("newLeagueType").value;
     const doubleRR = document.getElementById("newLeagueDoubleRR").checked;
-    const adminEmail = document.getElementById("newLeagueAdminEmail").value.trim().toLowerCase();
+    const user = document.getElementById("newLeagueUser").value.trim();
+    const pass = document.getElementById("newLeaguePass").value.trim();
 
     if (!name || !season) { alert("Name and season required"); return; }
 
@@ -512,6 +485,7 @@ async function createNewLeague() {
     const newLeague = {
         league_name: name,
         season: season,
+        auth: { user: user || leagueId, pass: pass || season },
         info: [],
         divisions: []
     };
@@ -536,11 +510,6 @@ async function createNewLeague() {
 
         KNOWN_LEAGUES.push(leagueId);
         accessibleLeagues.push(leagueId);
-
-        // Store admin email in Firebase RTDB
-        if (adminEmail) {
-            await fbDb.ref(`admin/league_admins/${leagueId}/0`).set(adminEmail);
-        }
 
         // Add to league selector
         const sel = document.getElementById("leagueSelect");
@@ -622,8 +591,8 @@ document.head.appendChild(style);
 // ── Events ──
 
 function setupEvents() {
-    document.getElementById("googleSignInBtn").addEventListener("click", () => fbAuth.signInWithPopup(fbProvider));
-    document.getElementById("signOutBtn").addEventListener("click", () => fbAuth.signOut());
+    document.getElementById("loginBtn").addEventListener("click", tryLogin);
+    document.getElementById("loginPass").addEventListener("keydown", (e) => { if (e.key === "Enter") tryLogin(); });
 
     document.getElementById("leagueSelect").addEventListener("change", async (e) => {
         await loadLeague(e.target.value);
@@ -1045,5 +1014,4 @@ document.addEventListener("DOMContentLoaded", function () {
     setupNavCloseOnOutsideClick();
     setHeaderTitle("League Admin");
     setupEvents();
-    initAuth();
 });
