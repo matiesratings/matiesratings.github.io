@@ -90,9 +90,9 @@ function computeStandings(schedule, names) {
         }
     }
     return Object.values(stats).sort((a, b) => {
-        if (b.points !== a.points) return b.points - a.points;
+        if (b.won !== a.won) return b.won - a.won;
         if ((b.mf - b.ma) !== (a.mf - a.ma)) return (b.mf - b.ma) - (a.mf - a.ma);
-        return b.mf - a.mf;
+        return a.name.localeCompare(b.name);
     });
 }
 
@@ -179,7 +179,7 @@ function renderTeamStandings(standings) {
         <th>#</th><th class="text-left">${label}</th>
         ${showRating ? '<th>Rating</th>' : ''}
         <th>P</th><th>W</th><th>L</th>
-        <th class="mobile-hidden-col">${forLabel}</th><th class="mobile-hidden-col">${againstLabel}</th><th>Pts</th>
+        <th class="mobile-hidden-col">${forLabel}</th><th class="mobile-hidden-col">${againstLabel}</th><th>±</th>
     </tr></thead><tbody>`;
     standings.forEach((t, i) => {
         const nameCell = isIndividual ? playerLink(t.name) : t.name;
@@ -192,7 +192,7 @@ function renderTeamStandings(standings) {
             ${ratingCell}
             <td>${t.played}</td><td>${t.won}</td><td>${t.lost}</td>
             <td class="mobile-hidden-col">${t.mf}</td><td class="mobile-hidden-col">${t.ma}</td>
-            <td><strong>${t.points}</strong></td></tr>`;
+            <td><strong>${t.mf - t.ma >= 0 ? '+' : ''}${t.mf - t.ma}</strong></td></tr>`;
     });
     el.innerHTML = html + `</tbody></table>`;
 }
