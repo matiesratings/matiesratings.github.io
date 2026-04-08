@@ -55,8 +55,8 @@
           "round": 1,
           "home": "DJ Swanevelder",
           "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4
         },
         {
           "round": 1,
@@ -69,8 +69,8 @@
           "round": 1,
           "home": "Tian Louw",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 1,
@@ -915,8 +915,8 @@
           "round": 1,
           "home": "Amien Phillips",
           "away": "Gajen Chetty",
-          "home_score": 1,
-          "away_score": 4,
+          "home_score": 4,
+          "away_score": 1,
           "group": 2,
           "umpire": "Simon van der Merwe"
         },
