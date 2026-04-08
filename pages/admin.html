@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League Admin</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-database-compat.js"></script>
 </head>
 <body>
     <div id="header-placeholder"></div>
@@ -12,16 +15,19 @@
     <!-- Login gate -->
     <div id="login-gate" class="admin-login">
         <h2>League Admin</h2>
-        <div class="admin-login-form">
-            <input type="text" id="loginUser" placeholder="Username" autocomplete="username">
-            <input type="password" id="loginPass" placeholder="Password" autocomplete="current-password">
-            <button id="loginBtn">Login</button>
-            <p id="loginError" class="hidden" style="color: #ff6b6b; margin-top: 8px;">Incorrect credentials</p>
-        </div>
+        <p style="opacity:0.6; margin-bottom: 16px;">Sign in with Google to manage leagues</p>
+        <button id="googleSignInBtn" style="padding: 12px 24px; font-size: 16px;">Sign in with Google</button>
+        <p id="loginError" class="hidden" style="color: #ff6b6b; margin-top: 8px;">You are not authorized to access any leagues</p>
     </div>
 
     <!-- Admin panel -->
     <main id="admin-panel" class="hidden">
+        <!-- User info -->
+        <div class="admin-section" style="text-align:center;">
+            <p id="user-email" style="opacity:0.6;"></p>
+            <p id="user-role" style="font-size:12px; opacity:0.4; margin-top:4px;"></p>
+            <button id="signOutBtn" style="margin-top:8px; padding:6px 16px; font-size:13px; opacity:0.6;">Sign Out</button>
+        </div>
         <!-- League selector + create -->
         <div class="admin-section">
             <div class="admin-controls">
@@ -162,8 +168,7 @@
                         <label style="display:flex; align-items:center; gap:8px; font-size:14px;">
                             <input type="checkbox" id="newLeagueDoubleRR"> Double Round Robin
                         </label>
-                        <input type="text" id="newLeagueUser" placeholder="Admin username for this league" class="admin-player-input" style="text-align:left;">
-                        <input type="password" id="newLeaguePass" placeholder="Admin password for this league" class="admin-player-input" style="text-align:left;">
+                        <input type="email" id="newLeagueAdminEmail" placeholder="Admin email for this league" class="admin-player-input" style="text-align:left;">
                         <button id="confirmCreateLeague" style="margin-top:8px;">Create League</button>
                     </div>
                 </div>
