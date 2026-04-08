@@ -92,6 +92,8 @@ function computeStandings(schedule, names) {
     return Object.values(stats).sort((a, b) => {
         if (b.won !== a.won) return b.won - a.won;
         if ((b.mf - b.ma) !== (a.mf - a.ma)) return (b.mf - b.ma) - (a.mf - a.ma);
+        const rA = getRating(a.name) || 0, rB = getRating(b.name) || 0;
+        if (rB !== rA) return rB - rA;
         return a.name.localeCompare(b.name);
     });
 }
