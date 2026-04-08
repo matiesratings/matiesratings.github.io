@@ -149,8 +149,10 @@ async function loadRatings() {
         const men = menRes.ok ? await menRes.json() : [];
         const women = womenRes.ok ? await womenRes.json() : [];
         const open = openRes.ok ? await openRes.json() : [];
-        // Load open first, then men/women overwrite — men's ratings take priority
-        for (const p of [...open, ...women, ...men]) {
+        // Priority: men's > open > women's
+        // Women load first, open overwrites (so women show open rating),
+        // men load last to overwrite open (so men show men's rating).
+        for (const p of [...women, ...open, ...men]) {
             ratingsMap[p.name] = p.rating;
             if (p.club) clubMap[p.name] = p.club;
         }
