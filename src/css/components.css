@@ -1869,6 +1869,14 @@ th {
     opacity: 0.5;
 }
 
+.score-vs-label {
+    font-size: clamp(10px, 1.8vw, 13px);
+    color: var(--color-primary);
+    font-weight: bold;
+    padding: 0 4px;
+    opacity: 0.8;
+}
+
 .fixture-vs {
     font-size: clamp(12px, 2vw, 16px);
     color: var(--color-primary);

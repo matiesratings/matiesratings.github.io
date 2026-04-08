@@ -384,16 +384,12 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                 const aw = m.completed && m.away_score > m.home_score;
                 const homeName = isIndividual ? playerLink(m.home) : m.home;
                 const awayName = isIndividual ? playerLink(m.away) : m.away;
+                const scoreHtml = m.completed
+                    ? `<span class="${hw ? "score-winner" : ""}">${m.home_score}</span><span class="score-vs-label">vs</span><span class="${aw ? "score-winner" : ""}">${m.away_score}</span>`
+                    : `<span class="score-vs-label">vs</span>`;
                 html += `<div class="fixture-card ${m.completed ? "completed" : "upcoming"}">
-                    <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>`;
-                if (m.completed) {
-                    html += `<div class="fixture-score">
-                        <span class="${hw ? "score-winner" : ""}">${m.home_score}</span>
-                        <span class="score-separator">-</span>
-                        <span class="${aw ? "score-winner" : ""}">${m.away_score}</span></div>`;
-                } else {
-                    html += `<div class="fixture-vs">vs</div>`;
-                }
+                    <div class="fixture-team ${hw ? "winner" : ""}">${homeName}</div>
+                    <div class="fixture-score">${scoreHtml}</div>`;
                 html += `<div class="fixture-team ${aw ? "winner" : ""}">${awayName}</div>`;
                 if (m.umpire) {
                     html += `<div class="fixture-umpire">Ump: ${m.umpire}</div>`;

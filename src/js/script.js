@@ -38,10 +38,10 @@ function loadSelectedData() {
 
 
 // Load initial data on page load
-fetch('/src/data/json/open_ratings.json')
+fetch('/src/data/json/men_ratings.json')
     .then(response => {
         if (!response.ok) {
-            throw new Error(`Failed to load open_ratings.json: ${response.status} ${response.statusText}`);
+            throw new Error(`Failed to load men_ratings.json: ${response.status} ${response.statusText}`);
         }
         return response.json();
     })
