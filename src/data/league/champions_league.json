@@ -97,8 +97,8 @@
           "round": 1,
           "home": "DJ Swanevelder",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 2
         },
         {
           "round": 1,
@@ -1388,6 +1388,7 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
+        "Jaydon Nortje",
         "Timothy Prinsloo",
         "Joshua Davids",
         "Jaidyn Nel",
@@ -1395,8 +1396,7 @@
         "Bevan Fortune",
         "Carmen Harris",
         "Juan Engelbrecht",
-        "Andria van Tonder",
-        "Jaydon Nortje"
+        "Andria van Tonder"
       ],
       "results": [
         {
