@@ -344,8 +344,8 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                     const homeName = isIndividual ? playerLink(m.home) : m.home;
                     const awayName = isIndividual ? playerLink(m.away) : m.away;
                     const score = m.completed
-                        ? `<span class="${hw ? "score-winner" : ""}">${m.home_score}</span><span class="score-separator">-</span><span class="${aw ? "score-winner" : ""}">${m.away_score}</span>`
-                        : `vs`;
+                        ? `<span class="${hw ? "score-winner" : ""}">${m.home_score}</span><span class="score-vs-label">vs</span><span class="${aw ? "score-winner" : ""}">${m.away_score}</span>`
+                        : `<span class="score-vs-label">vs</span>`;
                     html += `<div class="fixture-row-grid ${m.completed ? "completed" : "upcoming"}">
                         <div class="fr-home ${hw ? "winner" : ""}">${homeName}</div>
                         <div class="fr-score">${score}</div>
@@ -368,8 +368,8 @@ function renderFixtures(schedule, roundDates, finalsDate) {
                     const homeName = playerLink(m.home);
                     const awayName = playerLink(m.away);
                     const score = m.completed
-                        ? `<span class="${hw ? "score-winner" : ""}">${m.home_score}</span><span class="score-separator">-</span><span class="${aw ? "score-winner" : ""}">${m.away_score}</span>`
-                        : `vs`;
+                        ? `<span class="${hw ? "score-winner" : ""}">${m.home_score}</span><span class="score-vs-label">vs</span><span class="${aw ? "score-winner" : ""}">${m.away_score}</span>`
+                        : `<span class="score-vs-label">vs</span>`;
                     html += `<div class="fixture-row-grid prem ${m.completed ? "completed" : "upcoming"}">
                         <div class="fr-label">T${ti + 1}</div>
                         <div class="fr-home ${hw ? "winner" : ""}">${homeName}</div>
