@@ -4,7 +4,6 @@
  */
 
 // ── Auth ──
-const MASTER = { user: "admin", pass: "maties2026" };
 const KNOWN_LEAGUES = ["champions_league", "maties_res_league"];
 const GITHUB_REPO = "matiesratings/matiesratings.github.io";
 
@@ -78,15 +77,7 @@ async function tryLogin() {
     const user = document.getElementById("loginUser").value.trim();
     const pass = document.getElementById("loginPass").value;
 
-    // Check master
-    if (user === MASTER.user && pass === MASTER.pass) {
-        isMaster = true;
-        accessibleLeagues = [...KNOWN_LEAGUES];
-        showAdmin();
-        return;
-    }
-
-    // Check per-league auth
+    // Check per-league auth only (no master admin)
     accessibleLeagues = [];
     for (const lid of KNOWN_LEAGUES) {
         try {
@@ -119,12 +110,6 @@ function showAdmin() {
         opt.value = lid;
         opt.textContent = lid.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
         sel.appendChild(opt);
-    }
-
-    // Show master-only features
-    if (isMaster) {
-        document.getElementById("createLeagueBtn").classList.remove("hidden");
-        show("data-upload-section");
     }
 }
 
