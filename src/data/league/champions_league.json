@@ -48,8 +48,8 @@
           "round": 1,
           "home": "Kirshwan Steyn",
           "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 1,
@@ -62,8 +62,8 @@
           "round": 1,
           "home": "David Nwafor",
           "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         },
         {
           "round": 1,
@@ -76,22 +76,22 @@
           "round": 1,
           "home": "Joshua Du Plooy",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 1,
           "home": "Le Roux Strydom",
           "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 1,
           "home": "David Nwafor",
           "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 1,
@@ -104,15 +104,15 @@
           "round": 1,
           "home": "Joshua Du Plooy",
           "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 2
         },
         {
           "round": 1,
           "home": "Tian Louw",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4
         },
         {
           "round": 2,
@@ -1388,7 +1388,6 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Jaydon Nortje",
         "Timothy Prinsloo",
         "Joshua Davids",
         "Jaidyn Nel",
@@ -1396,7 +1395,8 @@
         "Bevan Fortune",
         "Carmen Harris",
         "Juan Engelbrecht",
-        "Andria van Tonder"
+        "Andria van Tonder",
+        "Jaydon Nortje"
       ],
       "results": [
         {
