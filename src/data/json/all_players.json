@@ -8005,7 +8005,7 @@
   },
   {
     "maties_id": 1366,
-    "name": "Jaydin Nel",
+    "name": "Jaidyn Nel",
     "club": "Maties",
     "gender": "Female"
   },
@@ -8080,5 +8080,17 @@
     "name": "Grace Josephs",
     "club": "Top",
     "gender": "Female"
+  },
+  {
+    "maties_id": 1379,
+    "name": "Elaine",
+    "club": "Goodwood",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1380,
+    "name": "Bevan Fortune",
+    "club": "Maties",
+    "gender": "Male"
   }
 ]
