@@ -702,13 +702,13 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Benjamin Bester",
+        "Benje Bester",
         "Finn Kahn",
         "TJ Sabad",
         "Amien Phillips",
         "Simon van der Merwe",
         "Gajen Chetty",
-        "Cetin Celik",
+        "Cetinhan Celik",
         "Duwayne Petersen",
         "Gustav Becker"
       ],
@@ -774,7 +774,7 @@
           "home_score": null,
           "away_score": null,
           "group": 2,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
         },
         {
           "round": 4,
@@ -783,7 +783,7 @@
           "home_score": null,
           "away_score": null,
           "group": 3,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
         },
         {
           "round": 4,
@@ -810,7 +810,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 4,
@@ -828,7 +828,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 5,
@@ -846,7 +846,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 6,
@@ -864,7 +864,7 @@
           "home_score": null,
           "away_score": null,
           "group": 3,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
         },
         {
           "round": 1,
@@ -891,7 +891,7 @@
           "home_score": 1,
           "away_score": 4,
           "group": 3,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
         },
         {
           "round": 1,
@@ -900,7 +900,7 @@
           "home_score": 0,
           "away_score": 4,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 1,
@@ -972,7 +972,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 8,
@@ -1017,7 +1017,7 @@
           "home_score": null,
           "away_score": null,
           "group": 2,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
         },
         {
           "round": 5,
@@ -1278,7 +1278,7 @@
           "home_score": null,
           "away_score": null,
           "group": 1,
-          "umpire": "Benjamin Bester"
+          "umpire": "Benje Bester"
         },
         {
           "round": 1,
@@ -1359,7 +1359,277 @@
           "home_score": null,
           "away_score": null,
           "group": 3,
-          "umpire": "Cetin Celik"
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 1,
+          "home": "Benje Bester",
+          "away": "Finn Kahn",
+          "home_score": 4,
+          "away_score": 0,
+          "group": 1,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 1,
+          "home": "Benje Bester",
+          "away": "TJ Sabad",
+          "home_score": 3,
+          "away_score": 4,
+          "group": 1,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 1,
+          "home": "Cetinhan Celik",
+          "away": "Duwayne Petersen",
+          "home_score": 0,
+          "away_score": 4,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 1,
+          "home": "Cetinhan Celik",
+          "away": "Gustav Becker",
+          "home_score": 0,
+          "away_score": 4,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 2,
+          "home": "Benje Bester",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 2,
+          "home": "Benje Bester",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 2,
+          "home": "Amien Phillips",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 3,
+          "home": "Benje Bester",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 3,
+          "home": "Benje Bester",
+          "away": "Gustav Becker",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 3,
+          "home": "Finn Kahn",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 3,
+          "home": "Gajen Chetty",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 4,
+          "home": "Benje Bester",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 4,
+          "home": "Benje Bester",
+          "away": "Duwayne Petersen",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 4,
+          "home": "TJ Sabad",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 4,
+          "home": "Simon van der Merwe",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 5,
+          "home": "Finn Kahn",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "TJ Sabad"
+        },
+        {
+          "round": 5,
+          "home": "TJ Sabad",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 5,
+          "home": "Duwayne Petersen",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 5,
+          "home": "Gustav Becker",
+          "away": "Cetinhan Celik",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 6,
+          "home": "Amien Phillips",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Cetinhan Celik"
+        },
+        {
+          "round": 6,
+          "home": "Cetinhan Celik",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Amien Phillips"
+        },
+        {
+          "round": 6,
+          "home": "Cetinhan Celik",
+          "away": "Amien Phillips",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Benje Bester"
+        },
+        {
+          "round": 7,
+          "home": "Simon van der Merwe",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gustav Becker"
+        },
+        {
+          "round": 7,
+          "home": "Gustav Becker",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 7,
+          "home": "Cetinhan Celik",
+          "away": "Finn Kahn",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 7,
+          "home": "Cetinhan Celik",
+          "away": "Gajen Chetty",
+          "home_score": null,
+          "away_score": null,
+          "group": 2,
+          "umpire": "Finn Kahn"
+        },
+        {
+          "round": 8,
+          "home": "Gajen Chetty",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Duwayne Petersen"
+        },
+        {
+          "round": 8,
+          "home": "Duwayne Petersen",
+          "away": "Benje Bester",
+          "home_score": null,
+          "away_score": null,
+          "group": 1,
+          "umpire": "Gajen Chetty"
+        },
+        {
+          "round": 8,
+          "home": "Cetinhan Celik",
+          "away": "TJ Sabad",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "Simon van der Merwe"
+        },
+        {
+          "round": 8,
+          "home": "Cetinhan Celik",
+          "away": "Simon van der Merwe",
+          "home_score": null,
+          "away_score": null,
+          "group": 3,
+          "umpire": "TJ Sabad"
         }
       ],
       "inter_divisional_date": "2026-08-01",
@@ -1502,8 +1772,8 @@
           "round": 2,
           "home": "Jaidyn Nel",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 3,
           "umpire": "Bevan Fortune"
         },
@@ -1583,8 +1853,8 @@
           "round": 2,
           "home": "Joshua Davids",
           "away": "Jaydon Nortje",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 2,
           "umpire": "Juan Engelbrecht"
         },
@@ -1664,8 +1934,8 @@
           "round": 2,
           "home": "Bevan Fortune",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 3,
           "umpire": "Jaidyn Nel"
         },
@@ -1727,8 +1997,8 @@
           "round": 2,
           "home": "Joshua Davids",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 2,
           "umpire": "Riley Brown"
         },
@@ -1772,8 +2042,8 @@
           "round": 2,
           "home": "Jaidyn Nel",
           "away": "Bevan Fortune",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 3,
           "umpire": "Andria van Tonder"
         },
@@ -1952,8 +2222,8 @@
           "round": 2,
           "home": "Jaydon Nortje",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 2,
           "umpire": "Joshua Davids"
         },
@@ -1961,8 +2231,8 @@
           "round": 2,
           "home": "Timothy Prinsloo",
           "away": "Phenyo Tongwane",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 1,
           "umpire": "Carmen Harris"
         },
