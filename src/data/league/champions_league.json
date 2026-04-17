@@ -139,8 +139,8 @@
           "round": 2,
           "home": "DJ Swanevelder",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 2,
@@ -167,8 +167,8 @@
           "round": 2,
           "home": "Le Roux Strydom",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 2,
@@ -1388,7 +1388,6 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Joshua Davids",
         "Jaidyn Nel",
         "Phenyo Tongwane",
         "Bevan Fortune",
@@ -1396,7 +1395,8 @@
         "Juan Engelbrecht",
         "Andria van Tonder",
         "Jaydon Nortje",
-        "Timothy Prinsloo"
+        "Timothy Prinsloo",
+        "Joshua Davids"
       ],
       "results": [
         {
