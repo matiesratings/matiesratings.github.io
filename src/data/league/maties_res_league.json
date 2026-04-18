@@ -1140,22 +1140,6 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Heemstede 1",
-          "players": []
-        },
-        {
-          "name": "Heemstede 2",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
           "name": "Monica",
           "players": []
         },
@@ -1169,6 +1153,22 @@
         },
         {
           "name": "Sonop",
+          "players": []
+        },
+        {
+          "name": "Heemstede 1",
+          "players": []
+        },
+        {
+          "name": "Heemstede 2",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
+          "name": "Minerva",
           "players": []
         }
       ],
@@ -1191,8 +1191,40 @@
           "round": 1,
           "home": "Heemstede 2",
           "away": "Nerina",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Olivia Brake",
+              "away_player": "Chenike Rossouw",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Michelle van Heerden",
+              "away_player": "Mari Swanepoel",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Paige Lessing",
+              "away_player": "Milla van Dyk",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Olivia Brake",
+              "away_player": "Mari Swanepoel",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 4,
@@ -1795,18 +1827,6 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
-          "name": "Aristea",
-          "players": []
-        },
-        {
-          "name": "Harmonie",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
           "name": "ISA",
           "players": []
         },
@@ -1828,6 +1848,18 @@
         },
         {
           "name": "Nerina",
+          "players": []
+        },
+        {
+          "name": "Aristea",
+          "players": []
+        },
+        {
+          "name": "Harmonie",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
           "players": []
         }
       ],
