@@ -894,6 +894,18 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Dragons",
+          "players": []
+        },
+        {
+          "name": "Eendrag 1",
+          "players": []
+        },
+        {
           "name": "Eendrag 2",
           "players": []
         },
@@ -911,18 +923,6 @@
         },
         {
           "name": "Dagbreek 1",
-          "players": []
-        },
-        {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Dragons",
-          "players": []
-        },
-        {
-          "name": "Eendrag 1",
           "players": []
         }
       ],
@@ -1140,6 +1140,18 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
+          "name": "Heemstede 1",
+          "players": []
+        },
+        {
+          "name": "Heemstede 2",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
           "name": "Minerva",
           "players": []
         },
@@ -1157,18 +1169,6 @@
         },
         {
           "name": "Sonop",
-          "players": []
-        },
-        {
-          "name": "Heemstede 1",
-          "players": []
-        },
-        {
-          "name": "Heemstede 2",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
           "players": []
         }
       ],
@@ -1233,8 +1233,40 @@
           "round": 1,
           "home": "Heemstede 1",
           "away": "Sonop",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Amore Frazao",
+              "away_player": "Ella Klopper",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Amy Fr\u00f6hlich",
+              "away_player": "Anke",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Mieke Grobler",
+              "away_player": "Kiara Whiteboy",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Amore Frazao",
+              "away_player": "Anke",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 4,
