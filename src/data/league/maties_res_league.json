@@ -1140,22 +1140,6 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Monica",
-          "players": []
-        },
-        {
-          "name": "Nemesia",
-          "players": []
-        },
-        {
-          "name": "Nerina",
-          "players": []
-        },
-        {
-          "name": "Sonop",
-          "players": []
-        },
-        {
           "name": "Heemstede 1",
           "players": []
         },
@@ -1169,6 +1153,22 @@
         },
         {
           "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Monica",
+          "players": []
+        },
+        {
+          "name": "Nemesia",
+          "players": []
+        },
+        {
+          "name": "Nerina",
+          "players": []
+        },
+        {
+          "name": "Sonop",
           "players": []
         }
       ],
@@ -1276,7 +1276,7 @@
             },
             {
               "home_player": "Amy Fr\u00f6hlich",
-              "away_player": "Anke",
+              "away_player": "Anke Gildenhuys",
               "home_games": 3,
               "away_games": 2
             },
@@ -1294,7 +1294,7 @@
             },
             {
               "home_player": "Amore Frazao",
-              "away_player": "Anke",
+              "away_player": "Anke Gildenhuys",
               "home_games": 3,
               "away_games": 0
             }
@@ -1409,8 +1409,40 @@
           "round": 1,
           "home": "Huis ten Bosch",
           "away": "Nemesia",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "Anouk de Jongh",
+              "away_player": "Ann-Louise Coertze",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Inga Rall",
+              "away_player": "Alida du Plessis",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Sam Gutsche",
+              "away_player": "Sienna Wilk",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Anouk de Jongh",
+              "away_player": "Alida du Plessis",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 3,
