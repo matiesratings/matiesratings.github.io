@@ -3,5 +3,10 @@
     "slug": "champions_league",
     "name": "Champions League",
     "type": "individual"
+  },
+  {
+    "slug": "maties_res_league",
+    "name": "Maties Res League",
+    "type": "team"
   }
 ]
