@@ -5,7 +5,7 @@
   "description": "Campus Table Tennis League 2026",
   "double_round_robin": false,
   "info": [
-    "<strong>Season:</strong> 2026 \u2014 Semester 1 & 2",
+    "<strong>Season:</strong> 2026",
     "<strong>Match Format:</strong> 5 individual matches per fixture (best of 5 games each)",
     "<strong>Points:</strong> Win = 2 pts | Loss = 0 pts",
     "<strong>Walkovers:</strong> Teams must field a minimum of 2 players. If a player is missing, their individual matches are forfeited 0-3. Teams must notify the opposing captain at least 24 hours in advance.",
@@ -872,22 +872,6 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
-          "name": "Huis Visser 1",
-          "players": []
-        },
-        {
-          "name": "Huis Visser 2",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        },
-        {
-          "name": "Pieke",
-          "players": []
-        },
-        {
           "name": "Dagbreek 1",
           "players": []
         },
@@ -901,6 +885,22 @@
         },
         {
           "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 1",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 2",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Pieke",
           "players": []
         }
       ],
@@ -1900,6 +1900,18 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
+          "name": "Lydia",
+          "players": []
+        },
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Nemesia",
+          "players": []
+        },
+        {
           "name": "Nerina",
           "players": []
         },
@@ -1925,18 +1937,6 @@
         },
         {
           "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "Lydia",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
-          "name": "Nemesia",
           "players": []
         }
       ],
