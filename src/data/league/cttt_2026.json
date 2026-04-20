@@ -50,57 +50,39 @@
       "teams": [
         {
           "name": "Top A",
-          "players": [
-            "MERLIN BROWN"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians A",
-          "players": [
-            "ASHLYN WAGNER"
-          ]
+          "players": []
         },
         {
           "name": "Ravens A",
-          "players": [
-            "KIRSHWAN STEYN"
-          ]
+          "players": []
         },
         {
           "name": "Nexus A",
-          "players": [
-            "ZAHIER ISAACS"
-          ]
+          "players": []
         },
         {
           "name": "MP Royals A",
-          "players": [
-            "WESLEY McCLOUD"
-          ]
+          "players": []
         },
         {
           "name": "Liv-Ken A",
-          "players": [
-            "DARREN RODGERS"
-          ]
+          "players": []
         },
         {
           "name": "Duinefontein B",
-          "players": [
-            "MEKHAIL SCHROEDER"
-          ]
+          "players": []
         },
         {
           "name": "Duinefontein A",
-          "players": [
-            "THEO LINGEVELDT"
-          ]
+          "players": []
         },
         {
           "name": "Com House A",
-          "players": [
-            "JODIE GALANT"
-          ]
+          "players": []
         }
       ],
       "results": [
@@ -636,63 +618,43 @@
       "teams": [
         {
           "name": "Top B",
-          "players": [
-            "CHRIS SLOSTER"
-          ]
+          "players": []
         },
         {
           "name": "Comm House C",
-          "players": [
-            "RONALD HUTCHINSON"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood A",
-          "players": [
-            "BERNARD STEWE"
-          ]
+          "players": []
         },
         {
           "name": "Ravens B",
-          "players": [
-            "FRANS ERASMUS"
-          ]
+          "players": []
         },
         {
           "name": "Bishop Lavis A",
-          "players": [
-            "THABIET ADAMS"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians B",
-          "players": [
-            "AMEEN JANSEN"
-          ]
+          "players": []
         },
         {
           "name": "Liv-Ken B",
-          "players": [
-            "BENJAMIN vd ROSS"
-          ]
+          "players": []
         },
         {
           "name": "Duinefontein C",
-          "players": [
-            "TAYLA BAILEY"
-          ]
+          "players": []
         },
         {
           "name": "Boundary A",
-          "players": [
-            "GREGG NAIK"
-          ]
+          "players": []
         },
         {
           "name": "Comm House B",
-          "players": [
-            "ANGELO ISAACS"
-          ]
+          "players": []
         }
       ],
       "results": [
@@ -1353,64 +1315,44 @@
       ],
       "teams": [
         {
-          "name": "Bishop Lavis B",
-          "players": [
-            "YUNUS MOYCE"
-          ]
-        },
-        {
-          "name": "Top C",
-          "players": [
-            "ALLAN CLARK"
-          ]
-        },
-        {
           "name": "Ravens C",
-          "players": [
-            "BEVAN STEYN"
-          ]
+          "players": []
         },
         {
           "name": "Liv-Ken C",
-          "players": [
-            "NAHUM PHILANDER"
-          ]
+          "players": []
         },
         {
           "name": "Uwc A",
-          "players": [
-            "MATHEW MEADE"
-          ]
+          "players": []
         },
         {
           "name": "Mp Royals C",
-          "players": [
-            "ANDRE JOHNSON"
-          ]
+          "players": []
         },
         {
           "name": "Mp Royals B",
-          "players": [
-            "MYAASEEN MANUEL"
-          ]
+          "players": []
         },
         {
           "name": "Boundary B",
-          "players": [
-            "GRAHAM VAN AS"
-          ]
+          "players": []
         },
         {
           "name": "Sp Saints A",
-          "players": [
-            "KEVIN ROODT"
-          ]
+          "players": []
         },
         {
           "name": "Nexus B",
-          "players": [
-            "SAALIEGH JABAAR"
-          ]
+          "players": []
+        },
+        {
+          "name": "Bishop Lavis B",
+          "players": []
+        },
+        {
+          "name": "Top C",
+          "players": []
         }
       ],
       "results": [
@@ -2072,63 +2014,43 @@
       "teams": [
         {
           "name": "Top D",
-          "players": [
-            "SHAUN FRANCIS"
-          ]
+          "players": []
         },
         {
           "name": "Comm House E",
-          "players": [
-            "IKRAAM FRANCIS"
-          ]
+          "players": []
         },
         {
           "name": "Nexus C",
-          "players": [
-            "GHALIEB DAVIDS"
-          ]
+          "players": []
         },
         {
           "name": "Liv-Ken D",
-          "players": [
-            "CHRIS POGGENPOEL"
-          ]
+          "players": []
         },
         {
           "name": "Mp Royals D",
-          "players": [
-            "CRAIG ZIMRI"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood B",
-          "players": [
-            "DELTON ALEXANDER"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians C",
-          "players": [
-            "SEDICK ALEXANDER"
-          ]
+          "players": []
         },
         {
           "name": "Duinefontein D",
-          "players": [
-            "NIEZAAM THEUNISSEN"
-          ]
+          "players": []
         },
         {
           "name": "Steenberg A",
-          "players": [
-            "WILLIAM PRINSLOO"
-          ]
+          "players": []
         },
         {
           "name": "Comm House D",
-          "players": [
-            "GAVIN PARSONS"
-          ]
+          "players": []
         }
       ],
       "results": [
@@ -2790,63 +2712,43 @@
       "teams": [
         {
           "name": "Mp Royals F",
-          "players": [
-            "IVOR ARENDSE"
-          ]
+          "players": []
         },
         {
           "name": "Top E",
-          "players": [
-            "KELVIN SMITH"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians D",
-          "players": [
-            "KIRK DARRIES"
-          ]
+          "players": []
         },
         {
           "name": "Mother City A",
-          "players": [
-            "KAMIEL EBRAHIEM"
-          ]
+          "players": []
         },
         {
           "name": "Mp Royals E",
-          "players": [
-            "DAVID CYFERS"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood C",
-          "players": [
-            "BRENDON O'CONNELL"
-          ]
+          "players": []
         },
         {
           "name": "Nexus D",
-          "players": [
-            "AMIEN PHILLIPS"
-          ]
+          "players": []
         },
         {
           "name": "Duinefontein E",
-          "players": [
-            "ADAM DOMINGO"
-          ]
+          "players": []
         },
         {
           "name": "Sp Saints B",
-          "players": [
-            "JAMIE LOUW"
-          ]
+          "players": []
         },
         {
           "name": "Comm House F",
-          "players": [
-            "JANINE SAIT"
-          ]
+          "players": []
         }
       ],
       "results": [
@@ -3508,63 +3410,43 @@
       "teams": [
         {
           "name": "Top F",
-          "players": [
-            "STANLEY NOMDO"
-          ]
+          "players": []
         },
         {
           "name": "Comm House H",
-          "players": [
-            "REDAA NAJAAR"
-          ]
+          "players": []
         },
         {
           "name": "Ravens D",
-          "players": [
-            "ANNIE WOOD"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood E",
-          "players": [
-            "SALIE PETERSEN"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood D",
-          "players": [
-            "YAASEEN HASSAM"
-          ]
+          "players": []
         },
         {
           "name": "Mp Royals G",
-          "players": [
-            "TYRONE van der MERWE"
-          ]
+          "players": []
         },
         {
           "name": "Nexus E",
-          "players": [
-            "CASHIEF MOWSER"
-          ]
+          "players": []
         },
         {
           "name": "Boundary C",
-          "players": [
-            "DENVER SWEATZ"
-          ]
+          "players": []
         },
         {
           "name": "Cput",
-          "players": [
-            "LIQHAWE PEPETA"
-          ]
+          "players": []
         },
         {
           "name": "Comm House G",
-          "players": [
-            "SHANE FORTUIN"
-          ]
+          "players": []
         }
       ],
       "results": [
@@ -4230,69 +4112,47 @@
       "teams": [
         {
           "name": "Top G",
-          "players": [
-            "RUSSEL MAPHIKE"
-          ]
+          "players": []
         },
         {
           "name": "Uwc C",
-          "players": [
-            "OYENA JANTJIES"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians F",
-          "players": [
-            "SHIVAN RAMPRASAD"
-          ]
+          "players": []
         },
         {
           "name": "Uwc B",
-          "players": [
-            "MARVIN MAKHUBELA"
-          ]
+          "players": []
         },
         {
           "name": "Mother City C",
-          "players": [
-            "PHILIP BOERSMA"
-          ]
+          "players": []
         },
         {
           "name": "Goodwood F",
-          "players": [
-            "LESTER MALGAS"
-          ]
+          "players": []
         },
         {
           "name": "Mother City B",
-          "players": [
-            "SUZIE PHILLIPS"
-          ]
+          "players": []
         },
         {
           "name": "Nexus F",
-          "players": [
-            "EBRAHIEM CARR"
-          ]
+          "players": []
         },
         {
           "name": "Uct",
-          "players": [
-            "DILLAN GODFREY"
-          ]
+          "players": []
         },
         {
           "name": "Stephanians E",
-          "players": [
-            "FASEEG DAVIDS"
-          ]
+          "players": []
         },
         {
           "name": "Comm House I",
-          "players": [
-            "MARTIN BACHUS"
-          ]
+          "players": []
         }
       ],
       "results": [
