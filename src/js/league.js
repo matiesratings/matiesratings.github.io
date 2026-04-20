@@ -103,16 +103,34 @@ function computePlayerStandings(schedule, teams) {
     const teamMap = {};
     for (const team of teams) {
         teamMap[team.name] = team;
-        for (const p of team.players) {
+        for (const p of team.players || []) {
             stats[team.name + "|" + p] = { name: p, team: team.name, played: 0, won: 0, lost: 0 };
         }
     }
+    const ensure = (teamName, playerName) => {
+        const k = teamName + "|" + playerName;
+        if (!stats[k]) stats[k] = { name: playerName, team: teamName, played: 0, won: 0, lost: 0 };
+        return k;
+    };
     let fi = 0;
     for (const round of schedule) {
         for (const m of round) {
             if (!m.completed) { fi++; continue; }
             const ht = teamMap[m.home], at = teamMap[m.away];
             if (!ht || !at) { fi++; continue; }
+            if (m.matches && m.matches.length) {
+                for (const im of m.matches) {
+                    if (!im.home_player || !im.away_player) continue;
+                    const hk = ensure(m.home, im.home_player);
+                    const ak = ensure(m.away, im.away_player);
+                    stats[hk].played++; stats[ak].played++;
+                    if ((im.home_games || 0) > (im.away_games || 0)) { stats[hk].won++; stats[ak].lost++; }
+                    else if ((im.away_games || 0) > (im.home_games || 0)) { stats[ak].won++; stats[hk].lost++; }
+                }
+                fi++;
+                continue;
+            }
+            if (!ht.players || !ht.players.length || !at.players || !at.players.length) { fi++; continue; }
             const total = m.home_score + m.away_score;
             for (let r = 0; r < total; r++) {
                 const hp = ht.players[(fi + r) % ht.players.length];
@@ -642,6 +660,7 @@ function loadDivision(divisionId) {
                 completed: r.home_score != null && r.away_score != null,
                 umpire: r.umpire || null,
                 group: r.group || null,
+                matches: r.matches || null,
             });
         }
         const maxRound = Math.max(...Object.keys(roundMap).map(Number));
