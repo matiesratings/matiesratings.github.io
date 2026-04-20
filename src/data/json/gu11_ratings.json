@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "rank": 1,
+    "maties_id": 1375,
+    "name": "Shivan Musinguzi",
+    "club": "Top",
+    "gender": "Female",
+    "rating": 1325,
+    "win_per": 100.0,
+    "played": 8,
+    "won": 8,
+    "lost": 0,
+    "last_played": "2026-04-04",
+    "best_win": "Hannah Marais (1199)",
+    "max_rating": 1325,
+    "max_rating_date": "2026-04-04"
+  },
+  {
+    "rank": 2,
+    "maties_id": 828,
+    "name": "Danyelle Verheijen",
+    "club": "CSIR",
+    "gender": "Female",
+    "rating": 1262,
+    "win_per": 58.3,
+    "played": 12,
+    "won": 7,
+    "lost": 5,
+    "last_played": "2025-08-09",
+    "best_win": "Anotidaishe Husvu (1261)",
+    "max_rating": 1283,
+    "max_rating_date": "2025-08-09"
+  },
+  {
+    "rank": 3,
+    "maties_id": 917,
+    "name": "Tadiwanashe Husvu",
+    "club": "PMSC",
+    "gender": "Female",
+    "rating": 1253,
+    "win_per": 63.6,
+    "played": 11,
+    "won": 7,
+    "lost": 4,
+    "last_played": "2025-08-09",
+    "best_win": "Anotidaishe Husvu (1235)",
+    "max_rating": 1280,
+    "max_rating_date": "2025-07-19"
+  },
+  {
+    "rank": 4,
+    "maties_id": 913,
+    "name": "Anotidaishe Husvu",
+    "club": "PMSC",
+    "gender": "Female",
+    "rating": 1235,
+    "win_per": 58.3,
+    "played": 12,
+    "won": 7,
+    "lost": 5,
+    "last_played": "2025-08-09",
+    "best_win": "Tadiwanashe Husvu (1254)",
+    "max_rating": 1315,
+    "max_rating_date": "2025-08-09"
+  }
+]
