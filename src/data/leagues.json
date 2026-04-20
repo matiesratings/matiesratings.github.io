@@ -5,6 +5,11 @@
     "type": "individual"
   },
   {
+    "slug": "cttt_2026",
+    "name": "CTTT 2026",
+    "type": "team"
+  },
+  {
     "slug": "maties_res_league",
     "name": "Maties Res League",
     "type": "team"
