@@ -32,16 +32,16 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Tian Louw",
-        "Kirshwan Steyn",
-        "Shane Overmeyer",
-        "Joshua Du Plooy",
-        "David Nwafor",
-        "DJ Swanevelder",
-        "Dirk Coetzee",
-        "Le Roux Strydom",
+        "Steffan Brundyn",
         "Tayla Bailey",
-        "Steffan Brundyn"
+        "Le Roux Strydom",
+        "Dirk Coetzee",
+        "DJ Swanevelder",
+        "David Nwafor",
+        "Joshua Du Plooy",
+        "Shane Overmeyer",
+        "Kirshwan Steyn",
+        "Tian Louw"
       ],
       "results": [
         {
@@ -702,15 +702,15 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Finn Kahn",
-        "TJ Sabad",
-        "Amien Phillips",
-        "Benjamin Bester",
-        "Simon van der Merwe",
-        "Gajen Chetty",
-        "Duwayne Petersen",
+        "Cetin Celik",
         "Gustav Becker",
-        "Cetin Celik"
+        "Duwayne Petersen",
+        "Gajen Chetty",
+        "Simon van der Merwe",
+        "Benjamin Bester",
+        "Amien Phillips",
+        "TJ Sabad",
+        "Finn Kahn"
       ],
       "results": [
         {
@@ -1388,15 +1388,15 @@
       ],
       "finals_date": "2026-08-15",
       "players": [
-        "Timothy Prinsloo",
-        "Joshua Davids",
-        "Jaidyn Nel",
-        "Phenyo Tongwane",
-        "Bevan Fortune",
-        "Carmen Harris",
-        "Juan Engelbrecht",
+        "Jaydon Nortje",
         "Andria van Tonder",
-        "Jaydon Nortje"
+        "Juan Engelbrecht",
+        "Carmen Harris",
+        "Bevan Fortune",
+        "Phenyo Tongwane",
+        "Jaidyn Nel",
+        "Joshua Davids",
+        "Timothy Prinsloo"
       ],
       "results": [
         {
@@ -1421,8 +1421,8 @@
           "round": 3,
           "home": "Jaidyn Nel",
           "away": "Phenyo Tongwane",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Juan Engelbrecht"
         },
@@ -1484,8 +1484,8 @@
           "round": 3,
           "home": "Joshua Davids",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 2,
           "group": 2,
           "umpire": "Bevan Fortune"
         },
@@ -1556,8 +1556,8 @@
           "round": 3,
           "home": "Joshua Davids",
           "away": "Bevan Fortune",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 2,
           "umpire": "Carmen Harris"
         },
@@ -1601,8 +1601,8 @@
           "round": 3,
           "home": "Jaidyn Nel",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Phenyo Tongwane"
         },
@@ -1637,8 +1637,8 @@
           "round": 3,
           "home": "Bevan Fortune",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 2,
           "umpire": "Joshua Davids"
         },
@@ -2006,8 +2006,8 @@
           "round": 3,
           "home": "Phenyo Tongwane",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 3,
           "umpire": "Jaidyn Nel"
         },
