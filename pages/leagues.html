@@ -29,18 +29,12 @@
 
     <script src="/src/js/utils.js"></script>
     <script>
-        const LEAGUES = [
-            { id: "champions_league", name: "Champions League", season: "2026" },
-            { id: "maties_res_league", name: "Maties Res League", season: "2026" },
-        ];
-
         function computeLeader(division, isDoubleRR) {
             const teams = division.teams || (division.players || []).map(p => ({ name: p, players: [p] }));
             const names = teams.map(t => t.name);
             const stats = {};
             for (const n of names) stats[n] = { name: n, points: 0, mf: 0, ma: 0 };
 
-            // Use results directly
             for (const r of (division.results || [])) {
                 if (r.home_score == null || r.away_score == null) continue;
                 const h = stats[r.home], a = stats[r.away];
@@ -63,9 +57,12 @@
             const mw = id.match(/^(?:mens|womens)_([a-z])$/);
             if (mw) return mw[1].toUpperCase();
             if (id === "premier" || id === "premier_division") return "Prem";
-            if (id === "first" || id === "1st_division") return "1st";
-            if (id === "second" || id === "2nd_division") return "2nd";
-            if (id === "third" || id === "3rd_division") return "3rd";
+            if (id === "first" || id === "1st_division" || id === "1st") return "1st";
+            if (id === "second" || id === "2nd_division" || id === "2nd") return "2nd";
+            if (id === "third" || id === "3rd_division" || id === "3rd") return "3rd";
+            if (id === "4th") return "4th";
+            if (id === "5th") return "5th";
+            if (id === "6th") return "6th";
             return div.name;
         }
 
@@ -76,9 +73,19 @@
         async function loadLeagues() {
             const grid = document.getElementById("leagues-grid");
 
+            let LEAGUES;
+            try {
+                const indexRes = await fetch("/src/data/leagues.json");
+                if (!indexRes.ok) throw new Error();
+                LEAGUES = await indexRes.json();
+            } catch {
+                grid.innerHTML = '<p style="color:#555;">Could not load leagues.</p>';
+                return;
+            }
+
             for (const league of LEAGUES) {
                 try {
-                    const res = await fetch(`/src/data/league/${league.id}.json`);
+                    const res = await fetch(`/src/data/league/${league.slug}.json`);
                     if (!res.ok) continue;
                     const data = await res.json();
 
@@ -86,7 +93,6 @@
                     let leadersHtml = "";
 
                     if (isGender) {
-                        // Group by gender, show leaders per gender
                         for (const gender of ["mens", "womens"]) {
                             const divs = data.divisions.filter(d => (d.id || "").startsWith(gender + "_"));
                             if (divs.length === 0) continue;
@@ -116,7 +122,7 @@
 
                     const card = document.createElement("div");
                     card.className = "league-card";
-                    card.onclick = () => location.href = `/pages/league.html?league=${league.id}`;
+                    card.onclick = () => location.href = `/pages/league.html?league=${league.slug}`;
                     card.innerHTML = `
                         <h3>${data.league_name} ${data.season || ""}</h3>
                         <p class="league-meta">${data.type === "team" ? "Team League" : "Individual League"} · ${data.divisions.length} divisions</p>
