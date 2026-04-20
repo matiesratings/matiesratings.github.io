@@ -720,12 +720,18 @@ async function initLeague() {
         document.getElementById("standings-sub-toggles").style.display = "none";
     }
 
-    // Hide Teams tab if no player data in any division
-    const hasPlayerData = leagueData.divisions.some(d =>
+    // Hide Rosters tab if no roster data anywhere
+    const hasRosters = leagueData.divisions.some(d =>
         d.teams && d.teams.some(t => t.players && t.players.length > 0)
     );
-    if (!hasPlayerData && !isIndividual) {
+    // Player standings can also be built from results[].matches[] (self-managed leagues)
+    const hasMatchPlayers = leagueData.divisions.some(d =>
+        d.results && d.results.some(r => r.matches && r.matches.some(im => im.home_player || im.away_player))
+    );
+    if (!hasRosters && !isIndividual) {
         document.querySelector('[data-view="rosters"]').style.display = "none";
+    }
+    if (!hasRosters && !hasMatchPlayers && !isIndividual) {
         document.getElementById("standings-sub-toggles").style.display = "none";
     }
 
