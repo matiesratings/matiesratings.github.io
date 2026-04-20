@@ -3,6 +3,7 @@
   "season": "2026",
   "type": "team",
   "description": "Cape Town Table Tennis League 2026",
+  "logo": "/src/img/cttt_logo.png",
   "double_round_robin": true,
   "info": [
     "Kick-off: 19h30 sharp \u2014 away team warm-ups before 19h30",

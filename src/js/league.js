@@ -468,6 +468,21 @@ function renderRosters(division) {
     el.innerHTML = html + "</div>";
 }
 
+// ── Header logo override ──
+// Swap the default Maties Sport header logo with a league-specific one
+// when leagueData.logo is set. Runs after renderSponsor so it takes precedence.
+
+function renderLeagueLogo() {
+    if (!leagueData.logo) return;
+    const swap = () => {
+        const leftLogo = document.querySelector(".header-logo-container img.header-logo");
+        if (!leftLogo) { setTimeout(swap, 50); return; }
+        leftLogo.src = leagueData.logo;
+        leftLogo.alt = leagueData.league_name || "League logo";
+    };
+    swap();
+}
+
 // ── Sponsor ──
 
 function renderSponsor() {
@@ -713,6 +728,7 @@ async function initLeague() {
     setHeaderTitle(leagueData.league_name + " " + leagueData.season);
     await loadRatings();
     renderSponsor();
+    renderLeagueLogo();
     renderInfoModal();
 
     if (isIndividual) {
