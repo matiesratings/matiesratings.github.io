@@ -1,0 +1,5072 @@
+{
+  "league_name": "CTTT 2026",
+  "season": "2026",
+  "type": "team",
+  "description": "Cape Town Table Tennis League 2026",
+  "double_round_robin": true,
+  "info": [
+    "Kick-off: 19h30 sharp \u2014 away team warm-ups before 19h30",
+    "Match format: 7 matches (6 singles + 1 doubles), best of 5 games",
+    "Order of play: H1vV1, H2vV2, H3vV3, Doubles, H1vV2, H3vV1, H2vV3",
+    "Doubles: H3 & partner vs V3 & partner",
+    "Team: max 4 players \u2014 3 play 2 singles each, 2 play doubles",
+    "League points: Win = 3, Loss = 1, Walkover = 0",
+    "Individual points: Win = 3, Loss = 1, Walkover = 0",
+    "Scorecards: submit to captains WhatsApp group after match \u2014 deadline Sunday 4pm",
+    "Late scorecard fine: R150 per team",
+    "Late arrival: forfeit 1 match per 15 min from 19h30, full forfeit at 20h30 (R200 fine)",
+    "2-player team: forfeit H3/V3 matches + doubles, R150 fine \u2014 can still win if winning all 4 singles",
+    "Full walkover (no-show): R200 fine, 0 pts for defaulting team",
+    "Substitutions: from lower division only, max 5 per season, cup-tied on 6th match",
+    "No subs allowed weeks 1, 16, 17, 18 \u2014 no new registrations weeks 16, 17, 18",
+    "Club colours required \u2014 R50 fine per offence",
+    "ITTF approved balls only \u2014 brand nominated by CTTT at M&R meeting",
+    "M&R Secretary: Shaine Jeftha \u2014 0680500892 (WhatsApp) \u2014 capetowntt.mr@gmail.com"
+  ],
+  "divisions": [
+    {
+      "id": "premier",
+      "name": "Premier",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Top A",
+          "players": [
+            "MERLIN BROWN"
+          ]
+        },
+        {
+          "name": "Stephanians A",
+          "players": [
+            "ASHLYN WAGNER"
+          ]
+        },
+        {
+          "name": "Ravens A",
+          "players": [
+            "KIRSHWAN STEYN"
+          ]
+        },
+        {
+          "name": "Nexus A",
+          "players": [
+            "ZAHIER ISAACS"
+          ]
+        },
+        {
+          "name": "MP Royals A",
+          "players": [
+            "WESLEY McCLOUD"
+          ]
+        },
+        {
+          "name": "Liv-Ken A",
+          "players": [
+            "DARREN RODGERS"
+          ]
+        },
+        {
+          "name": "Duinefontein B",
+          "players": [
+            "MEKHAIL SCHROEDER"
+          ]
+        },
+        {
+          "name": "Duinefontein A",
+          "players": [
+            "THEO LINGEVELDT"
+          ]
+        },
+        {
+          "name": "Com House A",
+          "players": [
+            "JODIE GALANT"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Duinefontein A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Duinefontein B",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Liv-Ken A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "MP Royals A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Stephanians A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Ravens A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nexus A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Com House A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Duinefontein A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Duinefontein B",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Liv-Ken A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Ravens A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Nexus A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "MP Royals A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Stephanians A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Com House A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Duinefontein A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Duinefontein B",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Top A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "MP Royals A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Liv-Ken A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Nexus A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Ravens A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Com House A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Duinefontein A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Top A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Stephanians A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Duinefontein B",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Liv-Ken A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "MP Royals A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Nexus A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Com House A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Top A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Stephanians A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Ravens A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Stephanians A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Ravens A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Nexus A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Com House A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Duinefontein A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Duinefontein B",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Liv-Ken A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Stephanians A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Ravens A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Nexus A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "MP Royals A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Com House A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Duinefontein A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Duinefontein B",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Top A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Nexus A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "MP Royals A",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Liv-Ken A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Ravens A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Com House A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Duinefontein A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Top A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Stephanians A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Liv-Ken A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Duinefontein B",
+          "away": "Duinefontein A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "MP Royals A",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Nexus A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Com House A",
+          "away": "Duinefontein B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Top A",
+          "away": "Liv-Ken A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Stephanians A",
+          "away": "MP Royals A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Ravens A",
+          "away": "Nexus A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Duinefontein A",
+          "away": "Com House A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Duinefontein B",
+          "away": "Top A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Liv-Ken A",
+          "away": "Stephanians A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "MP Royals A",
+          "away": "Ravens A",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "1st",
+      "name": "1st Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Top B",
+          "players": [
+            "CHRIS SLOSTER"
+          ]
+        },
+        {
+          "name": "Comm House C",
+          "players": [
+            "RONALD HUTCHINSON"
+          ]
+        },
+        {
+          "name": "Goodwood A",
+          "players": [
+            "BERNARD STEWE"
+          ]
+        },
+        {
+          "name": "Ravens B",
+          "players": [
+            "FRANS ERASMUS"
+          ]
+        },
+        {
+          "name": "Bishop Lavis A",
+          "players": [
+            "THABIET ADAMS"
+          ]
+        },
+        {
+          "name": "Stephanians B",
+          "players": [
+            "AMEEN JANSEN"
+          ]
+        },
+        {
+          "name": "Liv-Ken B",
+          "players": [
+            "BENJAMIN vd ROSS"
+          ]
+        },
+        {
+          "name": "Duinefontein C",
+          "players": [
+            "TAYLA BAILEY"
+          ]
+        },
+        {
+          "name": "Boundary A",
+          "players": [
+            "GREGG NAIK"
+          ]
+        },
+        {
+          "name": "Comm House B",
+          "players": [
+            "ANGELO ISAACS"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Comm House B",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Boundary A",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Duinefontein C",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Liv-Ken B",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Stephanians B",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Comm House C",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Goodwood A",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Ravens B",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Bishop Lavis A",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top B",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House B",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Boundary A",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Duinefontein C",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Liv-Ken B",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House C",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Ravens B",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Bishop Lavis A",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Stephanians B",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Top B",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Goodwood A",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House B",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Boundary A",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Duinefontein C",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House C",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Goodwood A",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Stephanians B",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Liv-Ken B",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Top B",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Bishop Lavis A",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Ravens B",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House B",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Boundary A",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House C",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Goodwood A",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Ravens B",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Duinefontein C",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Top B",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Liv-Ken B",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Stephanians B",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Bishop Lavis A",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House B",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House C",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Goodwood A",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Ravens B",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Bishop Lavis A",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top B",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Comm House C",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Goodwood A",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Ravens B",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Bishop Lavis A",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Comm House B",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Boundary A",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Duinefontein C",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Liv-Ken B",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Stephanians B",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Goodwood A",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Ravens B",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Bishop Lavis A",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Stephanians B",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Top B",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House B",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Boundary A",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Duinefontein C",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Liv-Ken B",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House C",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Bishop Lavis A",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Stephanians B",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Liv-Ken B",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Ravens B",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Top B",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House B",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Boundary A",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Duinefontein C",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House C",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Goodwood A",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Liv-Ken B",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Duinefontein C",
+          "away": "Boundary A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Stephanians B",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Bishop Lavis A",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Top B",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House B",
+          "away": "Duinefontein C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Boundary A",
+          "away": "Top B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House C",
+          "away": "Liv-Ken B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Goodwood A",
+          "away": "Stephanians B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Ravens B",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Boundary A",
+          "away": "Comm House B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Duinefontein C",
+          "away": "Comm House C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Liv-Ken B",
+          "away": "Goodwood A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Stephanians B",
+          "away": "Ravens B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Top B",
+          "away": "Bishop Lavis A",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "2nd",
+      "name": "2nd Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Bishop Lavis B",
+          "players": [
+            "YUNUS MOYCE"
+          ]
+        },
+        {
+          "name": "Top C",
+          "players": [
+            "ALLAN CLARK"
+          ]
+        },
+        {
+          "name": "Ravens C",
+          "players": [
+            "BEVAN STEYN"
+          ]
+        },
+        {
+          "name": "Liv-Ken C",
+          "players": [
+            "NAHUM PHILANDER"
+          ]
+        },
+        {
+          "name": "Uwc A",
+          "players": [
+            "MATHEW MEADE"
+          ]
+        },
+        {
+          "name": "Mp Royals C",
+          "players": [
+            "ANDRE JOHNSON"
+          ]
+        },
+        {
+          "name": "Mp Royals B",
+          "players": [
+            "MYAASEEN MANUEL"
+          ]
+        },
+        {
+          "name": "Boundary B",
+          "players": [
+            "GRAHAM VAN AS"
+          ]
+        },
+        {
+          "name": "Sp Saints A",
+          "players": [
+            "KEVIN ROODT"
+          ]
+        },
+        {
+          "name": "Nexus B",
+          "players": [
+            "SAALIEGH JABAAR"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Nexus B",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Sp Saints A",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Boundary B",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Mp Royals B",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Mp Royals C",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top C",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Ravens C",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Liv-Ken C",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Uwc A",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Bishop Lavis B",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nexus B",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Sp Saints A",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Boundary B",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Mp Royals B",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Top C",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Liv-Ken C",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Uwc A",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mp Royals C",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Bishop Lavis B",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Ravens C",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Nexus B",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Sp Saints A",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Boundary B",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Top C",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Ravens C",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals C",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals B",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Bishop Lavis B",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Uwc A",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Liv-Ken C",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nexus B",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Sp Saints A",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Top C",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Ravens C",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Liv-Ken C",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Boundary B",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Bishop Lavis B",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals B",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals C",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Uwc A",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Nexus B",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Top C",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Ravens C",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Liv-Ken C",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Uwc A",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Bishop Lavis B",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top C",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Ravens C",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Liv-Ken C",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Uwc A",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Nexus B",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Sp Saints A",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Boundary B",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Mp Royals B",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Mp Royals C",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Ravens C",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Liv-Ken C",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Uwc A",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mp Royals C",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Bishop Lavis B",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Nexus B",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Sp Saints A",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Boundary B",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Mp Royals B",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Top C",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Uwc A",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals C",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals B",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Liv-Ken C",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Bishop Lavis B",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Nexus B",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Sp Saints A",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Boundary B",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Top C",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Ravens C",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals B",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Boundary B",
+          "away": "Sp Saints A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals C",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Uwc A",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Bishop Lavis B",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Nexus B",
+          "away": "Boundary B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Sp Saints A",
+          "away": "Bishop Lavis B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Top C",
+          "away": "Mp Royals B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Ravens C",
+          "away": "Mp Royals C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Liv-Ken C",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Sp Saints A",
+          "away": "Nexus B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Boundary B",
+          "away": "Top C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Mp Royals B",
+          "away": "Ravens C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Mp Royals C",
+          "away": "Liv-Ken C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Bishop Lavis B",
+          "away": "Uwc A",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "3rd",
+      "name": "3rd Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Top D",
+          "players": [
+            "SHAUN FRANCIS"
+          ]
+        },
+        {
+          "name": "Comm House E",
+          "players": [
+            "IKRAAM FRANCIS"
+          ]
+        },
+        {
+          "name": "Nexus C",
+          "players": [
+            "GHALIEB DAVIDS"
+          ]
+        },
+        {
+          "name": "Liv-Ken D",
+          "players": [
+            "CHRIS POGGENPOEL"
+          ]
+        },
+        {
+          "name": "Mp Royals D",
+          "players": [
+            "CRAIG ZIMRI"
+          ]
+        },
+        {
+          "name": "Goodwood B",
+          "players": [
+            "DELTON ALEXANDER"
+          ]
+        },
+        {
+          "name": "Stephanians C",
+          "players": [
+            "SEDICK ALEXANDER"
+          ]
+        },
+        {
+          "name": "Duinefontein D",
+          "players": [
+            "NIEZAAM THEUNISSEN"
+          ]
+        },
+        {
+          "name": "Steenberg A",
+          "players": [
+            "WILLIAM PRINSLOO"
+          ]
+        },
+        {
+          "name": "Comm House D",
+          "players": [
+            "GAVIN PARSONS"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Comm House D",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Steenberg A",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Duinefontein D",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Stephanians C",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Goodwood B",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Comm House E",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Nexus C",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Liv-Ken D",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mp Royals D",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top D",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House D",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Steenberg A",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Duinefontein D",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Stephanians C",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House E",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Liv-Ken D",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mp Royals D",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Goodwood B",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Top D",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Nexus C",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House D",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Steenberg A",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Duinefontein D",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House E",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Nexus C",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Goodwood B",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Stephanians C",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Top D",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals D",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Liv-Ken D",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House D",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Steenberg A",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House E",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nexus C",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Liv-Ken D",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Duinefontein D",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Top D",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Stephanians C",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Goodwood B",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals D",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House D",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House E",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Nexus C",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Liv-Ken D",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Mp Royals D",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top D",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Comm House E",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Nexus C",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Liv-Ken D",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Mp Royals D",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Comm House D",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Steenberg A",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Duinefontein D",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Stephanians C",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Goodwood B",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Nexus C",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Liv-Ken D",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mp Royals D",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Goodwood B",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Top D",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House D",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Steenberg A",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Duinefontein D",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Stephanians C",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House E",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals D",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Goodwood B",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Stephanians C",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Liv-Ken D",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Top D",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House D",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Steenberg A",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Duinefontein D",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House E",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Nexus C",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Stephanians C",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Duinefontein D",
+          "away": "Steenberg A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Goodwood B",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals D",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Top D",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House D",
+          "away": "Duinefontein D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Steenberg A",
+          "away": "Top D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House E",
+          "away": "Stephanians C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Nexus C",
+          "away": "Goodwood B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Liv-Ken D",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Steenberg A",
+          "away": "Comm House D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Duinefontein D",
+          "away": "Comm House E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Stephanians C",
+          "away": "Nexus C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Goodwood B",
+          "away": "Liv-Ken D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Top D",
+          "away": "Mp Royals D",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "4th",
+      "name": "4th Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Mp Royals F",
+          "players": [
+            "IVOR ARENDSE"
+          ]
+        },
+        {
+          "name": "Top E",
+          "players": [
+            "KELVIN SMITH"
+          ]
+        },
+        {
+          "name": "Stephanians D",
+          "players": [
+            "KIRK DARRIES"
+          ]
+        },
+        {
+          "name": "Mother City A",
+          "players": [
+            "KAMIEL EBRAHIEM"
+          ]
+        },
+        {
+          "name": "Mp Royals E",
+          "players": [
+            "DAVID CYFERS"
+          ]
+        },
+        {
+          "name": "Goodwood C",
+          "players": [
+            "BRENDON O'CONNELL"
+          ]
+        },
+        {
+          "name": "Nexus D",
+          "players": [
+            "AMIEN PHILLIPS"
+          ]
+        },
+        {
+          "name": "Duinefontein E",
+          "players": [
+            "ADAM DOMINGO"
+          ]
+        },
+        {
+          "name": "Sp Saints B",
+          "players": [
+            "JAMIE LOUW"
+          ]
+        },
+        {
+          "name": "Comm House F",
+          "players": [
+            "JANINE SAIT"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Comm House F",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Sp Saints B",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Duinefontein E",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Nexus D",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Goodwood C",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top E",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Stephanians D",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mother City A",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mp Royals E",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mp Royals F",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House F",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Sp Saints B",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Duinefontein E",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nexus D",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Top E",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mother City A",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mp Royals E",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Goodwood C",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mp Royals F",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Stephanians D",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House F",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Sp Saints B",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Duinefontein E",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Top E",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Stephanians D",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Goodwood C",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Nexus D",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals F",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals E",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mother City A",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House F",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Sp Saints B",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Top E",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Stephanians D",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Mother City A",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Duinefontein E",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals F",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Nexus D",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Goodwood C",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals E",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House F",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Top E",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Stephanians D",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Mother City A",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Mp Royals E",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Mp Royals F",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top E",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Stephanians D",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Mother City A",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Mp Royals E",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Comm House F",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Sp Saints B",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Duinefontein E",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Nexus D",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Goodwood C",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Stephanians D",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mother City A",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mp Royals E",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Goodwood C",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mp Royals F",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House F",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Sp Saints B",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Duinefontein E",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Nexus D",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Top E",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals E",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Goodwood C",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Nexus D",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mother City A",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals F",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House F",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Sp Saints B",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Duinefontein E",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Top E",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Stephanians D",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Nexus D",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Duinefontein E",
+          "away": "Sp Saints B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Goodwood C",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals E",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals F",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House F",
+          "away": "Duinefontein E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Sp Saints B",
+          "away": "Mp Royals F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Top E",
+          "away": "Nexus D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Stephanians D",
+          "away": "Goodwood C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Mother City A",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Sp Saints B",
+          "away": "Comm House F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Duinefontein E",
+          "away": "Top E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Nexus D",
+          "away": "Stephanians D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Goodwood C",
+          "away": "Mother City A",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Mp Royals F",
+          "away": "Mp Royals E",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "5th",
+      "name": "5th Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "teams": [
+        {
+          "name": "Top F",
+          "players": [
+            "STANLEY NOMDO"
+          ]
+        },
+        {
+          "name": "Comm House H",
+          "players": [
+            "REDAA NAJAAR"
+          ]
+        },
+        {
+          "name": "Ravens D",
+          "players": [
+            "ANNIE WOOD"
+          ]
+        },
+        {
+          "name": "Goodwood E",
+          "players": [
+            "SALIE PETERSEN"
+          ]
+        },
+        {
+          "name": "Goodwood D",
+          "players": [
+            "YAASEEN HASSAM"
+          ]
+        },
+        {
+          "name": "Mp Royals G",
+          "players": [
+            "TYRONE van der MERWE"
+          ]
+        },
+        {
+          "name": "Nexus E",
+          "players": [
+            "CASHIEF MOWSER"
+          ]
+        },
+        {
+          "name": "Boundary C",
+          "players": [
+            "DENVER SWEATZ"
+          ]
+        },
+        {
+          "name": "Cput",
+          "players": [
+            "LIQHAWE PEPETA"
+          ]
+        },
+        {
+          "name": "Comm House G",
+          "players": [
+            "SHANE FORTUIN"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Comm House G",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Cput",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Boundary C",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Nexus E",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Mp Royals G",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Comm House H",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Ravens D",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Goodwood E",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Goodwood D",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top F",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House G",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Cput",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Boundary C",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nexus E",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House H",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Goodwood E",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Goodwood D",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mp Royals G",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Top F",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Ravens D",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House G",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Cput",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Boundary C",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House H",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Ravens D",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mp Royals G",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Nexus E",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Top F",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Goodwood D",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Goodwood E",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House G",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Cput",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House H",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Ravens D",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Goodwood E",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Boundary C",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Top F",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Nexus E",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mp Royals G",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Goodwood D",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House G",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House H",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Ravens D",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Goodwood E",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Goodwood D",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Top F",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Comm House H",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Ravens D",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Goodwood E",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Goodwood D",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Comm House G",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Cput",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Boundary C",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Nexus E",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Mp Royals G",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Ravens D",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Goodwood E",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Goodwood D",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mp Royals G",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Top F",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House G",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Cput",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Boundary C",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Nexus E",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House H",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Goodwood D",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mp Royals G",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Nexus E",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Goodwood E",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Top F",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House G",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Cput",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Boundary C",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House H",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Ravens D",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Nexus E",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Boundary C",
+          "away": "Cput",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mp Royals G",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Goodwood D",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Top F",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House G",
+          "away": "Boundary C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Cput",
+          "away": "Top F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House H",
+          "away": "Nexus E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Ravens D",
+          "away": "Mp Royals G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Goodwood E",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Cput",
+          "away": "Comm House G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Boundary C",
+          "away": "Comm House H",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Nexus E",
+          "away": "Ravens D",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Mp Royals G",
+          "away": "Goodwood E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Top F",
+          "away": "Goodwood D",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    },
+    {
+      "id": "6th",
+      "name": "6th Division",
+      "round_dates": [
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-18",
+        "2026-06-01",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-06",
+        "2026-07-20",
+        "2026-07-27",
+        "2026-08-03",
+        "2026-08-17",
+        "2026-08-31",
+        "2026-09-07",
+        "2026-09-14",
+        "2026-09-21",
+        "2026-09-28",
+        "2026-10-05",
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26"
+      ],
+      "teams": [
+        {
+          "name": "Top G",
+          "players": [
+            "RUSSEL MAPHIKE"
+          ]
+        },
+        {
+          "name": "Uwc C",
+          "players": [
+            "OYENA JANTJIES"
+          ]
+        },
+        {
+          "name": "Stephanians F",
+          "players": [
+            "SHIVAN RAMPRASAD"
+          ]
+        },
+        {
+          "name": "Uwc B",
+          "players": [
+            "MARVIN MAKHUBELA"
+          ]
+        },
+        {
+          "name": "Mother City C",
+          "players": [
+            "PHILIP BOERSMA"
+          ]
+        },
+        {
+          "name": "Goodwood F",
+          "players": [
+            "LESTER MALGAS"
+          ]
+        },
+        {
+          "name": "Mother City B",
+          "players": [
+            "SUZIE PHILLIPS"
+          ]
+        },
+        {
+          "name": "Nexus F",
+          "players": [
+            "EBRAHIEM CARR"
+          ]
+        },
+        {
+          "name": "Uct",
+          "players": [
+            "DILLAN GODFREY"
+          ]
+        },
+        {
+          "name": "Stephanians E",
+          "players": [
+            "FASEEG DAVIDS"
+          ]
+        },
+        {
+          "name": "Comm House I",
+          "players": [
+            "MARTIN BACHUS"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "round": 1,
+          "home": "Stephanians E",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Uct",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Nexus F",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Mother City B",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 1,
+          "home": "Goodwood F",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Top G",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Stephanians F",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Uct",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mother City C",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 2,
+          "home": "Mother City B",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Comm House I",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Top G",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Stephanians E",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Goodwood F",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 3,
+          "home": "Nexus F",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Stephanians F",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Uwc C",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mother City C",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Mother City B",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 4,
+          "home": "Uct",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Comm House I",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Stephanians F",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Goodwood F",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Top G",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 5,
+          "home": "Stephanians E",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mother City C",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Uwc B",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Mother City B",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Uwc C",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 6,
+          "home": "Uct",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Comm House I",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Mother City C",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Nexus F",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Stephanians F",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 7,
+          "home": "Stephanians E",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Mother City B",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Goodwood F",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Uct",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Uwc B",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 8,
+          "home": "Uwc C",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Comm House I",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Mother City B",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Stephanians E",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Top G",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 9,
+          "home": "Stephanians F",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Uct",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Nexus F",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Goodwood F",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Uwc C",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 10,
+          "home": "Uwc B",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Comm House I",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Top G",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Mother City B",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Stephanians F",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 11,
+          "home": "Mother City C",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Top G",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Uwc C",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Stephanians F",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Uwc B",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 12,
+          "home": "Mother City C",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Comm House I",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Stephanians E",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Uwc B",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Nexus F",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 13,
+          "home": "Goodwood F",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Uwc C",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Stephanians F",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mother City C",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Uct",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 14,
+          "home": "Mother City B",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Comm House I",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Uwc B",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Top G",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Stephanians E",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 15,
+          "home": "Nexus F",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Uwc B",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mother City C",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Uwc C",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Mother City B",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 16,
+          "home": "Uct",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Comm House I",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Goodwood F",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Stephanians F",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Nexus F",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 17,
+          "home": "Top G",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Goodwood F",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Mother City B",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Uwc B",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Uct",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 18,
+          "home": "Uwc C",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 19,
+          "home": "Comm House I",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 19,
+          "home": "Nexus F",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 19,
+          "home": "Mother City C",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 19,
+          "home": "Stephanians E",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 19,
+          "home": "Top G",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 20,
+          "home": "Nexus F",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 20,
+          "home": "Uct",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 20,
+          "home": "Goodwood F",
+          "away": "Stephanians E",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 20,
+          "home": "Uwc B",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 20,
+          "home": "Uwc C",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 21,
+          "home": "Comm House I",
+          "away": "Uct",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 21,
+          "home": "Stephanians E",
+          "away": "Nexus F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 21,
+          "home": "Top G",
+          "away": "Goodwood F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 21,
+          "home": "Mother City C",
+          "away": "Uwc C",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 21,
+          "home": "Stephanians F",
+          "away": "Uwc B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 22,
+          "home": "Stephanians E",
+          "away": "Comm House I",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 22,
+          "home": "Nexus F",
+          "away": "Top G",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 22,
+          "home": "Uwc C",
+          "away": "Mother City B",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 22,
+          "home": "Goodwood F",
+          "away": "Stephanians F",
+          "home_score": null,
+          "away_score": null
+        },
+        {
+          "round": 22,
+          "home": "Uwc B",
+          "away": "Mother City C",
+          "home_score": null,
+          "away_score": null
+        }
+      ]
+    }
+  ]
+}
