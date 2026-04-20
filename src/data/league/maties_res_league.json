@@ -1900,6 +1900,18 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
+          "name": "Erica",
+          "players": []
+        },
+        {
+          "name": "Heemstede",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
           "name": "Lydia",
           "players": []
         },
@@ -1925,18 +1937,6 @@
         },
         {
           "name": "Tigers",
-          "players": []
-        },
-        {
-          "name": "Erica",
-          "players": []
-        },
-        {
-          "name": "Heemstede",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
           "players": []
         }
       ],
@@ -2035,19 +2035,19 @@
             {
               "home_player": "Sienna Southey",
               "away_player": "Jasmine Witthuhn",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Anke Vermeulen",
               "away_player": "Mieke Ackerman",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Lauren Henderson",
               "away_player": "Christelle van der Spuy",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
@@ -2282,31 +2282,31 @@
               "home_player": "Rue-Lay Basson",
               "away_player": "Volana Onisoa Herimanana",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Lee Strydom",
               "away_player": "Phillipa Austin",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "An\u00e9 Janse van Rensburg",
               "away_player": "Mororiseng Mokgolo",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "",
               "away_player": "",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Rue-Lay Basson",
               "away_player": "Phillipa Austin",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             }
           ]
         },
@@ -2510,31 +2510,31 @@
               "home_player": "Tara Uys",
               "away_player": "Stephanie Henning",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Jesse Lee Moses",
               "away_player": "Alicia Brand",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Lindie Swart",
               "away_player": "Marna Horn",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "",
               "away_player": "",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Tara Uys",
               "away_player": "Alicia Brand",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             }
           ]
         },
@@ -2548,31 +2548,31 @@
             {
               "home_player": "Il\u00e9 Viljoen",
               "away_player": "Chloe Rein",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Mari Terblanche",
               "away_player": "Emma Badenhorst",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Emma Doms",
               "away_player": "Jani Kotz\u00e9",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "",
               "away_player": "",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Il\u00e9 Viljoen",
               "away_player": "Emma Badenhorst",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             }
           ]
@@ -2693,13 +2693,13 @@
               "home_player": "Lynne Herholdt",
               "away_player": "Gracelyne Brown",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Luche Lourens",
               "away_player": "Jenna Kriese",
               "home_games": 3,
-              "away_games": 1
+              "away_games": 0
             },
             {
               "home_player": "Elmar\u00e9 van der Westhuizen",
@@ -2710,13 +2710,13 @@
             {
               "home_player": "",
               "away_player": "",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             },
             {
               "home_player": "Lynne Herholdt",
               "away_player": "Jenna Kriese",
-              "home_games": 1,
+              "home_games": 0,
               "away_games": 3
             }
           ]
