@@ -1592,8 +1592,8 @@
           "round": 3,
           "home": "Timothy Prinsloo",
           "away": "Jaydon Nortje",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 1,
           "umpire": "Andria van Tonder"
         },
@@ -1673,8 +1673,8 @@
           "round": 3,
           "home": "Timothy Prinsloo",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 1,
           "umpire": "Riley Brown"
         },
@@ -1934,8 +1934,8 @@
           "round": 3,
           "home": "Jaydon Nortje",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 1,
           "umpire": "Timothy Prinsloo"
         },
