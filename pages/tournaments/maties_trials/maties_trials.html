@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maties Trials</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div id="header-placeholder"></div>
+  <div id="viewToggles"></div>
+  <div id="tournament-info" style="display:none">
+    <div class="event-section">
+        <div class="event-description">
+            <p><strong>Date:</strong> 25 April 2026 - 25 April 2026</p>
+            <p><strong>Location:</strong> </p>
+        </div>
+        <div id="events-container">
+            <button class="event" onclick="location.href='/pages/tournaments/maties_trials/maties_trials.html?event=18'">Women's Singles</button>
+            <button class="event" onclick="location.href='/pages/tournaments/maties_trials/maties_trials.html?event=17'">Men's Singles</button>
+        </div>
+    </div>
+  </div>
+  <div id="contentContainer"></div>
+
+  <script src="/src/js/draw.js"></script>
+  <script>
+    function loadInclude(id, file) {
+        fetch(file).then(r => r.text()).then(d => document.getElementById(id).innerHTML = d);
+    }
+    function toggleNav() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    }
+    document.addEventListener('click', function(ev) {
+        const navLinks = document.querySelector('.nav-links');
+        const hamburger = document.querySelector('.hamburger');
+        if (navLinks && hamburger && !navLinks.contains(ev.target) && !hamburger.contains(ev.target)) {
+            navLinks.classList.remove('active');
+        }
+    });
+
+    const API_BASE = "https://manager.sattratings.co.za/api";
+    const TOURNAMENT_ID = 4;
+    const eventNameMap = {'18': 'Women's Singles', '17': 'Men's Singles'};
+
+    document.addEventListener("DOMContentLoaded", function () {
+        loadInclude("header-placeholder", "/components/header.html");
+
+        const params = new URLSearchParams(window.location.search);
+        const eventId = params.get("event");
+
+        if (!eventId) {
+            document.getElementById("tournament-info").style.display = "block";
+            const setTitle = () => {
+                const el = document.getElementById("header-title");
+                if (el) el.innerHTML = "Maties Trials";
+                else setTimeout(setTitle, 50);
+            };
+            setTitle();
+        } else {
+            const eventName = eventNameMap[eventId] || "Event";
+            const setTitle = () => {
+                const el = document.getElementById("header-title");
+                if (el) el.innerHTML = "Maties Trials<br>" + eventName;
+                else setTimeout(setTitle, 50);
+            };
+            setTitle();
+
+            let currentView = 'knockouts';
+
+            function loadEventData() {
+                fetch(API_BASE + "/tournaments/" + TOURNAMENT_ID + "/export/matiesratings-draws/" + eventId)
+                    .then(r => r.json())
+                    .then(data => {
+                        const toggleContainer = document.getElementById("viewToggles");
+
+                        if (toggleContainer.children.length === 0) {
+                            if (data.groups) {
+                                const btnGroups = document.createElement("button");
+                                btnGroups.id = "btnGroups";
+                                btnGroups.textContent = "Groups";
+                                btnGroups.addEventListener("click", () => {
+                                    currentView = 'groups';
+                                    renderGroups(data, eventName);
+                                    btnGroups.classList.add('active-toggle');
+                                    const ko = document.getElementById("btnKnockouts");
+                                    if (ko) ko.classList.remove('active-toggle');
+                                    const pl = document.getElementById("btnPlate");
+                                    if (pl) pl.classList.remove('active-toggle');
+                                });
+                                toggleContainer.appendChild(btnGroups);
+                            }
+                            if (data.knockouts) {
+                                const btnKnockouts = document.createElement("button");
+                                btnKnockouts.id = "btnKnockouts";
+                                btnKnockouts.textContent = "Knockouts";
+                                btnKnockouts.addEventListener("click", () => {
+                                    currentView = 'knockouts';
+                                    renderKnockouts(data, eventName);
+                                    btnKnockouts.classList.add('active-toggle');
+                                    const gr = document.getElementById("btnGroups");
+                                    if (gr) gr.classList.remove('active-toggle');
+                                    const pl = document.getElementById("btnPlate");
+                                    if (pl) pl.classList.remove('active-toggle');
+                                });
+                                toggleContainer.appendChild(btnKnockouts);
+                            }
+                            if (data.plate_groups || data.plate_knockouts) {
+                                const btnPlate = document.createElement("button");
+                                btnPlate.id = "btnPlate";
+                                btnPlate.textContent = "Plate";
+                                btnPlate.addEventListener("click", () => {
+                                    currentView = 'plate';
+                                    const plateData = {};
+                                    if (data.plate_groups) plateData.groups = data.plate_groups;
+                                    if (data.plate_knockouts) plateData.knockouts = data.plate_knockouts;
+                                    if (plateData.knockouts) {
+                                        renderKnockouts(plateData, "Plate - " + eventName);
+                                    } else if (plateData.groups) {
+                                        renderGroups(plateData, "Plate - " + eventName);
+                                    }
+                                    btnPlate.classList.add('active-toggle');
+                                    const gr = document.getElementById("btnGroups");
+                                    if (gr) gr.classList.remove('active-toggle');
+                                    const ko = document.getElementById("btnKnockouts");
+                                    if (ko) ko.classList.remove('active-toggle');
+                                });
+                                toggleContainer.appendChild(btnPlate);
+                            }
+
+                            const liveIndicator = document.createElement("span");
+                            liveIndicator.id = "liveIndicator";
+                            liveIndicator.style.cssText = "margin-left:auto;display:flex;align-items:center;gap:5px;font-size:12px;color:#888;";
+                            toggleContainer.appendChild(liveIndicator);
+                            toggleContainer.style.display = "flex";
+                            toggleContainer.style.alignItems = "center";
+                        }
+
+                        function clearActiveToggles() {
+                            ["btnGroups","btnKnockouts","btnPlate"].forEach(id => {
+                                const el = document.getElementById(id);
+                                if (el) el.classList.remove('active-toggle');
+                            });
+                        }
+                        if (currentView === 'plate' && (data.plate_groups || data.plate_knockouts)) {
+                            const plateData = {};
+                            if (data.plate_groups) plateData.groups = data.plate_groups;
+                            if (data.plate_knockouts) plateData.knockouts = data.plate_knockouts;
+                            if (plateData.knockouts) renderKnockouts(plateData, "Plate - " + eventName);
+                            else if (plateData.groups) renderGroups(plateData, "Plate - " + eventName);
+                            clearActiveToggles();
+                            const pl = document.getElementById("btnPlate");
+                            if (pl) pl.classList.add('active-toggle');
+                        } else if (currentView === 'knockouts' && data.knockouts) {
+                            renderKnockouts(data, eventName);
+                            clearActiveToggles();
+                            const ko = document.getElementById("btnKnockouts");
+                            if (ko) ko.classList.add('active-toggle');
+                        } else if (data.groups) {
+                            renderGroups(data, eventName);
+                            clearActiveToggles();
+                            const gr = document.getElementById("btnGroups");
+                            if (gr) gr.classList.add('active-toggle');
+                        }
+
+                        const indicator = document.getElementById("liveIndicator");
+                        if (indicator) {
+                            const now = new Date().toLocaleTimeString();
+                            indicator.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#4ade80;display:inline-block;animation:pulse 2s infinite"></span> LIVE &middot; ' + now;
+                        }
+                    })
+                    .catch(err => {
+                        const indicator = document.getElementById("liveIndicator");
+                        if (indicator) {
+                            indicator.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#f87171;display:inline-block"></span> offline';
+                        }
+                    });
+            }
+
+            loadEventData();
+            setInterval(loadEventData, 30000);
+        }
+    });
+  </script>
+  <style>
+    @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.4 } }
+  </style>
+</body>
+</html>
