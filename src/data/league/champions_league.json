@@ -188,15 +188,15 @@
           "round": 3,
           "home": "Kirshwan Steyn",
           "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         },
         {
           "round": 3,
           "home": "Steffan Brundyn",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 3,
@@ -223,15 +223,15 @@
           "round": 3,
           "home": "Shane Overmeyer",
           "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 3,
           "home": "Tian Louw",
           "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 4
         },
         {
           "round": 3,
