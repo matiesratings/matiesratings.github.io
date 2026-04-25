@@ -27,27 +27,7 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Dagbreek",
-          "players": []
-        },
-        {
-          "name": "Dragons",
-          "players": []
-        },
-        {
-          "name": "Eendrag",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Marais",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
+          "name": "Simonsberg",
           "players": []
         },
         {
@@ -55,7 +35,27 @@
           "players": []
         },
         {
-          "name": "Simonsberg",
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Huis Marais",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Dragons",
+          "players": []
+        },
+        {
+          "name": "Dagbreek",
           "players": []
         }
       ],
@@ -403,35 +403,7 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Dagbreek",
-          "players": []
-        },
-        {
-          "name": "Eendrag",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Marais",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
-          "players": []
-        },
-        {
-          "name": "Majuba",
-          "players": []
-        },
-        {
-          "name": "Metanoia",
-          "players": []
-        },
-        {
-          "name": "Oude Molen",
+          "name": "Wilgenhof",
           "players": []
         },
         {
@@ -439,7 +411,35 @@
           "players": []
         },
         {
-          "name": "Wilgenhof",
+          "name": "Oude Molen",
+          "players": []
+        },
+        {
+          "name": "Metanoia",
+          "players": []
+        },
+        {
+          "name": "Majuba",
+          "players": []
+        },
+        {
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Huis Marais",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Dagbreek",
           "players": []
         }
       ],
@@ -511,8 +511,40 @@
           "round": 1,
           "home": "Helshoogte",
           "away": "Oude Molen",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Franco Alexander Jordaan",
+              "away_player": "Morn\u00e9 Lindeque",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Samuel van der Walt",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Bernard Smit",
+              "away_player": "Joshua Brooking",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Franco Alexander Jordaan",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 8,
@@ -872,27 +904,7 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
-          "name": "Dagbreek 1",
-          "players": []
-        },
-        {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Eendrag",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Visser 1",
-          "players": []
-        },
-        {
-          "name": "Huis Visser 2",
+          "name": "Pieke",
           "players": []
         },
         {
@@ -900,7 +912,27 @@
           "players": []
         },
         {
-          "name": "Pieke",
+          "name": "Huis Visser 2",
+          "players": []
+        },
+        {
+          "name": "Huis Visser 1",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Eendrag",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 2",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 1",
           "players": []
         }
       ],
@@ -1022,8 +1054,40 @@
           "round": 1,
           "home": "Dagbreek 2",
           "away": "Majuba",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "Christian Basson",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Zac Nel",
+              "away_player": "Marno Breytenbach",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Corne Slabbert",
+              "away_player": "Keane Stewart",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "Marno Breytenbach",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 3,
@@ -1214,27 +1278,7 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
-          "name": "Dagbreek 2",
-          "players": []
-        },
-        {
-          "name": "Dragons",
-          "players": []
-        },
-        {
-          "name": "Eendrag 1",
-          "players": []
-        },
-        {
-          "name": "Eendrag 2",
-          "players": []
-        },
-        {
-          "name": "Helshoogte",
-          "players": []
-        },
-        {
-          "name": "Huis Visser",
+          "name": "Dagbreek 1",
           "players": []
         },
         {
@@ -1242,7 +1286,27 @@
           "players": []
         },
         {
-          "name": "Dagbreek 1",
+          "name": "Huis Visser",
+          "players": []
+        },
+        {
+          "name": "Helshoogte",
+          "players": []
+        },
+        {
+          "name": "Eendrag 2",
+          "players": []
+        },
+        {
+          "name": "Eendrag 1",
+          "players": []
+        },
+        {
+          "name": "Dragons",
+          "players": []
+        },
+        {
+          "name": "Dagbreek 2",
           "players": []
         }
       ],
@@ -1356,8 +1420,40 @@
           "round": 1,
           "home": "Dragons",
           "away": "Helshoogte",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 6,
@@ -1451,8 +1547,8 @@
           "round": 1,
           "home": "Dagbreek 1",
           "away": "Majuba",
-          "home_score": 2,
-          "away_score": 3,
+          "home_score": 4,
+          "away_score": 1,
           "matches": [
             {
               "home_player": "Jean Coetzee",
@@ -1475,14 +1571,14 @@
             {
               "home_player": "",
               "away_player": "",
-              "home_games": 1,
-              "away_games": 4
+              "home_games": 3,
+              "away_games": 2
             },
             {
               "home_player": "Jean Coetzee",
               "away_player": "Herman Roux",
-              "home_games": 2,
-              "away_games": 3
+              "home_games": 3,
+              "away_games": 2
             }
           ]
         },
@@ -1556,27 +1652,7 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Heemstede 1",
-          "players": []
-        },
-        {
-          "name": "Heemstede 2",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
-          "name": "Monica",
-          "players": []
-        },
-        {
-          "name": "Nemesia",
+          "name": "Sonop",
           "players": []
         },
         {
@@ -1584,7 +1660,27 @@
           "players": []
         },
         {
-          "name": "Sonop",
+          "name": "Nemesia",
+          "players": []
+        },
+        {
+          "name": "Monica",
+          "players": []
+        },
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
+          "name": "Heemstede 2",
+          "players": []
+        },
+        {
+          "name": "Heemstede 1",
           "players": []
         }
       ],
@@ -1593,8 +1689,40 @@
           "round": 2,
           "home": "Monica",
           "away": "Heemstede 2",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Elizabeth Knoesen",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Nicole Usher",
+              "away_player": "Maria Inggs",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Emma Badenhorst",
+              "away_player": "Klara Wimmers",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Elizabeth Knoesen",
+              "away_player": "Maria Inggs",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 5,
@@ -1667,8 +1795,40 @@
           "round": 2,
           "home": "Nerina",
           "away": "Heemstede 1",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "Lize Bestbier",
+              "away_player": "Kara Bestbier",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Sunette Willemse",
+              "away_player": "Nisha Norval",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "In\u00fchn Fourie",
+              "away_player": "Yvonne de Villiers",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Lize Bestbier",
+              "away_player": "Nisha Norval",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 5,
@@ -1727,8 +1887,40 @@
           "round": 2,
           "home": "Minerva",
           "away": "Huis ten Bosch",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Amelie van Zyl",
+              "away_player": "Jessica Lavies",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Ingrid Jooste",
+              "away_player": "Surette Smit",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Lente Groenewald",
+              "away_player": "Talita Loftus",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Amelie van Zyl",
+              "away_player": "Surette Smit",
+              "home_games": 0,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 6,
@@ -1797,8 +1989,40 @@
           "round": 2,
           "home": "Nemesia",
           "away": "Sonop",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "Marna Horn",
+              "away_player": "Kiara Whiteboy",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Inge Lambrechts",
+              "away_player": "Anke Rossouw",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Cara Houben",
+              "away_player": "Ella Klopper",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Marna Horn",
+              "away_player": "Anke Rossouw",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 3,
@@ -1900,35 +2124,7 @@
       "finals_date": "2026-09-21",
       "teams": [
         {
-          "name": "Erica",
-          "players": []
-        },
-        {
-          "name": "Heemstede",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "Lydia",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
-          "name": "Nemesia",
-          "players": []
-        },
-        {
-          "name": "Nerina",
-          "players": []
-        },
-        {
-          "name": "Serruria",
+          "name": "Tigers",
           "players": []
         },
         {
@@ -1936,7 +2132,35 @@
           "players": []
         },
         {
-          "name": "Tigers",
+          "name": "Serruria",
+          "players": []
+        },
+        {
+          "name": "Nerina",
+          "players": []
+        },
+        {
+          "name": "Nemesia",
+          "players": []
+        },
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Lydia",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
+          "name": "Heemstede",
+          "players": []
+        },
+        {
+          "name": "Erica",
           "players": []
         }
       ],
@@ -2371,31 +2595,7 @@
       "finals_date": "2026-09-22",
       "teams": [
         {
-          "name": "Aristea",
-          "players": []
-        },
-        {
-          "name": "Harmonie",
-          "players": []
-        },
-        {
-          "name": "Huis ten Bosch",
-          "players": []
-        },
-        {
-          "name": "ISA",
-          "players": []
-        },
-        {
-          "name": "Metanoia",
-          "players": []
-        },
-        {
-          "name": "Minerva",
-          "players": []
-        },
-        {
-          "name": "Monica",
+          "name": "Nerina",
           "players": []
         },
         {
@@ -2403,7 +2603,31 @@
           "players": []
         },
         {
-          "name": "Nerina",
+          "name": "Monica",
+          "players": []
+        },
+        {
+          "name": "Minerva",
+          "players": []
+        },
+        {
+          "name": "Metanoia",
+          "players": []
+        },
+        {
+          "name": "ISA",
+          "players": []
+        },
+        {
+          "name": "Huis ten Bosch",
+          "players": []
+        },
+        {
+          "name": "Harmonie",
+          "players": []
+        },
+        {
+          "name": "Aristea",
           "players": []
         }
       ],
