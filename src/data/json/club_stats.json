@@ -10,7 +10,7 @@
     "pct_juniors": 0.0,
     "avg_men_rating": 1650,
     "avg_women_rating": null,
-    "avg_open_rating": 1492,
+    "avg_open_rating": 1501,
     "highest_rated_player": {
       "name": "Shane Overmeyer",
       "rating": 1650,
@@ -745,7 +745,7 @@
     "pct_juniors": 0.0,
     "avg_men_rating": 1256,
     "avg_women_rating": null,
-    "avg_open_rating": 1255,
+    "avg_open_rating": 1256,
     "highest_rated_player": {
       "name": "Zahier Isaacs",
       "rating": 1581,
@@ -1258,7 +1258,7 @@
     "pct_juniors": 0.0,
     "avg_men_rating": 1148,
     "avg_women_rating": 1193,
-    "avg_open_rating": 1175,
+    "avg_open_rating": 1150,
     "highest_rated_player": {
       "name": "Tian Louw",
       "rating": 1399,
@@ -2071,7 +2071,7 @@
     "pct_juniors": 0.0,
     "avg_men_rating": null,
     "avg_women_rating": null,
-    "avg_open_rating": 1189,
+    "avg_open_rating": 1182,
     "highest_rated_player": null,
     "highest_rated_woman": null,
     "top100_men": 0,
