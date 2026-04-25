@@ -2832,6 +2832,12 @@
     "gender": "Male"
   },
   {
+    "maties_id": 597,
+    "name": "Roberto",
+    "club": "Stephanians",
+    "gender": "Male"
+  },
+  {
     "maties_id": 479,
     "name": "Alexander Jones",
     "club": "Duinefontein",
@@ -3518,12 +3524,6 @@
   {
     "maties_id": 596,
     "name": "Galant Abbas",
-    "club": "Stephanians",
-    "gender": "Male"
-  },
-  {
-    "maties_id": 597,
-    "name": "Roberto",
     "club": "Stephanians",
     "gender": "Male"
   },
