@@ -1466,8 +1466,8 @@
           "round": 2,
           "home": "Phenyo Tongwane",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 1,
           "umpire": "Timothy Prinsloo"
         },
@@ -1493,8 +1493,8 @@
           "round": 4,
           "home": "Jaydon Nortje",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 3,
           "umpire": "Jaidyn Nel"
         },
@@ -1538,8 +1538,8 @@
           "round": 4,
           "home": "Joshua Davids",
           "away": "Phenyo Tongwane",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 2,
           "umpire": "Andria van Tonder"
         },
@@ -1646,8 +1646,8 @@
           "round": 4,
           "home": "Phenyo Tongwane",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 2,
           "umpire": "Joshua Davids"
         },
@@ -1709,8 +1709,8 @@
           "round": 4,
           "home": "Jaidyn Nel",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 3,
           "umpire": "Riley Brown"
         },
@@ -1718,8 +1718,8 @@
           "round": 4,
           "home": "Joshua Davids",
           "away": "Andria van Tonder",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 2,
           "umpire": "Phenyo Tongwane"
         },
@@ -1736,8 +1736,8 @@
           "round": 4,
           "home": "Bevan Fortune",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 1,
           "umpire": "Timothy Prinsloo"
         },
@@ -1781,8 +1781,8 @@
           "round": 4,
           "home": "Jaidyn Nel",
           "away": "Jaydon Nortje",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Carmen Harris"
         },
@@ -2042,8 +2042,8 @@
           "round": 4,
           "home": "Timothy Prinsloo",
           "away": "Bevan Fortune",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 1,
           "umpire": "Juan Engelbrecht"
         }
