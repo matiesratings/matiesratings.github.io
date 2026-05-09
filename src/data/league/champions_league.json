@@ -251,22 +251,22 @@
           "round": 3,
           "home": "Le Roux Strydom",
           "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 4,
           "home": "Kirshwan Steyn",
           "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         },
         {
           "round": 4,
           "home": "Shane Overmeyer",
           "away": "Dirk Coetzee",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 4,
@@ -279,36 +279,36 @@
           "round": 4,
           "home": "Steffan Brundyn",
           "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3
         },
         {
           "round": 4,
           "home": "Le Roux Strydom",
           "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 4,
           "home": "Dirk Coetzee",
           "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4
         },
         {
           "round": 4,
           "home": "DJ Swanevelder",
           "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 4
         },
         {
           "round": 4,
           "home": "Shane Overmeyer",
           "away": "Tayla Bailey",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 4,
@@ -321,8 +321,8 @@
           "round": 4,
           "home": "Steffan Brundyn",
           "away": "David Nwafor",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 5,
