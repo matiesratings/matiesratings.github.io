@@ -1799,8 +1799,8 @@
           "round": 4,
           "home": "Timothy Prinsloo",
           "away": "Juan Engelbrecht",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 1,
           "umpire": "Bevan Fortune"
         },
