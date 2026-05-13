@@ -1,9 +1,8 @@
 {
   "league_name": "CTTT 2026",
-  "season": "2026",
+  "season": "",
   "type": "team",
   "description": "Cape Town Table Tennis League 2026",
-  "logo": "/src/img/cttt_logo.png",
   "double_round_robin": true,
   "info": [
     "Kick-off: 19h30 sharp \u2014 away team warm-ups before 19h30",
@@ -50,6 +49,10 @@
       ],
       "teams": [
         {
+          "name": "Com House A",
+          "players": []
+        },
+        {
           "name": "Top A",
           "players": []
         },
@@ -80,10 +83,6 @@
         {
           "name": "Duinefontein A",
           "players": []
-        },
-        {
-          "name": "Com House A",
-          "players": []
         }
       ],
       "results": [
@@ -91,36 +90,256 @@
           "round": 1,
           "home": "Duinefontein A",
           "away": "Top A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 6,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "M. Lingeveldt",
+              "away_player": "Keenen Jooste",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "T. Lingeveldt",
+              "away_player": "T. Fritzgibben",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "C. Ludewyk",
+              "away_player": "L. October",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "C. Ludewyk / T. Lingeveldt",
+              "away_player": "L. October / K. Jooste",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "M. Lingeveldt",
+              "away_player": "T. Fritzgibben",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "C. Ludewyk",
+              "away_player": "K. Jooste",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "T. Lingeveldt",
+              "away_player": "L. October",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Duinefontein B",
           "away": "Stephanians A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "S. Jones",
+              "away_player": "Y. Steyn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "M. Schroeder",
+              "away_player": "Che Meyer",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "W. Domingo",
+              "away_player": "A. Wagner",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "W. domingo / S. Jones",
+              "away_player": "A. wagner / Y. Steyn",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "S. Jones",
+              "away_player": "Che Meyer",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "W. Domingo",
+              "away_player": "Y. Steyn",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "M. Schroeder",
+              "away_player": "A. Wagner",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Liv-Ken A",
           "away": "Ravens A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "N. Pienaar",
+              "away_player": "M. Williams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "D. Rodgers",
+              "away_player": "J. du Plooy",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "A. Philander",
+              "away_player": "K. Steyn",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "A. Philander / D. Rodgers",
+              "away_player": "K. Steyn / J. du Plooy",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "N. Pienaar",
+              "away_player": "J. du Plooy",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "A. Philander",
+              "away_player": "M. Williams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "D. Rodgers",
+              "away_player": "K. Steyn",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 1,
           "home": "MP Royals A",
           "away": "Nexus A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "R. Jansen",
+              "away_player": "M. Adams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Moeneeb Isaacs",
+              "away_player": "Munier Isaacs",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "W. McCloud",
+              "away_player": "Z. Isaacs",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "W. McCloud / M. Isaacs",
+              "away_player": "Z. Isaacs / M. Isaacs",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "R. Jansen",
+              "away_player": "Munier Isaacs",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "M. McCloud",
+              "away_player": "M. Adams",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Moeneeb Isaacs",
+              "away_player": "Z. Isaacs",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 2,
           "home": "Top A",
           "away": "Com House A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Keenen Jooste",
+              "away_player": "Emmanuel Uzdukwu",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Lindsay October",
+              "away_player": "Jodie Galandt",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Merlin Brown",
+              "away_player": "Tasreeq Babu",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Merlin Brown / Lindsay October",
+              "away_player": "Tasreeq Babu / Jodie Galandt",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Keenen Jooste",
+              "away_player": "Jodie Galandt",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Merlin Brown",
+              "away_player": "Emmanuel Uzdukwu",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Lindsay October",
+              "away_player": "Tasreeq Babu",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 2,
@@ -140,8 +359,52 @@
           "round": 2,
           "home": "Nexus A",
           "away": "Liv-Ken A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Munier Isaacs",
+              "away_player": "Benjamin vd Ross (sub)",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Muaath Adams",
+              "away_player": "Darren Rodgers",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Zahier Isaacs",
+              "away_player": "Nashwin Rodgers",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Zahier Isaacs / Muaath Adams",
+              "away_player": "Nashwin Pienaar / Darren Rodgers",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Munier Isaacs",
+              "away_player": "Darren Rodgers",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Zahier Isaacs",
+              "away_player": "Benjamin vd Ross",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Muaath Adams",
+              "away_player": "Nashwin Pienaar",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 3,
@@ -618,6 +881,19 @@
       ],
       "teams": [
         {
+          "name": "Liv-Ken B",
+          "players": [
+            "Benjamin Vd Ross",
+            "Nahum Philander",
+            "Kian Chapman",
+            "Rewaldo Corlus"
+          ]
+        },
+        {
+          "name": "Comm House B",
+          "players": []
+        },
+        {
           "name": "Top B",
           "players": []
         },
@@ -642,19 +918,11 @@
           "players": []
         },
         {
-          "name": "Liv-Ken B",
-          "players": []
-        },
-        {
           "name": "Duinefontein C",
           "players": []
         },
         {
           "name": "Boundary A",
-          "players": []
-        },
-        {
-          "name": "Comm House B",
           "players": []
         }
       ],
@@ -663,36 +931,256 @@
           "round": 1,
           "home": "Comm House B",
           "away": "Top B",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Mahdi Adams",
+              "away_player": "Chris Sloster",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Anton Titus",
+              "away_player": "Gert Koetaan",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Angelo Isaacs",
+              "away_player": "R. Willemse",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "A. Isaacs / M. Adams",
+              "away_player": "R. Willemse / C. Sloster",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "M. Adams",
+              "away_player": "G. Koetaan",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "A. Isaacs",
+              "away_player": "C. Sloster",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "A. Titus",
+              "away_player": "R. Wilemse",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Boundary A",
           "away": "Comm House C",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 7,
+          "matches": [
+            {
+              "home_player": "Gregg Naik",
+              "away_player": "Craig Pasqualle",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "B vd Rheede",
+              "away_player": "Emmanuel Uzoukwu",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Shaun Fortune",
+              "away_player": "Ronald Hutchinson",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Gregg Naik / B vd Rheede",
+              "away_player": "Emmanuel Uzoukwu / E Uzoukwu",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Gregg Naik",
+              "away_player": "Emmanuel Uzoukwu",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Shaun Fortune",
+              "away_player": "Craig Pasqualle",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "B vd Rheede",
+              "away_player": "Ronald Hutchinson",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Duinefontein C",
           "away": "Goodwood A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 6,
+          "matches": [
+            {
+              "home_player": "Dirk Coetzee",
+              "away_player": "David Nwafor",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Tayla Bailey",
+              "away_player": "Bernard Stewe",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Jerome Davies",
+              "away_player": "Yusuf Raijie",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "J. Davies / D. Coetzee",
+              "away_player": "Y. Raijie / D. Nwafor",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "D. Coetzee",
+              "away_player": "B. Stewe",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "J. Davies",
+              "away_player": "D. Nwafor",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "T. Bailey",
+              "away_player": "Y.Raijie",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Liv-Ken B",
           "away": "Ravens B",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Ashley Wesson",
+              "away_player": "Ezra Msindeni",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Benjamin Vd Ross",
+              "away_player": "Demos Draccoulides",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Nahum Philander",
+              "away_player": "Frans Erasmus",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Nahum Philander / Benjamin Vd Ross",
+              "away_player": "Frans Erasmus / Demos Dracoulides",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Ashley Wesson",
+              "away_player": "Demos Dracoulides",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Nahum Philander",
+              "away_player": "Ezra Msindeni",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Benjamin Vd Ross",
+              "away_player": "Frans Erasmus",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Stephanians B",
           "away": "Bishop Lavis A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 6,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Ameen Jansen",
+              "away_player": "Thabiet Adams",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Dale Titus",
+              "away_player": "Chisum Booysen",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Isgaak Jassiem",
+              "away_player": "Henry Esau",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Ameen Jansen / Dale ",
+              "away_player": "Chisum Booysen / Thabiet",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Ameen Jansen",
+              "away_player": "Chisum Booysen",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Isgaak Jassiem",
+              "away_player": "Thabiet Adams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Dale Titus",
+              "away_player": "Henry Esau",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 2,
@@ -1316,10 +1804,6 @@
       ],
       "teams": [
         {
-          "name": "Ravens C",
-          "players": []
-        },
-        {
           "name": "Liv-Ken C",
           "players": []
         },
@@ -1344,6 +1828,10 @@
           "players": []
         },
         {
+          "name": "Ravens C",
+          "players": []
+        },
+        {
           "name": "Nexus B",
           "players": []
         },
@@ -1361,36 +1849,256 @@
           "round": 1,
           "home": "Nexus B",
           "away": "Bishop Lavis B",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Riaad Manneveldt",
+              "away_player": "Kyle Sebo",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Saalieg Jabaar",
+              "away_player": "Yunus Moyce",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Craig Fortuin",
+              "away_player": "Dayan May",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Craig Fortuin / Saalieg Jabaar",
+              "away_player": "Dayan May / Yunus Moyce",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Riaad Manneveldt",
+              "away_player": "Yunus Moyce",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Craig Fortuin",
+              "away_player": "Kyle Sebo",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Saalieg Jabaar",
+              "away_player": "Dayan May",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Sp Saints A",
           "away": "Top C",
-          "home_score": null,
-          "away_score": null
+          "home_score": 6,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Kevin Roodt",
+              "away_player": "Allan Clark",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Dane Steward",
+              "away_player": "Quinton Thomas",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Ethan Meyer",
+              "away_player": "Giellie Mattee",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Ethan Meyer / Dane Steward",
+              "away_player": "Giellie Mattee / Quinton Thomas",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Kevin Roodt",
+              "away_player": "Quinton Thomas",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Ethan Meyer",
+              "away_player": "Allan Clark",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Dane Steward",
+              "away_player": "Giellie Thomas",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Boundary B",
           "away": "Ravens C",
-          "home_score": null,
-          "away_score": null
+          "home_score": 7,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "T. van As",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "R. Safodien",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "M.Kalam",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "T. van As",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "M. Kalam",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "R. Safodien",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Mp Royals B",
           "away": "Liv-Ken C",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "YAqeen Manuel",
+              "away_player": "Mark Bredeveldt",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Rashied Ismail",
+              "away_player": "Derrel Adriaan",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Yaseem Manuel",
+              "away_player": "Ronaldo Carolus",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Yaseen Manuel / Yaqeen Manuel",
+              "away_player": "Ronaldo Carolus / Derrel Adriaan",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Yaqeen Manuel",
+              "away_player": "Derrel Adriaan",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Yaseen Manuel",
+              "away_player": "Mark Bredeveldt",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Rashied Ismail",
+              "away_player": "Ronaldo Carolus",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Mp Royals C",
           "away": "Uwc A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 6,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Bradley Aswege",
+              "away_player": "Matthew Meade",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Llewellyn Bartlett",
+              "away_player": "Melissa Witbooi",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Arnold Suther",
+              "away_player": "Nasr Esau",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Arnold Suther / Llewellyn Bartlett",
+              "away_player": "Nasr Esau / Matthew Meade",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Bradley Aswege",
+              "away_player": "Melissa Witbooi",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Arnold Suther",
+              "away_player": "Matthew Meade",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Llewellyn Bartlett ",
+              "away_player": "Nasr Esau",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 2,
@@ -2059,29 +2767,247 @@
           "round": 1,
           "home": "Comm House D",
           "away": "Top D",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "Lateef Mayowa",
+              "away_player": "Richard Fitzgibbon",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "John Rush",
+              "away_player": "Xoey Williams",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Gavin Parsons",
+              "away_player": "Luke Danster",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Gavin Parsons / John Rush",
+              "away_player": "Luke Danster / Moses Baartman",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Lateef Mayowe",
+              "away_player": "Xoey Williams",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Gavin Parsons",
+              "away_player": "Richard Fitzgibbons",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "John Rush",
+              "away_player": "Luke Danster",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Steenberg A",
           "away": "Comm House E",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Carl Adams",
+              "away_player": "Abdul Ismail",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Bennie Mentor",
+              "away_player": "Ikraam Francis",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "Felix Monday",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Carl Adams",
+              "away_player": "Ikraam Francis",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "Abdul Ismail",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Bennie Mentor",
+              "away_player": "Felix Monday",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Duinefontein D",
           "away": "Nexus C",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Garth Grebe",
+              "away_player": "Rafiek Tofie",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Errol Joemath",
+              "away_player": "Yaseen Toefy",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Niezaam Theunissen",
+              "away_player": "Ghaalib Davids",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Niezaam Theunissen / Errol Joemat",
+              "away_player": "Ghaalib Davids / Yaseen Toefy",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Garth Grebe",
+              "away_player": "Yaseen Toefy",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Niezaam Theunissen",
+              "away_player": "Rafiek Tofie",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Errol Joemath",
+              "away_player": "Ghaalib Davids",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Stephanians C",
           "away": "Liv-Ken D",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Terrence Onrust",
+              "away_player": "Christian Poggenpoel",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Terrence Onrust",
+              "away_player": "Christian Poggenpoel",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Sedick Alexander",
+              "away_player": "Grant Bailey",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Sedick Alexander",
+              "away_player": "Grant Bailey",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Samkele Notshe",
+              "away_player": "Damian Jeftha",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Samkele Notshe",
+              "away_player": "Damian Jeftha",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Samkele Notshe / Sedick Alexander",
+              "away_player": "Damian Jeftha / Christian Poggenpoel",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Samkele Notshe / Sedick Alexander",
+              "away_player": "Damian Jeftha / Christian Poggenpoel",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Terrence Onrust",
+              "away_player": "Grant Bailey",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Terrence Onrust",
+              "away_player": "Grant Bailey",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Samkele Notshe",
+              "away_player": "Cristian Poggenpoel",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Samkele Notshe",
+              "away_player": "Cristian Poggenpoel",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Sedick Alexander",
+              "away_player": "Damian Jeftha",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Sedick Alexander",
+              "away_player": "Damian Jeftha",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
@@ -2122,8 +3048,388 @@
           "round": 2,
           "home": "Top D",
           "away": "Goodwood B",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Edward Hahn",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Baartman",
+              "away_player": "Richard Abrahams",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster / Richard Fritzgerald",
+              "away_player": "Delton Alexander / Edward Hahn",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Xoey Williams",
+              "away_player": "Richard Abrahams",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Luke Danster",
+              "away_player": "Edward Hahn",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Moses Bartman",
+              "away_player": "Delton Alexander",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 3,
@@ -2720,23 +4026,15 @@
           "players": []
         },
         {
-          "name": "Stephanians D",
-          "players": []
-        },
-        {
-          "name": "Mother City A",
-          "players": []
-        },
-        {
-          "name": "Mp Royals E",
-          "players": []
-        },
-        {
           "name": "Goodwood C",
           "players": []
         },
         {
-          "name": "Nexus D",
+          "name": "Stephanians D",
+          "players": []
+        },
+        {
+          "name": "Mp Royals E",
           "players": []
         },
         {
@@ -2750,6 +4048,14 @@
         {
           "name": "Comm House F",
           "players": []
+        },
+        {
+          "name": "Mother City A",
+          "players": []
+        },
+        {
+          "name": "Nexus D",
+          "players": []
         }
       ],
       "results": [
@@ -2757,36 +4063,256 @@
           "round": 1,
           "home": "Comm House F",
           "away": "Mp Royals F",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 6,
+          "matches": [
+            {
+              "home_player": "Fayzal Gallant",
+              "away_player": "Errol Kannemeyer",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Dave Sanusi",
+              "away_player": "Ivor Arendse",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Janine Sait",
+              "away_player": "Riedewaan Hendricks",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Janine Sait / Dave Sanusi",
+              "away_player": "Riedewaan Hendricks / Ivor Arendse",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Fayzal Gallant",
+              "away_player": "Ivor Arendse",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Janine Sait",
+              "away_player": "Errol Kannemeyer",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Dave Sanusi",
+              "away_player": "Riedewaan Hendricks",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Sp Saints B",
           "away": "Top E",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Garth Arendz",
+              "away_player": "Nande Ngqula",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Timothy Domingo",
+              "away_player": "Logan Willemse",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Jamie Louw",
+              "away_player": "Marvin Musinguzi",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Jamie Louw / Garth Arendz",
+              "away_player": "Marvin Musinguzi / Nande Ngqula",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Garth Arendz",
+              "away_player": "Logan Willemse",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Jamie Louw",
+              "away_player": "Nande Ngqula",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Timothy Domingo",
+              "away_player": "Marvin Musinguzi",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Duinefontein E",
           "away": "Stephanians D",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Waydin Brown",
+              "away_player": "Russel Fredericks",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Tazmin Hams",
+              "away_player": "Aiden Buckton",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Adam Domingo",
+              "away_player": "Kirk Darries",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Adam Domingo / Wayden Brown",
+              "away_player": "Kirk Darries / Russel Fredericks",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Waydin Brown",
+              "away_player": "Aiden  Buckton",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Adam Domingo",
+              "away_player": "Russel Fredericks",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Tazmin Hams",
+              "away_player": "Kirk Darries",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Nexus D",
           "away": "Mother City A",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Shahied Johaadien",
+              "away_player": "Sallie Hendricks",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "TJ Sabad",
+              "away_player": "Timothy Lingeveldt",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Amien Phillips",
+              "away_player": "Kamiel Ebrahiem",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Amien Philips / TJ Sabad",
+              "away_player": "Kamiel Ebrahiem / Timothy Lingeveldt",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Shahied Johaardien",
+              "away_player": "Timothy Lingeveldt",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Amien Phillips",
+              "away_player": "Sallie Hendricks",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "TJ Sabad",
+              "away_player": "Kamiel Ebrahim",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 1,
           "home": "Goodwood C",
           "away": "Mp Royals E",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Alex O Ryan",
+              "away_player": "David Cyfers",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Brendon O'Connell",
+              "away_player": "Keenen Holt",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Pedro Fortuin",
+              "away_player": "Llewellyn Paris",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Pedro Fortuin / Alex O'Ryan",
+              "away_player": "Llewellyn Paris / Keenen Holt",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Alex O'Bryan",
+              "away_player": "Keenen Holt",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Pedro Fortuin",
+              "away_player": "David Cyfers",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Brendon O'Connell",
+              "away_player": "Llewellyn Paris",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
@@ -3430,10 +4956,6 @@
           "players": []
         },
         {
-          "name": "Mp Royals G",
-          "players": []
-        },
-        {
           "name": "Nexus E",
           "players": []
         },
@@ -3447,6 +4969,10 @@
         },
         {
           "name": "Comm House G",
+          "players": []
+        },
+        {
+          "name": "Mp Royals G",
           "players": []
         }
       ],
@@ -4116,6 +5642,10 @@
           "players": []
         },
         {
+          "name": "Comm House I",
+          "players": []
+        },
+        {
           "name": "Uwc C",
           "players": []
         },
@@ -4149,10 +5679,6 @@
         },
         {
           "name": "Stephanians E",
-          "players": []
-        },
-        {
-          "name": "Comm House I",
           "players": []
         }
       ],
@@ -4929,5 +6455,6 @@
         }
       ]
     }
-  ]
+  ],
+  "logo": "/src/img/cttt_logo.png"
 }
