@@ -6,7 +6,7 @@
 
 let leagueData = null;
 let currentDivision = null;
-let currentView = "fixtures";
+let currentView = "standings";
 let lastCompletedRoundIdx = -1;
 let nextUpcomingRoundIdx = -1;
 let isIndividual = false;
@@ -780,7 +780,7 @@ async function initLeague() {
     });
 
     setupInfoModal();
-    switchView("fixtures");
+    switchView("standings");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
