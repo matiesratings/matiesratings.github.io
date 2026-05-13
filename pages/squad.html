@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maties — Squad 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: #0a0908; min-height: 100vh; font-family: 'EB Garamond', Georgia, serif; }
+    body { display: flex; justify-content: center; padding: 24px 12px 56px; }
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+// ─── Design tokens (exact match to zip v1) ────────────────────────────────────
+const T = {
+  bg:'#100e0d', surface:'#1a1614', surf2:'#221e1c', surf3:'#2c2826',
+  text:'#f0ebe3', second:'#8a8078', muted:'#6a635c',
+  maroon:'#8B0000', maroonDeep:'#5a0000',
+  border:'rgba(139,0,0,0.22)', borderF:'rgba(255,255,255,0.07)',
+  win:'#6db178', loss:'#b66363',
+  gold:'#c8a84a', silver:'#a8a8a0', bronze:'#a06840',
+  F:"'EB Garamond', Georgia, serif",
+};
+const px = (s, c=T.text) => ({ fontFamily:T.F, fontSize:s, color:c });
+
+// ─── Squad bio (from questionnaire — keyed by maties_id) ─────────────────────
+const SQUAD_BIO = {
+  1:    { blade:'Nittaku Lattika',               fh:'Nittaku Fastarc G-1',     bh:'Nittaku Fastarc G-1',         fav:'Fan Zhendong',           ussaYears:'2019, 2022, 2023', ussa:['2023: Team Event Bronze, Singles Quarterfinals.','2022: 6th place at Trials.'] },
+  5:    { blade:'Xiom Allround S',               fh:'Xiom Vega X',             bh:'Xiom Vega Korea',             fav:'Bruna Takahashi',         ussaYears:'2024, 2025',       ussa:['2025: Bronze Medal Team Event.'] },
+  30:   { blade:'Butterfly Allrounder',          fh:'Yasaka Rakza 9',          bh:'Tibhar Evolution MX-S',       fav:'Truls Möregårdh',         ussaYears:null,               ussa:[] },
+  2:    { blade:'Stiga Cybershape Carbon CWT',   fh:'Tibhar Evolution FX-D',   bh:'Tibhar Evolution FX-D',       fav:'Truls Möregårdh',         ussaYears:'2023, 2024, 2025', ussa:["2023: Bronze Men's Team.","2024: Bronze Men's Doubles.","2025: Gold Men's Team, Gold Men's Doubles, Silver Men's Singles."] },
+  1356: { blade:'Donic Carbotec 7000',           fh:'QRC Liga',                bh:'QRC Liga',                    fav:'Hugo Calderano',          ussaYears:null,               ussa:[] },
+  728:  { blade:'Tibhar Samsonov Carbon',        fh:'Yasaka Rakza 9',          bh:'Joola Rhyzen Ice',            fav:'Hugo Calderano',          ussaYears:null,               ussa:[] },
+  26:   { blade:'Stiga Future 3-Star',           fh:'Stiga Star',              bh:'Stiga Star',                  fav:'Truls Möregårdh',         ussaYears:'2025',             ussa:[] },
+  1367: { blade:'Loki',                          fh:'Gewo Nexxus EL Pro',      bh:'Xiom Vega China',             fav:'Ma Long',                 ussaYears:null,               ussa:[] },
+  4:    { blade:'Cornilleau Gatien Origin OFF-', fh:'Yasaka Rakza X',          bh:'Gewo Nexxus EL Pro',          fav:'Hugo Calderano',          ussaYears:'2022, 2023, 2024, 2025', ussa:["2024: Quarterfinal Men's Singles.","2024: Bronze Men's Doubles.","2025: 4th Place Men's Singles.","2025: Gold Men's Doubles."] },
+  1381: { blade:'Tibhar Stratus Power Wood',     fh:'Tibhar Speedy Soft D.Tecs', bh:'Friendship 563 Mystery III', fav:'Paul Pinkewich',        ussaYears:null,               ussa:[] },
+  24:   { blade:'Butterfly Ovtcharov S1',        fh:'Yasaka Rakza 9',          bh:'Stiga Mantra Control',        fav:'Tian Louw',               ussaYears:null,               ussa:[] },
+  8:    { blade:'Butterfly Progress',            fh:'Butterfly Spryer',        bh:'Butterfly Spryer',            fav:'Timo Boll',               ussaYears:'2024, 2025',       ussa:["2024: 4th place Women's Doubles."] },
+  12:   { blade:'Stiga Allround Classic',        fh:'DHS PF-4',                bh:'DHS PF-4',                    fav:'Truls Möregårdh',         ussaYears:'2025',             ussa:["2025: Gold Men's Team, Quarterfinal Men's Singles."] },
+  7:    { blade:'Stiga CR Master',               fh:'Hurricane 3 Neo',         bh:'Xiom Vega X',                 fav:'Hugo Calderano',          ussaYears:'2024, 2025',       ussa:["2024: Quarterfinal Men's Team.","2025: 4th place Men's Team, QF Men's Doubles, R16 Men's Singles."] },
+  1361: { blade:'Butterfly Progress',            fh:'Butterfly Spryer',        bh:'Butterfly Spryer',            fav:'Timo Boll',               ussaYears:null,               ussa:[] },
+  1366: { blade:'Stiga Future 3-Star',           fh:'Stiga Star',              bh:'Stiga Star',                  fav:'Hugo Calderano',          ussaYears:null,               ussa:[] },
+  1368: { blade:'Donic-Schildkröt Carbotec 900', fh:'Donic Champion',          bh:'Donic Champion',              fav:'Truls Möregårdh',         ussaYears:null,               ussa:[] },
+  9:    { blade:'DHS Power G5',                  fh:'DHS Hurricane 9',         bh:'Friendship 802 Mystery III',  fav:'Mima Ito, Sabine Winter', ussaYears:null,               ussa:['Just an old ballie having some fun.'] },
+  1359: { blade:'Stiga Offensive Classic WRB',   fh:'Xiom Vega Europe',        bh:'Xiom Vega Europe',            fav:'Felix Lebrun',            ussaYears:null,               ussa:[] },
+};
+
+// Questionnaire respondents (ordered by questionnaire submission)
+const SQUAD_IDS = [1, 5, 30, 2, 1356, 728, 26, 1367, 4, 1381, 24, 8, 12, 7, 1361, 1366, 1368, 9, 1359];
+
+// Players with photos (compressed to /src/img/squad/{id}.jpg)
+const HAS_PHOTO = new Set([2, 4, 7, 12, 21, 26, 30, 35, 728, 1356, 1357, 1358, 1359, 1361, 1366, 1367, 1368]);
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+function fmtDate(s) {
+  if (!s) return '—';
+  const d = new Date(s + 'T00:00:00');
+  return d.toLocaleDateString('en-ZA', { month: 'short', year: 'numeric' });
+}
+
+function parseBestWin(bw) {
+  if (!bw) return { name:'—', rating:'' };
+  const m = bw.match(/^(.+)\s+\((\d+)\)$/);
+  return m ? { name:m[1], rating:m[2] } : { name:bw, rating:'' };
+}
+
+function parseMedals(ussa) {
+  const t = (ussa || []).join(' ').toLowerCase();
+  return {
+    gold:   (t.match(/\bgold\b/g)   || []).length,
+    silver: (t.match(/\bsilver\b/g) || []).length,
+    bronze: (t.match(/\bbronze\b/g) || []).length,
+  };
+}
+
+function categoryLabel(gender) {
+  if (!gender) return 'Open';
+  return gender === 'Female' ? "Women's Rating" : "Men's Rating";
+}
+
+function photoSrc(id) {
+  return HAS_PHOTO.has(id) ? `/src/img/squad/${id}.jpg` : null;
+}
+
+// ─── Nav ──────────────────────────────────────────────────────────────────────
+function Nav({ onBack }) {
+  return (
+    <div style={{ background:T.surface, borderBottom:`1px solid ${T.border}` }}>
+      <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', padding:'0 16px', height:62 }}>
+        <a href="/index.html" style={{ textDecoration:'none' }}>
+          <img src="/src/img/mattc_logo-removebg-preview.png" alt="MATTC"
+            style={{ height:36, width:36, borderRadius:'50%', objectFit:'cover', background:'rgba(139,0,0,0.1)', border:`1px solid ${T.maroon}` }}
+            onError={e => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }}
+          />
+          <div style={{ height:36, width:36, borderRadius:'50%', background:'rgba(139,0,0,0.15)', border:`1px solid ${T.maroon}`, display:'none', alignItems:'center', justifyContent:'center', ...px(14, T.maroon), fontWeight:600 }}>M</div>
+        </a>
+        <a href="/index.html" style={{ textAlign:'center', flex:1, padding:'0 10px', textDecoration:'none' }}>
+          <div style={{ ...px(23), fontWeight:500, lineHeight:1.1, letterSpacing:'0.05em' }}>Maties Ratings</div>
+          <div style={{ ...px(9, T.second), letterSpacing:'1.4px', textTransform:'uppercase', marginTop:2, opacity:0.7 }}>SA Table Tennis</div>
+        </a>
+        <div style={{ display:'flex', flexDirection:'column', gap:4 }}>
+          {[22,14,22].map((w,i)=>(
+            <div key={i} style={{ width:w, height:1.5, background:'rgba(139,0,0,0.5)', borderRadius:2 }} />
+          ))}
+        </div>
+      </div>
+      {onBack && (
+        <div onClick={onBack} style={{ borderTop:`1px solid ${T.borderF}`, padding:'6px 16px', display:'flex', alignItems:'center', gap:8, cursor:'pointer' }}>
+          <span style={{ ...px(10, T.second), opacity:0.6 }}>&#8592;</span>
+          <span style={{ ...px(11, T.second), letterSpacing:'0.8px', textTransform:'uppercase' }}>Maties Squad</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Card wrapper ─────────────────────────────────────────────────────────────
+function Card({ children, style }) {
+  return <div style={{ background:T.surface, border:`1px solid ${T.borderF}`, borderRadius:10, ...style }}>{children}</div>;
+}
+
+function StatLabel({ children }) {
+  return <div style={{ ...px(10.5, T.maroon), fontWeight:600, letterSpacing:'1.2px', textTransform:'uppercase' }}>{children}</div>;
+}
+
+// ─── Portrait (photo or maroon silhouette — matches zip v1 exactly) ───────────
+function Portrait({ id, large }) {
+  const [err, setErr] = React.useState(false);
+  const src = photoSrc(id);
+  const style = {
+    width:'100%',
+    aspectRatio: large ? '1/1.18' : '1/1.22',
+    borderRadius:10, overflow:'hidden',
+    background:`linear-gradient(160deg, ${T.maroonDeep} 0%, #2a0808 60%, #1a0606 100%)`,
+    position:'relative', border:`1px solid ${T.border}`,
+  };
+  if (src && !err) {
+    return (
+      <div style={style}>
+        <img src={src} alt="" onError={()=>setErr(true)}
+          style={{ width:'100%', height:'100%', objectFit:'cover', objectPosition:'top center', display:'block' }} />
+      </div>
+    );
+  }
+  const gid = `sg-${id}`;
+  return (
+    <div style={style}>
+      <svg viewBox="0 0 100 118" style={{ position:'absolute', inset:0, width:'100%', height:'100%' }} preserveAspectRatio="xMidYMax meet">
+        <defs>
+          <linearGradient id={gid} x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%"   stopColor="#1a0606" stopOpacity="0.92"/>
+            <stop offset="100%" stopColor="#0a0303" stopOpacity="0.98"/>
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="42" r="14" fill={`url(#${gid})`}/>
+        <path d="M18 118 Q18 78 35 66 Q42 62 50 62 Q58 62 65 66 Q82 78 82 118 Z" fill={`url(#${gid})`}/>
+      </svg>
+    </div>
+  );
+}
+
+// ─── Roster card ──────────────────────────────────────────────────────────────
+function RosterCard({ player, bio, onClick }) {
+  const cat = categoryLabel(player.gender);
+  return (
+    <div onClick={()=>onClick(player)}
+      style={{ background:T.surface, border:`1px solid ${T.borderF}`, borderRadius:10, overflow:'hidden', cursor:'pointer' }}
+    >
+      <Portrait id={player.maties_id} />
+      <div style={{ padding:'10px 11px 13px' }}>
+        <div style={{ ...px(13, T.text), fontWeight:600, textTransform:'uppercase', letterSpacing:'0.25px', lineHeight:1.1, marginBottom:4 }}>
+          {player.name}
+        </div>
+        {player.rating && (
+          <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginBottom:4 }}>
+            <div style={{ ...px(9, T.second), letterSpacing:'0.9px', textTransform:'uppercase', lineHeight:1.3 }}>{cat}</div>
+            <div style={{ fontFamily:T.F, fontSize:26, color:T.maroon, fontWeight:600, letterSpacing:'-0.5px', lineHeight:1 }}>{player.rating}</div>
+          </div>
+        )}
+        {bio?.fav && (
+          <div style={{ ...px(10.5, T.second), marginTop:3, lineHeight:1.3 }}>{bio.fav}</div>
+        )}
+        <div style={{ display:'flex', justifyContent:'flex-end', alignItems:'center', marginTop:8, paddingTop:7, borderTop:`1px solid ${T.borderF}` }}>
+          <span style={{ ...px(10.5, T.maroon), fontWeight:600 }}>Profile ›</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ─── Detail — hero card (exact v1 layout) ─────────────────────────────────────
+function HeroCard({ player, bio, openData }) {
+  const cat  = categoryLabel(player.gender);
+  const rank = openData?.rank ?? player.rank ?? null;
+  const bio_rows = [
+    ['Club',            'Maties TTC'],
+    ['Blade',           bio?.blade    || '—'],
+    ['Forehand',        bio?.fh       || '—'],
+    ['Backhand',        bio?.bh       || '—'],
+    ['Favourite Player',bio?.fav      || '—'],
+  ];
+  return (
+    <Card style={{ padding:14, marginBottom:12 }}>
+      <div style={{ display:'grid', gridTemplateColumns:'130px 1fr', gap:14 }}>
+        <Portrait id={player.maties_id} large />
+        <div>
+          {/* Name + rating */}
+          <div style={{ paddingBottom:10, borderBottom:`1px solid ${T.border}`, marginBottom:10 }}>
+            <div style={{ ...px(22, T.text), fontWeight:600, letterSpacing:'0.5px', textTransform:'uppercase', lineHeight:1.05 }}>{player.name}</div>
+            <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between', marginTop:6, gap:8 }}>
+              <div style={{ ...px(9.5, T.second), letterSpacing:'1px', textTransform:'uppercase' }}>
+                {cat}<br/>
+                {rank && <span style={{ opacity:0.7 }}>#{rank} in South Africa</span>}
+              </div>
+              <div style={{ fontFamily:T.F, fontSize:36, color:T.maroon, fontWeight:600, letterSpacing:'-1px', lineHeight:1 }}>
+                {player.rating || '—'}
+              </div>
+            </div>
+          </div>
+          {/* Bio rows */}
+          <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
+            {bio_rows.map(([k,v])=>(
+              <div key={k} style={{ display:'grid', gridTemplateColumns:'82px 1fr', alignItems:'baseline', gap:6 }}>
+                <div style={{ ...px(9.5, T.maroon), fontWeight:600, letterSpacing:'1px', textTransform:'uppercase' }}>{k}</div>
+                <div style={{ ...px(11.5, T.text), lineHeight:1.3 }}>{v}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Primary stats (v1 exact) ─────────────────────────────────────────────────
+function PrimaryStats({ player, openData }) {
+  const d = openData || {};
+  return (
+    <Card style={{ padding:'14px 8px', marginBottom:10 }}>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', alignItems:'center' }}>
+        {/* SA Rank */}
+        <div style={{ textAlign:'center', borderRight:`1px solid ${T.borderF}`, padding:'4px 6px' }}>
+          <StatLabel>SA Rank</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:38, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-1px' }}>
+            {d.rank ? `#${d.rank}` : '—'}
+          </div>
+          <div style={{ ...px(9.5, T.second), letterSpacing:'1px', textTransform:'uppercase', marginTop:3 }}>Open Rating</div>
+        </div>
+        {/* Played */}
+        <div style={{ textAlign:'center', borderRight:`1px solid ${T.borderF}`, padding:'4px 6px' }}>
+          <StatLabel>Matches Played</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:38, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-1px' }}>
+            {d.played ?? '—'}
+          </div>
+          <div style={{ ...px(9.5, T.second), letterSpacing:'1px', textTransform:'uppercase', marginTop:3 }}>
+            {d.won != null && d.lost != null ? (
+              <>Wins <span style={{ color:T.win, fontWeight:600 }}>{d.won}</span> &nbsp;|&nbsp; Losses <span style={{ color:T.loss, fontWeight:600 }}>{d.lost}</span></>
+            ) : '—'}
+          </div>
+        </div>
+        {/* Win rate */}
+        <div style={{ textAlign:'center', padding:'4px 6px' }}>
+          <StatLabel>Win Rate</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:38, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-1px' }}>
+            {d.win_per != null ? (
+              <>{d.win_per}<span style={{ fontSize:22, color:T.second, fontWeight:500 }}>%</span></>
+            ) : '—'}
+          </div>
+          <div style={{ ...px(9.5, T.second), opacity:0, marginTop:3 }}>–</div>
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Secondary stats (v1 exact) ───────────────────────────────────────────────
+function SecondaryStats({ player, openData, clutchData }) {
+  const d = openData || {};
+  const bw = parseBestWin(d.best_win);
+  const clutch = clutchData?.clutch_rate ?? null;
+  return (
+    <Card style={{ padding:'12px 6px', marginBottom:10 }}>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr 1fr', alignItems:'flex-start' }}>
+        {/* Open rating */}
+        <div style={{ textAlign:'center', borderRight:`1px solid ${T.borderF}`, padding:'4px 4px' }}>
+          <StatLabel>Open Rating</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:26, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-0.5px' }}>{d.rating || '—'}</div>
+          <div style={{ ...px(9.5, T.second), letterSpacing:'1px', marginTop:3 }}>{d.rank ? `#${d.rank}` : '—'}</div>
+        </div>
+        {/* Best win */}
+        <div style={{ textAlign:'center', borderRight:`1px solid ${T.borderF}`, padding:'4px 4px' }}>
+          <StatLabel>Best Win</StatLabel>
+          <div style={{ ...px(12, T.text), fontWeight:600, marginTop:8, lineHeight:1.2 }}>{bw.name}</div>
+          <div style={{ ...px(11, T.second), marginTop:2 }}>{bw.rating}</div>
+        </div>
+        {/* Peak */}
+        <div style={{ textAlign:'center', borderRight:`1px solid ${T.borderF}`, padding:'4px 4px' }}>
+          <StatLabel>Peak Rating</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:26, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-0.5px' }}>{d.max_rating || '—'}</div>
+          <div style={{ ...px(9.5, T.second), letterSpacing:'1px', textTransform:'uppercase', marginTop:3 }}>{fmtDate(d.max_rating_date)}</div>
+        </div>
+        {/* Clutch */}
+        <div style={{ textAlign:'center', padding:'4px 4px' }}>
+          <StatLabel>Clutch Rate</StatLabel>
+          <div style={{ fontFamily:T.F, fontSize:26, fontWeight:600, color:T.text, lineHeight:1.05, marginTop:6, letterSpacing:'-0.5px' }}>
+            {clutch != null ? <>{clutch}<span style={{ fontSize:16, color:T.second, fontWeight:500 }}>%</span></> : '—'}
+          </div>
+          <div style={{ ...px(9.5, T.second), letterSpacing:'1px', marginTop:3 }}>(10–12 pts)</div>
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Medal icon (v1 exact) ────────────────────────────────────────────────────
+function Medal({ kind, count }) {
+  const C = {
+    Gold:   { ring:T.gold,   inner:'#8a6a18' },
+    Silver: { ring:T.silver, inner:'#5a5a52' },
+    Bronze: { ring:T.bronze, inner:'#5a3a20' },
+  }[kind];
+  return (
+    <div style={{ textAlign:'center' }}>
+      <div style={{ width:42, height:42, borderRadius:'50%', background:`radial-gradient(circle at 35% 30%, ${C.ring} 0%, ${C.inner} 100%)`, border:'1px solid rgba(0,0,0,0.4)', boxShadow:'inset 0 0 0 2px rgba(255,255,255,0.08)', margin:'0 auto 6px' }} />
+      <div style={{ ...px(20, T.text), fontWeight:600, lineHeight:1, letterSpacing:'-0.5px' }}>{count}</div>
+      <div style={{ ...px(9, T.second), letterSpacing:'1.2px', textTransform:'uppercase', marginTop:4 }}>{kind}</div>
+    </div>
+  );
+}
+
+// ─── USSA block (v1 exact with medal counts parsed from text) ─────────────────
+function UssaBlock({ bio }) {
+  const ussa = bio?.ussa || [];
+  const years = bio?.ussaYears;
+  const medals = parseMedals(ussa);
+  const hasMedals = medals.gold + medals.silver + medals.bronze > 0;
+  const hasText   = ussa.length > 0;
+  if (!years && !hasText) return null;
+  return (
+    <Card style={{ padding:14, marginBottom:10 }}>
+      <div style={{ display:'grid', gridTemplateColumns: hasMedals ? 'auto 1fr' : '1fr', gap:14, alignItems:'flex-start' }}>
+        {hasMedals && (
+          <div style={{ paddingRight:14, borderRight:`1px solid ${T.borderF}` }}>
+            <StatLabel>USSA Results</StatLabel>
+            {years && <div style={{ ...px(10, T.second), marginTop:6, marginBottom:8 }}>{years}</div>}
+            <div style={{ display:'flex', gap:14, marginTop:4 }}>
+              <Medal kind="Gold"   count={medals.gold}   />
+              <Medal kind="Silver" count={medals.silver} />
+              <Medal kind="Bronze" count={medals.bronze} />
+            </div>
+          </div>
+        )}
+        <div>
+          <StatLabel>USSA Summary</StatLabel>
+          {years && !hasMedals && <div style={{ ...px(11, T.second), marginTop:6 }}>Years: {years}</div>}
+          {hasText && (
+            <ul style={{ listStyle:'none', padding:0, margin:'10px 0 0', display:'flex', flexDirection:'column', gap:5 }}>
+              {ussa.map((s,i)=>(
+                <li key={i} style={{ ...px(11.5, T.text), lineHeight:1.45, paddingLeft:12, position:'relative' }}>
+                  <span style={{ position:'absolute', left:0, top:1, color:T.maroon }}>&bull;</span>
+                  {s}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Match history link ────────────────────────────────────────────────────────
+function MatchHistoryLink({ player, openData }) {
+  const url = `/pages/player.html?name=${encodeURIComponent(player.name)}`;
+  return (
+    <Card style={{ padding:'14px 0 4px', marginBottom:0 }}>
+      <div style={{ padding:'0 14px 12px' }}>
+        <StatLabel>Match History</StatLabel>
+      </div>
+      <div style={{ padding:'7px 14px', background:T.maroon, display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+        {['Date','Tournament / Event','Opponent','Rtg','Res'].map((h,i)=>(
+          <span key={i} style={{ ...px(9, 'rgba(255,255,255,0.85)'), fontWeight:600, textTransform:'uppercase', letterSpacing:'0.6px' }}>{h}</span>
+        ))}
+      </div>
+      <div style={{ padding:'14px', textAlign:'center', borderTop:`1px solid ${T.borderF}` }}>
+        <a href={url} style={{ ...px(13, T.maroon), fontWeight:500, textDecoration:'none' }}>
+          {openData?.played ? `View all ${openData.played} matches →` : 'View match history →'}
+        </a>
+      </div>
+    </Card>
+  );
+}
+
+// ─── Footer ───────────────────────────────────────────────────────────────────
+function Footer() {
+  const today = new Date().toLocaleDateString('en-ZA', { day:'numeric', month:'long', year:'numeric' });
+  return (
+    <div style={{ textAlign:'center', padding:'14px 0 8px' }}>
+      <span style={{ ...px(9.5, T.muted), letterSpacing:'1.5px', textTransform:'uppercase' }}>
+        Ratings as of {today}
+      </span>
+    </div>
+  );
+}
+
+// ─── Loading / error ──────────────────────────────────────────────────────────
+function Spinner() {
+  return (
+    <div style={{ display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 0', gap:12 }}>
+      <div style={{ width:32, height:32, borderRadius:'50%', border:`2px solid ${T.borderF}`, borderTop:`2px solid ${T.maroon}`, animation:'spin 0.8s linear infinite' }} />
+      <span style={{ ...px(12, T.second), letterSpacing:'1px', textTransform:'uppercase' }}>Loading squad data…</span>
+      <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+    </div>
+  );
+}
+
+// ─── App ──────────────────────────────────────────────────────────────────────
+function App() {
+  const [allRatings, setAllRatings] = React.useState(null);
+  const [clutchMap, setClutchMap]   = React.useState({});
+  const [selected, setSelected]     = React.useState(null);
+  const [loading, setLoading]        = React.useState(true);
+  const [error, setError]            = React.useState(null);
+
+  React.useEffect(() => {
+    Promise.all([
+      fetch('/src/data/json/open_ratings.json').then(r => r.json()),
+      fetch('/src/data/json/men_ratings.json').then(r => r.json()),
+      fetch('/src/data/json/women_ratings.json').then(r => r.json()),
+      fetch('/src/data/json/clutch_ratings.json').then(r => r.ok ? r.json() : []).catch(() => []),
+    ]).then(([open, men, women, clutch]) => {
+      // Build maps keyed by maties_id
+      const openMap  = Object.fromEntries(open.map(p  => [p.maties_id, p]));
+      const catMap   = Object.fromEntries([...men, ...women].map(p => [p.maties_id, p]));
+      const cMap     = Object.fromEntries(clutch.map(p => [p.maties_id, p]));
+      setAllRatings({ openMap, catMap });
+      setClutchMap(cMap);
+      setLoading(false);
+    }).catch(err => {
+      setError(err.message);
+      setLoading(false);
+    });
+  }, []);
+
+  const select = (p) => { setSelected(p); window.scrollTo({ top:0, behavior:'smooth' }); };
+  const back   = ()  => { setSelected(null); window.scrollTo({ top:0, behavior:'smooth' }); };
+
+  // Build squad player list from SQUAD_IDS + loaded data
+  const squadPlayers = React.useMemo(() => {
+    if (!allRatings) return [];
+    return SQUAD_IDS.map(id => {
+      const cat  = allRatings.catMap[id]  || {};
+      const open = allRatings.openMap[id] || {};
+      return {
+        maties_id: id,
+        name:   cat.name  || open.name  || `Player ${id}`,
+        gender: cat.gender || open.gender || null,
+        rating: cat.rating || null,
+        rank:   open.rank  || null,
+        // carry open data for detail view
+        _open: open,
+      };
+    });
+  }, [allRatings]);
+
+  const container = {
+    width: 'min(430px, 100%)',
+    background:T.bg, color:T.text, fontFamily:T.F,
+    borderRadius:14, overflow:'hidden', boxShadow:'0 6px 30px rgba(0,0,0,0.5)',
+  };
+
+  if (loading) return (
+    <div style={container}>
+      <Nav />
+      <Spinner />
+    </div>
+  );
+
+  if (error) return (
+    <div style={container}>
+      <Nav />
+      <div style={{ padding:24, textAlign:'center', ...px(13, T.muted) }}>Failed to load data: {error}</div>
+    </div>
+  );
+
+  // ── Detail view ──
+  if (selected) {
+    const bio      = SQUAD_BIO[selected.maties_id] || null;
+    const openData = allRatings.openMap[selected.maties_id] || null;
+    const clutch   = clutchMap[selected.maties_id] || null;
+    return (
+      <div style={container}>
+        <Nav onBack={back} />
+        <div style={{ padding:'12px 12px 16px' }}>
+          <HeroCard      player={selected} bio={bio} openData={openData} />
+          <PrimaryStats  player={selected} openData={openData} />
+          <SecondaryStats player={selected} openData={openData} clutchData={clutch} />
+          {bio && <UssaBlock bio={bio} />}
+          <MatchHistoryLink player={selected} openData={openData} />
+          <Footer />
+        </div>
+      </div>
+    );
+  }
+
+  // ── Roster view ──
+  return (
+    <div style={container}>
+      <Nav />
+      <div style={{ padding:'14px 12px 4px' }}>
+        <div style={{ marginBottom:14, paddingBottom:12, borderBottom:`1px solid ${T.borderF}` }}>
+          <div style={{ ...px(10, T.second), letterSpacing:'1.6px', textTransform:'uppercase', marginBottom:4 }}>Maties TTC</div>
+          <div style={{ display:'flex', alignItems:'baseline', justifyContent:'space-between' }}>
+            <div style={{ ...px(26, T.text), fontWeight:600, letterSpacing:'0.1px' }}>Squad 2026</div>
+            <div style={{ ...px(11.5, T.second) }}>{squadPlayers.length} members</div>
+          </div>
+        </div>
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }}>
+          {squadPlayers.map(p => (
+            <RosterCard key={p.maties_id} player={p} bio={SQUAD_BIO[p.maties_id]} onClick={select} />
+          ))}
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
