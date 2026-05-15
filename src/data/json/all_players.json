@@ -2832,12 +2832,6 @@
     "gender": "Male"
   },
   {
-    "maties_id": 597,
-    "name": "Roberto",
-    "club": "Stephanians",
-    "gender": "Male"
-  },
-  {
     "maties_id": 479,
     "name": "Alexander Jones",
     "club": "Duinefontein",
@@ -3524,6 +3518,12 @@
   {
     "maties_id": 596,
     "name": "Galant Abbas",
+    "club": "Stephanians",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 597,
+    "name": "Roberto",
     "club": "Stephanians",
     "gender": "Male"
   },
@@ -8350,5 +8350,23 @@
     "name": "Cadence Farmer",
     "club": "unknown_club",
     "gender": "Female"
+  },
+  {
+    "maties_id": 1427,
+    "name": "Bontle Wildebees",
+    "club": "CPUT",
+    "gender": "Female"
+  },
+  {
+    "maties_id": 1428,
+    "name": "Noah Phiri",
+    "club": "CPUT",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1429,
+    "name": "Liyabona Peter",
+    "club": "CPUT",
+    "gender": "Male"
   }
 ]

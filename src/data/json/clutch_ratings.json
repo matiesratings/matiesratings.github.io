@@ -11,11 +11,11 @@
   {
     "maties_id": 485,
     "name": "David Nwafor",
-    "matches": 84,
+    "matches": 87,
     "deciders": 20,
     "clutch_wins": 15,
     "clutch_rate": 75,
-    "decider_pct": 24
+    "decider_pct": 23
   },
   {
     "maties_id": 333,
@@ -34,6 +34,15 @@
     "clutch_wins": 10,
     "clutch_rate": 77,
     "decider_pct": 36
+  },
+  {
+    "maties_id": 1,
+    "name": "Tian Louw",
+    "matches": 66,
+    "deciders": 15,
+    "clutch_wins": 10,
+    "clutch_rate": 67,
+    "decider_pct": 23
   },
   {
     "maties_id": 343,
@@ -81,6 +90,15 @@
     "decider_pct": 16
   },
   {
+    "maties_id": 262,
+    "name": "Tayla Bailey",
+    "matches": 77,
+    "deciders": 14,
+    "clutch_wins": 9,
+    "clutch_rate": 64,
+    "decider_pct": 18
+  },
+  {
     "maties_id": 95,
     "name": "Timothy Fitzgibbon",
     "matches": 52,
@@ -110,7 +128,7 @@
   {
     "maties_id": 424,
     "name": "Kirshwan Steyn",
-    "matches": 81,
+    "matches": 83,
     "deciders": 10,
     "clutch_wins": 8,
     "clutch_rate": 80,
@@ -153,31 +171,22 @@
     "decider_pct": 28
   },
   {
-    "maties_id": 262,
-    "name": "Tayla Bailey",
-    "matches": 73,
-    "deciders": 12,
+    "maties_id": 2,
+    "name": "DJ Swanevelder",
+    "matches": 80,
+    "deciders": 19,
     "clutch_wins": 8,
-    "clutch_rate": 67,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 1,
-    "name": "Tian Louw",
-    "matches": 61,
-    "deciders": 12,
-    "clutch_wins": 8,
-    "clutch_rate": 67,
-    "decider_pct": 20
+    "clutch_rate": 42,
+    "decider_pct": 24
   },
   {
     "maties_id": 51,
     "name": "Scelo Mkhetho",
-    "matches": 34,
+    "matches": 35,
     "deciders": 8,
     "clutch_wins": 7,
     "clutch_rate": 88,
-    "decider_pct": 24
+    "decider_pct": 23
   },
   {
     "maties_id": 836,
@@ -218,11 +227,11 @@
   {
     "maties_id": 7,
     "name": "Gajen Chetty",
-    "matches": 56,
+    "matches": 60,
     "deciders": 11,
     "clutch_wins": 7,
     "clutch_rate": 64,
-    "decider_pct": 20
+    "decider_pct": 18
   },
   {
     "maties_id": 695,
@@ -232,6 +241,15 @@
     "clutch_wins": 7,
     "clutch_rate": 64,
     "decider_pct": 20
+  },
+  {
+    "maties_id": 372,
+    "name": "TJ Sabad",
+    "matches": 51,
+    "deciders": 11,
+    "clutch_wins": 7,
+    "clutch_rate": 64,
+    "decider_pct": 22
   },
   {
     "maties_id": 154,
@@ -268,42 +286,6 @@
     "clutch_wins": 7,
     "clutch_rate": 54,
     "decider_pct": 33
-  },
-  {
-    "maties_id": 2,
-    "name": "DJ Swanevelder",
-    "matches": 76,
-    "deciders": 15,
-    "clutch_wins": 7,
-    "clutch_rate": 47,
-    "decider_pct": 20
-  },
-  {
-    "maties_id": 862,
-    "name": "Danisha Patel",
-    "matches": 59,
-    "deciders": 7,
-    "clutch_wins": 6,
-    "clutch_rate": 86,
-    "decider_pct": 12
-  },
-  {
-    "maties_id": 904,
-    "name": "Terrence Mathole",
-    "matches": 45,
-    "deciders": 7,
-    "clutch_wins": 6,
-    "clutch_rate": 86,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 161,
-    "name": "Rashied Ismail",
-    "matches": 31,
-    "deciders": 7,
-    "clutch_wins": 6,
-    "clutch_rate": 86,
-    "decider_pct": 23
   },
   {
     "maties_id": 536,
@@ -358,15 +340,6 @@
     "clutch_wins": 6,
     "clutch_rate": 67,
     "decider_pct": 27
-  },
-  {
-    "maties_id": 372,
-    "name": "TJ Sabad",
-    "matches": 47,
-    "deciders": 10,
-    "clutch_wins": 6,
-    "clutch_rate": 60,
-    "decider_pct": 21
   },
   {
     "maties_id": 382,
@@ -430,141 +403,6 @@
     "clutch_wins": 6,
     "clutch_rate": 50,
     "decider_pct": 24
-  },
-  {
-    "maties_id": 891,
-    "name": "Mark Williams",
-    "matches": 40,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 330,
-    "name": "Theo Cogill",
-    "matches": 38,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 179,
-    "name": "Kevin Roodt",
-    "matches": 32,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 580,
-    "name": "Ameen Jansen",
-    "matches": 30,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 17
-  },
-  {
-    "maties_id": 211,
-    "name": "Marvin Makhubela",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 845,
-    "name": "Ronald Lawrence",
-    "matches": 25,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 20
-  },
-  {
-    "maties_id": 1371,
-    "name": "Taylor Marais",
-    "matches": 15,
-    "deciders": 5,
-    "clutch_wins": 5,
-    "clutch_rate": 100,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 889,
-    "name": "Liam Beukes",
-    "matches": 50,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 12
-  },
-  {
-    "maties_id": 890,
-    "name": "Luke Abrahams",
-    "matches": 49,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 12
-  },
-  {
-    "maties_id": 972,
-    "name": "Abdul Hay",
-    "matches": 40,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 242,
-    "name": "Denver Sweatz",
-    "matches": 38,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 118,
-    "name": "Deon Swartz",
-    "matches": 34,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 194,
-    "name": "Carl Adams",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 537,
-    "name": "Alex O'Ryan",
-    "matches": 24,
-    "deciders": 6,
-    "clutch_wins": 5,
-    "clutch_rate": 83,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 326,
-    "name": "Ikraam Francis",
-    "matches": 22,
-    "deciders": 7,
-    "clutch_wins": 5,
-    "clutch_rate": 71,
-    "decider_pct": 32
   },
   {
     "maties_id": 353,
@@ -657,6 +495,15 @@
     "decider_pct": 14
   },
   {
+    "maties_id": 21,
+    "name": "Steffan Brundyn",
+    "matches": 53,
+    "deciders": 10,
+    "clutch_wins": 5,
+    "clutch_rate": 50,
+    "decider_pct": 19
+  },
+  {
     "maties_id": 899,
     "name": "Sarah Morsner",
     "matches": 40,
@@ -673,6 +520,15 @@
     "clutch_wins": 5,
     "clutch_rate": 50,
     "decider_pct": 28
+  },
+  {
+    "maties_id": 286,
+    "name": "Dirk Coetzee",
+    "matches": 73,
+    "deciders": 11,
+    "clutch_wins": 5,
+    "clutch_rate": 46,
+    "decider_pct": 15
   },
   {
     "maties_id": 70,
@@ -729,249 +585,6 @@
     "decider_pct": 36
   },
   {
-    "maties_id": 205,
-    "name": "Matthew Meade",
-    "matches": 34,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 346,
-    "name": "Christian Poggenpoel",
-    "matches": 33,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 919,
-    "name": "Enjun Pan",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 929,
-    "name": "Menasseh Manuel",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 1030,
-    "name": "Gavin Heffer",
-    "matches": 27,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 805,
-    "name": "Driasin Gounden",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 1056,
-    "name": "Amit Nana",
-    "matches": 24,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 1073,
-    "name": "Juergen Suplit",
-    "matches": 20,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 564,
-    "name": "Clement Meyer",
-    "matches": 18,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 28
-  },
-  {
-    "maties_id": 568,
-    "name": "Russel Fredricks",
-    "matches": 16,
-    "deciders": 5,
-    "clutch_wins": 4,
-    "clutch_rate": 80,
-    "decider_pct": 31
-  },
-  {
-    "maties_id": 5,
-    "name": "Cetin Celik",
-    "matches": 64,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 9
-  },
-  {
-    "maties_id": 11,
-    "name": "Andries Vermeulen",
-    "matches": 41,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 700,
-    "name": "Bradley Benting",
-    "matches": 33,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 499,
-    "name": "Keanin Pekeur",
-    "matches": 31,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 283,
-    "name": "Angelo Isaacs",
-    "matches": 30,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 20
-  },
-  {
-    "maties_id": 120,
-    "name": "Nande Ngqula",
-    "matches": 27,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 22
-  },
-  {
-    "maties_id": 895,
-    "name": "Saeed Tifflin",
-    "matches": 26,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 1072,
-    "name": "James Carrolus",
-    "matches": 26,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 1088,
-    "name": "Thabiso Marota",
-    "matches": 24,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 377,
-    "name": "Ebrahiem Carr",
-    "matches": 18,
-    "deciders": 6,
-    "clutch_wins": 4,
-    "clutch_rate": 67,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 246,
-    "name": "Tamika Van As",
-    "matches": 62,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 11
-  },
-  {
-    "maties_id": 164,
-    "name": "Llewellyn Paris",
-    "matches": 34,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 340,
-    "name": "Derrel Adriaans",
-    "matches": 32,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 22
-  },
-  {
-    "maties_id": 297,
-    "name": "Sean Raubenheimer",
-    "matches": 30,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 1022,
-    "name": "Andria van Tonder",
-    "matches": 30,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 18,
-    "name": "Nazir Mowzer",
-    "matches": 26,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 27
-  },
-  {
-    "maties_id": 76,
-    "name": "Skylyn Joseph",
-    "matches": 26,
-    "deciders": 7,
-    "clutch_wins": 4,
-    "clutch_rate": 57,
-    "decider_pct": 27
-  },
-  {
     "maties_id": 328,
     "name": "Milo Katz",
     "matches": 44,
@@ -1024,15 +637,6 @@
     "clutch_wins": 4,
     "clutch_rate": 44,
     "decider_pct": 9
-  },
-  {
-    "maties_id": 286,
-    "name": "Dirk Coetzee",
-    "matches": 68,
-    "deciders": 9,
-    "clutch_wins": 4,
-    "clutch_rate": 44,
-    "decider_pct": 13
   },
   {
     "maties_id": 97,
@@ -1143,375 +747,6 @@
     "decider_pct": 33
   },
   {
-    "maties_id": 145,
-    "name": "Craig Zimri",
-    "matches": 40,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 123,
-    "name": "Luke Danster",
-    "matches": 32,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 388,
-    "name": "Moenieb Roberts",
-    "matches": 32,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 392,
-    "name": "Saaliegh Jabaar",
-    "matches": 32,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 808,
-    "name": "Keshav Singh",
-    "matches": 31,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 16
-  },
-  {
-    "maties_id": 198,
-    "name": "Dillan Godfrey",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 290,
-    "name": "Fayzal Galant",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 543,
-    "name": "Charl Grobbelaar",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 309,
-    "name": "Jason Albertyn",
-    "matches": 24,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 684,
-    "name": "Faseeq Davids",
-    "matches": 24,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 1097,
-    "name": "Surajh Surjoo",
-    "matches": 24,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 1359,
-    "name": "Finn Kahn",
-    "matches": 21,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 24
-  },
-  {
-    "maties_id": 981,
-    "name": "Alon Argaman",
-    "matches": 20,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 1026,
-    "name": "Andrew Spottiswoode",
-    "matches": 18,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 28
-  },
-  {
-    "maties_id": 1046,
-    "name": "Sipho Ndara",
-    "matches": 18,
-    "deciders": 5,
-    "clutch_wins": 3,
-    "clutch_rate": 60,
-    "decider_pct": 28
-  },
-  {
-    "maties_id": 533,
-    "name": "Rochica Sonday",
-    "matches": 55,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 11
-  },
-  {
-    "maties_id": 373,
-    "name": "Amien Phillips",
-    "matches": 47,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 540,
-    "name": "Bernard Stewe",
-    "matches": 42,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 14
-  },
-  {
-    "maties_id": 152,
-    "name": "Russel Jansen",
-    "matches": 35,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 17
-  },
-  {
-    "maties_id": 831,
-    "name": "Juane Scholtz",
-    "matches": 33,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 380,
-    "name": "Sameer Parker",
-    "matches": 31,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 173,
-    "name": "Errol Kannemeyer",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 227,
-    "name": "Yunus Moyce",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 293,
-    "name": "John Busch",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 121,
-    "name": "Njongo Ngqula",
-    "matches": 26,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 737,
-    "name": "Brody Kleintjes",
-    "matches": 25,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 24
-  },
-  {
-    "maties_id": 165,
-    "name": "Riedewaan Hendricks",
-    "matches": 24,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 913,
-    "name": "Anotidaishe Husvu",
-    "matches": 22,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 27
-  },
-  {
-    "maties_id": 447,
-    "name": "Gideon Stompies",
-    "matches": 20,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 30
-  },
-  {
-    "maties_id": 155,
-    "name": "Kyle Martin",
-    "matches": 18,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 1104,
-    "name": "Felix Monday",
-    "matches": 14,
-    "deciders": 6,
-    "clutch_wins": 3,
-    "clutch_rate": 50,
-    "decider_pct": 43
-  },
-  {
-    "maties_id": 885,
-    "name": "Jason Brickhill",
-    "matches": 37,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 296,
-    "name": "Ronald Hutchinson",
-    "matches": 34,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 547,
-    "name": "Edward Hahn",
-    "matches": 32,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 22
-  },
-  {
-    "maties_id": 810,
-    "name": "Neil Du Preez",
-    "matches": 31,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 405,
-    "name": "William Reizenberg",
-    "matches": 30,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 541,
-    "name": "Brendan O'Connell",
-    "matches": 28,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 923,
-    "name": "Mubeen Hadjee",
-    "matches": 27,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 26
-  },
-  {
-    "maties_id": 190,
-    "name": "William Prinsloo",
-    "matches": 24,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 29
-  },
-  {
-    "maties_id": 1043,
-    "name": "Prakash Singh",
-    "matches": 22,
-    "deciders": 7,
-    "clutch_wins": 3,
-    "clutch_rate": 43,
-    "decider_pct": 32
-  },
-  {
-    "maties_id": 4,
-    "name": "Le Roux Strydom",
-    "matches": 66,
-    "deciders": 8,
-    "clutch_wins": 3,
-    "clutch_rate": 38,
-    "decider_pct": 12
-  },
-  {
     "maties_id": 860,
     "name": "Bimal Jivraj",
     "matches": 58,
@@ -1519,15 +754,6 @@
     "clutch_wins": 3,
     "clutch_rate": 38,
     "decider_pct": 14
-  },
-  {
-    "maties_id": 21,
-    "name": "Steffan Brundyn",
-    "matches": 50,
-    "deciders": 8,
-    "clutch_wins": 3,
-    "clutch_rate": 38,
-    "decider_pct": 16
   },
   {
     "maties_id": 234,
@@ -1593,6 +819,15 @@
     "decider_pct": 44
   },
   {
+    "maties_id": 4,
+    "name": "Le Roux Strydom",
+    "matches": 70,
+    "deciders": 9,
+    "clutch_wins": 3,
+    "clutch_rate": 33,
+    "decider_pct": 13
+  },
+  {
     "maties_id": 100,
     "name": "Chris Sloster",
     "matches": 50,
@@ -1638,8 +873,8 @@
     "decider_pct": 30
   },
   {
-    "maties_id": 560,
-    "name": "Ashlyn Wagner",
+    "maties_id": 57,
+    "name": "Liqhawe Pepeta",
     "matches": 37,
     "deciders": 10,
     "clutch_wins": 3,
@@ -1647,13 +882,13 @@
     "decider_pct": 27
   },
   {
-    "maties_id": 57,
-    "name": "Liqhawe Pepeta",
-    "matches": 36,
+    "maties_id": 560,
+    "name": "Ashlyn Wagner",
+    "matches": 37,
     "deciders": 10,
     "clutch_wins": 3,
     "clutch_rate": 30,
-    "decider_pct": 28
+    "decider_pct": 27
   },
   {
     "maties_id": 221,
@@ -1672,276 +907,6 @@
     "clutch_wins": 3,
     "clutch_rate": 30,
     "decider_pct": 31
-  },
-  {
-    "maties_id": 476,
-    "name": "Adam Domingo",
-    "matches": 37,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 14
-  },
-  {
-    "maties_id": 556,
-    "name": "Yaseen Hassam",
-    "matches": 36,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 14
-  },
-  {
-    "maties_id": 487,
-    "name": "Errol Joemath",
-    "matches": 34,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 575,
-    "name": "Aden Buckton",
-    "matches": 30,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 17
-  },
-  {
-    "maties_id": 284,
-    "name": "Anton Titus",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 930,
-    "name": "Saadia Edwards",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 1094,
-    "name": "Prem Vuppala",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 233,
-    "name": "Zahier Mohamed",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 809,
-    "name": "Nathan Pillay",
-    "matches": 21,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 24
-  },
-  {
-    "maties_id": 825,
-    "name": "Alicia Verheijen",
-    "matches": 19,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 26
-  },
-  {
-    "maties_id": 479,
-    "name": "Alexander Jones",
-    "matches": 16,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 31
-  },
-  {
-    "maties_id": 936,
-    "name": "Zhibo Hui",
-    "matches": 15,
-    "deciders": 5,
-    "clutch_wins": 2,
-    "clutch_rate": 40,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 713,
-    "name": "Jordan Mackrill",
-    "matches": 39,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 545,
-    "name": "Daryl Williams",
-    "matches": 33,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 275,
-    "name": "Abdul Ismail",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 1074,
-    "name": "Qijia Jiang",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 160,
-    "name": "Keenan Holt",
-    "matches": 26,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 318,
-    "name": "Martin Bacchus",
-    "matches": 24,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 481,
-    "name": "Caleb Lawrence",
-    "matches": 24,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 934,
-    "name": "Peter Bian",
-    "matches": 23,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 26
-  },
-  {
-    "maties_id": 150,
-    "name": "Walter Dreyer",
-    "matches": 22,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 27
-  },
-  {
-    "maties_id": 671,
-    "name": "Seraaj Omar",
-    "matches": 22,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 27
-  },
-  {
-    "maties_id": 681,
-    "name": "Tashreeq Samsodien",
-    "matches": 20,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 30
-  },
-  {
-    "maties_id": 206,
-    "name": "Loyiso Singiselo",
-    "matches": 18,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 250,
-    "name": "Owais Jacobs",
-    "matches": 18,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 33
-  },
-  {
-    "maties_id": 1041,
-    "name": "Philip Haslam",
-    "matches": 16,
-    "deciders": 6,
-    "clutch_wins": 2,
-    "clutch_rate": 33,
-    "decider_pct": 38
-  },
-  {
-    "maties_id": 166,
-    "name": "Ivor Arendse",
-    "matches": 34,
-    "deciders": 7,
-    "clutch_wins": 2,
-    "clutch_rate": 29,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 387,
-    "name": "Munier Isaacs",
-    "matches": 31,
-    "deciders": 7,
-    "clutch_wins": 2,
-    "clutch_rate": 29,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 897,
-    "name": "Sam Imiehe",
-    "matches": 30,
-    "deciders": 7,
-    "clutch_wins": 2,
-    "clutch_rate": 29,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 162,
-    "name": "Munier Patel",
-    "matches": 12,
-    "deciders": 7,
-    "clutch_wins": 2,
-    "clutch_rate": 29,
-    "decider_pct": 58
   },
   {
     "maties_id": 339,
@@ -2016,148 +981,13 @@
     "decider_pct": 23
   },
   {
-    "maties_id": 419,
-    "name": "Darren Orr",
-    "matches": 49,
-    "deciders": 5,
-    "clutch_wins": 1,
-    "clutch_rate": 20,
-    "decider_pct": 10
-  },
-  {
-    "maties_id": 812,
-    "name": "Ronel Botha",
-    "matches": 40,
-    "deciders": 5,
-    "clutch_wins": 1,
-    "clutch_rate": 20,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 898,
-    "name": "Sarah Hunkin",
-    "matches": 35,
-    "deciders": 5,
-    "clutch_wins": 1,
-    "clutch_rate": 20,
-    "decider_pct": 14
-  },
-  {
-    "maties_id": 384,
-    "name": "Rafiek Tofa",
-    "matches": 33,
-    "deciders": 5,
-    "clutch_wins": 1,
-    "clutch_rate": 20,
-    "decider_pct": 15
-  },
-  {
-    "maties_id": 569,
-    "name": "Junaid Fredricks",
-    "matches": 26,
-    "deciders": 5,
-    "clutch_wins": 1,
-    "clutch_rate": 20,
-    "decider_pct": 19
-  },
-  {
-    "maties_id": 420,
-    "name": "Demos Dracoulides",
-    "matches": 34,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 1050,
-    "name": "Vernon Maney",
-    "matches": 29,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 311,
-    "name": "Brandon Orderson",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 551,
-    "name": "Pedro Fortuin",
-    "matches": 28,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 21
-  },
-  {
-    "maties_id": 1076,
-    "name": "Yu-Bia Cai",
-    "matches": 26,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 23
-  },
-  {
-    "maties_id": 1059,
-    "name": "Safie Ismael",
-    "matches": 14,
-    "deciders": 6,
-    "clutch_wins": 1,
-    "clutch_rate": 17,
-    "decider_pct": 43
-  },
-  {
-    "maties_id": 522,
-    "name": "Zakeer Moosa",
-    "matches": 28,
-    "deciders": 7,
-    "clutch_wins": 1,
-    "clutch_rate": 14,
-    "decider_pct": 25
-  },
-  {
-    "maties_id": 400,
-    "name": "Rob de Villiers",
-    "matches": 26,
-    "deciders": 7,
-    "clutch_wins": 1,
-    "clutch_rate": 14,
-    "decider_pct": 27
-  },
-  {
-    "maties_id": 1055,
-    "name": "Sheldon Mayet",
-    "matches": 24,
-    "deciders": 7,
-    "clutch_wins": 1,
-    "clutch_rate": 14,
-    "decider_pct": 29
-  },
-  {
-    "maties_id": 472,
-    "name": "Garth Greybe",
-    "matches": 23,
-    "deciders": 7,
-    "clutch_wins": 1,
-    "clutch_rate": 14,
-    "decider_pct": 30
-  },
-  {
     "maties_id": 30,
     "name": "Simon van der Merwe",
-    "matches": 26,
+    "matches": 31,
     "deciders": 8,
     "clutch_wins": 1,
     "clutch_rate": 13,
-    "decider_pct": 31
+    "decider_pct": 26
   },
   {
     "maties_id": 301,
@@ -2167,50 +997,5 @@
     "clutch_wins": 1,
     "clutch_rate": 13,
     "decider_pct": 31
-  },
-  {
-    "maties_id": 79,
-    "name": "Logan Willemse",
-    "matches": 39,
-    "deciders": 5,
-    "clutch_wins": 0,
-    "clutch_rate": 0,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 302,
-    "name": "Tiago Faria",
-    "matches": 38,
-    "deciders": 5,
-    "clutch_wins": 0,
-    "clutch_rate": 0,
-    "decider_pct": 13
-  },
-  {
-    "maties_id": 285,
-    "name": "Ashley Tsai",
-    "matches": 36,
-    "deciders": 5,
-    "clutch_wins": 0,
-    "clutch_rate": 0,
-    "decider_pct": 14
-  },
-  {
-    "maties_id": 374,
-    "name": "Yaseen Toefy",
-    "matches": 28,
-    "deciders": 5,
-    "clutch_wins": 0,
-    "clutch_rate": 0,
-    "decider_pct": 18
-  },
-  {
-    "maties_id": 399,
-    "name": "Clint Cupido",
-    "matches": 12,
-    "deciders": 5,
-    "clutch_wins": 0,
-    "clutch_rate": 0,
-    "decider_pct": 42
   }
 ]

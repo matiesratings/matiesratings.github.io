@@ -1,89 +1,5 @@
 [
   {
-    "match_id": "5605",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Nathan Pillay",
-    "loser": "Santoz Adonis",
-    "score": "3-0"
-  },
-  {
-    "match_id": "6321",
-    "match_date": "2025-08-09",
-    "event_name": "Gauteng North Open",
-    "event_type": "Tournament",
-    "category": "Boys U13",
-    "province": "Gauteng",
-    "stage": "R16",
-    "winner": "Tyrelle Kistan",
-    "loser": "Saeed Tifflin",
-    "score": "3-2"
-  },
-  {
-    "match_id": "6380",
-    "match_date": "2025-08-09",
-    "event_name": "Gauteng North Open",
-    "event_type": "Tournament",
-    "category": "Boys U19",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Ethan Martin",
-    "loser": "Leanu Lotz",
-    "score": "3-0"
-  },
-  {
-    "match_id": "7854",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Men's Singles",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Keenen Jooste",
-    "loser": "Caden Bosman",
-    "score": "3-0"
-  },
-  {
-    "match_id": "8033",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Boys U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Rupert Bester",
-    "loser": "Tinashe Dzvaka",
-    "score": "3-0"
-  },
-  {
-    "match_id": "8095",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Girls U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Refilwe Phoofolo",
-    "loser": "Carol David",
-    "score": "3-0"
-  },
-  {
-    "match_id": "8096",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Girls U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Nthabiseng Manyama",
-    "loser": "Jwame Mojuta",
-    "score": "3-0"
-  },
-  {
     "match_id": "1",
     "match_date": "2025-03-22",
     "event_name": "Maties Ratings Debut",
@@ -1248,18 +1164,6 @@
     "score": "3-0"
   },
   {
-    "match_id": "1926",
-    "match_date": "2025-04-28",
-    "event_name": "Johannesburg Open",
-    "event_type": "Tournament",
-    "category": "Boys U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Eesa Vachiat",
-    "loser": "Ewan Booyens",
-    "score": "2-1"
-  },
-  {
     "match_id": "98",
     "match_date": "2025-04-16",
     "event_name": "Cape Town League 1st Division",
@@ -1896,18 +1800,6 @@
     "score": "3-0"
   },
   {
-    "match_id": "5115",
-    "match_date": "2025-08-10",
-    "event_name": "Gauteng North Open",
-    "event_type": "Tournament",
-    "category": "Men's Singles",
-    "province": "Gauteng",
-    "stage": "R16",
-    "winner": "Liam Beukes",
-    "loser": "Marvin Job",
-    "score": "3-1"
-  },
-  {
     "match_id": "151",
     "match_date": "2025-04-02",
     "event_name": "Cape Town League 2nd Division",
@@ -2037,6 +1929,18 @@
     "stage": "Other",
     "winner": "Ronald Hutchinson",
     "loser": "Bradley Van Aswegen",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8095",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Girls U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Refilwe Phoofolo",
+    "loser": "Carol David",
     "score": "3-0"
   },
   {
@@ -3180,18 +3084,6 @@
     "score": "3-2"
   },
   {
-    "match_id": "5594",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Villyen Motaze",
-    "loser": "Cleef Bailey",
-    "score": "3-1"
-  },
-  {
     "match_id": "257",
     "match_date": "2025-04-30",
     "event_name": "Cape Town League 2nd Division",
@@ -3970,6 +3862,18 @@
     "winner": "Lester Van Der Ross",
     "loser": "Richard Fitzgibbon",
     "score": "3-2"
+  },
+  {
+    "match_id": "8096",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Girls U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Nthabiseng Manyama",
+    "loser": "Jwame Mojuta",
+    "score": "3-0"
   },
   {
     "match_id": "322",
@@ -8964,18 +8868,6 @@
     "score": "3-2"
   },
   {
-    "match_id": "5595",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Villyen Motaze",
-    "loser": "William Rafube",
-    "score": "3-1"
-  },
-  {
     "match_id": "738",
     "match_date": "2025-04-10",
     "event_name": "Cape Town League 7th Division",
@@ -11484,6 +11376,18 @@
     "score": "3-1"
   },
   {
+    "match_id": "947",
+    "match_date": "2025-03-18",
+    "event_name": "Cape Winelands Championship",
+    "event_type": "Tournament",
+    "category": "Men's Singles",
+    "province": "Western Cape",
+    "stage": "Finals",
+    "winner": "Tian Louw",
+    "loser": "Le Roux Strydom",
+    "score": "3-2"
+  },
+  {
     "match_id": "948",
     "match_date": "2025-05-06",
     "event_name": "Cape Town League 1st Division",
@@ -12153,18 +12057,6 @@
     "stage": "Other",
     "winner": "Ameen Jansen",
     "loser": "Bevan Steyn",
-    "score": "3-0"
-  },
-  {
-    "match_id": "5596",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Villyen Motaze",
-    "loser": "Lucky Madikiza",
     "score": "3-0"
   },
   {
@@ -23232,6 +23124,18 @@
     "score": "2-1"
   },
   {
+    "match_id": "1926",
+    "match_date": "2025-04-28",
+    "event_name": "Johannesburg Open",
+    "event_type": "Tournament",
+    "category": "Boys U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Eesa Vachiat",
+    "loser": "Ewan Booyens",
+    "score": "2-1"
+  },
+  {
     "match_id": "1927",
     "match_date": "2025-04-28",
     "event_name": "Johannesburg Open",
@@ -24432,6 +24336,18 @@
     "score": "2-0"
   },
   {
+    "match_id": "2027",
+    "match_date": "2025-03-18",
+    "event_name": "Cape Winelands Championship",
+    "event_type": "Tournament",
+    "category": "Men's Singles",
+    "province": "Western Cape",
+    "stage": "Groups",
+    "winner": "DJ Swanevelder",
+    "loser": "Tian Louw",
+    "score": "2-1"
+  },
+  {
     "match_id": "2028",
     "match_date": "2025-04-28",
     "event_name": "Johannesburg Open",
@@ -24610,18 +24526,6 @@
     "winner": "Boitlamo Nkele",
     "loser": "Carol David",
     "score": "3-0"
-  },
-  {
-    "match_id": "5597",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Cleef Bailey",
-    "loser": "William Rafube",
-    "score": "3-1"
   },
   {
     "match_id": "2043",
@@ -25918,18 +25822,6 @@
     "winner": "Cughan Maart",
     "loser": "Jean-Luc Bernardo",
     "score": "2-0"
-  },
-  {
-    "match_id": "5598",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Cleef Bailey",
-    "loser": "Lucky Madikiza",
-    "score": "3-1"
   },
   {
     "match_id": "2151",
@@ -29062,18 +28954,6 @@
     "winner": "Yaseen Hassam",
     "loser": "Riedewaan Hendricks",
     "score": "3-2"
-  },
-  {
-    "match_id": "5599",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "William Rafube",
-    "loser": "Lucky Madikiza",
-    "score": "3-1"
   },
   {
     "match_id": "2412",
@@ -50976,18 +50856,6 @@
     "score": "3-0"
   },
   {
-    "match_id": "5600",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Samuel Ilori",
-    "loser": "Jannie Olivier",
-    "score": "3-0"
-  },
-  {
     "match_id": "4237",
     "match_date": "2025-07-10",
     "event_name": "Cape Town League 1st Division",
@@ -53518,18 +53386,6 @@
     "winner": "Denver Sweatz",
     "loser": "Timothy Fitzgibbon",
     "score": "3-1"
-  },
-  {
-    "match_id": "5601",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Samuel Ilori",
-    "loser": "Nathan Pillay",
-    "score": "3-2"
   },
   {
     "match_id": "4468",
@@ -56700,18 +56556,6 @@
     "score": "3-1"
   },
   {
-    "match_id": "5602",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Samuel Ilori",
-    "loser": "Santoz Adonis",
-    "score": "3-0"
-  },
-  {
     "match_id": "4734",
     "match_date": "2025-06-28",
     "event_name": "Duinefontein Championships",
@@ -57321,18 +57165,6 @@
     "stage": "Groups",
     "winner": "Keanin Pekeur",
     "loser": "Damian Jeftha",
-    "score": "3-0"
-  },
-  {
-    "match_id": "5603",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Jannie Olivier",
-    "loser": "Nathan Pillay",
     "score": "3-0"
   },
   {
@@ -59940,18 +59772,6 @@
     "score": "3-0"
   },
   {
-    "match_id": "5604",
-    "match_date": "2025-06-06",
-    "event_name": "SAVETTS",
-    "event_type": "Tournament",
-    "category": "Men Vets 40+",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Jannie Olivier",
-    "loser": "Santoz Adonis",
-    "score": "3-0"
-  },
-  {
     "match_id": "5002",
     "match_date": "2025-07-19",
     "event_name": "Free State Open",
@@ -61306,6 +61126,18 @@
     "winner": "Ezile Ndywabasini",
     "loser": "Nilesh Singh",
     "score": "3-0"
+  },
+  {
+    "match_id": "5115",
+    "match_date": "2025-08-10",
+    "event_name": "Gauteng North Open",
+    "event_type": "Tournament",
+    "category": "Men's Singles",
+    "province": "Gauteng",
+    "stage": "R16",
+    "winner": "Liam Beukes",
+    "loser": "Marvin Job",
+    "score": "3-1"
   },
   {
     "match_id": "5116",
@@ -67041,6 +66873,150 @@
     "stage": "Groups",
     "winner": "Jose Da Silva",
     "loser": "Thabang Tlhakanye",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5594",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Villyen Motaze",
+    "loser": "Cleef Bailey",
+    "score": "3-1"
+  },
+  {
+    "match_id": "5595",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Villyen Motaze",
+    "loser": "William Rafube",
+    "score": "3-1"
+  },
+  {
+    "match_id": "5596",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Villyen Motaze",
+    "loser": "Lucky Madikiza",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5597",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Cleef Bailey",
+    "loser": "William Rafube",
+    "score": "3-1"
+  },
+  {
+    "match_id": "5598",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Cleef Bailey",
+    "loser": "Lucky Madikiza",
+    "score": "3-1"
+  },
+  {
+    "match_id": "5599",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "William Rafube",
+    "loser": "Lucky Madikiza",
+    "score": "3-1"
+  },
+  {
+    "match_id": "5600",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Samuel Ilori",
+    "loser": "Jannie Olivier",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5601",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Samuel Ilori",
+    "loser": "Nathan Pillay",
+    "score": "3-2"
+  },
+  {
+    "match_id": "5602",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Samuel Ilori",
+    "loser": "Santoz Adonis",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5603",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Jannie Olivier",
+    "loser": "Nathan Pillay",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5604",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Jannie Olivier",
+    "loser": "Santoz Adonis",
+    "score": "3-0"
+  },
+  {
+    "match_id": "5605",
+    "match_date": "2025-06-06",
+    "event_name": "SAVETTS",
+    "event_type": "Tournament",
+    "category": "Men Vets 40+",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Nathan Pillay",
+    "loser": "Santoz Adonis",
     "score": "3-0"
   },
   {
@@ -75564,6 +75540,18 @@
     "score": "3-1"
   },
   {
+    "match_id": "6321",
+    "match_date": "2025-08-09",
+    "event_name": "Gauteng North Open",
+    "event_type": "Tournament",
+    "category": "Boys U13",
+    "province": "Gauteng",
+    "stage": "R16",
+    "winner": "Tyrelle Kistan",
+    "loser": "Saeed Tifflin",
+    "score": "3-2"
+  },
+  {
     "match_id": "6322",
     "match_date": "2025-08-09",
     "event_name": "Gauteng North Open",
@@ -76258,6 +76246,18 @@
     "winner": "Derick de Kock",
     "loser": "Luan Kruger",
     "score": "3-2"
+  },
+  {
+    "match_id": "6380",
+    "match_date": "2025-08-09",
+    "event_name": "Gauteng North Open",
+    "event_type": "Tournament",
+    "category": "Boys U19",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Ethan Martin",
+    "loser": "Leanu Lotz",
+    "score": "3-0"
   },
   {
     "match_id": "6381",
@@ -91764,6 +91764,18 @@
     "score": "3-2"
   },
   {
+    "match_id": "7854",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Men's Singles",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Keenen Jooste",
+    "loser": "Caden Bosman",
+    "score": "3-0"
+  },
+  {
     "match_id": "7855",
     "match_date": "2026-04-04",
     "event_name": "9EightEight",
@@ -93900,6 +93912,18 @@
     "score": "3-0"
   },
   {
+    "match_id": "8033",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Boys U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Rupert Bester",
+    "loser": "Tinashe Dzvaka",
+    "score": "3-0"
+  },
+  {
     "match_id": "8034",
     "match_date": "2026-04-04",
     "event_name": "9EightEight",
@@ -95877,6 +95901,726 @@
     "stage": "Round Robin",
     "winner": "Elizabeth Knoesen",
     "loser": "Jaidyn Nel",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8201",
+    "match_date": "2026-05-02",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Dirk Coetzee",
+    "loser": "DJ Swanevelder",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8202",
+    "match_date": "2026-05-02",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "David Nwafor",
+    "loser": "Tian Louw",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8203",
+    "match_date": "2026-05-02",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Tayla Bailey",
+    "loser": "DJ Swanevelder",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8204",
+    "match_date": "2026-05-02",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Le Roux Strydom",
+    "loser": "Dirk Coetzee",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8205",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Steffan Brundyn",
+    "loser": "Tayla Bailey",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8206",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "Dirk Coetzee",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8207",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "David Nwafor",
+    "loser": "Le Roux Strydom",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8208",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "Tian Louw",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8209",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "Dirk Coetzee",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8210",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "David Nwafor",
+    "loser": "Steffan Brundyn",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8211",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "Tayla Bailey",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8212",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Tian Louw",
+    "loser": "DJ Swanevelder",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8213",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Le Roux Strydom",
+    "loser": "Tayla Bailey",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8214",
+    "match_date": "2026-05-08",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Steffan Brundyn",
+    "loser": "Dirk Coetzee",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8215",
+    "match_date": "2026-04-29",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Benjamin Bester",
+    "loser": "Gajen Chetty",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8216",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Amien Phillips",
+    "loser": "Gustav Becker",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8217",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Amien Phillips",
+    "loser": "Finn Kahn",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8218",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Gustav Becker",
+    "loser": "Finn Kahn",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8219",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "TJ Sabad",
+    "loser": "Cetin Celik",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8220",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "TJ Sabad",
+    "loser": "Simon van der Merwe",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8221",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Cetin Celik",
+    "loser": "Simon van der Merwe",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8222",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Duwayne Petersen",
+    "loser": "Gustav Becker",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8223",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Duwayne Petersen",
+    "loser": "Cetin Celik",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8224",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Gustav Becker",
+    "loser": "Cetin Celik",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8225",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Amien Phillips",
+    "loser": "Gajen Chetty",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8226",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Amien Phillips",
+    "loser": "Simon van der Merwe",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8227",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Gajen Chetty",
+    "loser": "Simon van der Merwe",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8228",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "TJ Sabad",
+    "loser": "Benjamin Bester",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8229",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "TJ Sabad",
+    "loser": "Finn Kahn",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8230",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League First Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Benjamin Bester",
+    "loser": "Finn Kahn",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8231",
+    "match_date": "2026-04-29",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Jaydon Nortje",
+    "loser": "Jaidyn Nel",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8232",
+    "match_date": "2026-04-29",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Carmen Harris",
+    "loser": "Jaydon Nortje",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8233",
+    "match_date": "2026-04-29",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Carmen Harris",
+    "loser": "Jaidyn Nel",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8234",
+    "match_date": "2026-04-29",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Juan Engelbrecht",
+    "loser": "Bevan Fortune",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8235",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Andria van Tonder",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8236",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Joshua Davids",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8237",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Davids",
+    "loser": "Andria van Tonder",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8238",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Timothy Prinsloo",
+    "loser": "Bevan Fortune",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8239",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Bevan Fortune",
+    "loser": "Jaydon Nortje",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8240",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Jaydon Nortje",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8241",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Bevan Fortune",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8242",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Timothy Prinsloo",
+    "loser": "Jaidyn Nel",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8243",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Davids",
+    "loser": "Jaidyn Nel",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8244",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Timothy Prinsloo",
+    "loser": "Joshua Davids",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8245",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Carmen Harris",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8246",
+    "match_date": "2026-05-04",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Timothy Prinsloo",
+    "loser": "Carmen Harris",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8247",
+    "match_date": "2026-05-06",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Juan Engelbrecht",
+    "loser": "Andria van Tonder",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8248",
+    "match_date": "2026-05-13",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Juan Engelbrecht",
+    "loser": "Timothy Prinsloo",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8249",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Sanmari Fourie",
+    "loser": "Bontle Wildebees",
+    "score": "3-1"
+  },
+  {
+    "match_id": "8250",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Grace Monareng",
+    "loser": "Asive Makabeni",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8251",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Asemahle Sotashe",
+    "loser": "Lisa Myburgh",
+    "score": "3-1"
+  },
+  {
+    "match_id": "8252",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Logan Willemse",
+    "loser": "Elizabeth Knoesen",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8253",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Zizipho Ntlali",
+    "loser": "Carmen Harris",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8254",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Women Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Christina Malan",
+    "loser": "Lizalise Songqenqa",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8255",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Liqhawe Pepeta",
+    "loser": "Benjamin Bester",
+    "score": "3-1"
+  },
+  {
+    "match_id": "8256",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Duwayne Petersen",
+    "loser": "Scelo Mkhetho",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8257",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Gajen Chetty",
+    "loser": "Noah Phiri",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8258",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Finn Kahn",
+    "loser": "Hopewell Ntuli",
+    "score": "3-2"
+  },
+  {
+    "match_id": "8259",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Simon van der Merwe",
+    "loser": "Asakhe Matomela",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8260",
+    "match_date": "2026-05-09",
+    "event_name": "Club Match Maties vs CPUT",
+    "event_type": "Other",
+    "category": "Men Only League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Davids",
+    "loser": "Liyabona Peter",
     "score": "3-0"
   }
 ]

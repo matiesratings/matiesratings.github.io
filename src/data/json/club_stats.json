@@ -10,7 +10,7 @@
     "pct_juniors": 6.2,
     "avg_men_rating": 1650,
     "avg_women_rating": null,
-    "avg_open_rating": 1501,
+    "avg_open_rating": 1500,
     "highest_rated_player": {
       "name": "Shane Overmeyer",
       "rating": 1650,
@@ -34,15 +34,12 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 5,
-    "total_matches": 84,
-    "total_wins": 57,
+    "total_matches": 86,
+    "total_wins": 59,
     "total_losses": 27,
-    "overall_win_pct": 67.9,
-    "avg_clutch_rate": 33.0,
-    "top_clutch_player": {
-      "name": "Jordan Mackrill",
-      "clutch_rate": 33
-    }
+    "overall_win_pct": 68.6,
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Masters",
@@ -86,10 +83,10 @@
     "total_wins": 461,
     "total_losses": 214,
     "overall_win_pct": 68.3,
-    "avg_clutch_rate": 59.7,
+    "avg_clutch_rate": 48.7,
     "top_clutch_player": {
-      "name": "Mark Williams",
-      "clutch_rate": 100
+      "name": "Larushen Padayachee",
+      "clutch_rate": 63
     }
   },
   {
@@ -134,7 +131,7 @@
     "total_wins": 188,
     "total_losses": 91,
     "overall_win_pct": 67.4,
-    "avg_clutch_rate": 56.0,
+    "avg_clutch_rate": 78.0,
     "top_clutch_player": {
       "name": "Ruan Scholtz",
       "clutch_rate": 78
@@ -154,7 +151,7 @@
     "avg_open_rating": 1386,
     "highest_rated_player": {
       "name": "Darren Rodgers",
-      "rating": 1589,
+      "rating": 1588,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -179,7 +176,7 @@
     "total_wins": 336,
     "total_losses": 192,
     "overall_win_pct": 63.6,
-    "avg_clutch_rate": 57.0,
+    "avg_clutch_rate": 52.4,
     "top_clutch_player": {
       "name": "Nashwin Pienaar",
       "clutch_rate": 90
@@ -194,12 +191,12 @@
     "pct_men": 80.6,
     "pct_women": 19.4,
     "pct_juniors": 9.7,
-    "avg_men_rating": 1371,
+    "avg_men_rating": 1373,
     "avg_women_rating": 1512,
-    "avg_open_rating": 1337,
+    "avg_open_rating": 1338,
     "highest_rated_player": {
       "name": "Shaun Jones",
-      "rating": 1624,
+      "rating": 1626,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -223,11 +220,11 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 5,
-    "total_matches": 812,
-    "total_wins": 478,
+    "total_matches": 815,
+    "total_wins": 481,
     "total_losses": 334,
-    "overall_win_pct": 58.9,
-    "avg_clutch_rate": 47.1,
+    "overall_win_pct": 59.0,
+    "avg_clutch_rate": 60.3,
     "top_clutch_player": {
       "name": "Shaun Jones",
       "clutch_rate": 100
@@ -275,10 +272,10 @@
     "total_wins": 257,
     "total_losses": 154,
     "overall_win_pct": 62.5,
-    "avg_clutch_rate": 52.0,
+    "avg_clutch_rate": 38.5,
     "top_clutch_player": {
-      "name": "Danisha Patel",
-      "clutch_rate": 86
+      "name": "Samuel Ilori",
+      "clutch_rate": 39
     }
   },
   {
@@ -292,10 +289,10 @@
     "pct_juniors": 20.8,
     "avg_men_rating": 1353,
     "avg_women_rating": 1445,
-    "avg_open_rating": 1368,
+    "avg_open_rating": 1367,
     "highest_rated_player": {
       "name": "Theo Lingeveldt",
-      "rating": 1721,
+      "rating": 1722,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -306,7 +303,7 @@
     "top100_women": 5,
     "top10_open": 1,
     "top10_men": 1,
-    "top10_women": 4,
+    "top10_women": 5,
     "top10_mo40": 0,
     "top10_mo50": 0,
     "top10_mo60": 0,
@@ -318,15 +315,15 @@
     "top10_gu15": 1,
     "top10_gu13": 1,
     "top10_gu11": 0,
-    "top10_total": 10,
-    "total_matches": 659,
-    "total_wins": 434,
-    "total_losses": 225,
-    "overall_win_pct": 65.9,
-    "avg_clutch_rate": 60.1,
+    "top10_total": 11,
+    "total_matches": 663,
+    "total_wins": 435,
+    "total_losses": 228,
+    "overall_win_pct": 65.6,
+    "avg_clutch_rate": 59.6,
     "top_clutch_player": {
-      "name": "Denver Sweatz",
-      "clutch_rate": 83
+      "name": "Matthew Lingeveldt",
+      "clutch_rate": 64
     }
   },
   {
@@ -368,7 +365,7 @@
     "total_wins": 55,
     "total_losses": 41,
     "overall_win_pct": 57.3,
-    "avg_clutch_rate": 38.5,
+    "avg_clutch_rate": 44.0,
     "top_clutch_player": {
       "name": "Starn Hui",
       "clutch_rate": 44
@@ -383,12 +380,12 @@
     "pct_men": 51.8,
     "pct_women": 48.2,
     "pct_juniors": 1.8,
-    "avg_men_rating": 1302,
+    "avg_men_rating": 1301,
     "avg_women_rating": null,
-    "avg_open_rating": 1306,
+    "avg_open_rating": 1304,
     "highest_rated_player": {
       "name": "Kirshwan Steyn",
-      "rating": 1717,
+      "rating": 1715,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -409,11 +406,11 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 2,
-    "total_matches": 547,
-    "total_wins": 252,
+    "total_matches": 549,
+    "total_wins": 254,
     "total_losses": 295,
-    "overall_win_pct": 46.1,
-    "avg_clutch_rate": 47.6,
+    "overall_win_pct": 46.3,
+    "avg_clutch_rate": 56.8,
     "top_clutch_player": {
       "name": "Kirshwan Steyn",
       "clutch_rate": 80
@@ -473,12 +470,12 @@
     "pct_men": 100.0,
     "pct_women": 0.0,
     "pct_juniors": 0.0,
-    "avg_men_rating": 1290,
+    "avg_men_rating": 1289,
     "avg_women_rating": null,
-    "avg_open_rating": 1293,
+    "avg_open_rating": 1292,
     "highest_rated_player": {
       "name": "Kevin Roodt",
-      "rating": 1372,
+      "rating": 1369,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -503,10 +500,10 @@
     "total_wins": 120,
     "total_losses": 66,
     "overall_win_pct": 64.5,
-    "avg_clutch_rate": 79.3,
+    "avg_clutch_rate": 69.0,
     "top_clutch_player": {
-      "name": "Kevin Roodt",
-      "clutch_rate": 100
+      "name": "Ethan Meyer",
+      "clutch_rate": 75
     }
   },
   {
@@ -523,7 +520,7 @@
     "avg_open_rating": 1289,
     "highest_rated_player": {
       "name": "Moeneeb Isaacs",
-      "rating": 1499,
+      "rating": 1502,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -548,10 +545,10 @@
     "total_wins": 399,
     "total_losses": 332,
     "overall_win_pct": 54.6,
-    "avg_clutch_rate": 49.2,
+    "avg_clutch_rate": 51.3,
     "top_clutch_player": {
-      "name": "Rashied Ismail",
-      "clutch_rate": 86
+      "name": "Llewellyn Bartlett",
+      "clutch_rate": 64
     }
   },
   {
@@ -568,7 +565,7 @@
     "avg_open_rating": 1265,
     "highest_rated_player": {
       "name": "Byron Abrahams",
-      "rating": 1486,
+      "rating": 1484,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -638,11 +635,8 @@
     "total_wins": 16,
     "total_losses": 39,
     "overall_win_pct": 29.1,
-    "avg_clutch_rate": 14.0,
-    "top_clutch_player": {
-      "name": "Sheldon Mayet",
-      "clutch_rate": 14
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Steenberg",
@@ -653,9 +647,9 @@
     "pct_men": 100.0,
     "pct_women": 0.0,
     "pct_juniors": 0.0,
-    "avg_men_rating": 1261,
+    "avg_men_rating": 1260,
     "avg_women_rating": null,
-    "avg_open_rating": 1263,
+    "avg_open_rating": 1262,
     "highest_rated_player": {
       "name": "Carl Adams",
       "rating": 1313,
@@ -683,10 +677,55 @@
     "total_wins": 96,
     "total_losses": 76,
     "overall_win_pct": 55.8,
-    "avg_clutch_rate": 54.0,
+    "avg_clutch_rate": 48.0,
     "top_clutch_player": {
-      "name": "Carl Adams",
-      "clutch_rate": 83
+      "name": "Benadick Mentor",
+      "clutch_rate": 56
+    }
+  },
+  {
+    "club": "Nexus",
+    "total_players": 32,
+    "men_players": 29,
+    "women_players": 3,
+    "junior_players": 0,
+    "pct_men": 90.6,
+    "pct_women": 9.4,
+    "pct_juniors": 0.0,
+    "avg_men_rating": 1258,
+    "avg_women_rating": null,
+    "avg_open_rating": 1257,
+    "highest_rated_player": {
+      "name": "Zahier Isaacs",
+      "rating": 1579,
+      "category": "Men's"
+    },
+    "highest_rated_woman": null,
+    "top100_men": 9,
+    "top100_women": 0,
+    "top10_open": 0,
+    "top10_men": 0,
+    "top10_women": 0,
+    "top10_mo40": 0,
+    "top10_mo50": 0,
+    "top10_mo60": 0,
+    "top10_bu19": 0,
+    "top10_bu15": 0,
+    "top10_bu13": 0,
+    "top10_bu11": 0,
+    "top10_gu19": 0,
+    "top10_gu15": 0,
+    "top10_gu13": 0,
+    "top10_gu11": 0,
+    "top10_total": 0,
+    "total_matches": 730,
+    "total_wins": 409,
+    "total_losses": 321,
+    "overall_win_pct": 56.0,
+    "avg_clutch_rate": 61.3,
+    "top_clutch_player": {
+      "name": "Zahier Isaacs",
+      "clutch_rate": 89
     }
   },
   {
@@ -703,7 +742,7 @@
     "avg_open_rating": 1245,
     "highest_rated_player": {
       "name": "Isgaaq Jassiem",
-      "rating": 1508,
+      "rating": 1507,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -728,55 +767,10 @@
     "total_wins": 287,
     "total_losses": 245,
     "overall_win_pct": 53.9,
-    "avg_clutch_rate": 53.0,
+    "avg_clutch_rate": 47.5,
     "top_clutch_player": {
-      "name": "Ameen Jansen",
-      "clutch_rate": 100
-    }
-  },
-  {
-    "club": "Nexus",
-    "total_players": 32,
-    "men_players": 29,
-    "women_players": 3,
-    "junior_players": 0,
-    "pct_men": 90.6,
-    "pct_women": 9.4,
-    "pct_juniors": 0.0,
-    "avg_men_rating": 1256,
-    "avg_women_rating": null,
-    "avg_open_rating": 1256,
-    "highest_rated_player": {
-      "name": "Zahier Isaacs",
-      "rating": 1581,
-      "category": "Men's"
-    },
-    "highest_rated_woman": null,
-    "top100_men": 8,
-    "top100_women": 0,
-    "top10_open": 0,
-    "top10_men": 0,
-    "top10_women": 0,
-    "top10_mo40": 0,
-    "top10_mo50": 0,
-    "top10_mo60": 0,
-    "top10_bu19": 0,
-    "top10_bu15": 0,
-    "top10_bu13": 0,
-    "top10_bu11": 0,
-    "top10_gu19": 0,
-    "top10_gu15": 0,
-    "top10_gu13": 0,
-    "top10_gu11": 0,
-    "top10_total": 0,
-    "total_matches": 722,
-    "total_wins": 401,
-    "total_losses": 321,
-    "overall_win_pct": 55.5,
-    "avg_clutch_rate": 50.7,
-    "top_clutch_player": {
-      "name": "Zahier Isaacs",
-      "clutch_rate": 89
+      "name": "Sedick Alexander",
+      "clutch_rate": 80
     }
   },
   {
@@ -821,10 +815,10 @@
     "total_wins": 224,
     "total_losses": 177,
     "overall_win_pct": 55.9,
-    "avg_clutch_rate": 57.9,
+    "avg_clutch_rate": 56.0,
     "top_clutch_player": {
-      "name": "Abdul Hay",
-      "clutch_rate": 83
+      "name": "Varshanth Ramjathan",
+      "clutch_rate": 75
     }
   },
   {
@@ -836,19 +830,19 @@
     "pct_men": 91.8,
     "pct_women": 8.2,
     "pct_juniors": 4.1,
-    "avg_men_rating": 1242,
+    "avg_men_rating": 1241,
     "avg_women_rating": 1188,
     "avg_open_rating": 1244,
     "highest_rated_player": {
       "name": "Cuten Lodewyk",
-      "rating": 1724,
+      "rating": 1723,
       "category": "Men's"
     },
     "highest_rated_woman": {
       "name": "Janine Sait",
       "rating": 1206
     },
-    "top100_men": 9,
+    "top100_men": 8,
     "top100_women": 2,
     "top10_open": 2,
     "top10_men": 2,
@@ -865,36 +859,36 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 7,
-    "total_matches": 1205,
-    "total_wins": 627,
-    "total_losses": 578,
-    "overall_win_pct": 52.0,
-    "avg_clutch_rate": 46.7,
+    "total_matches": 1210,
+    "total_wins": 628,
+    "total_losses": 582,
+    "overall_win_pct": 51.9,
+    "avg_clutch_rate": 48.5,
     "top_clutch_player": {
-      "name": "Theo Cogill",
-      "clutch_rate": 100
+      "name": "Emmanuel Uzoukwu",
+      "clutch_rate": 82
     }
   },
   {
     "club": "CPUT",
-    "total_players": 19,
-    "men_players": 11,
-    "women_players": 8,
+    "total_players": 22,
+    "men_players": 13,
+    "women_players": 9,
     "junior_players": 0,
-    "pct_men": 57.9,
-    "pct_women": 42.1,
+    "pct_men": 59.1,
+    "pct_women": 40.9,
     "pct_juniors": 0.0,
-    "avg_men_rating": 1216,
-    "avg_women_rating": 1237,
-    "avg_open_rating": 1234,
+    "avg_men_rating": 1214,
+    "avg_women_rating": 1233,
+    "avg_open_rating": 1159,
     "highest_rated_player": {
       "name": "Scelo Mkhetho",
-      "rating": 1236,
+      "rating": 1225,
       "category": "Men's"
     },
     "highest_rated_woman": {
       "name": "Zizipho Ntlali",
-      "rating": 1372
+      "rating": 1378
     },
     "top100_men": 0,
     "top100_women": 4,
@@ -913,10 +907,10 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 1,
-    "total_matches": 168,
-    "total_wins": 84,
-    "total_losses": 84,
-    "overall_win_pct": 50.0,
+    "total_matches": 179,
+    "total_wins": 87,
+    "total_losses": 92,
+    "overall_win_pct": 48.6,
     "avg_clutch_rate": 59.0,
     "top_clutch_player": {
       "name": "Scelo Mkhetho",
@@ -965,10 +959,10 @@
     "total_wins": 337,
     "total_losses": 391,
     "overall_win_pct": 46.3,
-    "avg_clutch_rate": 50.3,
+    "avg_clutch_rate": 54.5,
     "top_clutch_player": {
-      "name": "Driasin Gounden",
-      "clutch_rate": 80
+      "name": "Jonathan Wernich",
+      "clutch_rate": 67
     }
   },
   {
@@ -981,11 +975,11 @@
     "pct_women": 35.8,
     "pct_juniors": 12.6,
     "avg_men_rating": 1206,
-    "avg_women_rating": 1262,
-    "avg_open_rating": 1178,
+    "avg_women_rating": 1267,
+    "avg_open_rating": 1179,
     "highest_rated_player": {
       "name": "Keenen Jooste",
-      "rating": 1567,
+      "rating": 1565,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -1009,14 +1003,14 @@
     "top10_gu13": 1,
     "top10_gu11": 1,
     "top10_total": 8,
-    "total_matches": 1308,
-    "total_wins": 508,
+    "total_matches": 1309,
+    "total_wins": 509,
     "total_losses": 800,
-    "overall_win_pct": 38.8,
-    "avg_clutch_rate": 49.1,
+    "overall_win_pct": 38.9,
+    "avg_clutch_rate": 43.9,
     "top_clutch_player": {
-      "name": "Taylor Marais",
-      "clutch_rate": 100
+      "name": "Gaston Koetaan",
+      "clutch_rate": 78
     }
   },
   {
@@ -1033,7 +1027,7 @@
     "avg_open_rating": 1196,
     "highest_rated_player": {
       "name": "Cedric Modise",
-      "rating": 1219,
+      "rating": 1218,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -1075,10 +1069,10 @@
     "pct_juniors": 0.0,
     "avg_men_rating": 1171,
     "avg_women_rating": 1218,
-    "avg_open_rating": 1163,
+    "avg_open_rating": 1164,
     "highest_rated_player": {
       "name": "Nasr Esau",
-      "rating": 1340,
+      "rating": 1339,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -1106,11 +1100,8 @@
     "total_wins": 98,
     "total_losses": 92,
     "overall_win_pct": 51.6,
-    "avg_clutch_rate": 71.0,
-    "top_clutch_player": {
-      "name": "Marvin Makhubela",
-      "clutch_rate": 100
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Goodwood",
@@ -1126,7 +1117,7 @@
     "avg_open_rating": 1172,
     "highest_rated_player": {
       "name": "Bernard Stewe",
-      "rating": 1452,
+      "rating": 1450,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -1151,10 +1142,10 @@
     "total_wins": 262,
     "total_losses": 328,
     "overall_win_pct": 44.4,
-    "avg_clutch_rate": 46.8,
+    "avg_clutch_rate": 48.2,
     "top_clutch_player": {
-      "name": "Alex O'Ryan",
-      "clutch_rate": 83
+      "name": "Abrie Cronje",
+      "clutch_rate": 75
     }
   },
   {
@@ -1196,10 +1187,10 @@
     "total_wins": 124,
     "total_losses": 217,
     "overall_win_pct": 36.4,
-    "avg_clutch_rate": 55.1,
+    "avg_clutch_rate": 68.0,
     "top_clutch_player": {
-      "name": "Enjun Pan",
-      "clutch_rate": 80
+      "name": "Nilesh Singh",
+      "clutch_rate": 73
     }
   },
   {
@@ -1211,12 +1202,12 @@
     "pct_men": 83.3,
     "pct_women": 16.7,
     "pct_juniors": 33.3,
-    "avg_men_rating": 1160,
+    "avg_men_rating": 1158,
     "avg_women_rating": null,
-    "avg_open_rating": 1169,
+    "avg_open_rating": 1164,
     "highest_rated_player": {
       "name": "Munier Ferhelst",
-      "rating": 1334,
+      "rating": 1332,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -1256,23 +1247,23 @@
     "pct_men": 73.5,
     "pct_women": 26.5,
     "pct_juniors": 1.5,
-    "avg_men_rating": 1148,
-    "avg_women_rating": 1193,
-    "avg_open_rating": 1150,
+    "avg_men_rating": 1150,
+    "avg_women_rating": 1194,
+    "avg_open_rating": 1143,
     "highest_rated_player": {
-      "name": "Tian Louw",
-      "rating": 1399,
+      "name": "Le Roux Strydom",
+      "rating": 1398,
       "category": "Men's"
     },
     "highest_rated_woman": {
       "name": "Elizabeth Knoesen",
-      "rating": 1373
+      "rating": 1358
     },
     "top100_men": 2,
     "top100_women": 8,
     "top10_open": 0,
     "top10_men": 0,
-    "top10_women": 1,
+    "top10_women": 0,
     "top10_mo40": 0,
     "top10_mo50": 0,
     "top10_mo60": 0,
@@ -1284,12 +1275,12 @@
     "top10_gu15": 0,
     "top10_gu13": 0,
     "top10_gu11": 0,
-    "top10_total": 1,
-    "total_matches": 923,
-    "total_wins": 425,
-    "total_losses": 498,
-    "overall_win_pct": 46.0,
-    "avg_clutch_rate": 51.1,
+    "top10_total": 0,
+    "total_matches": 1008,
+    "total_wins": 463,
+    "total_losses": 545,
+    "overall_win_pct": 45.9,
+    "avg_clutch_rate": 43.9,
     "top_clutch_player": {
       "name": "Tian Louw",
       "clutch_rate": 67
@@ -1304,12 +1295,12 @@
     "pct_men": 83.3,
     "pct_women": 16.7,
     "pct_juniors": 0.0,
-    "avg_men_rating": 1135,
+    "avg_men_rating": 1137,
     "avg_women_rating": null,
-    "avg_open_rating": 1092,
+    "avg_open_rating": 1096,
     "highest_rated_player": {
       "name": "William Reizenberg",
-      "rating": 1274,
+      "rating": 1275,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -1334,11 +1325,8 @@
     "total_wins": 62,
     "total_losses": 98,
     "overall_win_pct": 38.8,
-    "avg_clutch_rate": 19.0,
-    "top_clutch_player": {
-      "name": "William Reizenberg",
-      "clutch_rate": 43
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Raiders",
@@ -1382,9 +1370,9 @@
     "total_wins": 92,
     "total_losses": 181,
     "overall_win_pct": 33.7,
-    "avg_clutch_rate": 65.0,
+    "avg_clutch_rate": 70.0,
     "top_clutch_player": {
-      "name": "Menasseh Manuel",
+      "name": "Timothy Brownley",
       "clutch_rate": 80
     }
   },
@@ -1402,7 +1390,7 @@
     "avg_open_rating": 1118,
     "highest_rated_player": {
       "name": "Liam Olsen",
-      "rating": 1192,
+      "rating": 1190,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -1427,11 +1415,8 @@
     "total_wins": 34,
     "total_losses": 73,
     "overall_win_pct": 31.8,
-    "avg_clutch_rate": 60.0,
-    "top_clutch_player": {
-      "name": "Dillan Godfrey",
-      "clutch_rate": 60
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Soweto",
@@ -1472,11 +1457,8 @@
     "total_wins": 14,
     "total_losses": 34,
     "overall_win_pct": 29.2,
-    "avg_clutch_rate": 67.0,
-    "top_clutch_player": {
-      "name": "Thabiso Marota",
-      "clutch_rate": 67
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Titans",
@@ -1516,11 +1498,8 @@
     "total_wins": 169,
     "total_losses": 145,
     "overall_win_pct": 53.8,
-    "avg_clutch_rate": 50.0,
-    "top_clutch_player": {
-      "name": "Brody Kleintjes",
-      "clutch_rate": 50
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Paarl",
@@ -1785,11 +1764,8 @@
     "total_wins": 56,
     "total_losses": 62,
     "overall_win_pct": 47.5,
-    "avg_clutch_rate": 100.0,
-    "top_clutch_player": {
-      "name": "Ronald Lawrence",
-      "clutch_rate": 100
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Grey College",
@@ -1978,11 +1954,8 @@
     "total_wins": 31,
     "total_losses": 36,
     "overall_win_pct": 46.3,
-    "avg_clutch_rate": 50.0,
-    "top_clutch_player": {
-      "name": "Anotidaishe Husvu",
-      "clutch_rate": 50
-    }
+    "avg_clutch_rate": null,
+    "top_clutch_player": null
   },
   {
     "club": "Sedibeng",
@@ -2071,7 +2044,7 @@
     "pct_juniors": 28.6,
     "avg_men_rating": null,
     "avg_women_rating": null,
-    "avg_open_rating": 1182,
+    "avg_open_rating": 1202,
     "highest_rated_player": null,
     "highest_rated_woman": null,
     "top100_men": 0,
@@ -2091,10 +2064,10 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 0,
-    "total_matches": 49,
-    "total_wins": 20,
+    "total_matches": 52,
+    "total_wins": 23,
     "total_losses": 29,
-    "overall_win_pct": 40.8,
+    "overall_win_pct": 44.2,
     "avg_clutch_rate": null,
     "top_clutch_player": null
   },
