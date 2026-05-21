@@ -314,8 +314,8 @@
           "round": 4,
           "home": "Le Roux Strydom",
           "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4
         },
         {
           "round": 4,
