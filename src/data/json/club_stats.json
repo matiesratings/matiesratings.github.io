@@ -8,12 +8,12 @@
     "pct_men": 75.0,
     "pct_women": 25.0,
     "pct_juniors": 6.2,
-    "avg_men_rating": 1650,
+    "avg_men_rating": 1668,
     "avg_women_rating": null,
-    "avg_open_rating": 1500,
+    "avg_open_rating": 1508,
     "highest_rated_player": {
       "name": "Shane Overmeyer",
-      "rating": 1650,
+      "rating": 1668,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -34,10 +34,10 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 5,
-    "total_matches": 86,
-    "total_wins": 59,
+    "total_matches": 90,
+    "total_wins": 63,
     "total_losses": 27,
-    "overall_win_pct": 68.6,
+    "overall_win_pct": 70.0,
     "avg_clutch_rate": null,
     "top_clutch_player": null
   },
@@ -191,7 +191,7 @@
     "pct_men": 80.6,
     "pct_women": 19.4,
     "pct_juniors": 9.7,
-    "avg_men_rating": 1373,
+    "avg_men_rating": 1372,
     "avg_women_rating": 1512,
     "avg_open_rating": 1338,
     "highest_rated_player": {
@@ -220,9 +220,9 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 5,
-    "total_matches": 815,
-    "total_wins": 481,
-    "total_losses": 334,
+    "total_matches": 819,
+    "total_wins": 483,
+    "total_losses": 336,
     "overall_win_pct": 59.0,
     "avg_clutch_rate": 60.3,
     "top_clutch_player": {
@@ -316,14 +316,14 @@
     "top10_gu13": 1,
     "top10_gu11": 0,
     "top10_total": 11,
-    "total_matches": 663,
-    "total_wins": 435,
-    "total_losses": 228,
-    "overall_win_pct": 65.6,
-    "avg_clutch_rate": 59.6,
+    "total_matches": 667,
+    "total_wins": 436,
+    "total_losses": 231,
+    "overall_win_pct": 65.4,
+    "avg_clutch_rate": 60.2,
     "top_clutch_player": {
-      "name": "Matthew Lingeveldt",
-      "clutch_rate": 64
+      "name": "Tayla Bailey",
+      "clutch_rate": 67
     }
   },
   {
@@ -380,12 +380,12 @@
     "pct_men": 51.8,
     "pct_women": 48.2,
     "pct_juniors": 1.8,
-    "avg_men_rating": 1301,
+    "avg_men_rating": 1304,
     "avg_women_rating": null,
-    "avg_open_rating": 1304,
+    "avg_open_rating": 1307,
     "highest_rated_player": {
       "name": "Kirshwan Steyn",
-      "rating": 1715,
+      "rating": 1725,
       "category": "Men's"
     },
     "highest_rated_woman": null,
@@ -406,10 +406,10 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 2,
-    "total_matches": 549,
-    "total_wins": 254,
-    "total_losses": 295,
-    "overall_win_pct": 46.3,
+    "total_matches": 559,
+    "total_wins": 263,
+    "total_losses": 296,
+    "overall_win_pct": 47.0,
     "avg_clutch_rate": 56.8,
     "top_clutch_player": {
       "name": "Kirshwan Steyn",
@@ -832,7 +832,7 @@
     "pct_juniors": 4.1,
     "avg_men_rating": 1241,
     "avg_women_rating": 1188,
-    "avg_open_rating": 1244,
+    "avg_open_rating": 1243,
     "highest_rated_player": {
       "name": "Cuten Lodewyk",
       "rating": 1723,
@@ -859,11 +859,11 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 7,
-    "total_matches": 1210,
+    "total_matches": 1214,
     "total_wins": 628,
-    "total_losses": 582,
-    "overall_win_pct": 51.9,
-    "avg_clutch_rate": 48.5,
+    "total_losses": 586,
+    "overall_win_pct": 51.7,
+    "avg_clutch_rate": 48.2,
     "top_clutch_player": {
       "name": "Emmanuel Uzoukwu",
       "clutch_rate": 82
@@ -1247,12 +1247,12 @@
     "pct_men": 73.5,
     "pct_women": 26.5,
     "pct_juniors": 1.5,
-    "avg_men_rating": 1150,
+    "avg_men_rating": 1149,
     "avg_women_rating": 1194,
-    "avg_open_rating": 1143,
+    "avg_open_rating": 1142,
     "highest_rated_player": {
       "name": "Le Roux Strydom",
-      "rating": 1398,
+      "rating": 1403,
       "category": "Men's"
     },
     "highest_rated_woman": {
@@ -1276,11 +1276,11 @@
     "top10_gu13": 0,
     "top10_gu11": 0,
     "top10_total": 0,
-    "total_matches": 1008,
-    "total_wins": 463,
-    "total_losses": 545,
-    "overall_win_pct": 45.9,
-    "avg_clutch_rate": 43.9,
+    "total_matches": 1028,
+    "total_wins": 470,
+    "total_losses": 558,
+    "overall_win_pct": 45.7,
+    "avg_clutch_rate": 45.1,
     "top_clutch_player": {
       "name": "Tian Louw",
       "clutch_rate": 67

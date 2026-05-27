@@ -33,6 +33,22 @@
   },
   {
     "rank": 3,
+    "maties_id": 424,
+    "name": "Kirshwan Steyn",
+    "club": "Ravens",
+    "gender": "Male",
+    "rating": 1725,
+    "win_per": 88.5,
+    "played": 87,
+    "won": 77,
+    "lost": 10,
+    "last_played": "2026-05-22",
+    "best_win": "Cuten Lodewyk (1725)",
+    "max_rating": 1734,
+    "max_rating_date": "2025-10-04"
+  },
+  {
+    "rank": 4,
     "maties_id": 264,
     "name": "Cuten Lodewyk",
     "club": "Community House",
@@ -48,7 +64,7 @@
     "max_rating_date": "2025-10-07"
   },
   {
-    "rank": 4,
+    "rank": 5,
     "maties_id": 256,
     "name": "Theo Lingeveldt",
     "club": "Boundary",
@@ -62,22 +78,6 @@
     "best_win": "Shaun Jones (1661)",
     "max_rating": 1748,
     "max_rating_date": "2026-03-07"
-  },
-  {
-    "rank": 5,
-    "maties_id": 424,
-    "name": "Kirshwan Steyn",
-    "club": "Ravens",
-    "gender": "Male",
-    "rating": 1715,
-    "win_per": 88.0,
-    "played": 83,
-    "won": 73,
-    "lost": 10,
-    "last_played": "2026-05-08",
-    "best_win": "Cuten Lodewyk (1725)",
-    "max_rating": 1734,
-    "max_rating_date": "2025-10-04"
   },
   {
     "rank": 6,
@@ -101,15 +101,15 @@
     "name": "Shane Overmeyer",
     "club": "Kuilsriver",
     "gender": "Male",
-    "rating": 1650,
-    "win_per": 92.0,
-    "played": 25,
-    "won": 23,
+    "rating": 1668,
+    "win_per": 93.1,
+    "played": 29,
+    "won": 27,
     "lost": 2,
-    "last_played": "2026-05-08",
+    "last_played": "2026-05-22",
     "best_win": "Kirshwan Steyn (1711)",
-    "max_rating": 1650,
-    "max_rating_date": "2026-05-08"
+    "max_rating": 1668,
+    "max_rating_date": "2026-05-22"
   },
   {
     "rank": 8,
@@ -433,6 +433,22 @@
   },
   {
     "rank": 28,
+    "maties_id": 6,
+    "name": "Joshua Du Plooy",
+    "club": "Ravens",
+    "gender": "Male",
+    "rating": 1487,
+    "win_per": 61.5,
+    "played": 91,
+    "won": 56,
+    "lost": 35,
+    "last_played": "2026-05-22",
+    "best_win": "Shaun Jones (1569)",
+    "max_rating": 1503,
+    "max_rating_date": "2025-08-30"
+  },
+  {
+    "rank": 29,
     "maties_id": 215,
     "name": "Byron Abrahams",
     "club": "Bishop Lavis",
@@ -448,23 +464,23 @@
     "max_rating_date": "2025-08-02"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "maties_id": 485,
     "name": "David Nwafor",
     "club": "Duinefontein",
     "gender": "Male",
-    "rating": 1476,
-    "win_per": 62.3,
-    "played": 69,
-    "won": 43,
-    "lost": 26,
-    "last_played": "2026-05-08",
+    "rating": 1473,
+    "win_per": 61.6,
+    "played": 73,
+    "won": 45,
+    "lost": 28,
+    "last_played": "2026-05-22",
     "best_win": "Moeneeb Isaacs (1510)",
     "max_rating": 1525,
     "max_rating_date": "2025-06-28"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "maties_id": 972,
     "name": "Abdul Hay",
     "club": "Waterfall",
@@ -478,22 +494,6 @@
     "best_win": "Nilesh Singh (1494)",
     "max_rating": 1506,
     "max_rating_date": "2025-10-07"
-  },
-  {
-    "rank": 31,
-    "maties_id": 6,
-    "name": "Joshua Du Plooy",
-    "club": "Ravens",
-    "gender": "Male",
-    "rating": 1467,
-    "win_per": 60.0,
-    "played": 85,
-    "won": 51,
-    "lost": 34,
-    "last_played": "2026-04-24",
-    "best_win": "Shaun Jones (1569)",
-    "max_rating": 1503,
-    "max_rating_date": "2025-08-30"
   },
   {
     "rank": 32,
@@ -721,6 +721,22 @@
   },
   {
     "rank": 46,
+    "maties_id": 4,
+    "name": "Le Roux Strydom",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1403,
+    "win_per": 62.2,
+    "played": 74,
+    "won": 46,
+    "lost": 28,
+    "last_played": "2026-05-22",
+    "best_win": "Joshua Du Plooy (1448)",
+    "max_rating": 1416,
+    "max_rating_date": "2026-05-15"
+  },
+  {
+    "rank": 47,
     "maties_id": 156,
     "name": "Henry Arends",
     "club": "MP Royals",
@@ -736,7 +752,7 @@
     "max_rating_date": "2025-08-06"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "maties_id": 522,
     "name": "Zakeer Moosa",
     "club": "Duinefontein",
@@ -752,7 +768,7 @@
     "max_rating_date": "2025-05-06"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "maties_id": 104,
     "name": "Gaston Koetaan",
     "club": "Top",
@@ -768,23 +784,7 @@
     "max_rating_date": "2025-09-10"
   },
   {
-    "rank": 49,
-    "maties_id": 4,
-    "name": "Le Roux Strydom",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 1398,
-    "win_per": 62.9,
-    "played": 70,
-    "won": 44,
-    "lost": 26,
-    "last_played": "2026-05-08",
-    "best_win": "Joshua Du Plooy (1448)",
-    "max_rating": 1402,
-    "max_rating_date": "2026-05-02"
-  },
-  {
-    "rank": 51,
+    "rank": 50,
     "maties_id": 545,
     "name": "Daryl Williams",
     "club": "Goodwood",
@@ -800,23 +800,7 @@
     "max_rating_date": "2025-08-06"
   },
   {
-    "rank": 50,
-    "maties_id": 1,
-    "name": "Tian Louw",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 1396,
-    "win_per": 62.1,
-    "played": 66,
-    "won": 41,
-    "lost": 25,
-    "last_played": "2026-05-08",
-    "best_win": "Warren Julius (1408)",
-    "max_rating": 1468,
-    "max_rating_date": "2025-06-28"
-  },
-  {
-    "rank": 52,
+    "rank": 51,
     "maties_id": 1046,
     "name": "Sipho Ndara",
     "club": "Blue Fountains",
@@ -832,7 +816,7 @@
     "max_rating_date": "2025-06-09"
   },
   {
-    "rank": 53,
+    "rank": 52,
     "maties_id": 94,
     "name": "Merlin Brown",
     "club": "Top",
@@ -848,7 +832,7 @@
     "max_rating_date": "2025-09-08"
   },
   {
-    "rank": 55,
+    "rank": 54,
     "maties_id": 1073,
     "name": "Juergen Suplit",
     "club": "Queens",
@@ -864,7 +848,7 @@
     "max_rating_date": "2025-04-14"
   },
   {
-    "rank": 54,
+    "rank": 53,
     "maties_id": 255,
     "name": "Matthew Lingeveldt",
     "club": "Boundary",
@@ -877,6 +861,22 @@
     "last_played": "2026-04-04",
     "best_win": "Ashley Wesson (1428)",
     "max_rating": 1457,
+    "max_rating_date": "2025-06-28"
+  },
+  {
+    "rank": 55,
+    "maties_id": 1,
+    "name": "Tian Louw",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1392,
+    "win_per": 61.4,
+    "played": 70,
+    "won": 43,
+    "lost": 27,
+    "last_played": "2026-05-22",
+    "best_win": "Warren Julius (1408)",
+    "max_rating": 1468,
     "max_rating_date": "2025-06-28"
   },
   {
@@ -1985,22 +1985,6 @@
   },
   {
     "rank": 125,
-    "maties_id": 2,
-    "name": "DJ Swanevelder",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 1284,
-    "win_per": 51.3,
-    "played": 80,
-    "won": 41,
-    "lost": 39,
-    "last_played": "2026-05-08",
-    "best_win": "Tian Louw (1412)",
-    "max_rating": 1334,
-    "max_rating_date": "2026-04-25"
-  },
-  {
-    "rank": 126,
     "maties_id": 807,
     "name": "Jonathan Wernich",
     "club": "Blue Fountains",
@@ -2016,7 +2000,7 @@
     "max_rating_date": "2025-06-09"
   },
   {
-    "rank": 127,
+    "rank": 126,
     "maties_id": 1042,
     "name": "Phillip Jordaan",
     "club": "Blue Fountains",
@@ -2032,7 +2016,7 @@
     "max_rating_date": "2025-03-03"
   },
   {
-    "rank": 128,
+    "rank": 127,
     "maties_id": 196,
     "name": "Lester Van Der Ross",
     "club": "Steenberg",
@@ -2048,7 +2032,7 @@
     "max_rating_date": "2025-05-15"
   },
   {
-    "rank": 129,
+    "rank": 128,
     "maties_id": 1084,
     "name": "Quinton Volkwyn",
     "club": "Raiders",
@@ -2064,7 +2048,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 130,
+    "rank": 129,
     "maties_id": 173,
     "name": "Errol Kannemeyer",
     "club": "MP Royals",
@@ -2080,7 +2064,7 @@
     "max_rating_date": "2025-06-04"
   },
   {
-    "rank": 131,
+    "rank": 130,
     "maties_id": 105,
     "name": "Rubin Willemse",
     "club": "Top",
@@ -2096,7 +2080,7 @@
     "max_rating_date": "2025-04-16"
   },
   {
-    "rank": 133,
+    "rank": 132,
     "maties_id": 405,
     "name": "William Reizenberg",
     "club": "Protea",
@@ -2112,7 +2096,7 @@
     "max_rating_date": "2025-08-28"
   },
   {
-    "rank": 132,
+    "rank": 131,
     "maties_id": 160,
     "name": "Keenan Holt",
     "club": "MP Royals",
@@ -2128,7 +2112,7 @@
     "max_rating_date": "2025-06-11"
   },
   {
-    "rank": 134,
+    "rank": 133,
     "maties_id": 974,
     "name": "Damon Beeby",
     "club": "Waterfall",
@@ -2144,7 +2128,7 @@
     "max_rating_date": "2025-03-03"
   },
   {
-    "rank": 135,
+    "rank": 134,
     "maties_id": 871,
     "name": "Samuel Ilori",
     "club": "Lenasia",
@@ -2160,7 +2144,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 136,
+    "rank": 135,
     "maties_id": 1028,
     "name": "Clinton Subban",
     "club": "Blue Fountains",
@@ -2176,7 +2160,7 @@
     "max_rating_date": "2025-06-02"
   },
   {
-    "rank": 137,
+    "rank": 136,
     "maties_id": 311,
     "name": "Brandon Orderson",
     "club": "Community House",
@@ -2190,6 +2174,22 @@
     "best_win": "Errol Kannemeyer (1264)",
     "max_rating": 1283,
     "max_rating_date": "2025-08-07"
+  },
+  {
+    "rank": 137,
+    "maties_id": 2,
+    "name": "DJ Swanevelder",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1268,
+    "win_per": 48.8,
+    "played": 84,
+    "won": 41,
+    "lost": 43,
+    "last_played": "2026-05-22",
+    "best_win": "Tian Louw (1412)",
+    "max_rating": 1334,
+    "max_rating_date": "2026-04-25"
   },
   {
     "rank": 138,
@@ -2848,39 +2848,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 179,
-    "maties_id": 286,
-    "name": "Dirk Coetzee",
-    "club": "Community House",
-    "gender": "Male",
-    "rating": 1212,
-    "win_per": 35.6,
-    "played": 73,
-    "won": 26,
-    "lost": 47,
-    "last_played": "2026-05-08",
-    "best_win": "Chris Sloster (1405)",
-    "max_rating": 1354,
-    "max_rating_date": "2025-03-18"
-  },
-  {
     "rank": 180,
-    "maties_id": 21,
-    "name": "Steffan Brundyn",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 1211,
-    "win_per": 56.6,
-    "played": 53,
-    "won": 30,
-    "lost": 23,
-    "last_played": "2026-05-08",
-    "best_win": "Craig Zimri (1261)",
-    "max_rating": 1232,
-    "max_rating_date": "2025-10-03"
-  },
-  {
-    "rank": 182,
     "maties_id": 487,
     "name": "Errol Joemath",
     "club": "Duinefontein",
@@ -2896,7 +2864,7 @@
     "max_rating_date": "2025-04-01"
   },
   {
-    "rank": 181,
+    "rank": 179,
     "maties_id": 295,
     "name": "Marc Petersen",
     "club": "Community House",
@@ -2912,7 +2880,23 @@
     "max_rating_date": "2025-04-17"
   },
   {
-    "rank": 183,
+    "rank": 182,
+    "maties_id": 1367,
+    "name": "Phenyo Tongwane",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1209,
+    "win_per": 88.2,
+    "played": 17,
+    "won": 15,
+    "lost": 2,
+    "last_played": "2026-05-18",
+    "best_win": "Gajen Chetty (1172)",
+    "max_rating": 1209,
+    "max_rating_date": "2026-05-18"
+  },
+  {
+    "rank": 181,
     "maties_id": 150,
     "name": "Walter Dreyer",
     "club": "MP Royals",
@@ -2928,7 +2912,7 @@
     "max_rating_date": "2025-07-29"
   },
   {
-    "rank": 184,
+    "rank": 183,
     "maties_id": 193,
     "name": "Benadick Mentor",
     "club": "Steenberg",
@@ -2944,7 +2928,7 @@
     "max_rating_date": "2025-05-15"
   },
   {
-    "rank": 186,
+    "rank": 185,
     "maties_id": 537,
     "name": "Alex O'Ryan",
     "club": "Goodwood",
@@ -2960,7 +2944,7 @@
     "max_rating_date": "2025-08-04"
   },
   {
-    "rank": 187,
+    "rank": 186,
     "maties_id": 563,
     "name": "Kirk Daries",
     "club": "Stephanians",
@@ -2976,7 +2960,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 185,
+    "rank": 184,
     "maties_id": 257,
     "name": "Timothy Lingeveldt",
     "club": "Boundary",
@@ -2992,7 +2976,7 @@
     "max_rating_date": "2025-08-28"
   },
   {
-    "rank": 188,
+    "rank": 187,
     "maties_id": 421,
     "name": "Ezra Msindeni",
     "club": "Ravens",
@@ -3008,7 +2992,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 190,
+    "rank": 189,
     "maties_id": 556,
     "name": "Yaseen Hassam",
     "club": "Goodwood",
@@ -3024,7 +3008,7 @@
     "max_rating_date": "2025-05-19"
   },
   {
-    "rank": 189,
+    "rank": 188,
     "maties_id": 425,
     "name": "Richard Ntamutumba",
     "club": "Ravens",
@@ -3040,7 +3024,7 @@
     "max_rating_date": "2025-04-02"
   },
   {
-    "rank": 191,
+    "rank": 190,
     "maties_id": 57,
     "name": "Liqhawe Pepeta",
     "club": "CPUT",
@@ -3056,7 +3040,7 @@
     "max_rating_date": "2025-06-28"
   },
   {
-    "rank": 192,
+    "rank": 191,
     "maties_id": 205,
     "name": "Matthew Meade",
     "club": "UWC",
@@ -3072,23 +3056,23 @@
     "max_rating_date": "2026-03-14"
   },
   {
-    "rank": 193,
-    "maties_id": 1367,
-    "name": "Phenyo Tongwane",
+    "rank": 192,
+    "maties_id": 21,
+    "name": "Steffan Brundyn",
     "club": "Maties",
     "gender": "Male",
-    "rating": 1202,
-    "win_per": 87.5,
-    "played": 16,
-    "won": 14,
-    "lost": 2,
-    "last_played": "2026-05-04",
-    "best_win": "Gajen Chetty (1172)",
-    "max_rating": 1202,
-    "max_rating_date": "2026-05-04"
+    "rating": 1201,
+    "win_per": 54.5,
+    "played": 55,
+    "won": 30,
+    "lost": 25,
+    "last_played": "2026-05-15",
+    "best_win": "Craig Zimri (1261)",
+    "max_rating": 1232,
+    "max_rating_date": "2025-10-03"
   },
   {
-    "rank": 194,
+    "rank": 193,
     "maties_id": 238,
     "name": "Latino Palmer",
     "club": "Bishop Lavis",
@@ -3104,7 +3088,7 @@
     "max_rating_date": "2025-06-10"
   },
   {
-    "rank": 195,
+    "rank": 194,
     "maties_id": 809,
     "name": "Nathan Pillay",
     "club": "Blue Fountains",
@@ -3120,7 +3104,7 @@
     "max_rating_date": "2025-03-17"
   },
   {
-    "rank": 196,
+    "rank": 195,
     "maties_id": 183,
     "name": "Ethan Meyer",
     "club": "SP Saints",
@@ -3136,7 +3120,7 @@
     "max_rating_date": "2025-05-19"
   },
   {
-    "rank": 197,
+    "rank": 196,
     "maties_id": 293,
     "name": "John Busch",
     "club": "Community House",
@@ -3152,7 +3136,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 198,
+    "rank": 197,
     "maties_id": 222,
     "name": "Thabiet Adams",
     "club": "Bishop Lavis",
@@ -3168,7 +3152,7 @@
     "max_rating_date": "2025-04-03"
   },
   {
-    "rank": 200,
+    "rank": 199,
     "maties_id": 1058,
     "name": "Mubeen Chan",
     "club": "Lenasia",
@@ -3184,7 +3168,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 199,
+    "rank": 198,
     "maties_id": 879,
     "name": "Asher Abrahams",
     "club": "Masters",
@@ -3200,7 +3184,7 @@
     "max_rating_date": "2025-09-04"
   },
   {
-    "rank": 202,
+    "rank": 201,
     "maties_id": 1030,
     "name": "Gavin Heffer",
     "club": "Blue Fountains",
@@ -3216,7 +3200,7 @@
     "max_rating_date": "2025-06-09"
   },
   {
-    "rank": 201,
+    "rank": 200,
     "maties_id": 199,
     "name": "Liam Olsen",
     "club": "UCT",
@@ -3232,7 +3216,7 @@
     "max_rating_date": "2025-12-01"
   },
   {
-    "rank": 203,
+    "rank": 202,
     "maties_id": 381,
     "name": "Martin Arnolds",
     "club": "Nexus",
@@ -3248,7 +3232,7 @@
     "max_rating_date": "2025-05-07"
   },
   {
-    "rank": 204,
+    "rank": 203,
     "maties_id": 223,
     "name": "Chesray Booysen",
     "club": "Bishop Lavis",
@@ -3278,6 +3262,22 @@
     "best_win": "Prem Vuppala (1309)",
     "max_rating": 1224,
     "max_rating_date": "2025-03-10"
+  },
+  {
+    "rank": 204,
+    "maties_id": 286,
+    "name": "Dirk Coetzee",
+    "club": "Community House",
+    "gender": "Male",
+    "rating": 1186,
+    "win_per": 33.8,
+    "played": 77,
+    "won": 26,
+    "lost": 51,
+    "last_played": "2026-05-22",
+    "best_win": "Chris Sloster (1405)",
+    "max_rating": 1354,
+    "max_rating_date": "2025-03-18"
   },
   {
     "rank": 206,
@@ -4657,22 +4657,6 @@
   },
   {
     "rank": 292,
-    "maties_id": 1359,
-    "name": "Finn Kahn",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 1031,
-    "win_per": 26.1,
-    "played": 23,
-    "won": 6,
-    "lost": 17,
-    "last_played": "2026-05-09",
-    "best_win": "Simon van der Merwe (1066)",
-    "max_rating": 1104,
-    "max_rating_date": "2026-03-14"
-  },
-  {
-    "rank": 293,
     "maties_id": 394,
     "name": "Rick Solomons",
     "club": "Nexus",
@@ -4688,7 +4672,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 294,
+    "rank": 293,
     "maties_id": 1072,
     "name": "James Carrolus",
     "club": "Queens",
@@ -4704,23 +4688,23 @@
     "max_rating_date": null
   },
   {
-    "rank": 295,
-    "maties_id": 1356,
-    "name": "Joshua Davids",
+    "rank": 294,
+    "maties_id": 30,
+    "name": "Simon van der Merwe",
     "club": "Maties",
     "gender": "Male",
-    "rating": 1027,
-    "win_per": 33.3,
-    "played": 21,
-    "won": 7,
-    "lost": 14,
-    "last_played": "2026-05-09",
-    "best_win": "Andria van Tonder (1094)",
+    "rating": 1023,
+    "win_per": 20.8,
+    "played": 24,
+    "won": 5,
+    "lost": 19,
+    "last_played": "2026-05-18",
+    "best_win": "Finn Kahn (1016)",
     "max_rating": 1100,
     "max_rating_date": null
   },
   {
-    "rank": 296,
+    "rank": 295,
     "maties_id": 63,
     "name": "Donovan Smith",
     "club": "Top",
@@ -4736,7 +4720,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 297,
+    "rank": 296,
     "maties_id": 132,
     "name": "Xavier Williams",
     "club": "Top",
@@ -4749,6 +4733,22 @@
     "last_played": "2026-03-06",
     "best_win": "Munier Patel (1176)",
     "max_rating": 1180,
+    "max_rating_date": null
+  },
+  {
+    "rank": 297,
+    "maties_id": 1356,
+    "name": "Joshua Davids",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1012,
+    "win_per": 31.8,
+    "played": 22,
+    "won": 7,
+    "lost": 15,
+    "last_played": "2026-05-18",
+    "best_win": "Andria van Tonder (1094)",
+    "max_rating": 1100,
     "max_rating_date": null
   },
   {
@@ -4769,6 +4769,22 @@
   },
   {
     "rank": 299,
+    "maties_id": 1359,
+    "name": "Finn Kahn",
+    "club": "Maties",
+    "gender": "Male",
+    "rating": 1009,
+    "win_per": 24.0,
+    "played": 25,
+    "won": 6,
+    "lost": 19,
+    "last_played": "2026-05-18",
+    "best_win": "Simon van der Merwe (1066)",
+    "max_rating": 1104,
+    "max_rating_date": "2026-03-14"
+  },
+  {
+    "rank": 300,
     "maties_id": 808,
     "name": "Keshav Singh",
     "club": "Blue Fountains",
@@ -4784,7 +4800,7 @@
     "max_rating_date": "2025-03-03"
   },
   {
-    "rank": 300,
+    "rank": 301,
     "maties_id": 248,
     "name": "Joshua Benjamin",
     "club": "Boundary",
@@ -4800,7 +4816,7 @@
     "max_rating_date": null
   },
   {
-    "rank": 301,
+    "rank": 302,
     "maties_id": 1041,
     "name": "Philip Haslam",
     "club": "Blue Fountains",
@@ -4816,7 +4832,7 @@
     "max_rating_date": "2025-03-10"
   },
   {
-    "rank": 302,
+    "rank": 303,
     "maties_id": 331,
     "name": "Atlaaf Solomons",
     "club": "DLPE",
@@ -4830,22 +4846,6 @@
     "best_win": "Asemahle Sotashe (1123)",
     "max_rating": 1145,
     "max_rating_date": "2025-04-30"
-  },
-  {
-    "rank": 303,
-    "maties_id": 30,
-    "name": "Simon van der Merwe",
-    "club": "Maties",
-    "gender": "Male",
-    "rating": 993,
-    "win_per": 13.6,
-    "played": 22,
-    "won": 3,
-    "lost": 19,
-    "last_played": "2026-05-09",
-    "best_win": "Joshua Davids (1003)",
-    "max_rating": 1100,
-    "max_rating_date": null
   },
   {
     "rank": 304,

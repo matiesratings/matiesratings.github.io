@@ -11,11 +11,11 @@
   {
     "maties_id": 485,
     "name": "David Nwafor",
-    "matches": 87,
+    "matches": 91,
     "deciders": 20,
     "clutch_wins": 15,
     "clutch_rate": 75,
-    "decider_pct": 23
+    "decider_pct": 22
   },
   {
     "maties_id": 333,
@@ -36,13 +36,22 @@
     "decider_pct": 36
   },
   {
-    "maties_id": 1,
-    "name": "Tian Louw",
-    "matches": 66,
+    "maties_id": 262,
+    "name": "Tayla Bailey",
+    "matches": 81,
     "deciders": 15,
     "clutch_wins": 10,
     "clutch_rate": 67,
-    "decider_pct": 23
+    "decider_pct": 19
+  },
+  {
+    "maties_id": 1,
+    "name": "Tian Louw",
+    "matches": 70,
+    "deciders": 15,
+    "clutch_wins": 10,
+    "clutch_rate": 67,
+    "decider_pct": 21
   },
   {
     "maties_id": 343,
@@ -90,15 +99,6 @@
     "decider_pct": 16
   },
   {
-    "maties_id": 262,
-    "name": "Tayla Bailey",
-    "matches": 77,
-    "deciders": 14,
-    "clutch_wins": 9,
-    "clutch_rate": 64,
-    "decider_pct": 18
-  },
-  {
     "maties_id": 95,
     "name": "Timothy Fitzgibbon",
     "matches": 52,
@@ -128,7 +128,7 @@
   {
     "maties_id": 424,
     "name": "Kirshwan Steyn",
-    "matches": 83,
+    "matches": 87,
     "deciders": 10,
     "clutch_wins": 8,
     "clutch_rate": 80,
@@ -173,11 +173,11 @@
   {
     "maties_id": 2,
     "name": "DJ Swanevelder",
-    "matches": 80,
+    "matches": 84,
     "deciders": 19,
     "clutch_wins": 8,
     "clutch_rate": 42,
-    "decider_pct": 24
+    "decider_pct": 23
   },
   {
     "maties_id": 51,
@@ -272,11 +272,11 @@
   {
     "maties_id": 6,
     "name": "Joshua Du Plooy",
-    "matches": 85,
+    "matches": 91,
     "deciders": 12,
     "clutch_wins": 7,
     "clutch_rate": 58,
-    "decider_pct": 14
+    "decider_pct": 13
   },
   {
     "maties_id": 422,
@@ -497,11 +497,11 @@
   {
     "maties_id": 21,
     "name": "Steffan Brundyn",
-    "matches": 53,
+    "matches": 55,
     "deciders": 10,
     "clutch_wins": 5,
     "clutch_rate": 50,
-    "decider_pct": 19
+    "decider_pct": 18
   },
   {
     "maties_id": 899,
@@ -520,15 +520,6 @@
     "clutch_wins": 5,
     "clutch_rate": 50,
     "decider_pct": 28
-  },
-  {
-    "maties_id": 286,
-    "name": "Dirk Coetzee",
-    "matches": 73,
-    "deciders": 11,
-    "clutch_wins": 5,
-    "clutch_rate": 46,
-    "decider_pct": 15
   },
   {
     "maties_id": 70,
@@ -556,6 +547,15 @@
     "clutch_wins": 5,
     "clutch_rate": 46,
     "decider_pct": 31
+  },
+  {
+    "maties_id": 286,
+    "name": "Dirk Coetzee",
+    "matches": 77,
+    "deciders": 12,
+    "clutch_wins": 5,
+    "clutch_rate": 42,
+    "decider_pct": 16
   },
   {
     "maties_id": 496,
@@ -821,11 +821,11 @@
   {
     "maties_id": 4,
     "name": "Le Roux Strydom",
-    "matches": 70,
+    "matches": 74,
     "deciders": 9,
     "clutch_wins": 3,
     "clutch_rate": 33,
-    "decider_pct": 13
+    "decider_pct": 12
   },
   {
     "maties_id": 100,
@@ -963,6 +963,15 @@
     "decider_pct": 25
   },
   {
+    "maties_id": 30,
+    "name": "Simon van der Merwe",
+    "matches": 33,
+    "deciders": 9,
+    "clutch_wins": 2,
+    "clutch_rate": 22,
+    "decider_pct": 27
+  },
+  {
     "maties_id": 331,
     "name": "Atlaaf Solomons",
     "matches": 30,
@@ -979,15 +988,6 @@
     "clutch_wins": 2,
     "clutch_rate": 20,
     "decider_pct": 23
-  },
-  {
-    "maties_id": 30,
-    "name": "Simon van der Merwe",
-    "matches": 31,
-    "deciders": 8,
-    "clutch_wins": 1,
-    "clutch_rate": 13,
-    "decider_pct": 26
   },
   {
     "maties_id": 301,

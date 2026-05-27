@@ -1932,18 +1932,6 @@
     "score": "3-0"
   },
   {
-    "match_id": "8095",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Girls U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Refilwe Phoofolo",
-    "loser": "Carol David",
-    "score": "3-0"
-  },
-  {
     "match_id": "162",
     "match_date": "2025-04-03",
     "event_name": "Cape Town League 2nd Division",
@@ -3862,18 +3850,6 @@
     "winner": "Lester Van Der Ross",
     "loser": "Richard Fitzgibbon",
     "score": "3-2"
-  },
-  {
-    "match_id": "8096",
-    "match_date": "2026-04-04",
-    "event_name": "9EightEight",
-    "event_type": "Tournament",
-    "category": "Girls U15",
-    "province": "Gauteng",
-    "stage": "Groups",
-    "winner": "Nthabiseng Manyama",
-    "loser": "Jwame Mojuta",
-    "score": "3-0"
   },
   {
     "match_id": "322",
@@ -80064,6 +80040,18 @@
     "score": "3-0"
   },
   {
+    "match_id": "8236",
+    "match_date": "2026-04-28",
+    "event_name": "Champions League Second Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Joshua Davids",
+    "score": "4-1"
+  },
+  {
     "match_id": "6702",
     "match_date": "2025-10-04",
     "event_name": "South African Championships Team Event",
@@ -94656,6 +94644,30 @@
     "score": "3-1"
   },
   {
+    "match_id": "8095",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Girls U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Refilwe Phoofolo",
+    "loser": "Carol David",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8096",
+    "match_date": "2026-04-04",
+    "event_name": "9EightEight",
+    "event_type": "Tournament",
+    "category": "Girls U15",
+    "province": "Gauteng",
+    "stage": "Groups",
+    "winner": "Nthabiseng Manyama",
+    "loser": "Jwame Mojuta",
+    "score": "3-0"
+  },
+  {
     "match_id": "8097",
     "match_date": "2026-04-04",
     "event_name": "9EightEight",
@@ -96324,18 +96336,6 @@
     "score": "4-0"
   },
   {
-    "match_id": "8236",
-    "match_date": "2026-04-28",
-    "event_name": "Champions League Second Division",
-    "event_type": "League",
-    "category": "Open League",
-    "province": "Western Cape",
-    "stage": "Other",
-    "winner": "Phenyo Tongwane",
-    "loser": "Joshua Davids",
-    "score": "4-1"
-  },
-  {
     "match_id": "8237",
     "match_date": "2026-04-28",
     "event_name": "Champions League Second Division",
@@ -96622,5 +96622,281 @@
     "winner": "Joshua Davids",
     "loser": "Liyabona Peter",
     "score": "3-0"
+  },
+  {
+    "match_id": "8261",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Du Plooy",
+    "loser": "Steffan Brundyn",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8262",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Le Roux Strydom",
+    "loser": "Tian Louw",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8263",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "Tayla Bailey",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8264",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "David Nwafor",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8265",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Tian Louw",
+    "loser": "Steffan Brundyn",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8266",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Du Plooy",
+    "loser": "DJ Swanevelder",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8267",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "David Nwafor",
+    "loser": "Dirk Coetzee",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8268",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "Joshua Du Plooy",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8269",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "DJ Swanevelder",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8270",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Tayla Bailey",
+    "loser": "Dirk Coetzee",
+    "score": "4-3"
+  },
+  {
+    "match_id": "8271",
+    "match_date": "2026-05-15",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Le Roux Strydom",
+    "loser": "DJ Swanevelder",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8272",
+    "match_date": "2026-05-18",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Du Plooy",
+    "loser": "Le Roux Strydom",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8273",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Du Plooy",
+    "loser": "Dirk Coetzee",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8274",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "Tian Louw",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8275",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "Le Roux Strydom",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8276",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "David Nwafor",
+    "loser": "Tayla Bailey",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8277",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Kirshwan Steyn",
+    "loser": "David Nwafor",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8278",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Shane Overmeyer",
+    "loser": "DJ Swanevelder",
+    "score": "4-0"
+  },
+  {
+    "match_id": "8279",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Joshua Du Plooy",
+    "loser": "Tayla Bailey",
+    "score": "4-2"
+  },
+  {
+    "match_id": "8280",
+    "match_date": "2026-05-22",
+    "event_name": "Champions League Premier Division",
+    "event_type": "League",
+    "category": "Open League",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Tian Louw",
+    "loser": "Dirk Coetzee",
+    "score": "4-1"
+  },
+  {
+    "match_id": "8281",
+    "match_date": "2026-05-18",
+    "event_name": "Maties Club Trials Challenge",
+    "event_type": "Trials",
+    "category": "Men's Singles",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Simon van der Merwe",
+    "loser": "Finn Kahn",
+    "score": "3-2"
+  },
+  {
+    "match_id": "8282",
+    "match_date": "2026-05-18",
+    "event_name": "Maties Club Trials Challenge",
+    "event_type": "Trials",
+    "category": "Men's Singles",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Phenyo Tongwane",
+    "loser": "Finn Kahn",
+    "score": "3-0"
+  },
+  {
+    "match_id": "8283",
+    "match_date": "2026-05-18",
+    "event_name": "Maties Club Trials Challenge",
+    "event_type": "Trials",
+    "category": "Men's Singles",
+    "province": "Western Cape",
+    "stage": "Other",
+    "winner": "Simon van der Merwe",
+    "loser": "Joshua Davids",
+    "score": "3-1"
   }
 ]
