@@ -2551,7 +2551,7 @@
   },
   {
     "maties_id": 432,
-    "name": "Jyante  Jacobs",
+    "name": "Jyante Jacobs",
     "club": "Ravens",
     "gender": "Male"
   },
@@ -8367,6 +8367,24 @@
     "maties_id": 1429,
     "name": "Liyabona Peter",
     "club": "CPUT",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1430,
+    "name": "Yusuf Ebrahim",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1431,
+    "name": "Lawrence Omadeli",
+    "club": "Community House",
+    "gender": "Male"
+  },
+  {
+    "maties_id": 1432,
+    "name": "Valentino Esau",
+    "club": "Mother City",
     "gender": "Male"
   }
 ]
