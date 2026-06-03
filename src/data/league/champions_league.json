@@ -412,8 +412,8 @@
           "round": 6,
           "home": "Steffan Brundyn",
           "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 6,
@@ -440,8 +440,8 @@
           "round": 6,
           "home": "Steffan Brundyn",
           "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 6,
