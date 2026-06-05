@@ -468,15 +468,15 @@
           "round": 7,
           "home": "Kirshwan Steyn",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 0
         },
         {
           "round": 7,
           "home": "David Nwafor",
           "away": "Joshua Du Plooy",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 7,
@@ -517,15 +517,15 @@
           "round": 7,
           "home": "David Nwafor",
           "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 7,
           "home": "Dirk Coetzee",
           "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 7,
