@@ -482,22 +482,22 @@
           "round": 7,
           "home": "Shane Overmeyer",
           "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         },
         {
           "round": 7,
           "home": "Tayla Bailey",
           "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4
         },
         {
           "round": 7,
           "home": "Dirk Coetzee",
           "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 3
         },
         {
           "round": 7,
@@ -531,8 +531,8 @@
           "round": 7,
           "home": "Tayla Bailey",
           "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 4
         },
         {
           "round": 8,
