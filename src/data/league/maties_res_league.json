@@ -4426,8 +4426,40 @@
           "round": 3,
           "home": "Huis ten Bosch",
           "away": "ISA",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Christelle Swanepoel",
+              "away_player": "Annabelle le Grange",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Karla Duvenhage",
+              "away_player": "Cara Meyer",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Zo\u00eb Truter",
+              "away_player": "Mari Terblanche",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Christelle Swanepoel",
+              "away_player": "Cara Meyer",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 8,
