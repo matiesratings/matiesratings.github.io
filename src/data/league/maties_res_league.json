@@ -3800,8 +3800,40 @@
           "round": 3,
           "home": "Huis ten Bosch",
           "away": "Lydia",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "Zo\u00eb Truter",
+              "away_player": "Lam\u00e8 Roux",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Talita Loftus",
+              "away_player": "Gitte Woeke",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Christelle Swanepoel",
+              "away_player": "Anika Hefer",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 0
+            },
+            {
+              "home_player": "Zo\u00eb Truter",
+              "away_player": "Gitte Woeke",
+              "home_games": 0,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 3,
