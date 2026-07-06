@@ -3630,8 +3630,40 @@
           "round": 4,
           "home": "Nemesia",
           "away": "Serruria",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "Emily de Jongh",
+              "away_player": "Laura Damster",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Klara Brand",
+              "away_player": "Marion Conradie",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Suede Dugmore",
+              "away_player": "Jumeri Beukes",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Emily de Jongh",
+              "away_player": "Marion Conradie",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 2,
@@ -3729,8 +3761,40 @@
           "round": 4,
           "home": "Huis ten Bosch",
           "away": "Heemstede",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Zia Boltman",
+              "away_player": "Karli Kennard",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Christelle Swanepoel",
+              "away_player": "Kaelyn Haffern",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Leandi Roos",
+              "away_player": "Kristen de Wet",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Zia Boltman",
+              "away_player": "Kaelyn Haffern",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 3,
@@ -3926,8 +3990,40 @@
           "round": 3,
           "home": "Erica",
           "away": "Serruria",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Rue-Lay Basson",
+              "away_player": "Brigitte Beukes",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Lee Strydom",
+              "away_player": "Myasah Al-absi",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Keren Usher",
+              "away_player": "Lilian Geekie1",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Rue-Lay Basson",
+              "away_player": "Myasah Al-absi",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 7,
@@ -4067,8 +4163,40 @@
           "round": 4,
           "home": "Nerina",
           "away": "Erica",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "Jasmine Witthuhn",
+              "away_player": "An\u00e9 Janse van Rensburg",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Danielle Lombard",
+              "away_player": "Keren Usher",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Liya Holtman",
+              "away_player": "Jordan Frosler",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Jasmine Witthuhn",
+              "away_player": "Keren Usher",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         }
       ]
     },
