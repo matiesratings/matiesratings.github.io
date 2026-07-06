@@ -4408,8 +4408,40 @@
           "round": 4,
           "home": "Monica",
           "away": "Aristea",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Christine Delport",
+              "away_player": "Mia Coetzee",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Annika Kruger",
+              "away_player": "Kea Korkie",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Chloe Rein",
+              "away_player": "Nicole Pearson",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Christine Delport",
+              "away_player": "Kea Korkie",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
