@@ -4355,8 +4355,40 @@
           "round": 3,
           "home": "Nerina",
           "away": "Monica",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Ruby Blignaut",
+              "away_player": "Emma Badenhorst",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Jasmine Witthuhn",
+              "away_player": "Jani Kotz\u00e9",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Amon\u00e9 Pienaar",
+              "away_player": "Marli Lombard",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Ruby Blignaut",
+              "away_player": "Jani Kotz\u00e9",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 3,
@@ -4729,8 +4761,40 @@
           "round": 4,
           "home": "Metanoia",
           "away": "Nerina",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Feur Boegman",
+              "away_player": "Jenna Kriese",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Wafa Rizvi",
+              "away_player": "Sarah Haveman",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Sanelisiwe Zulu",
+              "away_player": "Sharni van der Westhuizen",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Feur Boegman",
+              "away_player": "Sarah Haveman",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         }
       ]
     }
