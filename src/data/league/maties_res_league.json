@@ -2919,9 +2919,7 @@
       "teams": [
         {
           "name": "Minerva",
-          "players": [
-            "Jenna de Beer"
-          ]
+          "players": []
         },
         {
           "name": "Sonop",
@@ -3049,8 +3047,40 @@
           "round": 3,
           "home": "Sonop",
           "away": "Minerva",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Nicola Mackridge",
+              "away_player": "Chanelle Kotze",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Janelle Lombard",
+              "away_player": "Jenna Victor",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Carike Marais",
+              "away_player": "Abi Amner",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Nicola Mackridge",
+              "away_player": "Jenna Victor",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 6,
