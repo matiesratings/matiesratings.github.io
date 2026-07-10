@@ -4038,8 +4038,40 @@
           "round": 3,
           "home": "Sonop",
           "away": "Nerina",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Lize Thomas",
+              "away_player": "Christelle van der Spuy",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Janelle Lombard",
+              "away_player": "Renate Mar\u00e9",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Nicola Mackridge",
+              "away_player": "Danielle Lombard",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Lize Thomas",
+              "away_player": "Renate Mar\u00e9",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 7,
