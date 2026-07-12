@@ -4761,8 +4761,40 @@
           "round": 4,
           "home": "Huis ten Bosch",
           "away": "Harmonie",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Maia Leonard",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Lisa Thomas",
+              "away_player": "Luche Lourens",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "L\u2019chelle Bester",
+              "away_player": "Annelet Jordaan",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "L\u2019chelle Bester / Inga Rall",
+              "away_player": "Annelet Jordaan / Anessa Barnard",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Luche Lourens",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 7,
