@@ -1529,8 +1529,8 @@
           "round": 5,
           "home": "Andria van Tonder",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 3,
           "umpire": "Juan Engelbrecht"
         },
@@ -1565,8 +1565,8 @@
           "round": 6,
           "home": "Jaydon Nortje",
           "away": "Joshua Davids",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 2,
           "umpire": "Juan Engelbrecht"
         },
