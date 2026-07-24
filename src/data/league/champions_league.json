@@ -1059,8 +1059,8 @@
           "round": 6,
           "home": "Gustav Becker",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 3,
           "umpire": "Gajen Chetty"
         },
@@ -1077,8 +1077,8 @@
           "round": 6,
           "home": "Gustav Becker",
           "away": "Gajen Chetty",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 3,
           "umpire": "TJ Sabad"
         },
@@ -1095,8 +1095,8 @@
           "round": 6,
           "home": "Gajen Chetty",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Gustav Becker"
         },
