@@ -960,8 +960,8 @@
           "round": 6,
           "home": "Duwayne Petersen",
           "away": "Simon van der Merwe",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 2,
           "umpire": "Finn Kahn"
         },
@@ -1230,8 +1230,8 @@
           "round": 6,
           "home": "Simon van der Merwe",
           "away": "Finn Kahn",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 2,
           "umpire": "Duwayne Petersen"
         },
@@ -1338,8 +1338,8 @@
           "round": 6,
           "home": "Duwayne Petersen",
           "away": "Finn Kahn",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 2,
           "group": 2,
           "umpire": "Simon van der Merwe"
         },
