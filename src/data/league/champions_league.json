@@ -852,8 +852,8 @@
           "round": 6,
           "home": "Amien Phillips",
           "away": "Benjamin Bester",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 2,
           "group": 1,
           "umpire": "Cetin Celik"
         },
@@ -933,8 +933,8 @@
           "round": 6,
           "home": "Cetin Celik",
           "away": "Benjamin Bester",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 1,
           "umpire": "Amien Phillips"
         },
@@ -951,8 +951,8 @@
           "round": 6,
           "home": "Cetin Celik",
           "away": "Amien Phillips",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 1,
           "umpire": "Benjamin Bester"
         },
