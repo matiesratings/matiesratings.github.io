@@ -735,8 +735,8 @@
           "round": 7,
           "home": "Amien Phillips",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 3,
           "umpire": "Duwayne Petersen"
         },
@@ -1176,8 +1176,8 @@
           "round": 7,
           "home": "Duwayne Petersen",
           "away": "Amien Phillips",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "TJ Sabad"
         },
@@ -1221,8 +1221,8 @@
           "round": 7,
           "home": "Duwayne Petersen",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Amien Phillips"
         },
