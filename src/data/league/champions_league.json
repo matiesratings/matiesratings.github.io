@@ -559,8 +559,8 @@
           "round": 8,
           "home": "David Nwafor",
           "away": "DJ Swanevelder",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 2
         },
         {
           "round": 8,
@@ -601,8 +601,8 @@
           "round": 8,
           "home": "David Nwafor",
           "away": "Le Roux Strydom",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         },
         {
           "round": 9,
