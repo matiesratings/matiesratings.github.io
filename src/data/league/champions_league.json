@@ -717,8 +717,8 @@
           "round": 8,
           "home": "Duwayne Petersen",
           "away": "Benjamin Bester",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 2,
+          "away_score": 4,
           "group": 1,
           "umpire": "Gajen Chetty"
         },
@@ -726,8 +726,8 @@
           "round": 8,
           "home": "Gajen Chetty",
           "away": "Benjamin Bester",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 1,
           "umpire": "Duwayne Petersen"
         },
@@ -807,8 +807,8 @@
           "round": 8,
           "home": "Duwayne Petersen",
           "away": "Gajen Chetty",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 1,
           "umpire": "Benjamin Bester"
         },
