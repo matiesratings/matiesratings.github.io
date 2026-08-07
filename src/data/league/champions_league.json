@@ -1700,8 +1700,8 @@
           "round": 8,
           "home": "Juan Engelbrecht",
           "away": "Bevan Fortune",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 1,
           "umpire": "Timothy Prinsloo"
         },
@@ -1844,8 +1844,8 @@
           "round": 5,
           "home": "Bevan Fortune",
           "away": "Phenyo Tongwane",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 2,
           "umpire": "Riley Brown"
         },
