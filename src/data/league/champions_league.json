@@ -538,8 +538,8 @@
           "round": 8,
           "home": "Kirshwan Steyn",
           "away": "Shane Overmeyer",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 4
         },
         {
           "round": 8,
@@ -573,8 +573,8 @@
           "round": 8,
           "home": "Tian Louw",
           "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 4
         },
         {
           "round": 8,
