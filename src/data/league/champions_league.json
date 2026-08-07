@@ -545,8 +545,8 @@
           "round": 8,
           "home": "Joshua Du Plooy",
           "away": "Tian Louw",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 4
         },
         {
           "round": 8,
@@ -643,8 +643,8 @@
           "round": 9,
           "home": "DJ Swanevelder",
           "away": "Kirshwan Steyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 4
         },
         {
           "round": 9,
@@ -671,8 +671,8 @@
           "round": 9,
           "home": "Joshua Du Plooy",
           "away": "Steffan Brundyn",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1
         }
       ],
       "inter_divisional_date": "2026-08-01",
