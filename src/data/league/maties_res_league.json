@@ -3918,8 +3918,40 @@
           "round": 6,
           "home": "Nerina",
           "away": "Nemesia",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "In\u00fchn Fourie",
+              "away_player": "Danae Marie van Eck",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Nika Potgieter",
+              "away_player": "Inge Lambrechts",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Sunette Willemse",
+              "away_player": "Inge Lambrechts",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "In\u00fchn Fourie",
+              "away_player": "Inge Lambrechts",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 2,
@@ -4088,8 +4120,40 @@
           "round": 6,
           "home": "Sonop",
           "away": "Monica",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Miencke Joubert",
+              "away_player": "Helen Alston",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Kiara Whiteboy",
+              "away_player": "Elizabeth Knoesen",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Anke Gildenhuys",
+              "away_player": "Nicole Usher",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Miencke Joubert",
+              "away_player": "Elizabeth Knoesen",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
@@ -4456,8 +4520,40 @@
           "round": 6,
           "home": "Huis ten Bosch",
           "away": "Heemstede 1",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Nisha Norval",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Inga Rall",
+              "away_player": "Kara Bestbier",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Anouk de Jongh",
+              "away_player": "Amore Frazao",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Kara Bestbier",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         }
       ]
     },
