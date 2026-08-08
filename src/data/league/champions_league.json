@@ -771,8 +771,8 @@
           "round": 7,
           "home": "Gajen Chetty",
           "away": "Finn Kahn",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 1,
           "group": 2,
           "umpire": "Cetin Celik"
         },
@@ -1050,8 +1050,8 @@
           "round": 7,
           "home": "Cetin Celik",
           "away": "Gajen Chetty",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 2,
           "umpire": "Finn Kahn"
         },
