@@ -798,8 +798,8 @@
           "round": 8,
           "home": "Cetin Celik",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 1,
+          "away_score": 4,
           "group": 3,
           "umpire": "Simon van der Merwe"
         },
@@ -879,8 +879,8 @@
           "round": 8,
           "home": "Cetin Celik",
           "away": "Simon van der Merwe",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 3,
+          "away_score": 4,
           "group": 3,
           "umpire": "TJ Sabad"
         },
@@ -978,8 +978,8 @@
           "round": 8,
           "home": "Gustav Becker",
           "away": "Amien Phillips",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 3,
           "group": 2,
           "umpire": "Finn Kahn"
         },
@@ -1104,8 +1104,8 @@
           "round": 8,
           "home": "Gustav Becker",
           "away": "Finn Kahn",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 2,
           "umpire": "Amien Phillips"
         },
@@ -1167,8 +1167,8 @@
           "round": 8,
           "home": "Amien Phillips",
           "away": "Finn Kahn",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 2,
           "umpire": "Gustav Becker"
         },
@@ -1356,8 +1356,8 @@
           "round": 8,
           "home": "Simon van der Merwe",
           "away": "TJ Sabad",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Cetin Celik"
         }
