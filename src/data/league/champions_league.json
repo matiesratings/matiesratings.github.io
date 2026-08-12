@@ -1412,8 +1412,8 @@
           "round": 7,
           "home": "Juan Engelbrecht",
           "away": "Jaidyn Nel",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 4,
+          "away_score": 0,
           "group": 3,
           "umpire": "Phenyo Tongwane"
         },
@@ -1745,8 +1745,8 @@
           "round": 5,
           "home": "Juan Engelbrecht",
           "away": "Carmen Harris",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Andria van Tonder"
         },
@@ -1826,8 +1826,8 @@
           "round": 6,
           "home": "Andria van Tonder",
           "away": "Bevan Fortune",
-          "home_score": null,
-          "away_score": null,
+          "home_score": 0,
+          "away_score": 4,
           "group": 3,
           "umpire": "Jaidyn Nel"
         },
