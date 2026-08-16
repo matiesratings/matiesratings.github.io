@@ -159,8 +159,40 @@
           "round": 6,
           "home": "Eendrag",
           "away": "Dagbreek",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
@@ -545,8 +577,40 @@
           "round": 6,
           "home": "Simonsberg",
           "away": "Huis Marais",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 2,
@@ -1033,8 +1097,40 @@
           "round": 7,
           "home": "Metanoia",
           "away": "Wilgenhof",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Pieter Louw",
+              "away_player": "Adithya Maharaj",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "Luizin Hollman",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "Marius Burger",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Pieter Louw",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 3,
@@ -1242,8 +1338,40 @@
           "round": 6,
           "home": "Huis Marais",
           "away": "Majuba",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Christoff van der Merwe",
+              "away_player": "Benjamin Bester",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Simeon Wolfaardt",
+              "away_player": "Jacobus Smuts",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "Bradley Nel",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Christoff van der Merwe",
+              "away_player": "Jacobus Smuts",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
@@ -1419,15 +1547,79 @@
           "round": 7,
           "home": "Huis Visser",
           "away": "Helshoogte",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Joshua Lubbe",
+              "away_player": "Stefan Prinsloo",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Alec van Tonder",
+              "away_player": "Samuel van der Walt",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Philip Malherbe",
+              "away_player": "Franco Alexander Jordaan",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Joshua Lubbe",
+              "away_player": "Samuel van der Walt",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 7,
           "home": "Majuba",
           "away": "Eendrag",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "Benjamin Bester",
+              "away_player": "Ia Pansegrouw",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Jacobus Smuts",
+              "away_player": "Zander Sephton",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Bradley Nel",
+              "away_player": "Matteo Tramontano",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Benjamin Bester",
+              "away_player": "Zander Sephton",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 1,
@@ -1759,8 +1951,40 @@
           "round": 7,
           "home": "Oude Molen",
           "away": "Simonsberg",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 3,
@@ -1971,8 +2195,40 @@
           "round": 7,
           "home": "Dagbreek",
           "away": "Huis Marais",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 9,
@@ -2119,8 +2375,40 @@
           "round": 7,
           "home": "Eendrag",
           "away": "Pieke",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 6,
@@ -3142,8 +3430,40 @@
           "round": 6,
           "home": "Majuba",
           "away": "Eendrag 2",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Eric van Schalkwyk",
+              "away_player": "Dries Ferreira",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Herman Roux",
+              "away_player": "Beldon Kahn",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Vaughn Else",
+              "away_player": "Luca Coculescu",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Eric van Schalkwyk",
+              "away_player": "Beldon Kahn",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
@@ -3188,15 +3508,79 @@
           "round": 7,
           "home": "Eendrag 1",
           "away": "Huis Visser",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Francois Dercksen",
+              "away_player": "Matthew Mouton",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Siegfried Mar\u00e9",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Phenyo Tongwane",
+              "away_player": "Konrad Andrag",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Francois Dercksen",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 7,
           "home": "Eendrag 2",
           "away": "Helshoogte",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Dries Ferreira",
+              "away_player": "Matthew Duk",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Beldon Kahn",
+              "away_player": "Tristen Jacobs",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Luca Coculescu",
+              "away_player": "Benjamin Love",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Dries Ferreira",
+              "away_player": "Tristen Jacobs",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 4,
@@ -3627,8 +4011,40 @@
           "round": 7,
           "home": "Dragons",
           "away": "Majuba",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 1,
@@ -3879,26 +4295,26 @@
           "round": 3,
           "home": "Sonop",
           "away": "Minerva",
-          "home_score": 4,
-          "away_score": 1,
+          "home_score": 5,
+          "away_score": 0,
           "matches": [
             {
-              "home_player": "Nicola Mackridge",
-              "away_player": "Chanelle Kotze",
+              "home_player": "Kiara Whiteboy",
+              "away_player": "Kristi de Jager",
               "home_games": 3,
               "away_games": 0
             },
             {
-              "home_player": "Janelle Lombard",
-              "away_player": "Jenna Victor",
-              "home_games": 3,
-              "away_games": 2
-            },
-            {
-              "home_player": "Carike Marais",
-              "away_player": "Abi Amner",
+              "home_player": "Anke Rossouw",
+              "away_player": "Anli Engelbrecht",
               "home_games": 3,
               "away_games": 1
+            },
+            {
+              "home_player": "Miencke Joubert",
+              "away_player": "Marise du Toit",
+              "home_games": 3,
+              "away_games": 0
             },
             {
               "home_player": "",
@@ -3907,10 +4323,10 @@
               "away_games": 0
             },
             {
-              "home_player": "Nicola Mackridge",
-              "away_player": "Jenna Victor",
-              "home_games": 1,
-              "away_games": 3
+              "home_player": "Kiara Whiteboy",
+              "away_player": "Anli Engelbrecht",
+              "home_games": 3,
+              "away_games": 2
             }
           ]
         },
@@ -4297,15 +4713,79 @@
           "round": 7,
           "home": "Huis ten Bosch",
           "away": "Sonop",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Anke Gildenhuys",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Inga Rall",
+              "away_player": "Julia Potgieter",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Tara Uys",
+              "away_player": "Ella Klopper",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Jessica Lavies",
+              "away_player": "Julia Potgieter",
+              "home_games": 2,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 7,
           "home": "Heemstede 1",
           "away": "Heemstede 2",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Amy Fr\u00f6hlich",
+              "away_player": "Maria Inggs",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Amore Frazao",
+              "away_player": "Paige Lessing",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Yvonne de Villiers",
+              "away_player": "Nika Viviers",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Amy Fr\u00f6hlich",
+              "away_player": "Paige Lessing",
+              "home_games": 3,
+              "away_games": 2
+            }
+          ]
         },
         {
           "round": 2,
