@@ -1090,8 +1090,40 @@
           "round": 8,
           "home": "Oude Molen",
           "away": "Metanoia",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 7,
@@ -1455,8 +1487,40 @@
           "round": 8,
           "home": "Simonsberg",
           "away": "Majuba",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "Benjamin Bester",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "Jacobus Smuts",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "Bradley Nel",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "Jacobus Smuts",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 6,
@@ -1997,8 +2061,40 @@
           "round": 8,
           "home": "Wilgenhof",
           "away": "Huis Visser",
-          "home_score": null,
-          "away_score": null
+          "home_score": 1,
+          "away_score": 4,
+          "matches": [
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
@@ -5113,8 +5209,40 @@
           "round": 9,
           "home": "Erica",
           "away": "Heemstede",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Keren Usher",
+              "away_player": "Chloe Kahts",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Jordan Frosler",
+              "away_player": "Jose-Phine von Solms",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "An\u00e9 Janse van Rensburg",
+              "away_player": "Kristen de Wet",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Keren Usher",
+              "away_player": "Jose-Phine von Solms",
+              "home_games": 3,
+              "away_games": 0
+            }
+          ]
         },
         {
           "round": 7,
@@ -5198,8 +5326,40 @@
           "round": 9,
           "home": "Nemesia",
           "away": "Nerina",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Molly Pegg",
+              "away_player": "Alette Stofberg",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Lin\u00e9 van Rensburg",
+              "away_player": "Liya Holtman",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Stephanie Henning",
+              "away_player": "Chenike Rossouw",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Molly Pegg",
+              "away_player": "Liya Holtman",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 4,
@@ -5590,7 +5750,7 @@
             },
             {
               "home_player": "An\u00e9 Janse van Rensburg",
-              "away_player": "",
+              "away_player": "Mieke Coetzee",
               "home_games": 0,
               "away_games": 0
             },
