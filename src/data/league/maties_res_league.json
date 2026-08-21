@@ -7038,8 +7038,40 @@
           "round": 7,
           "home": "Nemesia",
           "away": "Nerina",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Stephanie Henning",
+              "away_player": "Amon\u00e9 Pienaar",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Sonia Bhagwandas",
+              "away_player": "Gracelyne Brown",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Leila Lonte",
+              "away_player": "Sharni van der Westhuizen",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Stephanie Henning",
+              "away_player": "Gracelyne Brown",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 4,
@@ -7066,8 +7098,40 @@
           "round": 7,
           "home": "Aristea",
           "away": "ISA",
-          "home_score": null,
-          "away_score": null
+          "home_score": 5,
+          "away_score": 0,
+          "matches": [
+            {
+              "home_player": "Kea Korkie",
+              "away_player": "Mari Terblanche",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "Zan\u00e9 Mostert",
+              "away_player": "Il\u00e9 Viljoen",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Tanya McNamara",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Kea Korkie",
+              "away_player": "Il\u00e9 Viljoen",
+              "home_games": 3,
+              "away_games": 1
+            }
+          ]
         },
         {
           "round": 6,
@@ -7126,8 +7190,40 @@
           "round": 7,
           "home": "Metanoia",
           "away": "Huis ten Bosch",
-          "home_score": null,
-          "away_score": null
+          "home_score": 4,
+          "away_score": 1,
+          "matches": [
+            {
+              "home_player": "Sone Nel",
+              "away_player": "Jamie-Lee Daries",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Feur Boegman",
+              "away_player": "Talita Loftus",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Sanelisiwe Zulu",
+              "away_player": "Christelle Swanepoel",
+              "home_games": 3,
+              "away_games": 2
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "Sone Nel",
+              "away_player": "Talita Loftus",
+              "home_games": 1,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 8,
