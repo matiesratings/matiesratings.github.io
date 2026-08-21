@@ -83,10 +83,10 @@
     "total_wins": 500,
     "total_losses": 231,
     "overall_win_pct": 68.4,
-    "avg_clutch_rate": 48.7,
+    "avg_clutch_rate": 54.2,
     "top_clutch_player": {
-      "name": "Larushen Padayachee",
-      "clutch_rate": 63
+      "name": "Liam Beukes",
+      "clutch_rate": 75
     }
   },
   {
@@ -131,10 +131,10 @@
     "total_wins": 230,
     "total_losses": 114,
     "overall_win_pct": 66.9,
-    "avg_clutch_rate": 78.0,
+    "avg_clutch_rate": 71.5,
     "top_clutch_player": {
       "name": "Ruan Scholtz",
-      "clutch_rate": 78
+      "clutch_rate": 80
     }
   },
   {
@@ -224,10 +224,10 @@
     "total_wins": 350,
     "total_losses": 198,
     "overall_win_pct": 63.9,
-    "avg_clutch_rate": 52.4,
+    "avg_clutch_rate": 50.4,
     "top_clutch_player": {
       "name": "Nashwin Pienaar",
-      "clutch_rate": 90
+      "clutch_rate": 86
     }
   },
   {
@@ -272,7 +272,7 @@
     "total_wins": 548,
     "total_losses": 361,
     "overall_win_pct": 60.3,
-    "avg_clutch_rate": 60.3,
+    "avg_clutch_rate": 62.0,
     "top_clutch_player": {
       "name": "Shaun Jones",
       "clutch_rate": 100
@@ -320,10 +320,10 @@
     "total_wins": 483,
     "total_losses": 246,
     "overall_win_pct": 66.3,
-    "avg_clutch_rate": 60.2,
+    "avg_clutch_rate": 59.4,
     "top_clutch_player": {
       "name": "Tayla Bailey",
-      "clutch_rate": 67
+      "clutch_rate": 65
     }
   },
   {
@@ -725,7 +725,7 @@
     "total_wins": 426,
     "total_losses": 338,
     "overall_win_pct": 55.8,
-    "avg_clutch_rate": 58.8,
+    "avg_clutch_rate": 57.5,
     "top_clutch_player": {
       "name": "Zahier Isaacs",
       "clutch_rate": 80
@@ -953,7 +953,7 @@
     "total_wins": 667,
     "total_losses": 604,
     "overall_win_pct": 52.5,
-    "avg_clutch_rate": 48.5,
+    "avg_clutch_rate": 49.0,
     "top_clutch_player": {
       "name": "Emmanuel Uzoukwu",
       "clutch_rate": 82
@@ -1046,7 +1046,7 @@
     "total_wins": 567,
     "total_losses": 841,
     "overall_win_pct": 40.3,
-    "avg_clutch_rate": 44.0,
+    "avg_clutch_rate": 45.8,
     "top_clutch_player": {
       "name": "Gaston Koetaan",
       "clutch_rate": 78
@@ -1226,7 +1226,7 @@
     "total_wins": 539,
     "total_losses": 632,
     "overall_win_pct": 46.0,
-    "avg_clutch_rate": 45.6,
+    "avg_clutch_rate": 49.8,
     "top_clutch_player": {
       "name": "Tian Louw",
       "clutch_rate": 72
@@ -1852,7 +1852,7 @@
     "total_wins": 106,
     "total_losses": 191,
     "overall_win_pct": 35.7,
-    "avg_clutch_rate": 70.0,
+    "avg_clutch_rate": 67.5,
     "top_clutch_player": {
       "name": "Timothy Brownley",
       "clutch_rate": 80
