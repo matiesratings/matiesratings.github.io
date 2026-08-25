@@ -6327,8 +6327,40 @@
           "round": 9,
           "home": "Lydia",
           "away": "Sonop",
-          "home_score": null,
-          "away_score": null
+          "home_score": 0,
+          "away_score": 5,
+          "matches": [
+            {
+              "home_player": "Gitte Woeke",
+              "away_player": "Cara Mae Kilian",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Anika Meissenheimer",
+              "away_player": "Kiara Whiteboy",
+              "home_games": 1,
+              "away_games": 3
+            },
+            {
+              "home_player": "Hannah Murphy",
+              "away_player": "Grethe Marren",
+              "home_games": 2,
+              "away_games": 3
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Gitte Woeke",
+              "away_player": "Kiara Whiteboy",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 9,
