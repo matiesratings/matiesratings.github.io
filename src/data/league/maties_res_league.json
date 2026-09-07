@@ -5931,8 +5931,40 @@
           "round": 8,
           "home": "Sonop",
           "away": "Nemesia",
-          "home_score": null,
-          "away_score": null
+          "home_score": 2,
+          "away_score": 3,
+          "matches": [
+            {
+              "home_player": "Grethe Marren",
+              "away_player": "",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Carike Marais",
+              "away_player": "Neena Lonte",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Ella Klopper",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 1
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Grethe Marren",
+              "away_player": "Neena Lonte",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 2,
