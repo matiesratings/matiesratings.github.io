@@ -7695,8 +7695,40 @@
           "round": 7,
           "home": "Nemesia",
           "away": "Heemstede",
-          "home_score": null,
-          "away_score": null
+          "home_score": 3,
+          "away_score": 2,
+          "matches": [
+            {
+              "home_player": "Suede Dugmore",
+              "away_player": "Kristen de Wet",
+              "home_games": 0,
+              "away_games": 3
+            },
+            {
+              "home_player": "Rene Naude",
+              "away_player": "Chloe Kahts",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Mia Schulz",
+              "away_player": "Isabella Benjamin",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "",
+              "away_player": "",
+              "home_games": 3,
+              "away_games": 0
+            },
+            {
+              "home_player": "Suede Dugmore",
+              "away_player": "Chloe Kahts",
+              "home_games": 0,
+              "away_games": 3
+            }
+          ]
         },
         {
           "round": 9,
