@@ -104,12 +104,12 @@ function computePlayerStandings(schedule, teams) {
     for (const team of teams) {
         teamMap[team.name] = team;
         for (const p of team.players || []) {
-            stats[team.name + "|" + p] = { name: p, team: team.name, played: 0, won: 0, lost: 0 };
+            stats[team.name + "|" + p] = { name: p, team: team.name, played: 0, won: 0, lost: 0, gf: 0, ga: 0 };
         }
     }
     const ensure = (teamName, playerName) => {
         const k = teamName + "|" + playerName;
-        if (!stats[k]) stats[k] = { name: playerName, team: teamName, played: 0, won: 0, lost: 0 };
+        if (!stats[k]) stats[k] = { name: playerName, team: teamName, played: 0, won: 0, lost: 0, gf: 0, ga: 0 };
         return k;
     };
     let fi = 0;
@@ -124,6 +124,8 @@ function computePlayerStandings(schedule, teams) {
                     const hk = ensure(m.home, im.home_player);
                     const ak = ensure(m.away, im.away_player);
                     stats[hk].played++; stats[ak].played++;
+                    stats[hk].gf += im.home_games || 0; stats[hk].ga += im.away_games || 0;
+                    stats[ak].gf += im.away_games || 0; stats[ak].ga += im.home_games || 0;
                     if ((im.home_games || 0) > (im.away_games || 0)) { stats[hk].won++; stats[ak].lost++; }
                     else if ((im.away_games || 0) > (im.home_games || 0)) { stats[ak].won++; stats[hk].lost++; }
                 }
@@ -144,13 +146,11 @@ function computePlayerStandings(schedule, teams) {
         }
     }
     return Object.values(stats).sort((a, b) => {
-        // Players with matches first, then by win%, then by name
-        if (a.played !== b.played && (a.played === 0 || b.played === 0)) return b.played - a.played;
-        if (a.played > 0 && b.played > 0) {
-            const ap = a.won / a.played, bp = b.won / b.played;
-            if (bp !== ap) return bp - ap;
-            if (b.won !== a.won) return b.won - a.won;
-        }
+        // Wins, then game difference, then matches played, then name
+        if (b.won !== a.won) return b.won - a.won;
+        const gdA = a.gf - a.ga, gdB = b.gf - b.ga;
+        if (gdB !== gdA) return gdB - gdA;
+        if (b.played !== a.played) return b.played - a.played;
         return a.name.localeCompare(b.name);
     });
 }
