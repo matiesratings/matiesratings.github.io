@@ -5659,8 +5659,8 @@
           "round": 1,
           "home": "Minerva",
           "away": "Monica",
-          "home_score": 1,
-          "away_score": 4,
+          "home_score": 0,
+          "away_score": 5,
           "matches": [
             {
               "home_player": "",
@@ -5671,8 +5671,8 @@
             {
               "home_player": "",
               "away_player": "Elizabeth Knoesen",
-              "home_games": 3,
-              "away_games": 0
+              "home_games": 0,
+              "away_games": 3
             },
             {
               "home_player": "",
