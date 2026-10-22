@@ -28,10 +28,7 @@
       "teams": [
         {
           "name": "Dagbreek",
-          "players": [
-            "Andreas Hamersma",
-            "Lohen Chamberlain"
-          ]
+          "players": []
         },
         {
           "name": "Simonsberg",
@@ -1175,10 +1172,7 @@
       "teams": [
         {
           "name": "Dagbreek",
-          "players": [
-            "Andreas Hamersma",
-            "Lohen Chamberlain"
-          ]
+          "players": []
         },
         {
           "name": "Wilgenhof",
@@ -4869,20 +4863,20 @@
           "away_score": 0,
           "matches": [
             {
-              "home_player": "Hecther",
-              "away_player": "Dries",
+              "home_player": "Hechter Ferreira",
+              "away_player": "Dries Ferreira",
               "home_games": 3,
               "away_games": 0
             },
             {
-              "home_player": "Lourens",
-              "away_player": "Beldon",
+              "home_player": "Lourens Preller",
+              "away_player": "Beldon Kahn",
               "home_games": 3,
               "away_games": 0
             },
             {
-              "home_player": "Gerrard",
-              "away_player": "Luca",
+              "home_player": "Gerrard Williams",
+              "away_player": "Luca Coculescu",
               "home_games": 3,
               "away_games": 0
             },
@@ -4893,8 +4887,8 @@
               "away_games": 0
             },
             {
-              "home_player": "Hecther",
-              "away_player": "Beldon",
+              "home_player": "Hechter Ferreira",
+              "away_player": "Beldon Kahn",
               "home_games": 3,
               "away_games": 0
             }
